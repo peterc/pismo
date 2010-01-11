@@ -1,11 +1,31 @@
 = csteamer
 
+* http://github.com/peterc/csteamer
+
+== STATUS:
+
+CSteamer is RIDICULOUSLY EARLY IN ITS DEVELOPMENT. IT'S LESS THAN 24 HOURS OLD AND NOT EVEN VAGUELY DONE!! The demo below
+will certainly work though ;-)
+
+== DESCRIPTION:
+
 CSteamer extracts metadata and machine-usable data from otherwise unstructured 
 HTML documents.
 
 For example, if you have a blog post HTML file, CSteamer should, in theory, be
 able to extract the title, the actual "content", images relating to the
 content, look up Delicious tags, and analyze for keywords.
+
+== SYNOPSIS:
+
+* Basic demo:
+
+    require 'open-uri'
+    require 'csteamer'
+    doc = CSteamer::Document.new(open('http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html'))
+    doc.title   # => "Cramp: Asychronous Event-Driven Ruby Web App Framework"
+    doc.author  # => "Peter Cooper"
+    doc.lede    # => "CoffeeScript (GitHub repo) is a new programming language with a pure Ruby compiler. Creator Jeremy Ashkenas calls it "JavaScript's less ostentatious kid brother" - mostly because it compiles into JavaScript and shares most of the same constructs, but with a different, tighter syntax."
 
 == Note on Patches/Pull Requests
  

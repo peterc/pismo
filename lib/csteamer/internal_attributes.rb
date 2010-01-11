@@ -38,7 +38,8 @@ module CSteamer
     
     # Returns the "lede" or first paragraph of the story/page
     def lede
-      @doc.match( 'section p',
+      @doc.match( '//div[@class="entrytext"]//p[string-length()>10]',
+                  'section p',
                   '//td[@class="storybody"]/p[string-length()>10]'                         # BBC News style
                   )
     end
