@@ -86,7 +86,7 @@ task :console do
   require 'irb'
   require 'lib/csteamer'
   require 'open-uri'
-  @d = CSteamer.document(open(ARGV[1] || './test/corpus/bbcnews.html'))
+  @d = CSteamer.document(ARGV[1] || open('./test/corpus/bbcnews.html'))
   
   # Get around IRB's issues with ARGV..
   ARGV = []

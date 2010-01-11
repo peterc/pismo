@@ -6,8 +6,8 @@ require 'csteamer/document'
 
 module CSteamer
   # Sugar method to make creating document objects nicer
-  def self.document(handle)
-    Document.new(handle)
+  def self.document(handle, url = nil)
+    Document.new(handle, url)
   end
 end
 

@@ -5,12 +5,12 @@ module CSteamer
   
   # CSteamer::Document represents a single HTML document within CSteamer
   class Document
-    attr_reader :doc
+    attr_reader :doc, :url
     
     include CSteamer::InternalAttributes
     
-    def initialize(handle)
-      load(handle)
+    def initialize(handle, url = nil)
+      load(handle, url)
     end
     
     # An HTML representation of the document
@@ -18,7 +18,10 @@ module CSteamer
       @doc.to_s
     end
     
-    def load(handle)
+    def load(handle, url = nil)
+      @url = url if url
+      @url = handle if handle =~ /^http/
+      
       @html = if handle =~ /^http/
                 open(handle).read
               elsif handle.is_a?(StringIO) || handle.is_a?(IO)
