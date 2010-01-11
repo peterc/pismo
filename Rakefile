@@ -14,6 +14,7 @@ begin
     gem.add_development_dependency "mhennemeyer-matchy", ">= 0"
     gem.add_dependency "nokogiri"
     gem.add_dependency "loofah"
+    gem.add_dependency "httparty"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

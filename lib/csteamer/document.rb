@@ -10,6 +10,15 @@ module CSteamer
     include CSteamer::InternalAttributes
     
     def initialize(handle)
+      load(handle)
+    end
+    
+    # An HTML representation of the document
+    def html
+      @doc.to_s
+    end
+    
+    def load(handle)
       @html = if handle =~ /^http/
                 open(handle).read
               elsif handle.is_a?(StringIO) || handle.is_a?(IO)
@@ -19,11 +28,6 @@ module CSteamer
               end
               
       @doc = Nokogiri::HTML(@html)
-    end
-    
-    # An HTML representation of the document
-    def html
-      @doc.to_s
     end
   end
 end
