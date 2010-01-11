@@ -7,7 +7,10 @@ module CSteamer
   class Document
     attr_reader :doc, :url
     
+    ATTRIBUTE_METHODS = InternalAttributes.instance_methods + ExternalAttributes.instance_methods
+    
     include CSteamer::InternalAttributes
+    include CSteamer::ExternalAttributes
     
     def initialize(handle, url = nil)
       load(handle, url)

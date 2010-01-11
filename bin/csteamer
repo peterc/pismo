@@ -21,7 +21,8 @@ require 'csteamer'
 doc = CSteamer.document(ARGV.shift)
 
 output = { :url => doc.url }
-ARGV.each do |cmd|
+
+(ARGV.empty? ? CSteamer::Document::ATTRIBUTE_METHODS : ARGV).each do |cmd|
   output[cmd.to_sym] = doc.send(cmd) rescue nil
 end
 
