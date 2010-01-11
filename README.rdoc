@@ -27,6 +27,23 @@ content, look up Delicious tags, and analyze for keywords.
     doc.author  # => "Peter Cooper"
     doc.lede    # => "CoffeeScript (GitHub repo) is a new programming language with a pure Ruby compiler. Creator Jeremy Ashkenas calls it "JavaScript's less ostentatious kid brother" - mostly because it compiles into JavaScript and shares most of the same constructs, but with a different, tighter syntax."
 
+== COMMAND LINE TOOL:
+
+A command line tool called "csteamer" is included so that you can get metadata about a page from the command line. This is
+great for testing, or perhaps calling it from a non Ruby script. The output is currently in YAML.
+
+* Usage: 
+
+    ./bin/csteamer http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html title description author
+    
+* Output:
+
+    --- 
+    :url: http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html
+    :title: "Cramp: Asychronous Event-Driven Ruby Web App Framework"
+    :description: The ideal book for beginners or developers merely new to Ruby. Goes from installation to OOP, webapps, SQL, and GUI apps.
+    :author: Peter Cooper
+
 == Note on Patches/Pull Requests
  
 * Fork the project.
