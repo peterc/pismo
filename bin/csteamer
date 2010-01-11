@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+$:.unshift(File.dirname(__FILE__) + "/../lib")
+require 'csteamer'
+
+doc = CSteamer.document(ARGV.shift)
+
+puts "URL: #{doc.url}"
+puts "----"
+
+ARGV.each do |cmd|
+  puts "#{cmd}: #{doc.send(cmd).inspect rescue 'FAIL'}"
+end
