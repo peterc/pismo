@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>CoffeeScript: A New Language With A Pure Ruby Compiler</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <link rel="stylesheet" href="http://www.rubyinside.com/wp-content/themes/rubyinside2009/style.css" type="text/css" />
+  <link rel="alternate" type="application/rss+xml" title="Ruby Inside" href="http://www.rubyinside.com/feed/" />
+  <link rel="icon" href="/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+	<meta name="viewport" content="initial-scale=0.8" />
+	<script type="text/javascript">try { window.scrollTo(0, 1); } catch(err) { };</script>
+	<!--[if !IE]>--><link media="only screen and (max-device-width: 480px)" rel="stylesheet" type="text/css" href="http://www.rubyinside.com/wp-content/themes/rubyinside2009/iphone.css" /><!--<![endif]-->
+</head>
+<body class="front">
+
+<div id="page">
+
+<div id="header">
+	<div id="header-core">
+	<a href="/"><img src="http://www.rubyinside.com/wp-content/themes/rubyinside2009/images/logo2.png" id="logo" alt="Ruby Inside Logo" /></a>	
+	<a href="http://www.rubyinside.com/feed/"><img src="http://feeds2.feedburner.com/~fc/RubyInside?bg=99CCFF&fg=444444&anim=0" align="top" alt="Feed Icon" style="clip:rect(0px, 88px, 20px, 0px); position:absolute; top: 1px; right: 0px" /></a>
+	
+	<div id="topbyline">The #1 Ruby Programming Blog</div>
+	
+	<div id="sections">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/about">About Us</a></li>
+			<li><a href="http://ruby.jobamatic.com/" title="Ruby Jobs">Jobs</a></li>
+			<li><a href="/archives">Archive</a></li>
+		</ul>
+	</div>
+	
+	<div id="subscribe">
+		<ul>
+			<li><a href="http://twitter.com/RubyInside" title="Follow us on Twitter @RubyInside"><img src="http://www.rubyinside.com/wp-content/themes/rubyinside2009/images/twitter.png" align="top" alt="Twitter Icon" /></a></li>
+			<li><a href="http://www.rubyinside.com/feed/" title="Subscribe to the Ruby Inside RSS Web Feed"><img src="http://www.rubyinside.com/wp-content/themes/rubyinside2009/images/rss.png" align="top" alt="RSS Feed" /></a></li>
+		</ul>
+	</div>
+	
+	<div id="search">
+		<form method="get" id="searchform" action="/">
+		<div><input type="text" value="" name="s" id="s" size="28" style="width: 195px" />&nbsp;<input type="submit" id="searchsubmit" value="Search" style="width: 55px;"/>
+		</div>
+		</form>
+	</div>
+	
+	</div><!-- header-core -->
+</div>
+
+
+<div id="wrapper" class="clearfix">
+<div id="twocols" class="clearfix">	<div id="content" class="single">
+  		<div class="post" id="post-2921">
+			<div class="entryheader">
+				<h1>CoffeeScript: A New Language With A Pure Ruby Compiler</h1>
+				<p class="byline">By <a href="http://twitter.com/peterc" title="Visit Peter Cooper&#8217;s website" rel="external">Peter Cooper</a>  &mdash; January 4th, 2010 &mdash; <a href="#respond">7 Comments</a></p>
+				<p class="subbyline">In <a href="http://www.rubyinside.com/category/cool" title="View all posts in Cool" rel="category tag">Cool</a></p>
+			</div>
+			<div class="entrytext">
+								<div id="greet_block"><noscript><div class="greet_block"><div class="greet_text"><div class="greet_image"><a href="http://www.rubyinside.com/feed/rss"  rel="nofollow"><img src="http://www.rubyinside.com/wp-content/plugins/wp-greet-box/images/rss_icon.png" alt="WP Greet Box icon"/></a></div>Hello there! If you are new here, you might want to <a href="http://www.rubyinside.com/feed/rss" rel="nofollow"><strong>subscribe to the RSS feed</strong></a> for updates on this topic.<div style="clear:both"></div><div class="greet_block_powered_by"><a href="http://omninoggin.com/projects/wordpress-plugins/wp-greet-box-wordpress-plugin/" title="WP Greet Box WordPress Plugin">Powered by WP Greet Box</a></div><div style="clear:both"></div></div></div></noscript></div><p><img src="http://www.rubyinside.com/wp-content/uploads/2010/01/coffeescript.png" width="59" height="69" alt="coffeescript.png" style="float:left; margin-right:12px; margin-bottom:12px; border:1px #000000 solid;" /> <a href="http://jashkenas.github.com/coffee-script/">CoffeeScript</a> <sup>(<a href="http://github.com/jashkenas/coffee-script/">GitHub repo</a>)</sup> is a new programming language with a pure Ruby compiler. Creator Jeremy Ashkenas calls it "JavaScript's less ostentatious kid brother" - mostly because it compiles <i>into</i> JavaScript and shares most of the same constructs, but with a different, tighter syntax.</p>
+<p>To get a feel for the language, check out this example code (CoffeeScript on the left, resulting JavaScript on the right):</p>
+<p><img src="http://www.rubyinside.com/wp-content/uploads/2010/01/cofeescriptdemo.png" width="640" height="485" alt="cofeescriptdemo.png" /></p>
+<p>As a Ruby project, you can get the CoffeeScript compiler installed with a simple <code>gem install coffee-script</code> or check out <a href="http://github.com/jashkenas/coffee-script/">the code from/on GitHub</a>. The code is worth a look as it's notably quite vanilla with hand crafted Ruby covering the lexer and code generation and <a href="http://i.loveruby.net/en/projects/racc/doc/">Racc</a> built code for the parser.</p>
+					
+			</div>
+		</div>
+
+		<h3>Vaguely Related Posts (Usually)</h3>
+		<div class="similar-posts"><ul class="similar-posts clearfix">										<li class="similar-post">
+		<div class="wrap"><a href="http://www.rubyinside.com/nokogiri-ruby-html-parser-and-xml-parser-1288.html"><img src="http://a.rubyinside.com/wp-content/themes/rubyinside2009/lib/thumb.php?src=/wp-content/uploads/2008/10/html-xml.png&w=140&h=100&zc=1&q=80&f=4,-10" class="similar-post-thumb"   alt="html-xml.png"  /></a></div>
+		<a href="http://www.rubyinside.com/nokogiri-ruby-html-parser-and-xml-parser-1288.html">Nokogiri: A Faster, Better HTML and XML Parser for Ruby (than Hpricot)</a></li>
+												<li class="similar-post">
+		<div class="wrap"><a href="http://www.rubyinside.com/how-to-create-your-own-programming-language-2495.html"><img src="http://a.rubyinside.com/wp-content/themes/rubyinside2009/lib/thumb.php?src=/wp-content/uploads/2009/09/createyourown.png&w=140&h=100&zc=1&q=80&f=4,-10" class="similar-post-thumb"   alt="createyourown.png"  /></a></div>
+		<a href="http://www.rubyinside.com/how-to-create-your-own-programming-language-2495.html">How To Create Your Own Programming Language (Using Ruby and/or Java)</a></li>
+																<li class="similar-post">
+		<div class="wrap"><a href="http://www.rubyinside.com/hotruby-a-javascript-flash-virtual-machine-that-runs-ruby-821.html"><img src="http://a.rubyinside.com/wp-content/themes/rubyinside2009/lib/thumb.php?src=/wp-content/uploads/2008/03/hotruby.jpg&w=140&h=100&zc=1&q=80&f=4,-10" class="similar-post-thumb"   alt="hotruby.png" /></a></div>
+		<a href="http://www.rubyinside.com/hotruby-a-javascript-flash-virtual-machine-that-runs-ruby-821.html">HotRuby: A JavaScript &#038; Flash Virtual Machine That Runs Ruby</a></li>
+												<li class="similar-post">
+		<div class="wrap"><a href="http://www.rubyinside.com/feedzirra-a-new-ruby-feed-library-built-for-speed-1485.html"><img src="http://a.rubyinside.com/wp-content/themes/rubyinside2009/lib/thumb.php?src=/wp-content/uploads/2009/02/feedzirra.gif&w=140&h=100&zc=1&q=80&f=4,-10" class="similar-post-thumb"   alt="feedzirra.gif"  /></a></div>
+		<a href="http://www.rubyinside.com/feedzirra-a-new-ruby-feed-library-built-for-speed-1485.html">Feedzirra &#8211; A New Ruby Feed Library &#8220;Built for Speed&#8221;</a></li>
+								</ul></div>	
+  	
+<!-- You can start editing here. -->
+
+	<h3 class="comments">7 Comment Responses to &#8220;CoffeeScript: A New Language With A Pure Ruby Compiler&#8221;</h3> 
+
+	<ol class="commentlist">
+	
+		<li class="alt" id="comment-40461">
+			<div class="commentnumber" style="text-align: right;">#1<br /><div style="border: 1px solid #666; margin-top: 2px"><img alt='' src='http://www.gravatar.com/avatar/8c7ac8ba0968d27dd1cac5b973177951?s=64&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' /></div></div> <cite>
+sasuke</cite> Says:
+						<br />
+
+			<small class="commentmetadata"><a href="#comment-40461" title="">January 4th, 2010 at 11:25 pm</a> </small>
+
+			<p>really nice project. in github there is like example the rewrite of underscore,js in coffee</p>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-40462">
+			<div class="commentnumber" style="text-align: right;">#2<br /><div style="border: 1px solid #666; margin-top: 2px"><img alt='' src='http://www.gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?s=64&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' /></div></div> <cite>
+<a href='http://github.com/jashkenas' rel='external nofollow' class='url'>Jeremy Ashkenas</a></cite> Says:
+						<br />
+
+			<small class="commentmetadata"><a href="#comment-40462" title="">January 4th, 2010 at 11:27 pm</a> </small>
+
+			<p>For folks who'd like to see where the language is headed, I'd recommend checking out the source and running "rake gem:install" -- I'm hoping to have version 0.2.0 out soon, which includes significant whitespace, object comprehensions, better conversion of statements into expressions, and a whole host of other goodies, most of which you can read about here:</p>
+<p><a href="http://github.com/jashkenas/coffee-script/issues/closed" rel="nofollow">http://github.com/jashkenas/coffee-script/issues/closed</a></p>
+<p>Have fun.</p>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-40465">
+			<div class="commentnumber" style="text-align: right;">#3<br /><div style="border: 1px solid #666; margin-top: 2px"><img alt='' src='http://www.gravatar.com/avatar/c5a134396741859dce88a85b8365ef22?s=64&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' /></div></div> <cite>
+<a href='http://ricroberts.com' rel='external nofollow' class='url'>Ric Roberts</a></cite> Says:
+						<br />
+
+			<small class="commentmetadata"><a href="#comment-40465" title="">January 5th, 2010 at 10:02 am</a> </small>
+
+			<p>Hi Peter. Good post - this looks interesting.</p>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-40466">
+			<div class="commentnumber" style="text-align: right;">#4<br /><div style="border: 1px solid #666; margin-top: 2px"><img alt='' src='http://www.gravatar.com/avatar/08e412a08cdf11a3dcb0f37952c7577a?s=64&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' /></div></div> <cite>
+<a href='http://juvenn.github.com' rel='external nofollow' class='url'>Juvenn Woo</a></cite> Says:
+						<br />
+
+			<small class="commentmetadata"><a href="#comment-40466" title="">January 5th, 2010 at 11:36 am</a> </small>
+
+			<p>Seems everything in CoffeScript is an object, function is, too. Right?<br />
+It's cute!</p>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-40469">
+			<div class="commentnumber" style="text-align: right;">#5<br /><div style="border: 1px solid #666; margin-top: 2px"><img alt='' src='http://www.gravatar.com/avatar/6c469749d725177dd2837d806c769cd4?s=64&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' /></div></div> <cite>
+Jonas Nicklas</cite> Says:
+						<br />
+
+			<small class="commentmetadata"><a href="#comment-40469" title="">January 5th, 2010 at 5:59 pm</a> </small>
+
+			<p>I've created a very simple plugin for using CoffeeScript from Rails, might be useful:</p>
+<p><a href="http://github.com/jnicklas/bistro_car" rel="nofollow">http://github.com/jnicklas/bistro_car</a></p>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-40475">
+			<div class="commentnumber" style="text-align: right;">#6<br /><div style="border: 1px solid #666; margin-top: 2px"><img alt='' src='http://www.gravatar.com/avatar/fdfe414ffbb4a3ebf0344d45b78dc7e3?s=64&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' /></div></div> <cite>
+<a href='http://extralogical.net/' rel='external nofollow' class='url'>Benedict Eastaugh</a></cite> Says:
+						<br />
+
+			<small class="commentmetadata"><a href="#comment-40475" title="">January 6th, 2010 at 9:48 am</a> </small>
+
+			<p>Juvenn: as in JavaScript, yes, functions are objects.</p>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-40476">
+			<div class="commentnumber" style="text-align: right;">#7<br /><div style="border: 1px solid #666; margin-top: 2px"><img alt='' src='http://www.gravatar.com/avatar/f86901feca747abbb5c6c020362ef2e7?s=64&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' /></div></div> <cite>
+<a href='http://www.continuousthinking.com' rel='external nofollow' class='url'>Zach Dennis</a></cite> Says:
+						<br />
+
+			<small class="commentmetadata"><a href="#comment-40476" title="">January 6th, 2010 at 6:50 pm</a> </small>
+
+			<p>This looks very interesting indeed! Very cool project Jeremy, great post Peter,</p>
+
+		</li>
+
+	
+	
+	</ol>
+
+ 
+
+
+<h3 id="respond" style="font-size: 1.2em">Leave a Reply</h3>
+
+
+<form action="http://www.rubyinside.com/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" />
+<label for="author"><small>Name (required)</small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" />
+<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: &lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </small></p>-->
+
+<p><textarea name="comment" id="comment" cols="40" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type="hidden" name="comment_post_ID" value="2921" />
+</p>
+
+</form>
+
+
+	
+	  <div class="navigation" style="clear: both">Previous Post: <a href="http://www.rubyinside.com/rackamole-rack-based-monitoring-for-your-ruby-web-apps-2918.html">Rackamole: Rack-Based Monitoring For Your Ruby Web Apps</a><br />Next Post: <a href="http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html">Cramp: Asychronous Event-Driven Ruby Web App Framework</a></div>
+	
+		
+<div class="featured-posts"><ul class="featured-posts clearfix">
+																					<li class="featured-post">
+			<div class="wrap"><a href="http://www.rubyinside.com/how-phusion-built-a-more-efficient-ruby-1-8-interpreter-2906.html?utm_source=internal&utm_medium=web&utm_campaign=featured-post"><img src="http://a.rubyinside.com/wp-content/themes/rubyinside2009/lib/thumb.php?src=/wp-content/uploads/2009/12/ninh-bui.png&w=148&h=100&zc=1&q=80&f=4,-10" class="featured-post-thumb"   alt="ninh-bui.png"  /></a></div>
+			<a href="http://www.rubyinside.com/how-phusion-built-a-more-efficient-ruby-1-8-interpreter-2906.html?utm_source=internal&utm_medium=web&utm_campaign=featured-post">How Phusion Built A More Efficient Ruby 1.8 Interpreter</a></li>
+																					<li class="featured-post">
+			<div class="wrap"><a href="http://www.rubyinside.com/maglev-alpha-released-2807.html?utm_source=internal&utm_medium=web&utm_campaign=featured-post"><img src="http://a.rubyinside.com/wp-content/themes/rubyinside2009/lib/thumb.php?src=/wp-content/uploads/2009/11/maglev.png&w=148&h=100&zc=1&q=80&f=4,-10" class="featured-post-thumb"   alt="maglev.png"  /></a></div>
+			<a href="http://www.rubyinside.com/maglev-alpha-released-2807.html?utm_source=internal&utm_medium=web&utm_campaign=featured-post">MagLev Alpha Released: A New, Scalable Ruby Implementation</a></li>
+															<li class="featured-post">
+			<div class="wrap"><a href="http://www.rubyinside.com/heroku-gets-add-ons-serious-ruby-webapp-hosting-made-easy-2664.html?utm_source=internal&utm_medium=web&utm_campaign=featured-post"><img src="http://a.rubyinside.com/wp-content/themes/rubyinside2009/lib/thumb.php?src=/wp-content/uploads/2009/10/heroku.png&w=148&h=100&zc=1&q=80&f=4,-10" class="featured-post-thumb"   alt="heroku.png"  /></a></div>
+			<a href="http://www.rubyinside.com/heroku-gets-add-ons-serious-ruby-webapp-hosting-made-easy-2664.html?utm_source=internal&utm_medium=web&utm_campaign=featured-post">Heroku Gets Add-Ons: Serious Ruby Webapp Hosting Made Easy</a></li>
+																											<li class="featured-post">
+			<div class="wrap"><a href="http://www.rubyinside.com/ruby-email-library-2782.html?utm_source=internal&utm_medium=web&utm_campaign=featured-post"><img src="http://a.rubyinside.com/wp-content/themes/rubyinside2009/lib/thumb.php?src=/wp-content/uploads/2009/11/emailIcon.png&w=148&h=100&zc=1&q=80&f=4,-10" class="featured-post-thumb"   alt="emailIcon.png"  /></a></div>
+			<a href="http://www.rubyinside.com/ruby-email-library-2782.html?utm_source=internal&utm_medium=web&utm_campaign=featured-post">Mail: An All New Ruby E-mail Library</a></li>
+																		</ul></div>
+	</div>
+
+	<div id="sidebar">
+		<!-- img src="http://www.rubyinside.com/wp-content/themes/rubyinside2009/images/keepusgoing.gif" style="position: absolute; right: -85px; top: 230px;" / -->
+		
+					<h3>Want More Cool Stuff?</h3>
+			<p class="small">For links from across the Ruby community, as well as other news, <a href="/">click here and head for our homepage!</a> Or check us out <a href="http://twitter.com/RubyInside">on Twitter</a> or subscribe to <a href="/feed/">our RSS feed.</a></p>
+		
+		<h3>Our Awesome Sponsors</h3>
+		
+<div id="adzerks"><div id="adzerk1"></div><div id="adzerk2"></div><div id="adzerk3"></div><div id="adzerk4"></div><div id="adzerk5"></div><div id="adzerk6"></div><div id="adzerk7"></div><div id="adzerk8"></div><div id="breaker"></div></div>
+<div style="text-align: right; font-size: 11px"><a href="/advertise" style="color: #777; font-weight: normal; text-decoration: underline">Want to advertise? Click here to learn more.</a></div><script type="text/javascript"
+src="http://engine.rubyrow.net/z/1313/adzerk1_4_16_19,adzerk2_4_16_19,adzerk3_4_16_19,adzerk4_4_16_19,adzerk5_4_16_19,adzerk6_4_16_19,adzerk7_4_16_19,adzerk8_4_16_19"></script>
+
+				<h3>Top Ruby Jobs</h3>
+		<div class="jobszone">
+			<div class="job" style="padding: 3px; background-color: #ffffcc; font-size: 12px"><strong><a href="http://billmonitor.theresumator.com/apply/YU1PgK/source:RUBYINSIDE">Ruby on Rails Developer</a></strong><br />
+			at <strong>BillMonitor</strong> (Oxford, UK)</div>
+			<div id="jbb_adaptive_widget_body"></div><div id="jbb_adaptive_widget_post_a_job" style="display:none"></div>
+			<span class="blue"><a href="http://ruby.jobamatic.com/">View All Jobs</a> | <a href="http://www.rubyinside.com/post-a-job">Post a Job</a></span>
+			<script type="text/javascript">var jbb_widget_list_count = 4;var jbb_widget_domain = 'http://ruby.jobamatic.com';</script>
+			<script src="http://ruby.jobamatic.com/c/jbb/js/jbb_widget_adaptive.js" type="text/javascript"></script>
+			<script src="http://ruby.jobamatic.com/a/jbb/find-jobs-json/jbb_widget_list_jobposts" type="text/javascript"></script>
+		</div><!-- jobszone -->
+		
+		
+
+<h3>Our Favorite Ruby Books</h3>
+<div id="books">
+	<ul class="links">
+		<li><div class="image"><a href="http://beginningruby.org/"><img src="http://ecx.images-amazon.com/images/P/1430223634.01._PA10,6,8,10_SX90_SCLZZZZZZZZ_.jpg" /></a></div><div class="link"><a href="http://beginningruby.org/" title="Beginning Ruby Book">Beginning Ruby</a></div><div class="description">The ideal book for beginners or developers merely new to Ruby. Goes from installation to OOP, webapps, SQL, and GUI apps.</div></li>
+		
+		<li><div class="image"><a href="http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177/?tag=rubyins-20"><img src="http://ecx.images-amazon.com/images/P/0596516177.01._PA10,6,8,10_SX90_SCLZZZZZZZZ_.jpg" /></a></div><div class="link"><a href="http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177/?tag=rubyins-20">The Ruby Programming Language</a></div><div class="description">The definitive Ruby reference - like the K&amp;R for Ruby. At 400 pages it's concise, but broad in scope.</div></li>
+		<li><div class="image"><a href="http://www.amazon.com/Programming-Ruby-1-9-Pragmatic-Programmers/dp/1934356085/?tag=rubyins-20"><img src="http://ecx.images-amazon.com/images/P/1934356085.01._PA10,6,8,10_SX90_SCLZZZZZZZZ_.jpg" /></a></div><div class="link"><a href="http://www.amazon.com/Programming-Ruby-1-9-Pragmatic-Programmers/dp/1934356085/?tag=rubyins-20">Programming Ruby 1.9</a></div><div class="description">Half tutorial, half reference. Considered a definitive guide to Ruby 1.9.</div></li>
+		<!-- li><div class="image"><a href="http://www.amazon.com/Ruby-Best-Practices-Gregory-Brown/dp/0596523009/?tag=rubyins-20"><img src="http://ecx.images-amazon.com/images/P/0596523009.01._PA10,6,8,10_SX90_SCLZZZZZZZZ_.jpg" /></a></div><div class="link"><a href="http://www.amazon.com/Ruby-Best-Practices-Gregory-Brown/dp/0596523009/?tag=rubyins-20">Ruby Best Practices</a></div><div class="description">Learn how to write elegant Ruby code</div></li>
+		<li><div class="image"><a href="http://www.amazon.com/Design-Patterns-Ruby-Russ-Olsen/dp/0321490452/?tag=rubyins-20"><img src="http://ecx.images-amazon.com/images/P/0321490452.01._PA10,6,8,10_SX90_SCLZZZZZZZZ_.jpg" /></a></div><div class="link"><a href="http://www.amazon.com/Design-Patterns-Ruby-Russ-Olsen/dp/0321490452/?tag=rubyins-20">Design Patterns in Ruby</a></div><div class="description">Learn how to implement and use design patterns in Ruby</div></li>
+		<li><div class="image"><a href="http://www.amazon.com/Ruby-Practice-Jeremy-McAnally/dp/1933988479/?tag=rubyins-20"><img src="http://ecx.images-amazon.com/images/P/1933988479.01._PA10,6,8,10_SX90_SCLZZZZZZZZ_.jpg" /></a></div><div class="link"><a href="http://www.amazon.com/Ruby-Practice-Jeremy-McAnally/dp/1933988479/?tag=rubyins-20">Ruby In Practice</a></div><div class="description">A look at Ruby techniques you can use in your own projects</div></li -->
+		<li><div class="image"><a href="http://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1933988657/?tag=rubyins-20"><img src="http://ecx.images-amazon.com/images/P/1933988657.01._PA10,6,8,10_SX90_SCLZZZZZZZZ_.jpg" /></a></div><div class="link"><a href="http://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1933988657/?tag=rubyins-20">The Well Grounded Rubyist</a></div><div class="description">A Ruby primer for more confident developers - tours some of Ruby's darker corners well.</div></li>
+		<li><div class="image"><a href="http://therubyway.org/"><img src="http://ecx.images-amazon.com/images/P/0672328844.01._PA10,6,8,10_SX90_SCLZZZZZZZZ_.jpg" /></a></div><div class="link"><a href="http://therubyway.org/">The Ruby Way</a></div><div class="description">An essential "bible" of Ruby - a true behemoth clocking in at over 800 pages!</div></li>
+		
+	</ul>
+</div>
+
+<!-- SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822/US/rubins-20/8001/7aaf8f3f-f85a-429f-8d77-2304de8bbae5"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Frubins-20%2F8001%2F7aaf8f3f-f85a-429f-8d77-2304de8bbae5&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT -->
+
+	</div>
+</div>
+
+</div>
+
+
+
+	<div id="footer">
+	
+			<div style="float: right; padding-top: 12px">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="http://ruby.jobamatic.com/">Ruby Jobs</a></li>
+				<li><a href="/advertise">Advertise</a></li>
+				<li><a href="/archives">Archives</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="http://www.rubyinside.com/feed/"><img src="http://feeds2.feedburner.com/~fc/RubyInside?bg=99CCFF&fg=444444&anim=0" align="top" alt="Feed Icon" /></a></li>
+			</ul>
+			</div>
+		<p>
+			&copy; 2009 Peter Cooper<br />Ruby Inside is a <a href="http://twitter.com/peterc" rel="nofollow">Peter Cooper</a> publication.
+		</p>
+<p style="text-align: right; margin-top: 8px; font-size: 11px; font-family: Verdana, arial, helvetica">Powered by the NetDNA <a href="http://www.netdna.com/">Content Delivery Network</a> <a href="http://www.netdna.com/" title="NetDNA CDN Content Delivery Network"><img src="/images/netdna.png" alt="NetDNA Content Delivery Network" align="middle" style="padding-bottom: 14px" /></a></p>
+	</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2237791-3");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

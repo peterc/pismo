@@ -6,12 +6,14 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "csteamer"
     gem.summary = %Q{Extracts or retrieves content-related metadata from HTML pages and remote services}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{CSteamer "steams" your content for data you can use in an organized way, such as a summary/first paragraph, del.icio.us tags, first image used in the content block, etc.}
     gem.email = "git@peterc.org"
     gem.homepage = "http://github.com/peterc/csteamer"
     gem.authors = ["Peter Cooper"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.add_development_dependency "mhennemeyer-matchy", ">= 0"
+    gem.add_dependency "nokogiri"
+    gem.add_dependency "loofah"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
@@ -50,4 +52,30 @@ Rake::RDocTask.new do |rdoc|
   rdoc.title = "csteamer #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
+end
+
+desc 'Automatically run something when code is changed'
+task :on_update do
+  require 'find'
+  files = {}
+ 
+  loop do
+    changed = false
+    Find.find(File.dirname(__FILE__)) do |file|
+      next unless file =~ /\.rb$/
+      ctime = File.ctime(file).to_i
+ 
+      if ctime != files[file]
+        files[file] = ctime
+        changed = true
+      end
+    end
+ 
+    if changed
+      system ARGV[1] || 'rake'
+      puts "\n" + Time.now.to_s
+    end
+ 
+    sleep 4
+  end
 end
