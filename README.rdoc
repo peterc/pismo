@@ -1,4 +1,4 @@
-= csteamer
+= csteamer (content steamer)
 
 * http://github.com/peterc/csteamer
 
