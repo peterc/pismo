@@ -15,8 +15,8 @@ class TestCorpus < Test::Unit::TestCase
     should "pass basic sanitization and result in Nokogiri documents" do
       @corpus.values.each do |html|
         doc = Document.new(html)
-        doc.html.length.should > 1000
-        doc.doc.kind_of?(Nokogiri::HTML::Document).should == true
+        assert doc.html.length > 1000
+        assert doc.doc.kind_of?(Nokogiri::HTML::Document)
       end
     end
     
@@ -25,7 +25,7 @@ class TestCorpus < Test::Unit::TestCase
       @metadata.each do |file, expected|
         @doc = Document.new(@corpus[file])
         expected.each do |k, v|
-          @doc.send(k).should == v
+          assert_equal v, @doc.send(k)
         end
       end
     end

@@ -25,7 +25,7 @@ content, look up Delicious tags, and analyze for keywords.
     doc = CSteamer::Document.new(open('http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html'))
     doc.title   # => "Cramp: Asychronous Event-Driven Ruby Web App Framework"
     doc.author  # => "Peter Cooper"
-    doc.lede    # => "CoffeeScript (GitHub repo) is a new programming language with a pure Ruby compiler. Creator Jeremy Ashkenas calls it "JavaScript's less ostentatious kid brother" - mostly because it compiles into JavaScript and shares most of the same constructs, but with a different, tighter syntax."
+    doc.lede    # => "Cramp (GitHub repo)is a new, asynchronous evented Web app framework by Pratik Naik of 37signals (and the Rails core team). It's built around Ruby's EventMachine library and was designed to use event-driven I/O throughout - making it ideal for situations where you need to handle a large number of open connections (such as Comet systems or streaming APIs.)"
 
 == COMMAND LINE TOOL:
 
@@ -34,14 +34,14 @@ great for testing, or perhaps calling it from a non Ruby script. The output is c
 
 * Usage: 
 
-    ./bin/csteamer http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html title description author
+    ./bin/csteamer http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html title lede author
     
 * Output:
 
     --- 
     :url: http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html
     :title: "Cramp: Asychronous Event-Driven Ruby Web App Framework"
-    :description: The ideal book for beginners or developers merely new to Ruby. Goes from installation to OOP, webapps, SQL, and GUI apps.
+    :lede: Cramp (GitHub repo)is a new, asychronous evented Web app framework by Pratik Naik of 37signals
     :author: Peter Cooper
 
 == Note on Patches/Pull Requests
@@ -53,6 +53,8 @@ great for testing, or perhaps calling it from a non Ruby script. The output is c
 * Commit, do not mess with rakefile, version, or history.
 * Send me a pull request.
 
-== Copyright
+== COPYRIGHT AND LICENSE
 
-Copyright (c) 2010 Peter Cooper. See LICENSE for details.
+Apache 2.0 License - See LICENSE for details.
+All except lib/csteamer/readability.rb is Copyright (c) 2010 Peter Cooper
+lib/csteamer/readability.rb is Copyright (c) 2009 Arc90 Inc, starrhorne, and iterationlabs

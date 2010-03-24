@@ -11,6 +11,7 @@ module CSteamer
                           '.entry-title',
                           '.post-title',
                           '.posttitle',
+                          ['meta[@name="title"]', lambda { |el| el.attr('content') }],
                           '#pname a',                                                       # Google Code style
                           'h1.headermain',
                           'h1.title',
@@ -32,8 +33,10 @@ module CSteamer
     # Returns the author of the page/content
     def author
       author = @doc.match('.post-author .fn',
-                          '.wire_author',      
+                          '.wire_author',
+                          '.cnnByline b',
                           ['meta[@name="author"]', lambda { |el| el.attr('content') }],     # Traditional meta tag style
+                          ['meta[@name="AUTHOR"]', lambda { |el| el.attr('content') }],     # CNN style
                           '.byline a',                                                      # Ruby Inside style
                           '.post_subheader_left a',                                         # TechCrunch style
                           '.byl',                                                           # BBC News style
@@ -41,13 +44,19 @@ module CSteamer
                           '.articledata .author a',
                           '#owners a',                                                      # Google Code style
                           '.author a',
-                          '.author'
+                          '.author',
+                          '.auth a',
+                          '.auth',
+                          '.cT-storyDetails h5',                                            # smh.com.au - worth dropping maybe..
+                          ['meta[@name="byl"]', lambda { |el| el.attr('content') }],
+                          '.fn a',
+                          '.fn'
                           )
                           
       return unless author
     
       # Strip off any "By [whoever]" section
-      author.sub!(/^by\s+/i, '')
+      author.sub!(/^by\W+/i, '')
       
       author
     end
@@ -71,15 +80,37 @@ module CSteamer
                   '.entry-content p',
                   '#wikicontent p',                                                        # Google Code style
                   '//td[@class="storybody"]/p[string-length()>10]',                        # BBC News style
+                  '//div[@class="entry"]//p[string-length()>100]',
                   # The below is a horrible, horrible way to pluck out lead paras from crappy Blogspot blogs that
                   # don't use <p> tags..
                   ['.entry-content', lambda { |el| el.inner_html[/(#{el.inner_text[0..4].strip}.*?)\<br/, 1] }],
                   ['.entry', lambda { |el| el.inner_html[/(#{el.inner_text[0..4].strip}.*?)\<br/, 1] }],
                   '.entry',
-                  '#content p'
+                  '#content p',
+                  '#article p'
                   )
                         
       lede
+    end
+    
+    # Returns the "keywords" in the document (not the meta keywords - they're next to useless now)
+    def keywords(options = {})
+      options = { :stem_at => 10, :word_length_limit => 15 }.merge(options)
+      
+      @readability_content = Readability::Document.new(@doc.to_s).content
+      
+      words = {}
+      @readability_content.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub(/\&\w+\;/, '').scan(/\b[a-z][a-z\'\#\.]*\b/).each do |word|
+        next if word.length > options[:word_length_limit]
+        words[word] ||= 0
+        words[word] += 1
+      end
+
+      # Stem the words and stop words if necessary
+      d = words.keys.uniq.map { |a| a.length > options[:stem_at] ? a.stem : a }
+      s = File.read(File.dirname(__FILE__) + '/stopwords.txt').split.map { |a| a.length > options[:stem_at] ? a.stem : a }
+      
+      return words.delete_if { |k1, v1| s.include?(k1) || (v1 < 2 && words.size > 80) }.sort_by { |k2, v2| v2 }.reverse
     end
     
     # Returns URL to the site's favicon

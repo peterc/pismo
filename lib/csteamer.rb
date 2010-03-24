@@ -1,16 +1,25 @@
 require 'open-uri'
 require 'nokogiri'
+require 'fast_stemmer'
 
 $: << File.dirname(__FILE__)
 require 'csteamer/document'
+require 'csteamer/readability'
 
 module CSteamer
   # Sugar method to make creating document objects nicer
   def self.document(handle, url = nil)
     Document.new(handle, url)
   end
+  
+  class NFunctions
+    def self.match_href(list, expression)
+      list.find_all { |node| node['href'] =~ /#{expression}/ }
+    end
+  end
 end
 
+# Add some sugar to Nokogiri
 class Nokogiri::HTML::Document
   def get_the(search)
     self.search(search).first rescue nil
@@ -26,11 +35,5 @@ class Nokogiri::HTML::Document
       return result if result
     end
     return nil
-  end
-end
-
-class Nokogiri::XML::Element
-  def attr_text(attr)
-    self.attr(attr).inner_text rescue nil
   end
 end

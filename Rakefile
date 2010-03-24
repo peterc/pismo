@@ -5,16 +5,16 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "csteamer"
-    gem.summary = %Q{Extracts or retrieves content-related metadata from HTML pages and remote services}
+    gem.summary = %Q{Extracts or retrieves content-related metadata from HTML pages}
     gem.description = %Q{CSteamer "steams" your content for data you can use in an organized way, such as a summary/first paragraph, del.icio.us tags, first image used in the content block, etc.}
     gem.email = "git@peterc.org"
     gem.homepage = "http://github.com/peterc/csteamer"
     gem.authors = ["Peter Cooper"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-    gem.add_development_dependency "mhennemeyer-matchy", ">= 0"
+    gem.add_development_dependency "shoulda", ">= 0"
     gem.add_dependency "nokogiri"
     gem.add_dependency "loofah"
     gem.add_dependency "httparty"
+    gem.add_dependency "fast-stemmer"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
