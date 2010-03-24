@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ["Peter Cooper"]
   s.date = %q{2010-03-24}
   s.default_executable = %q{pismo}
-  s.description = %q{Pismo "steams" your content for data you can use in an organized way, such as a summary/first paragraph, del.icio.us tags, first image used in the content block, etc.}
+  s.description = %q{Pismo extracts and retrieves content-related metadata from HTML pages - you can use the resulting data in an organized way, such as a summary/first paragraph, del.icio.us tags, first image used in the content block, etc.}
   s.email = %q{git@peterc.org}
   s.executables = ["pismo"]
   s.extra_rdoc_files = [
@@ -26,13 +26,13 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "bin/pismo",
-     "pismo.gemspec",
      "lib/pismo.rb",
      "lib/pismo/document.rb",
      "lib/pismo/external_attributes.rb",
      "lib/pismo/internal_attributes.rb",
      "lib/pismo/readability.rb",
      "lib/pismo/stopwords.txt",
+     "pismo.gemspec",
      "test/corpus/bbcnews.html",
      "test/corpus/briancray.html",
      "test/corpus/cant_read.html",

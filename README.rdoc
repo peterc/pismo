@@ -1,4 +1,4 @@
-= pismo (content steamer)
+= pismo (Web page content analyzer and metadata extractor)
 
 * http://github.com/peterc/pismo
 
