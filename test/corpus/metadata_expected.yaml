@@ -3,11 +3,9 @@
   :title: "CoffeeScript: A New Language With A Pure Ruby Compiler"
   :author: Peter Cooper
   :lede: CoffeeScript (GitHub repo) is a new programming language with a pure Ruby compiler. Creator Jeremy Ashkenas calls it "JavaScript's less ostentatious kid brother" - mostly because it compiles into JavaScript and shares most of the same constructs, but with a different, tighter syntax.
+  :body: "<div>CoffeeScript (GitHub repo) is a new programming language with a pure Ruby compiler. Creator Jeremy Ashkenas calls it \"JavaScript's less ostentatious kid brother\" - mostly because it compiles into JavaScript and shares most of the same constructs, but with a different, tighter syntax.\nTo get a feel for the language, check out this example code (CoffeeScript on the left, resulting JavaScript on the right):\nAs a Ruby project, you can get the CoffeeScript compiler installed with a simple gem install coffee-script or check out the code from/on GitHub. The code is worth a look as it's notably quite vanilla with hand crafted Ruby covering the lexer and code generation and Racc built code for the parser.\n</div>"
 :rww: 
   :title: "Cartoon: Apple Tablet: Now With Barometer and Bird Call Generator"
-:techcrunch: 
-  :title: Googlle Gets A Sexy New Logo; Remains Sketchy
-  :author: MG Siegler
 :briancray: 
   :title: 5 great examples of popular blog posts that you should know
 :huffington:
@@ -23,3 +21,89 @@
 :youtube:
   :title: YMO - Rydeen (Official Video)
   :author: ymo1965
+:techcrunch: 
+  :title: Googlle Gets A Sexy New Logo; Remains Sketchy
+  :author: MG Siegler
+  :keywords:
+  - - googlle
+    - 7
+  - - google
+    - 6
+  - - site
+    - 3
+  - - logo
+    - 2
+  - - font
+    - 2
+  - - india
+    - 2
+  - - ll
+    - 2
+  - - wouldn
+    - 1
+  - - week
+    - 1
+  - - switched
+    - 1
+  - - school
+    - 1
+  - - things
+    - 1
+  - - removing
+    - 1
+  - - steve
+    - 1
+  - - decided
+    - 1
+  - - advantage
+    - 1
+  - - wasn
+    - 1
+  - - accepting
+    - 1
+  - - red
+    - 1
+  - - copy
+    - 1
+  - - pronounciateon
+    - 1
+  - - surprised
+    - 1
+  - - bottom
+    - 1
+  - - happy
+    - 1
+  - - institute
+    - 1
+  - - written
+    - 1
+  - - simply
+    - 1
+  - - year
+    - 1
+  - - confused
+    - 1
+  - - beautiful
+    - 1
+  - - apparently
+    - 1
+  - - declarateon
+    - 1
+  - - curriculum
+    - 1
+  - - program
+    - 1
+  - - ripping
+    - 1
+  - - colors
+    - 1
+  - - applicateons
+    - 1
+  - - set
+    - 1
+  - - brand
+    - 1
+  - - brinke
+    - 1
+  - - service
+    - 1

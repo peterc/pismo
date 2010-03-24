@@ -51,8 +51,11 @@ module Readability
       candidates = score_paragraphs(options[:min_text_length] || TEXT_LENGTH_THRESHOLD)
       best_candidate = select_best_candidate(candidates)
       article = get_article(candidates, best_candidate)
-
       cleaned_article = sanitize(article, candidates, options)
+      cleaned_article.gsub!(/^\s+\n/, "\n")
+      cleaned_article.gsub!(/[\ \t]+/, ' ')
+      cleaned_article.gsub!(/^\s+/, '')
+      cleaned_article.gsub!(/\<\!\-\-.*?\-\-\>/m, '')
       if remove_unlikely_candidates && article.text.strip.length < (options[:retry_length] || RETRY_LENGTH)
         make_html
         content(false)
