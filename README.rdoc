@@ -42,7 +42,7 @@ great for testing, or perhaps calling it from a non Ruby script. The output is c
     --- 
     :url: http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html
     :title: "Cramp: Asychronous Event-Driven Ruby Web App Framework"
-    :lede: Cramp (GitHub repo)is a new, asychronous evented Web app framework by Pratik Naik of 37signals
+    :lede: Cramp (GitHub repo)is a new, asynchronous evented Web app framework by Pratik Naik of 37signals
     :author: Peter Cooper
 
 == Note on Patches/Pull Requests
