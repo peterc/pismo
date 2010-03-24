@@ -4,13 +4,12 @@
 
 == STATUS:
 
-CSteamer is RIDICULOUSLY EARLY IN ITS DEVELOPMENT. IT'S LESS THAN 24 HOURS OLD AND NOT EVEN VAGUELY DONE!! The demo below
-will certainly work though ;-)
+CSteamer is NOT YET RELEASED IN ANY FORM. Please do not review it or link to it yet. If you're brave, you can have a PLAY with it as the examples below do work and the tests all pass.
 
 == DESCRIPTION:
 
 CSteamer extracts metadata and machine-usable data from otherwise unstructured 
-HTML documents.
+HTML documents, including titles, body text, graphics, and keywords.
 
 For example, if you have a blog post HTML file, CSteamer should, in theory, be
 able to extract the title, the actual "content", images relating to the
@@ -48,13 +47,15 @@ great for testing, or perhaps calling it from a non Ruby script. The output is c
  
 * Fork the project.
 * Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
+* Add tests for it. This is important so I don't break it in a future version unintentionally.
+* Commit, do not mess with Rakefile, version, or history.
 * Send me a pull request.
 
 == COPYRIGHT AND LICENSE
 
 Apache 2.0 License - See LICENSE for details.
-All except lib/csteamer/readability.rb is Copyright (c) 2010 Peter Cooper
-lib/csteamer/readability.rb is Copyright (c) 2009 Arc90 Inc, starrhorne, and iterationlabs
+
+All except lib/csteamer/readability.rb is Copyright (c) 2009, 2010 Peter Cooper
+lib/csteamer/readability.rb is Copyright (c) 2009, 2010 Arc90 Inc, starrhorne, and iterationlabs
+
+The readability stuff was ganked from http://github.com/iterationlabs/ruby-readability

@@ -1,6 +1,6 @@
 All EXCEPT the lib/csteamer/readability.rb file:
 
-  Copyright 2009-2010 Peter Cooper
+  Copyright 2009, 2010 Peter Cooper
   
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@ All EXCEPT the lib/csteamer/readability.rb file:
 
 For lib/csteamer/readability.rb:
 
-  Copyright 2009 Arc90 Inc, starrhorne, and iterationlabs
+  Copyright 2009, 2010 Arc90 Inc, starrhorne, and iterationlabs
   
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
