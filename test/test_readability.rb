@@ -122,7 +122,7 @@ class TestReadability < Test::Unit::TestCase
       should "work on the cant_read.html fixture with some allowed tags" do
         allowed_tags = %w[div span table tr td p i strong u h1 h2 h3 h4 pre code br a]
         allowed_attributes = %w[href]
-        html = File.read(File.dirname(__FILE__) + "/corpus/cant_read.html")
+        html = File.read(HTML_DIRECTORY + "/cant_read.html")
         assert Readability::Document.new(html, :tags => allowed_tags, :attributes => allowed_attributes).content.match(/Can you talk a little about how you developed the looks for the/)
       end
     end
