@@ -4,11 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "csteamer"
+    gem.name = "pismo"
     gem.summary = %Q{Extracts or retrieves content-related metadata from HTML pages}
-    gem.description = %Q{CSteamer "steams" your content for data you can use in an organized way, such as a summary/first paragraph, del.icio.us tags, first image used in the content block, etc.}
+    gem.description = %Q{Pismo "steams" your content for data you can use in an organized way, such as a summary/first paragraph, del.icio.us tags, first image used in the content block, etc.}
     gem.email = "git@peterc.org"
-    gem.homepage = "http://github.com/peterc/csteamer"
+    gem.homepage = "http://github.com/peterc/pismo"
     gem.authors = ["Peter Cooper"]
     gem.add_development_dependency "shoulda", ">= 0"
     gem.add_dependency "nokogiri"
@@ -50,7 +50,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "csteamer #{version}"
+  rdoc.title = "pismo #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
@@ -84,9 +84,9 @@ end
 desc 'Console mode'
 task :console do
   require 'irb'
-  require 'lib/csteamer'
+  require 'lib/pismo'
   require 'open-uri'
-  @d = CSteamer.document(ARGV[1] || open('./test/corpus/bbcnews.html'))
+  @d = Pismo.document(ARGV[1] || open('./test/corpus/bbcnews.html'))
   
   # Get around IRB's issues with ARGV..
   ARGV = []

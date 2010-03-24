@@ -1,14 +1,14 @@
 require 'helper'
 
-class TestCSteamerDocument < Test::Unit::TestCase
-  context "CSteamer::Document" do
+class TestPismoDocument < Test::Unit::TestCase
+  context "Pismo::Document" do
     should "process an IO/File object" do
       doc = Document.new(open(HTML_DIRECTORY + "/rubyinside.html"))
       assert doc.doc.kind_of?(Nokogiri::HTML::Document)
     end
   end
   
-  context "A very basic CSteamer document" do
+  context "A very basic Pismo document" do
     setup do
       @doc = Document.new(%{<html><body><h1>Hello</h1></body></html>})
     end

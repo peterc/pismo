@@ -4,14 +4,16 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{csteamer}
+  s.name = %q{pismo}
   s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Peter Cooper"]
-  s.date = %q{2010-01-11}
-  s.description = %q{CSteamer "steams" your content for data you can use in an organized way, such as a summary/first paragraph, del.icio.us tags, first image used in the content block, etc.}
+  s.date = %q{2010-03-24}
+  s.default_executable = %q{pismo}
+  s.description = %q{Pismo "steams" your content for data you can use in an organized way, such as a summary/first paragraph, del.icio.us tags, first image used in the content block, etc.}
   s.email = %q{git@peterc.org}
+  s.executables = ["pismo"]
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
@@ -23,30 +25,39 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "lib/csteamer.rb",
-     "lib/csteamer/document.rb",
-     "lib/csteamer/external_attributes.rb",
-     "lib/csteamer/internal_attributes.rb",
+     "bin/pismo",
+     "pismo.gemspec",
+     "lib/pismo.rb",
+     "lib/pismo/document.rb",
+     "lib/pismo/external_attributes.rb",
+     "lib/pismo/internal_attributes.rb",
+     "lib/pismo/readability.rb",
+     "lib/pismo/stopwords.txt",
      "test/corpus/bbcnews.html",
      "test/corpus/briancray.html",
+     "test/corpus/cant_read.html",
+     "test/corpus/factor.html",
      "test/corpus/huffington.html",
      "test/corpus/metadata_expected.yaml",
      "test/corpus/rubyinside.html",
      "test/corpus/rww.html",
      "test/corpus/techcrunch.html",
+     "test/corpus/youtube.html",
      "test/helper.rb",
      "test/test_corpus.rb",
-     "test/test_csteamer_document.rb"
+     "test/test_pismo_document.rb",
+     "test/test_readability.rb"
   ]
-  s.homepage = %q{http://github.com/peterc/csteamer}
+  s.homepage = %q{http://github.com/peterc/pismo}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{Extracts or retrieves content-related metadata from HTML pages and remote services}
+  s.summary = %q{Extracts or retrieves content-related metadata from HTML pages}
   s.test_files = [
     "test/helper.rb",
      "test/test_corpus.rb",
-     "test/test_csteamer_document.rb"
+     "test/test_pismo_document.rb",
+     "test/test_readability.rb"
   ]
 
   if s.respond_to? :specification_version then
@@ -58,17 +69,20 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<nokogiri>, [">= 0"])
       s.add_runtime_dependency(%q<loofah>, [">= 0"])
       s.add_runtime_dependency(%q<httparty>, [">= 0"])
+      s.add_runtime_dependency(%q<fast-stemmer>, [">= 0"])
     else
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<nokogiri>, [">= 0"])
       s.add_dependency(%q<loofah>, [">= 0"])
       s.add_dependency(%q<httparty>, [">= 0"])
+      s.add_dependency(%q<fast-stemmer>, [">= 0"])
     end
   else
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<nokogiri>, [">= 0"])
     s.add_dependency(%q<loofah>, [">= 0"])
     s.add_dependency(%q<httparty>, [">= 0"])
+    s.add_dependency(%q<fast-stemmer>, [">= 0"])
   end
 end
 

@@ -1,4 +1,4 @@
-All EXCEPT the lib/csteamer/readability.rb file:
+All EXCEPT the lib/pismo/readability.rb file:
 
   Copyright 2009, 2010 Peter Cooper
   
@@ -15,7 +15,7 @@ All EXCEPT the lib/csteamer/readability.rb file:
    limitations under the License.
 
 
-For lib/csteamer/readability.rb:
+For lib/pismo/readability.rb:
 
   Copyright 2009, 2010 Arc90 Inc, starrhorne, and iterationlabs
   

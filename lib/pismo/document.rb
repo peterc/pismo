@@ -1,16 +1,16 @@
-require 'csteamer/internal_attributes'
-require 'csteamer/external_attributes'
+require 'pismo/internal_attributes'
+require 'pismo/external_attributes'
 
-module CSteamer
+module Pismo
   
-  # CSteamer::Document represents a single HTML document within CSteamer
+  # Pismo::Document represents a single HTML document within Pismo
   class Document
     attr_reader :doc, :url
     
     ATTRIBUTE_METHODS = InternalAttributes.instance_methods + ExternalAttributes.instance_methods
     
-    include CSteamer::InternalAttributes
-    include CSteamer::ExternalAttributes
+    include Pismo::InternalAttributes
+    include Pismo::ExternalAttributes
     
     def initialize(handle, url = nil)
       load(handle, url)

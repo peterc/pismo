@@ -1,17 +1,17 @@
-= csteamer (content steamer)
+= pismo (content steamer)
 
-* http://github.com/peterc/csteamer
+* http://github.com/peterc/pismo
 
 == STATUS:
 
-CSteamer is NOT YET RELEASED IN ANY FORM. Please do not review it or link to it yet. If you're brave, you can have a PLAY with it as the examples below do work and the tests all pass.
+Pismo is NOT YET RELEASED IN ANY FORM. Please do not review it or link to it yet. If you're brave, you can have a PLAY with it as the examples below do work and the tests all pass.
 
 == DESCRIPTION:
 
-CSteamer extracts metadata and machine-usable data from otherwise unstructured 
+Pismo extracts metadata and machine-usable data from otherwise unstructured 
 HTML documents, including titles, body text, graphics, and keywords.
 
-For example, if you have a blog post HTML file, CSteamer should, in theory, be
+For example, if you have a blog post HTML file, Pismo should, in theory, be
 able to extract the title, the actual "content", images relating to the
 content, look up Delicious tags, and analyze for keywords.
 
@@ -20,8 +20,8 @@ content, look up Delicious tags, and analyze for keywords.
 * Basic demo:
 
     require 'open-uri'
-    require 'csteamer'
-    doc = CSteamer::Document.new(open('http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html'))
+    require 'pismo'
+    doc = Pismo::Document.new(open('http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html'))
     doc.title     # => "Cramp: Asychronous Event-Driven Ruby Web App Framework"
     doc.author    # => "Peter Cooper"
     doc.lede      # => "Cramp (GitHub repo)is a new, asynchronous evented Web app framework by Pratik Naik of 37signals (and the Rails core team). It's built around Ruby's EventMachine library and was designed to use event-driven I/O throughout - making it ideal for situations where you need to handle a large number of open connections (such as Comet systems or streaming APIs.)"
@@ -30,12 +30,12 @@ content, look up Delicious tags, and analyze for keywords.
 
 == COMMAND LINE TOOL:
 
-A command line tool called "csteamer" is included so that you can get metadata about a page from the command line. This is
+A command line tool called "pismo" is included so that you can get metadata about a page from the command line. This is
 great for testing, or perhaps calling it from a non Ruby script. The output is currently in YAML.
 
 * Usage: 
 
-    ./bin/csteamer http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html title lede author
+    ./bin/pismo http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html title lede author
     
 * Output:
 
@@ -57,7 +57,7 @@ great for testing, or perhaps calling it from a non Ruby script. The output is c
 
 Apache 2.0 License - See LICENSE for details.
 
-All except lib/csteamer/readability.rb is Copyright (c) 2009, 2010 Peter Cooper
-lib/csteamer/readability.rb is Copyright (c) 2009, 2010 Arc90 Inc, starrhorne, and iterationlabs
+All except lib/pismo/readability.rb is Copyright (c) 2009, 2010 Peter Cooper
+lib/pismo/readability.rb is Copyright (c) 2009, 2010 Arc90 Inc, starrhorne, and iterationlabs
 
 The readability stuff was ganked from http://github.com/iterationlabs/ruby-readability

@@ -1,4 +1,4 @@
-module CSteamer
+module Pismo
   # Internal attributes are different pieces of data we can extract from a document's content
   module InternalAttributes
     # Returns the title of the page/content - attempts to strip site name, etc, if possible
@@ -97,10 +97,8 @@ module CSteamer
     def keywords(options = {})
       options = { :stem_at => 10, :word_length_limit => 15 }.merge(options)
       
-      @readability_content = Readability::Document.new(@doc.to_s).content
-      
       words = {}
-      @readability_content.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub(/\&\w+\;/, '').scan(/\b[a-z][a-z\'\#\.]*\b/).each do |word|
+      body.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub(/\&\w+\;/, '').scan(/\b[a-z][a-z\'\#\.]*\b/).each do |word|
         next if word.length > options[:word_length_limit]
         words[word] ||= 0
         words[word] += 1
@@ -111,6 +109,11 @@ module CSteamer
       s = File.read(File.dirname(__FILE__) + '/stopwords.txt').split.map { |a| a.length > options[:stem_at] ? a.stem : a }
       
       return words.delete_if { |k1, v1| s.include?(k1) || (v1 < 2 && words.size > 80) }.sort_by { |k2, v2| v2 }.reverse
+    end
+    
+    # Returns body text as determined by Arc90's Readability algorithm
+    def body
+      @body ||= Readability::Document.new(@doc.to_s).content
     end
     
     # Returns URL to the site's favicon

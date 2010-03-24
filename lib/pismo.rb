@@ -3,10 +3,10 @@ require 'nokogiri'
 require 'fast_stemmer'
 
 $: << File.dirname(__FILE__)
-require 'csteamer/document'
-require 'csteamer/readability'
+require 'pismo/document'
+require 'pismo/readability'
 
-module CSteamer
+module Pismo
   # Sugar method to make creating document objects nicer
   def self.document(handle, url = nil)
     Document.new(handle, url)
