@@ -3,6 +3,7 @@ module Pismo
   module InternalAttributes
     # Returns the title of the page/content - attempts to strip site name, etc, if possible
     def title
+      # TODO: Memoizations
       title = @doc.match( 'h2.title',
                           '.entry h2',                                                      # Common style
                           '.entryheader h1',                                                # Ruby Inside/Kubrick
@@ -147,12 +148,13 @@ module Pismo
       
       words = {}
       
-      # Convert doc to lowercase, scrub out most HTML tags
+      # Convert doc to lowercase, scrub out most HTML tags, then keep track of words
+      cached_title = title
       body.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub(/\&\w+\;/, '').scan(/\b[a-z][a-z\'\#\.]*\b/).each do |word|
         next if word.length > options[:word_length_limit]
         word.gsub!(/\'\w+/, '')
         words[word] ||= 0
-        words[word] += 1
+        words[word] += (cached_title =~ /#{word}/i ? 5 : 1)
       end
 
       # Stem the words and stop words if necessary
