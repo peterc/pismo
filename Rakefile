@@ -10,6 +10,8 @@ begin
     gem.email = "git@peterc.org"
     gem.homepage = "http://github.com/peterc/pismo"
     gem.authors = ["Peter Cooper"]
+    gem.executables = "pismo"
+    gem.default_executable = "pismo"
     gem.add_development_dependency "shoulda", ">= 0"
     gem.add_dependency "nokogiri"
     gem.add_dependency "loofah"
