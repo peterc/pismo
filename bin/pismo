@@ -19,7 +19,13 @@ require 'rubygems'
 $:.unshift(File.dirname(__FILE__) + "/../lib")
 require 'pismo'
 
-doc = Pismo.document(ARGV.shift)
+url = ARGV.shift
+
+unless url =~ /^http/
+  url = File.read(url)
+end
+
+doc = Pismo.document(url)
 
 output = { :url => doc.url }
 

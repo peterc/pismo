@@ -33,7 +33,18 @@ module Pismo
                 handle
               end
               
+      @html = clean_html(@html)
+      
       @doc = Nokogiri::HTML(@html)
+    end
+    
+    def clean_html(html)
+      html.gsub!('&#8217;', '\'')
+      html.gsub!('&#8221;', '"')
+      html.gsub!('&#8211;', '-')
+      html.gsub!('&#8220;', '"')
+      html.gsub!('&nbsp;', ' ')
+      html
     end
   end
 end

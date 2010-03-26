@@ -1,6 +1,7 @@
 require 'open-uri'
 require 'nokogiri'
 require 'fast_stemmer'
+require 'chronic'
 
 $: << File.dirname(__FILE__)
 require 'pismo/document'
@@ -32,7 +33,11 @@ class Nokogiri::HTML::Document
       elsif query.is_a?(Array)
         result = query[1].call(self.search(query.first).first).strip rescue nil
       end
-      return result if result
+      if result
+        result.gsub!(/\342\200\231/, '\'')
+        result.gsub!(/\342\200\224/, '-')
+        return result
+      end
     end
     return nil
   end

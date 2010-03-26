@@ -3,7 +3,8 @@ module Pismo
   module InternalAttributes
     # Returns the title of the page/content - attempts to strip site name, etc, if possible
     def title
-      title = @doc.match( '.entry h2',                                                      # Common style
+      title = @doc.match( 'h2.title',
+                          '.entry h2',                                                      # Common style
                           '.entryheader h1',                                                # Ruby Inside/Kubrick
                           '.entry-title a',                                               # Common Blogger/Blogspot rules
                           '.post-title a',
@@ -30,6 +31,49 @@ module Pismo
       title
     end
     
+    # Return an estimate of when the page/content was created
+    # As clients of this library should be doing HTTP retrieval themselves, they can fall to the
+    # Last-Updated HTTP header if they so wish. This method is just rough and based on content only.
+    def datetime
+      # TODO: Clean all this mess up
+      
+      mo = %r{(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December)}i
+      
+      regexen = [
+        /#{mo}\b\s+\d+\D{1,10}\d{4}/i,
+        /(on\s+)?\d+\s+#{mo}\s+\D{1,10}\d+/i,
+        /(on[^\d+]{1,10})?\d+(th|st|rd)?.{1,10}#{mo}\b[^\d]{1,10}\d+/i,
+        /on\s+#{mo}\s+\d+/i,
+        /#{mo}\s+\d+/i,
+        /\d{4}[\.\/\-]\d{2}[\.\/\-]\d{2}/,
+        /\d{2}[\.\/\-]\d{2}[\.\/\-]\d{4}/
+      ]
+      
+      datetime = 10
+      
+      regexen.each do |r|
+        datetime = @doc.to_html[r]
+        p datetime
+        break if datetime
+      end
+      
+      return unless datetime && datetime.length > 4
+      
+      # Clean up the string for use by Chronic
+      datetime.strip!
+      datetime.gsub!(/(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)[^\w]*/i, '')
+      datetime.gsub!(/(mon|tues|tue|weds|wed|thurs|thur|thu|fri|sat|sun)[^\w]*/i, '')
+      datetime.sub!(/on\s+/, '')
+      datetime.gsub!(/\,/, '')
+      datetime.sub!(/(\d+)(th|st|rd)/, '\1')
+      
+      Chronic.parse(datetime) || datetime
+    end
+    
+    # TODO: Attempts to work out what type of site or page the page is from the provided URL
+    # def site_type
+    # end
+    
     # Returns the author of the page/content
     def author
       author = @doc.match('.post-author .fn',
@@ -50,13 +94,14 @@ module Pismo
                           '.cT-storyDetails h5',                                            # smh.com.au - worth dropping maybe..
                           ['meta[@name="byl"]', lambda { |el| el.attr('content') }],
                           '.fn a',
-                          '.fn'
+                          '.fn',
+                          '.byline-author'
                           )
                           
       return unless author
     
       # Strip off any "By [whoever]" section
-      author.sub!(/^by\W+/i, '')
+      author.sub!(/^(post(ed)?\s)?by\W+/i, '')
       
       author
     end
@@ -73,6 +118,7 @@ module Pismo
     # Returns the "lede" or first paragraph of the story/page
     def lede
       lede = @doc.match( 
+                  '#blogpost p',
                   '.subhead',
                   '//div[@class="entrytext"]//p[string-length()>10]',                      # Ruby Inside / Kubrick style
                   'section p',
@@ -87,19 +133,24 @@ module Pismo
                   ['.entry', lambda { |el| el.inner_html[/(#{el.inner_text[0..4].strip}.*?)\<br/, 1] }],
                   '.entry',
                   '#content p',
-                  '#article p'
+                  '#article p',
+                  '.post-body',
+                  '.entry-content'
                   )
                         
-      lede
+      lede[/^(.*?\.\s){2}/m] || lede
     end
     
     # Returns the "keywords" in the document (not the meta keywords - they're next to useless now)
     def keywords(options = {})
-      options = { :stem_at => 10, :word_length_limit => 15 }.merge(options)
+      options = { :stem_at => 10, :word_length_limit => 15, :limit => 20 }.merge(options)
       
       words = {}
+      
+      # Convert doc to lowercase, scrub out most HTML tags
       body.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub(/\&\w+\;/, '').scan(/\b[a-z][a-z\'\#\.]*\b/).each do |word|
         next if word.length > options[:word_length_limit]
+        word.gsub!(/\'\w+/, '')
         words[word] ||= 0
         words[word] += 1
       end
@@ -107,13 +158,20 @@ module Pismo
       # Stem the words and stop words if necessary
       d = words.keys.uniq.map { |a| a.length > options[:stem_at] ? a.stem : a }
       s = File.read(File.dirname(__FILE__) + '/stopwords.txt').split.map { |a| a.length > options[:stem_at] ? a.stem : a }
-      
-      return words.delete_if { |k1, v1| s.include?(k1) || (v1 < 2 && words.size > 80) }.sort_by { |k2, v2| v2 }.reverse
+            
+      w = words.delete_if { |k1, v1| s.include?(k1) || (v1 < 2 && words.size > 80) }.sort_by { |k2, v2| v2 }.reverse.first(options[:limit])
+      return w
     end
     
     # Returns body text as determined by Arc90's Readability algorithm
     def body
-      @body ||= Readability::Document.new(@doc.to_s).content
+      @body ||= Readability::Document.new(@doc.to_s).content.strip
+      
+      # HACK: Remove annoying DIV that readability leaves around
+      @body.gsub!(/\A\<div\>/, '')
+      @body.gsub!(/\<\/div\>\Z/, '')
+      
+      return @body
     end
     
     # Returns URL to the site's favicon
@@ -130,8 +188,8 @@ module Pismo
     
     # Returns URL of Web feed
     def feed
-      url = @doc.match( ['link[@type="application/atom+xml"]', lambda { |el| el.attr('href') }],
-                        ['link[@type="application/rss+xml"]', lambda { |el| el.attr('href') }]
+      url = @doc.match( ['link[@type="application/rss+xml"]', lambda { |el| el.attr('href') }],
+                        ['link[@type="application/atom+xml"]', lambda { |el| el.attr('href') }]
       )
       
       if url && url !~ /^http/ && @url

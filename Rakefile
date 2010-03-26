@@ -15,6 +15,7 @@ begin
     gem.add_dependency "loofah"
     gem.add_dependency "httparty"
     gem.add_dependency "fast-stemmer"
+    gem.add_dependency "chronic"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
