@@ -9,11 +9,13 @@ Pismo is NOT YET RELEASED IN ANY FORM. Please do not review it or link to it yet
 == DESCRIPTION:
 
 Pismo extracts metadata and machine-usable data from otherwise unstructured 
-HTML documents, including titles, body text, graphics, and keywords.
+HTML documents, including titles, body text, graphics, date, and keywords.
 
 For example, if you have a blog post HTML file, Pismo should, in theory, be
 able to extract the title, the actual "content", images relating to the
 content, look up Delicious tags, and analyze for keywords.
+
+Pismo only understands English. Je suis desolé.
 
 == SYNOPSIS:
 
@@ -35,7 +37,7 @@ great for testing, or perhaps calling it from a non Ruby script. The output is c
 
 * Usage: 
 
-    ./bin/pismo http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html title lede author
+    ./bin/pismo http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html title lede author datetime
     
 * Output:
 
@@ -44,6 +46,7 @@ great for testing, or perhaps calling it from a non Ruby script. The output is c
     :title: "Cramp: Asychronous Event-Driven Ruby Web App Framework"
     :lede: Cramp (GitHub repo)is a new, asynchronous evented Web app framework by Pratik Naik of 37signals
     :author: Peter Cooper
+    :datetime: 2010-01-07 12:00:00 +00:00
 
 == Note on Patches/Pull Requests
  
