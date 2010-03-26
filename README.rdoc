@@ -4,7 +4,9 @@
 
 == STATUS:
 
-Pismo is NOT YET RELEASED IN ANY FORM. Please do not review it or link to it yet. If you're brave, you can have a PLAY with it as the examples below do work and the tests all pass.
+pismo is a VERY NEW project developed for use on http://coder.io/ - my forthcoming developer news aggregator. pismo is FAR FROM COMPLETE. If you're brave, you can have a PLAY with it as the examples below and those in the test suite/corpus do work - all tests pass.
+
+The prime missing features so far are the "external attributes" - where calls are made to external services like Delicious, Yahoo, Bing, etc, for getting third party data about documents. The structures are there but I'm still deciding how best to integrate these ideas.
 
 == DESCRIPTION:
 
@@ -54,7 +56,7 @@ great for testing, or perhaps calling it from a non Ruby script. The output is c
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a future version unintentionally.
 * Commit, do not mess with Rakefile, version, or history.
-* Send me a pull request.
+* Send me a pull request. I may or may not accept it.
 
 == COPYRIGHT AND LICENSE
 
