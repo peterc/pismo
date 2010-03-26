@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "pismo"
     gem.summary = %Q{Extracts or retrieves content-related metadata from HTML pages}
-    gem.description = %Q{Pismo extracts and retrieves content-related metadata from HTML pages - you can use the resulting data in an organized way, such as a summary/first paragraph, del.icio.us tags, first image used in the content block, etc.}
+    gem.description = %Q{Pismo extracts and retrieves content-related metadata from HTML pages - you can use the resulting data in an organized way, such as a summary/first paragraph, body text, keywords, RSS feed URL, favicon, etc.}
     gem.email = "git@peterc.org"
     gem.homepage = "http://github.com/peterc/pismo"
     gem.authors = ["Peter Cooper"]

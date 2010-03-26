@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ["Peter Cooper"]
   s.date = %q{2010-03-26}
   s.default_executable = %q{pismo}
-  s.description = %q{Pismo extracts and retrieves content-related metadata from HTML pages - you can use the resulting data in an organized way, such as a summary/first paragraph, del.icio.us tags, first image used in the content block, etc.}
+  s.description = %q{Pismo extracts and retrieves content-related metadata from HTML pages - you can use the resulting data in an organized way, such as a summary/first paragraph, body text, keywords, RSS feed URL, favicon, etc.}
   s.email = %q{git@peterc.org}
   s.executables = ["pismo"]
   s.extra_rdoc_files = [
