@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{pismo}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Peter Cooper"]
-  s.date = %q{2010-03-24}
+  s.date = %q{2010-03-26}
   s.default_executable = %q{pismo}
   s.description = %q{Pismo extracts and retrieves content-related metadata from HTML pages - you can use the resulting data in an organized way, such as a summary/first paragraph, del.icio.us tags, first image used in the content block, etc.}
   s.email = %q{git@peterc.org}
@@ -41,6 +41,7 @@ Gem::Specification.new do |s|
      "test/corpus/metadata_expected.yaml",
      "test/corpus/rubyinside.html",
      "test/corpus/rww.html",
+     "test/corpus/spolsky.html",
      "test/corpus/techcrunch.html",
      "test/corpus/youtube.html",
      "test/helper.rb",
@@ -70,12 +71,14 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<loofah>, [">= 0"])
       s.add_runtime_dependency(%q<httparty>, [">= 0"])
       s.add_runtime_dependency(%q<fast-stemmer>, [">= 0"])
+      s.add_runtime_dependency(%q<chronic>, [">= 0"])
     else
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<nokogiri>, [">= 0"])
       s.add_dependency(%q<loofah>, [">= 0"])
       s.add_dependency(%q<httparty>, [">= 0"])
       s.add_dependency(%q<fast-stemmer>, [">= 0"])
+      s.add_dependency(%q<chronic>, [">= 0"])
     end
   else
     s.add_dependency(%q<shoulda>, [">= 0"])
@@ -83,6 +86,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<loofah>, [">= 0"])
     s.add_dependency(%q<httparty>, [">= 0"])
     s.add_dependency(%q<fast-stemmer>, [">= 0"])
+    s.add_dependency(%q<chronic>, [">= 0"])
   end
 end
 
