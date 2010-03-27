@@ -170,8 +170,8 @@ module Pismo
       @body ||= Readability::Document.new(@doc.to_s).content.strip
       
       # HACK: Remove annoying DIV that readability leaves around
-      @body.gsub!(/\A\<div\>/, '')
-      @body.gsub!(/\<\/div\>\Z/, '')
+      @body.sub!(/\A\<div\>/, '')
+      @body.sub!(/\<\/div\>\Z/, '')
       
       return @body
     end
