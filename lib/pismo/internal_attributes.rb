@@ -150,7 +150,7 @@ module Pismo
       
       # Convert doc to lowercase, scrub out most HTML tags, then keep track of words
       cached_title = title
-      body.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub(/\&\w+\;/, '').scan(/\b[a-z][a-z\'\#\.]*\b/).each do |word|
+      body.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub(/\&\w+\;/, '').scan(/\b[a-z][a-z\'\+\#\.]*\b/).each do |word|
         next if word.length > options[:word_length_limit]
         word.gsub!(/\'\w+/, '')
         words[word] ||= 0
