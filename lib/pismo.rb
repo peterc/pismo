@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'open-uri'
 require 'nokogiri'
 require 'fast_stemmer'
@@ -33,9 +35,12 @@ class Nokogiri::HTML::Document
       elsif query.is_a?(Array)
         result = query[1].call(self.search(query.first).first).strip rescue nil
       end
+
       if result
-        result.gsub!(/\342\200\231/, '\'')
-        result.gsub!(/\342\200\224/, '-')
+      #  result.gsub!(/\342\200\231/, '\'')
+      #  result.gsub!(/\342\200\224/, '-')
+        result.gsub!('’', '\'')
+        result.gsub!('—', '-')
         return result
       end
     end

@@ -174,13 +174,13 @@ module Readability
     def score_node(elem)
       content_score = class_weight(elem)
       case elem.name.downcase
-        when "div":
+        when "div"
           content_score += 5
-        when "blockquote":
+        when "blockquote"
           content_score += 3
-        when "form":
+        when "form"
           content_score -= 3
-        when "th":
+        when "th"
           content_score -= 5
       end
       { :content_score => content_score, :elem => elem }
