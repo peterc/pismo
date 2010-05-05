@@ -136,7 +136,9 @@ module Pismo
                   '#content p',
                   '#article p',
                   '.post-body',
-                  '.entry-content'
+                  '.entry-content',
+                  '.body p',
+                  'p'
                   )
                         
       lede[/^(.*?\.\s){2}/m] || lede
