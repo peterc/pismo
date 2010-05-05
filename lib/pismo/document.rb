@@ -27,7 +27,7 @@ module Pismo
       
       @html = if handle =~ /^http/
                 open(handle).read
-              elsif handle.is_a?(StringIO) || handle.is_a?(IO)
+              elsif handle.is_a?(StringIO) || handle.is_a?(IO) || handle.is_a?(Tempfile)
                 handle.read
               else
                 handle

@@ -54,7 +54,7 @@ module Pismo
       
       regexen.each do |r|
         datetime = @doc.to_html[r]
-        p datetime
+        # p datetime
         break if datetime
       end
       

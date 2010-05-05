@@ -4,6 +4,7 @@ require 'open-uri'
 require 'nokogiri'
 require 'fast_stemmer'
 require 'chronic'
+require 'tempfile'
 
 $: << File.dirname(__FILE__)
 require 'pismo/document'
