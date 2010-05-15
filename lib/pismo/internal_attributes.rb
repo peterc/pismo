@@ -2,34 +2,48 @@ module Pismo
   # Internal attributes are different pieces of data we can extract from a document's content
   module InternalAttributes
     # Returns the title of the page/content - attempts to strip site name, etc, if possible
-    def title
+    def title(all = false)
       # TODO: Memoizations
-      title = @doc.match( 'h2.title',
-                          '.entry h2',                                                      # Common style
-                          '.entryheader h1',                                                # Ruby Inside/Kubrick
-                          '.entry-title a',                                               # Common Blogger/Blogspot rules
-                          '.post-title a',
-                          '.posttitle a',
-                          '.entry-title',
-                          '.post-title',
-                          '.posttitle',
-                          ['meta[@name="title"]', lambda { |el| el.attr('content') }],
-                          '#pname a',                                                       # Google Code style
-                          'h1.headermain',
-                          'h1.title',
-                          '.mxb h1'                                                         # BBC News
+      title = @doc.match( 
+                          [
+                            '.entryheader h1',                                                # Ruby Inside/Kubrick
+                            '.entry-title a',                                               # Common Blogger/Blogspot rules
+                            '.post-title a',
+                            '.post_title a',
+                            '.posttitle a',
+                            '.entry-title',
+                            '.post-title',
+                            '.posttitle',
+                            '.post_title',
+                            '.pageTitle',
+                            '.title h1',                          
+                            '.post h2',
+                            'h2.title',
+                            '.entry h2',                                                      # Common style
+                            '.boite_titre a',
+                            ['meta[@name="title"]', lambda { |el| el.attr('content') }],
+                            '#pname a',                                                       # Google Code style
+                            'h1.headermain',
+                            'h1.title',
+                            '.mxb h1',                                                        # BBC News
+                            '#content h1',
+                            '#content h2',
+                            'a[@rel="bookmark"]'
+                          ],
+                          all
                         )
       
       # If all else fails, go to the HTML title
-      unless title
-        title = @doc.match('title')
-        return unless title
+      title || html_title
+    end
+    
+    # HTML title
+    def html_title
+      title = @doc.match('title')
+      return unless title
 
-        # Strip off any leading or trailing site names - a scrappy way to try it out..
-        title = title.split(/\s+(\-|\||\:)\s+/).sort_by { |i| i.length }.last.strip
-      end
-      
-      title
+      # Strip off any leading or trailing site names - a scrappy way to try it out..
+      title = title.split(/\s+(\-|\||\:)\s+/).sort_by { |i| i.length }.last.to_s.strip
     end
     
     # Return an estimate of when the page/content was created
@@ -43,7 +57,10 @@ module Pismo
       regexen = [
         /#{mo}\b\s+\d+\D{1,10}\d{4}/i,
         /(on\s+)?\d+\s+#{mo}\s+\D{1,10}\d+/i,
-        /(on[^\d+]{1,10})?\d+(th|st|rd)?.{1,10}#{mo}\b[^\d]{1,10}\d+/i,
+        /(on[^\d+]{1,10})\d+(th|st|rd)?.{1,10}#{mo}\b[^\d]{1,10}\d+/i,
+        /\b\d{4}\-\d{2}\-\d{2}\b/i,
+        /\d+(th|st|rd).{1,10}#{mo}\b[^\d]{1,10}\d+/i,
+        /\d+\s+#{mo}\b[^\d]{1,10}\d+/i,
         /on\s+#{mo}\s+\d+/i,
         /#{mo}\s+\d+/i,
         /\d{4}[\.\/\-]\d{2}[\.\/\-]\d{2}/,
@@ -77,9 +94,12 @@ module Pismo
     
     # Returns the author of the page/content
     def author
-      author = @doc.match('.post-author .fn',
+      author = @doc.match([
+                          '.post-author .fn',
                           '.wire_author',
                           '.cnnByline b',
+                          '.editorlink',
+                          '.authors p',
                           ['meta[@name="author"]', lambda { |el| el.attr('content') }],     # Traditional meta tag style
                           ['meta[@name="AUTHOR"]', lambda { |el| el.attr('content') }],     # CNN style
                           '.byline a',                                                      # Ruby Inside style
@@ -94,10 +114,15 @@ module Pismo
                           '.auth',
                           '.cT-storyDetails h5',                                            # smh.com.au - worth dropping maybe..
                           ['meta[@name="byl"]', lambda { |el| el.attr('content') }],
+                          '.timestamp a',
                           '.fn a',
                           '.fn',
-                          '.byline-author'
-                          )
+                          '.byline-author',
+                          '.ArticleAuthor a',
+                          '.blog_meta a',
+                          'cite a',
+                          'cite'
+                          ])
                           
       return unless author
     
@@ -109,16 +134,18 @@ module Pismo
     
     # Returns the "description" of the page, usually comes from a meta tag
     def description
-      @doc.match(
+      @doc.match([
                   ['meta[@name="description"]', lambda { |el| el.attr('content') }],
                   ['meta[@name="Description"]', lambda { |el| el.attr('content') }],
+                  'rdf:Description[@name="dc:description"]',
                   '.description'
-       )
+       ])
     end
     
     # Returns the "lede" or first paragraph of the story/page
     def lede
-      lede = @doc.match( 
+      lede = @doc.match([ 
+                  '.post-text p',
                   '#blogpost p',
                   '.subhead',
                   '//div[@class="entrytext"]//p[string-length()>10]',                      # Ruby Inside / Kubrick style
@@ -138,10 +165,16 @@ module Pismo
                   '.post-body',
                   '.entry-content',
                   '.body p',
+                  '.document_description_short p',    # Scribd
+                  '.single-post p',
                   'p'
-                  )
-                        
-      lede[/^(.*?\.\s){2}/m] || lede
+                  ])
+       
+      if lede
+        return lede[/^(.*?\.\s){2}/m] || lede
+      else
+        return body ? body[/^(.*?\.\s){2}/m] : nil
+      end
     end
     
     # Returns the "keywords" in the document (not the meta keywords - they're next to useless now)
@@ -152,7 +185,9 @@ module Pismo
       
       # Convert doc to lowercase, scrub out most HTML tags, then keep track of words
       cached_title = title
-      body.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub(/\&\w+\;/, '').scan(/\b[a-z][a-z\'\+\#\.]*\b/).each do |word|
+      content_to_use = body.to_s.downcase + description.to_s.downcase
+      
+      content_to_use.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub('. ', ' ').gsub(/\&\w+\;/, '').scan(/\b[a-z][a-z\+\.\'\+\#\-]*\b/).each do |word|
         next if word.length > options[:word_length_limit]
         word.gsub!(/\'\w+/, '')
         words[word] ||= 0
@@ -180,20 +215,20 @@ module Pismo
     
     # Returns URL to the site's favicon
     def favicon
-      url = @doc.match( ['link[@rel="fluid-icon"]', lambda { |el| el.attr('href') }],      # Get a Fluid icon if possible..
+      url = @doc.match([['link[@rel="fluid-icon"]', lambda { |el| el.attr('href') }],      # Get a Fluid icon if possible..
                         ['link[@rel="shortcut icon"]', lambda { |el| el.attr('href') }],
-                        ['link[@rel="icon"]', lambda { |el| el.attr('href') }])
+                        ['link[@rel="icon"]', lambda { |el| el.attr('href') }]])
       if url && url !~ /^http/ && @url
         url = URI.join(@url , url).to_s
       end
       
       url
-    end
+    end    # Give bonus if item has feed associated with it internally
     
     # Returns URL of Web feed
     def feed
-      url = @doc.match( ['link[@type="application/rss+xml"]', lambda { |el| el.attr('href') }],
-                        ['link[@type="application/atom+xml"]', lambda { |el| el.attr('href') }]
+      url = @doc.match([['link[@type="application/rss+xml"]', lambda { |el| el.attr('href') }],
+                        ['link[@type="application/atom+xml"]', lambda { |el| el.attr('href') }]]
       )
       
       if url && url !~ /^http/ && @url
