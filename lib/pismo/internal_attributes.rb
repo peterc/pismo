@@ -30,7 +30,8 @@ module Pismo
                             '#content h1',
                             '#content h2',
                             '#content h3',
-                            'a[@rel="bookmark"]'
+                            'a[@rel="bookmark"]',
+                            '.products h2'
                           ],
                           all
                         )
