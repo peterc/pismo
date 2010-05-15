@@ -9,6 +9,8 @@
 #   http://lab.arc90.com/experiments/readability/js/readability.js
 #   * Copyright (c) 2009 Arc90 Inc
 #   * Readability is licensed under the Apache License, Version 2.0.
+#
+# Minor edits and tweaks by Peter Cooper
 
 require 'nokogiri'
 
@@ -70,6 +72,9 @@ module Readability
 
       sibling_score_threshold = [10, best_candidate[:content_score] * 0.2].max
       output = Nokogiri::XML::Node.new('div', @html)
+      
+      return output unless best_candidate[:elem]
+      
       best_candidate[:elem].parent.children.each do |sibling|
         append = false
         append = true if sibling == best_candidate[:elem]
@@ -105,7 +110,7 @@ module Readability
       end
 
       best_candidate = sorted_candidates.first || { :elem => @html.css("body").first, :content_score => 0 }
-      debug("Best candidate #{best_candidate[:elem].name}##{best_candidate[:elem][:id]}.#{best_candidate[:elem][:class]} with score #{best_candidate[:content_score]}")
+      #debug("Best candidate #{best_candidate[:elem].name}##{best_candidate[:elem][:id]}.#{best_candidate[:elem][:class]} with score #{best_candidate[:content_score]}")
 
       best_candidate
     end

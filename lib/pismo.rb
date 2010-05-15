@@ -29,8 +29,9 @@ class Nokogiri::HTML::Document
     self.search(search).first rescue nil
   end
   
-  def match(*queries)
-    queries.each do |query|
+  def match(queries = [], all = false)
+    r = [] if all
+    [*queries].each do |query|
       if query.is_a?(String)
         result = self.search(query).first.inner_text.strip rescue nil
       elsif query.is_a?(Array)
@@ -42,9 +43,13 @@ class Nokogiri::HTML::Document
       #  result.gsub!(/\342\200\224/, '-')
         result.gsub!('’', '\'')
         result.gsub!('—', '-')
-        return result
+        if all
+          r << result
+        else
+          return result
+        end
       end
     end
-    return nil
+    all && !r.empty? ? r : nil
   end
 end
