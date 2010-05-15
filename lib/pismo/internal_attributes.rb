@@ -34,8 +34,19 @@ module Pismo
                         )
       
       # If all else fails, go to the HTML title
-      title || html_title
+      if all
+        return [html_title] if !title
+        return ([*title] + [html_title]).uniq
+      else
+        return html_title if !title
+        return title
+      end
     end
+    
+    def titles
+      title(true)
+    end
+    
     
     # HTML title
     def html_title
@@ -93,7 +104,7 @@ module Pismo
     # end
     
     # Returns the author of the page/content
-    def author
+    def author(all = false)
       author = @doc.match([
                           '.post-author .fn',
                           '.wire_author',
@@ -122,15 +133,24 @@ module Pismo
                           '.blog_meta a',
                           'cite a',
                           'cite'
-                          ])
+                          ], all)
                           
       return unless author
     
       # Strip off any "By [whoever]" section
-      author.sub!(/^(post(ed)?\s)?by\W+/i, '')
+      if String === author
+        author.sub!(/^(post(ed)?\s)?by\W+/i, '')
+      elsif Array === author
+        author.map! { |a| a.sub(/^(post(ed)?\s)?by\W+/i, '') }.uniq!
+      end
       
       author
     end
+    
+    def authors
+      author(true)
+    end
+    
     
     # Returns the "description" of the page, usually comes from a meta tag
     def description
@@ -142,8 +162,8 @@ module Pismo
        ])
     end
     
-    # Returns the "lede" or first paragraph of the story/page
-    def lede
+    # Returns the "lede(s)" or first paragraph(s) of the story/page
+    def lede(all = false)
       lede = @doc.match([ 
                   '.post-text p',
                   '#blogpost p',
@@ -168,13 +188,19 @@ module Pismo
                   '.document_description_short p',    # Scribd
                   '.single-post p',
                   'p'
-                  ])
+                  ], all)
        
-      if lede
+      if lede && String === lede
         return lede[/^(.*?\.\s){2}/m] || lede
+      elsif lede && Array === lede
+        return lede.map { |l| l.to_s[/^(.*?\.\s){2}/m] || l }.uniq
       else
         return body ? body[/^(.*?\.\s){2}/m] : nil
       end
+    end
+    
+    def ledes
+      lede(true)
     end
     
     # Returns the "keywords" in the document (not the meta keywords - they're next to useless now)
@@ -223,19 +249,32 @@ module Pismo
       end
       
       url
-    end    # Give bonus if item has feed associated with it internally
+    end
     
-    # Returns URL of Web feed
-    def feed
+    # Returns URL(s) of Web feed(s)
+    def feed(all = false)
       url = @doc.match([['link[@type="application/rss+xml"]', lambda { |el| el.attr('href') }],
-                        ['link[@type="application/atom+xml"]', lambda { |el| el.attr('href') }]]
+                        ['link[@type="application/atom+xml"]', lambda { |el| el.attr('href') }]], all
       )
       
-      if url && url !~ /^http/ && @url
+      if url && String === url && url !~ /^http/ && @url
         url = URI.join(@url , url).to_s
+      elsif url && Array === url
+        url.map! do |u|
+          if u !~ /^http/ && @url
+            URI.join(@url, u).to_s
+          else
+            u
+          end
+        end
+        url.uniq!
       end
       
       url
+    end
+    
+    def feeds
+      feed(true)
     end
   end
 end
