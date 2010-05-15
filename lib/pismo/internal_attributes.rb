@@ -134,7 +134,7 @@ module Pismo
                           '.blog_meta a',
                           'cite a',
                           'cite',
-                          '.contributor_details h4'
+                          '.contributor_details h4 a'
                           ], all)
                           
       return unless author
