@@ -216,17 +216,19 @@ module Pismo
       # Convert doc to lowercase, scrub out most HTML tags, then keep track of words
       cached_title = title
       content_to_use = body.to_s.downcase + description.to_s.downcase
-      
-      content_to_use.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub('. ', ' ').gsub(/\&\w+\;/, '').scan(/\b[a-z][a-z\+\.\'\+\#\-]*\b/).each do |word|
+
+      # old regex for safe keeping -- \b[a-z][a-z\+\.\'\+\#\-]*\b
+      content_to_use.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub('. ', ' ').gsub(/\&\w+\;/, '').scan(/(\b|\s|\A)([a-z][a-z\+\.\'\+\#\-]*)(\b|\s|\Z)/).map{ |ta1| ta1[1] }.each do |word|
         next if word.length > options[:word_length_limit]
         word.gsub!(/\'\w+/, '')
         words[word] ||= 0
-        words[word] += (cached_title =~ /#{word}/i ? 5 : 1)
+        words[word] += (cached_title.downcase.include?(word) ? 5 : 1)
       end
 
       # Stem the words and stop words if necessary
       d = words.keys.uniq.map { |a| a.length > options[:stem_at] ? a.stem : a }
       s = File.read(File.dirname(__FILE__) + '/stopwords.txt').split.map { |a| a.length > options[:stem_at] ? a.stem : a }
+
             
       w = words.delete_if { |k1, v1| s.include?(k1) || (v1 < 2 && words.size > 80) }.sort_by { |k2, v2| v2 }.reverse.first(options[:limit])
       return w
