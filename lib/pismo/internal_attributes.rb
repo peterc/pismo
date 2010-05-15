@@ -29,6 +29,7 @@ module Pismo
                             '.mxb h1',                                                        # BBC News
                             '#content h1',
                             '#content h2',
+                            '#content h3',
                             'a[@rel="bookmark"]'
                           ],
                           all
