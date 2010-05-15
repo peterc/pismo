@@ -2,35 +2,42 @@
 
 * http://github.com/peterc/pismo
 
-== STATUS:
-
-pismo is a VERY NEW project developed for use on http://coder.io/ - my forthcoming developer news aggregator. pismo is FAR FROM COMPLETE. If you're brave, you can have a PLAY with it as the examples below and those in the test suite/corpus do work - all tests pass.
-
-The prime missing features so far are the "external attributes" - where calls are made to external services like Delicious, Yahoo, Bing, etc, for getting third party data about documents. The structures are there but I'm still deciding how best to integrate these ideas.
-
 == DESCRIPTION:
 
-Pismo extracts metadata and machine-usable data from otherwise unstructured 
-HTML documents, including titles, body text, graphics, date, and keywords.
+Pismo extracts metadata and machine-usable data from mostly unstructured (or poorly structured)
+HTML documents. These data include titles, feed URLs, ledes, body text, graphics, date, and keywords.
 
-For example, if you have a blog post HTML file, Pismo should, in theory, be
-able to extract the title, the actual "content", images relating to the
-content, look up Delicious tags, and analyze for keywords.
+For example, if you have a blog post HTML file, Pismo, in theory, should
+extract the title, the actual "content", and analyze for keywords, among other things.
 
-Pismo only understands English. Je suis desolé.
+Pismo only understands (and much prefers) English. Je suis desolé.
 
-== SYNOPSIS:
+== EXAMPLES:
 
 * Basic demo:
 
-    require 'open-uri'
     require 'pismo'
-    doc = Pismo::Document.new(open('http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html'))
+    
+    # Load a Web page (you can pass an IO object or a string with existing HTML data along too, if you prefer)
+    doc = Pismo::Document.new('http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html')
+    
     doc.title     # => "Cramp: Asychronous Event-Driven Ruby Web App Framework"
     doc.author    # => "Peter Cooper"
     doc.lede      # => "Cramp (GitHub repo)is a new, asynchronous evented Web app framework by Pratik Naik of 37signals (and the Rails core team). It's built around Ruby's EventMachine library and was designed to use event-driven I/O throughout - making it ideal for situations where you need to handle a large number of open connections (such as Comet systems or streaming APIs.)"
     doc.keywords  # => [["cramp", 7], ["controllers", 3], ["app", 3], ["basic", 2], ..., ... ]
+
+* New features in 0.4.0
+
+  Pismo is not perfect and you might like to instead see all of the potential titles/ledes/authors or feeds that Pismo can find. You can now do this and judge them by your metrics.
+
+    doc.titles    # => [..., ..., ...]    
+    doc.ledes    # => [..., ..., ...]    
+    doc.authors    # => [..., ..., ...]    
+    doc.feeds    # => [..., ..., ...]
     
+== STATUS:
+
+Pismo is a work in progress and is being used heavily in the development of http://coder.io/. Pismo is used in production systems on both Ruby 1.8 and 1.9. I do not know how it fares on JRuby, Rubinius, or others yet.    
 
 == COMMAND LINE TOOL:
 
@@ -55,8 +62,8 @@ great for testing, or perhaps calling it from a non Ruby script. The output is c
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a future version unintentionally.
-* Commit, do not mess with Rakefile, version, or history.
-* Send me a pull request. I may or may not accept it.
+* Commit, do not mess with Rakefile, version, or history as it's handled by Jeweler (which is awesome, btw).
+* Send me a pull request. I may or may not accept it (sorry, practicality rules.. but message me and we can talk!)
 
 == COPYRIGHT AND LICENSE
 
@@ -65,4 +72,4 @@ Apache 2.0 License - See LICENSE for details.
 All except lib/pismo/readability.rb is Copyright (c) 2009, 2010 Peter Cooper
 lib/pismo/readability.rb is Copyright (c) 2009, 2010 Arc90 Inc, starrhorne, and iterationlabs
 
-The readability stuff was ganked from http://github.com/iterationlabs/ruby-readability
+The readability stuff was ganked from http://github.com/iterationlabs/ruby-readability - sorry! I have respected the license, however. I have promised to contribute back to them directly and, hopefully, use that library as a regular dependency. But.. this takes time.
