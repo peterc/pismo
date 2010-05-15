@@ -11,6 +11,7 @@ module Pismo
                             '.post-title a',
                             '.post_title a',
                             '.posttitle a',
+                            '.post-header h1',
                             '.entry-title',
                             '.post-title',
                             '.posttitle',
@@ -132,7 +133,8 @@ module Pismo
                           '.ArticleAuthor a',
                           '.blog_meta a',
                           'cite a',
-                          'cite'
+                          'cite',
+                          '.contributor_details h4'
                           ], all)
                           
       return unless author
