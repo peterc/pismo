@@ -14,6 +14,8 @@
 
 require 'nokogiri'
 
+IS_RUBY19 = "a".respond_to?(:encoding)
+
 module Readability
   class Document
     TEXT_LENGTH_THRESHOLD = 25
@@ -28,14 +30,14 @@ module Readability
     end
 
     def make_html
-      @html = Nokogiri::HTML(@input, nil, 'UTF-8')
+      @html = Nokogiri::HTML(@input) #, nil, 'UTF-8')
     end
 
     REGEXES = {
         :unlikelyCandidatesRe => /combx|comment|disqus|foot|header|menu|meta|nav|rss|shoutbox|sidebar|sponsor/i,
         :okMaybeItsACandidateRe => /and|article|body|column|main/i,
-        :positiveRe => /article|body|content|entry|hentry|page|pagination|post|text/i,
-        :negativeRe => /combx|comment|contact|foot|footer|footnote|link|media|meta|promo|related|scroll|shoutbox|sponsor|tags/i,
+        :positiveRe => /article|body|content|entry|hentry|page|pagination|post|story|text/i,
+        :negativeRe => /combx|comment|contact|foot|box_wrap|footer|footnote|link|media|meta|promo|related|scroll|shoutbox|sponsor|tags/i,
         :divToPElementsRe => /<(a|blockquote|dl|div|img|ol|p|pre|table|ul)/i,
         :replaceBrsRe => /(<br[^>]*>[ \n\r\t]*){2,}/i,
         :replaceFontsRe => /<(\/?)font[^>]*>/i,
@@ -135,8 +137,16 @@ module Readability
         candidates[grand_parent_node] ||= score_node(grand_parent_node) if grand_parent_node
 
         content_score = 1
-        content_score += inner_text.split(',').length
-        content_score += [(inner_text.length / 100).to_i, 3].min
+        
+        begin
+          content_score += inner_text.split(',').length          
+          content_score += [(inner_text.length / 100).to_i, 3].min
+        rescue => e
+          raise e unless IS_RUBY19
+          inner_text.force_encoding('ASCII-8BIT')
+          content_score += inner_text.split(',').length          
+          content_score += [(inner_text.length / 100).to_i, 3].min
+        end
 
         candidates[parent_node][:content_score] += content_score
         candidates[grand_parent_node][:content_score] += content_score / 2.0 if grand_parent_node
@@ -209,7 +219,8 @@ module Readability
       @html.css("*").each do |elem|
         if elem.name.downcase == "div"
           # transform <div>s that do not contain other block elements into <p>s
-          if elem.inner_html !~ REGEXES[:divToPElementsRe]
+          elem_inner_html = IS_RUBY19 ? elem.inner_html.dup.force_encoding('ASCII-8BIT') : elem.inner_html
+          if elem_inner_html !~ REGEXES[:divToPElementsRe]
             debug("Altering div(##{elem[:id]}.#{elem[:class]}) to p");
             elem.name = "p"
           end
@@ -255,7 +266,7 @@ module Readability
         if weight + content_score < 0
           el.remove
           debug("Conditionally cleaned #{name}##{el[:id]}.#{el[:class]} with weight #{weight} and content score #{content_score} because score + content score was less than zero.")
-        elsif el.text.count(",") < 10
+        elsif (IS_RUBY19 && el.text.force_encoding("ASCII-8BIT").count(",") < 10) || (!IS_RUBY19 && el.text.count(",") < 10)
           counts = %w[p img li a embed input].inject({}) { |m, kind| m[kind] = el.css(kind).length; m }
           counts["li"] -= 100
 
@@ -308,13 +319,23 @@ module Readability
 
           # Otherwise, replace the element with its contents
         else
-          el.swap(el.text)
+          begin
+            el.swap(el.text)
+          rescue => e
+            raise e unless IS_RUBY19
+            el.swap(el.text.force_encoding("ASCII-8BIT"))
+          end
         end
 
       end
 
       # Get rid of duplicate whitespace
-      node.to_html.gsub(/[\r\n\f]+/, "\n" ).gsub(/[\t ]+/, " ").gsub(/&nbsp;/, " ")
+      begin
+        node.to_html.gsub(/[\r\n\f]+/, "\n" ).gsub(/[\t ]+/, " ").gsub(/&nbsp;/, " ")
+      rescue => e
+        raise e unless IS_RUBY19
+        node.to_html.force_encoding("ASCII-8BIT").gsub(/[\r\n\f]+/, "\n" ).gsub(/[\t ]+/, " ").gsub(/&nbsp;/, " ")
+      end
     end
 
   end

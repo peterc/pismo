@@ -14,6 +14,7 @@ module Pismo
                             '.post-header h1',
                             '.entry-title',
                             '.post-title',
+                            '.post h3 a',
                             '.posttitle',
                             '.post_title',
                             '.pageTitle',
@@ -31,7 +32,9 @@ module Pismo
                             '#content h2',
                             '#content h3',
                             'a[@rel="bookmark"]',
-                            '.products h2'
+                            '.products h2',
+                            '.caption h3',
+                            '#main h2'
                           ],
                           all
                         )
@@ -117,6 +120,7 @@ module Pismo
                           ['meta[@name="author"]', lambda { |el| el.attr('content') }],     # Traditional meta tag style
                           ['meta[@name="AUTHOR"]', lambda { |el| el.attr('content') }],     # CNN style
                           '.byline a',                                                      # Ruby Inside style
+                          '.byline',
                           '.post_subheader_left a',                                         # TechCrunch style
                           '.byl',                                                           # BBC News style
                           '.meta a',
@@ -144,6 +148,11 @@ module Pismo
       # Strip off any "By [whoever]" section
       if String === author
         author.sub!(/^(post(ed)?\s)?by\W+/i, '')
+        author.tr!('^a-zA-Z 0-9\'', '|')
+        author = author.split(/\|{2,}/).first.to_s
+        author.gsub!(/\s+/, ' ')
+        author.gsub!(/\|/, '')
+        author.strip!
       elsif Array === author
         author.map! { |a| a.sub(/^(post(ed)?\s)?by\W+/i, '') }.uniq!
       end
@@ -171,6 +180,7 @@ module Pismo
       lede = @doc.match([ 
                   '.post-text p',
                   '#blogpost p',
+                  '.story-teaser',
                   '.subhead',
                   '//div[@class="entrytext"]//p[string-length()>10]',                      # Ruby Inside / Kubrick style
                   'section p',
