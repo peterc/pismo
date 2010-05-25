@@ -1,16 +1,13 @@
-# pismo (Web page content analyzer and metadata extractor)
-
-* http://github.com/peterc/pismo
+# pismo - Web page content analysis and metadata extraction
+http://github.com/peterc/pismo
 
 ## DESCRIPTION:
 
 Pismo extracts metadata and machine-usable data from mostly unstructured (or poorly structured)
-HTML documents. These data include titles, feed URLs, ledes, body text, graphics, date, and keywords.
+English-language HTML documents. These data include titles, feed URLs, ledes, body text, graphics, date, and keywords.
 
 For example, if you have a blog post HTML file, Pismo, in theory, should
 extract the title, the actual "content", and analyze for keywords, among other things.
-
-Pismo only understands (and much prefers) English. Je suis desolé.
 
 ## EXAMPLES:
 
@@ -26,7 +23,9 @@ Pismo only understands (and much prefers) English. Je suis desolé.
     
 ## STATUS:
 
-Pismo is a work in progress and is being used heavily in the development of http://coder.io/. Pismo is used in production systems on both Ruby 1.8 and 1.9. I do not know how it fares on JRuby, Rubinius, or others yet.    
+Pismo is a work in progress and is being used heavily in the development of http://coder.io/. Pismo is used in production systems on both Ruby 1.8 and 1.9. I do not know how it fares on JRuby, Rubinius, or others yet.
+
+Planned/forthcoming features include the fetching of "external" data like tags from Delicious, content analysis through 3rd party services, and extraction of graphics from the main article text (for thumbnailing, say).
 
 ## NEW IN 0.5.0:
 
@@ -49,9 +48,9 @@ Now you can get playing with Pismo faster. This is primarily useful for debuggin
 Pismo is not perfect and you might like to instead see all of the potential titles/ledes/authors or feeds that Pismo can find. You can now do this and judge them by your metrics.
 
     doc.titles    # => [..., ..., ...]    
-    doc.ledes    # => [..., ..., ...]    
-    doc.authors    # => [..., ..., ...]    
-    doc.feeds    # => [..., ..., ...]
+    doc.ledes     # => [..., ..., ...]    
+    doc.authors   # => [..., ..., ...]    
+    doc.feeds     # => [..., ..., ...]
     
 ## COMMAND LINE TOOL:
 

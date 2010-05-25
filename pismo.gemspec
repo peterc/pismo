@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
     ".document",
      ".gitignore",
      "LICENSE",
+     "README.markdown",
      "Rakefile",
      "VERSION",
      "bin/pismo",
