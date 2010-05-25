@@ -38,6 +38,10 @@ module Pismo
       @doc = Nokogiri::HTML(@html)
     end
     
+    def match(args = [], all = false)
+      @doc.match([*args], all)
+    end
+    
     def clean_html(html)
       html.gsub!('&#8217;', '\'')
       html.gsub!('&#8221;', '"')

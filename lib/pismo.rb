@@ -11,9 +11,22 @@ require 'pismo/document'
 require 'pismo/readability'
 
 module Pismo
-  # Sugar method to make creating document objects nicer
+  # Sugar methods to make creating document objects nicer
   def self.document(handle, url = nil)
     Document.new(handle, url)
+  end
+  
+  # Load a URL, as with Pismo['http://www.rubyinside.com'], and caches the Pismo document
+  # (mostly useful for debugging use)
+  def self.[](url)
+    @docs ||= {}
+    @docs[url] ||= Pismo::Document.new(open(url))
+  end
+  
+  
+  # Return stopword list
+  def self.stopwords
+    @stopwords ||= File.read(File.dirname(__FILE__) + '/pismo/stopwords.txt').split rescue []
   end
   
   class NFunctions
@@ -33,7 +46,13 @@ class Nokogiri::HTML::Document
     r = [] if all
     [*queries].each do |query|
       if query.is_a?(String)
-        result = self.search(query).first.inner_text.strip rescue nil
+        if el = self.search(query).first
+          if el.name.downcase == "meta"
+            result = el['content'].strip rescue nil
+          else
+            result = el.inner_text.strip rescue nil
+          end
+        end
       elsif query.is_a?(Array)
         result = query[1].call(self.search(query.first).first).strip rescue nil
       end

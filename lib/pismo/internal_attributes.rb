@@ -6,6 +6,7 @@ module Pismo
       # TODO: Memoizations
       title = @doc.match( 
                           [
+                            '#pname a',                                                       # Google Code style
                             '.entryheader h1',                                                # Ruby Inside/Kubrick
                             '.entry-title a',                                               # Common Blogger/Blogspot rules
                             '.post-title a',
@@ -24,7 +25,6 @@ module Pismo
                             '.entry h2',                                                      # Common style
                             '.boite_titre a',
                             ['meta[@name="title"]', lambda { |el| el.attr('content') }],
-                            '#pname a',                                                       # Google Code style
                             'h1.headermain',
                             'h1.title',
                             '.mxb h1',                                                        # BBC News
@@ -118,6 +118,7 @@ module Pismo
                           '.editorlink',
                           '.authors p',
                           ['meta[@name="author"]', lambda { |el| el.attr('content') }],     # Traditional meta tag style
+                          ['meta[@name="Author"]', lambda { |el| el.attr('content') }],     # CNN style
                           ['meta[@name="AUTHOR"]', lambda { |el| el.attr('content') }],     # CNN style
                           '.byline a',                                                      # Ruby Inside style
                           '.byline',
@@ -170,6 +171,7 @@ module Pismo
       @doc.match([
                   ['meta[@name="description"]', lambda { |el| el.attr('content') }],
                   ['meta[@name="Description"]', lambda { |el| el.attr('content') }],
+                  ['meta[@name="DESCRIPTION"]', lambda { |el| el.attr('content') }],
                   'rdf:Description[@name="dc:description"]',
                   '.description'
        ])
@@ -228,7 +230,7 @@ module Pismo
       content_to_use = body.to_s.downcase + description.to_s.downcase
 
       # old regex for safe keeping -- \b[a-z][a-z\+\.\'\+\#\-]*\b
-      content_to_use.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub('. ', ' ').gsub(/\&\w+\;/, '').scan(/(\b|\s|\A)([a-z][a-z\+\.\'\+\#\-]*)(\b|\s|\Z)/).map{ |ta1| ta1[1] }.each do |word|
+      content_to_use.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub(/\.+\s+/, ' ').gsub(/\&\w+\;/, '').scan(/(\b|\s|\A)([a-z0-9][a-z0-9\+\.\'\+\#\-\/\\]*)(\b|\s|\Z)/i).map{ |ta1| ta1[1] }.each do |word|
         next if word.length > options[:word_length_limit]
         word.gsub!(/\'\w+/, '')
         words[word] ||= 0
@@ -237,7 +239,7 @@ module Pismo
 
       # Stem the words and stop words if necessary
       d = words.keys.uniq.map { |a| a.length > options[:stem_at] ? a.stem : a }
-      s = File.read(File.dirname(__FILE__) + '/stopwords.txt').split.map { |a| a.length > options[:stem_at] ? a.stem : a }
+      s = Pismo.stopwords.map { |a| a.length > options[:stem_at] ? a.stem : a }
 
             
       w = words.delete_if { |k1, v1| s.include?(k1) || (v1 < 2 && words.size > 80) }.sort_by { |k2, v2| v2 }.reverse.first(options[:limit])
