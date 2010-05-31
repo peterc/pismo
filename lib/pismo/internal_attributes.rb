@@ -16,9 +16,11 @@ module Pismo
                             '.entry-title',
                             '.post-title',
                             '.post h3 a',
+                            'a.datitle',          # Slashdot style
                             '.posttitle',
                             '.post_title',
                             '.pageTitle',
+                            '#main h1.title',
                             '.title h1',                          
                             '.post h2',
                             'h2.title',
@@ -34,7 +36,12 @@ module Pismo
                             'a[@rel="bookmark"]',
                             '.products h2',
                             '.caption h3',
-                            '#main h2'
+                            '#main h2',
+                            '#body h1',
+                            '#wrapper h1',
+                            '#page h1',
+                            '.asset-header h1',
+                            '#body_content h2'
                           ],
                           all
                         )
@@ -58,9 +65,9 @@ module Pismo
     def html_title
       title = @doc.match('title')
       return unless title
-
+      title
       # Strip off any leading or trailing site names - a scrappy way to try it out..
-      title = title.split(/\s+(\-|\||\:)\s+/).sort_by { |i| i.length }.last.to_s.strip
+      #title = title.split(/\s+(\-|\||\:)\s+/).sort_by { |i| i.length }.last.to_s.strip
     end
     
     # Return an estimate of when the page/content was created
@@ -221,7 +228,7 @@ module Pismo
     
     # Returns the "keywords" in the document (not the meta keywords - they're next to useless now)
     def keywords(options = {})
-      options = { :stem_at => 10, :word_length_limit => 15, :limit => 20 }.merge(options)
+      options = { :stem_at => 20, :word_length_limit => 15, :limit => 20 }.merge(options)
       
       words = {}
       
