@@ -69,6 +69,9 @@ great for testing, or perhaps calling it from a non Ruby script. The output is c
     :lede: Cramp (GitHub repo)is a new, asynchronous evented Web app framework by Pratik Naik of 37signals
     :author: Peter Cooper
     :datetime: 2010-01-07 12:00:00 +00:00
+    
+If you call pismo without any arguments (except a URL), it starts an IRB session so you can directly work in Ruby. The URL provided is loaded
+and assigned to both the constant 'P' and the variable @p.
 
 ## Note on Patches/Pull Requests
  

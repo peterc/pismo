@@ -24,6 +24,7 @@ module Pismo
                             '.title h1',                          
                             '.post h2',
                             'h2.title',
+                            '.entry h2 a',
                             '.entry h2',                                                      # Common style
                             '.boite_titre a',
                             ['meta[@name="title"]', lambda { |el| el.attr('content') }],

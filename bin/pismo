@@ -18,6 +18,7 @@ require 'yaml'
 require 'rubygems'
 $:.unshift(File.dirname(__FILE__) + "/../lib")
 require 'pismo'
+require 'irb'
 
 url = ARGV.shift
 
@@ -27,10 +28,17 @@ end
 
 doc = Pismo.document(url)
 
-output = { :url => doc.url }
-
-(ARGV.empty? ? Pismo::Document::ATTRIBUTE_METHODS : ARGV).each do |cmd|
-  output[cmd.to_sym] = doc.send(cmd) rescue nil
+if ARGV.empty?
+  P = doc
+  @p = doc
+  puts "Pismo has loaded #{url} into @p and P"
+  IRB.start
+else
+  output = { :url => doc.url }
+  
+  ARGV.each do |cmd|
+    output[cmd.to_sym] = doc.send(cmd) rescue nil
+  end
+  
+  puts output.to_yaml
 end
-
-puts output.to_yaml
