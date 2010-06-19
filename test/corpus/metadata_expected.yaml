@@ -54,5 +54,4 @@
   :title: "CoffeeScript: A New Language With A Pure Ruby Compiler"
   :author: Peter Cooper
   :lede: CoffeeScript (GitHub repo) is a new programming language with a pure Ruby compiler. Creator Jeremy Ashkenas calls it "JavaScript's less ostentatious kid brother" - mostly because it compiles into JavaScript and shares most of the same constructs, but with a different, tighter syntax.
-  :body: "CoffeeScript (GitHub repo) is a new programming language with a pure Ruby compiler. Creator Jeremy Ashkenas calls it \"JavaScript's less ostentatious kid brother\" - mostly because it compiles into JavaScript and shares most of the same constructs, but with a different, tighter syntax.\nTo get a feel for the language, check out this example code (CoffeeScript on the left, resulting JavaScript on the right):\nAs a Ruby project, you can get the CoffeeScript compiler installed with a simple gem install coffee-script or check out the code from/on GitHub. The code is worth a look as it's notably quite vanilla with hand crafted Ruby covering the lexer and code generation and Racc built code for the parser.\n"
   :feed: http://www.rubyinside.com/feed/

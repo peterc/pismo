@@ -85,7 +85,6 @@ and assigned to both the constant 'P' and the variable @p.
 
 Apache 2.0 License - See LICENSE for details.
 
-All except lib/pismo/readability.rb is Copyright (c) 2009, 2010 Peter Cooper
-lib/pismo/readability.rb is Copyright (c) 2009, 2010 Arc90 Inc, starrhorne, and iterationlabs
+Copyright (c) 2009, 2010 Peter Cooper
 
-The readability stuff was ganked from http://github.com/iterationlabs/ruby-readability - sorry! I have respected the license, however. I have promised to contribute back to them directly and, hopefully, use that library as a regular dependency. But.. this takes time.
+In short, you can use Pismo for whatever you like, but please include a brief credit somewhere deep in your license file or similar, and, if you're a nice kinda person, let me know if you're using it and/or share any significant changes or improvements you make.

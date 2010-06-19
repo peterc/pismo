@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <title>Gmane -- Mail To News And Back Again</title>
+    <link href="http://gmane.org/img/gmane.css" rel="stylesheet" type="text/css">
+    <link rel="SHORTCUT ICON" href="http://gmane.org/favicon.ico">
+</head>
+<body bgcolor=white text=black class=main>
+  <table cellpadding=5 cellspacing=10 class="main">
+  <tr valign=top>
+  <td class="maintd">
+  <div class="tdiv">
+  <div>
+  <a href="http://gmane.org/">Home</a><br>
+  <a href="http://dir.gmane.org/">Reading</a><br>
+  <a href="http://search.gmane.org">Searching</a><br>
+  <a href="http://gmane.org/subscribe.php">Subscribe</a><br>
+  <a href="http://gmane.org/sponsors.php">Sponsors</a><br>
+  <a href="http://gmane.org/stats.php">Statistics</a><br>
+  <a href="http://gmane.org/post.php">Posting</a><br>
+  <a href="http://gmane.org/contact.php">Contact</a><br>
+  <a href="http://gmane.org/spam-control.php">Spam</a><br>
+  <a href="http://gmane.org/find.php">Lists</a><br>
+  <a href="http://gmane.org/links.php">Links</a><br>
+<a href="http://gmane.org/about.php">About</a><br>
+<a href="http://gmane.org/host.php">Hosting</a><br>
+<a href="http://gmane.org/filter.php">Filtering</a><br>
+<a href="http://gmane.org/features.php">Features</a>
+<a href="http://gmane.org/dist.php">Download</a><br>
+<a href="http://gmane.org/logo.php">Marketing</a><br>
+<a href="http://gmane.org/import.php">Archives</a><br>
+<a href="http://weaver.gmane.org/">Weaver</a><br>
+  <a href="http://gmane.org/faq.php">FAQ</a><br>
+  &nbsp;<br>
+  </div>
+  <div class="ltd">
+  <!-- <img src="http://gmane.org/img/gmane-25.png" width=25 height=25 alt="Gmane"> -->
+  </div>
+  </div>
+  </td>
+  <td align=center class="maintd">
+  <a href="http://gmane.org/"><img src="http://gmane.org/img/gmane-rot.png" alt="Gmane" border=0></a>
+  </td>
+  <td class="bodytd">  
+<div class="headers">
+<div class="face">
+<img border=0 alt="Favicon" src="http://cache.gmane.org/gmane/comp/gcc/devel/114407-favicon.png">
+</div>
+From: Mark Mitchell &lt;mark &lt;at&gt; codesourcery.com&gt;<br>
+Subject: <a target="_top" rel="nofollow" href="http://news.gmane.org/find-root.php?message_id=%3c4C030228.8020201%40codesourcery.com%3e">Using C++ in GCC is OK</a><br>
+Newsgroups: <a href="http://news.gmane.org/gmane.comp.gcc.devel" target="_top">gmane.comp.gcc.devel</a><br>
+Date: 2010-05-31 00:26:16 GMT
+ (1 week, 5 days, 5 hours and 22 minutes ago)<br></div>
+<pre>
+I am pleased to report that the GCC Steering Committee and the FSF have
+approved the use of C++ in GCC itself.  Of course, there's no reason for
+us to use C++ features just because we can.  The goal is a better
+compiler for users, not a C++ code base for its own sake.
+
+Before we start to actually use C++, we need to determine a set of
+coding standards that will apply to use of C++ within GCC.  At first, I
+believe that we should keep the set of C++ features permitted small, in
+part so that GCC developers not familiar with C++ are not rapidly
+overwhelmed by a major change in the implementation language for the
+compiler itself.  We can always use more of C++ later if it seems
+appropriate to do so, then.
+
+For example, I think it goes without question that at this point we are
+limiting ourselves to C++98 (plus "long long" so that we have a 64-bit
+integer type); C++0x features should not be used.  Using multiple
+inheritance, templates (other than when using the C++ standard library,
+e.g. std::list&lt;X&gt;), or exceptions also seems overly aggressive to me.
+We should use features that are relatively easy for C programmers to
+understand and relatively hard for new C++ programmers to misuse.  (For
+example, I think constructors and destructors are pretty easy and hard
+to misuse.)
+
+Because C++ is a big language, I think we should try to enumerate what
+is OK, rather than what is not OK.  But, at the same time, I don't think
+we should try to get overly legalistic about exactly what is in and what
+is out.  We need information guidelines, not an ISO standard.
+
+Is there anyone who would like to volunteer to develop the C++ coding
+standards?  I think that this could be done as a Wiki page.  (If nobody
+volunteers, I will volunteer myself.)  Whoever ends up doing this, I
+would urge the rest of us not to spend too much time in the C++
+coding-standards bikeshed; we're not going to win or lose too much
+because we do or do not permit default parameters.
+
+-- 
+Mark Mitchell
+CodeSourcery
+mark &lt;at&gt; codesourcery.com
+(650) 331-3385 x713
+
+</pre>
+<script type="text/javascript">
+document.domain = 'gmane.org';
+document.title = 'Using C   in GCC is OK';
+</script>
+<td rowspan=2 class="listid">
+<a href="http://dir.gmane.org/gmane.comp.gcc.devel">
+<img border=0 rel=nofollow src="http://gmane.org/paint-list-id.php?group=gmane.comp.gcc.devel">
+</a>
+</td> 
+</td>
+</tr>
+<tr>
+<td class="bads" colspan=2>
+&nbsp;
+<!--
+Get rid of ads<br><a href="http://gmane.org/donate.php">Donate to Gmane</a>
+-->
+</td>
+<td class="maintd" colspan=1 align=left>
+<script type="text/javascript"><!--
+google_ad_client = "pub-5884878215917141";
+google_alternate_ad_url = "http://gmane.org/blank.php";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_channel ="";
+google_page_url = document.location;
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "002390";
+google_color_url = "000000";
+google_color_text = "000000";
+google_ad_type = "text_image";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+  </td>
+  </tr>
+  </table>
+  </body>
+</html>

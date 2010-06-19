@@ -219,7 +219,7 @@ module Pismo
       elsif lede && Array === lede
         return lede.map { |l| l.to_s[/^(.*?\.\s){2}/m] || l }.uniq
       else
-        return body ? body[/^(.*?\.\s){2}/m] : nil
+        return reader_doc && !reader_doc.sentences(2).empty? ? reader_doc.sentences(2).join(' ') : nil
       end
     end
     
@@ -254,15 +254,13 @@ module Pismo
       return w
     end
     
-    # Returns body text as determined by Arc90's Readability algorithm
+    def reader_doc
+      @reader_doc ||= Reader::Document.new(@doc.to_s)
+    end
+    
+    # Returns body text as determined by Reader algorithm
     def body
-      @body ||= Readability::Document.new(@doc.to_s).content.strip
-      
-      # HACK: Remove annoying DIV that readability leaves around
-      @body.sub!(/\A\<div\>/, '')
-      @body.sub!(/\<\/div\>\Z/, '')
-      
-      return @body
+      @body ||= reader_doc.content.strip      
     end
     
     # Returns URL to the site's favicon

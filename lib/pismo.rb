@@ -4,11 +4,12 @@ require 'open-uri'
 require 'nokogiri'
 require 'fast_stemmer'
 require 'chronic'
+require 'sanitize'
 require 'tempfile'
 
 $: << File.dirname(__FILE__)
 require 'pismo/document'
-require 'pismo/readability'
+require 'pismo/reader'
 
 module Pismo
   # Sugar methods to make creating document objects nicer
