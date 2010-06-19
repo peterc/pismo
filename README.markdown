@@ -3,27 +3,27 @@ http://github.com/peterc/pismo
 
 ## DESCRIPTION:
 
-Pismo extracts metadata and machine-usable data from mostly unstructured (or poorly structured)
-English-language HTML documents. These data include titles, feed URLs, ledes, body text, graphics, date, and keywords.
+Pismo extracts machine-usable metadata from unstructured (or poorly structured) English-language HTML documents.
+Data that Pismo can extract include titles, feed URLs, ledes, body text, image URLs, date, and keywords.
+Pismo is used heavily in production on http://coder.io/ to extract data from Web pages.
 
-For example, if you have a blog post HTML file, Pismo, in theory, should
-extract the title, the actual "content", and analyze for keywords, among other things.
+All tests pass on Ruby 1.8.7 (MRI) and Ruby 1.9.1-p378 (MRI).
 
 ## EXAMPLES:
 
     require 'pismo'
     
-    # Load a Web page (you can pass an IO object or a string with existing HTML data along too, if you prefer)
+    # Load a Web page (you could pass an IO object or a string with existing HTML data along, as you prefer)
     doc = Pismo::Document.new('http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html')
     
     doc.title     # => "Cramp: Asychronous Event-Driven Ruby Web App Framework"
     doc.author    # => "Peter Cooper"
-    doc.lede      # => "Cramp (GitHub repo)is a new, asynchronous evented Web app framework by Pratik Naik of 37signals (and the Rails core team). It's built around Ruby's EventMachine library and was designed to use event-driven I/O throughout - making it ideal for situations where you need to handle a large number of open connections (such as Comet systems or streaming APIs.)"
+    doc.lede      # => "Cramp (GitHub repo) is a new, asynchronous evented Web app framework by Pratik Naik of 37signals (and the Rails core team). It's built around Ruby's EventMachine library and was designed to use event-driven I/O throughout - making it ideal for situations where you need to handle a large number of open connections (such as Comet systems or streaming APIs.)"
     doc.keywords  # => [["cramp", 7], ["controllers", 3], ["app", 3], ["basic", 2], ..., ... ]
     
 ## STATUS:
 
-Pismo is a work in progress and is being used heavily in the development of http://coder.io/. Pismo is used in production systems on both Ruby 1.8 and 1.9. I do not know how it fares on JRuby, Rubinius, or others yet.
+I do not know how Pismo fares on JRuby, Rubinius, or others yet.
 
 Planned/forthcoming features include the fetching of "external" data like tags from Delicious, content analysis through 3rd party services, and extraction of graphics from the main article text (for thumbnailing, say).
 

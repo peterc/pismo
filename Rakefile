@@ -14,6 +14,7 @@ begin
     gem.default_executable = "pismo"
     gem.add_development_dependency "shoulda", ">= 0"
     gem.add_development_dependency "awesome_print"
+    gem.add_dependency "jeweler"
     gem.add_dependency "nokogiri"
     gem.add_dependency "sanitize"
     gem.add_dependency "fast-stemmer"

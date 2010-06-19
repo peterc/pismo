@@ -23,9 +23,9 @@ module Pismo
     
     def load(handle, url = nil)
       @url = url if url
-      @url = handle if handle =~ /\Ahttp/
+      @url = handle if handle =~ /\Ahttp/i
       
-      @html = if handle =~ /\Ahttp/
+      @html = if handle =~ /\Ahttp/i
                 open(handle).read
               elsif handle.is_a?(StringIO) || handle.is_a?(IO) || handle.is_a?(Tempfile)
                 handle.read
