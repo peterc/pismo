@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'sanitize'
+begin; require 'ap'; rescue LoadError; end
 
 module Pismo
   module Reader
@@ -20,7 +21,7 @@ module Pismo
       GOOD_WORDS = %w{content post blogpost main story body entry text desc asset hentry single entrytext postcontent bodycontent}.uniq
   
       # Words that indicate crap in general
-      BAD_WORDS = %w{reply metadata options commenting comments comment about footer header outer credit sidebar widget subscribe clearfix date social bookmarks links share video watch excerpt related supplement accessibility offscreen meta title signup blq secondary feedback featured clearfix small job jobs listing listings navigation nav byline addcomment postcomment trackback neighbor snap nopreview ads commentform fbfans login similar thumb link blogroll grid twitter wrapper container nav sitesub printfooter editsection visualclear catlinks hidden toc contentsub caption disqus rss shoutbox sponsor}.uniq
+      BAD_WORDS = %w{reply metadata options commenting comments comment about footer header outer credit sidebar widget subscribe clearfix date social bookmarks links share video watch excerpt related supplement accessibility offscreen meta title signup blq secondary feedback featured clearfix small job jobs listing listings navigation nav byline addcomment postcomment trackback neighbor ads commentform fbfans login similar thumb link blogroll grid twitter wrapper container nav sitesub printfooter editsection visualclear catlinks hidden toc contentsub caption disqus rss shoutbox sponsor}.uniq
       
       # Words that kill a branch dead
       FATAL_WORDS = %w{comments comment bookmarks social links ads related similar footer digg totop metadata sitesub nav sidebar commenting options addcomment leaderboard offscreen job prevlink prevnext navigation reply-link hide hidden sidebox archives vcard}
@@ -69,6 +70,8 @@ module Pismo
               
         @doc = Nokogiri::HTML(@raw_content, nil, 'utf-8')
         
+        #ap @raw_content
+        #exit
         build_analysis_tree
       end
     
@@ -221,7 +224,7 @@ module Pismo
       # Return the content from best match number of index (default 0) and, optionally, clean it to plain-text
       def content(clean = false, index = 0)
         return @content[[clean, index]] if @content[[clean, index]]
-        return '' unless @content_candidates && !@content_candidates.empty?
+        return '' if !@content_candidates || @content_candidates.empty?
         
         content_branch = @doc.at(@content_candidates[index].first)
         orphans_to_remove = []
