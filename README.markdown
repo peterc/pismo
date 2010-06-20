@@ -26,7 +26,9 @@ There's also a shorter "convenience" method which might be handy in IRB - it doe
 
     Pismo['http://www.rubyflow.com/items/4082'].title   # => "Install Ruby as a non-root User"
     
-The current metadata methods are #title, #titles, #author, #authors, #lede, #keywords, #sentences(qty), #body, #feed, #feeds, #favicon, #description and #datetime. These are not fully documented here yet, you'll just need to try them out. The plural methods like #titles, #authors, and #feeds will return multiple matches in an array, if present. This is so you can use your own techniques to choose a "best" result in ambiguous cases.
+The current metadata methods are #title, #titles, #author, #authors, #lede, #keywords, #sentences(qty), #body, #html_body, #feed, #feeds, #favicon, #description and #datetime. These are not fully documented here yet, you'll just need to try them out. The plural methods like #titles, #authors, and #feeds will return multiple matches in an array, if present. This is so you can use your own techniques to choose a "best" result in ambiguous cases.
+
+#html_body and #body will be of particular interest. They return the "body" of the page as determined by Pismo's "Reader" (like Arc90's Readability or Safari Reader) algorithm. #body returns it as plain-text, #html_body maintains some basic HTML styling.
     
 ## CAUTIONS / WARNINGS:
 

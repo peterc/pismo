@@ -189,7 +189,6 @@ module Pismo
                   '.post-text p',
                   '#blogpost p',
                   '.story-teaser',
-                  '.subhead',
                   '//div[@class="entrytext"]//p[string-length()>10]',                      # Ruby Inside / Kubrick style
                   'section p',
                   '.entry .text p',
@@ -206,7 +205,6 @@ module Pismo
                   '#article p',
                   '.post-body',
                   '.entry-content',
-                  '.body p',
                   '.document_description_short p',    # Scribd
                   '.single-post p'
                   ], all)
@@ -268,7 +266,12 @@ module Pismo
     
     # Returns body text as determined by Reader algorithm
     def body
-      @body ||= reader_doc.content.strip      
+      @body ||= reader_doc.content(true).strip      
+    end
+    
+    # Returns body text as determined by Reader algorithm WITH basic HTML formatting intact
+    def html_body
+      @html_body ||= reader_doc.content.strip      
     end
     
     # Returns URL to the site's favicon
