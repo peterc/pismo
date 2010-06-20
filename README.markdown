@@ -1,5 +1,4 @@
 # pismo - Web page content analysis and metadata extraction
-http://github.com/peterc/pismo
 
 ## DESCRIPTION:
 
@@ -39,7 +38,7 @@ There are some shortcomings or problems that I'm aware of and am going to pursue
 * The "Reader" content extraction algorithm is not perfect. It can sometimes return crap and can barf on certain types of characters for sentence extraction.
 * The author name extraction is quite poor.
 * The image extraction only handles images with absolute URLs.
-* The stopword list leaves a bit to be desired. It errs on the side of being too long rather than too short, though.
+* The stopword list leaves a bit to be desired. It errs on the side of being too long rather than too short, though (1024 words long!)
 
 ## OTHER GROOVY STUFF:
         
@@ -84,3 +83,5 @@ Apache 2.0 License - See LICENSE for details.
 Copyright (c) 2009, 2010 Peter Cooper
 
 In short, you can use Pismo for whatever you like commercial or not, but please include a brief credit (as in the NOTICE file - as per the Apache 2.0 License) somewhere deep in your license file or similar, and, if you're nice and have the time, let me know if you're using it and/or share any significant changes or improvements you make.
+
+http://github.com/peterc/pismo
