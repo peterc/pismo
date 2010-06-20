@@ -2,7 +2,7 @@
 :rww: 
   :title: "Cartoon: Apple Tablet: Now With Barometer and Bird Call Generator"
   :feed: http://www.readwriteweb.com/rss.xml
-  :lede: I'm just aching to know if the new Apple tablet (insert caveats, weasel words and qualifiers here) is a potential Cintiq competitor. I don't think it will be, but you never know.  
+  :lede: I'm just aching to know if the new Apple tablet (insert caveats, weasel words and qualifiers here) is a potential Cintiq competitor. I don't think it will be, but you never know. It may also have a built in barometer and bird call generator.
   :feeds:
     - http://www.readwriteweb.com/rss.xml
     - http://www.readwriteweb.com/archives/2010/01/cartoon_apple_tablet_now_with_barometer_and_bird_c.xml  
@@ -42,7 +42,7 @@
 :spolsky:
   :title: The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!) - Joel on Software
   :description: Haven't mastered the basics of Unicode and character sets? Please don't write another line of code until you've read this article.
-  :lede: I've been dismayed to discover just how many software developers aren't really completely up to speed on the mysterious world of character sets, encodings, Unicode, all that stuff. A couple of years ago, a beta tester for FogBUGZ was wondering whether it could handle incoming email in Japanese.
+  :lede: I've been dismayed to discover just how many software developers aren't really completely up to speed on the mysterious world of character sets, encodings, Unicode, all that stuff. A couple of years ago, a beta tester for FogBUGZ was wondering whether it could handle incoming email in Japanese. Japanese?
   :author: Joel Spolsky
   :favicon: /favicon.ico
   :feed: http://www.joelonsoftware.com/rss.xml
@@ -68,6 +68,6 @@
   :sentences: I am pleased to report that the GCC Steering Committee and the FSF have approved the use of C++ in GCC itself. Of course, there's no reason for us to use C++ features just because we can. The goal is a better compiler for users, not a C++ code base for its own sake.
 :queness:
   :title: 18 Incredible CSS3 Effects You Have Never Seen Before
-  :lede: "CSS3 is hot these days and will soon be available in most modern browser. Just recently, I started to become aware to the present of CSS3 around the web."
+  :lede: "CSS3 is hot these days and will soon be available in most modern browser. Just recently, I started to become aware to the present of CSS3 around the web. I can see some of the websites such as twitter and designer portfolios websites are using it."
   :sentences: CSS3 is hot these days and will soon be available in most modern browser. Just recently, I started to become aware to the present of CSS3 around the web. I can see some of the websites such as twitter and designer portfolios websites are using it.
   :datetime: 2010-06-02 12:00:00 +01:00

@@ -216,7 +216,7 @@ module Pismo
       elsif lede && Array === lede
         return lede.map { |l| l.to_s[/^(.*?[\.\!\?]\s){2}/m].strip || l }.uniq
       else
-        return reader_doc && !reader_doc.sentences(2).empty? ? reader_doc.sentences(2).join(' ') : nil
+        return reader_doc && !reader_doc.sentences(3).empty? ? reader_doc.sentences(3).join(' ') : nil
       end
     end
     

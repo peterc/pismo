@@ -361,7 +361,8 @@ module Pismo
         fodder = content(true) if fodder.to_s.length < 50
         fodder.gsub!(/\b\w\W\s/, '')
         
-        sentences = fodder.scan(/([\&\w\s\-\'\,\+\.\/\\\:\#\(\)\=\"\?\!]+?[\.\?\!])(\s|\Z)/im).map { |s| s.first }
+        #sentences = fodder.scan(/([\&\w\s\-\'\,\+\.\/\\\:\#\(\)\=\"\?\!]+?[\.\?\!])(\s|\Z)/im).map { |s| s.first }
+        sentences = fodder.scan(/(.+?[\.\?\!])(\s|\Z)/im).map { |s| s.first.strip }
         
         sentences.compact!
         sentences.map! { |s| s.strip }
