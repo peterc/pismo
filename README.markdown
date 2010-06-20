@@ -11,6 +11,8 @@ All tests pass on Ruby 1.8.7 (MRI) and Ruby 1.9.1-p378 (MRI).
 
 ## EXAMPLES:
 
+A basic example of extracting basic metadata from a Web page:
+
     require 'pismo'
     
     # Load a Web page (you could pass an IO object or a string with existing HTML data along, as you prefer)
@@ -21,47 +23,36 @@ All tests pass on Ruby 1.8.7 (MRI) and Ruby 1.9.1-p378 (MRI).
     doc.lede      # => "Cramp (GitHub repo) is a new, asynchronous evented Web app framework by Pratik Naik of 37signals (and the Rails core team). It's built around Ruby's EventMachine library and was designed to use event-driven I/O throughout - making it ideal for situations where you need to handle a large number of open connections (such as Comet systems or streaming APIs.)"
     doc.keywords  # => [["cramp", 7], ["controllers", 3], ["app", 3], ["basic", 2], ..., ... ]
     
-## STATUS:
+There's also a shorter "convenience" method which might be handy in IRB - it does the same as Pismo::Document.new:
 
-I do not know how Pismo fares on JRuby, Rubinius, or others yet.
-
-Planned/forthcoming features include the fetching of "external" data like tags from Delicious, content analysis through 3rd party services, and extraction of graphics from the main article text (for thumbnailing, say).
-
-## NEW IN 0.5.0:
-
-### Stopword access
-
-You can now access Pismo's stopword list directly:
-
-    Pismo.stopwords    # => [.., .., ..]  
+    Pismo['http://www.rubyflow.com/items/4082'].title   # => "Install Ruby as a non-root User"
     
-### Convenience access method for IRB/debugging use
+The current metadata methods are #title, #titles, #author, #authors, #lede, #keywords, #sentences(qty), #body, #feed, #feeds, #favicon, #description and #datetime. These are not fully documented here yet, you'll just need to try them out.
 
-Now you can get playing with Pismo faster. This is primarily useful for debugging/playing in IRB as it just uses open-uri and the Pismo document is cached in the class against the URL:
-
-    url = "http://www.rubyinside.com/the-why-what-and-how-of-rubinius-1-0-s-release-3261.html"
-    Pismo[url].title   # => "The Why, What, and How of Rubinius 1.0's Release"
-    Pismo[url].author  # => "Peter Cooper"
-
-### Arrays of all matches for titles, ledes, authors, and feeds
-
-Pismo is not perfect and you might like to instead see all of the potential titles/ledes/authors or feeds that Pismo can find. You can now do this and judge them by your metrics.
-
-    doc.titles    # => [..., ..., ...]    
-    doc.ledes     # => [..., ..., ...]    
-    doc.authors   # => [..., ..., ...]    
-    doc.feeds     # => [..., ..., ...]
+The plural methods like #titles, #authors, and #feeds will return multiple matches in an array, if present. This is so you can use your own heuristics to choose a "best" result in ambiguous cases.
     
-## COMMAND LINE TOOL:
+## CAUTIONS / WARNINGS:
+
+There are some shortcomings or problems that I'm aware of and am going to pursue:
+
+* I do not know how Pismo fares on JRuby, Rubinius, or others yet.
+* The "Reader" content extraction algorithm is not perfect. It can sometimes return crap and can barf on certain types of characters for sentence extraction.
+* The author name extraction is quite poor.
+* The image extraction only handles images with absolute URLs.
+* The stopword list leaves a bit to be desired. It errs on the side of being too long rather than too short, though.
+
+## OTHER GROOVY STUFF:
+        
+### Command Line Tool
 
 A command line tool called "pismo" is included so that you can get metadata about a page from the command line. This is
 great for testing, or perhaps calling it from a non Ruby script. The output is currently in YAML.
 
-### Usage: 
+#### Usage: 
 
     ./bin/pismo http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html title lede author datetime
     
-### Output:
+#### Output:
 
     --- 
     :url: http://www.rubyinside.com/cramp-asychronous-event-driven-ruby-web-app-framework-2928.html
@@ -72,6 +63,12 @@ great for testing, or perhaps calling it from a non Ruby script. The output is c
     
 If you call pismo without any arguments (except a URL), it starts an IRB session so you can directly work in Ruby. The URL provided is loaded
 and assigned to both the constant 'P' and the variable @p.
+
+### Stopword access
+
+You can access Pismo's stopword list directly:
+
+    Pismo.stopwords    # => [.., .., ..]
 
 ## Note on Patches/Pull Requests
  
@@ -84,7 +81,6 @@ and assigned to both the constant 'P' and the variable @p.
 ## COPYRIGHT AND LICENSE
 
 Apache 2.0 License - See LICENSE for details.
-
 Copyright (c) 2009, 2010 Peter Cooper
 
-In short, you can use Pismo for whatever you like, but please include a brief credit somewhere deep in your license file or similar, and, if you're a nice kinda person, let me know if you're using it and/or share any significant changes or improvements you make.
+In short, you can use Pismo for whatever you like commercial or not, but please include a brief credit (as in the NOTICE file - as per the Apache 2.0 License) somewhere deep in your license file or similar, and, if you're nice and have the time, let me know if you're using it and/or share any significant changes or improvements you make.

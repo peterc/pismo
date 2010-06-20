@@ -221,6 +221,7 @@ module Pismo
       # Return the content from best match number of index (default 0) and, optionally, clean it to plain-text
       def content(clean = false, index = 0)
         return @content[[clean, index]] if @content[[clean, index]]
+        return '' unless @content_candidates && !@content_candidates.empty?
         
         content_branch = @doc.at(@content_candidates[index].first)
         orphans_to_remove = []
@@ -325,11 +326,11 @@ module Pismo
               
         # Get rid of bullshit "smart" quotes
         clean_html.force_encoding("ASCII-8BIT") if RUBY_VERSION > "1.9"
-        clean_html.gsub!(/\xe2\x80\x99/, "'")
-        clean_html.gsub!(/\xe2\x80\x99/, "'")
-        clean_html.gsub!(/\xe2\x80\x98/, "'")
-        clean_html.gsub!(/\xe2\x80\x9c/, '"')
-        clean_html.gsub!(/\xe2\x80\x9d/, '"')
+        clean_html.gsub!("\xe2\x80\x89", " ")
+        clean_html.gsub!("\xe2\x80\x99", "'")
+        clean_html.gsub!("\xe2\x80\x98", "'")
+        clean_html.gsub!("\xe2\x80\x9c", '"')
+        clean_html.gsub!("\xe2\x80\x9d", '"')
         clean_html.force_encoding("UTF-8") if RUBY_VERSION > "1.9"
         
         @content[[clean, index]] = clean_html

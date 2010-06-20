@@ -21,7 +21,7 @@ module Pismo
   # (mostly useful for debugging use)
   def self.[](url)
     @docs ||= {}
-    @docs[url] ||= Pismo::Document.new(open(url))
+    @docs[url] ||= Pismo::Document.new(url)
   end
   
   

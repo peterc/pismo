@@ -67,8 +67,6 @@ module Pismo
       title = @doc.match('title')
       return unless title
       title
-      # Strip off any leading or trailing site names - a scrappy way to try it out..
-      #title = title.split(/\s+(\-|\||\:)\s+/).sort_by { |i| i.length }.last.to_s.strip
     end
     
     # Return an estimate of when the page/content was created
@@ -225,6 +223,16 @@ module Pismo
     
     def ledes
       lede(true)
+    end
+    
+    # Returns a string containing the first [limit] sentences as determined by the Reader algorithm
+    def sentences(limit = 3)
+      reader_doc && !reader_doc.sentences.empty? ? reader_doc.sentences(limit).join(' ') : nil
+    end
+
+    # Returns any images with absolute URLs in the document
+    def images(limit = 3)
+      reader_doc && !reader_doc.images.empty? ? reader_doc.images(limit) : nil
     end
     
     # Returns the "keywords" in the document (not the meta keywords - they're next to useless now)
