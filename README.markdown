@@ -8,7 +8,7 @@ Pismo is used heavily in production on http://coder.io/ to extract data from Web
 
 All tests pass on Ruby 1.8.7 (MRI) and Ruby 1.9.1-p378 (MRI).
 
-## EXAMPLES:
+## USAGE:
 
 A basic example of extracting basic metadata from a Web page:
 
@@ -26,9 +26,7 @@ There's also a shorter "convenience" method which might be handy in IRB - it doe
 
     Pismo['http://www.rubyflow.com/items/4082'].title   # => "Install Ruby as a non-root User"
     
-The current metadata methods are #title, #titles, #author, #authors, #lede, #keywords, #sentences(qty), #body, #feed, #feeds, #favicon, #description and #datetime. These are not fully documented here yet, you'll just need to try them out.
-
-The plural methods like #titles, #authors, and #feeds will return multiple matches in an array, if present. This is so you can use your own heuristics to choose a "best" result in ambiguous cases.
+The current metadata methods are #title, #titles, #author, #authors, #lede, #keywords, #sentences(qty), #body, #feed, #feeds, #favicon, #description and #datetime. These are not fully documented here yet, you'll just need to try them out. The plural methods like #titles, #authors, and #feeds will return multiple matches in an array, if present. This is so you can use your own techniques to choose a "best" result in ambiguous cases.
     
 ## CAUTIONS / WARNINGS:
 
