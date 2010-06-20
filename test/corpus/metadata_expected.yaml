@@ -31,9 +31,9 @@
   :feed: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/england/rss.xml
 :factor:
   :title: Factor's bootstrap process explained
-  :lede: "Separation of concerns between Factor VM and library codeThe Factor VM implements an abstract machine consisting of a data heap of objects, a code heap of machine code blocks, and a set of stacks. The VM loads an image file on startup, which becomes the data and code heap. "
+  :lede: "Separation of concerns between Factor VM and library codeThe Factor VM implements an abstract machine consisting of a data heap of objects, a code heap of machine code blocks, and a set of stacks. The VM loads an image file on startup, which becomes the data and code heap."
   :ledes:
-    - "Separation of concerns between Factor VM and library codeThe Factor VM implements an abstract machine consisting of a data heap of objects, a code heap of machine code blocks, and a set of stacks. The VM loads an image file on startup, which becomes the data and code heap. "
+    - "Separation of concerns between Factor VM and library codeThe Factor VM implements an abstract machine consisting of a data heap of objects, a code heap of machine code blocks, and a set of stacks. The VM loads an image file on startup, which becomes the data and code heap."
 :youtube:
   :title: YMO - Rydeen (Official Video)
   :author: ymo1965
@@ -68,6 +68,6 @@
   :sentences: I am pleased to report that the GCC Steering Committee and the FSF have approved the use of C++ in GCC itself. Of course, there's no reason for us to use C++ features just because we can. The goal is a better compiler for users, not a C++ code base for its own sake.
 :queness:
   :title: 18 Incredible CSS3 Effects You Have Never Seen Before
-  :lede: "CSS3 is hot these days and will soon be available in most modern browser. Just recently, I started to become aware to the present of CSS3 around the web. "
+  :lede: "CSS3 is hot these days and will soon be available in most modern browser. Just recently, I started to become aware to the present of CSS3 around the web."
   :sentences: CSS3 is hot these days and will soon be available in most modern browser. Just recently, I started to become aware to the present of CSS3 around the web. I can see some of the websites such as twitter and designer portfolios websites are using it.
   :datetime: 2010-06-02 12:00:00 +01:00

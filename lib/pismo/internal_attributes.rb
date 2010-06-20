@@ -212,9 +212,9 @@ module Pismo
 
       # TODO: Improve sentence extraction - this is dire even if it "works for now"
       if lede && String === lede
-        return lede[/^(.*?[\.\!\?]\s){2}/m] || lede
+        return (lede[/^(.*?[\.\!\?]\s){2}/m] || lede).to_s.strip
       elsif lede && Array === lede
-        return lede.map { |l| l.to_s[/^(.*?[\.\!\?]\s){2}/m] || l }.uniq
+        return lede.map { |l| l.to_s[/^(.*?[\.\!\?]\s){2}/m].strip || l }.uniq
       else
         return reader_doc && !reader_doc.sentences(2).empty? ? reader_doc.sentences(2).join(' ') : nil
       end
