@@ -27,6 +27,7 @@ There's also a shorter "convenience" method which might be handy in IRB - it doe
     Pismo['http://www.rubyflow.com/items/4082'].title   # => "Install Ruby as a non-root User"
     
 The current metadata methods are:
+
 * title
 * titles
 * author
