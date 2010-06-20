@@ -37,7 +37,7 @@ else
   output = { :url => doc.url }
   
   ARGV.each do |cmd|
-    output[cmd.to_sym] = doc.send(cmd) rescue nil
+    output[cmd.to_sym] = doc.send(cmd)
   end
   
   puts output.to_yaml
