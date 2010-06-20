@@ -194,6 +194,7 @@ module Pismo
                   '.entry .text p',
                   '.entry-content p',
                   '#wikicontent p',                                                        # Google Code style
+                  '.wikistyle p',                                                          # GitHub style
                   '//td[@class="storybody"]/p[string-length()>10]',                        # BBC News style
                   '//div[@class="entry"]//p[string-length()>100]',
                   # The below is a horrible, horrible way to pluck out lead paras from crappy Blogspot blogs that
