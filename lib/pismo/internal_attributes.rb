@@ -208,14 +208,14 @@ module Pismo
                   '.entry-content',
                   '.body p',
                   '.document_description_short p',    # Scribd
-                  '.single-post p',
-                  'p'
+                  '.single-post p'
                   ], all)
-       
+
+      # TODO: Improve sentence extraction - this is dire even if it "works for now"
       if lede && String === lede
-        return lede[/^(.*?\.\s){2}/m] || lede
+        return lede[/^(.*?[\.\!\?]\s){2}/m] || lede
       elsif lede && Array === lede
-        return lede.map { |l| l.to_s[/^(.*?\.\s){2}/m] || l }.uniq
+        return lede.map { |l| l.to_s[/^(.*?[\.\!\?]\s){2}/m] || l }.uniq
       else
         return reader_doc && !reader_doc.sentences(2).empty? ? reader_doc.sentences(2).join(' ') : nil
       end
