@@ -130,7 +130,6 @@ module Pismo
                           '.byline',
                           '.post_subheader_left a',                                         # TechCrunch style
                           '.byl',                                                           # BBC News style
-                          '.meta a',
                           '.articledata .author a',
                           '#owners a',                                                      # Google Code style
                           '.author a',
@@ -147,7 +146,8 @@ module Pismo
                           '.blog_meta a',
                           'cite a',
                           'cite',
-                          '.contributor_details h4 a'
+                          '.contributor_details h4 a',
+                          '.meta a'
                           ], all)
                           
       return unless author
