@@ -51,9 +51,10 @@ The html_body and body methods will be of particular interest. They return the "
 
 There are some shortcomings or problems that I'm aware of and am going to pursue:
 
-* I do not know how Pismo fares on JRuby, Rubinius, or others yet.
+* I do not know how Pismo fares on Rubinius or other versions of 1.9 (e.g. 1.9.2) yet
+* pismo does not install on JRuby due to a problem in the fast-stemmer dependency
 * The "Reader" content extraction algorithm is not perfect. It can sometimes return crap and can barf on certain types of characters for sentence extraction.
-* The author name extraction is quite poor.
+* The author name extraction isn't very strong.
 * The image extraction only handles images with absolute URLs.
 * The stopword list leaves a bit to be desired. It errs on the side of being too long rather than too short, though (1024 words long!)
 
