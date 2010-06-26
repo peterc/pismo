@@ -8,7 +8,7 @@ module Pismo
       attr_reader :raw_content, :doc, :content_candidates
       
       # Elements to keep for /input/ sanitization
-      OK_ELEMENTS = %w{a td br th tbody table tr div span img strong em b i body html head title p h1 h2 h3 h4 h5 h6 pre code tt ul li ol blockquote font big small section article abbr audio video cite dd dt figure caption sup form dl dt dd}
+      OK_ELEMENTS = %w{a td br th tbody table tr div span img strong em b i body html head title p h1 h2 h3 h4 h5 h6 pre code tt ul li ol blockquote font big small section article abbr audio video cite dd dt figure caption sup form dl dt dd center}
   
       # Build a tree of attributes that are allowed for each element.. doing it this messy way due to how Sanitize works, alas
       OK_ATTRIBUTES = {}
@@ -21,7 +21,7 @@ module Pismo
       GOOD_WORDS = %w{content post blogpost main story body entry text desc asset hentry single entrytext postcontent bodycontent}.uniq
   
       # Words that indicate crap in general
-      BAD_WORDS = %w{reply metadata options commenting comments comment about footer header outer credit sidebar widget subscribe clearfix date social bookmarks links share video watch excerpt related supplement accessibility offscreen meta title signup blq secondary feedback featured clearfix small job jobs listing listings navigation nav byline addcomment postcomment trackback neighbor ads commentform fbfans login similar thumb link blogroll grid twitter wrapper container nav sitesub printfooter editsection visualclear catlinks hidden toc contentsub caption disqus rss shoutbox sponsor}.uniq
+      BAD_WORDS = %w{reply metadata options commenting comments comment about footer header outer credit sidebar widget subscribe clearfix date social bookmarks links share video watch excerpt related supplement accessibility offscreen meta title signup blq secondary feedback featured clearfix small job jobs listing listings navigation nav byline addcomment postcomment trackback neighbor ads commentform fbfans login similar thumb link blogroll grid twitter wrapper container nav sitesub printfooter editsection visualclear catlinks hidden toc contentsub caption disqus rss shoutbox sponsor blogcomments}.uniq
       
       # Words that kill a branch dead
       FATAL_WORDS = %w{comments comment bookmarks social links ads related similar footer digg totop metadata sitesub nav sidebar commenting options addcomment leaderboard offscreen job prevlink prevnext navigation reply-link hide hidden sidebox archives vcard}
@@ -102,20 +102,34 @@ module Pismo
           # Assume that no content we'll want comes in a total package of fewer than 80 characters!
           next unless el.text.to_s.strip.length >= 80
   
-          ids = (el['id'].to_s + ' ' + el['class'].to_s).downcase.strip.scan(/[a-z]+/)
           path_segments = el.path.scan(/[a-z]+/)[2..-1] || []
           depth = path_segments.length
+
+          local_ids = (el['id'].to_s + ' ' + el['class'].to_s).downcase.strip.scan(/[a-z]+/)
+          ids = local_ids
+          
+          cp = el.parent
+          (depth - 1).times do
+            ids += (cp['id'].to_s + ' ' + cp['class'].to_s).downcase.strip.scan(/[a-z]+/)
+            cp = cp.parent
+          end if depth > 1
+          
+          #puts "IDS"
+          #ap ids
+          #puts "LOCAL IDS"
+          #ap local_ids
           
           branch = {}        
           branch[:ids] = ids
+          branch[:local_ids] = local_ids
           branch[:score] = -(BAD_WORDS & ids).size
-          branch[:score] += (GOOD_WORDS & ids).size
-          next if branch[:score] < 0
+          branch[:score] += ((GOOD_WORDS & ids).size * 2)
+          next if branch[:score] < -5
   
           #puts "#{ids.join(",")} - #{branch[:score].to_s} - #{el.text.to_s.strip.length}"
           
           # Elements that have an ID or class are more likely to be our winners
-          branch[:score] += 2 unless ids.empty?
+          branch[:score] += 2 unless local_ids.empty?
   
           branch[:name] = el.name
           branch[:depth] = depth
@@ -198,6 +212,7 @@ module Pismo
           branch[:score] -= 5 if branch[:bad_child_count] > 20
           
           branch[:score] += depth
+          branch[:score] *= 0.8 if ids.length > 10
           
           
           
@@ -212,8 +227,7 @@ module Pismo
         # Sort the branches by their score in reverse order
         @content_candidates = sorted_tree.reverse.first([5, sorted_tree.length].min)
         
-        @content_candidates #.map { |i| [i[0], i[1][:name], i[1][:ids].join(','), i[1][:score] ]}
-        #ap @content_candidates
+        #ap @content_candidates #.map { |i| [i[0], i[1][:name], i[1][:ids].join(','), i[1][:score] ]}
         #t2 = Time.now.to_i + (Time.now.usec.to_f / 1000000)      
         #puts t2 - t1      
         #exit
