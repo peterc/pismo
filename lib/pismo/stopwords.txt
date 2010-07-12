@@ -199,6 +199,7 @@ company
 compared
 compelling
 concerning
+congratulations
 Connor
 consequently
 consider
@@ -334,10 +335,13 @@ Gabriel
 Gabriella
 Gabrielle
 Garrett
+gave
 Gavin
+generally
 get
 gets
 getting
+give
 given
 gives
 glory
@@ -804,6 +808,7 @@ step
 Stephanie
 Steven
 still
+stuff
 sub
 subscribe
 such
@@ -852,6 +857,8 @@ they'd
 they'll
 they're
 they've
+thing
+things
 think
 third
 this
@@ -992,8 +999,6 @@ your
 yours
 yourself
 yourselves
-generally
 Zachary
 zero
 Zoe
-congratulations
