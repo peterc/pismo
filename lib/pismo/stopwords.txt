@@ -107,7 +107,6 @@ Avery
 away
 awesome
 awfully
-b
 Bailey
 based
 basically
@@ -155,7 +154,6 @@ Bryce
 built
 but
 by
-c
 c'mon
 c's
 Caden
@@ -220,7 +218,6 @@ covering
 cunt
 currently
 customizable
-d
 damn
 Daniel
 Danielle
@@ -258,7 +255,6 @@ driven
 drove
 during
 Dylan
-e
 each
 easier
 edu
@@ -305,7 +301,6 @@ existing
 extensive
 extra
 extremely
-f
 Faith
 false
 fame
@@ -335,7 +330,6 @@ fuck
 full
 further
 furthermore
-g
 Gabriel
 Gabriella
 Gabrielle
@@ -358,7 +352,6 @@ gotten
 Grace
 great
 greetings
-h
 had
 hadn't
 Hailey
@@ -404,7 +397,6 @@ howbeit
 however
 huge
 Hunter
-i
 i'd
 i'll
 i'm
@@ -450,7 +442,6 @@ its
 itself
 itunes
 Ivan
-j
 Jack
 Jackson
 Jacob
@@ -492,7 +483,6 @@ jun
 june
 just
 Justin
-k
 Kaden
 Kaitlyn
 Kaleb
@@ -513,7 +503,6 @@ known
 knows
 Kyle
 Kylie
-l
 la
 Landon
 last
@@ -555,7 +544,6 @@ ltd
 Lucas
 Luis
 Luke
-m
 Mackenzie
 Madeline
 Madison
@@ -605,7 +593,6 @@ multiple
 must
 my
 myself
-n
 name
 namely
 Natalie
@@ -644,7 +631,6 @@ novel
 november
 now
 nowhere
-o
 Obie
 obviously
 oct
@@ -683,7 +669,6 @@ over
 overall
 Owen
 own
-p
 Paige
 par
 Parker
@@ -714,11 +699,9 @@ proud
 provide
 provides
 put
-q
 que
 quite
 qv
-r
 Rachel
 rather
 rd
@@ -744,7 +727,6 @@ Riley
 Robert
 run
 Ryan
-s
 safest
 said
 Samantha
@@ -831,7 +813,6 @@ sup
 sur
 sure
 Sydney
-t
 t's
 take
 taken
@@ -909,7 +890,6 @@ twice
 two
 Tyler
 typically
-u
 ultra
 un
 under
@@ -929,7 +909,6 @@ uses
 using
 usually
 uucp
-v
 value
 Vanessa
 various
@@ -940,7 +919,6 @@ Victoria
 Vincent
 viz
 vs
-w
 walks
 want
 wants
@@ -1000,9 +978,7 @@ would
 wouldn't
 wrapped
 Wyatt
-x
 Xavier
-y
 yeah
 years
 yes
@@ -1017,7 +993,6 @@ yours
 yourself
 yourselves
 generally
-z
 Zachary
 zero
 Zoe
