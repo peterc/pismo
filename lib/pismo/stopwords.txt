@@ -1,9 +1,3 @@
-0
-1
-10
-100
-20
-a
 a's
 Aaliyah
 Aaron
@@ -17,8 +11,6 @@ accordingly
 across
 actually
 Adam
-add
-added
 Addison
 Adrian
 after
@@ -67,7 +59,6 @@ annual
 another
 Anthony
 Antonio
-any
 anybody
 anyhow
 anyone
@@ -117,7 +108,6 @@ become
 becomes
 becoming
 been
-before
 beforehand
 behind
 being
@@ -129,16 +119,12 @@ beside
 besides
 best
 better
-between
 beyond
 big
 biggest
-bit
-bits
 Blake
 both
 bother
-box
 Brady
 Brandon
 Brayden
@@ -151,9 +137,7 @@ Brooke
 Brooklyn
 Bryan
 Bryce
-built
 but
-by
 c'mon
 c's
 Caden
@@ -190,13 +174,11 @@ Cody
 Cole
 Colin
 Colton
-com
 come
 comes
 coming
 comment
 company
-compared
 compelling
 concerning
 congratulations
@@ -275,8 +257,6 @@ end
 english
 enough
 entirely
-episodes
-equals
 Eric
 Erin
 es
@@ -306,7 +286,6 @@ Faith
 false
 fame
 far
-favorite
 feb
 february
 feel
@@ -345,7 +324,6 @@ give
 given
 gives
 glory
-go
 goal
 goes
 going
@@ -392,10 +370,7 @@ himself
 hire
 his
 hither
-homepage
 hopefully
-hour
-hours
 how
 howbeit
 however
@@ -407,7 +382,6 @@ i'm
 i've
 Ian
 ie
-if
 ignored
 imagine
 immediate
@@ -424,7 +398,6 @@ indicates
 informative
 inhibits
 inner
-inside
 insofar
 instead
 interest
@@ -444,7 +417,6 @@ it'll
 it's
 its
 itself
-itunes
 Ivan
 Jack
 Jackson
@@ -534,8 +506,6 @@ line
 listing
 listings
 little
-live
-loading
 Logan
 look
 looking
@@ -584,8 +554,6 @@ Michelle
 might
 Miguel
 mile
-minute
-minutes
 more
 moreover
 Morgan
@@ -593,7 +561,6 @@ most
 mostly
 moving
 much
-multiple
 must
 my
 myself
@@ -660,7 +627,6 @@ or
 org
 oriented
 Oscar
-other
 others
 otherwise
 ought
@@ -668,8 +634,6 @@ our
 ours
 ourselves
 out
-outside
-over
 overall
 Owen
 own
@@ -683,7 +647,6 @@ Patrick
 Paul
 peasy
 per
-perform
 perhaps
 piece
 placed
@@ -764,7 +727,6 @@ september
 serious
 seriously
 set
-Seth
 settings
 seven
 several
@@ -899,9 +861,7 @@ Tyler
 typically
 ultra
 un
-under
 unfortunately
-unless
 unlikely
 unsurprisingly
 until
@@ -987,7 +947,6 @@ wrapped
 Wyatt
 Xavier
 yeah
-years
 yes
 yet
 you
