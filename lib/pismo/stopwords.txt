@@ -927,6 +927,8 @@ who's
 whoever
 whole
 whom
+approximate
+approximately
 whose
 why
 will
