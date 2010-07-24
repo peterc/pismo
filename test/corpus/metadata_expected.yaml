@@ -42,7 +42,7 @@
 :spolsky:
   :title: The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!) - Joel on Software
   :description: Haven't mastered the basics of Unicode and character sets? Please don't write another line of code until you've read this article.
-  :lede: I've been dismayed to discover just how many software developers aren't really completely up to speed on the mysterious world of character sets, encodings, Unicode, all that stuff. A couple of years ago, a beta tester for FogBUGZ was wondering whether it could handle incoming email in Japanese. Japanese?
+  :lede: Ever wonder about that mysterious Content-Type tag? You know, the one you're supposed to put in HTML and you never quite know what it should be? Did you ever get an email from your friends in Bulgaria with the subject line "????
   :author: Joel Spolsky
   :favicon: /favicon.ico
   :feed: http://www.joelonsoftware.com/rss.xml
@@ -61,7 +61,6 @@
 :tweet:
   :lede: Gobsmacked that TeX/LaTeX (document formatting tools) for OS X is a 1.3GB (yes, GIGAbytes) download OS X. Wow..!
   :sentences: Gobsmacked that TeX/LaTeX (document formatting tools) for OS X is a 1.3GB (yes, GIGAbytes) download OS Wow..!
-  :datetime: 2010-06-05 12:00:00 +01:00
 :cant_read:
   :sentences: "For those of us who grew up as weird kids in the 1980s, the work of Berkeley Breathed was as important as those twin eternal pillars of weird-kid-dom: Monty Python and Mad magazine. In a word: seminal. In two words: fucking seminal."
 :gmane:
