@@ -43,10 +43,17 @@ module Pismo
     end
     
     def clean_html(html)
-      html.gsub!('&#8217;', '\'')
-      html.gsub!('&#8221;', '"')
+      # Normalize stupid entities
+      # TODO: Optimize this so we don't need all these sequential gsubs
+      html.gsub!("&#8194;", " ")
+      html.gsub!("&#8195;", " ")
+      html.gsub!("&#8201;", " ")
       html.gsub!('&#8211;', '-')
+      html.gsub!("&#8216;", "'")
+      html.gsub!('&#8217;', "'")
       html.gsub!('&#8220;', '"')
+      html.gsub!('&#8221;', '"')
+      html.gsub!("&#8230;", '...')
       html.gsub!('&nbsp;', ' ')
       html
     end

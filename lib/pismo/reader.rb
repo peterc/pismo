@@ -59,6 +59,17 @@ module Pismo
         
         # Remove scripts manually, Sanitize and/or Nokogiri seem to go a bit funny with them
         @raw_content.gsub!(/\<script .*?\<\/script\>/im, '')
+        
+        # Get rid of bullshit "smart" quotes and other Unicode nonsense
+        @raw_content.force_encoding("ASCII-8BIT") if RUBY_VERSION > "1.9"
+        @raw_content.gsub!("\xe2\x80\x89", " ")
+        @raw_content.gsub!("\xe2\x80\x99", "'")
+        @raw_content.gsub!("\xe2\x80\x98", "'")
+        @raw_content.gsub!("\xe2\x80\x9c", '"')
+        @raw_content.gsub!("\xe2\x80\x9d", '"')
+        @raw_content.gsub!("\xe2\x80\xf6", '.')
+        @raw_content.force_encoding("UTF-8") if RUBY_VERSION > "1.9"
+        
               
         # Sanitize the HTML
         @raw_content = Sanitize.clean(@raw_content,
@@ -70,8 +81,6 @@ module Pismo
               
         @doc = Nokogiri::HTML(@raw_content, nil, 'utf-8')
         
-        #ap @raw_content
-        #exit
         build_analysis_tree
       end
     
@@ -292,7 +301,7 @@ module Pismo
             next
           end
           
-          if el.name == "p" && el.text !~ /\.(\s|$)/ && el.inner_html !~ /\<img/
+          if el.name == "p" && el.text !~ /(\.|\?|\!|\"|\')(\s|$)/ && el.inner_html !~ /\<img/
             el.remove
             next
           end
@@ -335,29 +344,15 @@ module Pismo
         # Remove empty tags
         clean_html.gsub!(/<(\w+)><\/\1>/, "")
         
-        # Trim leading space from lines but without removing blank lines
-        #clean_html.gsub!(/^\ +(?=\S)/, '')
-        
         # Just a messy, hacky way to make output look nicer with subsequent paragraphs..
         clean_html.gsub!(/<\/(div|p|h1|h2|h3|h4|h5|h6)>/, '</\1>' + "\n\n")
-              
-        # Get rid of bullshit "smart" quotes
-        clean_html.force_encoding("ASCII-8BIT") if RUBY_VERSION > "1.9"
-        clean_html.gsub!("\xe2\x80\x89", " ")
-        clean_html.gsub!("\xe2\x80\x99", "'")
-        clean_html.gsub!("\xe2\x80\x98", "'")
-        clean_html.gsub!("\xe2\x80\x9c", '"')
-        clean_html.gsub!("\xe2\x80\x9d", '"')
-        clean_html.force_encoding("UTF-8") if RUBY_VERSION > "1.9"
         
         @content[[clean, index]] = clean_html
       end
           
       def sentences(qty = 3)
-      #  ap content
         clean_content = Sanitize.clean(content, :elements => NON_HEADER_ELEMENTS, :attributes => OK_CLEAN_ATTRIBUTES, :remove_contents => %w{h1 h2 h3 h4 h5 h6})
-        #ap clean_content
-      #exit
+
         fodder = ''
         doc = Nokogiri::HTML(clean_content, nil, 'utf-8')
   
