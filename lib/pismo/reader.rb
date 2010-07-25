@@ -39,7 +39,7 @@ module Pismo
   
       # Create a document object based on the raw HTML content provided
       def initialize(raw_content)
-        @raw_content = raw_content
+        @raw_content = Pismo::Document.clean_html(raw_content)
         build_doc
       end
   

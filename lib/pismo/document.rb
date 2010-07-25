@@ -33,7 +33,7 @@ module Pismo
                 handle
               end
               
-      @html = clean_html(@html)
+      @html = self.class.clean_html(@html)
       
       @doc = Nokogiri::HTML(@html)
     end
@@ -42,7 +42,7 @@ module Pismo
       @doc.match([*args], all)
     end
     
-    def clean_html(html)
+    def self.clean_html(html)
       # Normalize stupid entities
       # TODO: Optimize this so we don't need all these sequential gsubs
       html.gsub!("&#8194;", " ")
