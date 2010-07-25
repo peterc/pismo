@@ -58,6 +58,7 @@ There are some shortcomings or problems that I'm aware of and am going to pursue
 * The author name extraction isn't very strong and is best avoided for now
 * The image extraction only deals with images with absolute URLs
 * The stopword list is a little too long (~1000 words) and needs to be trimmed
+* The corpus in test/corpus needs significantly extending
 
 ## OTHER GROOVY STUFF:
         
