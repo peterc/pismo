@@ -32,7 +32,7 @@ if ARGV.empty?
   P = doc
   @p = doc
   puts "Pismo has loaded #{url} into @p and P"
-  puts "Note: There have been several reports of Nokogiri segfaulting while using Pismo from irb. If this happens, try the same code as a standalone Ruby app."
+  #puts "Note: There have been several reports of Nokogiri segfaulting while using Pismo from irb. If this happens, try the same code as a standalone Ruby app."
   IRB.start
 else
   output = { :url => doc.url }
