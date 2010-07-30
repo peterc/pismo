@@ -1,3 +1,4 @@
+a
 a's
 Aaliyah
 Aaron
@@ -70,6 +71,8 @@ apart
 appear
 appreciate
 appropriate
+approximate
+approximately
 apr
 april
 are
@@ -138,6 +141,7 @@ Brooklyn
 Bryan
 Bryce
 but
+by
 c'mon
 c's
 Caden
@@ -238,6 +242,7 @@ driven
 drove
 during
 Dylan
+e
 each
 easier
 edu
@@ -282,6 +287,7 @@ existing
 extensive
 extra
 extremely
+f
 Faith
 false
 fame
@@ -310,6 +316,7 @@ fuck
 full
 further
 furthermore
+g
 Gabriel
 Gabriella
 Gabrielle
@@ -334,6 +341,7 @@ gotten
 Grace
 great
 greetings
+h
 had
 hadn't
 Hailey
@@ -376,12 +384,14 @@ howbeit
 however
 huge
 Hunter
+i
 i'd
 i'll
 i'm
 i've
 Ian
 ie
+if
 ignored
 imagine
 immediate
@@ -418,6 +428,7 @@ it's
 its
 itself
 Ivan
+j
 Jack
 Jackson
 Jacob
@@ -440,6 +451,7 @@ Jessica
 Jesus
 jim
 jimmy
+jnr
 Jocelyn
 Joel
 John
@@ -450,6 +462,7 @@ Jose
 Joseph
 Joshua
 Josiah
+jr
 Juan
 jul
 Julia
@@ -459,6 +472,7 @@ jun
 june
 just
 Justin
+k
 Kaden
 Kaitlyn
 Kaleb
@@ -479,6 +493,7 @@ known
 knows
 Kyle
 Kylie
+l
 la
 Landon
 last
@@ -518,6 +533,7 @@ ltd
 Lucas
 Luis
 Luke
+m
 Mackenzie
 Madeline
 Madison
@@ -564,6 +580,7 @@ much
 must
 my
 myself
+n
 name
 namely
 Natalie
@@ -602,6 +619,7 @@ novel
 november
 now
 nowhere
+o
 Obie
 obviously
 oct
@@ -637,6 +655,7 @@ out
 overall
 Owen
 own
+p
 Paige
 par
 Parker
@@ -666,9 +685,11 @@ proud
 provide
 provides
 put
+q
 que
 quite
 qv
+r
 Rachel
 rather
 rd
@@ -694,6 +715,7 @@ Riley
 Robert
 run
 Ryan
+s
 safest
 said
 Samantha
@@ -764,6 +786,7 @@ specify
 specifying
 spoke
 spread
+sr
 stand
 started
 step
@@ -780,6 +803,7 @@ sup
 sur
 sure
 Sydney
+t
 t's
 take
 taken
@@ -859,6 +883,7 @@ twice
 two
 Tyler
 typically
+u
 ultra
 un
 unfortunately
@@ -876,6 +901,7 @@ uses
 using
 usually
 uucp
+v
 value
 Vanessa
 various
@@ -886,6 +912,7 @@ Victoria
 Vincent
 viz
 vs
+w
 walks
 want
 wants
@@ -927,8 +954,6 @@ who's
 whoever
 whole
 whom
-approximate
-approximately
 whose
 why
 will
@@ -948,6 +973,7 @@ wouldn't
 wrapped
 Wyatt
 Xavier
+y
 yeah
 yes
 yet
@@ -960,6 +986,17 @@ your
 yours
 yourself
 yourselves
+z
 Zachary
 zero
 Zoe
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
