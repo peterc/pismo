@@ -46,6 +46,12 @@ The current metadata methods are:
 These methods are not fully documented here yet - you'll just need to try them out. The plural methods like #titles, #authors, and #feeds will return multiple matches in an array, if present. This is so you can use your own techniques to choose a "best" result in ambiguous cases.
 
 The html_body and body methods will be of particular interest. They return the "body" of the page as determined by Pismo's "Reader" (like Arc90's Readability or Safari Reader) algorithm. #body returns it as plain-text, #html_body maintains some basic HTML styling.
+
+New! The keywords method accepts optional arguments. These are the current defaults:
+
+    :stem_at => 20, :word_length_limit => 15, :limit => 20, :remove_stopwords => true, :minimum_score => 2
+    
+You can also pass an array to keywords with :hints => arr if you want only words of your choosing to be found.
     
 ## CAVEATS AND SHORTCOMINGS:
 
