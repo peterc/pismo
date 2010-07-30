@@ -15,6 +15,7 @@ module Pismo
                             '.post-header h1',
                             '.entry-title',
                             '.post-title',
+                            '.post h1',
                             '.post h3 a',
                             'a.datitle',          # Slashdot style
                             '.posttitle',
@@ -93,9 +94,7 @@ module Pismo
       datetime = 10
       
       regexen.each do |r|
-        datetime = @doc.to_html[r]
-        # p datetime
-        break if datetime
+        break if datetime = @doc.to_html[r]
       end
       
       return unless datetime && datetime.length > 4
@@ -110,10 +109,6 @@ module Pismo
       
       Chronic.parse(datetime) || datetime
     end
-    
-    # TODO: Attempts to work out what type of site or page the page is from the provided URL
-    # def site_type
-    # end
     
     # Returns the author of the page/content
     def author(all = false)
@@ -189,13 +184,15 @@ module Pismo
                   '.post-text p',
                   '#blogpost p',
                   '.story-teaser',
-                  '//div[@class="entrytext"]//p[string-length()>10]',                      # Ruby Inside / Kubrick style
+                  '.article .body p',
+                  '//div[@class="entrytext"]//p[string-length()>40]',                      # Ruby Inside / Kubrick style
                   'section p',
                   '.entry .text p',
+                  '.hentry .content p',
                   '.entry-content p',
                   '#wikicontent p',                                                        # Google Code style
                   '.wikistyle p',                                                          # GitHub style
-                  '//td[@class="storybody"]/p[string-length()>10]',                        # BBC News style
+                  '//td[@class="storybody"]/p[string-length()>40]',                        # BBC News style
                   '//div[@class="entry"]//p[string-length()>100]',
                   # The below is a horrible, horrible way to pluck out lead paras from crappy Blogspot blogs that
                   # don't use <p> tags..
@@ -212,16 +209,16 @@ module Pismo
 
       # TODO: Improve sentence extraction - this is dire even if it "works for now"
       if lede && String === lede
-        return (lede[/^(.*?[\.\!\?]\s){2}/m] || lede).to_s.strip
+        return (lede[/^(.*?[\.\!\?]\s){1,3}/m] || lede).to_s.strip
       elsif lede && Array === lede
-        return lede.map { |l| l.to_s[/^(.*?[\.\!\?]\s){2}/m].strip || l }.uniq
+        return lede.map { |l| l.to_s[/^(.*?[\.\!\?]\s){1,3}/m].strip || l }.uniq
       else
-        return reader_doc && !reader_doc.sentences(3).empty? ? reader_doc.sentences(3).join(' ') : nil
+        return reader_doc && !reader_doc.sentences(4).empty? ? reader_doc.sentences(4).join(' ') : nil
       end
     end
     
     def ledes
-      lede(true)
+      lede(true) rescue []
     end
     
     # Returns a string containing the first [limit] sentences as determined by the Reader algorithm
@@ -236,7 +233,7 @@ module Pismo
     
     # Returns the "keywords" in the document (not the meta keywords - they're next to useless now)
     def keywords(options = {})
-      options = { :stem_at => 20, :word_length_limit => 15, :limit => 20 }.merge(options)
+      options = { :stem_at => 20, :word_length_limit => 15, :limit => 20, :remove_stopwords => true, :minimum_score => 2 }.merge(options)
       
       words = {}
       
@@ -245,20 +242,22 @@ module Pismo
       content_to_use = body.to_s.downcase + " " + description.to_s.downcase
 
       # old regex for safe keeping -- \b[a-z][a-z\+\.\'\+\#\-]*\b
-      content_to_use.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub(/\.+\s+/, ' ').gsub(/\&\w+\;/, '').scan(/(\b|\s|\A)([a-z0-9][a-z0-9\+\.\'\+\#\-\/\\]*)(\b|\s|\Z)/i).map{ |ta1| ta1[1] }.each do |word|
+      content_to_use.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub(/\.+\s+/, ' ').gsub(/\&\w+\;/, '').scan(/(\b|\s|\A)([a-z0-9][a-z0-9\+\.\'\+\#\-\\]*)(\b|\s|\Z)/i).map{ |ta1| ta1[1] }.each do |word|
         next if word.length > options[:word_length_limit]
-        word.gsub!(/\'\w+/, '')
+        word.gsub!(/^[\']/, '')
+        word.gsub!(/[\.\-\']$/, '')
+        next if options[:hints] && !options[:hints].include?(word)
         words[word] ||= 0
-        words[word] += (cached_title.downcase.include?(word) ? 5 : 1)
+        words[word] += (cached_title.downcase =~ /\b#{word}\b/ ? 5 : 1)
       end
 
       # Stem the words and stop words if necessary
       d = words.keys.uniq.map { |a| a.length > options[:stem_at] ? a.stem : a }
       s = Pismo.stopwords.map { |a| a.length > options[:stem_at] ? a.stem : a }
 
-            
-      w = words.delete_if { |k1, v1| s.include?(k1) || (v1 < 2 && words.size > 80) }.sort_by { |k2, v2| v2 }.reverse.first(options[:limit])
-      return w
+      words.delete_if { |k1, v1| v1 < options[:minimum_score] }
+      words.delete_if { |k1, v1| s.include?(k1) } if options[:remove_stopwords]
+      words.sort_by { |k2, v2| v2 }.reverse.first(options[:limit])
     end
     
     def reader_doc
