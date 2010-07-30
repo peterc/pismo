@@ -59,8 +59,7 @@ class Nokogiri::HTML::Document
       end
 
       if result
-      #  result.gsub!(/\342\200\231/, '\'')
-      #  result.gsub!(/\342\200\224/, '-')
+        # TODO: Sort out sanitization in a more centralized way
         result.gsub!('’', '\'')
         result.gsub!('—', '-')
         if all
