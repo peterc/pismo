@@ -238,11 +238,11 @@ module Pismo
       words = {}
       
       # Convert doc to lowercase, scrub out most HTML tags, then keep track of words
-      cached_title = title
+      cached_title = title.to_s
       content_to_use = body.to_s.downcase + " " + description.to_s.downcase
 
       # old regex for safe keeping -- \b[a-z][a-z\+\.\'\+\#\-]*\b
-      content_to_use.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub(/\.+\s+/, ' ').gsub(/\&\w+\;/, '').scan(/(\b|\s|\A)([a-z0-9][a-z0-9\+\.\'\+\#\-\\]*)(\b|\s|\Z)/i).map{ |ta1| ta1[1] }.each do |word|
+      content_to_use.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub(/\.+\s+/, ' ').gsub(/\&\w+\;/, '').scan(/(\b|\s|\A)([a-z0-9][a-z0-9\+\.\'\+\#\-\\]*)(\b|\s|\Z)/i).map{ |ta1| ta1[1] }.compact.each do |word|
         next if word.length > options[:word_length_limit]
         word.gsub!(/^[\']/, '')
         word.gsub!(/[\.\-\']$/, '')
