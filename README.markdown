@@ -45,15 +45,9 @@ The current metadata methods are:
 
 These methods are not fully documented here yet - you'll just need to try them out. The plural methods like #titles, #authors, and #feeds will return multiple matches in an array, if present. This is so you can use your own techniques to choose a "best" result in ambiguous cases.
 
-The html_body and body methods will be of particular interest. They return the "body" of the page as determined by Pismo's "Reader".
+The html_body and body methods will be of particular interest. They return the "body" of the page as determined by Pismo's "Reader". #body returns it as plain-text, #html_body maintains some basic HTML styling.
 
-The default reader is the 'tree' reader. This works in a similar fashion to Arc90's Readability or Safari Reader algorithm.  The 'cluster' reader uses an alternate algorithm that tries to cluster contiguous content blocks to identify the main document body.  This is based on the ExtractContent gem (http://rubyforge.org/projects/extractcontent/).
-
-The reader can be specified as part of #Document.new :
-
-    doc = Document.new(url, :reader => :cluster)
-
-#body returns it as plain-text, #html_body maintains some basic HTML styling.
+The default reader is the "tree" reader. This works in a similar fashion to Arc90's Readability or Safari Reader algorithm.
 
 New! The keywords method accepts optional arguments. These are the current defaults:
 
@@ -102,6 +96,17 @@ and assigned to both the constant 'P' and the variable @p.
 You can access Pismo's stopword list directly:
 
     Pismo.stopwords    # => [.., .., ..]
+
+### Alternate readers
+
+Pismo supports different readers for extracting the #body and #html_body from the web page.
+
+The "cluster" reader uses an algorithm that tries to cluster contiguous content blocks together to identify the main document body.  This is based on the ExtractContent gem (http://rubyforge.org/projects/extractcontent/).
+
+The reader can be specified as part of #Document.new :
+
+    doc = Document.new(url, :reader => :cluster)
+
 
 ## Note on Patches/Pull Requests
  
