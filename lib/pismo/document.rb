@@ -5,14 +5,16 @@ module Pismo
   
   # Pismo::Document represents a single HTML document within Pismo
   class Document
-    attr_reader :doc, :url
+    attr_reader :doc, :url, :options
     
     ATTRIBUTE_METHODS = InternalAttributes.instance_methods + ExternalAttributes.instance_methods
     
     include Pismo::InternalAttributes
     include Pismo::ExternalAttributes
     
-    def initialize(handle, url = nil)
+    def initialize(handle, options = {})
+      @options = options
+      url = @options.delete(:url)
       load(handle, url)
     end
     
@@ -55,6 +57,9 @@ module Pismo
       html.gsub!('&#8221;', '"')
       html.gsub!("&#8230;", '...')
       html.gsub!('&nbsp;', ' ')
+      html.gsub!('&lt;', '<')
+      html.gsub!('&gt;', '>')
+      html.gsub!('&amp;', '&')
       html
     end
   end

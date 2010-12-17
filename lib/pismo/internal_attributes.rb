@@ -261,7 +261,7 @@ module Pismo
     end
     
     def reader_doc
-      @reader_doc ||= Reader::Document.new(@doc.to_s)
+      @reader_doc ||= Reader::Document.create(@doc.to_s, @options)
     end
     
     # Returns body text as determined by Reader algorithm

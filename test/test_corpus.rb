@@ -11,6 +11,8 @@ class TestCorpus < Test::Unit::TestCase
       # Load the "expected metadata" ready for tests
       @metadata = YAML.load(open(HTML_DIRECTORY + "/metadata_expected.yaml"))
       @reader_metadata = YAML.load(open(HTML_DIRECTORY + "/reader_expected.yaml"))
+      @readers = {}
+      Dir[HTML_DIRECTORY + "/readers/*_expected.yaml"].each { |filename| @readers[File.basename(filename).sub(/_expected\.yaml$/, '').to_sym] = File.read(filename) }
     end
     
     should "pass basic sanitization and result in Nokogiri documents" do
@@ -31,11 +33,22 @@ class TestCorpus < Test::Unit::TestCase
       end
     end
     
-    should "pass content extraction tests" do
+    should "pass base reader content extraction tests" do
       @reader_metadata.each do |file, expected|
-        @doc = Reader::Document.new(@corpus[file])
+        @doc = Reader::Document.create(@corpus[file])
         assert_equal expected, @doc.sentences(2)
       end
-    end    
+    end
+
+    should "pass reader content extraction tests" do
+      @readers.each do |reader, expected|
+        results = YAML.load(expected)
+        results.each_key do |file|
+          @doc = Document.new(@corpus[file], :reader => reader)
+          assert_equal results[file], @doc.body
+        end
+      end
+    end
+
   end
 end

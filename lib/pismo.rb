@@ -10,11 +10,14 @@ require 'tempfile'
 $: << File.dirname(__FILE__)
 require 'pismo/document'
 require 'pismo/reader'
+require 'pismo/reader/base'
+require 'pismo/reader/tree'
+require 'pismo/reader/cluster'
 
 module Pismo
   # Sugar methods to make creating document objects nicer
-  def self.document(handle, url = nil)
-    Document.new(handle, url)
+  def self.document(handle, options = {})
+    Document.new(handle, options)
   end
   
   # Load a URL, as with Pismo['http://www.rubyinside.com'], and caches the Pismo document
