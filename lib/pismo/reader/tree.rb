@@ -1,7 +1,3 @@
-require 'nokogiri'
-require 'sanitize'
-begin; require 'ap'; rescue LoadError; end
-
 module Pismo
   module Reader
     class Tree < Base
