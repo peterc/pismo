@@ -6,7 +6,7 @@ Pismo extracts machine-usable metadata from unstructured (or poorly structured) 
 Data that Pismo can extract include titles, feed URLs, ledes, body text, image URLs, date, and keywords.
 Pismo is used heavily in production on http://coder.io/ to extract data from Web pages.
 
-All tests pass on Ruby 1.8.7 (MRI) and Ruby 1.9.1-p378 (MRI).
+All tests pass on Ruby 1.8.7 and Ruby 1.9.2 (both MRI).
 
 ## USAGE:
 
@@ -57,7 +57,8 @@ You can also pass an array to keywords with :hints => arr if you want only words
 
 There are some shortcomings or problems that I'm aware of and am going to pursue:
 
-* I do not know how Pismo fares on Rubinius or other versions of 1.9 (e.g. 1.9.2) yet
+* I do not know how Pismo fares on Rubinius
+* pismo requires Bundler - get it :-)
 * pismo does not install on JRuby due to a problem in the fast-stemmer dependency
 * Some users have had issues with using Pismo from irb. This appears to be related to Nokogiri use causing a segfault
 * The "Reader" content extraction algorithm is not perfect. It can sometimes return crap and can barf on certain types of characters for sentence extraction

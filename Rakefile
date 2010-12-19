@@ -1,29 +1,5 @@
-require 'rubygems'
-require 'rake'
-
-begin
-  require 'jeweler'
-  Jeweler::Tasks.new do |gem|
-    gem.name = "pismo"
-    gem.summary = %Q{Extracts or retrieves content-related metadata from HTML pages}
-    gem.description = %Q{Pismo extracts and retrieves content-related metadata from HTML pages - you can use the resulting data in an organized way, such as a summary/first paragraph, body text, keywords, RSS feed URL, favicon, etc.}
-    gem.email = "git@peterc.org"
-    gem.homepage = "http://github.com/peterc/pismo"
-    gem.authors = ["Peter Cooper"]
-    gem.executables = "pismo"
-    gem.default_executable = "pismo"
-    gem.add_development_dependency "shoulda", ">= 0"
-    gem.add_development_dependency "awesome_print"
-    gem.add_dependency "jeweler"
-    gem.add_dependency "nokogiri"
-    gem.add_dependency "sanitize"
-    gem.add_dependency "fast-stemmer"
-    gem.add_dependency "chronic"
-  end
-  Jeweler::GemcutterTasks.new
-rescue LoadError
-  puts "Jeweler (or a dependency) not available. Install it with: gem install jeweler"
-end
+require 'bundler'
+Bundler::GemHelper.install_tasks
 
 require 'rake/testtask'
 Rake::TestTask.new(:test) do |test|
@@ -44,8 +20,6 @@ rescue LoadError
     abort "RCov is not available. In order to run rcov, you must: sudo gem install spicycode-rcov"
   end
 end
-
-task :test => :check_dependencies
 
 task :default => :test
 
