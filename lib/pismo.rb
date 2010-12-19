@@ -2,7 +2,6 @@
 
 require 'open-uri'
 require 'nokogiri'
-require 'fast_stemmer'
 require 'chronic'
 require 'sanitize'
 require 'tempfile'
@@ -10,6 +9,12 @@ require 'tempfile'
 $: << File.dirname(__FILE__)
 require 'pismo/document'
 require 'pismo/reader'
+
+if RUBY_PLATFORM == "java"
+  class String; def stem; self; end; end
+else
+  require 'fast_stemmer'
+end
 
 module Pismo
   # Sugar methods to make creating document objects nicer
