@@ -10,7 +10,7 @@ All tests pass on Ruby 1.8.7, Ruby 1.9.2 (both MRI) and JRuby 1.5.6.
 
 ## NEWS:
 
-December 19, 2010: Version 1.7.1 has been released - it includes a patch from Darcy Laycock to fix keyword extraction problems on some pages, has switched from Jeweler to Bundler for management of the gem, and adds support for JRuby 1.5.6 by skipping stemming on that platform.
+December 19, 2010: Version 1.7.2 has been released - it includes a patch from Darcy Laycock to fix keyword extraction problems on some pages, has switched from Jeweler to Bundler for management of the gem, and adds support for JRuby 1.5.6 by skipping stemming on that platform.
 
 ## USAGE:
 
