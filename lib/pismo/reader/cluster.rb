@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module Pismo
   module Reader
     class Cluster < Base
@@ -120,7 +122,7 @@ module Pismo
 
       # Checks if the given block has only tags without text.
       def has_only_tags?(block)
-        block.gsub(/<[^>]*>/imn, '').strip.length == 0
+        block.gsub(/<[^>]*>/im, '').strip.length == 0
       end
 
       # Eliminates link heavy blocks and blocks that are lists of links and
@@ -131,7 +133,7 @@ module Pismo
 
         # Return empty block if it is a very link heavy block
         count = 0
-        no_links = block.gsub(/<a\s[^>]*>.*?<\/a\s*>/imn){count+=1;''}.gsub(/<form\s[^>]*>.*?<\/form\s*>/imn, '')
+        no_links = block.gsub(/<a\s[^>]*>.*?<\/a\s*>/im){count+=1;''}.gsub(/<form\s[^>]*>.*?<\/form\s*>/im, '')
         return "" if no_links.length < 20 * count
 
         strip_tags(no_links)
@@ -139,9 +141,9 @@ module Pismo
 
       # Determines whether a block is link list or not
       def is_link_list?(st)
-        if st=~/<(?:ul|dl|ol)(.+?)<\/(?:ul|dl|ol)>/ism
+        if st =~ /<(?:ul|dl|ol)(.+?)<\/(?:ul|dl|ol)>/im
           listpart = $1
-          outside = st.gsub(/<(?:ul|dl)(.+?)<\/(?:ul|dl)>/ismn, '').gsub(/<.+?>/mn, '').gsub(/\s+/, ' ')
+          outside = st.gsub(/<(?:ul|dl)(.+?)<\/(?:ul|dl)>/imn, '').gsub(/<.+?>/mn, '').gsub(/\s+/, ' ')
           list = listpart.split(/<li[^>]*>/)
           list.shift
           rate = evaluate_list(list)
