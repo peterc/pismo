@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{TODO: Write a gem summary}
   s.description = %q{Pismo extracts and retrieves content-related metadata from HTML pages - you can use the resulting data in an organized way, such as a summary/first paragraph, body text, keywords, RSS feed URL, favicon, etc.}
   s.summary     = %q{Extracts or retrieves content-related metadata from HTML pages}
-  s.date        = %q{2010-07-27}
+  s.date        = %q{2010-12-19}
   s.default_executable = %q{pismo}
 
   s.rubyforge_project = "pismo"
