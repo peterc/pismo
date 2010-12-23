@@ -10,6 +10,9 @@ Gemfile.lock
 *.tmproj
 tmtags
 
+## NETBEANS
+nbproject
+
 ## EMACS
 *~
 \#*
