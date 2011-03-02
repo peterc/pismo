@@ -5,6 +5,7 @@ require 'nokogiri'
 require 'chronic'
 require 'sanitize'
 require 'tempfile'
+require 'phrasie'
 
 $: << File.dirname(__FILE__)
 require 'pismo/document'
