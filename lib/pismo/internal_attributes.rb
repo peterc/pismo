@@ -80,7 +80,7 @@ module Pismo
       
       regexen = [
         /#{mo}\b\s+\d+\D{1,10}\d{4}/i,
-        /(on\s+)?\d+\s+#{mo}\s+\D{1,10}\d+/i,
+        /(on\s+)?\d+\s+#{mo}\s+\D{0,10}\d+/i,
         /(on[^\d+]{1,10})\d+(th|st|rd)?.{1,10}#{mo}\b[^\d]{1,10}\d+/i,
         /\b\d{4}\-\d{2}\-\d{2}\b/i,
         /\d+(th|st|rd).{1,10}#{mo}\b[^\d]{1,10}\d+/i,
@@ -106,7 +106,6 @@ module Pismo
       datetime.sub!(/on\s+/, '')
       datetime.gsub!(/\,/, '')
       datetime.sub!(/(\d+)(th|st|rd)/, '\1')
-      
       Chronic.parse(datetime) || datetime
     end
     

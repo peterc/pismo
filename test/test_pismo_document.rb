@@ -31,4 +31,17 @@ class TestPismoDocument < Test::Unit::TestCase
       assert_equal  "CoffeeScript: A New Language With A Pure Ruby Compiler", @doc.title
     end
   end
+  
+  context "A basic real world blog post with relative images and all_images option set to true" do
+    setup do
+      @doc = Document.new(open(HTML_DIRECTORY + "/relative_imgs.html"), :all_images => true)
+    end
+    
+    should "get relative images" do
+      assert @doc.images.include?('/wp-content/uploads/2010/01/coffeescript.png')
+    end
+
+  end
+  
+  
 end
