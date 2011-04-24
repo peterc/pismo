@@ -232,6 +232,10 @@ module Pismo
       reader_doc && !reader_doc.images.empty? ? reader_doc.images(limit) : nil
     end
     
+    def videos(limit = 1)
+      reader_doc && !reader_doc.videos.empty? ? reader_doc.videos(limit) : nil
+    end
+    
     # Returns the "keyword phrases" in the document (not the meta keywords - they're next to useless now)
     def keywords(options = {})
       options = { :limit => 20, :minimum_score => "1%" }.merge(options)      

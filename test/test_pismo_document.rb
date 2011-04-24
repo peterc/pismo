@@ -49,8 +49,18 @@ class TestPismoDocument < Test::Unit::TestCase
     should "get relative images" do
       assert @doc.images.include?('/wp-content/uploads/2010/01/coffeescript.png')
     end
-
   end
   
+  context "A blog post with videos" do
+    setup do
+      @doc = Document.new(open(HTML_DIRECTORY + "/videos.html"))
+    end
+    
+    should 'get embed object' do
+      videos = @doc.videos
+      assert_equal videos.length, 1
+      assert_equal videos.first['src'], 'http://www.youtube.com/v/dBtYXFXa5Ig?fs=1&hl=en_US&rel=0&color1=0xFFFFFF&color2=0xFFFFFF&border=0'
+    end
+  end
   
 end
