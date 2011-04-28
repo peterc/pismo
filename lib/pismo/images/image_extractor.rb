@@ -126,7 +126,7 @@ class ImageExtractor
         # // we start at the top node then recursively go up to siblings/parent/grandparent to find something good
         prevSibling = node.previous_sibling
         if (prevSibling)
-          @logger.debug("About to do a check against the sibling element, tagname: '" + node.name.to_s + "' class: '" + prevSibling["class"] + "' id: '" + prevSibling["id"] + "'")
+          @logger.debug("About to do a check against the sibling element" + prevSibling["class"] + "' id: '" + prevSibling["id"] + "'")
           siblingDepth = siblingDepth + 1
           checkForLargeImages(prevSibling, parentDepth, siblingDepth)
         else
