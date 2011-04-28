@@ -231,8 +231,8 @@ module Pismo
     def images(limit = 3)
       if @options[:image_extractor]
         extractor = ImageExtractor.new(reader_doc, @url)
-        image = extractor.getBestImage
-        return [image]
+        images = extractor.getBestImages(limit)
+        return images
       else
         reader_doc && !reader_doc.images.empty? ? reader_doc.images(limit) : nil        
       end

@@ -17,6 +17,7 @@ class ImageExtractor
     @options = options
     @bad_image_names_regex = ".html|.gif|.ico|button|twitter.jpg|facebook.jpg|digg.jpg|digg.png|delicious.png|facebook.png|reddit.jpg|doubleclick|diggthis|diggThis|adserver|/ads/|ec.atdmt.com|mediaplex.com|adsatt|view.atdmt"
     @image = nil
+    @images = []
     @doc =  Nokogiri::HTML(document.raw_content, nil, 'utf-8')
     @url = url
     @top_content_candidate = document.content_at(0)
@@ -24,14 +25,16 @@ class ImageExtractor
     @min_bytes = options[:min_bytes] || 5000
   end
 
-  def getBestImage
-    @logger.debug("Starting to Look for the Most Relavent Image") 
-
+  def getBestImages(limit = 3)
+    @logger.debug("Starting to Look for the Most Relavent Images") 
     checkForLargeImages(top_content_candidate, 0, 0)
-
     checkForMetaTags unless image
-        
-    return image
+    
+    return @images[0...limit].map{|i| buildImagePath(i.first['src']) }
+  end
+
+  def getBestImage
+    return getBestImages(1)
   end
 
   def checkForMetaTags
@@ -106,15 +109,21 @@ class ImageExtractor
     # // pick out the image with the highest score
 
     highScoreImage = nil
-    imageResults.each do |imageResult|
-      if !highScoreImage
-        highScoreImage = imageResult
-      else
-        if imageResult.last > highScoreImage.last
-          highScoreImage = imageResult
-        end
-      end
-    end
+    imageResults = imageResults.sort_by{|imageResult| 
+      imageResult.last
+    }
+    @images = imageResults
+    
+    # imageResults.each do |imageResult|      
+    #   if !highScoreImage
+    #     highScoreImage = imageResult
+    #   else
+    #     if imageResult.last > highScoreImage.last
+    #       highScoreImage = imageResult
+    #     end
+    #   end
+    # end
+    highScoreImage = imageResults.first if imageResults.any?
     
     if (highScoreImage)
       @image = buildImagePath(highScoreImage.first["src"])
