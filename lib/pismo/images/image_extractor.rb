@@ -250,7 +250,7 @@ class ImageExtractor
         type = FastImage.type(imageSource)
         
         if (width < 50)
-          @logger.debug(image["src"] + " is too small width: " + width + " skipping..")
+          @logger.debug(image["src"] + " is too small width: " + width.to_s + " skipping..")
           next
         end
 
