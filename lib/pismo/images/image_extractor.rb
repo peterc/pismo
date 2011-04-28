@@ -9,7 +9,7 @@ require 'logger'
 #
 class ImageExtractor
 
-  attr_reader :doc, :top_content_candidate, :bad_image_names_regex, :image, :url, :min_bytes, :max_bytes, :options, :logger
+  attr_reader :doc, :top_content_candidate, :bad_image_names_regex, :image, :url, :min_width, :min_bytes, :max_bytes, :options, :logger
 
   def initialize(document, url, options = {})
     @logger = Logger.new(STDOUT)
@@ -20,13 +20,14 @@ class ImageExtractor
     @images = []
     @doc =  Nokogiri::HTML(document.raw_content, nil, 'utf-8')
     @url = url
+    @min_width = options[:min_width] || 100
     @top_content_candidate = document.content_at(0)
     @max_bytes = options[:max_bytes] || 15728640
     @min_bytes = options[:min_bytes] || 5000
   end
 
   def getBestImages(limit = 3)
-    @logger.debug("Starting to Look for the Most Relavent Images") 
+    @logger.debug("Starting to Look for the Most Relavent Images (min width #{min_width})") 
     checkForLargeImages(top_content_candidate, 0, 0)
     checkForMetaTags unless image
     
@@ -130,12 +131,12 @@ class ImageExtractor
       @logger.debug("High Score Image is: " + buildImagePath(highScoreImage.first["src"]) )
     else
       @logger.debug("unable to find a large image, going to fall back mode. depth: " + parentDepth.to_s)
-      
-      if (parentDepth < 2) 
+
+      if (parentDepth < 2)
         # // we start at the top node then recursively go up to siblings/parent/grandparent to find something good
         prevSibling = node.previous_sibling
         if (prevSibling)
-          @logger.debug("About to do a check against the sibling element, class: " + prevSibling["class"] + "' id: '" + prevSibling["id"] + "'")
+          @logger.debug("About to do a check against the sibling element, class: " + (prevSibling["class"]||'none') + "' id: '" + (prevSibling["id"]||'none') + "'")
           siblingDepth = siblingDepth + 1
           checkForLargeImages(prevSibling, parentDepth, siblingDepth)
         else
@@ -216,8 +217,9 @@ class ImageExtractor
       link = buildImagePath(src)
       link = link.gsub(" ", "%20")
 
-      req = Net::HTTP.new(link, 80)
-      resp = req.request_head()
+      uri = URI.parse(link)
+      req = Net::HTTP.new(uri.host, 80)
+      resp = req.request_head(uri.path)
 
       bytes = min_bytes + 1
 
@@ -258,7 +260,7 @@ class ImageExtractor
         width, height = FastImage.size(imageSource)
         type = FastImage.type(imageSource)
         
-        if (width < 50)
+        if (width < min_width)
           @logger.debug(image["src"] + " is too small width: " + width.to_s + " skipping..")
           next
         end

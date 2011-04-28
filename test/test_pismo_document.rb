@@ -52,7 +52,7 @@ class TestPismoDocument < Test::Unit::TestCase
   end
   
   context "A basic real world blog post with relative images and image_extractor option set to true" do
-    setup do
+    setup do      
       @doc = Document.new(open(HTML_DIRECTORY + "/relative_imgs.html"), :image_extractor => true)      
     end
     
