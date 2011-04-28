@@ -229,7 +229,13 @@ module Pismo
 
     # Returns any images with absolute URLs in the document
     def images(limit = 3)
-      reader_doc && !reader_doc.images.empty? ? reader_doc.images(limit) : nil
+      if @options[:image_extractor]
+        extractor = ImageExtractor.new(reader_doc, @url)
+        image = extractor.getBestImage
+        return [image]
+      else
+        reader_doc && !reader_doc.images.empty? ? reader_doc.images(limit) : nil        
+      end
     end
     
     def videos(limit = 1)

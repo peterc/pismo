@@ -195,7 +195,7 @@ module Pismo
         # Get rid of images whose sources are relative (TODO: Make this optional)
         clean_html.gsub!(/\<img .*?\>/i) do |img_tag|
           img_tag =~ /\Whttp/ ? img_tag : ''
-        end unless @options[:all_images]
+        end unless @options[:all_images] || @options[:image_extractor]
 
         # Remove empty tags
         clean_html.gsub!(/<(\w+)><\/\1>/, "")

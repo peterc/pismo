@@ -51,6 +51,17 @@ class TestPismoDocument < Test::Unit::TestCase
     end
   end
   
+  context "A basic real world blog post with relative images and image_extractor option set to true" do
+    setup do
+      @doc = Document.new(open(HTML_DIRECTORY + "/relative_imgs.html"), :image_extractor => true)      
+    end
+    
+    should "scrape images" do
+      assert_equal @doc.images.first, 'http://www.rubyinside.com/wp-content/uploads/2010/01/cofeescriptdemo.png'
+    end
+  end  
+  
+  
   context "A blog post with videos" do
     setup do
       @doc = Document.new(open(HTML_DIRECTORY + "/videos.html"))
@@ -62,5 +73,5 @@ class TestPismoDocument < Test::Unit::TestCase
       assert_equal videos.first['src'], 'http://www.youtube.com/v/dBtYXFXa5Ig?fs=1&hl=en_US&rel=0&color1=0xFFFFFF&color2=0xFFFFFF&border=0'
     end
   end
-  
+   
 end
