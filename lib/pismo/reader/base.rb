@@ -49,9 +49,20 @@ module Pismo
       end
 
       def handle_content_encoding
+        # Ruby version is greater than 1.9, so use the native
+        # String.encoding method of handling unicode
+        # TODO: Handle < 1.9 with Iconv --  Wed Feb 29 15:24:18 2012
         if RUBY_VERSION > "1.9"
-          @raw_content.encode!("UTF-8", :invalid => :replace, :replace => '?') if @raw_content.encoding != "UTF-8"
-          @raw_content.encode!("ASCII-8BIT", :invalid => :replace, :replace => '?') if !@raw_content.valid_encoding?
+          # If the raw content is marked as UTF-8 and is not valid,
+          # clean it up by replacing invalidly encoded chars with '?',
+          # otherwise if the encoding is not UTF-8, try to force the
+          # conversion and if that fails try to force the content into ASCII-8BIT
+          if @raw_content.encoding == 'UTF-8' && @raw_content.valid_encoding? == false
+            @raw_content.encode!("UTF-8", :invalid => :replace, :undef => :replace, :replace => '?')
+          elsif @raw_content.encoding != 'UTF-8'
+            @raw_content.encode!("UTF-8", :invalid => :replace, :replace => '?')
+            @raw_content.encode!("ASCII-8BIT", :invalid => :replace, :undef => :replace, :replace => '?') if !@raw_content.valid_encoding?
+          end
         end
       end
 
