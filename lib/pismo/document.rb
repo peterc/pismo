@@ -5,6 +5,7 @@ module Pismo
   
   # Pismo::Document represents a single HTML document within Pismo
   class Document
+  
     attr_reader :doc, :url, :options
     
     ATTRIBUTE_METHODS = InternalAttributes.instance_methods + ExternalAttributes.instance_methods
