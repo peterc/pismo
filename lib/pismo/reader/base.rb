@@ -40,18 +40,24 @@ module Pismo
       # Create a document object based on the raw HTML content provided
       def initialize(raw_content, options = {})
         @options = options
-        @raw_content = Pismo::Document.clean_html(raw_content)
+        @raw_content = raw_content
+
+        handle_content_encoding
+        @raw_content = Pismo::Document.clean_html(@raw_content)
+
         build_doc
       end
 
-      def build_doc
-        @content = {}
-        
+      def handle_content_encoding
         if RUBY_VERSION > "1.9"
           @raw_content.encode!("UTF-8", :invalid => :replace, :replace => '?') if @raw_content.encoding != "UTF-8"
           @raw_content.encode!("ASCII-8BIT", :invalid => :replace, :replace => '?') if !@raw_content.valid_encoding?
         end
-  
+      end
+
+      def build_doc
+        @content = {}
+
         # Normalize whitespace (as much to make debugging sessions look nice as anything else)
         @raw_content.gsub!(/\s{2,}/, ' ')
         @raw_content.gsub!(/\r/, "\n")
