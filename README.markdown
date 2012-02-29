@@ -69,7 +69,7 @@ There are some shortcomings or problems that I'm aware of and am going to pursue
 * Some users have had issues with using Pismo from irb. This appears to be related to Nokogiri use causing a segfault
 * The "Reader" content extraction algorithm is not perfect. It can sometimes return crap and can barf on certain types of characters for sentence extraction
 * The author name extraction isn't very strong and is best avoided for now
-* The image extraction only deals with images with absolute URLs
+* The image extraction only deals with images with absolute URLs (optional; pass `:all_images => true` to `Pismo::Document.new` to include relative images)
 * The stopword list is a little too long (~1000 words) and needs to be trimmed
 * The corpus in test/corpus needs significantly extending
 

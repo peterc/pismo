@@ -21,7 +21,7 @@ class TestCorpus < Test::Unit::TestCase
         assert doc.html.length > 1000
         assert doc.doc.kind_of?(Nokogiri::HTML::Document)
       end
-    end
+    end  
     
     should "pass metadata extraction tests" do
       

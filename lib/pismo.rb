@@ -13,6 +13,7 @@ require 'pismo/reader'
 require 'pismo/reader/base'
 require 'pismo/reader/tree'
 require 'pismo/reader/cluster'
+require 'pismo/images/image_extractor'
 
 if RUBY_PLATFORM == "java"
   class String; def stem; self; end; end
