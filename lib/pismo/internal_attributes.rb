@@ -82,7 +82,7 @@ module Pismo
       
       regexen = [
         /#{mo}\b\s+\d+\D{1,10}\d{4}/i,
-        /(on\s+)?\d+\s+#{mo}\s+\D{1,10}\d+/i,
+        /(on\s+)?\d+\s+#{mo}\s+\D{0,10}\d+/i,
         /(on[^\d+]{1,10})\d+(th|st|rd)?.{1,10}#{mo}\b[^\d]{1,10}\d+/i,
         /\b\d{4}\-\d{2}\-\d{2}\b/i,
         /\d+(th|st|rd).{1,10}#{mo}\b[^\d]{1,10}\d+/i,
@@ -108,7 +108,6 @@ module Pismo
       datetime.sub!(/on\s+/, '')
       datetime.gsub!(/\,/, '')
       datetime.sub!(/(\d+)(th|st|rd)/, '\1')
-      
       Chronic.parse(datetime) || datetime
     end
     
@@ -230,7 +229,17 @@ module Pismo
 
     # Returns any images with absolute URLs in the document
     def images(limit = 3)
-      reader_doc && !reader_doc.images.empty? ? reader_doc.images(limit) : nil
+      if @options[:image_extractor]
+        extractor = ImageExtractor.new(reader_doc, @url, {:min_width => (@options[:min_image_width]||100)})
+        images = extractor.getBestImages(limit)
+        return images
+      else
+        reader_doc && !reader_doc.images.empty? ? reader_doc.images(limit) : nil        
+      end
+    end
+    
+    def videos(limit = 1)
+      reader_doc && !reader_doc.videos.empty? ? reader_doc.videos(limit) : nil
     end
     
     # Returns the "keyword phrases" in the document (not the meta keywords - they're next to useless now)

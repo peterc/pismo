@@ -28,4 +28,6 @@ Gem::Specification.new do |s|
   s.add_dependency(%q<fast-stemmer>, [">= 0"])
   s.add_dependency(%q<chronic>, [">= 0"])
   s.add_dependency(%q<phrasie>, [">= 0.1.4"])
+  s.add_dependency(%q<fastimage>, [">= 1"])
+  
 end

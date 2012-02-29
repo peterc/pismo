@@ -8,7 +8,7 @@ module Pismo
       attr_reader :raw_content, :doc, :content_candidates, :options
       
       # Elements to keep for /input/ sanitization
-      OK_ELEMENTS = %w{a td br th tbody table tr div span img strong em b i body html head title p h1 h2 h3 h4 h5 h6 pre code tt ul li ol blockquote font big small section article abbr audio video cite dd dt figure caption sup form dl dt dd center}
+      OK_ELEMENTS = %w{a td br th tbody table tr div span img strong em b i body html head title p h1 h2 h3 h4 h5 h6 pre code tt ul li ol blockquote font big small section article abbr audio video embed object cite dd dt figure caption sup form dl dt dd center}
   
       # Build a tree of attributes that are allowed for each element.. doing it this messy way due to how Sanitize works, alas
       OK_ATTRIBUTES = {}
@@ -32,7 +32,7 @@ module Pismo
       COULD_CONTAIN_FULL_CONTENT = %w{body div p table tr td article pre blockquote tbody section}
   
       ## Output sanitization element sets
-      BLOCK_OUTPUT_ELEMENTS = %w{div p h2 h3 h4 h5 h6 li dl pre ul ol blockquote section article audio video cite dd dt figure caption br table tr td thead tbody tfoot}
+      BLOCK_OUTPUT_ELEMENTS = %w{div p h2 h3 h4 h5 h6 li dl pre ul ol blockquote section article audio video cite dd dt figure caption br table tr td thead tbody tfoot embed object}
       INLINE_OUTPUT_ELEMENTS = %w{a img b strong em i br code sup font small big dd dt}
       OUTPUT_ELEMENTS = BLOCK_OUTPUT_ELEMENTS + INLINE_OUTPUT_ELEMENTS
       NON_HEADER_ELEMENTS = %w{p br}
@@ -195,7 +195,7 @@ module Pismo
         # Get rid of images whose sources are relative (TODO: Make this optional)
         clean_html.gsub!(/\<img .*?\>/i) do |img_tag|
           img_tag =~ /\Whttp/ ? img_tag : ''
-        end
+        end unless @options[:all_images] || @options[:image_extractor]
 
         # Remove empty tags
         clean_html.gsub!(/<(\w+)><\/\1>/, "")
@@ -248,6 +248,20 @@ module Pismo
           break if images.length == qty
         end
         images
+      end
+      
+      def videos(qty = 1)
+        doc = Nokogiri::HTML(raw_content, nil, 'utf-8')
+        videos = []
+        doc.css("embed,object").each do |vid|
+          vid.attributes.each do |key, value|
+            if (value.to_s.include?('youtube') || value.to_s.include?('vimeo')) && key.to_s.eql?('src')
+              videos << vid
+            end
+          end
+          break if videos.length == qty
+        end
+        videos        
       end
       
       # Remove leading and trailing spaces on lines throughout a string (a bit like String#strip, but for multi-lines)
