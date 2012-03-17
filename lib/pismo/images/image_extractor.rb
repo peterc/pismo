@@ -3,7 +3,7 @@
 require 'fastimage'
 require 'logger'
 
-# 
+#
 # This image extractor will attempt to find the best image nearest the article.
 # It uses the fastimage library to quickly check the dimensions of the image, and uses some simple hueristics to score images and pick the best one.
 #
@@ -13,7 +13,7 @@ class ImageExtractor
 
   def initialize(document, url, options = {})
     @logger = Logger.new(STDOUT)
-    
+
     @options = options
     @bad_image_names_regex = ".html|.gif|.ico|button|twitter.jpg|facebook.jpg|digg.jpg|digg.png|delicious.png|facebook.png|reddit.jpg|doubleclick|diggthis|diggThis|adserver|/ads/|ec.atdmt.com|mediaplex.com|adsatt|view.atdmt"
     @image = nil
@@ -27,10 +27,10 @@ class ImageExtractor
   end
 
   def getBestImages(limit = 3)
-    @logger.debug("Starting to Look for the Most Relavent Images (min width #{min_width})") 
+    @logger.debug("Starting to Look for the Most Relavent Images (min width #{min_width})")
     checkForLargeImages(top_content_candidate, 0, 0)
     checkForMetaTags unless image
-    
+
     return @images[0...limit].map{|i| buildImagePath(i.first['src']) }
   end
 
@@ -44,13 +44,13 @@ class ImageExtractor
     @logger.debug("unable to find meta image tag")
     return false
   end
-  
+
   #  checks to see if we were able to find open graph tags on this page
   def checkForOpenGraphTag
     begin
       meta = doc.css("meta[property~='og:image']")
       meta.each do |item|
-        next if (item["content"].length < 1)
+        next if (item["content"].empty?)
 
         @image = buildImagePath(item["content"])
         @logger.debug("open graph tag found, using it")
@@ -68,7 +68,7 @@ class ImageExtractor
     begin
       meta = doc.css("link[rel~='image_src']")
       meta.each do |item|
-        next if (item["href"].length < 1) 
+        next if (item["href"].empty?)
 
         @image = buildImagePath(item["href"])
         @logger.debug("link tag found, using it")
@@ -79,8 +79,8 @@ class ImageExtractor
     end
     return image ? true : false
   end
-  
-  
+
+
   #  * 1. get a list of ALL images from the parent node
   #  * 2. filter out any bad image names that we know of (gifs, ads, etc..)
   #  * 3. do a head request on each file to make sure it meets our bare requirements
@@ -98,11 +98,11 @@ class ImageExtractor
     @logger.debug("checkForLargeImages: Checking for large images, found: " + images.size.to_s + " - parent depth: " + parentDepth.to_s + " sibling depth: " + siblingDepth.to_s)
 
     goodImages = filterBadNames(images)
-      
+
     @logger.debug("checkForLargeImages: After filterBadNames we have: " + goodImages.size.to_s)
 
     goodImages = findImagesThatPassByteSizeTest(goodImages)
-    
+
     @logger.debug("checkForLargeImages: After findImagesThatPassByteSizeTest we have: " + goodImages.size.to_s);
 
     imageResults = downloadImagesAndGetResults(goodImages, parentDepth)
@@ -110,12 +110,12 @@ class ImageExtractor
     # // pick out the image with the highest score
 
     highScoreImage = nil
-    imageResults = imageResults.sort_by{|imageResult| 
+    imageResults = imageResults.sort_by{|imageResult|
       imageResult.last
     }
     @images = imageResults
-    
-    # imageResults.each do |imageResult|      
+
+    # imageResults.each do |imageResult|
     #   if !highScoreImage
     #     highScoreImage = imageResult
     #   else
@@ -125,7 +125,7 @@ class ImageExtractor
     #   end
     # end
     highScoreImage = imageResults.first if imageResults.any?
-    
+
     if (highScoreImage)
       @image = buildImagePath(highScoreImage.first["src"])
       @logger.debug("High Score Image is: " + buildImagePath(highScoreImage.first["src"]) )
@@ -157,7 +157,7 @@ class ImageExtractor
       @logger.debug("Abort! they have over 30 images near the top node: ")
       return goodImages
     end
-    
+
     goodImages = []
     images.each do |image|
       bytes = getBytesForImage(image["src"])
@@ -185,14 +185,14 @@ class ImageExtractor
 
   #  * check the image src against a list of bad image files we know of like buttons, etc...
   def isOkImageFileName(imageNode)
-    return false if imageNode["src"].length.eql?(0)
-    
+    return false if imageNode["src"].nil? or imageNode["src"].empty?
+
     regexp = Regexp.new(bad_image_names_regex)
     if imageNode["src"].match(regexp)
       @logger.debug("Found bad filename for image: " + imageNode['src'])
       return false
     end
-    
+
     return true
   end
 
@@ -224,7 +224,7 @@ class ImageExtractor
       bytes = min_bytes + 1
 
       currentBytes = resp.content_length
-      
+
       contentType = resp.content_type;
       if (contentType.include?("image"))
         bytes = currentBytes
@@ -256,10 +256,10 @@ class ImageExtractor
 
       begin
         imageSource = buildImagePath(image["src"])
-        
+
         width, height = FastImage.size(imageSource)
         type = FastImage.type(imageSource)
-        
+
         if (width < min_width)
           @logger.debug(image["src"] + " is too small width: " + width.to_s + " skipping..")
           next
