@@ -20,8 +20,9 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
-  
+
   s.add_development_dependency(%q<shoulda>, [">= 0"])
+  s.add_development_dependency(%q<mocha>, [">= 0"])
   s.add_dependency(%q<awesome_print>, [">= 0"])
   s.add_dependency(%q<nokogiri>, [">= 0"])
   s.add_dependency(%q<sanitize>, [">= 0"])
@@ -29,5 +30,6 @@ Gem::Specification.new do |s|
   s.add_dependency(%q<chronic>, [">= 0"])
   s.add_dependency(%q<phrasie>, [">= 0.1.4"])
   s.add_dependency(%q<fastimage>, [">= 1"])
-  
+  s.add_dependency(%q<htmlentities>)
+
 end

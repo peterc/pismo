@@ -1,12 +1,12 @@
---- 
-:rww: 
+---
+:rww:
   :title: "Cartoon: Apple Tablet: Now With Barometer and Bird Call Generator"
   :feed: http://www.readwriteweb.com/rss.xml
   :lede: I'm just aching to know if the new Apple tablet (insert caveats, weasel words and qualifiers here) is a potential Cintiq competitor. I don't think it will be, but you never know. It may also have a built in barometer and bird call generator. I'm never sure if Apple does themselves more good than harm with the secrecy and anticipation that surrounds the run-up to these announcements.
   :feeds:
     - http://www.readwriteweb.com/rss.xml
-    - http://www.readwriteweb.com/archives/2010/01/cartoon_apple_tablet_now_with_barometer_and_bird_c.xml  
-:briancray: 
+    - http://www.readwriteweb.com/archives/2010/01/cartoon_apple_tablet_now_with_barometer_and_bird_c.xml
+:briancray:
   :title: 5 great examples of popular blog posts that you should know
   :feed: http://feeds.feedburner.com/briancray/blog
   :lede: "This is a mock post."
@@ -17,7 +17,7 @@
     - TODD PITMAN
     - AP
   :feed: http://feeds.huffingtonpost.com/huffingtonpost/raw_feed
-  :lede: "KABUL - The man on the motorcycle was going the wrong way down a one-way street, gesturing indignantly for the phalanx of traffic-clogged cars in front of him to move."
+  :lede: "KABUL — The man on the motorcycle was going the wrong way down a one-way street, gesturing indignantly for the phalanx of traffic-clogged cars in front of him to move."
 :bbcnews:
   :title: Gay Muslims made homeless by family violence
   :titles:
@@ -46,10 +46,10 @@
   :author: Joel Spolsky
   :favicon: /favicon.ico
   :feed: http://www.joelonsoftware.com/rss.xml
-:techcrunch: 
+:techcrunch:
   :title: Googlle Gets A Sexy New Logo; Remains Sketchy
   :author: MG Siegler
-:rubyinside: 
+:rubyinside:
   :title: "CoffeeScript: A New Language With A Pure Ruby Compiler"
   :author: Peter Cooper
   :lede: CoffeeScript (GitHub repo) is a new programming language with a pure Ruby compiler.
@@ -69,4 +69,4 @@
   :title: 18 Incredible CSS3 Effects You Have Never Seen Before
   :lede: "CSS3 is hot these days and will soon be available in most modern browser. Just recently, I started to become aware to the present of CSS3 around the web. I can see some of the websites such as twitter and designer portfolios websites are using it. Also, I have started to implement it to my own project as well and I really love it!"
   :sentences: CSS3 is hot these days and will soon be available in most modern browser. Just recently, I started to become aware to the present of CSS3 around the web. I can see some of the websites such as twitter and designer portfolios websites are using it.
-  :datetime: 2010-02-17 12:00:00 -06:00
+  :datetime: 2010-02-17 12:00:00 -07:00

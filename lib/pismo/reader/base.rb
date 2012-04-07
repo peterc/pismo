@@ -6,31 +6,31 @@ module Pismo
   module Reader
     class Base
       attr_reader :raw_content, :doc, :content_candidates, :options
-      
+
       # Elements to keep for /input/ sanitization
       OK_ELEMENTS = %w{a td br th tbody table tr div span img strong em b i body html head title p h1 h2 h3 h4 h5 h6 pre code tt ul li ol blockquote font big small section article abbr audio video embed object cite dd dt figure caption sup form dl dt dd center}
-  
+
       # Build a tree of attributes that are allowed for each element.. doing it this messy way due to how Sanitize works, alas
       OK_ATTRIBUTES = {}
       OK_CLEAN_ATTRIBUTES = {}
       OK_ELEMENTS.each { |el| OK_ATTRIBUTES[el] = %w{id class href name content type alt title src} }
       OK_ELEMENTS.each { |el| OK_CLEAN_ATTRIBUTES[el] = %w{href title src alt} }
-      
-      
+
+
       # Words that we'd like to see in class and ID names for "content"
       GOOD_WORDS = %w{content post blogpost main story body entry text desc asset hentry single entrytext postcontent bodycontent}.uniq
-  
+
       # Words that indicate crap in general
       BAD_WORDS = %w{reply metadata options commenting comments comment about footer header outer credit sidebar widget subscribe clearfix date social bookmarks links share video watch excerpt related supplement accessibility offscreen meta title signup blq secondary feedback featured clearfix small job jobs listing listings navigation nav byline addcomment postcomment trackback neighbor ads commentform fbfans login similar thumb link blogroll grid twitter wrapper container nav sitesub printfooter editsection visualclear catlinks hidden toc contentsub caption disqus rss shoutbox sponsor blogcomments}.uniq
-      
+
       # Words that kill a branch dead
       FATAL_WORDS = %w{comments comment bookmarks social links ads related similar footer digg totop metadata sitesub nav sidebar commenting options addcomment leaderboard offscreen job prevlink prevnext navigation reply-link hide hidden sidebox archives vcard}
-      
+
       META_WORDS = %w{january february march april may june july august september october november december jan feb mar apr may jun jul aug sep oct nov dec st th rd nd comments written posted on at published 2000 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 updated last gmt est pst pdt edt cet cdt cst article feature featured filed under comment comments follow twitter facebook email e-mail register story continue continues reading read inside more page next related response responses respond contact street phone tel email e-mail fax info tags tagged tag thanks credit creative commons copy nbsp lt gt this friend printable version subscribe rss mail follow twitter article via leave}.uniq
-  
+
       WONT_CONTAIN_FULL_CONTENT = %w{h1 h2 h3 h4 h5 h6 h6 li ol ul br a img meta cite strong em i b input head small big code title sup sub dd dt}
       COULD_CONTAIN_FULL_CONTENT = %w{body div p table tr td article pre blockquote tbody section}
-  
+
       ## Output sanitization element sets
       BLOCK_OUTPUT_ELEMENTS = %w{div p h2 h3 h4 h5 h6 li dl pre ul ol blockquote section article audio video cite dd dt figure caption br table tr td thead tbody tfoot embed object}
       INLINE_OUTPUT_ELEMENTS = %w{a img b strong em i br code sup font small big dd dt}
@@ -43,8 +43,6 @@ module Pismo
         @raw_content = raw_content
 
         handle_content_encoding
-        @raw_content = Pismo::Document.clean_html(@raw_content)
-
         build_doc
       end
 
@@ -54,7 +52,7 @@ module Pismo
         # TODO: Handle < 1.9 with Iconv --  Wed Feb 29 15:24:18 2012
         if RUBY_VERSION > "1.9"
           # If the raw content is marked as UTF-8 and is not valid,
-          # clean it up by replacing invalidly encoded chars with '?',
+        # clean it up by replacing invalidly encoded chars with '?',
           # otherwise if the encoding is not UTF-8, try to force the
           # conversion and if that fails try to force the content into ASCII-8BIT
           if @raw_content.encoding == 'UTF-8' && @raw_content.valid_encoding? == false
@@ -74,10 +72,10 @@ module Pismo
         @raw_content.gsub!(/\r/, "\n")
         @raw_content.gsub!(/\n{3,}/, "\n\n")
         @raw_content.gsub!(/(\<br(\s\/)?\>){2,}/, "</p><p>")
-        
+
         # Remove scripts manually, Sanitize and/or Nokogiri seem to go a bit funny with them
         @raw_content.gsub!(/\<script .*?\<\/script\>/im, '')
-        
+
         # Get rid of bullshit "smart" quotes and other Unicode nonsense
         @raw_content.force_encoding("ASCII-8BIT") if RUBY_VERSION > "1.9"
         @raw_content.gsub!("\xe2\x80\x89", " ")
@@ -87,8 +85,8 @@ module Pismo
         @raw_content.gsub!("\xe2\x80\x9d", '"')
         @raw_content.gsub!("\xe2\x80\xf6", '.')
         @raw_content.force_encoding("UTF-8") if RUBY_VERSION > "1.9"
-        
-              
+
+
         # Sanitize the HTML
         @raw_content = Sanitize.clean(@raw_content,
           :elements => OK_ELEMENTS,
@@ -96,10 +94,10 @@ module Pismo
           :remove_contents => true,
           :output_encoding => 'utf-8'
         )
-              
+
         @doc = Nokogiri::HTML(@raw_content, nil, 'utf-8')
 
-        # Do a pre clean up of elements. 
+        # Do a pre clean up of elements.
         @doc.css("div, span, table, tr, td, pre").each do |el|
           # Any block elements with no child block elements can become paragraphs
           if (BLOCK_OUTPUT_ELEMENTS & el.inner_html.scan(/\<(\w+)/).flatten).empty?
@@ -113,21 +111,21 @@ module Pismo
 
           el.remove if (FATAL_WORDS & (el['id'].to_s + ' ' + el['class'].to_s).downcase.strip.scan(/[a-z]+/)).size > 0
         end
-        
+
         analyze
       end
-    
+
       # Return the content from best match number of index (default 0) and, optionally, clean it to plain-text
       def content(clean = false, index = 0)
         return @content[[clean, index]] if @content[[clean, index]]
         return '' if !@content_candidates || @content_candidates.empty?
-        
+
         content_branch = content_at(index)
         orphans_to_remove = []
-        
+
         #ap content_branch.to_html
         #exit
-        
+
         # Go through every piece of the content and rip out sections that contain too many tags compared to words
         # This is usually indicative of "widgets" or link bar sections
         content_branch.css('*').each_with_index do |el, i|
@@ -189,10 +187,10 @@ module Pismo
 
         # If a title was found early in the result document but had text before it, remove that text - it's probably crap
         orphans_to_remove.each { |el| el.remove }
-        
+
         # Clean up the HTML again - Nokogiri outputs it with full doctype and crap
         clean_html = strip(Sanitize.clean(content_branch.to_html, :elements => (clean ? BLOCK_OUTPUT_ELEMENTS : OUTPUT_ELEMENTS), :attributes => (clean ? OK_CLEAN_ATTRIBUTES : OK_ATTRIBUTES)))
-        
+
         # If the content is desired as "clean" (i.e. plain-text), do some quick fix-ups
         if clean
           # Get rid of line break tags, make list items look nice, remove all other HTML tags, and clean up spaces and newlines
@@ -205,7 +203,7 @@ module Pismo
           clean_html.gsub!(/\n{2,}/, "\n")
           clean_html.strip!
         end
-        
+
         # If tags butt up against each other across lines, remove the line break(s)
         clean_html.gsub!(/\>\n+\</, '><')
 
@@ -219,16 +217,18 @@ module Pismo
 
         # Just a messy, hacky way to make output look nicer with subsequent paragraphs..
         clean_html.gsub!(/<\/(div|p|h1|h2|h3|h4|h5|h6)>/, '</\1>' + "\n\n")
-        
+
+        clean_html = Pismo.normalize_entities clean_html
+
         @content[[clean, index]] = clean_html
       end
-          
+
       def sentences(qty = 3)
         clean_content = Sanitize.clean(content, :elements => NON_HEADER_ELEMENTS, :attributes => OK_CLEAN_ATTRIBUTES, :remove_contents => %w{h1 h2 h3 h4 h5 h6})
 
         fodder = ''
         doc = Nokogiri::HTML(clean_content, nil, 'utf-8')
-  
+
         doc.traverse do |el|
           path_segments = el.path.scan(/[a-z]+/)[2..-1]
           next unless path_segments && path_segments.length > 1
@@ -236,19 +236,19 @@ module Pismo
             el.remove
             next
           end
-          if el.text? && NON_HEADER_ELEMENTS.include?(path_segments[-2]) 
+          if el.text? && NON_HEADER_ELEMENTS.include?(path_segments[-2])
             text = el.text.strip
             text += "." if text !~ /[\.\!\?\"\']$/
-            fodder += text + "\n" 
+            fodder += text + "\n"
           end
         end
-        
+
         fodder = content(true) if fodder.to_s.length < 50
         fodder.gsub!(/\b\w\W\s/, '')
-        
+
         #sentences = fodder.scan(/([\&\w\s\-\'\,\+\.\/\\\:\#\(\)\=\"\?\!]+?[\.\?\!])(\s|\Z)/im).map { |s| s.first }
-        sentences = fodder.scan(/(.+?[\.\?\!])(\s|\Z)/im).map { |s| s.first.strip }
-        
+        sentences = fodder.scan(/(.+?[\.\?\!])(\s|\Z)/im).map { |s| Pismo.normalize_entities s.first.strip }
+
         sentences.compact!
         sentences.map! { |s| s.strip }
         sentences.map! { |s| s.sub(/^[^\"\'a-z0-9\(\[]+/im, '') }
@@ -256,7 +256,7 @@ module Pismo
         sentences.map! { |s| s.gsub(/\s+/m, ' ') }
         sentences.first(qty)
       end
-      
+
       def images(qty = 3)
         doc = Nokogiri::HTML(content, nil, 'utf-8')
         images = []
@@ -266,7 +266,7 @@ module Pismo
         end
         images
       end
-      
+
       def videos(qty = 1)
         doc = Nokogiri::HTML(raw_content, nil, 'utf-8')
         videos = []
@@ -278,13 +278,13 @@ module Pismo
           end
           break if videos.length == qty
         end
-        videos        
+        videos
       end
-      
+
       # Remove leading and trailing spaces on lines throughout a string (a bit like String#strip, but for multi-lines)
       def strip(s)
         s.gsub(/^\s+/, '').gsub(/\s+$/, '')
       end
-    end  
+    end
   end
 end
