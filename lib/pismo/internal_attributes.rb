@@ -1,6 +1,8 @@
 module Pismo
   # Internal attributes are different pieces of data we can extract from a document's content
   module InternalAttributes
+    @@phrasie = Phrasie::Extractor.new
+    
     # Returns the title of the page/content - attempts to strip site name, etc, if possible
     def title(all = false)
       # TODO: Memoizations
@@ -80,7 +82,7 @@ module Pismo
       
       regexen = [
         /#{mo}\b\s+\d+\D{1,10}\d{4}/i,
-        /(on\s+)?\d+\s+#{mo}\s+\D{1,10}\d+/i,
+        /(on\s+)?\d+\s+#{mo}\s+\D{0,10}\d+/i,
         /(on[^\d+]{1,10})\d+(th|st|rd)?.{1,10}#{mo}\b[^\d]{1,10}\d+/i,
         /\b\d{4}\-\d{2}\-\d{2}\b/i,
         /\d+(th|st|rd).{1,10}#{mo}\b[^\d]{1,10}\d+/i,
@@ -106,7 +108,6 @@ module Pismo
       datetime.sub!(/on\s+/, '')
       datetime.gsub!(/\,/, '')
       datetime.sub!(/(\d+)(th|st|rd)/, '\1')
-      
       Chronic.parse(datetime) || datetime
     end
     
@@ -228,36 +229,25 @@ module Pismo
 
     # Returns any images with absolute URLs in the document
     def images(limit = 3)
-      reader_doc && !reader_doc.images.empty? ? reader_doc.images(limit) : nil
+      if @options[:image_extractor]
+        extractor = ImageExtractor.new(reader_doc, @url, {:min_width => (@options[:min_image_width]||100)})
+        images = extractor.getBestImages(limit)
+        return images
+      else
+        reader_doc && !reader_doc.images.empty? ? reader_doc.images(limit) : nil        
+      end
     end
     
-    # Returns the "keywords" in the document (not the meta keywords - they're next to useless now)
+    def videos(limit = 1)
+      reader_doc && !reader_doc.videos.empty? ? reader_doc.videos(limit) : nil
+    end
+    
+    # Returns the "keyword phrases" in the document (not the meta keywords - they're next to useless now)
     def keywords(options = {})
-      options = { :stem_at => 20, :word_length_limit => 15, :limit => 20, :remove_stopwords => true, :minimum_score => 2 }.merge(options)
-      
-      words = {}
-      
-      # Convert doc to lowercase, scrub out most HTML tags, then keep track of words
-      cached_title = title.to_s
-      content_to_use = body.to_s.downcase + " " + description.to_s.downcase
-
-      # old regex for safe keeping -- \b[a-z][a-z\+\.\'\+\#\-]*\b
-      content_to_use.downcase.gsub(/\<[^\>]{1,100}\>/, '').gsub(/\.+\s+/, ' ').gsub(/\&\w+\;/, '').scan(/(\b|\s|\A)([a-z0-9][a-z0-9\+\.\'\+\#\-\\]*)(\b|\s|\Z)/i).map{ |ta1| ta1[1] }.compact.each do |word|
-        next if word.length > options[:word_length_limit]
-        word.gsub!(/^[\']/, '')
-        word.gsub!(/[\.\-\']$/, '')
-        next if options[:hints] && !options[:hints].include?(word)
-        words[word] ||= 0
-        words[word] += (cached_title.downcase =~ /\b#{word}\b/ ? 5 : 1)
-      end
-
-      # Stem the words and stop words if necessary
-      d = words.keys.uniq.map { |a| a.length > options[:stem_at] ? a.stem : a }
-      s = Pismo.stopwords.map { |a| a.length > options[:stem_at] ? a.stem : a }
-
-      words.delete_if { |k1, v1| v1 < options[:minimum_score] }
-      words.delete_if { |k1, v1| s.include?(k1) } if options[:remove_stopwords]
-      words.sort_by { |k2, v2| v2 }.reverse.first(options[:limit])
+      options = { :limit => 20, :minimum_score => "1%" }.merge(options)      
+      text = [title, description, body].join(" ")
+      phrases = @@phrasie.phrases(text, :occur => options[:minimum_score]).map{ |phrase, occur, strength| [phrase.downcase, occur] }
+      phrases.delete_if{ |phrase, occur| occur < 2 }.sort_by{ |phrase, occur| occur }.reverse.first(options[:limit])
     end
     
     def reader_doc

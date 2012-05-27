@@ -30,5 +30,48 @@ class TestPismoDocument < Test::Unit::TestCase
     should "provide a title" do
       assert_equal  "CoffeeScript: A New Language With A Pure Ruby Compiler", @doc.title
     end
+    
+    should "provide keywords" do
+      assert_equal [["code", 4],
+                    ["coffeescript", 3],
+                    ["compiler", 2],
+                    ["github", 2],
+                    ["javascript", 2],
+                    ["ruby", 5]], @doc.keywords.sort_by{|p| p[0]}
+    end
   end
+  
+  context "A basic real world blog post with relative images and all_images option set to true" do
+    setup do
+      @doc = Document.new(open(HTML_DIRECTORY + "/relative_imgs.html"), :all_images => true)
+    end
+    
+    should "get relative images" do
+      assert @doc.images.include?('/wp-content/uploads/2010/01/coffeescript.png')
+    end
+  end
+  
+  context "A basic real world blog post with relative images and image_extractor option set to true" do
+    setup do      
+      @doc = Document.new(open(HTML_DIRECTORY + "/relative_imgs.html"), :image_extractor => true)      
+    end
+    
+    should "scrape images" do
+      assert_equal @doc.images.first, 'http://www.rubyinside.com/wp-content/uploads/2010/01/cofeescriptdemo.png'
+    end
+  end  
+  
+  
+  context "A blog post with videos" do
+    setup do
+      @doc = Document.new(open(HTML_DIRECTORY + "/videos.html"))
+    end
+    
+    should 'get embed object' do
+      videos = @doc.videos
+      assert_equal videos.length, 1
+      assert_equal videos.first['src'], 'http://www.youtube.com/v/dBtYXFXa5Ig?fs=1&hl=en_US&rel=0&color1=0xFFFFFF&color2=0xFFFFFF&border=0'
+    end
+  end
+   
 end
