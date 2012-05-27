@@ -30,5 +30,14 @@ class TestPismoDocument < Test::Unit::TestCase
     should "provide a title" do
       assert_equal  "CoffeeScript: A New Language With A Pure Ruby Compiler", @doc.title
     end
+    
+    should "provide keywords" do
+      assert_equal [["code", 4],
+                    ["coffeescript", 3],
+                    ["compiler", 2],
+                    ["github", 2],
+                    ["javascript", 2],
+                    ["ruby", 5]], @doc.keywords.sort_by{|p| p[0]}
+    end
   end
 end
