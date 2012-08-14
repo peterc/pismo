@@ -76,7 +76,7 @@ module Pismo
     def datetime
       # TODO: Clean all this mess up
       
-      mo = %r{(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December)}i
+      mo = %r{(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December)\.?}i
       
       regexen = [
         /#{mo}\b\s+\d+\D{1,10}\d{4}/i,
@@ -86,6 +86,7 @@ module Pismo
         /\d+(th|st|rd).{1,10}#{mo}\b[^\d]{1,10}\d+/i,
         /\d+\s+#{mo}\b[^\d]{1,10}\d+/i,
         /on\s+#{mo}\s+\d+/i,
+        /#{mo}\s+\d+,? \d{4}+/i,
         /#{mo}\s+\d+/i,
         /\d{4}[\.\/\-]\d{2}[\.\/\-]\d{2}/,
         /\d{2}[\.\/\-]\d{2}[\.\/\-]\d{4}/
@@ -102,7 +103,8 @@ module Pismo
       # Clean up the string for use by Chronic
       datetime.strip!
       datetime.gsub!(/(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)[^\w]*/i, '')
-      datetime.gsub!(/(mon|tues|tue|weds|wed|thurs|thur|thu|fri|sat|sun)[^\w]*/i, '')
+      datetime.gsub!(/(mon|tues|tue|weds|wed|thurs|thur|thu|fri|sat|sun)\.?[^\w]*/i, '')
+      datetime.gsub!(/(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\./i, '\1')
       datetime.sub!(/on\s+/, '')
       datetime.gsub!(/\,/, '')
       datetime.sub!(/(\d+)(th|st|rd)/, '\1')
