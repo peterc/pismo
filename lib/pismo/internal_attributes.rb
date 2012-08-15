@@ -232,8 +232,38 @@ module Pismo
     def images(limit = 3)
       reader_doc && !reader_doc.images.empty? ? reader_doc.images(limit) : nil
     end
-    
-    # Returns the "keywords" in the document (not the meta keywords - they're next to useless now)
+
+    # Returns the tags or categories of the page/content
+    def tags
+      css_selectors = [
+                       '.watch-info-tag-list a',  # YouTube
+                       '.entry .tags a',          # Livejournal
+                       'a[rel~=tag]',             # Wordpress and many others
+                       'a.tag',                   # Tumblr
+                       '.tags a',
+                       '.labels a',
+                       '.categories a',
+                       '.topics a'
+                      ]
+
+      tags = []
+
+      # grab the first one we get results from
+      css_selectors.each do |css_selector|
+        tags += @doc.css(css_selector)
+        break if tags.any?
+      end
+
+      # convert from Nokogiri Element objects to strings
+      tags.map!(&:inner_text)
+
+      # remove "#" from hashtag-like tags
+      tags.map! { |t| t.gsub(/^#/, '') }
+
+      tags
+    end
+
+    # Returns the "keywords" in the document (not the meta 'ss'keywords - they're next to useless now)
     def keywords(options = {})
       options = { :stem_at => 20, :word_length_limit => 15, :limit => 20, :remove_stopwords => true, :minimum_score => 2 }.merge(options)
       
