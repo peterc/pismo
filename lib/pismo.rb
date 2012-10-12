@@ -5,6 +5,8 @@ require 'nokogiri'
 require 'chronic'
 require 'sanitize'
 require 'tempfile'
+require 'phrasie'
+require 'htmlentities'
 
 $: << File.dirname(__FILE__)
 require 'pismo/document'
@@ -12,6 +14,8 @@ require 'pismo/reader'
 require 'pismo/reader/base'
 require 'pismo/reader/tree'
 require 'pismo/reader/cluster'
+require 'pismo/images/image_extractor'
+
 
 if RUBY_PLATFORM == "java"
   class String; def stem; self; end; end
@@ -24,20 +28,43 @@ module Pismo
   def self.document(handle, options = {})
     Document.new(handle, options)
   end
-  
+
   # Load a URL, as with Pismo['http://www.rubyinside.com'], and caches the Pismo document
   # (mostly useful for debugging use)
   def self.[](url)
     @docs ||= {}
     @docs[url] ||= Pismo::Document.new(url)
   end
-  
-  
+
+
   # Return stopword list
   def self.stopwords
     @stopwords ||= File.read(File.dirname(__FILE__) + '/pismo/stopwords.txt').split rescue []
   end
-  
+
+  def self.normalize_entities(text)
+    @entities ||= HTMLEntities.new
+    normalize_unicode_characters @entities.decode(text)
+  end
+
+  UNICODE_CONVERSIONS = {
+    "8230" => '...',
+    "8194" => ' ',
+    "8195" => ' ',
+    "8201" => ' ',
+    "8211" => '-',
+    "8216" => '\'',
+    "8217" => '\'',
+    "8220" => '"',
+    "8221" => '"'
+  }
+  TRANSLATED_CONVERSIONS = UNICODE_CONVERSIONS.map {|k, v| [k.to_i.chr("UTF-8"), v] }
+
+  def self.normalize_unicode_characters(html)
+    TRANSLATED_CONVERSIONS.each {|k,v| html.gsub! k, v }
+    html
+  end
+
   class NFunctions
     def self.match_href(list, expression)
       list.find_all { |node| node['href'] =~ /#{expression}/ }
@@ -50,33 +77,27 @@ class Nokogiri::HTML::Document
   def get_the(search)
     self.search(search).first rescue nil
   end
-  
-  def match(queries = [], all = false)
-    r = [] if all
-    [*queries].each do |query|
-      if query.is_a?(String)
-        if el = self.search(query).first
-          if el.name.downcase == "meta"
-            result = el['content'].strip rescue nil
-          else
-            result = el.inner_text.strip rescue nil
-          end
-        end
-      elsif query.is_a?(Array)
-        result = query[1].call(self.search(query.first).first).strip rescue nil
-      end
 
-      if result
-        # TODO: Sort out sanitization in a more centralized way
-        result.gsub!('’', '\'')
-        result.gsub!('—', '-')
-        if all
-          r << result
-        else
-          return result
+  def match(queries = [])
+    [].tap do |results|
+      [*queries].each do |query|
+        result = begin
+          if query.is_a?(String)
+            if el = self.search(query).first
+              if el.name.downcase == "meta"
+                el['content']
+              else
+                el.inner_text
+              end
+            end
+          elsif query.is_a?(Array)
+            query.last.call( self.search(query.first).first )
+          end
+        rescue
+          nil
         end
+        results << Pismo.normalize_entities(result.strip) if result
       end
-    end
-    all && !r.empty? ? r : nil
+    end.compact
   end
 end
