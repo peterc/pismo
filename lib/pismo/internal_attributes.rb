@@ -3,7 +3,7 @@ module Pismo
   module InternalAttributes
     @@phrasie = Phrasie::Extractor.new
 
-    MONTHS_REGEX = %r{(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December)}i
+    MONTHS_REGEX = %r{(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December)\.?}i
     DATETIME_REGEXEN = [
       /#{MONTHS_REGEX}\b\s+\d+\D{1,10}\d{4}/i,
       /(on\s+)?\d+\s+#{MONTHS_REGEX}\s+\D{0,10}\d+/i,
@@ -168,13 +168,12 @@ module Pismo
       DATETIME_REGEXEN.detect {|r| datetime = @doc.to_html[r] }
 
       return unless datetime and datetime.length > 4
-
       # Clean up the string for use by Chronic
       datetime.strip!
       datetime.gsub!(/(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|mon|tues|tue|weds|wed|thurs|thur|thu|fri|sat|sun)[^\w]*/i, '')
-      datetime.sub!(/(on\s+|\,)/, '')
+      datetime.sub!(/(on\s+|\,|\.)/, '')
       datetime.sub!(/(\d+)(th|st|rd)/, '\1')
-      Chronic.parse(datetime) || datetime
+      Chronic.parse(datetime, :context => :past) || datetime
     end
 
     # Returns the author of the page/content
@@ -262,6 +261,36 @@ module Pismo
 
     def videos(limit = 1)
       reader_doc && !reader_doc.videos.empty? ? reader_doc.videos(limit) : nil
+    end
+
+ # Returns the tags or categories of the page/content
+    def tags
+      css_selectors = [
+                       '.watch-info-tag-list a',  # YouTube
+                       '.entry .tags a',          # Livejournal
+                       'a[rel~=tag]',             # Wordpress and many others
+                       'a.tag',                   # Tumblr
+                       '.tags a',
+                       '.labels a',
+                       '.categories a',
+                       '.topics a'
+                      ]
+
+      tags = []
+
+      # grab the first one we get results from
+      css_selectors.each do |css_selector|
+        tags += @doc.css(css_selector)
+        break if tags.any?
+      end
+
+      # convert from Nokogiri Element objects to strings
+      tags.map!(&:inner_text)
+
+      # remove "#" from hashtag-like tags
+      tags.map! { |t| t.gsub(/^#/, '') }
+
+      tags
     end
 
     # Returns the "keyword phrases" in the document (not the meta keywords - they're next to useless now)
