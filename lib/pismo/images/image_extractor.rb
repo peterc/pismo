@@ -134,7 +134,7 @@ class ImageExtractor
     images.map do |image|
       bytes = get_bytes_for_image image
       log "%s bytes - %s" % [bytes, image]
-      if found < 20 and (bytes == 0 or bytes > min_bytes) and bytes < max_bytes
+      if found < 20 and bytes and (bytes == 0 or bytes > min_bytes) and bytes < max_bytes
         log "filter_by_filesize: Found potential image - size: #{bytes} bytes, src: #{image}"
         found += 1
         image
