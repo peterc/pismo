@@ -24,7 +24,7 @@ class ImageExtractor
     @doc =  Nokogiri::HTML(document.raw_content, nil, 'utf-8')
     @url = url
     @min_width = options[:min_width] || 100
-    @min_width = options[:min_height] || 100    
+    @min_height = options[:min_height] || 100    
     @top_content_candidate = document.content_at(0)
     @max_bytes = options[:max_bytes] || 15728640
     @min_bytes = options[:min_bytes] || 5000
@@ -119,7 +119,7 @@ class ImageExtractor
           # We start at the top node then recursively go up to siblings/parent/grandparent to find something good
           if prev_sibling = node.previous_sibling
             check_for_large_images prev_sibling, parent_depth, sibling_depth + 1
-          else
+          elsif !node.html?
             check_for_large_images(node.parent, parent_depth + 1, sibling_depth)
           end
         end

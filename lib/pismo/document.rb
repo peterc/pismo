@@ -11,7 +11,7 @@ module Pismo
 
     ATTRIBUTE_METHODS = InternalAttributes.instance_methods + ExternalAttributes.instance_methods
     DEFAULT_OPTIONS = {
-      :image_extractor => false,
+      :image_extractor => true,
       :min_image_width => 100
     }
 

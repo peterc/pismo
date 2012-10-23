@@ -139,8 +139,8 @@ module Pismo
         @content_candidates = sorted_tree.reverse.first([5, sorted_tree.length].min)
         
         #ap @content_candidates #.map { |i| [i[0], i[1][:name], i[1][:ids].join(','), i[1][:score] ]}
-        #t2 = Time.now.to_i + (Time.now.usec.to_f / 1000000)      
-        #puts t2 - t1      
+        t2 = Time.now.to_i + (Time.now.usec.to_f / 1000000)      
+        puts t2 - t1      
         #exit
         
       end
