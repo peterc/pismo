@@ -1,3 +1,11 @@
+# encoding=utf-8
+
+require 'pismo/title_matches'
+require 'pismo/author_matches'
+require 'pismo/description_matches'
+require 'pismo/lede_matches'
+
+
 module Pismo
   # Internal attributes are different pieces of data we can extract from a document's content
   module InternalAttributes
@@ -17,114 +25,7 @@ module Pismo
       /\d{2}[\.\/\-]\d{2}[\.\/\-]\d{4}/
     ]
 
-    TITLE_MATCHES = [
-      '#pname a',                                                       # Google Code style
-      '.entryheader h1',                                                # Ruby Inside/Kubrick
-      '.entry-title a',                                                 # Common Blogger/Blogspot rules
-      '.post-title a',
-      '.post_title a',
-      '.posttitle a',
-      '.post-header h1',
-      '.entry-title',
-      '.post-title',
-      '.post h1',
-      '.post h3 a',
-      'a.datitle',                                                      # Slashdot style
-      '.posttitle',
-      '.post_title',
-      '.pageTitle',
-      '#main h1.title',
-      '.title h1',
-      '.post h2',
-      'h2.title',
-      '.entry h2 a',
-      '.entry h2',                                                      # Common style
-      '.boite_titre a',
-      ['meta[@name="title"]', lambda { |el| el.attr('content') }],
-      'h1.headermain',
-      'h1.title',
-      '.mxb h1',                                                        # BBC News
-      '#content h1',
-      '#content h2',
-      '#content h3',
-      'a[@rel="bookmark"]',
-      '.products h2',
-      '.caption h3',
-      '#main h2',
-      '#body h1',
-      '#wrapper h1',
-      '#page h1',
-      '.asset-header h1',
-      '#body_content h2'
-    ]
-
-    AUTHOR_MATCHES = [
-      '.post-author .fn',
-      '.wire_author',
-      '.cnnByline b',
-      '.editorlink',
-      '.authors p',
-      ['meta[@name="author"]', lambda { |el| el.attr('content') }],     # Traditional meta tag style
-      ['meta[@name="Author"]', lambda { |el| el.attr('content') }],     # CNN style
-      ['meta[@name="AUTHOR"]', lambda { |el| el.attr('content') }],     # CNN style
-      '.byline a',                                                      # Ruby Inside style
-      '.byline',
-      '.post_subheader_left a',                                         # TechCrunch style
-      '.byl',                                                           # BBC News style
-      '.articledata .author a',
-      '#owners a',                                                      # Google Code style
-      '.author a',
-      '.author',
-      '.auth a',
-      '.auth',
-      '.cT-storyDetails h5',                                            # smh.com.au - worth dropping maybe..
-      ['meta[@name="byl"]', lambda { |el| el.attr('content') }],
-      '.timestamp a',
-      '.fn a',
-      '.fn',
-      '.byline-author',
-      '.ArticleAuthor a',
-      '.blog_meta a',
-      'cite a',
-      'cite',
-      '.contributor_details h4 a',
-      '.meta a'
-    ]
-
-    DESCRIPTION_MATCHES = [
-      ['meta[@name="description"]', lambda { |el| el.attr('content') }],
-      ['meta[@name="Description"]', lambda { |el| el.attr('content') }],
-      ['meta[@name="DESCRIPTION"]', lambda { |el| el.attr('content') }],
-      'rdf:Description[@name="dc:description"]',
-      '.description'
-    ]
-
-    LEDE_MATCHES = [
-      '.post-text p',
-      '#blogpost p',
-      '.story-teaser',
-      '.article .body p',
-      '//div[@class="entrytext"]//p[string-length()>40]',                      # Ruby Inside / Kubrick style
-      'section p',
-      '.entry .text p',
-      '.hentry .content p',
-      '.entry-content p',
-      '#wikicontent p',                                                        # Google Code style
-      '.wikistyle p',                                                          # GitHub style
-      '//td[@class="storybody"]/p[string-length()>40]',                        # BBC News style
-      '//div[@class="entry"]//p[string-length()>100]',
-      # The below is a horrible, horrible way to pluck out lead paras from crappy Blogspot blogs that
-      # don't use <p> tags..
-      ['.entry-content', lambda { |el| el.inner_html[/(#{el.inner_text[0..4].strip}.*?)\<br/, 1] }],
-      ['.entry', lambda { |el| el.inner_html[/(#{el.inner_text[0..4].strip}.*?)\<br/, 1] }],
-      '.entry',
-      '#content p',
-      '#article p',
-      '.post-body',
-      '.entry-content',
-      '.document_description_short p',    # Scribd
-      '.single-post p'
-    ]
+    TITLE_SEPARATORS_REGEX = /\s(\p{Pd}|\:|\p{Pf}|\||\:\:|\.)\s/
 
     FEED_MATCHES = [
       ['link[@type="application/rss+xml"]',  lambda { |el| el.attr('href') }],
@@ -138,25 +39,50 @@ module Pismo
     ]
 
     def titles
+      #in order of likley accuracy: og:title, html_title, document matches
       @all_titles ||= begin
-        [ @doc.match(TITLE_MATCHES), html_title ].flatten.compact.uniq
+        title = [ og_title, html_title, @doc.match(TITLE_MATCHES) ].flatten.compact.uniq
       end
     end
 
-    # Returns the title of the page/content - attempts to strip site name, etc, if possible
+    # Returns the title of the page/content
     def title
-      titles.first
+      @title ||= begin
+        Utilities.longest_common_substring_in_array(titles) || titles.first
+      end
+    end
+
+    # title from OG tags, if any
+    def og_title
+      begin
+        meta = doc.css("meta[property~='og:title']")
+
+        meta.each do |item|
+          next if item["content"].empty?
+
+          return item["content"]
+        end
+      rescue
+        log "Error getting OG tag: #{$!}"
+      end
+      nil
     end
 
     # HTML title
     def html_title
       @html_title ||= begin
         if title = @doc.match('title').first
-          title
+          strip_site_name_and_separators_from(title)
         else
           nil
         end
       end
+    end
+
+    def strip_site_name_and_separators_from(title)
+      parts = title.split(TITLE_SEPARATORS_REGEX)
+      longest = parts.max_by(&:length)
+      return longest
     end
 
     # Return an estimate of when the page/content was created

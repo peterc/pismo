@@ -1,6 +1,8 @@
+# encoding: utf-8
+
 require 'helper'
 
-class TestPismoDocument < Test::Unit::TestCase
+class PismoDocumentTest < Test::Unit::TestCase
   context "Pismo::Document" do
     should "process an IO/File object" do
       doc = Document.new(open(HTML_DIRECTORY + "/rubyinside.html"))
@@ -30,6 +32,36 @@ class TestPismoDocument < Test::Unit::TestCase
     should "provide a title" do
       assert_equal  "CoffeeScript: A New Language With A Pure Ruby Compiler", @doc.title
     end
+
+    should "provide a title extracted from an og:title meta tag" do
+      assert_equal  "CoffeeScript: A New Language With A Pure Ruby Compiler", @doc.og_title
+    end
+
+    should "provide a title extracted from the html title tag, stripped of the site name, if possible" do
+      assert_equal  "CoffeeScript: A New Language With A Pure Ruby Compiler", @doc.html_title
+    end
+
+    should "strip separators and site names from title strings" do
+      site_name = "RubyInside"
+      title = "CoffeeScript: A New Language With A Pure Ruby Compiler"
+
+      separators = [
+        "–",
+        "-",
+        ":",
+        "›",
+        "»",
+        "|",
+        "::",
+        "."
+      ]
+
+      separators.each do |separator|
+        stripped_title = @doc.strip_site_name_and_separators_from("#{site_name} #{separator} #{title}")
+        assert_equal stripped_title, title
+      end
+    end
+
 
     should "provide keywords" do
       assert_equal [["code", 4],

@@ -15,6 +15,7 @@ require 'pismo/reader/base'
 require 'pismo/reader/tree'
 require 'pismo/reader/cluster'
 require 'pismo/images/image_extractor'
+require 'pismo/utilities'
 
 
 if RUBY_PLATFORM == "java"
@@ -34,12 +35,6 @@ module Pismo
   def self.[](url)
     @docs ||= {}
     @docs[url] ||= Pismo::Document.new(url)
-  end
-
-
-  # Return stopword list
-  def self.stopwords
-    @stopwords ||= File.read(File.dirname(__FILE__) + '/pismo/stopwords.txt').split rescue []
   end
 
   def self.normalize_entities(text)

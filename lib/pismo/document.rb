@@ -45,6 +45,7 @@ module Pismo
     end
 
     def match(args = [], all = false)
+
       @doc.match([*args], all)
     end
   end

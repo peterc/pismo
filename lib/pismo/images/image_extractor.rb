@@ -35,7 +35,6 @@ class ImageExtractor
 
     check_for_large_images(top_content_candidate, 0, 0)
 
-
     find_image_from_meta_tags if @images.empty?
 
     return @images.slice(0, limit)

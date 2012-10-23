@@ -5,9 +5,9 @@
   :lede: I'm just aching to know if the new Apple tablet (insert caveats, weasel words and qualifiers here) is a potential Cintiq competitor. I don't think it will be, but you never know. It may also have a built in barometer and bird call generator. I'm never sure if Apple does themselves more good than harm with the secrecy and anticipation that surrounds the run-up to these announcements.
   :feeds:
     - http://www.readwriteweb.com/rss.xml
-    - http://www.readwriteweb.com/archives/2010/01/cartoon_apple_tablet_now_with_barometer_and_bird_c.xml 
-  :tags: [apple tablet, steve jobs] 
-:briancray: 
+    - http://www.readwriteweb.com/archives/2010/01/cartoon_apple_tablet_now_with_barometer_and_bird_c.xml
+  :tags: [apple tablet, steve jobs]
+:briancray:
   :title: 5 great examples of popular blog posts that you should know
   :feed: http://feeds.feedburner.com/briancray/blog
   :lede: "This is a mock post."
@@ -23,7 +23,6 @@
   :title: Gay Muslims made homeless by family violence
   :titles:
     - Gay Muslims made homeless by family violence
-    - BBC News - Gay Muslims made homeless by family violence
   :author: Poonam Taneja
   :authors:
     - Poonam Taneja
@@ -36,12 +35,12 @@
   :ledes:
     - "Separation of concerns between Factor VM and library codeThe Factor VM implements an abstract machine consisting of a data heap of objects, a code heap of machine code blocks, and a set of stacks. The VM loads an image file on startup, which becomes the data and code heap. It then begins executing code in the image, by calling a special startup quotation.When new source files are loaded into a running Factor instance by the developer, they are parsed and compiled into a collection of objects -- words, quotations, and other literals, along with executable machine code."
 :youtube:
-  :title: YMO - Rydeen (Official Video)
+  :title: Rydeen (Official Video)
   :author: ymo1965
   :authors:
     - ymo1965
 :spolsky:
-  :title: The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!) - Joel on Software
+  :title: The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)
   :description: Haven't mastered the basics of Unicode and character sets? Please don't write another line of code until you've read this article.
   :lede: "Ever wonder about that mysterious Content-Type tag? You know, the one you're supposed to put in HTML and you never quite know what it should be? Did you ever get an email from your friends in Bulgaria with the subject line \"???? "
   :author: Joel Spolsky
@@ -50,6 +49,9 @@
 :techcrunch:
   :title: Googlle Gets A Sexy New Logo; Remains Sketchy
   :author: MG Siegler
+:techcrunch.new:
+  :title: Apple Unveils The Fourth Generation iPad With A6X, Lightning And Expanded LTE
+  :author: Romain Dillet
 :rubyinside:
   :title: "CoffeeScript: A New Language With A Pure Ruby Compiler"
   :author: Peter Cooper
@@ -58,7 +60,7 @@
   :tags: [Cool]
 :zefrank:
   :sentences: If there's anyone who knows how to marshal an online audience, it's Ze Frank. Ze is best-known for his 2006 program "The Show," in which he made a new 2-3 minute video every day for 1 year. Topics ranged from "fingers in food" to the mysteries of airport signage to a tour de force summary of creatives' addiction to un-executed ideas, aka brain crack.
-  :title: "Ze Frank on Imaginary Audiences :: Articles :: The 99 Percent"
+  :title: "Ze Frank on Imaginary Audiences"
   :description: We chat with the Internet's most notorious mass-collaboration instigator Ze Frank about idea execution and how to build armies of sportsracers.
 :tweet:
   :lede: Gobsmacked that TeX/LaTeX (document formatting tools) for OS X is a 1.3GB (yes, GIGAbytes) download OS X.

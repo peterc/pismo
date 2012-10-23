@@ -1,6 +1,8 @@
+# encoding=utf-8
+
 require 'helper'
 
-class TestCorpus < Test::Unit::TestCase
+class CorpusTest < Test::Unit::TestCase
 
   context "A corpus of HTML documents" do
     setup do
