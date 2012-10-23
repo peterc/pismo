@@ -9,7 +9,7 @@ require 'logger'
 #
 class ImageExtractor
 
-  attr_reader :doc, :top_content_candidate, :bad_image_names_regex, :image, :url, :min_width, :min_bytes, :max_bytes, :options, :logger
+  attr_reader :doc, :top_content_candidate, :bad_image_names_regex, :image, :url, :min_width, :min_height, :min_bytes, :max_bytes, :options, :logger
 
   def initialize(document, url, options = {})
     @logger = options[:logger]
@@ -24,6 +24,7 @@ class ImageExtractor
     @doc =  Nokogiri::HTML(document.raw_content, nil, 'utf-8')
     @url = url
     @min_width = options[:min_width] || 100
+    @min_width = options[:min_height] || 100    
     @top_content_candidate = document.content_at(0)
     @max_bytes = options[:max_bytes] || 15728640
     @min_bytes = options[:min_bytes] || 5000
@@ -192,6 +193,11 @@ class ImageExtractor
 
         if width < min_width
           log "#{image} is too small width: #{width}. Skipping."
+          next
+        end
+
+        if height < min_height
+          log "#{image} is too small height: #{height}. Skipping."
           next
         end
 
