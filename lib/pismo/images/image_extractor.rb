@@ -21,19 +21,21 @@ class ImageExtractor
       reddit.jpg doubleclick diggthis diggThis adserver /ads/ ec.atdmt.com mediaplex.com adsatt view.atdmt"
     @bad_image_names_regex = Regexp.new bad_image_names.map {|n| Regexp.escape(n) }.join("|")
     @images = []
-    @doc =  Nokogiri::HTML(document.raw_content, nil, 'utf-8')
+    @doc =  Nokogiri::HTML(document.html, nil, 'utf-8')
     @url = url
     @min_width = options[:min_width] || 100
-    @min_height = options[:min_height] || 100    
-    @top_content_candidate = document.content_at(0)
+    @min_height = options[:min_height] || 100
+    @top_content_candidate = document.reader_doc.content_at(0)
     @max_bytes = options[:max_bytes] || 15728640
     @min_bytes = options[:min_bytes] || 5000
   end
 
   def get_best_images(limit = 3)
     return unless @images.empty?
+
     check_for_large_images(top_content_candidate, 0, 0)
-    # check_for_large_images(@doc.css("body").first, 0, 0) if @images.empty?
+
+
     find_image_from_meta_tags if @images.empty?
 
     return @images.slice(0, limit)
@@ -58,10 +60,11 @@ class ImageExtractor
   def find_image_from_open_graph_tag
     begin
       meta = doc.css("meta[property~='og:image']")
+
       meta.each do |item|
         next if item["content"].empty?
 
-        return build_image_path(item["content"])
+        return item["content"]
       end
     rescue
       log "Error getting OG tag: #{$!}"
@@ -76,7 +79,7 @@ class ImageExtractor
       meta.each do |item|
         next if item["href"].empty?
 
-        return build_image_path(item["href"])
+        return item["href"]
       end
     rescue
       log "Error getting link tag: #{$!}"
@@ -119,7 +122,7 @@ class ImageExtractor
           # We start at the top node then recursively go up to siblings/parent/grandparent to find something good
           if prev_sibling = node.previous_sibling
             check_for_large_images prev_sibling, parent_depth, sibling_depth + 1
-          elsif !node.html?
+          else
             check_for_large_images(node.parent, parent_depth + 1, sibling_depth)
           end
         end

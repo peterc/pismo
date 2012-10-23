@@ -51,22 +51,6 @@ class TestPismoDocument < Test::Unit::TestCase
     end
   end
 
-  context "A basic real world blog post with relative images and image_extractor option set to true" do
-    setup do
-      @doc = Document.new(open(HTML_DIRECTORY + "/relative_imgs.html"), :image_extractor => true, :url => "http://www.rubyinside.com/some/bogus/post/")
-    end
-
-    should "scrape images" do
-      ImageExtractor.any_instance.stubs(:get_bytes_for_image).returns(5)
-      ImageExtractor.any_instance.stubs(:get_bytes_for_image).with('http://www.rubyinside.com/wp-content/uploads/2010/01/cofeescriptdemo.png').returns(200000)
-      FastImage.stubs(:size).returns([300, 300])
-      FastImage.stubs(:type).returns("image/jpeg")
-
-      assert_equal @doc.images.first, 'http://www.rubyinside.com/wp-content/uploads/2010/01/cofeescriptdemo.png'
-    end
-  end
-
-
   context "A blog post with videos" do
     setup do
       @doc = Document.new(open(HTML_DIRECTORY + "/videos.html"))
