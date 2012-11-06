@@ -178,7 +178,11 @@ module Pismo
     # Returns any images with absolute URLs in the document
     def images(limit = 3)
       if @options[:image_extractor]
-        extractor = ImageExtractor.new self, @url, :min_width => @options[:min_image_width], :logger => @options[:logger]
+        extractor = ImageExtractor.new(self, @url, {
+          :min_width => @options[:min_image_width],
+          :min_height => @options[:min_image_height],
+          :logger => @options[:logger]
+          })
         extractor.get_best_images limit
       else
         reader_doc && !reader_doc.images.empty? ? reader_doc.images(limit) : nil
