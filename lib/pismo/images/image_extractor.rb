@@ -52,7 +52,11 @@ class ImageExtractor
 
   def find_image_from_meta_tags
     img = find_image_from_link_tag || find_image_from_open_graph_tag
-    @images.push img
+
+    download_images_and_get_results([img], 0).each do |image|
+      @images << image
+    end
+
   end
 
   # Try to find an image from an opengraph tag
@@ -192,7 +196,6 @@ class ImageExtractor
         type = FastImage.type image
 
         log "For %s, got w:h [%d, %d], type %s" % [image, width, height, type]
-
         if width < min_width
           log "#{image} is too small width: #{width}. Skipping."
           next

@@ -16,6 +16,19 @@ class ImageExtractorTest < Test::Unit::TestCase
 
       assert_equal @doc.images.first, 'http://pixel.nymag.com/imgs/fashion/daily/2012/10/16/16-oprah-terry-richardson.o.jpg/a_2x-square.jpg'
     end
+
+    should "not get og:image image if it's too small" do
+      ImageExtractor.any_instance.stubs(:get_bytes_for_image).returns(5)
+      ImageExtractor.any_instance.stubs(:get_bytes_for_image).with('http://www.rubyinside.com/wp-content/uploads/2010/01/cofeescriptdemo.png').returns(200000)
+      FastImage.stubs(:size).returns([99, 99])
+      FastImage.stubs(:type).returns("image/jpeg")
+
+      assert_equal @doc.images.first, nil
+    end
+
+
+
+
   end
 
 
