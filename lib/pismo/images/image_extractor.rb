@@ -165,7 +165,7 @@ class ImageExtractor
 
   #  Perform an HTTP HEAD request to get the image bytes for this images
   def get_bytes_for_image(src)
-    # begin
+    begin
       uri = URI.parse src
       req = Net::HTTP.new(uri.host, 80)
       resp = req.request_head(uri.path)
@@ -173,9 +173,9 @@ class ImageExtractor
       if resp.content_type.include?("image")
         return resp.content_length
       end
-    # rescue
-    #  log "Error getting image size for #{src} - #{$!}"
-    #end
+    rescue
+     log "Error getting image size for #{src} - #{$!}"
+    end
 
     return 0
   end
@@ -222,6 +222,8 @@ class ImageExtractor
         log "#{image} Area is: #{area}, sequence score: #{sequence_score}, total score: #{total_score}"
 
         results << [image, total_score]
+        GC.start
+        image = nil
       rescue
         log "Error scoring image #{image} - #{$!}"
       end
