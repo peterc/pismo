@@ -3,6 +3,8 @@ require 'test/unit'
 require 'shoulda'
 require 'open-uri'
 require 'yaml'
+require "mocha"
+
 begin; require 'turn'; rescue LoadError; end
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
