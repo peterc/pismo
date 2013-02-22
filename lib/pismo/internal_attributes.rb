@@ -76,7 +76,7 @@ module Pismo
     def datetime
       # TODO: Clean all this mess up
       
-      mo = %r{(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December)}i
+      mo = %r{(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December)\.?}i
       
       regexen = [
         /#{mo}\b\s+\d+\D{1,10}\d{4}/i,
@@ -86,6 +86,7 @@ module Pismo
         /\d+(th|st|rd).{1,10}#{mo}\b[^\d]{1,10}\d+/i,
         /\d+\s+#{mo}\b[^\d]{1,10}\d+/i,
         /on\s+#{mo}\s+\d+/i,
+        /#{mo}\s+\d+,? \d{4}+/i,
         /#{mo}\s+\d+/i,
         /\d{4}[\.\/\-]\d{2}[\.\/\-]\d{2}/,
         /\d{2}[\.\/\-]\d{2}[\.\/\-]\d{4}/
@@ -102,7 +103,8 @@ module Pismo
       # Clean up the string for use by Chronic
       datetime.strip!
       datetime.gsub!(/(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)[^\w]*/i, '')
-      datetime.gsub!(/(mon|tues|tue|weds|wed|thurs|thur|thu|fri|sat|sun)[^\w]*/i, '')
+      datetime.gsub!(/(mon|tues|tue|weds|wed|thurs|thur|thu|fri|sat|sun)\.?[^\w]*/i, '')
+      datetime.gsub!(/(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\./i, '\1')
       datetime.sub!(/on\s+/, '')
       datetime.gsub!(/\,/, '')
       datetime.sub!(/(\d+)(th|st|rd)/, '\1')
@@ -231,7 +233,41 @@ module Pismo
       reader_doc && !reader_doc.images.empty? ? reader_doc.images(limit) : nil
     end
     
-    # Returns the "keywords" in the document (not the meta keywords - they're next to useless now)
+    def relative_images(limit = 3)
+      reader_doc && !reader_doc.relative_images.empty? ? reader_doc.relative_images(limit) : nil
+    end
+
+    # Returns the tags or categories of the page/content
+    def tags
+      css_selectors = [
+                       '.watch-info-tag-list a',  # YouTube
+                       '.entry .tags a',          # Livejournal
+                       'a[rel~=tag]',             # Wordpress and many others
+                       'a.tag',                   # Tumblr
+                       '.tags a',
+                       '.labels a',
+                       '.categories a',
+                       '.topics a'
+                      ]
+
+      tags = []
+
+      # grab the first one we get results from
+      css_selectors.each do |css_selector|
+        tags += @doc.css(css_selector)
+        break if tags.any?
+      end
+
+      # convert from Nokogiri Element objects to strings
+      tags.map!(&:inner_text)
+
+      # remove "#" from hashtag-like tags
+      tags.map! { |t| t.gsub(/^#/, '') }
+
+      tags
+    end
+
+    # Returns the "keywords" in the document (not the meta 'ss'keywords - they're next to useless now)
     def keywords(options = {})
       options = { :stem_at => 20, :word_length_limit => 15, :limit => 20, :remove_stopwords => true, :minimum_score => 2 }.merge(options)
       
@@ -261,7 +297,7 @@ module Pismo
     end
     
     def reader_doc
-      @reader_doc ||= Reader::Document.new(@doc.to_s)
+      @reader_doc ||= Reader::Document.create(@doc.to_s, @options)
     end
     
     # Returns body text as determined by Reader algorithm

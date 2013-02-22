@@ -29,6 +29,12 @@
   :description: A charity is dealing with more gay Muslims made homeless after fleeing forced marriages and so-called "honour" violence.
   :lede: A UK charity is dealing with an increasing number of young gay Muslims becoming homeless after fleeing forced marriages and so-called honour violence.
   :feed: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/england/rss.xml
+  :images:
+    - http://newsimg.bbc.co.uk/shared/img/999999.gif
+    - http://newsimg.bbc.co.uk/shared/img/o.gif
+    - http://newsimg.bbc.co.uk/nol/shared/img/v3/start_quote_rb.gif
+  :relative_images:
+    - /media/images/47058000/jpg/_47058769_syed_bbc.jpg
 :factor:
   :title: Factor's bootstrap process explained
   :lede: "Separation of concerns between Factor VM and library codeThe Factor VM implements an abstract machine consisting of a data heap of objects, a code heap of machine code blocks, and a set of stacks. The VM loads an image file on startup, which becomes the data and code heap. It then begins executing code in the image, by calling a special startup quotation.When new source files are loaded into a running Factor instance by the developer, they are parsed and compiled into a collection of objects -- words, quotations, and other literals, along with executable machine code."
