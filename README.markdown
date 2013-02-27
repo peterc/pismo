@@ -2,15 +2,15 @@
 
 ## DESCRIPTION:
 
-Pismo extracts machine-usable metadata from unstructured (or poorly structured) English-language HTML documents.
-Data that Pismo can extract include titles, feed URLs, ledes, body text, image URLs, date, and keywords.
-Pismo is used heavily in production on http://coder.io/ to extract data from Web pages.
+Pismo extracts machine-usable metadata from unstructured (or poorly structured) English-language HTML documents. Data that Pismo can extract include titles, feed URLs, ledes, body text, image URLs, date, and keywords.
 
-All tests pass on Ruby 1.8.7, Ruby 1.9.2 (both MRI) and JRuby 1.5.6.
+All tests pass on Ruby 1.9.3 and 2.0.0. Currently fails on JRuby 1.7.2 due to dependencies.
 
 ## NEWS:
 
-December 19, 2010: Version 1.7.2 has been released - it includes a patch from Darcy Laycock to fix keyword extraction problems on some pages, has switched from Jeweler to Bundler for management of the gem, and adds support for JRuby 1.5.6 by skipping stemming on that platform.
+February 27, 2013: Version 0.7.4 has been released to ensure Ruby 2.0.0 compatibility but significant pull requests remain yet to be merged and handled.
+
+December 19, 2010: Version 0.7.2 has been released - it includes a patch from Darcy Laycock to fix keyword extraction problems on some pages, has switched from Jeweler to Bundler for management of the gem, and adds support for JRuby 1.5.6 by skipping stemming on that platform.
 
 ## USAGE:
 
