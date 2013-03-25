@@ -14,6 +14,6 @@ module Pismo
         end
       end
 
-    end  
+    end
   end
 end
