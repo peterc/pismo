@@ -8,6 +8,8 @@ All tests pass on Ruby 1.9.3 and 2.0.0. Currently fails on JRuby 1.7.2 due to de
 
 ## NEWS:
 
+March 25, 2013: Version 0.8.0 is now the edge version (but not released as a gem yet). It may be incompatible with earlier releases as it has a LOT of commits and changes made by other people which have not yet been fully tested or audited. Install gem for 0.7.4 if you wish to remain on the 'stable' version for now.
+
 February 27, 2013: Version 0.7.4 has been released to ensure Ruby 2.0.0 compatibility but significant pull requests remain yet to be merged and handled.
 
 December 19, 2010: Version 0.7.2 has been released - it includes a patch from Darcy Laycock to fix keyword extraction problems on some pages, has switched from Jeweler to Bundler for management of the gem, and adds support for JRuby 1.5.6 by skipping stemming on that platform.
@@ -112,7 +114,7 @@ The reader can be specified as part of #Document.new :
 ## COPYRIGHT AND LICENSE
 
 Apache 2.0 License - See LICENSE for details.
-Copyright (c) 2009, 2010 Peter Cooper
+Copyright (c) 2009, 2010, 2013 Peter Cooper et al.
 
 In short, you can use Pismo for whatever you like commercial or not, but please include a brief credit (as in the NOTICE file - as per the Apache 2.0 License) somewhere deep in your license file or similar, and, if you're nice and have the time, let me know if you're using it and/or share any significant changes or improvements you make.
 
