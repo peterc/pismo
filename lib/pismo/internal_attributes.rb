@@ -46,9 +46,7 @@ module Pismo
 
     # Returns the title of the page/content
     def title
-      @title ||= begin
-        Utilities.longest_common_substring_in_array(titles) || titles.first
-      end
+      @title ||= Utilities.longest_common_substring_in_array(titles) || titles.first
     end
 
     # title from OG tags, if any
