@@ -34,6 +34,17 @@
   :lede: "Separation of concerns between Factor VM and library codeThe Factor VM implements an abstract machine consisting of a data heap of objects, a code heap of machine code blocks, and a set of stacks. The VM loads an image file on startup, which becomes the data and code heap. It then begins executing code in the image, by calling a special startup quotation.When new source files are loaded into a running Factor instance by the developer, they are parsed and compiled into a collection of objects -- words, quotations, and other literals, along with executable machine code."
   :ledes:
     - "Separation of concerns between Factor VM and library codeThe Factor VM implements an abstract machine consisting of a data heap of objects, a code heap of machine code blocks, and a set of stacks. The VM loads an image file on startup, which becomes the data and code heap. It then begins executing code in the image, by calling a special startup quotation.When new source files are loaded into a running Factor instance by the developer, they are parsed and compiled into a collection of objects -- words, quotations, and other literals, along with executable machine code."
+:fastcompany:
+  :title: Airbnb
+  :author: Austin Carr
+  :titles:
+    - Airbnb
+    - "Airbnb: The World's 50 Most Innovative Companies in 2012"
+    - "For turning spare rooms into the world's hottest hotel chain"
+  :description: "\"There's someone in my apartment . . . right now.\" Joe Gebbia sounds like he's reading a line from a horror film. It's October, and Gebbia is in New York to speak at a design conference. Back home, in San Francisco, a complete stranger is roaming around his living room. But Gebbia isn't phoning the police--he's grinning."
+  :lede: "\"There's someone in my apartment .  right now.\" Joe Gebbia sounds like he's reading a line from a horror film. It's October, and Gebbia is in New York to speak at a design conference."
+  :ledes:
+    - "\"There's someone in my apartment .  right now.\" Joe Gebbia sounds like he's reading a line from a horror film. It's October, and Gebbia is in New York to speak at a design conference."
 :youtube:
   :title: Rydeen (Official Video)
   :author: ymo1965

@@ -48,6 +48,7 @@ end
 
 desc 'Console mode'
 task :console do
+  $LOAD_PATH << `pwd`.strip
   require 'irb'
   require 'lib/pismo'
   require 'open-uri'
