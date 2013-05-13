@@ -9,6 +9,7 @@ AUTHOR_MATCHES = [
   ['meta[@name="AUTHOR"]', lambda { |el| el.attr('content') }],     # CNN style
   '.byline a',                                                      # Ruby Inside style
   '.byline',
+  '.node-byline',                                                   # FastCompany
   '.post_subheader_left a',                                         # TechCrunch style
   '.byl',                                                           # BBC News style
   '.articledata .author a',
