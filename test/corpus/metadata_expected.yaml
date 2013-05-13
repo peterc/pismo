@@ -42,6 +42,9 @@
     - "Airbnb: The World's 50 Most Innovative Companies in 2012"
     - "For turning spare rooms into the world's hottest hotel chain"
   :description: "\"There's someone in my apartment . . . right now.\" Joe Gebbia sounds like he's reading a line from a horror film. It's October, and Gebbia is in New York to speak at a design conference. Back home, in San Francisco, a complete stranger is roaming around his living room. But Gebbia isn't phoning the police--he's grinning."
+  :lede: "\"There's someone in my apartment .  right now.\" Joe Gebbia sounds like he's reading a line from a horror film. It's October, and Gebbia is in New York to speak at a design conference."
+  :ledes:
+    - "\"There's someone in my apartment .  right now.\" Joe Gebbia sounds like he's reading a line from a horror film. It's October, and Gebbia is in New York to speak at a design conference."
 :youtube:
   :title: Rydeen (Official Video)
   :author: ymo1965
