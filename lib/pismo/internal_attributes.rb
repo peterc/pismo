@@ -128,9 +128,7 @@ module Pismo
 
     # Returns the "description" of the page, usually comes from a meta tag
     def descriptions
-      @all_descriptions ||= begin
-        @doc.match DESCRIPTION_MATCHES
-      end
+      @all_descriptions ||= @doc.match DESCRIPTION_MATCHES
     end
 
     def description
