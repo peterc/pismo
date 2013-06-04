@@ -4,7 +4,7 @@ LEDE_MATCHES = [
   '.story-teaser',
   '.article .body p',
   '//div[@class="entrytext"]//p[string-length()>40]',                      # Ruby Inside / Kubrick style
-  'section p',
+  'section p:not(.advertisement,.advertisement_river)',
   '.entry .text p',
   '.hentry .content p',
   '.entry-content p',
@@ -17,7 +17,7 @@ LEDE_MATCHES = [
   ['.entry-content', lambda { |el| el.inner_html[/(#{el.inner_text[0..4].strip}.*?)\<br/, 1] }],
   ['.entry', lambda { |el| el.inner_html[/(#{el.inner_text[0..4].strip}.*?)\<br/, 1] }],
   '.entry',
-  '#content p',
+  '#content p:not(.advertisement,.advertisement_river)',
   '#article p',
   '.post-body',
   '.entry-content',

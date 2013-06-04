@@ -40,16 +40,13 @@ module Pismo
 
     def titles
       #in order of likley accuracy: og:title, html_title, document matches
-      @all_titles ||= begin
-        title = [ og_title, html_title, @doc.match(TITLE_MATCHES) ].flatten.compact.uniq
-      end
+      @all_titles ||= [ og_title, html_title, @doc.match(TITLE_MATCHES) ].
+        flatten.reject {|s| s.nil? || s == ''}.uniq
     end
 
     # Returns the title of the page/content
     def title
-      @title ||= begin
-        Utilities.longest_common_substring_in_array(titles) || titles.first
-      end
+      @title ||= Utilities.longest_common_substring_in_array(titles) || titles.first
     end
 
     # title from OG tags, if any
