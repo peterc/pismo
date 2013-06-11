@@ -75,9 +75,6 @@ module Pismo
         @raw_content.gsub!(/\n{3,}/, "\n\n")
         @raw_content.gsub!(/(\<br(\s\/)?\>){2,}/, "</p><p>")
 
-        # Remove scripts manually, Sanitize and/or Nokogiri seem to go a bit funny with them
-        @raw_content.gsub!(/\<script .*?\<\/script\>/im, '')
-        
         # Get rid of "smart" quotes and other Unicode nonsense
         @raw_content.force_encoding("ASCII-8BIT") if RUBY_VERSION > "1.9"
         @raw_content.gsub!("\xe2\x80\x89", " ")
