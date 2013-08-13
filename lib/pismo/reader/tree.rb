@@ -7,7 +7,7 @@ module Pismo
         @tree = {}
         subels = {}
 
-        t1 = Time.now.to_i + (Time.now.usec.to_f / 1000000)
+        #t1 = Time.now.to_i + (Time.now.usec.to_f / 1000000)
 
         @doc.css(COULD_CONTAIN_FULL_CONTENT.join(", ")).each do |el|
           # Assume that no content we'll want comes in a total package of fewer than 80 characters!
