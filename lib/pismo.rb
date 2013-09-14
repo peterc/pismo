@@ -86,12 +86,16 @@ class Nokogiri::HTML::Document
               end
             end
           elsif query.is_a?(Array)
-            query.last.call( self.search(query.first).first )
+            self.search(query.first).map do |node|
+              query.last.call(node)
+            end
           end
         rescue
           nil
         end
-        results << Pismo.normalize_entities(result.strip) if result
+        Array(result).compact.each do |r|
+          results << Pismo.normalize_entities(r.strip)
+        end
       end
     end.compact
   end

@@ -28,8 +28,8 @@ module Pismo
     TITLE_SEPARATORS_REGEX = /\s(\p{Pd}|\:|\p{Pf}|\||\:\:|\.)\s/
 
     FEED_MATCHES = [
-      ['link[@type="application/rss+xml"]',  lambda { |el| el.attr('href') }],
-      ['link[@type="application/atom+xml"]', lambda { |el| el.attr('href') }]
+      ['link[@type="application/rss+xml"][@rel="alternate"]',  lambda { |el| el.attr('href') }],
+      ['link[@type="application/atom+xml"][@rel="alternate"]', lambda { |el| el.attr('href') }]
     ]
 
     FAVICON_MATCHES = [
