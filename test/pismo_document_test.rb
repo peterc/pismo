@@ -24,6 +24,16 @@ class PismoDocumentTest < Test::Unit::TestCase
     end
   end
 
+  context "A real world page at https://www.twilio.com/" do
+    setup do
+      @doc = Document.new(open(HTML_DIRECTORY + "/twilio.html"))
+    end
+
+    should "provide a title extracted from an og:title meta tag" do
+      assert_equal  nil, @doc.og_title
+    end
+  end
+
   context "A basic real world blog post" do
     setup do
       @doc = Document.new(open(HTML_DIRECTORY + "/rubyinside.html"))
