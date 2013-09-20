@@ -60,7 +60,7 @@ module Pismo
           return item["content"]
         end
       rescue
-        log "Error getting OG tag: #{$!}"
+        nil
       end
       nil
     end
