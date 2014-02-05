@@ -13,6 +13,7 @@ module Pismo
 
     MONTHS_REGEX = %r{(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December)\.?}i
     DATETIME_REGEXEN = [
+      /#{MONTHS_REGEX}\b\.\s+\d{2}\,\s+\d{4}\s+\d{2}\:\d{2}\s+(a|p)\.m\./i, #Jul. 25, 2012 10:46 a.m.
       /#{MONTHS_REGEX}\b\s+\d+\D{1,10}\d{4}/i,
       /(on\s+)?\d+\s+#{MONTHS_REGEX}\s+\D{0,10}\d+/i,
       /(on[^\d+]{1,10})\d+(th|st|rd)?.{1,10}#{MONTHS_REGEX}\b[^\d]{1,10}\d+/i,
