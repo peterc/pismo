@@ -1,12 +1,12 @@
 # encoding: utf-8
 require 'pismo/internal_attributes'
 require 'pismo/external_attributes'
+require 'pismo/extended_attributes'
 
 module Pismo
 
   # Pismo::Document represents a single HTML document within Pismo
   class Document
-
     attr_reader :doc, :url, :options
 
     ATTRIBUTE_METHODS = InternalAttributes.instance_methods + ExternalAttributes.instance_methods
@@ -18,6 +18,7 @@ module Pismo
 
     include Pismo::InternalAttributes
     include Pismo::ExternalAttributes
+    include Pismo::ExtendedAttributes
 
     def initialize(handle, options = {})
       @options = DEFAULT_OPTIONS.merge options
@@ -46,7 +47,6 @@ module Pismo
     end
 
     def match(args = [], all = false)
-
       @doc.match([*args], all)
     end
   end

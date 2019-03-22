@@ -43,7 +43,7 @@ module Pismo
 
       # Analyze the structure of the HTML document and score content blocks for likelihood of containing useful content
       def analyze
-        
+
         opt = DEFAULTS.clone
         opt.merge!(@options)
 
@@ -71,7 +71,7 @@ module Pismo
           next if clean.length < opt[:min_length]
 
           # Calculate scores for clustering of blocks
-          
+
           # c represents how probable it is for this block to be a content block
           c = (clean.length + clean.scan(opt[:punctuations]).length * opt[:punctuation_weight]) * factor
 
@@ -165,7 +165,6 @@ module Pismo
       def strip_tags(html)
         strip(Sanitize.clean(html, :elements => [], :attributes => []))
       end
-      
-    end  
+    end
   end
 end

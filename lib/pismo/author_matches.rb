@@ -18,7 +18,6 @@ AUTHOR_MATCHES = [
   '.author',
   '.auth a',
   '.auth',
-  '.cT-storyDetails h5',                                            # smh.com.au - worth dropping maybe..
   ['meta[@name="byl"]', lambda { |el| el.attr('content') }],
   '.timestamp a',
   '.fn a',

@@ -1,29 +1,14 @@
 # encoding=utf-8
 
 require 'pismo/title_matches'
-require 'pismo/author_matches'
 require 'pismo/description_matches'
 require 'pismo/lede_matches'
-
+require 'pismo/parsers/author'
 
 module Pismo
   # Internal attributes are different pieces of data we can extract from a document's content
   module InternalAttributes
     @@phrasie = Phrasie::Extractor.new
-
-    MONTHS_REGEX = %r{(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December)\.?}i
-    DATETIME_REGEXEN = [
-      /#{MONTHS_REGEX}\b\s+\d+\D{1,10}\d{4}/i,
-      /(on\s+)?\d+\s+#{MONTHS_REGEX}\s+\D{0,10}\d+/i,
-      /(on[^\d+]{1,10})\d+(th|st|rd)?.{1,10}#{MONTHS_REGEX}\b[^\d]{1,10}\d+/i,
-      /\b\d{4}\-\d{2}\-\d{2}\b/i,
-      /\d+(th|st|rd).{1,10}#{MONTHS_REGEX}\b[^\d]{1,10}\d+/i,
-      /\d+\s+#{MONTHS_REGEX}\b[^\d]{1,10}\d+/i,
-      /on\s+#{MONTHS_REGEX}\s+\d+/i,
-      /#{MONTHS_REGEX}\s+\d+/i,
-      /\d{4}[\.\/\-]\d{2}[\.\/\-]\d{2}/,
-      /\d{2}[\.\/\-]\d{2}[\.\/\-]\d{4}/
-    ]
 
     TITLE_SEPARATORS_REGEX = /\s(\p{Pd}|\:|\p{Pf}|\||\:\:|\.)\s/
 
@@ -53,10 +38,8 @@ module Pismo
     def og_title
       begin
         meta = doc.css("meta[property~='og:title']")
-
         meta.each do |item|
           next if item["content"].empty?
-
           return item["content"]
         end
       rescue
@@ -87,39 +70,12 @@ module Pismo
     # Last-Updated HTTP header if they so wish. This method is just rough and based on content only.
 
     def datetime
-      datetime = 10
-      DATETIME_REGEXEN.detect {|r| datetime = @doc.to_html[r] }
-
-      return unless datetime and datetime.length > 4
-      # Clean up the string for use by Chronic
-      datetime.strip!
-      datetime.gsub!(/(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|mon|tues|tue|weds|wed|thurs|thur|thu|fri|sat|sun)[^\w]*/i, '')
-      datetime.sub!(/(on\s+|\,|\.)/, '')
-      datetime.sub!(/(\d+)(th|st|rd)/, '\1')
-      Chronic.parse(datetime, :context => :past) || datetime
+      Parsers::PublishedDate.call(meta: meta, doc: @doc)
     end
 
     # Returns the author of the page/content
     def authors
-      @all_authors ||= begin
-        @doc.match(AUTHOR_MATCHES).map do |author|
-          # Strip off any "By [whoever]" section
-          case author
-          when String
-            author.sub!(/^(post(ed)?\s)?by\W+/i, '')
-            author.tr!('^a-zA-Z 0-9\'', '|')
-            author = author.split(/\|{2,}/).first.to_s
-            author.gsub!(/\s+/, ' ')
-            author.gsub!(/\|/, '')
-            author.strip
-          when Array
-            author.map! { |a| a.sub(/^(post(ed)?\s)?by\W+/i, '') }.uniq!
-          else
-            puts "%s is a %s" % [author, author.class]
-            nil
-          end
-        end.compact
-      end
+      @authors ||= Parsers::Author.call(doc: @doc, meta: meta, url: url)
     end
 
     def author
@@ -133,6 +89,14 @@ module Pismo
 
     def description
       descriptions.first
+    end
+
+    def ad_networks
+      @ad_networks ||= Parsers::AdNetworks.call(doc: @doc)
+    end
+
+    def meta
+      Parsers::Meta.call(doc: @doc)
     end
 
     # Returns the "lede(s)" or first paragraph(s) of the story/page
@@ -164,6 +128,7 @@ module Pismo
     def lede
       ledes.first
     end
+    alias_method :snippet, :lede
 
     # Returns a string containing the first [limit] sentences as determined by the Reader algorithm
     def sentences(limit = 3)
@@ -238,6 +203,7 @@ module Pismo
     def body
       @body ||= reader_doc.content(true).strip
     end
+    alias_method :text, :body
 
     # Returns body text as determined by Reader algorithm WITH basic HTML formatting intact
     def html_body

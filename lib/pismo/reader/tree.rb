@@ -1,7 +1,6 @@
 module Pismo
   module Reader
     class Tree < Base
-
       # Analyze the structure of the HTML document and score branches for likelihood of containing useful content
       def analyze
         @tree = {}
@@ -24,11 +23,6 @@ module Pismo
             ids += (cp['id'].to_s + ' ' + cp['class'].to_s).downcase.strip.scan(/[a-z]+/)
             cp = cp.parent
           end if depth > 1
-
-          #puts "IDS"
-          #ap ids
-          #puts "LOCAL IDS"
-          #ap local_ids
 
           branch = {}
           branch[:ids] = ids
@@ -133,22 +127,13 @@ module Pismo
 
         sorted_tree = @tree.sort_by { |k, v| v[:score] }
 
-        #ap @doc.at(sorted_tree.first[0]).text
-
         # Sort the branches by their score in reverse order
         @content_candidates = sorted_tree.reverse.first([5, sorted_tree.length].min)
-
-        #ap @content_candidates #.map { |i| [i[0], i[1][:name], i[1][:ids].join(','), i[1][:score] ]}
-        # t2 = Time.now.to_i + (Time.now.usec.to_f / 1000000)
-        # puts t2 - t1
-        #exit
-
       end
 
       def content_at(index)
         @doc.at(@content_candidates[index].first)
       end
-
     end
   end
 end
