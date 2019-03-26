@@ -79,7 +79,11 @@ module Pismo
     end
 
     def author
-      authors.first
+      if authors.keys.count > 1
+        authods.dig(authors.keys.detect{|key| key != "publisher/profile"})
+      else
+        authors
+      end
     end
 
     # Returns the "description" of the page, usually comes from a meta tag

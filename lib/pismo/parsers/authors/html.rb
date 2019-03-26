@@ -38,7 +38,9 @@ module Pismo
           'cite a',
           'cite',
           '.contributor_details h4 a',
-          '.meta a'
+          '.meta a',
+          ['link[@rel*="author"]'],
+          ['a[@href*="author"]']
         ]
 
         def call
@@ -98,15 +100,16 @@ module Pismo
         end
 
         def profile_links_from_node(node)
-          node.css('a')
-              .map { |x| x['href'] }
-              .uniq
-              .delete_if(&:nil?)
-              .map { |link| Allusion.parse(link) }
-              .select do |parsed_link|
-                parsed_link[:profile] == true ||
-                  author_link_indicators.any? { |indicator| parsed_link[:url].to_s.include?(indicator) }
-              end
+          hrefs = node.css('a').map { |x| x['href'] }
+          rels = node.css('a').map { |x| x['rel'] }
+          link_rels = node.css('link').map { |x| x['rel'] }
+          all_variants = (hrefs + rels + link_rels).flatten.compact
+          all_variants.uniq
+            .map { |link| Allusion.parse(link) }
+            .select do |parsed_link|
+              parsed_link[:profile] == true ||
+                author_link_indicators.any? { |indicator| parsed_link[:url].to_s.include?(indicator) }
+            end
         end
 
         def images_from_node(node)
