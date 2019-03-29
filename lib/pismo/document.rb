@@ -11,8 +11,8 @@ module Pismo
 
     ATTRIBUTE_METHODS = InternalAttributes.instance_methods + ExternalAttributes.instance_methods
     DEFAULT_OPTIONS = {
-      :image_extractor => false,
-      :min_image_width => 100,
+      :image_extractor  => false,
+      :min_image_width  => 100,
       :min_image_height => 100
     }
 
@@ -29,6 +29,10 @@ module Pismo
     # An HTML representation of the document
     def html
       @doc.to_s
+    end
+
+    def headers
+      @headers ||= @options.dig(:headers) || {}
     end
 
     def load(handle, url = nil)

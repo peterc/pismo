@@ -11,6 +11,7 @@ require 'htmlentities'
 require 'allusion'
 
 $: << File.dirname(__FILE__)
+
 require 'pismo/document'
 require 'pismo/reader'
 require 'pismo/reader/base'
@@ -21,6 +22,9 @@ require 'pismo/utilities'
 
 # Additional parsing types
 require 'pismo/parsers/base'
+require 'pismo/parsers/titles'
+require 'pismo/parsers/descriptions'
+require 'pismo/parsers/ledes'
 require 'pismo/parsers/twitter_text'
 require 'pismo/parsers/jsonld'
 require 'pismo/parsers/meta'
@@ -29,6 +33,9 @@ require 'pismo/parsers/authors/twitter'
 require 'pismo/parsers/author'
 require 'pismo/parsers/published_date'
 require 'pismo/parsers/ad_networks'
+require 'pismo/parsers/feeds'
+require 'pismo/parsers/favicons'
+require 'pismo/parsers/keywords'
 
 if RUBY_PLATFORM == "java"
   class String; def stem; self; end; end
@@ -36,13 +43,36 @@ else
   require 'fast_stemmer'
 end
 
+# Pismo is the main parser
 module Pismo
   class << self
-    # The root of the blackbook. Loaded first to enable us to set paths in
-    # loaded modules relative to the root of blackbook itself
+    # The root of the gem. Loaded first to enable us to set paths in
+    # loaded modules relative to the root of the gem itself
     def root
-      File.expand_path(File.join(File.dirname(__FILE__), '..'))
+      File.expand_path(File.join(File.dirname(__FILE__), '../..'))
     end
+
+    # Use the logger, and this can be overwritten by a custom logger
+    # Blackbook.logger.info 'some info'
+    def logger
+      @logger ||= ::Logger.new($stdout).tap do |log|
+        log.progname = self.name
+      end
+    end
+
+    # Dev logger lets you put in logging that won't show in production
+    # without having to deal with commenting and uncommenting it
+    def dev_logger(str, level = 'info')
+      Pismo.logger.send(level, str) if dev_logging?
+    end
+
+    # Checks for a DEV_LOGGING = true ENV variable, so we know if we need
+    # to do logging
+    def dev_logging?
+      @dev_logging ||= ENV.fetch('DEV_LOGGING', 'false').to_s == 'true'
+    end
+
+    # Reads the config from the YAML file
 
     # Sugar methods to make creating document objects nicer
     def document(handle, options = {})

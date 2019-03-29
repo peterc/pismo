@@ -1,8 +1,6 @@
 
 module Pismo
   class Utilities
-
-
     class << self
       def max(a, b)
         a >= b ? a : b

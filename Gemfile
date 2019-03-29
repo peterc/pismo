@@ -4,7 +4,8 @@ source "http://rubygems.org"
 
 # This gem has text search additions to Nokogiri to find nodes that
 # match text
-gem 'nikkou', omalab: 'omalab/nikkou'
+gem 'nikkou',   omalab: 'omalab/nikkou'
 gem 'allusion', path: '../allusion'
+gem 'dewey',    path: '../dewey'
 
 gemspec

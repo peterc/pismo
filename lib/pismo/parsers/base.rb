@@ -25,6 +25,26 @@ module Pismo
         @meta ||= args.dig(:meta)
       end
 
+      def title
+        @title ||= args.dig(:title)
+      end
+
+      def description
+        @description ||= args.dig(:description)
+      end
+
+      def body
+        @body ||= args.dig(:body)
+      end
+
+      def reader_doc
+        @reader_doc ||= args.dig(:reader_doc)
+      end
+
+      def sentences
+        @sentences ||= args.dig(:sentences)
+      end
+
       def call
         raise 'must be implemented in your child class'
       end
