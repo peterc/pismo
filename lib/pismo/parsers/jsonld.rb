@@ -64,7 +64,18 @@ module Pismo
       end
 
       def featured_image
-        @featured_image ||= json_ld.dig('image', 'url')
+        @featured_image ||= begin
+          image = json_ld.dig('image')
+          if image.is_a?(Hash)
+            image_url = image.dig('url')
+          else
+            if image.is_a?(Array)
+              image_hsh = image.uniq.first
+              image_url = image_hsh.dig('url') if image_hsh
+            end
+          end
+          image_url
+        end
       end
 
       def keywords

@@ -36,10 +36,14 @@ module Pismo
     end
 
     def load(handle, url = nil)
+      url = handle.dig(:url) if handle.is_a?(Hash) && url.nil?
+      html = handle.dig(:html) if handle.is_a?(Hash)
       @url = url if url
       @url = handle if handle =~ /\Ahttp/i
 
-      @html = if handle =~ /\Ahttp/i
+      @html = if html.present?
+                html
+              elsif handle =~ /\Ahttp/i
                 open(handle) { |f| f.read }
               elsif handle.is_a?(StringIO) || handle.is_a?(IO) || handle.is_a?(Tempfile)
                 handle.read

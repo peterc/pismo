@@ -15,7 +15,7 @@ module Pismo
             'property'         => meta_tags_by('property'),
             'charset'          => [charset],
             'content_type'     => [content_type],
-            'content_language' => [content_language]
+            'content_language' => content_language
           }
         end
       end
