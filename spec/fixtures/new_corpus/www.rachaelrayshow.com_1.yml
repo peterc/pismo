@@ -1,0 +1,1317 @@
+---
+:url: https://www.rachaelrayshow.com/food/26806_how_to_cook_the_perfect_medium_rare_steak_sous_vide
+:body: "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" prefix=\"og: http://ogp.me/ns#\"
+  style=\"\" class=\" no-touchevents details js\"><head>\n    <meta charset=\"utf-8\"><script
+  async=\"\" src=\"https://c.evidon.com/sitenotice/vendorlist.js\"></script><script
+  type=\"text/javascript\" id=\"async-buttons\" src=\"https://ws.sharethis.com/button/async-buttons.js\"></script><script
+  async=\"\" src=\"https://iicbsi-a.akamaihd.net/common/js/esi/isInternalUser.js?cb=cbsiInternal\"></script><script
+  id=\"an-prebid\" src=\"//connect.facebook.com/en_US/AudienceNetworkPrebid.js\"></script><script
+  async=\"\" src=\"https://c.evidon.com/sitenotice/425/translations/en.js\"></script><script
+  src=\"//tags.tiqcdn.com/utag/cbsi/rachaelrayshowsite/prod/utag.js\" async=\"\" id=\"tealium-lib\"></script><script
+  async=\"\" id=\"evidon-settings\" src=\"//c.evidon.com/sitenotice/425/rachaelrayshow/settings.js\"></script><script
+  async=\"\" id=\"evidon-themes\" src=\"//c.evidon.com/sitenotice/425/snthemes.js\"></script><script
+  async=\"\" id=\"evidon-location\" src=\"//c.evidon.com/geo/country.js\"></script><script
+  async=\"\" id=\"evidon-notice\" src=\"//c.evidon.com/sitenotice/evidon-sitenotice-tag.js\"></script><script
+  type=\"text/javascript\">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function
+  r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return
+  r(o||n)},o,o.exports)}return n[t].exports}if(\"function\"==typeof __nr_require)return
+  __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function
+  r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void
+  0:this}}var i=e(\"handle\"),a=e(3),u=e(4),f=e(\"ee\").get(\"tracer\"),c=e(\"loader\"),s=NREUM;\"undefined\"==typeof
+  window.newrelic&&(newrelic=s);var p=[\"setPageViewName\",\"setCustomAttribute\",\"setErrorHandler\",\"finished\",\"addToTrace\",\"inlineHit\",\"addRelease\"],d=\"api-\",l=d+\"ixn-\";a(p,function(e,n){s[n]=o(d+n,!0,\"api\")}),s.addPageAction=o(d+\"addPageAction\",!0),s.setCurrentRouteName=o(d+\"routeName\",!0),n.exports=newrelic,s.interaction=function(){return(new
+  r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o=\"function\"==typeof
+  n;return i(l+\"tracer\",[c.now(),e,t],r),function(){if(f.emit((o?\"\":\"no-\")+\"fn-start\",[c.now(),r,o],t),o)try{return
+  n.apply(this,arguments)}catch(e){throw f.emit(\"fn-err\",[arguments,this,e],t),e}finally{f.emit(\"fn-end\",[c.now()],t)}}}};a(\"actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get\".split(\",\"),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){\"string\"==typeof
+  e&&(e=new Error(e)),i(\"err\",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function
+  r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split(\".\"),r=n.split(\".\"),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var
+  o=null,i=null,a=/Version\\/(\\S+)\\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf(\"Chrome\")===-1&&u.indexOf(\"Chromium\")===-1&&(o=\"Safari\",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function
+  r(e,n){var t=[],r=\"\",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return
+  t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function
+  r(e,n,t){n||(n=0),\"undefined\"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return
+  i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:\"undefined\"!=typeof window.performance&&window.performance.timing&&\"undefined\"!=typeof
+  window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function
+  o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var
+  a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function
+  l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function
+  v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||\"feature\",y[t]=n,n
+  in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return
+  b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var
+  u=\"nr@context\",f=e(\"gos\"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function
+  r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return
+  Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return
+  e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function
+  r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e(\"ee\").get(\"handle\");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function
+  r(e){var n=typeof e;return!e||\"object\"!==n&&\"function\"!==n?-1:e===window?0:a(e,i,function(){return
+  o++})}var o=1,i=\"nr@id\",a=e(\"gos\");n.exports=r},{}],loader:[function(e,n,t){function
+  r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName(\"script\")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return
+  s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f(\"mark\",[\"onload\",a()+x.offset],null,\"api\");var
+  t=l.createElement(\"script\");t.src=\"https://\"+e.agent,n.parentNode.insertBefore(t,n)}}function
+  o(){\"complete\"===l.readyState&&i()}function i(){f(\"mark\",[\"domContent\",a()+x.offset],null,\"api\")}function
+  a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new
+  Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e(\"handle\"),c=e(3),s=e(\"ee\"),p=e(2),d=window,l=d.document,m=\"addEventListener\",v=\"attachEvent\",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var
+  h=\"\"+location,y={beacon:\"bam.nr-data.net\",errorBeacon:\"bam.nr-data.net\",agent:\"js-agent.newrelic.com/nr-1118.min.js\"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m](\"DOMContentLoaded\",i,!1),d[m](\"load\",r,!1)):(l[v](\"onreadystatechange\",o),d[v](\"onload\",r)),f(\"mark\",[\"firstbyte\",u],null,\"api\");var
+  E=0,O=e(5)},{}]},{},[\"loader\"]);</script><style></style>\n<meta name=\"title\"
+  content=\"Sous Vide 101: A Step-by-Step Guide to Cooking The Perfect Steak | Rachael
+  Ray Show\">\n<meta name=\"robots\" content=\"index\">\n<meta property=\"fb:pages\"
+  content=\"76778137323\">\n<meta property=\"fb:admins\" content=\"3111204\">\n<meta
+  http-equiv=\"content-language\" content=\"en_US\">\n<meta property=\"og:site_name\"
+  content=\"Rachael Ray Show\">\n<link rel=\"canonical\" href=\"https://www.rachaelrayshow.com/food/26806_how_to_cook_the_perfect_medium_rare_steak_sous_vide\">\n<meta
+  name=\"twitter:card\" content=\"summary_large_image\">\n<meta property=\"og:type\"
+  content=\"Article\">\n<meta property=\"fb:app_id\" content=\"172289166290389\">\n<meta
+  name=\"twitter:title\" content=\"Sous Vide 101: A Step-by-Step Guide to Cooking
+  The Perfect Steak\">\n<meta name=\"twitter:description\" content=\"Yum-o! director
+  and food lover Andrew Kaplan teaches you how to cook a flawless medium-rare steak
+  in an hour in the once-again popular sous-vide style\">\n<meta name=\"twitter:site\"
+  content=\"@rachaelrayshow\">\n<meta name=\"description\" content=\"Yum-o! director
+  and food lover Andrew Kaplan teaches you how to cook a flawless medium-rare steak
+  in an hour in the once-again popular sous-vide style\">\n<meta name=\"twitter:site:id\"
+  content=\"56736161\">\n<meta property=\"og:url\" content=\"https://www.rachaelrayshow.com/food/26806_how_to_cook_the_perfect_medium_rare_steak_sous_vide\">\n<meta
+  name=\"keywords\" content=\"Food &amp; Fun\">\n<link rel=\"image_src\" href=\"https://www.rachaelrayshow.com/sites/default/files/styles/1280x720/public/images/2018-04/630393c06fc4c7c25d76bd60bbdc9e73.jpg?itok=YbSz1r4c\">\n<meta
+  property=\"og:title\" content=\"Sous Vide 101: A Step-by-Step Guide to Cooking The
+  Perfect Steak\">\n<link rel=\"publisher\" href=\"https://plus.google.com/+RachaelRayShow\">\n<meta
+  property=\"og:description\" content=\"Yum-o! director and food lover Andrew Kaplan
+  teaches you how to cook a flawless medium-rare steak in an hour in the once-again
+  popular sous-vide style\">\n<meta name=\"twitter:url\" content=\"https://www.rachaelrayshow.com/food/26806_how_to_cook_the_perfect_medium_rare_steak_sous_vide\">\n<meta
+  name=\"twitter:image\" content=\"https://www.rachaelrayshow.com/sites/default/files/styles/1280x720/public/images/2018-04/630393c06fc4c7c25d76bd60bbdc9e73.jpg?itok=YbSz1r4c\">\n<meta
+  name=\"twitter:image:height\" content=\"720\">\n<meta name=\"twitter:image:width\"
+  content=\"1280\">\n<meta property=\"og:image\" content=\"https://www.rachaelrayshow.com/sites/default/files/styles/1280x720/public/images/2018-04/630393c06fc4c7c25d76bd60bbdc9e73.jpg?itok=YbSz1r4c\">\n<meta
+  property=\"article:published_time\" content=\"2018-04-09T06:00:00-04:00\">\n<meta
+  name=\"Generator\" content=\"Drupal 8 (https://www.drupal.org)\">\n<meta name=\"MobileOptimized\"
+  content=\"width\">\n<meta name=\"HandheldFriendly\" content=\"true\">\n<meta name=\"viewport\"
+  content=\"width=device-width, initial-scale=1.0\">\n<script type=\"application/ld+json\">{\"@context\":\"http:\\/\\/schema.org\",\"description\":\"Yum-o!
+  director and food lover Andrew Kaplan teaches you how to cook a flawless medium-rare
+  steak in an hour in the once-again popular sous-vide style\",\"author\":{\"@type\":\"Person\",\"name\":\"Rose
+  Marie Walano\"},\"articleSection\":\"News\",\"datePublished\":\"2018-04-09T06:00:00-04:00\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.rachaelrayshow.com\\/food\\/26806_how_to_cook_the_perfect_medium_rare_steak_sous_vide\"},\"uploadDate\":\"2018-04-09T06:00:00-04:00\",\"@type\":\"NewsArticle\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/www.rachaelrayshow.com\\/sites\\/default\\/files\\/styles\\/1280x720\\/public\\/images\\/2018-04\\/630393c06fc4c7c25d76bd60bbdc9e73.jpg?itok=YbSz1r4c\",\"height\":720,\"width\":1280},\"headline\":\"Sous
+  Vide 101: A Step-by-Step Guide to Cooking The Perfect Steak\",\"thumbnailUrl\":\"https:\\/\\/www.rachaelrayshow.com\\/sites\\/default\\/files\\/styles\\/1280x720\\/public\\/images\\/2018-04\\/630393c06fc4c7c25d76bd60bbdc9e73.jpg?itok=YbSz1r4c\",\"publisher\":{\"name\":\"Rachael
+  Ray Show\",\"@type\":\"Organization\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/www.rachaelrayshow.com\\/\\/themes\\/custom\\/rr_bs\\/images\\/default-image.png\"}},\"dateModified\":\"2018-08-17T13:05:52-04:00\",\"url\":\"https:\\/\\/www.rachaelrayshow.com\\/food\\/26806_how_to_cook_the_perfect_medium_rare_steak_sous_vide\",\"keywords\":[\"Food
+  &amp; Fun\"]}</script>\n<link rel=\"shortcut icon\" href=\"/themes/custom/rr_bs/favicon.ico\"
+  type=\"image/vnd.microsoft.icon\">\n<link rel=\"revision\" href=\"/food/26806_how_to_cook_the_perfect_medium_rare_steak_sous_vide\">\n<link
+  rel=\"amphtml\" href=\"https://www.rachaelrayshow.com/food/26806_how_to_cook_the_perfect_medium_rare_steak_sous_vide?amp\">\n\n
+  \   <title>Sous Vide 101: A Step-by-Step Guide to Cooking The Perfect Steak | Rachael
+  Ray Show</title>\n    <link rel=\"stylesheet\" href=\"/sites/default/files/css/css_1sxHW6EF-Lg0bEoY__lE4engOK8FoCm5VwBzKfX-_JY.css?poa0js\"
+  media=\"all\">\n<link rel=\"stylesheet\" href=\"/sites/default/files/css/css_tcaChgiFa5a1RTulImrEJ_OupSJ236LpQTtCN_y-cJ0.css?poa0js\"
+  media=\"all\">\n\n    <script type=\"application/json\" data-drupal-selector=\"drupal-settings-json\">{\"path\":{\"baseUrl\":\"\\/\",\"scriptPath\":null,\"pathPrefix\":\"\",\"currentPath\":\"node\\/29651\",\"currentPathIsAdmin\":false,\"isFront\":false,\"currentLanguage\":\"en\"},\"pluralDelimiter\":\"\\u0003\",\"ajaxPageState\":{\"libraries\":\"better_exposed_filters\\/general,bootstrap\\/theme,core\\/html5shiv,core\\/jquery.form,ctd_dfp\\/ctd_dfp,ctd_dfp\\/ctd_gdpr,ctd_dfp\\/indexexchange,ctd_dfp\\/sharethrough,ctd_dfp\\/start_dfp,ctd_mapp\\/mouseout_signup_modal,ctd_netseer\\/ctd_gdpr,ctd_netseer\\/ctd_netseer,ctd_sourcepoint\\/ctd_gdpr,ctd_sourcepoint\\/ctd_sourcepoint,ctd_taboola\\/ctd_gdpr,ctd_taboola\\/ctd_taboola,ctd_tealium\\/ctd_tealium,ctd_tealium\\/ctd_tealium_extra,ctd_video\\/facebook.prebid,ctd_video_brightcove\\/players,rachael_ray\\/search,rr_bs\\/3d-carousel-card-featured,rr_bs\\/main-navigation,rr_bs\\/on-this-week,rr_bs\\/sidebar-affix,rr_bs\\/video-sticky-sidebar,search_api_autocomplete\\/search_api_autocomplete,sharethis\\/sharethis,sharethis\\/sharethispickerexternalbuttons,sharethis\\/sharethispickerexternalbuttonsws,system\\/base,views\\/views.module\",\"theme\":\"rr_bs\",\"theme_token\":null},\"ajaxTrustedUrl\":{\"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM\":true,\"\\/food\\/26806_how_to_cook_the_perfect_medium_rare_steak_sous_vide?ajax_form=1\":true,\"\\/search\":true},\"ajax\":{\"edit-submit-ctd-mapp-signup-mouseout-modal\":{\"wrapper\":\"mouseout_modal-ajax-wrapper\",\"callback\":\"::ajaxSignUpCallback\",\"event\":\"mousedown\",\"keypress\":true,\"prevent\":\"click\",\"url\":\"\\/food\\/26806_how_to_cook_the_perfect_medium_rare_steak_sous_vide?ajax_form=1\",\"dialogType\":\"ajax\",\"submit\":{\"_triggering_element_name\":\"submit-ctd_mapp_signup_mouseout_modal\",\"_triggering_element_value\":\"Subscribe\"}},\"edit-submit-ctd-mapp-signup-footer\":{\"wrapper\":\"footer-ajax-wrapper\",\"callback\":\"::ajaxSignUpCallback\",\"event\":\"mousedown\",\"keypress\":true,\"prevent\":\"click\",\"url\":\"\\/food\\/26806_how_to_cook_the_perfect_medium_rare_steak_sous_vide?ajax_form=1\",\"dialogType\":\"ajax\",\"submit\":{\"_triggering_element_name\":\"submit-ctd_mapp_signup_footer\",\"_triggering_element_value\":\"Send\"}}},\"gdpr_sitename\":\"rachaelrayshow\",\"ctdDfp\":{\"indexExchangeUrl\":\"\\/\\/js-sec.indexww.com\\/ht\\/p\\/183728-23478192717951.js\",\"sharethroughUrl\":\"\\/\\/native.sharethrough.com\\/assets\\/sfp.js\"},\"taboolaScriptUrl\":\"\\/\\/cdn.taboola.com\\/libtrc\\/cbsinteractive-rachaelray\\/loader.js\",\"gdprConsentEnabled\":true,\"bootstrap\":{\"forms_has_error_value_toggle\":1},\"gdpr_settings\":\"rachaelrayshow\",\"netseer_src\":\"\\/\\/js.searchlinks.com\\/adtags\\/1kML.js?\",\"taboola_page_type\":\"article\",\"taboola_container\":\"taboola-below-article-thumbnails\",\"taboola_mode\":\"thumbnails-a\",\"taboola_placement\":\"Below
+  Article Thumbnails\",\"ctdVideoFbPrebidId\":\"195612451022080_220228575227134\",\"search_api_autocomplete\":{\"search\":{\"auto_submit\":true,\"min_length\":2}},\"sharethis\":{\"switchTo5x\":true,\"__st_loadLate\":true,\"stlight\":{\"publisher\":\"0ab80252-967e-419b-88b9-6cbbf9cd1c4c\",\"version\":\"5x\",\"doNotCopy\":true,\"hashAddressBar\":false,\"doNotHash\":true,\"onhover\":false,\"shorten\":\"false\",\"popup\":false}},\"ctd_tealium_url\":\"\\/\\/tags.tiqcdn.com\\/utag\\/cbsi\\/rachaelrayshowsite\\/prod\\/utag.js\",\"user\":{\"uid\":0,\"permissionsHash\":\"59a06bddd20f551ea99351df2d9434fc14b5947773d8a29a2b9ae38547c77f40\"}}</script>\n\n<!--[if
+  lte IE 8]>\n<script src=\"/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js\"></script>\n<![endif]-->\n<script
+  src=\"/core/assets/vendor/modernizr/modernizr.min.js?v=3.3.1\"></script>\n<script
+  src=\"/sites/default/files/js/js_116m-45_G13gdjaDXBQwWbiCHYi3h4F1H0ozO7neaAE.js\"></script>\n\n
+  \   <script>\n  ctdDfp.init(\n    '8264',\n    'https://www.rachaelrayshow.com',\n
+  \   'aw-rachaelrayshow',\n    'maw-rachaelrayshow'\n  );\n  ctdDfp.adPageType       =
+  \"article\";\n  ctdDfp.adUnitPathSuffix = \"foodfunarticle\";\n\n  googletag.slots
+  = googletag.slots || {};\n\n  googletag.cmd.push(function () {\n          googletag.slots[\"nav_ad\"]
+  = googletag\n  .defineSlot(\n    \"/\" + ctdDfp.getNetworkId() + \"/\" + ctdDfp.getAdUnitSizePrefix()
+  + \"/foodfunarticle\",\n    [[7, 7]],\n    \"nav_ad\"\n  )\n  .defineSizeMapping(\n
+  \   googletag.sizeMapping()\n      .addSize([0, 0], [[7, 7]])\n      .addSize([300,
+  0], [[7, 7]])\n      .addSize([740, 0], [[7, 7]])\n      .addSize([1024, 0], [[7,
+  7]])\n      .addSize([1400, 0], [[7, 7]])\n      .build()\n  )\n  .addService(googletag.pubads())\n
+  \ .setTargeting(\"pos\", [\"nav\"]);\n\n            googletag.slots[\"incontent_ad_top\"]
+  = googletag\n  .defineSlot(\n    \"/\" + ctdDfp.getNetworkId() + \"/\" + ctdDfp.getAdUnitSizePrefix()
+  + \"/foodfunarticle\",\n    [[320,50]],\n    \"incontent_ad_top\"\n  )\n  .defineSizeMapping(\n
+  \   googletag.sizeMapping()\n      .addSize([0, 0], [[320,50]])\n      .addSize([300,
+  0], [[320,50]])\n      .addSize([740, 0], [[970,66],[728,90],[970,250],[7,7]])\n
+  \     .addSize([1024, 0], [[970,66],[728,90],[970,250],[7,7]])\n      .addSize([1400,
+  0], [[970,66],[728,90],[970,250],[7,7]])\n      .build()\n  )\n  .addService(googletag.pubads())\n
+  \ .setTargeting(\"pos\", [\"top\"]);\n\n          if (ctdDfp.isMobile()) {\n  googletag.slots[\"incontent_ad_middle_top_mobile\"]
+  = googletag\n    .defineSlot(\n      \"/\" + ctdDfp.getNetworkId() + \"/\" + ctdDfp.getAdUnitSizePrefix()
+  + \"/foodfunarticle\",\n      [[320,50],[300,250]],\n      \"incontent_ad_middle_top_mobile\"\n
+  \   )\n    .defineSizeMapping(\n      googletag.sizeMapping()\n        .addSize([0,
+  0], [[320,50],[300,250]])\n        .addSize([300, 0], [[320,50],[300,250]])\n        .addSize([740,
+  0], [])\n        .addSize([1024, 0], [])\n        .addSize([1400, 0], [])\n        .build()\n
+  \   )\n  .addService(googletag.pubads())\n  .setTargeting(\"pos\", [\"middle\"]);\n}\n\n
+  \         if (!ctdDfp.isMobile()) {\n  googletag.slots[\"incontent_ad_middle_top\"]
+  = googletag\n    .defineSlot(\n      \"/\" + ctdDfp.getNetworkId() + \"/\" + ctdDfp.getAdUnitSizePrefix()
+  + \"/foodfunarticle\",\n      [[300,250],[300,600]],\n      \"incontent_ad_middle_top\"\n
+  \   )\n    .defineSizeMapping(\n      googletag.sizeMapping()\n        .addSize([0,
+  0], [])\n        .addSize([300, 0], [])\n        .addSize([740, 0], [[300,250],[300,600]])\n
+  \       .addSize([1024, 0], [[300,250],[300,600]])\n        .addSize([1400, 0],
+  [[300,250],[300,600]])\n        .build()\n    )\n    .addService(googletag.pubads())\n
+  \   .setTargeting(\"pos\", [\"top\"]);\n}\n\n            googletag.slots[\"native_top\"]
+  = googletag\n  .defineSlot(\n    \"/\" + ctdDfp.getNetworkId() + \"/\" + ctdDfp.getAdUnitSizePrefix()
+  + \"/foodfunarticle\",\n    [[11, 11], \"fluid\"],\n    \"native_top\"\n  )\n  .defineSizeMapping(\n
+  \   googletag.sizeMapping()\n      .addSize([0, 0], [[11, 11], \"fluid\"])\n      .addSize([300,
+  0], [[11, 11], \"fluid\"])\n      .addSize([740, 0], [[11, 11], \"fluid\"])\n      .addSize([1024,
+  0], [[11, 11], \"fluid\"])\n      .addSize([1400, 0], [[11, 11], \"fluid\"])\n      .build()\n
+  \ )\n  .addService(googletag.pubads())\n  .setTargeting(\"pos\", [\"top\"])\n  .setTargeting(\"strnativekey\",\"k9C5et1G7pGs7EZwQsFAweA3\");\n\n
+  \         if (ctdDfp.isMobile()) {\n  googletag.slots[\"incontent_ad_middle_bottom_mobile\"]
+  = googletag\n    .defineSlot(\n    \"/\" + ctdDfp.getNetworkId() + \"/\" + ctdDfp.getAdUnitSizePrefix()
+  + \"/foodfunarticle\",\n    [[320,50],[300,250]],\n    \"incontent_ad_middle_bottom_mobile\"\n
+  \ )\n  .defineSizeMapping(\n    googletag.sizeMapping()\n      .addSize([0, 0],
+  [[320,50],[300,250]])\n      .addSize([300, 0], [[320,50],[300,250]])\n      .addSize([740,
+  0], [])\n      .addSize([1024, 0], [])\n      .addSize([1400, 0], [])\n      .build()\n
+  \ )\n  .addService(googletag.pubads())\n  .setTargeting(\"pos\", [\"middle2\"]);\n}\n\n
+  \         if (!ctdDfp.isMobile()) {\n  googletag.slots[\"incontent_ad_middle_bottom\"]
+  = googletag\n    .defineSlot(\n      \"/\" + ctdDfp.getNetworkId() + \"/\" + ctdDfp.getAdUnitSizePrefix()
+  + \"/foodfunarticle\",\n      [[300,250],[300,600]],\n      \"incontent_ad_middle_bottom\"\n
+  \   )\n    .defineSizeMapping(\n      googletag.sizeMapping()\n        .addSize([0,
+  0], [])\n        .addSize([300, 0], [])\n        .addSize([740, 0], [[300,250],[300,600]])\n
+  \       .addSize([1024, 0], [[300,250],[300,600]])\n        .addSize([1400, 0],
+  [[300,250],[300,600]])\n        .build()\n    )\n    .addService(googletag.pubads())\n
+  \   .setTargeting(\"pos\", [\"middle\"]);\n}\n\n          googletag.slots[\"incontent_ad_bottom\"]
+  = googletag\n  .defineSlot(\n    \"/\" + ctdDfp.getNetworkId() + \"/\" + ctdDfp.getAdUnitSizePrefix()
+  + \"/foodfunarticle\",\n    [[320,50],[300,250],[7,7]],\n    \"incontent_ad_bottom\"\n
+  \ )\n  .defineSizeMapping(\n    googletag.sizeMapping()\n      .addSize([0, 0],
+  [[320,50],[300,250],[7,7]])\n      .addSize([300, 0], [[320,50],[300,250],[7,7]])\n
+  \     .addSize([740, 0], [[970,66],[728,90],[7,7]])\n      .addSize([1024, 0], [[970,66],[728,90],[7,7]])\n
+  \     .addSize([1400, 0], [[970,66],[728,90],[7,7]])\n      .build()\n  )\n  .addService(googletag.pubads())\n.setTargeting(\"pos\",
+  [\"bottom\"]);\n\n          googletag.slots[\"outofpage\"] = googletag\n  .defineOutOfPageSlot(\n
+  \   \"/\" + ctdDfp.getNetworkId() + \"/\" + ctdDfp.getAdUnitSizePrefix() + \"/foodfunarticle\",\n
+  \   \"outofpage\"\n  )\n  .addService(googletag.pubads())\n  .setTargeting(\"pos\",
+  [\"top\"]);\n\n    \n    googletag.pubads().set('page_url', document.URL);\n  googletag.pubads().setTargeting('node',
+  '29651');\n  googletag.pubads().setTargeting('kw', []);\n  googletag.pubads().setTargeting('section',
+  'food-&-fun');\n  googletag.pubads().setTargeting('category', [\"food-&-fun\"]);\n
+  \ googletag.pubads().setTargeting('ptype', 'article');\nif (typeof ctdDfp !== 'undefined')
+  {\n  googletag.pubads().setTargeting('session', jQuery.cookie('CBS_ADV_VAL'));\n
+  \ googletag.pubads().setTargeting('subses', jQuery.cookie('CBS_ADV_SUBSES_VAL'));\n}\nif
+  (typeof ctdTealium !== 'undefined') {\n  if (ctdTealium.campaign !== false) {\n
+  \   googletag.pubads().setTargeting('ftag', ctdTealium.campaign);\n  }\n  if (ctdTealium.viewGuid)
+  {\n    googletag.pubads().setTargeting('vguid', ctdTealium.viewGuid);\n  }\n}\n\n
+  \       Object.keys(ctdDfp.queryParams).forEach(function (param, index) {\n      if
+  (param.indexOf('adTargeting_') === 0) {\n        var adTargetingName = param.replace('adTargeting_',
+  '');\n        googletag.pubads().setTargeting(adTargetingName, ctdDfp.queryParams[param]);\n
+  \     }\n    });\n\n    googletag.pubads().enableSingleRequest();\n    googletag.pubads().collapseEmptyDivs();\n
+  \   ctdDfp.addPageView();\n    googletag.enableServices();\n  });\n</script>\n\n
+  \   \n<script>\n  var utag_data = {\"assetId\":\"29651\",\"assetTitle\":\"Sous Vide
+  101: A Step-by-Step Guide to Cooking The Perfect Steak\",\"assetType\":\"article\",\"assetPubDate\":\"2018-04-07T03:50:55Z\",\"authorId\":\"1\",\"authorName\":\"Rose
+  Marie Walano\",\"pageType\":\"article\",\"siteSection\":\"articles\",\"videoExists\":\"true\",\"siteType\":\"responsive
+  web\",\"videoAutoPlay\":\"on\",\"gaAccount\":\"UA-39149120-2\",\"siteHier\":\"articles|article\",\"userState\":\"not
+  authenticated\",\"userType\":\"anon\"};\n\n    utag_data.pageViewGuid = ctdTealium.viewGuid;\n
+  \ utag_data.deviceType = (ctdTealium.isMobile == false) ? 'desktop' : 'mobile';\n
+  \ utag_data.campaign = ctdTealium.campaign;\n\n  // Support legacy Brightcove video
+  plugin.\n  site.section = utag_data.siteSection || '';\n\n    if (typeof utag_data['videoAutoPlay']
+  !== 'undefined' && utag_data['videoAutoPlay']) {\n    utag_data['videoAutoPlay']
+  = (ctdTealium.isMobile === false) ? utag_data['videoAutoPlay'] : false;\n  }\n</script>\n\n<script>\n
+  \ // Tealium gating.\n  if (window.gdprConsent) {\n    if (typeof om === 'object'
+  && typeof om.fireGdprTags !== 'undefined') {\n      om.fireGdprTags();\n    }\n
+  \ }\n  else {\n    window.addEventListener('gdprConsentGiven', function (e) {\n
+  \     if (typeof om === 'object' && typeof om.fireGdprTags !== 'undefined') {\n
+  \       om.fireGdprTags();\n      }\n    });\n  }\n</script>\n\n  <script src=\"https://players.brightcove.net/1749985694001/BkeFZiMvbX_default/index.min.js\"></script><script
+  type=\"text/javascript\" async=\"\" charset=\"utf-8\" id=\"utag_cbsi.rachaelrayshowsite_28\"
+  src=\"//tags.tiqcdn.com/utag/cbsi/rachaelrayshowsite/prod/utag.28.js?utv=ut4.42.201806111900\"></script><script
+  type=\"text/javascript\" async=\"\" charset=\"utf-8\" id=\"tiqapp\" src=\"//tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=cbsi/rachaelrayshowsite/201901021628&amp;cb=1552922180505\"></script><link
+  rel=\"stylesheet\" type=\"text/css\" href=\"https://ws.sharethis.com/button/css/buttons-secure.css\"></head>\n
+  \ <body class=\"layout-two-sidebars has-sticky-sidebars path-node page-node-type-article
+  has-glyphicons\">\n    <a href=\"#main-content\" class=\"visually-hidden focusable
+  skip-link\">\n      Skip to main content\n    </a>\n    \n      <div class=\"dialog-off-canvas-main-canvas\"
+  data-off-canvas-main-canvas=\"\">\n    <div id=\"nav_ad\" class=\"nav_ad gpt_ads\"
+  hidden=\"\" nm3efkr=\"\">\n  <script>\n    googletag.cmd.push(function() {\n      googletag.display('nav_ad');\n
+  \   });\n  </script>\n</div>\n\n<header class=\"main-header\" role=\"banner\">\n
+  \ <div class=\"container-fluid main-header-container\">\n    <div class=\"row main-header-row\">\n
+  \     <div class=\"col-xs-12 main-header-col navbar \" role=\"heading\">\n        <div
+  class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle
+  collapsed\" data-toggle=\"collapse\" data-target=\"#main-nav\" aria-expanded=\"false\">\n
+  \           <span class=\"sr-only\">Toggle navigation</span>\n            <span
+  class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span
+  class=\"icon-bar\"></span>\n            <span class=\"close-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+  xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"14\" height=\"14\" viewBox=\"0
+  0 14 14\"><defs><path id=\"5e7oa\" d=\"M342.5 21.5l11.01 11.01\"></path><path id=\"5e7ob\"
+  d=\"M353.51 21.5L342.5 32.51\"></path></defs><g><g transform=\"translate(-341 -20)\"><use
+  fill=\"#fff\" fill-opacity=\"0\" stroke=\"#000\" stroke-linecap=\"round\" stroke-miterlimit=\"50\"
+  stroke-width=\"2\" xlink:href=\"#5e7oa\"></use></g><g transform=\"translate(-341
+  -20)\"><use fill=\"#fff\" fill-opacity=\"0\" stroke=\"#000\" stroke-linecap=\"round\"
+  stroke-miterlimit=\"50\" stroke-width=\"2\" xlink:href=\"#5e7ob\"></use></g></g></svg></span>\n
+  \         </button>\n          <button class=\"navbar-close pull-right\"></button>\n
+  \         <a href=\"https://www.rachaelrayshow.com/\" class=\"navbar-brand\"><img
+  src=\"/themes/custom/rr_bs/images/rachael-ray-logo.png\" alt=\"Rachael Ray Show
+  Logo\"></a>\n        </div>\n\n        <div id=\"main-nav\" class=\"navbar-collapse
+  collapse\">\n          <div class=\"header-social\">\n            <ul class=\"social-links\">\n
+  \     <li>\n        <a href=\"https://www.facebook.com/RachaelRayShow\" class=\"social-facebook\">\n
+  \           <span class=\"sr-only\">Rachael Ray Show Facebook</span>\n            <svg
+  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 10 18\">&gt;<path class=\"st0
+  icon-facebook\" d=\"M9.5 0H7.2C4.4 0 2.8 1.7 2.8 4.4v2H0.4C0.1 6.5 0 6.6 0 6.8v3c0
+  0.2 0.1 0.4 0.4 0.4h2.4v7.4c0 0.2 0.1 0.4 0.4 0.4h3.1c0.2 0 0.4-0.1 0.4-0.4v-7.4h2.8c0.2
+  0 0.4-0.1 0.4-0.4v-3c0-0.1 0-0.2 0-0.2 0-0.1-0.1-0.1-0.2-0.1H6.6V4.8c0-0.8 0.2-1.3
+  1.3-1.3h1.6c0.2 0 0.4-0.1 0.4-0.4V0.4C9.8 0.1 9.7 0 9.5 0z\"></path></svg>\n        </a>\n
+  \   </li>\n      <li>\n        <a href=\"https://twitter.com/rachaelrayshow\" class=\"social-twitter\">\n
+  \           <span class=\"sr-only\">Rachael Ray Show Twitter</span>\n            <svg
+  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 22 18\"><path class=\"st0 icon-twitter\"
+  d=\"M22 2.1c-0.8 0.3-1.7 0.6-2.7 0.7 0.9-0.6 1.6-1.4 2-2.4 -0.8 0.5-1.9 0.8-2.9
+  1 -0.8-0.8-2-1.4-3.2-1.4 -2.5 0-4.5 2-4.5 4.4 0 0.3 0 0.7 0.1 1 -3.8-0.2-7.2-2-9.5-4.6C0.9
+  1.4 0.7 2.2 0.7 3c0 1.5 0.8 2.9 2.1 3.7 -0.7 0-1.4-0.2-2.1-0.6l0 0c0 2.1 1.6 3.9
+  3.7 4.3 -0.3 0.1-0.8 0.1-1.2 0.1 -0.2 0-0.6 0-0.8-0.1 0.6 1.7 2.2 3 4.3 3 -1.5 1.2-3.5
+  1.9-5.7 1.9 -0.3 0-0.7 0-1-0.1 1.7 1.5 4.2 2.2 6.7 2.2 8.3 0 13-6.7 13-12.5V4.3C20.6
+  3.7 21.3 2.9 22 2.1z\"></path></svg>\n        </a>\n    </li>\n      <li>\n        <a
+  href=\"https://www.pinterest.com/rachaelrayshow/?autologin=true\" class=\"social-pinterest\">\n
+  \           <span class=\"sr-only\">Rachael Ray Show Pinterest</span>\n            <svg
+  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 15 19\"><path class=\"st0 icon-pinterest\"
+  d=\"M14.7 5.3c-0.5-3.8-4.3-5.7-8.3-5.2C3.3 0.4 0.1 3 0 6.6c-0.1 2.2 0.6 3.9 2.7
+  4.4 0.9-1.6-0.3-2-0.5-3.2C1.4 3 7.7-0.3 11.1 3.1c2.3 2.3 0.8 9.5-2.9 8.7C4.6 11.1
+  9.9 5.4 7 4.3 4.8 3.4 3.5 7.1 4.6 8.9 4 12.1 2.6 15 3.2 19c1.8-1.3 2.4-3.8 2.9-6.4
+  0.9 0.6 1.4 1.1 2.5 1.2C12.9 14.1 15.3 9.5 14.7 5.3z\"></path></svg>\n        </a>\n
+  \   </li>\n      <li>\n        <a href=\"https://www.instagram.com/rachaelrayshow/\"
+  class=\"social-instagram\">\n            <span class=\"sr-only\">Rachael Ray Show
+  Instagram</span>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+  0 20 20\"><path class=\"st0 icon-instagram\" d=\"M9.5 0C6.9 0 6.6 0 5.6 0.1c-1 0-1.7
+  0.2-2.3 0.4C2.7 0.7 2.1 1.1 1.6 1.6 1.1 2.1 0.7 2.7 0.5 3.3 0.3 3.9 0.1 4.6 0.1
+  5.6 0 6.6 0 6.9 0 9.5s0 2.9 0.1 3.9c0 1 0.2 1.7 0.4 2.3 0.2 0.6 0.6 1.2 1.1 1.7
+  0.5 0.5 1.1 0.9 1.7 1.1 0.6 0.2 1.3 0.4 2.3 0.4 1 0 1.3 0.1 3.9 0.1s2.9 0 3.9-0.1c1
+  0 1.7-0.2 2.3-0.4 0.6-0.2 1.2-0.6 1.7-1.1 0.5-0.5 0.9-1.1 1.1-1.7 0.2-0.6 0.4-1.3
+  0.4-2.3 0-1 0.1-1.3 0.1-3.9s0-2.9-0.1-3.9c0-1-0.2-1.7-0.4-2.3 -0.2-0.6-0.6-1.2-1.1-1.7
+  -0.5-0.5-1.1-0.9-1.7-1.1 -0.6-0.2-1.3-0.4-2.3-0.4C12.4 0 12.1 0 9.5 0zM9.5 1.7c2.5
+  0 2.8 0 3.8 0.1 0.9 0 1.4 0.2 1.8 0.3 0.4 0.2 0.8 0.4 1.1 0.7 0.3 0.3 0.5 0.7 0.7
+  1.1 0.1 0.3 0.3 0.8 0.3 1.8 0.1 1 0.1 1.3 0.1 3.8s0 2.8-0.1 3.8c0 0.9-0.2 1.4-0.3
+  1.8 -0.2 0.4-0.4 0.8-0.7 1.1 -0.3 0.3-0.7 0.5-1.1 0.7 -0.3 0.1-0.8 0.3-1.8 0.3 -1
+  0.1-1.3 0.1-3.8 0.1s-2.8 0-3.8-0.1c-0.9 0-1.4-0.2-1.8-0.3 -0.5-0.2-0.8-0.4-1.1-0.7
+  -0.3-0.3-0.5-0.7-0.7-1.1 -0.1-0.3-0.3-0.8-0.3-1.8 0-1-0.1-1.3-0.1-3.8s0-2.8 0.1-3.8c0-0.9
+  0.2-1.4 0.3-1.8 0.2-0.5 0.4-0.8 0.7-1.1 0.3-0.3 0.7-0.5 1.1-0.7C4.2 2 4.7 1.8 5.7
+  1.8 6.7 1.7 7 1.7 9.5 1.7z\"></path><path class=\"st0 icon-instagram\" d=\"M9.5
+  12.7c-1.8 0-3.2-1.4-3.2-3.2s1.4-3.2 3.2-3.2 3.2 1.4 3.2 3.2S11.2 12.7 9.5 12.7zM9.5
+  4.6c-2.7 0-4.9 2.2-4.9 4.9s2.2 4.9 4.9 4.9 4.9-2.2 4.9-4.9S12.2 4.6 9.5 4.6z\"></path><circle
+  class=\"st0 icon-instagram\" cx=\"14.6\" cy=\"4.4\" r=\"1.1\"></circle></svg>\n
+  \       </a>\n    </li>\n      <li>\n        <a href=\"https://www.youtube.com/rachaelrayshow\"
+  class=\"social-youtube\">\n            <span class=\"sr-only\">Rachael Ray Show
+  Youtube</span>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+  0 24 18\"><path class=\"st0 icon-youtube\" d=\"M8.9 13.3V3.7l7.2 4.8L8.9 13.3zM22.8
+  3.8C22.8 1.7 21.1 0 19 0H3.8C1.7 0 0 1.7 0 3.8v10.3C0 16.3 1.7 18 3.8 18h15.2c2.2
+  0 3.8-1.7 3.8-3.8V3.8H22.8z\"></path></svg>\n        </a>\n    </li>\n  </ul>\n\n
+  \         </div>\n          <div class=\"navbar-search\">\n            <form class=\"views-exposed-form
+  bef-exposed-form\" data-drupal-selector=\"views-exposed-form-search-search-page\"
+  action=\"/search\" method=\"get\" id=\"views-exposed-form-search-search-page\" accept-charset=\"UTF-8\">\n
+  \ \n<div class=\"form--inline form-inline clearfix search-form\">\n  <a href=\"https://www.rachaelrayshow.com/\"
+  class=\"searchbar-brand\"><img src=\"/themes/custom/rr_bs/images/rachael-ray-logo.png\"
+  alt=\"\"></a>\n  <div class=\"search-top-wrapper\">\n    <div class=\"search-input\">\n
+  \     <div class=\"form-item js-form-item form-type-search-api-autocomplete js-form-type-search-api-autocomplete
+  form-item-keywords js-form-item-keywords form-group form-autocomplete\">\n      <label
+  for=\"edit-keywords\" class=\"control-label\">Search Entire Site</label>\n  \n  \n
+  \ <div class=\"input-group\"><input placeholder=\"Search entire site\" data-drupal-selector=\"edit-keywords\"
+  data-search-api-autocomplete-search=\"search\" class=\"form-autocomplete form-text
+  form-control ui-autocomplete-input\" data-autocomplete-path=\"/search_api_autocomplete/search?display=search_page&amp;&amp;filter=keywords\"
+  type=\"text\" id=\"edit-keywords\" name=\"keywords\" value=\"\" size=\"30\" maxlength=\"128\"
+  autocomplete=\"off\"><span class=\"input-group-addon\"><span class=\"icon glyphicon
+  glyphicon-refresh ajax-progress ajax-progress-throbber\" aria-hidden=\"true\"></span></span></div>\n\n
+  \ \n  \n  </div>\n\n      <button id=\"search-submit\" type=\"submit\"><span class=\"search-icon\"><svg
+  xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+  width=\"13\" height=\"13\" viewBox=\"0 0 13 13\"><defs><path id=\"vc24a\" d=\"M1140
+  41a1 1 0 0 0-.29-.7l-2.68-2.68a5.49 5.49 0 0 0-4.53-8.62 5.5 5.5 0 1 0 3.12 10.03l2.68
+  2.67c.18.2.43.3.7.3a1 1 0 0 0 1-1zm-4-6.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z\"></path></defs><g><g
+  transform=\"translate(-1127 -29)\"><use xlink:href=\"#vc24a\"></use></g></g></svg></span></button>\n
+  \     <button id=\"search-filters-toggle\" type=\"submit\" data-state=\"closed\"
+  class=\"btn btn-xs btn-default\">Filters</button>\n    </div>\n    <div class=\"inclusivity-container\"><div
+  class=\"inclusivity-input-wrapper\"><div class=\"inclusivity-input\"><label for=\"incl-ingredients\"
+  class=\"sr-only\">Include Ingredients</label><input id=\"incl-ingredients\" type=\"text\"
+  class=\"form-control\" placeholder=\"Include Ingredients\"><span class=\"ingredient-action\"><span
+  class=\"include-action\"></span></span><input id=\"incl-values\" type=\"hidden\"
+  name=\"incl\" value=\"\"></div></div><div class=\"inclusivity-input-wrapper\"><div
+  class=\"inclusivity-input\"><label for=\"excl-ingredients\" class=\"sr-only\">Exclude
+  Ingredients</label><input id=\"excl-ingredients\" type=\"text\" class=\"form-control\"
+  placeholder=\"Exclude Ingredients\"><span class=\"ingredient-action\"><span class=\"exclude-action\"></span></span><input
+  id=\"excl-values\" type=\"hidden\" name=\"excl\" value=\"\"></div></div></div><button
+  id=\"search-go\" type=\"submit\" data-state=\"closed\" class=\"btn btn-xs btn-outline-primary
+  hidden-xs\">Go</button><span class=\"close-all-search hidden-xs\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+  xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"14\" height=\"14\" viewBox=\"0
+  0 14 14\"><defs><path id=\"5e7oa\" d=\"M342.5 21.5l11.01 11.01\"></path><path id=\"5e7ob\"
+  d=\"M353.51 21.5L342.5 32.51\"></path></defs><g><g transform=\"translate(-341 -20)\"><use
+  fill=\"#fff\" fill-opacity=\"0\" stroke=\"#000\" stroke-linecap=\"round\" stroke-miterlimit=\"50\"
+  stroke-width=\"2\" xlink:href=\"#5e7oa\"></use></g><g transform=\"translate(-341
+  -20)\"><use fill=\"#fff\" fill-opacity=\"0\" stroke=\"#000\" stroke-linecap=\"round\"
+  stroke-miterlimit=\"50\" stroke-width=\"2\" xlink:href=\"#5e7ob\"></use></g></g></svg></span>
+  \ </div>\n\n  \n</div>\n<div class=\"ingredient-tags-wrapper\">\n  <div class=\"ingredient-tags\"></div>\n
+  \ <a class=\"clear-ingredients\" style=\"display: none;\">Clear All</a>\n</div>\n<div
+  class=\"tag-filters clearfix\">\n  <div data-drupal-selector=\"edit-tag-filters\"
+  class=\"form-group js-form-wrapper form-wrapper\" id=\"edit-tag-filters\"><div class=\"dropdown\">\n
+  \ <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">Popular<span class=\"glyphicon
+  glyphicon-menu-down\" aria-hidden=\"true\"></span>\n  </a>\n  <ul class=\"dropdown-menu\">\n
+  \         <li>\n        <input type=\"checkbox\" id=\"tag-1-0\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"46\">\n        <label for=\"tag-1-0\">casseroles</label>\n      </li>\n
+  \         <li>\n        <input type=\"checkbox\" id=\"tag-1-1\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"29\">\n        <label for=\"tag-1-1\">dinner</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-1-2\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"682\">\n        <label for=\"tag-1-2\">quick + easy</label>\n      </li>\n
+  \         <li>\n        <input type=\"checkbox\" id=\"tag-1-3\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"4477\">\n        <label for=\"tag-1-3\">healthy recipes</label>\n      </li>\n
+  \         <li>\n        <input type=\"checkbox\" id=\"tag-1-4\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"39\">\n        <label for=\"tag-1-4\">chicken</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-1-5\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"44\">\n        <label for=\"tag-1-5\">pasta</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-1-6\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"192\">\n        <label for=\"tag-1-6\">slow cooker</label>\n      </li>\n
+  \         <li>\n        <input type=\"checkbox\" id=\"tag-1-7\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"420\">\n        <label for=\"tag-1-7\">budget-friendly</label>\n      </li>\n
+  \     </ul>\n</div>\n\n<div class=\"dropdown\">\n  <a class=\"dropdown-toggle\"
+  data-toggle=\"dropdown\">Meal &amp; Course<span class=\"glyphicon glyphicon-menu-down\"
+  aria-hidden=\"true\"></span>\n  </a>\n  <ul class=\"dropdown-menu\">\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-2-0\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"29\">\n        <label for=\"tag-2-0\">dinner</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-2-1\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"50\">\n        <label for=\"tag-2-1\">dessert</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-2-2\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"88\">\n        <label for=\"tag-2-2\">appetizers</label>\n      </li>\n
+  \         <li>\n        <input type=\"checkbox\" id=\"tag-2-3\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"76\">\n        <label for=\"tag-2-3\">side dishes</label>\n      </li>\n
+  \         <li>\n        <input type=\"checkbox\" id=\"tag-2-4\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"49\">\n        <label for=\"tag-2-4\">snacks</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-2-5\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"244\">\n        <label for=\"tag-2-5\">breakfast</label>\n      </li>\n
+  \         <li>\n        <input type=\"checkbox\" id=\"tag-2-6\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"30\">\n        <label for=\"tag-2-6\">lunch</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-2-7\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"268\">\n        <label for=\"tag-2-7\">brunch</label>\n      </li>\n      </ul>\n</div>\n\n<div
+  class=\"dropdown\">\n  <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">Dish
+  Type<span class=\"glyphicon glyphicon-menu-down\" aria-hidden=\"true\"></span>\n
+  \ </a>\n  <ul class=\"dropdown-menu\">\n          <li>\n        <input type=\"checkbox\"
+  id=\"tag-3-0\" name=\"tag[]\" class=\"tag-filter\" value=\"44\">\n        <label
+  for=\"tag-3-0\">pasta</label>\n      </li>\n          <li>\n        <input type=\"checkbox\"
+  id=\"tag-3-1\" name=\"tag[]\" class=\"tag-filter\" value=\"13\">\n        <label
+  for=\"tag-3-1\">burgers</label>\n      </li>\n          <li>\n        <input type=\"checkbox\"
+  id=\"tag-3-2\" name=\"tag[]\" class=\"tag-filter\" value=\"46\">\n        <label
+  for=\"tag-3-2\">casseroles</label>\n      </li>\n          <li>\n        <input
+  type=\"checkbox\" id=\"tag-3-3\" name=\"tag[]\" class=\"tag-filter\" value=\"91\">\n
+  \       <label for=\"tag-3-3\">dips</label>\n      </li>\n          <li>\n        <input
+  type=\"checkbox\" id=\"tag-3-4\" name=\"tag[]\" class=\"tag-filter\" value=\"688\">\n
+  \       <label for=\"tag-3-4\">soups</label>\n      </li>\n          <li>\n        <input
+  type=\"checkbox\" id=\"tag-3-5\" name=\"tag[]\" class=\"tag-filter\" value=\"187\">\n
+  \       <label for=\"tag-3-5\">sandwiches</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-3-6\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"358\">\n        <label for=\"tag-3-6\">salads</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-3-7\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"92\">\n        <label for=\"tag-3-7\">pizza</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-3-8\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"51\">\n        <label for=\"tag-3-8\">kid-friendly</label>\n      </li>\n
+  \     </ul>\n</div>\n\n<div class=\"dropdown\">\n  <a class=\"dropdown-toggle\"
+  data-toggle=\"dropdown\">Dietary Concerns<span class=\"glyphicon glyphicon-menu-down\"
+  aria-hidden=\"true\"></span>\n  </a>\n  <ul class=\"dropdown-menu\">\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-4-0\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"4477\">\n        <label for=\"tag-4-0\">healthy recipes</label>\n      </li>\n
+  \         <li>\n        <input type=\"checkbox\" id=\"tag-4-1\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"596\">\n        <label for=\"tag-4-1\">gluten-free</label>\n      </li>\n
+  \         <li>\n        <input type=\"checkbox\" id=\"tag-4-2\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"67\">\n        <label for=\"tag-4-2\">vegetarian</label>\n      </li>\n
+  \         <li>\n        <input type=\"checkbox\" id=\"tag-4-3\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"303\">\n        <label for=\"tag-4-3\">vegan</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-4-4\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"4620\">\n        <label for=\"tag-4-4\">dairy-free</label>\n      </li>\n
+  \     </ul>\n</div>\n\n<div class=\"dropdown\">\n  <a class=\"dropdown-toggle\"
+  data-toggle=\"dropdown\">Ingredient<span class=\"glyphicon glyphicon-menu-down\"
+  aria-hidden=\"true\"></span>\n  </a>\n  <ul class=\"dropdown-menu\">\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-5-0\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"39\">\n        <label for=\"tag-5-0\">chicken</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-5-1\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"32\">\n        <label for=\"tag-5-1\">beef</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-5-2\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"44\">\n        <label for=\"tag-5-2\">pasta</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-5-3\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"70\">\n        <label for=\"tag-5-3\">pork</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-5-4\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"34\">\n        <label for=\"tag-5-4\">vegetables</label>\n      </li>\n
+  \         <li>\n        <input type=\"checkbox\" id=\"tag-5-5\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"19\">\n        <label for=\"tag-5-5\">potatoes</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-5-6\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"110\">\n        <label for=\"tag-5-6\">turkey</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-5-7\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"75\">\n        <label for=\"tag-5-7\">shrimp</label>\n      </li>\n      </ul>\n</div>\n\n<div
+  class=\"dropdown\">\n  <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">Cuisine<span
+  class=\"glyphicon glyphicon-menu-down\" aria-hidden=\"true\"></span>\n  </a>\n  <ul
+  class=\"dropdown-menu\">\n          <li>\n        <input type=\"checkbox\" id=\"tag-6-0\"
+  name=\"tag[]\" class=\"tag-filter\" value=\"23\">\n        <label for=\"tag-6-0\">italian</label>\n
+  \     </li>\n          <li>\n        <input type=\"checkbox\" id=\"tag-6-1\" name=\"tag[]\"
+  class=\"tag-filter\" value=\"131\">\n        <label for=\"tag-6-1\">mexican</label>\n
+  \     </li>\n          <li>\n        <input type=\"checkbox\" id=\"tag-6-2\" name=\"tag[]\"
+  class=\"tag-filter\" value=\"73\">\n        <label for=\"tag-6-2\">asian</label>\n
+  \     </li>\n          <li>\n        <input type=\"checkbox\" id=\"tag-6-3\" name=\"tag[]\"
+  class=\"tag-filter\" value=\"660\">\n        <label for=\"tag-6-3\">all-american</label>\n
+  \     </li>\n          <li>\n        <input type=\"checkbox\" id=\"tag-6-4\" name=\"tag[]\"
+  class=\"tag-filter\" value=\"4621\">\n        <label for=\"tag-6-4\">mediterranean</label>\n
+  \     </li>\n          <li>\n        <input type=\"checkbox\" id=\"tag-6-5\" name=\"tag[]\"
+  class=\"tag-filter\" value=\"85\">\n        <label for=\"tag-6-5\">southern</label>\n
+  \     </li>\n      </ul>\n</div>\n\n<div class=\"dropdown\">\n  <a class=\"dropdown-toggle\"
+  data-toggle=\"dropdown\">Occasion<span class=\"glyphicon glyphicon-menu-down\" aria-hidden=\"true\"></span>\n
+  \ </a>\n  <ul class=\"dropdown-menu\">\n          <li>\n        <input type=\"checkbox\"
+  id=\"tag-7-0\" name=\"tag[]\" class=\"tag-filter\" value=\"367\">\n        <label
+  for=\"tag-7-0\">st patricks day</label>\n      </li>\n          <li>\n        <input
+  type=\"checkbox\" id=\"tag-7-1\" name=\"tag[]\" class=\"tag-filter\" value=\"471\">\n
+  \       <label for=\"tag-7-1\">winter</label>\n      </li>\n          <li>\n        <input
+  type=\"checkbox\" id=\"tag-7-2\" name=\"tag[]\" class=\"tag-filter\" value=\"633\">\n
+  \       <label for=\"tag-7-2\">cocktail party</label>\n      </li>\n          <li>\n
+  \       <input type=\"checkbox\" id=\"tag-7-3\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"399\">\n        <label for=\"tag-7-3\">dinner party</label>\n      </li>\n
+  \         <li>\n        <input type=\"checkbox\" id=\"tag-7-4\" name=\"tag[]\" class=\"tag-filter\"
+  value=\"142\">\n        <label for=\"tag-7-4\">birthday</label>\n      </li>\n      </ul>\n</div>\n\n</div>\n\n</div>\n<div
+  class=\"search-filter-actions clearfix\">\n  <button class=\"btn btn-outline-dark
+  close-filters\">Close</button>\n  <button class=\"btn btn-outline-primary apply-filters\">Apply
+  Filters</button>\n</div>\n\n</form>\n\n          </div>\n          <div class=\"navbar-menu\">\n
+  \           \n\n      <ul class=\"menu menu--main nav navbar-nav\">\n                                <li>\n
+  \         <a href=\"/video\" data-drupal-link-system-path=\"video\">Video</a>\n
+  \                       </li>\n                              <li class=\"expanded
+  dropdown\">\n          <a href=\"/category/food-fun\" class=\"dropdown-toggle\">Food
+  &amp; Fun</a>\n                                <ul class=\"dropdown-menu\">\n                                <li>\n
+  \         <a href=\"/recipes\" data-drupal-link-system-path=\"recipes\">Recipes</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/category/tips-kitchen-hacks\" data-drupal-link-system-path=\"taxonomy/term/4\">Tips
+  &amp; Kitchen Hacks</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/tags/kitchen-gadgets\" data-drupal-link-system-path=\"taxonomy/term/4476\">Kitchen
+  Gadgets</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"https://www.rachaelray.com/shop/rachael-ray-c1410393825.html\">Rach’s
+  Cookware &amp; Tabletop</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/tags/drinks\" data-drupal-link-system-path=\"taxonomy/term/56\">Drinks</a>\n
+  \                       </li>\n                </ul>\n  \n                </li>\n
+  \                             <li class=\"expanded dropdown\">\n          <a href=\"/category/healthy-living\"
+  class=\"dropdown-toggle\">Healthy Living</a>\n                                <ul
+  class=\"dropdown-menu\">\n                                <li>\n          <a href=\"/tags/weight-loss\"
+  data-drupal-link-system-path=\"taxonomy/term/163\">Weight Loss Stories</a>\n                        </li>\n
+  \                               <li>\n          <a href=\"/tags/diet\" data-drupal-link-system-path=\"taxonomy/term/203\">Slim
+  Down Secrets</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/tags/healthy-recipes\" data-drupal-link-system-path=\"taxonomy/term/4477\">Healthy
+  Recipes</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/tags/pets\">Pets</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/tags/doctor\" data-drupal-link-system-path=\"taxonomy/term/412\">The
+  Doctor Is In</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/tags/healthy-products\" data-drupal-link-system-path=\"taxonomy/term/4479\">We
+  Tried It</a>\n                        </li>\n                </ul>\n  \n                </li>\n
+  \                             <li class=\"expanded dropdown\">\n          <a href=\"/category/home-diy\"
+  class=\"dropdown-toggle\">Home &amp; DIY</a>\n                                <ul
+  class=\"dropdown-menu\">\n                                <li>\n          <a href=\"/tags/organization\"
+  data-drupal-link-system-path=\"taxonomy/term/385\">Organization</a>\n                        </li>\n
+  \                               <li>\n          <a href=\"/tags/diy\" data-drupal-link-system-path=\"taxonomy/term/16\">DIY</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/tags/home-decor\" data-drupal-link-system-path=\"taxonomy/term/286\">Design
+  &amp; Decor Ideas</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/tags/party\" data-drupal-link-system-path=\"taxonomy/term/377\">Party
+  Planning</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"https://www.rachaelray.com/home-furnishings/\">Rachael Ray Home</a>\n
+  \                       </li>\n                </ul>\n  \n                </li>\n
+  \                             <li class=\"expanded dropdown\">\n          <a href=\"/category/beauty-style\"
+  class=\"dropdown-toggle\">Beauty &amp; Style</a>\n                                <ul
+  class=\"dropdown-menu\">\n                                <li>\n          <a href=\"/tags/makeovers\"
+  data-drupal-link-system-path=\"taxonomy/term/128\">Makeovers</a>\n                        </li>\n
+  \                               <li>\n          <a href=\"/tags/makeup\" data-drupal-link-system-path=\"taxonomy/term/155\">Makeup</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/tags/hair\" data-drupal-link-system-path=\"taxonomy/term/253\">Hair</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/tags/style\" data-drupal-link-system-path=\"taxonomy/term/404\">What To
+  Wear</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/tags/trends\" data-drupal-link-system-path=\"taxonomy/term/481\">Trends</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/tags/beauty-products\" data-drupal-link-system-path=\"taxonomy/term/4480\">Beauty
+  Products</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/tags/weddings\" data-drupal-link-system-path=\"taxonomy/term/661\">Weddings</a>\n
+  \                       </li>\n                </ul>\n  \n                </li>\n
+  \                             <li class=\"expanded dropdown\">\n          <a href=\"/category/life\"
+  class=\"dropdown-toggle\">Life</a>\n                                <ul class=\"dropdown-menu\">\n
+  \                               <li>\n          <a href=\"/tags/good-news\" data-drupal-link-system-path=\"taxonomy/term/677\">Good
+  News</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/tags/funny\" data-drupal-link-system-path=\"taxonomy/term/4481\">LOL</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/category/celebs\" data-drupal-link-system-path=\"taxonomy/term/3\">Celebs</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/category/animals\" data-drupal-link-system-path=\"taxonomy/term/10\">Animals</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/tags/technology\" data-drupal-link-system-path=\"taxonomy/term/4482\">Tech</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/tags/travel\" data-drupal-link-system-path=\"taxonomy/term/129\">Travel</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/tags/surprises\" data-drupal-link-system-path=\"taxonomy/term/675\">Surprises</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/category/love-sex\" data-drupal-link-system-path=\"taxonomy/term/9\">Love
+  &amp; Sex</a>\n                        </li>\n                </ul>\n  \n                </li>\n
+  \                             <li class=\"expanded dropdown\">\n          <a href=\"/show-info/on-this-week\"
+  class=\"dropdown-toggle\">Show Info</a>\n                                <ul class=\"dropdown-menu\">\n
+  \                               <li>\n          <a href=\"/show-info/on-this-week\"
+  data-drupal-link-system-path=\"show-info/on-this-week\">On This Week</a>\n                        </li>\n
+  \                               <li>\n          <a href=\"/show-info/showtimes\"
+  data-drupal-link-system-path=\"show-info/showtimes\">When To Watch</a>\n                        </li>\n
+  \                               <li>\n          <a href=\"/be-on-the-show\" data-drupal-link-system-path=\"be-on-the-show\">Be
+  On The Show</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/show-info/be_in_the_audience\" data-drupal-link-system-path=\"node/1\">Get
+  Tickets</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/lifestyle/25434_kitchen_renovation\" data-drupal-link-system-path=\"node/28963\">Set
+  Tour</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/lifestyle/21172_what_rach_wearing\" data-drupal-link-system-path=\"node/27261\">What's
+  Rach Wearing</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/category/backstage-pass\" data-drupal-link-system-path=\"taxonomy/term/1\">Backstage
+  Pass</a>\n                        </li>\n                </ul>\n  \n                </li>\n
+  \                             <li class=\"expanded dropdown\">\n          <a href=\"/giveaways\"
+  class=\"dropdown-toggle\">Giveaways</a>\n                                <ul class=\"dropdown-menu\">\n
+  \                               <li>\n          <a href=\"/giveaways/archive\" data-drupal-link-system-path=\"giveaways/archive\">Past
+  Winners</a>\n                        </li>\n                </ul>\n  \n                </li>\n
+  \                   <li class=\"more-mega-menu dropdown\">\n          <a href=\"\"
+  class=\"dropdown-toggle\" data-toggle=\"dropdown\">More</a>\n          \n\n      <ul
+  class=\"dropdown-menu\">\n                              <li>\n          <a href=\"/category/beauty-style\"
+  class=\"menu-heading\">Beauty &amp; Style</a>\n                                <ul>\n
+  \                               <li>\n          <a href=\"/tags/makeovers\" data-drupal-link-system-path=\"taxonomy/term/128\">Makeovers</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/tags/makeup\" data-drupal-link-system-path=\"taxonomy/term/155\">Makeup</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/tags/hair\" data-drupal-link-system-path=\"taxonomy/term/253\">Hair</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/tags/style\" data-drupal-link-system-path=\"taxonomy/term/404\">What To
+  Wear</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/tags/trends\" data-drupal-link-system-path=\"taxonomy/term/481\">Trends</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/tags/beauty-products\" data-drupal-link-system-path=\"taxonomy/term/4480\">Beauty
+  Products</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/tags/weddings\" data-drupal-link-system-path=\"taxonomy/term/661\">Weddings</a>\n
+  \                       </li>\n                </ul>\n  \n                </li>\n
+  \                             <li>\n          <a href=\"/category/living\" class=\"menu-heading\">Living</a>\n
+  \                               <ul>\n                                <li>\n          <a
+  href=\"/tags/good-news\" data-drupal-link-system-path=\"taxonomy/term/677\">Good
+  News</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/tags/funny\" data-drupal-link-system-path=\"taxonomy/term/4481\">LOL</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/category/celebs\" data-drupal-link-system-path=\"taxonomy/term/3\">Celebs</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/category/animals\" data-drupal-link-system-path=\"taxonomy/term/10\">Animals</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/tags/technology\" data-drupal-link-system-path=\"taxonomy/term/4482\">Tech</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/tags/travel\" data-drupal-link-system-path=\"taxonomy/term/129\">Travel</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/tags/surprises\" data-drupal-link-system-path=\"taxonomy/term/675\">Surprises</a>\n
+  \                       </li>\n                                <li>\n          <a
+  href=\"/category/love-sex\" data-drupal-link-system-path=\"taxonomy/term/9\">Love
+  &amp; Sex</a>\n                        </li>\n                </ul>\n  \n                </li>\n
+  \                             <li>\n          <a href=\"/show-info/on-this-week\"
+  class=\"menu-heading\">Show Info</a>\n                                <ul>\n                                <li>\n
+  \         <a href=\"/show-info/on-this-week\" data-drupal-link-system-path=\"show-info/on-this-week\">On
+  This Week</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/show-info/showtimes\" data-drupal-link-system-path=\"show-info/showtimes\">When
+  To Watch</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/be-on-the-show\" data-drupal-link-system-path=\"be-on-the-show\">Be
+  On The Show</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/show-info/be_in_the_audience\" data-drupal-link-system-path=\"node/1\">Get
+  Tickets</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/lifestyle/25434_kitchen_renovation\" data-drupal-link-system-path=\"node/28963\">Set
+  Tour</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/lifestyle/21172_what_rach_wearing\" data-drupal-link-system-path=\"node/27261\">What's
+  Rach Wearing</a>\n                        </li>\n                                <li>\n
+  \         <a href=\"/category/backstage-pass\" data-drupal-link-system-path=\"taxonomy/term/1\">Backstage
+  Pass</a>\n                        </li>\n                </ul>\n  \n                </li>\n
+  \                   <li class=\"social-menu\">\n          <div class=\"menu-heading\">Follow
+  Rachael</div><ul>\n  <li>\n    <a href=\"https://www.facebook.com/RachaelRayShow\"
+  class=\"social-facebook\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+  0 10 18\">&gt;<path class=\"st0 icon-facebook\" d=\"M9.5 0H7.2C4.4 0 2.8 1.7 2.8
+  4.4v2H0.4C0.1 6.5 0 6.6 0 6.8v3c0 0.2 0.1 0.4 0.4 0.4h2.4v7.4c0 0.2 0.1 0.4 0.4
+  0.4h3.1c0.2 0 0.4-0.1 0.4-0.4v-7.4h2.8c0.2 0 0.4-0.1 0.4-0.4v-3c0-0.1 0-0.2 0-0.2
+  0-0.1-0.1-0.1-0.2-0.1H6.6V4.8c0-0.8 0.2-1.3 1.3-1.3h1.6c0.2 0 0.4-0.1 0.4-0.4V0.4C9.8
+  0.1 9.7 0 9.5 0z\"></path></svg>\n Facebook</a>\n  </li>\n  <li>\n    <a href=\"https://twitter.com/rachaelrayshow\"
+  class=\"social-twitter\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0
+  22 18\"><path class=\"st0 icon-twitter\" d=\"M22 2.1c-0.8 0.3-1.7 0.6-2.7 0.7 0.9-0.6
+  1.6-1.4 2-2.4 -0.8 0.5-1.9 0.8-2.9 1 -0.8-0.8-2-1.4-3.2-1.4 -2.5 0-4.5 2-4.5 4.4
+  0 0.3 0 0.7 0.1 1 -3.8-0.2-7.2-2-9.5-4.6C0.9 1.4 0.7 2.2 0.7 3c0 1.5 0.8 2.9 2.1
+  3.7 -0.7 0-1.4-0.2-2.1-0.6l0 0c0 2.1 1.6 3.9 3.7 4.3 -0.3 0.1-0.8 0.1-1.2 0.1 -0.2
+  0-0.6 0-0.8-0.1 0.6 1.7 2.2 3 4.3 3 -1.5 1.2-3.5 1.9-5.7 1.9 -0.3 0-0.7 0-1-0.1
+  1.7 1.5 4.2 2.2 6.7 2.2 8.3 0 13-6.7 13-12.5V4.3C20.6 3.7 21.3 2.9 22 2.1z\"></path></svg>\n
+  Twitter</a>\n  </li>\n  <li>\n    <a href=\"https://www.pinterest.com/rachaelrayshow/?autologin=true\"
+  class=\"social-pinterest\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+  0 15 19\"><path class=\"st0 icon-pinterest\" d=\"M14.7 5.3c-0.5-3.8-4.3-5.7-8.3-5.2C3.3
+  0.4 0.1 3 0 6.6c-0.1 2.2 0.6 3.9 2.7 4.4 0.9-1.6-0.3-2-0.5-3.2C1.4 3 7.7-0.3 11.1
+  3.1c2.3 2.3 0.8 9.5-2.9 8.7C4.6 11.1 9.9 5.4 7 4.3 4.8 3.4 3.5 7.1 4.6 8.9 4 12.1
+  2.6 15 3.2 19c1.8-1.3 2.4-3.8 2.9-6.4 0.9 0.6 1.4 1.1 2.5 1.2C12.9 14.1 15.3 9.5
+  14.7 5.3z\"></path></svg>\n Pinterest</a>\n  </li>\n  <li>\n    <a href=\"https://www.instagram.com/rachaelrayshow/\"
+  class=\"social-instagram\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+  0 20 20\"><path class=\"st0 icon-instagram\" d=\"M9.5 0C6.9 0 6.6 0 5.6 0.1c-1 0-1.7
+  0.2-2.3 0.4C2.7 0.7 2.1 1.1 1.6 1.6 1.1 2.1 0.7 2.7 0.5 3.3 0.3 3.9 0.1 4.6 0.1
+  5.6 0 6.6 0 6.9 0 9.5s0 2.9 0.1 3.9c0 1 0.2 1.7 0.4 2.3 0.2 0.6 0.6 1.2 1.1 1.7
+  0.5 0.5 1.1 0.9 1.7 1.1 0.6 0.2 1.3 0.4 2.3 0.4 1 0 1.3 0.1 3.9 0.1s2.9 0 3.9-0.1c1
+  0 1.7-0.2 2.3-0.4 0.6-0.2 1.2-0.6 1.7-1.1 0.5-0.5 0.9-1.1 1.1-1.7 0.2-0.6 0.4-1.3
+  0.4-2.3 0-1 0.1-1.3 0.1-3.9s0-2.9-0.1-3.9c0-1-0.2-1.7-0.4-2.3 -0.2-0.6-0.6-1.2-1.1-1.7
+  -0.5-0.5-1.1-0.9-1.7-1.1 -0.6-0.2-1.3-0.4-2.3-0.4C12.4 0 12.1 0 9.5 0zM9.5 1.7c2.5
+  0 2.8 0 3.8 0.1 0.9 0 1.4 0.2 1.8 0.3 0.4 0.2 0.8 0.4 1.1 0.7 0.3 0.3 0.5 0.7 0.7
+  1.1 0.1 0.3 0.3 0.8 0.3 1.8 0.1 1 0.1 1.3 0.1 3.8s0 2.8-0.1 3.8c0 0.9-0.2 1.4-0.3
+  1.8 -0.2 0.4-0.4 0.8-0.7 1.1 -0.3 0.3-0.7 0.5-1.1 0.7 -0.3 0.1-0.8 0.3-1.8 0.3 -1
+  0.1-1.3 0.1-3.8 0.1s-2.8 0-3.8-0.1c-0.9 0-1.4-0.2-1.8-0.3 -0.5-0.2-0.8-0.4-1.1-0.7
+  -0.3-0.3-0.5-0.7-0.7-1.1 -0.1-0.3-0.3-0.8-0.3-1.8 0-1-0.1-1.3-0.1-3.8s0-2.8 0.1-3.8c0-0.9
+  0.2-1.4 0.3-1.8 0.2-0.5 0.4-0.8 0.7-1.1 0.3-0.3 0.7-0.5 1.1-0.7C4.2 2 4.7 1.8 5.7
+  1.8 6.7 1.7 7 1.7 9.5 1.7z\"></path><path class=\"st0 icon-instagram\" d=\"M9.5
+  12.7c-1.8 0-3.2-1.4-3.2-3.2s1.4-3.2 3.2-3.2 3.2 1.4 3.2 3.2S11.2 12.7 9.5 12.7zM9.5
+  4.6c-2.7 0-4.9 2.2-4.9 4.9s2.2 4.9 4.9 4.9 4.9-2.2 4.9-4.9S12.2 4.6 9.5 4.6z\"></path><circle
+  class=\"st0 icon-instagram\" cx=\"14.6\" cy=\"4.4\" r=\"1.1\"></circle></svg>\n
+  Instagram</a>\n  </li>\n  <li>\n    <a href=\"https://www.youtube.com/rachaelrayshow\"
+  class=\"social-youtube\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0
+  24 18\"><path class=\"st0 icon-youtube\" d=\"M8.9 13.3V3.7l7.2 4.8L8.9 13.3zM22.8
+  3.8C22.8 1.7 21.1 0 19 0H3.8C1.7 0 0 1.7 0 3.8v10.3C0 16.3 1.7 18 3.8 18h15.2c2.2
+  0 3.8-1.7 3.8-3.8V3.8H22.8z\"></path></svg>\n YouTube</a>\n  </li>\n</ul>\n\n</li>\n
+  \         </ul>\n  \n\n        </li>\n        <li class=\"more-mobile-menu dropdown\">\n
+  \         <a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">...</a>\n
+  \         <ul class=\"dropdown-menu social-menu\">\n            <div class=\"menu-heading\">Follow
+  Rachael Ray Show:</div><ul>\n  <li>\n    <a href=\"https://www.facebook.com/RachaelRayShow\"
+  class=\"social-facebook\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+  0 10 18\">&gt;<path class=\"st0 icon-facebook\" d=\"M9.5 0H7.2C4.4 0 2.8 1.7 2.8
+  4.4v2H0.4C0.1 6.5 0 6.6 0 6.8v3c0 0.2 0.1 0.4 0.4 0.4h2.4v7.4c0 0.2 0.1 0.4 0.4
+  0.4h3.1c0.2 0 0.4-0.1 0.4-0.4v-7.4h2.8c0.2 0 0.4-0.1 0.4-0.4v-3c0-0.1 0-0.2 0-0.2
+  0-0.1-0.1-0.1-0.2-0.1H6.6V4.8c0-0.8 0.2-1.3 1.3-1.3h1.6c0.2 0 0.4-0.1 0.4-0.4V0.4C9.8
+  0.1 9.7 0 9.5 0z\"></path></svg>\n Facebook</a>\n  </li>\n  <li>\n    <a href=\"https://twitter.com/rachaelrayshow\"
+  class=\"social-twitter\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0
+  22 18\"><path class=\"st0 icon-twitter\" d=\"M22 2.1c-0.8 0.3-1.7 0.6-2.7 0.7 0.9-0.6
+  1.6-1.4 2-2.4 -0.8 0.5-1.9 0.8-2.9 1 -0.8-0.8-2-1.4-3.2-1.4 -2.5 0-4.5 2-4.5 4.4
+  0 0.3 0 0.7 0.1 1 -3.8-0.2-7.2-2-9.5-4.6C0.9 1.4 0.7 2.2 0.7 3c0 1.5 0.8 2.9 2.1
+  3.7 -0.7 0-1.4-0.2-2.1-0.6l0 0c0 2.1 1.6 3.9 3.7 4.3 -0.3 0.1-0.8 0.1-1.2 0.1 -0.2
+  0-0.6 0-0.8-0.1 0.6 1.7 2.2 3 4.3 3 -1.5 1.2-3.5 1.9-5.7 1.9 -0.3 0-0.7 0-1-0.1
+  1.7 1.5 4.2 2.2 6.7 2.2 8.3 0 13-6.7 13-12.5V4.3C20.6 3.7 21.3 2.9 22 2.1z\"></path></svg>\n
+  Twitter</a>\n  </li>\n  <li>\n    <a href=\"https://www.pinterest.com/rachaelrayshow/?autologin=true\"
+  class=\"social-pinterest\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+  0 15 19\"><path class=\"st0 icon-pinterest\" d=\"M14.7 5.3c-0.5-3.8-4.3-5.7-8.3-5.2C3.3
+  0.4 0.1 3 0 6.6c-0.1 2.2 0.6 3.9 2.7 4.4 0.9-1.6-0.3-2-0.5-3.2C1.4 3 7.7-0.3 11.1
+  3.1c2.3 2.3 0.8 9.5-2.9 8.7C4.6 11.1 9.9 5.4 7 4.3 4.8 3.4 3.5 7.1 4.6 8.9 4 12.1
+  2.6 15 3.2 19c1.8-1.3 2.4-3.8 2.9-6.4 0.9 0.6 1.4 1.1 2.5 1.2C12.9 14.1 15.3 9.5
+  14.7 5.3z\"></path></svg>\n Pinterest</a>\n  </li>\n  <li>\n    <a href=\"https://www.instagram.com/rachaelrayshow/\"
+  class=\"social-instagram\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+  0 20 20\"><path class=\"st0 icon-instagram\" d=\"M9.5 0C6.9 0 6.6 0 5.6 0.1c-1 0-1.7
+  0.2-2.3 0.4C2.7 0.7 2.1 1.1 1.6 1.6 1.1 2.1 0.7 2.7 0.5 3.3 0.3 3.9 0.1 4.6 0.1
+  5.6 0 6.6 0 6.9 0 9.5s0 2.9 0.1 3.9c0 1 0.2 1.7 0.4 2.3 0.2 0.6 0.6 1.2 1.1 1.7
+  0.5 0.5 1.1 0.9 1.7 1.1 0.6 0.2 1.3 0.4 2.3 0.4 1 0 1.3 0.1 3.9 0.1s2.9 0 3.9-0.1c1
+  0 1.7-0.2 2.3-0.4 0.6-0.2 1.2-0.6 1.7-1.1 0.5-0.5 0.9-1.1 1.1-1.7 0.2-0.6 0.4-1.3
+  0.4-2.3 0-1 0.1-1.3 0.1-3.9s0-2.9-0.1-3.9c0-1-0.2-1.7-0.4-2.3 -0.2-0.6-0.6-1.2-1.1-1.7
+  -0.5-0.5-1.1-0.9-1.7-1.1 -0.6-0.2-1.3-0.4-2.3-0.4C12.4 0 12.1 0 9.5 0zM9.5 1.7c2.5
+  0 2.8 0 3.8 0.1 0.9 0 1.4 0.2 1.8 0.3 0.4 0.2 0.8 0.4 1.1 0.7 0.3 0.3 0.5 0.7 0.7
+  1.1 0.1 0.3 0.3 0.8 0.3 1.8 0.1 1 0.1 1.3 0.1 3.8s0 2.8-0.1 3.8c0 0.9-0.2 1.4-0.3
+  1.8 -0.2 0.4-0.4 0.8-0.7 1.1 -0.3 0.3-0.7 0.5-1.1 0.7 -0.3 0.1-0.8 0.3-1.8 0.3 -1
+  0.1-1.3 0.1-3.8 0.1s-2.8 0-3.8-0.1c-0.9 0-1.4-0.2-1.8-0.3 -0.5-0.2-0.8-0.4-1.1-0.7
+  -0.3-0.3-0.5-0.7-0.7-1.1 -0.1-0.3-0.3-0.8-0.3-1.8 0-1-0.1-1.3-0.1-3.8s0-2.8 0.1-3.8c0-0.9
+  0.2-1.4 0.3-1.8 0.2-0.5 0.4-0.8 0.7-1.1 0.3-0.3 0.7-0.5 1.1-0.7C4.2 2 4.7 1.8 5.7
+  1.8 6.7 1.7 7 1.7 9.5 1.7z\"></path><path class=\"st0 icon-instagram\" d=\"M9.5
+  12.7c-1.8 0-3.2-1.4-3.2-3.2s1.4-3.2 3.2-3.2 3.2 1.4 3.2 3.2S11.2 12.7 9.5 12.7zM9.5
+  4.6c-2.7 0-4.9 2.2-4.9 4.9s2.2 4.9 4.9 4.9 4.9-2.2 4.9-4.9S12.2 4.6 9.5 4.6z\"></path><circle
+  class=\"st0 icon-instagram\" cx=\"14.6\" cy=\"4.4\" r=\"1.1\"></circle></svg>\n
+  Instagram</a>\n  </li>\n  <li>\n    <a href=\"https://www.youtube.com/rachaelrayshow\"
+  class=\"social-youtube\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0
+  24 18\"><path class=\"st0 icon-youtube\" d=\"M8.9 13.3V3.7l7.2 4.8L8.9 13.3zM22.8
+  3.8C22.8 1.7 21.1 0 19 0H3.8C1.7 0 0 1.7 0 3.8v10.3C0 16.3 1.7 18 3.8 18h15.2c2.2
+  0 3.8-1.7 3.8-3.8V3.8H22.8z\"></path></svg>\n YouTube</a>\n  </li>\n</ul>\n\n</ul>\n
+  \       </li>\n\n          </ul>\n  \n\n            <div class=\"search-controls\">\n
+  \             <span class=\"search-icon\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+  xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"13\" height=\"13\" viewBox=\"0
+  0 13 13\"><defs><path id=\"vc24a\" d=\"M1140 41a1 1 0 0 0-.29-.7l-2.68-2.68a5.49
+  5.49 0 0 0-4.53-8.62 5.5 5.5 0 1 0 3.12 10.03l2.68 2.67c.18.2.43.3.7.3a1 1 0 0 0
+  1-1zm-4-6.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z\"></path></defs><g><g transform=\"translate(-1127
+  -29)\"><use xlink:href=\"#vc24a\"></use></g></g></svg></span>\n            </div>\n
+  \         </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</header>\n\n
+  \ \n        <div class=\"container-fluid\">\n      <div class=\"row\">\n        <div
+  class=\"col-xs-12\">\n          <div class=\"page-header-container\">\n            <div
+  class=\"header-category\"><a href=\"/category/food-fun\">\n            <div class=\"field
+  field--name-name field--type-string field--label-hidden field--item\">Food &amp;
+  Fun</div>\n      </a></div>\n            <h1 class=\"header-title\">Sous Vide 101:
+  A Step-by-Step Guide to Cooking The Perfect Steak</h1>\n            <div class=\"header-meta\">\n
+  \                             <span>by </span>\n                \n            <div
+  class=\"field field--name-field-byline field--type-entity-references-text field--label-hidden
+  field--item\">Rose Marie Walano</div>\n      \n                            \n            <div
+  class=\"field field--name-field-display-date field--type-datetime field--label-hidden
+  field--item\"><time datetime=\"2018-04-09T10:00:00Z\">06:00 AM, April 09, 2018</time>\n</div>\n
+  \     \n            </div>\n          </div>\n          <div id=\"incontent_ad_top\"
+  class=\"incontent_ad_top gpt_ads\">\n  <script>\n    googletag.cmd.push(function()
+  {\n      googletag.display('incontent_ad_top');\n    });\n  </script>\n</div>\n\n
+  \       </div>\n      </div>\n    </div>\n  <div class=\"page-skin-container\">\n
+  \   <div role=\"main\" class=\"main-container container-fluid\">\n      <div id=\"content-row\"
+  class=\"row\">\n                          \n        <section id=\"content\" class=\"col-xs-12
+  col-md-8\">\n          \n          \n          \n                      <a id=\"main-content\"></a>\n
+  \             <div class=\"region region-content\">\n      <article role=\"article\"
+  class=\"article full node--full clearfix\">\n      <div class=\"row hero-header
+  tag-row\">\n      <div class=\"col-xs-12 col-sm-4 st-header\">\n        <button
+  onclick=\"window.print();return false;\" class=\"print-button-custom\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+  viewBox=\"0 0 22 20\"><path class=\"st0 icon-print\" d=\"M17.43 3.24H4.47V1.75c0-.48.4-.87.9-.87h11.16c.5
+  0 .9.39.9.87v1.49zm0 15H4.47v-6.9h12.96zM2.23 6.34a.78.78 0 0 1-.78-.78c0-.42.35-.77.79-.77.43
+  0 .79.35.79.77 0 .43-.36.78-.8.78zM21 3.24h-2.68V.88c0-.49-.4-.88-.9-.88H4.47c-.5
+  0-.9.4-.9.88v2.36H.89c-.49 0-.89.4-.89.88v8.58c0 .48.4.87.9.87h2.67v4.61c0 .3.06.51.3.72.1.1.22.16.36.2.13.03.25.03.39.03h12.66c.13
+  0 .26 0 .39-.03.14-.04.25-.1.36-.2.23-.2.29-.42.29-.72v-4.61H21c.5 0 .9-.4.9-.87V4.12c0-.49-.4-.88-.9-.88z\"></path></svg>\n</button>\n
+  \       <span class=\"st_facebook_custom\" st_processed=\"yes\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+  viewBox=\"0 0 10 18\">&gt;<path class=\"st0 icon-facebook\" d=\"M9.5 0H7.2C4.4 0
+  2.8 1.7 2.8 4.4v2H0.4C0.1 6.5 0 6.6 0 6.8v3c0 0.2 0.1 0.4 0.4 0.4h2.4v7.4c0 0.2
+  0.1 0.4 0.4 0.4h3.1c0.2 0 0.4-0.1 0.4-0.4v-7.4h2.8c0.2 0 0.4-0.1 0.4-0.4v-3c0-0.1
+  0-0.2 0-0.2 0-0.1-0.1-0.1-0.2-0.1H6.6V4.8c0-0.8 0.2-1.3 1.3-1.3h1.6c0.2 0 0.4-0.1
+  0.4-0.4V0.4C9.8 0.1 9.7 0 9.5 0z\"></path></svg>\n</span>\n        <span class=\"st_pinterest_custom\"
+  st_processed=\"yes\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 15
+  19\"><path class=\"st0 icon-pinterest\" d=\"M14.7 5.3c-0.5-3.8-4.3-5.7-8.3-5.2C3.3
+  0.4 0.1 3 0 6.6c-0.1 2.2 0.6 3.9 2.7 4.4 0.9-1.6-0.3-2-0.5-3.2C1.4 3 7.7-0.3 11.1
+  3.1c2.3 2.3 0.8 9.5-2.9 8.7C4.6 11.1 9.9 5.4 7 4.3 4.8 3.4 3.5 7.1 4.6 8.9 4 12.1
+  2.6 15 3.2 19c1.8-1.3 2.4-3.8 2.9-6.4 0.9 0.6 1.4 1.1 2.5 1.2C12.9 14.1 15.3 9.5
+  14.7 5.3z\"></path></svg>\n</span>\n        <span class=\"st_email_custom\" st_processed=\"yes\"><svg
+  xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+  width=\"27\" height=\"19\" viewBox=\"0 0 27 19\"><g><g transform=\"translate(-308
+  -465)\"><path class=\"icon-email\" d=\"M334.2 467.12c0-1.17-1.07-2.12-2.35-2.12h-21.57c-1.56
+  0-2.34 1.11-2.34 2.41 0 1.2 1.48 2.7 2.52 3.34l6.84 4.31c.96.6 2.57 1.82 3.75 1.82h.03c1.2
+  0 2.8-1.22 3.76-1.82 2.27-1.44 4.57-2.87 6.85-4.3 1.3-.81 2.5-2.15 2.5-3.64zm0 3.9c-.44.44-.94.82-1.47
+  1.15-2.44 1.5-4.9 3.01-7.3 4.58-1.23.82-2.75 1.83-4.35 1.83h-.03c-1.6 0-3.12-1.01-4.35-1.83-2.39-1.58-4.85-3.08-7.28-4.58a8.03
+  8.03 0 0 1-1.48-1.15v10.53c0 1.16 1.06 2.12 2.34 2.12h21.57c1.3 0 2.35-.96 2.35-2.12z\"></path></g></g></svg></span>\n
+  \     </div>\n      <div class=\"col-xs-12 col-sm-8 tag-labels\">\n        \n      </div>\n
+  \   </div>\n  \n      <div class=\"article-hero\">\n              <div class=\"video-placeholder\">\n
+  \         <div class=\"video-placeholder-image\"><img class=\"img-responsive\" src=\"/themes/custom/rr_bs/images/logo-greyscale.svg\"></div>\n
+  \         <div class=\"video-container\">\n            <div class=\"video-player\">\n
+  \           <div class=\"field field--name-field-video field--type-entity-reference
+  field--label-hidden field--item\">\n<div class=\"ctd-video-brightcove-wrapper\">\n
+  \ <div class=\"ctd-video-brightcove-video\">\n    <video data-brightcove-media=\"true\"
+  data-account=\"1749985694001\" data-video-id=\"5765768744001\" data-default-player=\"BkeFZiMvbX\"
+  data-mobile-player=\"BkIQhfDb7\" data-has-fb-prebid=\"true\" data-embed=\"default\"
+  class=\"video-js\" controls=\"\" data-player=\"BkeFZiMvbX\"></video><script src=\"//players.brightcove.net/1749985694001/BkeFZiMvbX_default/index.min.js\"></script>\n
+  \ </div>\n</div>\n</div>\n      </div>\n            <div class=\"playing\">\n              <span
+  class=\"playing-text\">Playing</span>\n              <span class=\"playing-title\">Step-by-Step
+  Guide to The Perfect Medium-Rare Sous Vide Steak</span>\n              <div class=\"sticky-close\"><svg
+  xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+  width=\"14\" height=\"14\">\n    <defs>\n        <path id=\"a\" class=\"close-icon\"
+  d=\"M342.5 21.5l11.01 11.01\"></path>\n        <path id=\"b\" class=\"close-icon\"
+  d=\"M353.51 21.5L342.5 32.51\"></path>\n    </defs>\n    <use fill=\"#fff\" fill-opacity=\"0\"
+  stroke=\"#eee\" stroke-linecap=\"round\" stroke-miterlimit=\"50\" stroke-width=\"2\"
+  xlink:href=\"#a\" transform=\"translate(-341 -20)\"></use>\n    <use fill=\"#fff\"
+  fill-opacity=\"0\" stroke=\"#eee\" stroke-linecap=\"round\" stroke-miterlimit=\"50\"
+  stroke-width=\"2\" xlink:href=\"#b\" transform=\"translate(-341 -20)\"></use>\n</svg>\n</div>\n
+  \           </div>\n          </div>\n          <div class=\"hero-video-caption\">\n
+  \           <span class=\"playing-title\">Step-by-Step Guide to The Perfect Medium-Rare
+  Sous Vide Steak</span>\n                          <span class=\"air-date\">Aired
+  April 09, 2018</span>\n                      </div>\n        </div></div>\n  \n
+  \     <section id=\"content-section\" class=\"content row\">\n      <div class=\"col-xs-12
+  main-content\">\n            <div class=\"field field--name-body field--type-text-with-summary
+  field--label-hidden field--item\"><p>We've already taught you how to cook <a href=\"https://www.rachaelrayshow.com/recipes/26486_geoffrey_zakarian_weekend_eggs/\">eggs</a>
+  and <a href=\"https://www.rachaelrayshow.com/recipes/26489_geoffrey_zakarian_chicken_chimichurri/\">juicy
+  chicken</a> sous vide, the <a href=\"https://www.rachaelrayshow.com/food/26493_what_is_sous_vide/\">French
+  style that keeps food cooked at an ultra-low temperature</a> for a long period of
+  time.</p><p>This time, we're teaching you how to cook steak sous vide!</p><div id=\"incontent_ad_middle_top_mobile\"
+  class=\"incontent_ad_middle_top_mobile gpt_ads\"><script>\n        googletag.cmd.push(function()
+  {\n          googletag.display(\"incontent_ad_middle_top_mobile\");\n        });\n
+  \     </script></div><p class=\"speedbump\">\n  <a target=\"_blank\" href=\"https://www.rachaelrayshow.com/food/16658_Richard_Blais_Sous_Vide_Turkey_Breast_and_Legs\">\n
+  \   MORE: Richard Blais' Sous-Vide Turkey Breast and Legs\n  </a>\n</p>\n<p>Your
+  instructor? Yum-o! Director and food lover Andrew \"Kappy\" Kaplan, a friend of
+  Rachael's and, says Rach, an \"expert at in-home sous-vide cooking.\"</p><div id=\"native_top\"
+  class=\"native_top gpt_ads\"><script>\n        googletag.cmd.push(function() {\n
+  \         googletag.display(\"native_top\");\n        });\n      </script></div><p>As
+  Andrew, who’s also behind the podcast Beyond the Plate, explains, \"Basically, what
+  you're doing is cooking a piece of food in a food-safe bag, in water,\" with a sous-vide
+  stick submerged in the water. (Andrew says there are a bunch of great ones on the
+  market!)</p><p>And the best part? No matter, no matter what food you make, it will
+  be cooked precisely how you like your meat (rare, well and everything in between).</p><p>Doesn't
+  get any better than that right?</p><p class=\"speedbump\">\n  <a target=\"_blank\"
+  href=\"https://www.rachaelrayshow.com/recipes/26488_geoffrey_zakarian_tomato_soup\">\n
+  \   MORE: Geoffrey Zakarian's Sous-Vide Tomato Soup\n  </a>\n</p>\n<p>Here are Andrew's
+  best tips for cooking steak sous vide (which you can watch him act out in the video
+  above):</p><p>1. Take your strip steak and season it with salt and pepper.</p><p>2.
+  Take your steak and put in in the food-safe bag.</p><p>3. Zip the bag, but leave
+  about one inch of the bag unzipped.</p><p>4. Lower the bag into the water VERY slowly.
+  That way, the water will push all the extra air out of the bag. Right before the
+  top of the bag reaches the water, close the seal.</p><p>5. Secure your bag to the
+  pot.</p><p>6. Set your timer and set your sous vide machine (Andrew set his to 130
+  degrees — \"a perfect medium-rare,\" he say).</p><p>And while he says the meat will
+  probably only take an hour to cook, it can sit in the meat for up to four hours
+  — and nothing will change!</p><p>7. Once the meat's ready, take the bag out of the
+  water, take the meat out of the bag and put it in a pan to sear it on all sides.
+  (Andrew says each side will only need 30 seconds to a minute to make it \"nice and
+  golden-brown).</p><div id=\"incontent_ad_middle_bottom_mobile\" class=\"incontent_ad_middle_bottom_mobile
+  gpt_ads\"><script>\n        googletag.cmd.push(function() {\n          googletag.display(\"incontent_ad_middle_bottom_mobile\");\n
+  \       });\n      </script></div><p>And that's it! Happy steak night, everyone!</p></div>\n
+  \     </div>\n    </section>\n  \n      <div class=\"social-share\">\n        <div
+  class=\"btn-wrapper\">\n          <button class=\"btn-facebook-share btn btn-outline-primary
+  btn-rounded st_facebook_custom\" st_processed=\"yes\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+  viewBox=\"0 0 10 18\">&gt;<path class=\"st0 icon-facebook\" d=\"M9.5 0H7.2C4.4 0
+  2.8 1.7 2.8 4.4v2H0.4C0.1 6.5 0 6.6 0 6.8v3c0 0.2 0.1 0.4 0.4 0.4h2.4v7.4c0 0.2
+  0.1 0.4 0.4 0.4h3.1c0.2 0 0.4-0.1 0.4-0.4v-7.4h2.8c0.2 0 0.4-0.1 0.4-0.4v-3c0-0.1
+  0-0.2 0-0.2 0-0.1-0.1-0.1-0.2-0.1H6.6V4.8c0-0.8 0.2-1.3 1.3-1.3h1.6c0.2 0 0.4-0.1
+  0.4-0.4V0.4C9.8 0.1 9.7 0 9.5 0z\"></path></svg>\nShare</button>\n        </div>\n
+  \       <div class=\"btn-wrapper\">\n          <button class=\"btn-twitter-share
+  btn btn-outline-primary btn-rounded st_twitter_custom\" st_processed=\"yes\"><svg
+  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 22 18\"><path class=\"st0 icon-twitter\"
+  d=\"M22 2.1c-0.8 0.3-1.7 0.6-2.7 0.7 0.9-0.6 1.6-1.4 2-2.4 -0.8 0.5-1.9 0.8-2.9
+  1 -0.8-0.8-2-1.4-3.2-1.4 -2.5 0-4.5 2-4.5 4.4 0 0.3 0 0.7 0.1 1 -3.8-0.2-7.2-2-9.5-4.6C0.9
+  1.4 0.7 2.2 0.7 3c0 1.5 0.8 2.9 2.1 3.7 -0.7 0-1.4-0.2-2.1-0.6l0 0c0 2.1 1.6 3.9
+  3.7 4.3 -0.3 0.1-0.8 0.1-1.2 0.1 -0.2 0-0.6 0-0.8-0.1 0.6 1.7 2.2 3 4.3 3 -1.5 1.2-3.5
+  1.9-5.7 1.9 -0.3 0-0.7 0-1-0.1 1.7 1.5 4.2 2.2 6.7 2.2 8.3 0 13-6.7 13-12.5V4.3C20.6
+  3.7 21.3 2.9 22 2.1z\"></path></svg>\nTweet</button>\n        </div>\n        <div
+  class=\"btn-wrapper\">\n          <button class=\"btn-pinterest-share btn btn-outline-primary
+  btn-rounded st_pinterest_custom\" st_processed=\"yes\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+  viewBox=\"0 0 15 19\"><path class=\"st0 icon-pinterest\" d=\"M14.7 5.3c-0.5-3.8-4.3-5.7-8.3-5.2C3.3
+  0.4 0.1 3 0 6.6c-0.1 2.2 0.6 3.9 2.7 4.4 0.9-1.6-0.3-2-0.5-3.2C1.4 3 7.7-0.3 11.1
+  3.1c2.3 2.3 0.8 9.5-2.9 8.7C4.6 11.1 9.9 5.4 7 4.3 4.8 3.4 3.5 7.1 4.6 8.9 4 12.1
+  2.6 15 3.2 19c1.8-1.3 2.4-3.8 2.9-6.4 0.9 0.6 1.4 1.1 2.5 1.2C12.9 14.1 15.3 9.5
+  14.7 5.3z\"></path></svg>\nPin It</button>\n        </div>\n    </div>\n  \n  </article>\n\n\n
+  \ </div>\n\n                  </section>\n\n                              <aside
+  class=\"sidebars col-xs-12 col-md-4\" role=\"complementary\">\n              <div
+  class=\"sidebar-container affix-top\">\n                                                <div
+  class=\"sidebar-one-container\">\n                      <div class=\"region region-sidebar-one\">\n
+  \   <section id=\"block-ctddfpadwidget\" class=\"block block-ctd-dfp block-ctd-dfp-ad-block
+  clearfix\">\n  \n    \n\n      \n<div id=\"incontent_ad_middle_top\" class=\"incontent_ad_middle_top
+  gpt_ads\">\n  <script>\n    googletag.cmd.push(function() {\n      googletag.display('incontent_ad_middle_top');\n
+  \   });\n  </script>\n</div>\n\n\n  </section>\n\n\n  </div>\n\n                  </div>\n
+  \                                                                             <div
+  class=\"sidebar-two-container affix-top\">\n                      <div class=\"region
+  region-sidebar-two\">\n    <section id=\"block-ctddfpadwidget-2\" class=\"block
+  block-ctd-dfp block-ctd-dfp-ad-block clearfix\">\n  \n    \n\n      \n<div id=\"incontent_ad_middle_bottom\"
+  class=\"incontent_ad_middle_bottom gpt_ads\">\n  <script>\n    googletag.cmd.push(function()
+  {\n      googletag.display('incontent_ad_middle_bottom');\n    });\n  </script>\n</div>\n\n\n
+  \ </section>\n\n\n  </div>\n\n                  </div>\n                                            </div>\n
+  \           </aside>\n                        </div>\n    </div>\n  </div>\n\n      <div
+  class=\"container-fluid\">\n        <div class=\"region region-page-full-bottom\">\n
+  \   \n<section id=\"block-moretowatchcookread\" class=\"block block-block-content
+  block-block-content68daabf8-3c46-4c72-8742-164a2c61828e carousel-3d-card-featured
+  clearfix\">\n    \n          <h2 class=\"block-title\">More to Watch, Cook + Read</h2>\n
+  \       \n\n          \n      <div class=\"field field--name-field-content-list-nodes
+  field--type-entity-reference field--label-hidden field--items owl-carousel owl-loaded
+  owl-drag\">\n              \n              \n              \n              \n              \n
+  \             \n          <div class=\"owl-stage-outer\"><div class=\"owl-stage\"
+  style=\"transition: all 0s ease 0s; width: 7668px; padding-left: 85px; padding-right:
+  85px; transform: translate3d(-1872px, 0px, 0px);\"><div class=\"owl-item cloned\"
+  style=\"width: 599px; margin-right: 25px;\"><div class=\"field--item\"><article
+  role=\"article\" class=\"article card-featured clearfix\">\n  <a href=\"/articles/5-gadgets-that-could-help-you-get-fit-an-interactive-mirror-brain-stimulating-headphones\"
+  class=\"background-mobile\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/667x214/public/images/2019-01/stock_mirror_1920.jpg?h=5f7edf87&amp;itok=YvCZ4X_Z');\"></a>\n
+  \ <a href=\"/articles/5-gadgets-that-could-help-you-get-fit-an-interactive-mirror-brain-stimulating-headphones\"
+  class=\"background\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/1100x630/public/images/2019-01/stock_mirror_1920.jpg?h=5f7edf87&amp;itok=9ndlYAg8');\"></a>\n
+  \ <div class=\"content-section\">\n    <div class=\"content-type-icon\"></div>\n
+  \   <div class=\"category\">\n            <div class=\"field field--name-field-category
+  field--type-entity-reference field--label-hidden field--item\"><a href=\"/category/healthy-living\"
+  hreflang=\"en\">Healthy Living</a></div>\n      </div>\n    \n    <h2><a href=\"/articles/5-gadgets-that-could-help-you-get-fit-an-interactive-mirror-brain-stimulating-headphones\">\n
+  \           <div class=\"field field--name-field-display-headline field--type-string
+  field--label-hidden field--item\">A Mirror + Headphones? Could These Gadgets Help
+  Improve Your Workouts?</div>\n      </a></h2>\n    \n    \n            <div class=\"field
+  field--name-field-subhead field--type-string field--label-hidden field--item\">Dr.
+  Ian Smith demonstrates 5 fitness products that claim to help you on your weight-loss
+  journey — whether you prefer a home workout or going to the gym!</div>\n      \n
+  \   \n  </div>\n</article>\n</div></div><div class=\"owl-item cloned\" style=\"width:
+  599px; margin-right: 25px;\"><div class=\"field--item\"><article role=\"article\"
+  class=\"recipe card-featured clearfix\">\n  <a href=\"/recipes/giadas-torta-caprese-italian-chocolate-almond-cake\"
+  class=\"background-mobile\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/667x214/public/images/2019-01/ready_to_pivot_and_spin_when_things_go_wrong-711.jpg?h=7acce207&amp;itok=ZKkflkcc');\"></a>\n
+  \ <a href=\"/recipes/giadas-torta-caprese-italian-chocolate-almond-cake\" class=\"background\"
+  style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/1100x630/public/images/2019-01/ready_to_pivot_and_spin_when_things_go_wrong-711.jpg?h=7acce207&amp;itok=SzRHZIlr');\"></a>\n
+  \ <div class=\"content-section\">\n    <div class=\"content-type-icon\"></div>\n
+  \   <div class=\"category\">\n            <div class=\"field field--name-field-category
+  field--type-entity-reference field--label-hidden field--item\"><a href=\"/category/food-fun\"
+  hreflang=\"en\">Food &amp; Fun</a></div>\n      </div>\n    \n    <h2><a href=\"/recipes/giadas-torta-caprese-italian-chocolate-almond-cake\">\n
+  \           <div class=\"field field--name-field-display-headline field--type-string
+  field--label-hidden field--item\">Giada's Torta Caprese Is a Decadent AND Gluten-Free
+  Chocolate Cake</div>\n      </a></h2>\n    \n    \n            <div class=\"field
+  field--name-field-subhead field--type-string field--label-hidden field--item\">Almond
+  flour is the key to this gluten-free chocolate cake from Food Network OG and host
+  of \"Winner Cakes All\" Giada De Laurentiis. </div>\n      \n    \n  </div>\n</article>\n</div></div><div
+  class=\"owl-item cloned\" style=\"width: 599px; margin-right: 25px;\"><div class=\"field--item\"><article
+  role=\"article\" class=\"article card-featured clearfix\">\n  <a href=\"/articles/gwyneth-paltrow-reflects-on-special-moment-she-shared-with-husband-right-after-their-wedding\"
+  class=\"background-mobile\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/667x214/public/images/2019-01/gwyneth-rachael.jpg?h=f2d72e83&amp;itok=_ilaORQI');\"></a>\n
+  \ <a href=\"/articles/gwyneth-paltrow-reflects-on-special-moment-she-shared-with-husband-right-after-their-wedding\"
+  class=\"background\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/1100x630/public/images/2019-01/gwyneth-rachael.jpg?h=f2d72e83&amp;itok=xsrj7N_3');\"></a>\n
+  \ <div class=\"content-section\">\n    <div class=\"content-type-icon\"></div>\n
+  \   <div class=\"category\">\n            <div class=\"field field--name-field-category
+  field--type-entity-reference field--label-hidden field--item\"><a href=\"/category/celebs\"
+  hreflang=\"en\">Celebs</a></div>\n      </div>\n    \n    <h2><a href=\"/articles/gwyneth-paltrow-reflects-on-special-moment-she-shared-with-husband-right-after-their-wedding\">\n
+  \           <div class=\"field field--name-field-display-headline field--type-string
+  field--label-hidden field--item\">Here's What Gwyneth Paltrow Thinks Brides + Grooms
+  Should Do At Their Wedding</div>\n      </a></h2>\n    \n    \n            <div
+  class=\"field field--name-field-subhead field--type-string field--label-hidden field--item\">The
+  \"Goop\" creator opens up about her elegant big day and gives an audience member
+  the perfect wedding advice.</div>\n      \n    \n  </div>\n</article>\n</div></div><div
+  class=\"owl-item active center\" style=\"width: 599px; margin-right: 25px;\"><div
+  class=\"field--item\"><article role=\"article\" class=\"recipe card-featured clearfix\">\n
+  \ <a href=\"/recipes/rachaels-bucatini-with-meatball-dumplings\" class=\"background-mobile\"
+  style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/667x214/public/images/2019-01/bucatini_and_meatballs_cropped.jpg?h=7cfd1ff1&amp;itok=M3aW35Jj');\"></a>\n
+  \ <a href=\"/recipes/rachaels-bucatini-with-meatball-dumplings\" class=\"background\"
+  style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/1100x630/public/images/2019-01/bucatini_and_meatballs_cropped.jpg?h=7cfd1ff1&amp;itok=wb956onx');\"></a>\n
+  \ <div class=\"content-section\">\n    <div class=\"content-type-icon\"></div>\n
+  \   <div class=\"category\">\n            <div class=\"field field--name-field-category
+  field--type-entity-reference field--label-hidden field--item\"><a href=\"/category/food-fun\"
+  hreflang=\"en\">Food &amp; Fun</a></div>\n      </div>\n    \n    <h2><a href=\"/recipes/rachaels-bucatini-with-meatball-dumplings\">\n
+  \           <div class=\"field field--name-field-display-headline field--type-string
+  field--label-hidden field--item\">Rach's Bucatini with Meatball Dumplings Is a Favorite
+  In Her House</div>\n      </a></h2>\n    \n    \n            <div class=\"field
+  field--name-field-subhead field--type-string field--label-hidden field--item\">\"They're
+  tender and flavorful and John's favorite style of meatball so I am forced to make
+  them often.\"</div>\n      \n    \n  </div>\n</article>\n</div></div><div class=\"owl-item\"
+  style=\"width: 599px; margin-right: 25px;\"><div class=\"field--item\"><article
+  role=\"article\" class=\"article card-featured clearfix\">\n  <a href=\"/articles/8-tips-from-a-personal-finance-expert-to-save-5000-in-a-year\"
+  class=\"background-mobile\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/667x214/public/images/2019-01/save_5k_istock_cropped.jpg?h=8d50186e&amp;itok=qSyr0BIq');\"></a>\n
+  \ <a href=\"/articles/8-tips-from-a-personal-finance-expert-to-save-5000-in-a-year\"
+  class=\"background\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/1100x630/public/images/2019-01/save_5k_istock_cropped.jpg?h=8d50186e&amp;itok=Wt-wjdmR');\"></a>\n
+  \ <div class=\"content-section\">\n    <div class=\"content-type-icon\"></div>\n
+  \   <div class=\"category\">\n            <div class=\"field field--name-field-category
+  field--type-entity-reference field--label-hidden field--item\"><a href=\"/category/life\"
+  hreflang=\"en\">Life</a></div>\n      </div>\n    \n    <h2><a href=\"/articles/8-tips-from-a-personal-finance-expert-to-save-5000-in-a-year\">\n
+  \           <div class=\"field field--name-field-display-headline field--type-string
+  field--label-hidden field--item\">Yes, You Can Save $5K This Year — Here's How!</div>\n
+  \     </a></h2>\n    \n    \n            <div class=\"field field--name-field-subhead
+  field--type-string field--label-hidden field--item\">Personal finance expert Lauren
+  Greutman has 8 tips, tricks, apps and websites up her sleeve.</div>\n      \n    \n
+  \ </div>\n</article>\n</div></div><div class=\"owl-item\" style=\"width: 599px;
+  margin-right: 25px;\"><div class=\"field--item\"><article role=\"article\" class=\"article
+  card-featured clearfix\">\n  <a href=\"/recipes/21084_belly_warming_casseroles_to_make_when_the_autumn_chill_hits\"
+  class=\"background-mobile\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/667x214/public/images/2019-01/carbonara-casserole.jpg?h=c9545c82&amp;itok=NxicQlpN');\"></a>\n
+  \ <a href=\"/recipes/21084_belly_warming_casseroles_to_make_when_the_autumn_chill_hits\"
+  class=\"background\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/1100x630/public/images/2019-01/carbonara-casserole.jpg?h=c9545c82&amp;itok=V9VcauE6');\"></a>\n
+  \ <div class=\"content-section\">\n    <div class=\"content-type-icon\"></div>\n
+  \   <div class=\"category\">\n            <div class=\"field field--name-field-category
+  field--type-entity-reference field--label-hidden field--item\"><a href=\"/category/food-fun\"
+  hreflang=\"en\">Food &amp; Fun</a></div>\n      </div>\n    \n    <h2><a href=\"/recipes/21084_belly_warming_casseroles_to_make_when_the_autumn_chill_hits\">\n
+  \           <div class=\"field field--name-field-display-headline field--type-string
+  field--label-hidden field--item\">10 Belly-Warming Casseroles To Make For a Cozy
+  Dinner In</div>\n      </a></h2>\n    \n    \n            <div class=\"field field--name-field-subhead
+  field--type-string field--label-hidden field--item\">Looking for comfort foods to
+  chase away the cold? We've got you covered!</div>\n      \n    \n  </div>\n</article>\n</div></div><div
+  class=\"owl-item\" style=\"width: 599px; margin-right: 25px;\"><div class=\"field--item\"><article
+  role=\"article\" class=\"article card-featured clearfix\">\n  <a href=\"/articles/5-gadgets-that-could-help-you-get-fit-an-interactive-mirror-brain-stimulating-headphones\"
+  class=\"background-mobile\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/667x214/public/images/2019-01/stock_mirror_1920.jpg?h=5f7edf87&amp;itok=YvCZ4X_Z');\"></a>\n
+  \ <a href=\"/articles/5-gadgets-that-could-help-you-get-fit-an-interactive-mirror-brain-stimulating-headphones\"
+  class=\"background\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/1100x630/public/images/2019-01/stock_mirror_1920.jpg?h=5f7edf87&amp;itok=9ndlYAg8');\"></a>\n
+  \ <div class=\"content-section\">\n    <div class=\"content-type-icon\"></div>\n
+  \   <div class=\"category\">\n            <div class=\"field field--name-field-category
+  field--type-entity-reference field--label-hidden field--item\"><a href=\"/category/healthy-living\"
+  hreflang=\"en\">Healthy Living</a></div>\n      </div>\n    \n    <h2><a href=\"/articles/5-gadgets-that-could-help-you-get-fit-an-interactive-mirror-brain-stimulating-headphones\">\n
+  \           <div class=\"field field--name-field-display-headline field--type-string
+  field--label-hidden field--item\">A Mirror + Headphones? Could These Gadgets Help
+  Improve Your Workouts?</div>\n      </a></h2>\n    \n    \n            <div class=\"field
+  field--name-field-subhead field--type-string field--label-hidden field--item\">Dr.
+  Ian Smith demonstrates 5 fitness products that claim to help you on your weight-loss
+  journey — whether you prefer a home workout or going to the gym!</div>\n      \n
+  \   \n  </div>\n</article>\n</div></div><div class=\"owl-item\" style=\"width: 599px;
+  margin-right: 25px;\"><div class=\"field--item\"><article role=\"article\" class=\"recipe
+  card-featured clearfix\">\n  <a href=\"/recipes/giadas-torta-caprese-italian-chocolate-almond-cake\"
+  class=\"background-mobile\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/667x214/public/images/2019-01/ready_to_pivot_and_spin_when_things_go_wrong-711.jpg?h=7acce207&amp;itok=ZKkflkcc');\"></a>\n
+  \ <a href=\"/recipes/giadas-torta-caprese-italian-chocolate-almond-cake\" class=\"background\"
+  style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/1100x630/public/images/2019-01/ready_to_pivot_and_spin_when_things_go_wrong-711.jpg?h=7acce207&amp;itok=SzRHZIlr');\"></a>\n
+  \ <div class=\"content-section\">\n    <div class=\"content-type-icon\"></div>\n
+  \   <div class=\"category\">\n            <div class=\"field field--name-field-category
+  field--type-entity-reference field--label-hidden field--item\"><a href=\"/category/food-fun\"
+  hreflang=\"en\">Food &amp; Fun</a></div>\n      </div>\n    \n    <h2><a href=\"/recipes/giadas-torta-caprese-italian-chocolate-almond-cake\">\n
+  \           <div class=\"field field--name-field-display-headline field--type-string
+  field--label-hidden field--item\">Giada's Torta Caprese Is a Decadent AND Gluten-Free
+  Chocolate Cake</div>\n      </a></h2>\n    \n    \n            <div class=\"field
+  field--name-field-subhead field--type-string field--label-hidden field--item\">Almond
+  flour is the key to this gluten-free chocolate cake from Food Network OG and host
+  of \"Winner Cakes All\" Giada De Laurentiis. </div>\n      \n    \n  </div>\n</article>\n</div></div><div
+  class=\"owl-item\" style=\"width: 599px; margin-right: 25px;\"><div class=\"field--item\"><article
+  role=\"article\" class=\"article card-featured clearfix\">\n  <a href=\"/articles/gwyneth-paltrow-reflects-on-special-moment-she-shared-with-husband-right-after-their-wedding\"
+  class=\"background-mobile\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/667x214/public/images/2019-01/gwyneth-rachael.jpg?h=f2d72e83&amp;itok=_ilaORQI');\"></a>\n
+  \ <a href=\"/articles/gwyneth-paltrow-reflects-on-special-moment-she-shared-with-husband-right-after-their-wedding\"
+  class=\"background\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/1100x630/public/images/2019-01/gwyneth-rachael.jpg?h=f2d72e83&amp;itok=xsrj7N_3');\"></a>\n
+  \ <div class=\"content-section\">\n    <div class=\"content-type-icon\"></div>\n
+  \   <div class=\"category\">\n            <div class=\"field field--name-field-category
+  field--type-entity-reference field--label-hidden field--item\"><a href=\"/category/celebs\"
+  hreflang=\"en\">Celebs</a></div>\n      </div>\n    \n    <h2><a href=\"/articles/gwyneth-paltrow-reflects-on-special-moment-she-shared-with-husband-right-after-their-wedding\">\n
+  \           <div class=\"field field--name-field-display-headline field--type-string
+  field--label-hidden field--item\">Here's What Gwyneth Paltrow Thinks Brides + Grooms
+  Should Do At Their Wedding</div>\n      </a></h2>\n    \n    \n            <div
+  class=\"field field--name-field-subhead field--type-string field--label-hidden field--item\">The
+  \"Goop\" creator opens up about her elegant big day and gives an audience member
+  the perfect wedding advice.</div>\n      \n    \n  </div>\n</article>\n</div></div><div
+  class=\"owl-item cloned\" style=\"width: 599px; margin-right: 25px;\"><div class=\"field--item\"><article
+  role=\"article\" class=\"recipe card-featured clearfix\">\n  <a href=\"/recipes/rachaels-bucatini-with-meatball-dumplings\"
+  class=\"background-mobile\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/667x214/public/images/2019-01/bucatini_and_meatballs_cropped.jpg?h=7cfd1ff1&amp;itok=M3aW35Jj');\"></a>\n
+  \ <a href=\"/recipes/rachaels-bucatini-with-meatball-dumplings\" class=\"background\"
+  style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/1100x630/public/images/2019-01/bucatini_and_meatballs_cropped.jpg?h=7cfd1ff1&amp;itok=wb956onx');\"></a>\n
+  \ <div class=\"content-section\">\n    <div class=\"content-type-icon\"></div>\n
+  \   <div class=\"category\">\n            <div class=\"field field--name-field-category
+  field--type-entity-reference field--label-hidden field--item\"><a href=\"/category/food-fun\"
+  hreflang=\"en\">Food &amp; Fun</a></div>\n      </div>\n    \n    <h2><a href=\"/recipes/rachaels-bucatini-with-meatball-dumplings\">\n
+  \           <div class=\"field field--name-field-display-headline field--type-string
+  field--label-hidden field--item\">Rach's Bucatini with Meatball Dumplings Is a Favorite
+  In Her House</div>\n      </a></h2>\n    \n    \n            <div class=\"field
+  field--name-field-subhead field--type-string field--label-hidden field--item\">\"They're
+  tender and flavorful and John's favorite style of meatball so I am forced to make
+  them often.\"</div>\n      \n    \n  </div>\n</article>\n</div></div><div class=\"owl-item
+  cloned\" style=\"width: 599px; margin-right: 25px;\"><div class=\"field--item\"><article
+  role=\"article\" class=\"article card-featured clearfix\">\n  <a href=\"/articles/8-tips-from-a-personal-finance-expert-to-save-5000-in-a-year\"
+  class=\"background-mobile\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/667x214/public/images/2019-01/save_5k_istock_cropped.jpg?h=8d50186e&amp;itok=qSyr0BIq');\"></a>\n
+  \ <a href=\"/articles/8-tips-from-a-personal-finance-expert-to-save-5000-in-a-year\"
+  class=\"background\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/1100x630/public/images/2019-01/save_5k_istock_cropped.jpg?h=8d50186e&amp;itok=Wt-wjdmR');\"></a>\n
+  \ <div class=\"content-section\">\n    <div class=\"content-type-icon\"></div>\n
+  \   <div class=\"category\">\n            <div class=\"field field--name-field-category
+  field--type-entity-reference field--label-hidden field--item\"><a href=\"/category/life\"
+  hreflang=\"en\">Life</a></div>\n      </div>\n    \n    <h2><a href=\"/articles/8-tips-from-a-personal-finance-expert-to-save-5000-in-a-year\">\n
+  \           <div class=\"field field--name-field-display-headline field--type-string
+  field--label-hidden field--item\">Yes, You Can Save $5K This Year — Here's How!</div>\n
+  \     </a></h2>\n    \n    \n            <div class=\"field field--name-field-subhead
+  field--type-string field--label-hidden field--item\">Personal finance expert Lauren
+  Greutman has 8 tips, tricks, apps and websites up her sleeve.</div>\n      \n    \n
+  \ </div>\n</article>\n</div></div><div class=\"owl-item cloned\" style=\"width:
+  599px; margin-right: 25px;\"><div class=\"field--item\"><article role=\"article\"
+  class=\"article card-featured clearfix\">\n  <a href=\"/recipes/21084_belly_warming_casseroles_to_make_when_the_autumn_chill_hits\"
+  class=\"background-mobile\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/667x214/public/images/2019-01/carbonara-casserole.jpg?h=c9545c82&amp;itok=NxicQlpN');\"></a>\n
+  \ <a href=\"/recipes/21084_belly_warming_casseroles_to_make_when_the_autumn_chill_hits\"
+  class=\"background\" style=\"background-image: url('https://www.rachaelrayshow.com/sites/default/files/styles/1100x630/public/images/2019-01/carbonara-casserole.jpg?h=c9545c82&amp;itok=V9VcauE6');\"></a>\n
+  \ <div class=\"content-section\">\n    <div class=\"content-type-icon\"></div>\n
+  \   <div class=\"category\">\n            <div class=\"field field--name-field-category
+  field--type-entity-reference field--label-hidden field--item\"><a href=\"/category/food-fun\"
+  hreflang=\"en\">Food &amp; Fun</a></div>\n      </div>\n    \n    <h2><a href=\"/recipes/21084_belly_warming_casseroles_to_make_when_the_autumn_chill_hits\">\n
+  \           <div class=\"field field--name-field-display-headline field--type-string
+  field--label-hidden field--item\">10 Belly-Warming Casseroles To Make For a Cozy
+  Dinner In</div>\n      </a></h2>\n    \n    \n            <div class=\"field field--name-field-subhead
+  field--type-string field--label-hidden field--item\">Looking for comfort foods to
+  chase away the cold? We've got you covered!</div>\n      \n    \n  </div>\n</article>\n</div></div></div></div><div
+  class=\"owl-nav\"><button type=\"button\" role=\"presentation\" class=\"owl-prev\"><span
+  aria-label=\"Previous\">‹</span></button><button type=\"button\" role=\"presentation\"
+  class=\"owl-next\"><span aria-label=\"Next\">›</span></button></div><div class=\"owl-dots\"><button
+  role=\"button\" class=\"owl-dot active\"><span></span></button><button role=\"button\"
+  class=\"owl-dot\"><span></span></button><button role=\"button\" class=\"owl-dot\"><span></span></button><button
+  role=\"button\" class=\"owl-dot\"><span></span></button><button role=\"button\"
+  class=\"owl-dot\"><span></span></button><button role=\"button\" class=\"owl-dot\"><span></span></button></div></div>\n
+  \ \n    </section>\n\n<section class=\"views-element-container block block-views
+  block-views-blockepisode-terms-block-this-week-on-show clearfix\" id=\"block-bottom-this-week-on-show\">\n
+  \ \n      <h2 class=\"block-title\">This Week on the Show</h2>\n    \n\n      <div
+  class=\"form-group\">\n<div class=\"view view-episode-terms view-id-episode_terms
+  view-display-id-block_this_week_on_show js-view-dom-id-5df3bc3569a4f64c009dad4236997b8ed1837e3f869b86187eaf8fdc6b063456\">\n
+  \ \n    \n      \n      <div class=\"view-content on-this-week-carousel owl-carousel
+  owl-loaded owl-drag\">\n            \n      \n      \n      \n      \n\n    <div
+  class=\"owl-stage-outer\"><div class=\"owl-stage\" style=\"transform: translate3d(0px,
+  0px, 0px); transition: all 0s ease 0s; width: 1325px;\"><div class=\"owl-item active\"
+  style=\"width: 243px; margin-right: 20px;\"><a href=\"/show-info/on-this-week#monday\">\n
+  \   <div class=\"views-row\">\n      <article class=\"episodes episode-carousel-item\">\n
+  \ <div class=\"image-wrapper\">\n    \n            <div class=\"field field--name-field-image
+  field--type-entity-reference field--label-hidden field--item\"><article class=\"media
+  media-image view-mode-episode-carousel-item\">\n      \n            <div class=\"field
+  field--name-field-image field--type-image field--label-hidden field--item\">  <img
+  data-portal-copyright=\"Rachael Ray Show\" src=\"/sites/default/files/styles/210x210/public/images/2019-03/gayle_king_1920.jpg?h=80871fb7&amp;itok=HprlOADL\"
+  width=\"210\" height=\"210\" alt=\"Gayle King\" class=\"img-responsive\">\n\n\n</div>\n
+  \     \n  </article>\n</div>\n      \n  </div>\n  \n            <div class=\"field
+  field--name-field-episode-air-date field--type-datetime field--label-hidden field--item\">Monday</div>\n
+  \     \n  <h3>\n            <div class=\"field field--name-field-short-title field--type-string
+  field--label-hidden field--item\">Gayle King!</div>\n      </h3>\n  \n</article>\n\n
+  \   </div>\n  </a></div><div class=\"owl-item active\" style=\"width: 243px; margin-right:
+  20px;\"><a href=\"/show-info/on-this-week#tuesday\">\n    <div class=\"views-row\">\n
+  \     <article class=\"episodes episode-carousel-item\">\n  <div class=\"image-wrapper\">\n
+  \   \n            <div class=\"field field--name-field-image field--type-entity-reference
+  field--label-hidden field--item\"><article class=\"media media-image view-mode-episode-carousel-item\">\n
+  \     \n            <div class=\"field field--name-field-image field--type-image
+  field--label-hidden field--item\">  <img data-portal-copyright=\"Rachael Ray Show\"
+  src=\"/sites/default/files/styles/210x210/public/images/2019-03/rachael_and_david_boreanaz_1920.jpg?h=d1cb525d&amp;itok=Fl9cbGxf\"
+  width=\"210\" height=\"210\" alt=\"David Boreanaz and Rachael Ray\" class=\"img-responsive\">\n\n\n</div>\n
+  \     \n  </article>\n</div>\n      \n  </div>\n  \n            <div class=\"field
+  field--name-field-episode-air-date field--type-datetime field--label-hidden field--item\">Tuesday</div>\n
+  \     \n  <h3>\n            <div class=\"field field--name-field-short-title field--type-string
+  field--label-hidden field--item\">\"SEAL Team\" Star David Boreanaz</div>\n      </h3>\n
+  \ \n</article>\n\n    </div>\n  </a></div><div class=\"owl-item active\" style=\"width:
+  243px; margin-right: 20px;\"><a href=\"/show-info/on-this-week#wednesday\">\n    <div
+  class=\"views-row\">\n      <article class=\"episodes episode-carousel-item\">\n
+  \ <div class=\"image-wrapper\">\n    \n            <div class=\"field field--name-field-image
+  field--type-entity-reference field--label-hidden field--item\"><article class=\"media
+  media-image view-mode-episode-carousel-item\">\n      \n            <div class=\"field
+  field--name-field-image field--type-image field--label-hidden field--item\">  <img
+  data-portal-copyright=\"Rachael Ray Show\" src=\"/sites/default/files/styles/210x210/public/images/2019-03/taye_diggs_1920.jpg?h=d1cb525d&amp;itok=cfusO3yu\"
+  width=\"210\" height=\"210\" alt=\"Taye Diggs\" class=\"img-responsive\">\n\n\n</div>\n
+  \     \n  </article>\n</div>\n      \n  </div>\n  \n            <div class=\"field
+  field--name-field-episode-air-date field--type-datetime field--label-hidden field--item\">Wednesday</div>\n
+  \     \n  <h3>\n            <div class=\"field field--name-field-short-title field--type-string
+  field--label-hidden field--item\">TV + Broadway Star Taye Diggs</div>\n      </h3>\n
+  \ \n</article>\n\n    </div>\n  </a></div><div class=\"owl-item\" style=\"width:
+  243px; margin-right: 20px;\"><a href=\"/show-info/on-this-week#thursday\">\n    <div
+  class=\"views-row\">\n      <article class=\"episodes episode-carousel-item\">\n
+  \ <div class=\"image-wrapper\">\n    \n            <div class=\"field field--name-field-image
+  field--type-entity-reference field--label-hidden field--item\"><article class=\"media
+  media-image view-mode-episode-carousel-item\">\n      \n            <div class=\"field
+  field--name-field-image field--type-image field--label-hidden field--item\">  <img
+  data-portal-copyright=\"Rachael Ray Show\" src=\"/sites/default/files/styles/210x210/public/images/2019-03/barbara_corcoran_1920.jpg?h=a3c1c5f7&amp;itok=pGMT28UV\"
+  width=\"210\" height=\"210\" alt=\"Barbara Corcoran\" class=\"img-responsive\">\n\n\n</div>\n
+  \     \n  </article>\n</div>\n      \n  </div>\n  \n            <div class=\"field
+  field--name-field-episode-air-date field--type-datetime field--label-hidden field--item\">Thursday</div>\n
+  \     \n  <h3>\n            <div class=\"field field--name-field-short-title field--type-string
+  field--label-hidden field--item\">Shark Tank's Barbara Corcoran</div>\n      </h3>\n
+  \ \n</article>\n\n    </div>\n  </a></div><div class=\"owl-item\" style=\"width:
+  243px; margin-right: 20px;\"><a href=\"/show-info/on-this-week#friday\">\n    <div
+  class=\"views-row\">\n      <article class=\"episodes episode-carousel-item\">\n
+  \ <div class=\"image-wrapper\">\n    \n            <div class=\"field field--name-field-image
+  field--type-entity-reference field--label-hidden field--item\"><article class=\"media
+  media-image view-mode-episode-carousel-item\">\n      \n            <div class=\"field
+  field--name-field-image field--type-image field--label-hidden field--item\">  <img
+  data-portal-copyright=\"Rachael Ray Show\" src=\"/sites/default/files/styles/210x210/public/images/2019-03/lentil_and_farro_soup_1920.jpg?h=14527835&amp;itok=OS4BamYZ\"
+  width=\"210\" height=\"210\" alt=\"Lentil &amp; Farro Soup\" class=\"img-responsive\">\n\n\n</div>\n
+  \     \n  </article>\n</div>\n      \n  </div>\n  \n            <div class=\"field
+  field--name-field-episode-air-date field--type-datetime field--label-hidden field--item\">Friday</div>\n
+  \     \n  <h3>\n            <div class=\"field field--name-field-short-title field--type-string
+  field--label-hidden field--item\">Rachael's Lentil &amp; Farro Soup</div>\n      </h3>\n
+  \ \n</article>\n\n    </div>\n  </a></div></div></div><div class=\"owl-nav\"><button
+  type=\"button\" role=\"presentation\" class=\"owl-prev disabled\"><span aria-label=\"Previous\">‹</span></button><button
+  type=\"button\" role=\"presentation\" class=\"owl-next\"><span aria-label=\"Next\">›</span></button></div><div
+  class=\"owl-dots\"><button role=\"button\" class=\"owl-dot active\"><span></span></button><button
+  role=\"button\" class=\"owl-dot\"><span></span></button></div></div>\n  \n          </div>\n</div>\n\n
+  \ </section>\n\n\n  </div>\n\n    </div>\n  \n        <div class=\"container-fluid\">\n
+  \       <section class=\"block block-ctd-taboola clearfix\">\n  \n      <h2 class=\"block-title\">You
+  Might Like</h2>\n    \n\n      \n\n<div id=\"taboola-below-article-thumbnails\"
+  class=\"ctd-taboola\"></div>\n\n  </section>\n\n\n        <section class=\"block
+  block-ctd-netseer clearfix\">\n  \n    \n\n      \n\n<div id=\"ray_segment_btm\"
+  class=\"ctd-netseer\"></div>\n  </section>\n\n\n    <div id=\"incontent_ad_bottom\"
+  class=\"incontent_ad_bottom gpt_ads\">\n  <script>\n    googletag.cmd.push(function()
+  {\n      googletag.display('incontent_ad_bottom');\n    });\n  </script>\n</div>\n\n
+  \ </div>\n\n\n  <footer class=\"footer container-fluid\">\n  <div class=\"row\">\n
+  \   <div class=\"col-sm-12 col-lg-9\">\n      <div class=\"row\">\n        <div
+  class=\"col-xs-12 col-sm-4 col-lg-4\">\n          <h2>Explore</h2>\n          \n
+  \     <ul class=\"menu menu--explore nav\">\n                        <li>\n        <a
+  href=\"/video\" data-drupal-link-system-path=\"video\">Video</a>\n                  </li>\n
+  \                       <li>\n        <a href=\"/category/food-fun\" data-drupal-link-system-path=\"taxonomy/term/8\">Food
+  &amp; Fun</a>\n                  </li>\n                        <li>\n        <a
+  href=\"/category/healthy-living\" data-drupal-link-system-path=\"taxonomy/term/7\">Healthy
+  Living</a>\n                  </li>\n                        <li>\n        <a href=\"/category/home-diy\"
+  data-drupal-link-system-path=\"taxonomy/term/6\">Home &amp; DIY</a>\n                  </li>\n
+  \                       <li>\n        <a href=\"/category/beauty-style\" data-drupal-link-system-path=\"taxonomy/term/2\">Beauty
+  &amp; Style</a>\n                  </li>\n                        <li>\n        <a
+  href=\"/category/living\">Living</a>\n                  </li>\n        </ul>\n  \n\n
+  \       </div>\n        <div class=\"col-xs-12 col-sm-4 col-lg-4\">\n          <h2>On
+  the Show</h2>\n          \n      <ul class=\"menu menu--on-the-show nav\">\n                        <li>\n
+  \       <a href=\"/show-info/showtimes\" data-drupal-link-system-path=\"show-info/showtimes\">When
+  to Watch</a>\n                  </li>\n                        <li>\n        <a
+  href=\"/be-on-the-show\" data-drupal-link-system-path=\"be-on-the-show\">Be on the
+  Show</a>\n                  </li>\n                        <li>\n        <a href=\"/show-info/be_in_the_audience\"
+  data-drupal-link-system-path=\"node/1\">Get Tickets</a>\n                  </li>\n
+  \                       <li>\n        <a href=\"/show-info/contactus\" data-drupal-link-system-path=\"node/29870\">Contact
+  Us</a>\n                  </li>\n                        <li>\n        <a href=\"/internships\"
+  data-drupal-link-system-path=\"node/29871\">Internships</a>\n                  </li>\n
+  \       </ul>\n  \n\n        </div>\n        <div class=\"col-xs-12 col-sm-4 col-lg-4\">\n
+  \         <h2>Legal</h2>\n          \n      <ul class=\"menu menu--legal nav\">\n
+  \                       <li>\n        <a href=\"https://legalterms.cbsinteractive.com/terms-of-use\">Terms
+  of Use</a>\n                  </li>\n                        <li>\n        <a href=\"https://legalterms.cbsinteractive.com/privacy\">Privacy
+  Policy</a>\n                  </li>\n                        <li>\n        <a href=\"https://legalterms.cbsinteractive.com/eula\">Mobile
+  User Agreement</a>\n                  </li>\n                        <li>\n        <a
+  href=\"http://www.cbsinteractive.com/advertise/\">Advertise with Us</a>\n                  </li>\n
+  \                       <li>\n        <a href=\"http://www.cbs.com/closed-captioning/\">Closed
+  Captioning</a>\n                  </li>\n        </ul>\n  \n\n        </div>\n      </div>\n
+  \   </div>\n    <div class=\"col-sm-12 col-lg-3\">\n      <div class=\"row\">\n
+  \       <div class=\"col-xs-12 col-newsletter\">\n          <h2>Newsletter</h2>\n
+  \         <div class=\"footer-newsletter\">\n            <div class=\"ctd-mapp-sign-up-widget\">\n
+  \ <div id=\"footer-ajax-wrapper\"><form class=\"ctd-mapp-signup-footer\" data-drupal-selector=\"ctd-mapp-signup-footer\"
+  action=\"/food/26806_how_to_cook_the_perfect_medium_rare_steak_sous_vide\" method=\"post\"
+  id=\"ctd-mapp-signup-footer\" accept-charset=\"UTF-8\">\n  <div class=\"form-item
+  js-form-item form-type-email js-form-type-email form-item-email js-form-item-email
+  form-group\">\n      <label for=\"edit-email\" class=\"control-label js-form-required
+  form-required\">Email</label>\n  \n  \n  <input placeholder=\"Your email address\"
+  data-drupal-selector=\"edit-email\" class=\"form-email required form-control\" type=\"email\"
+  id=\"edit-email\" name=\"email\" value=\"\" size=\"60\" maxlength=\"132\" required=\"required\"
+  aria-required=\"true\">\n\n  \n  \n  </div>\n<input data-drupal-selector=\"edit-segment-id\"
+  type=\"hidden\" name=\"segment_id\" value=\"1244482\"><input data-drupal-selector=\"edit-acquisition-source\"
+  type=\"hidden\" name=\"acquisition_source\" value=\"footer\"><button class=\"btn-primary
+  button js-form-submit form-submit btn-default btn\" data-drupal-selector=\"edit-submit-ctd-mapp-signup-footer\"
+  type=\"submit\" id=\"edit-submit-ctd-mapp-signup-footer\" name=\"submit-ctd_mapp_signup_footer\"
+  value=\"Send\">Send</button><input autocomplete=\"off\" data-drupal-selector=\"form-vxihfvgcl-qvsswmz4-ikecobmzzskfduop4003k-jg\"
+  type=\"hidden\" name=\"form_build_id\" value=\"form-vxIhfVGCL-qvsswmz4_ikeCObMzzskfduOp4003K-Jg\"><input
+  data-drupal-selector=\"edit-ctd-mapp-signup-footer\" type=\"hidden\" name=\"form_id\"
+  value=\"ctd_mapp_signup_footer\"><div class=\"EmailAddress-textfield form-group
+  js-form-wrapper form-wrapper\" style=\"display: none !important;\"><input autocomplete=\"off\"
+  data-drupal-selector=\"edit-emailaddress\" class=\"form-text form-control\" type=\"text\"
+  id=\"edit-emailaddress\" name=\"EmailAddress\" value=\"\" size=\"20\" maxlength=\"128\"></div>\n\n</form>\n</div>\n</div>\n\n
+  \         </div>\n          <h2>Connect</h2>\n          <ul class=\"social-links\">\n
+  \     <li>\n        <a href=\"https://www.facebook.com/RachaelRayShow\" class=\"social-facebook\">\n
+  \           <span class=\"sr-only\">Rachael Ray Show Facebook</span>\n            <svg
+  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 10 18\">&gt;<path class=\"st0
+  icon-facebook\" d=\"M9.5 0H7.2C4.4 0 2.8 1.7 2.8 4.4v2H0.4C0.1 6.5 0 6.6 0 6.8v3c0
+  0.2 0.1 0.4 0.4 0.4h2.4v7.4c0 0.2 0.1 0.4 0.4 0.4h3.1c0.2 0 0.4-0.1 0.4-0.4v-7.4h2.8c0.2
+  0 0.4-0.1 0.4-0.4v-3c0-0.1 0-0.2 0-0.2 0-0.1-0.1-0.1-0.2-0.1H6.6V4.8c0-0.8 0.2-1.3
+  1.3-1.3h1.6c0.2 0 0.4-0.1 0.4-0.4V0.4C9.8 0.1 9.7 0 9.5 0z\"></path></svg>\n        </a>\n
+  \   </li>\n      <li>\n        <a href=\"https://twitter.com/rachaelrayshow\" class=\"social-twitter\">\n
+  \           <span class=\"sr-only\">Rachael Ray Show Twitter</span>\n            <svg
+  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 22 18\"><path class=\"st0 icon-twitter\"
+  d=\"M22 2.1c-0.8 0.3-1.7 0.6-2.7 0.7 0.9-0.6 1.6-1.4 2-2.4 -0.8 0.5-1.9 0.8-2.9
+  1 -0.8-0.8-2-1.4-3.2-1.4 -2.5 0-4.5 2-4.5 4.4 0 0.3 0 0.7 0.1 1 -3.8-0.2-7.2-2-9.5-4.6C0.9
+  1.4 0.7 2.2 0.7 3c0 1.5 0.8 2.9 2.1 3.7 -0.7 0-1.4-0.2-2.1-0.6l0 0c0 2.1 1.6 3.9
+  3.7 4.3 -0.3 0.1-0.8 0.1-1.2 0.1 -0.2 0-0.6 0-0.8-0.1 0.6 1.7 2.2 3 4.3 3 -1.5 1.2-3.5
+  1.9-5.7 1.9 -0.3 0-0.7 0-1-0.1 1.7 1.5 4.2 2.2 6.7 2.2 8.3 0 13-6.7 13-12.5V4.3C20.6
+  3.7 21.3 2.9 22 2.1z\"></path></svg>\n        </a>\n    </li>\n      <li>\n        <a
+  href=\"https://www.pinterest.com/rachaelrayshow/?autologin=true\" class=\"social-pinterest\">\n
+  \           <span class=\"sr-only\">Rachael Ray Show Pinterest</span>\n            <svg
+  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 15 19\"><path class=\"st0 icon-pinterest\"
+  d=\"M14.7 5.3c-0.5-3.8-4.3-5.7-8.3-5.2C3.3 0.4 0.1 3 0 6.6c-0.1 2.2 0.6 3.9 2.7
+  4.4 0.9-1.6-0.3-2-0.5-3.2C1.4 3 7.7-0.3 11.1 3.1c2.3 2.3 0.8 9.5-2.9 8.7C4.6 11.1
+  9.9 5.4 7 4.3 4.8 3.4 3.5 7.1 4.6 8.9 4 12.1 2.6 15 3.2 19c1.8-1.3 2.4-3.8 2.9-6.4
+  0.9 0.6 1.4 1.1 2.5 1.2C12.9 14.1 15.3 9.5 14.7 5.3z\"></path></svg>\n        </a>\n
+  \   </li>\n      <li>\n        <a href=\"https://www.instagram.com/rachaelrayshow/\"
+  class=\"social-instagram\">\n            <span class=\"sr-only\">Rachael Ray Show
+  Instagram</span>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+  0 20 20\"><path class=\"st0 icon-instagram\" d=\"M9.5 0C6.9 0 6.6 0 5.6 0.1c-1 0-1.7
+  0.2-2.3 0.4C2.7 0.7 2.1 1.1 1.6 1.6 1.1 2.1 0.7 2.7 0.5 3.3 0.3 3.9 0.1 4.6 0.1
+  5.6 0 6.6 0 6.9 0 9.5s0 2.9 0.1 3.9c0 1 0.2 1.7 0.4 2.3 0.2 0.6 0.6 1.2 1.1 1.7
+  0.5 0.5 1.1 0.9 1.7 1.1 0.6 0.2 1.3 0.4 2.3 0.4 1 0 1.3 0.1 3.9 0.1s2.9 0 3.9-0.1c1
+  0 1.7-0.2 2.3-0.4 0.6-0.2 1.2-0.6 1.7-1.1 0.5-0.5 0.9-1.1 1.1-1.7 0.2-0.6 0.4-1.3
+  0.4-2.3 0-1 0.1-1.3 0.1-3.9s0-2.9-0.1-3.9c0-1-0.2-1.7-0.4-2.3 -0.2-0.6-0.6-1.2-1.1-1.7
+  -0.5-0.5-1.1-0.9-1.7-1.1 -0.6-0.2-1.3-0.4-2.3-0.4C12.4 0 12.1 0 9.5 0zM9.5 1.7c2.5
+  0 2.8 0 3.8 0.1 0.9 0 1.4 0.2 1.8 0.3 0.4 0.2 0.8 0.4 1.1 0.7 0.3 0.3 0.5 0.7 0.7
+  1.1 0.1 0.3 0.3 0.8 0.3 1.8 0.1 1 0.1 1.3 0.1 3.8s0 2.8-0.1 3.8c0 0.9-0.2 1.4-0.3
+  1.8 -0.2 0.4-0.4 0.8-0.7 1.1 -0.3 0.3-0.7 0.5-1.1 0.7 -0.3 0.1-0.8 0.3-1.8 0.3 -1
+  0.1-1.3 0.1-3.8 0.1s-2.8 0-3.8-0.1c-0.9 0-1.4-0.2-1.8-0.3 -0.5-0.2-0.8-0.4-1.1-0.7
+  -0.3-0.3-0.5-0.7-0.7-1.1 -0.1-0.3-0.3-0.8-0.3-1.8 0-1-0.1-1.3-0.1-3.8s0-2.8 0.1-3.8c0-0.9
+  0.2-1.4 0.3-1.8 0.2-0.5 0.4-0.8 0.7-1.1 0.3-0.3 0.7-0.5 1.1-0.7C4.2 2 4.7 1.8 5.7
+  1.8 6.7 1.7 7 1.7 9.5 1.7z\"></path><path class=\"st0 icon-instagram\" d=\"M9.5
+  12.7c-1.8 0-3.2-1.4-3.2-3.2s1.4-3.2 3.2-3.2 3.2 1.4 3.2 3.2S11.2 12.7 9.5 12.7zM9.5
+  4.6c-2.7 0-4.9 2.2-4.9 4.9s2.2 4.9 4.9 4.9 4.9-2.2 4.9-4.9S12.2 4.6 9.5 4.6z\"></path><circle
+  class=\"st0 icon-instagram\" cx=\"14.6\" cy=\"4.4\" r=\"1.1\"></circle></svg>\n
+  \       </a>\n    </li>\n      <li>\n        <a href=\"https://www.youtube.com/rachaelrayshow\"
+  class=\"social-youtube\">\n            <span class=\"sr-only\">Rachael Ray Show
+  Youtube</span>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+  0 24 18\"><path class=\"st0 icon-youtube\" d=\"M8.9 13.3V3.7l7.2 4.8L8.9 13.3zM22.8
+  3.8C22.8 1.7 21.1 0 19 0H3.8C1.7 0 0 1.7 0 3.8v10.3C0 16.3 1.7 18 3.8 18h15.2c2.2
+  0 3.8-1.7 3.8-3.8V3.8H22.8z\"></path></svg>\n        </a>\n    </li>\n  </ul>\n\n
+  \       </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div
+  class=\"col-xs-12\">\n      <div class=\"copyright \">\n        © 2019 CBS Interactive
+  Inc. All rights reserved.\n      </div>\n    </div>\n  </div>\n</footer>\n\n  </div>\n\n
+  \   \n    <script src=\"/sites/default/files/js/js_mB6zU6_y2J5fdbnpuXnjPEGJWw2o_kpxSm_4fHzm0ZA.js\"></script>\n<script
+  src=\"https://ws.sharethis.com/button/buttons.js\"></script>\n<script src=\"/sites/default/files/js/js_OjV-XKu8LbkdhH5Xp2-oXmu_CXCn97nVU30hY0deMaI.js\"></script>\n\n
+  \   <div id=\"outofpage\" class=\"outofpage gpt_ads\">\n  <script>\n    googletag.cmd.push(function()
+  {\n      googletag.display('outofpage');\n    });\n  </script>\n</div>\n\n    \n\n<div
+  class=\"modal newsletter-modal fade\" id=\"newsletter-signup-modal\" tabindex=\"-1\"
+  role=\"dialog\" aria-labelledby=\"newsletter-signup-label\">\n  <div class=\"modal-dialog
+  modal-lg\" role=\"document\">\n    <div class=\"modal-content newsletter-wrapper\">\n
+  \     <div class=\"image-wrapper\">\n        <img src=\"/themes/custom/rr_bs/images/casual-standing-rachael.png\"
+  alt=\"Rachael Standing and Smiling\">\n      </div>\n      <div class=\"content-wrapper\">\n
+  \       <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\"
+  data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\"
+  xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"14\" height=\"14\" viewBox=\"0
+  0 14 14\"><defs><path id=\"5e7oa\" d=\"M342.5 21.5l11.01 11.01\"></path><path id=\"5e7ob\"
+  d=\"M353.51 21.5L342.5 32.51\"></path></defs><g><g transform=\"translate(-341 -20)\"><use
+  fill=\"#fff\" fill-opacity=\"0\" stroke=\"#000\" stroke-linecap=\"round\" stroke-miterlimit=\"50\"
+  stroke-width=\"2\" xlink:href=\"#5e7oa\"></use></g><g transform=\"translate(-341
+  -20)\"><use fill=\"#fff\" fill-opacity=\"0\" stroke=\"#000\" stroke-linecap=\"round\"
+  stroke-miterlimit=\"50\" stroke-width=\"2\" xlink:href=\"#5e7ob\"></use></g></g></svg></span></button>\n
+  \       </div>\n        <div class=\"modal-body\">\n          <h2>Want More?</h2>\n
+  \         <h3 class=\"newsletter-subtitle\">Get Our Best Recipes, Life Hacks, DIY
+  Ideas &amp; More… Delivered Right to Your Inbox</h3>\n          <div id=\"mouseout_modal-ajax-wrapper\"><form
+  class=\"ctd-mapp-signup-mouseout-modal\" data-drupal-selector=\"ctd-mapp-signup-mouseout-modal\"
+  action=\"/food/26806_how_to_cook_the_perfect_medium_rare_steak_sous_vide\" method=\"post\"
+  id=\"ctd-mapp-signup-mouseout-modal\" accept-charset=\"UTF-8\">\n  <div class=\"form-item
+  js-form-item form-type-email js-form-type-email form-item-email js-form-item-email
+  form-group\">\n      <label for=\"edit-email\" class=\"control-label js-form-required
+  form-required\">Email</label>\n  \n  \n  <input placeholder=\"Your email address\"
+  data-drupal-selector=\"edit-email\" class=\"form-email required form-control\" type=\"email\"
+  id=\"edit-email\" name=\"email\" value=\"\" size=\"60\" maxlength=\"132\" required=\"required\"
+  aria-required=\"true\">\n\n  \n  \n  </div>\n<input data-drupal-selector=\"edit-segment-id\"
+  type=\"hidden\" name=\"segment_id\" value=\"1244482\"><input data-drupal-selector=\"edit-acquisition-source\"
+  type=\"hidden\" name=\"acquisition_source\" value=\"popup\"><button data-drupal-selector=\"edit-submit-ctd-mapp-signup-mouseout-modal\"
+  class=\"button js-form-submit form-submit btn-default btn\" type=\"submit\" id=\"edit-submit-ctd-mapp-signup-mouseout-modal\"
+  name=\"submit-ctd_mapp_signup_mouseout_modal\" value=\"Subscribe\">Subscribe</button><input
+  autocomplete=\"off\" data-drupal-selector=\"form-m9l9kmjt39alqrlq9llwa3vaqnf-ftvjo1oh-6tplm\"
+  type=\"hidden\" name=\"form_build_id\" value=\"form-M9l9kmJt39aLqRLQ9lLWa3VaQNf-FTVJo1Oh--6TpLM\"><input
+  data-drupal-selector=\"edit-ctd-mapp-signup-mouseout-modal\" type=\"hidden\" name=\"form_id\"
+  value=\"ctd_mapp_signup_mouseout_modal\"><div class=\"EmailAddress-textfield form-group
+  js-form-wrapper form-wrapper\" style=\"display: none !important;\"><input autocomplete=\"off\"
+  data-drupal-selector=\"edit-emailaddress\" class=\"form-text form-control\" type=\"text\"
+  id=\"edit-emailaddress\" name=\"EmailAddress\" value=\"\" size=\"20\" maxlength=\"128\"></div>\n\n</form>\n</div>\n
+  \         <p class=\"disclaimer\">By signing up, I agree to the Terms &amp; to receive
+  emails from the “Rachael Ray” show</p>\n          <section class=\"block block-rachael-ray
+  block-social-block clearfix\">\n  \n    \n\n      <ul class=\"social-links\">\n
+  \     <li>\n        <a href=\"https://www.facebook.com/RachaelRayShow\" class=\"social-facebook\">\n
+  \           <span class=\"sr-only\">Rachael Ray Show Facebook</span>\n            <svg
+  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 10 18\">&gt;<path class=\"st0
+  icon-facebook\" d=\"M9.5 0H7.2C4.4 0 2.8 1.7 2.8 4.4v2H0.4C0.1 6.5 0 6.6 0 6.8v3c0
+  0.2 0.1 0.4 0.4 0.4h2.4v7.4c0 0.2 0.1 0.4 0.4 0.4h3.1c0.2 0 0.4-0.1 0.4-0.4v-7.4h2.8c0.2
+  0 0.4-0.1 0.4-0.4v-3c0-0.1 0-0.2 0-0.2 0-0.1-0.1-0.1-0.2-0.1H6.6V4.8c0-0.8 0.2-1.3
+  1.3-1.3h1.6c0.2 0 0.4-0.1 0.4-0.4V0.4C9.8 0.1 9.7 0 9.5 0z\"></path></svg>\n        </a>\n
+  \   </li>\n      <li>\n        <a href=\"https://twitter.com/rachaelrayshow\" class=\"social-twitter\">\n
+  \           <span class=\"sr-only\">Rachael Ray Show Twitter</span>\n            <svg
+  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 22 18\"><path class=\"st0 icon-twitter\"
+  d=\"M22 2.1c-0.8 0.3-1.7 0.6-2.7 0.7 0.9-0.6 1.6-1.4 2-2.4 -0.8 0.5-1.9 0.8-2.9
+  1 -0.8-0.8-2-1.4-3.2-1.4 -2.5 0-4.5 2-4.5 4.4 0 0.3 0 0.7 0.1 1 -3.8-0.2-7.2-2-9.5-4.6C0.9
+  1.4 0.7 2.2 0.7 3c0 1.5 0.8 2.9 2.1 3.7 -0.7 0-1.4-0.2-2.1-0.6l0 0c0 2.1 1.6 3.9
+  3.7 4.3 -0.3 0.1-0.8 0.1-1.2 0.1 -0.2 0-0.6 0-0.8-0.1 0.6 1.7 2.2 3 4.3 3 -1.5 1.2-3.5
+  1.9-5.7 1.9 -0.3 0-0.7 0-1-0.1 1.7 1.5 4.2 2.2 6.7 2.2 8.3 0 13-6.7 13-12.5V4.3C20.6
+  3.7 21.3 2.9 22 2.1z\"></path></svg>\n        </a>\n    </li>\n      <li>\n        <a
+  href=\"https://www.pinterest.com/rachaelrayshow/?autologin=true\" class=\"social-pinterest\">\n
+  \           <span class=\"sr-only\">Rachael Ray Show Pinterest</span>\n            <svg
+  xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 15 19\"><path class=\"st0 icon-pinterest\"
+  d=\"M14.7 5.3c-0.5-3.8-4.3-5.7-8.3-5.2C3.3 0.4 0.1 3 0 6.6c-0.1 2.2 0.6 3.9 2.7
+  4.4 0.9-1.6-0.3-2-0.5-3.2C1.4 3 7.7-0.3 11.1 3.1c2.3 2.3 0.8 9.5-2.9 8.7C4.6 11.1
+  9.9 5.4 7 4.3 4.8 3.4 3.5 7.1 4.6 8.9 4 12.1 2.6 15 3.2 19c1.8-1.3 2.4-3.8 2.9-6.4
+  0.9 0.6 1.4 1.1 2.5 1.2C12.9 14.1 15.3 9.5 14.7 5.3z\"></path></svg>\n        </a>\n
+  \   </li>\n      <li>\n        <a href=\"https://www.instagram.com/rachaelrayshow/\"
+  class=\"social-instagram\">\n            <span class=\"sr-only\">Rachael Ray Show
+  Instagram</span>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+  0 20 20\"><path class=\"st0 icon-instagram\" d=\"M9.5 0C6.9 0 6.6 0 5.6 0.1c-1 0-1.7
+  0.2-2.3 0.4C2.7 0.7 2.1 1.1 1.6 1.6 1.1 2.1 0.7 2.7 0.5 3.3 0.3 3.9 0.1 4.6 0.1
+  5.6 0 6.6 0 6.9 0 9.5s0 2.9 0.1 3.9c0 1 0.2 1.7 0.4 2.3 0.2 0.6 0.6 1.2 1.1 1.7
+  0.5 0.5 1.1 0.9 1.7 1.1 0.6 0.2 1.3 0.4 2.3 0.4 1 0 1.3 0.1 3.9 0.1s2.9 0 3.9-0.1c1
+  0 1.7-0.2 2.3-0.4 0.6-0.2 1.2-0.6 1.7-1.1 0.5-0.5 0.9-1.1 1.1-1.7 0.2-0.6 0.4-1.3
+  0.4-2.3 0-1 0.1-1.3 0.1-3.9s0-2.9-0.1-3.9c0-1-0.2-1.7-0.4-2.3 -0.2-0.6-0.6-1.2-1.1-1.7
+  -0.5-0.5-1.1-0.9-1.7-1.1 -0.6-0.2-1.3-0.4-2.3-0.4C12.4 0 12.1 0 9.5 0zM9.5 1.7c2.5
+  0 2.8 0 3.8 0.1 0.9 0 1.4 0.2 1.8 0.3 0.4 0.2 0.8 0.4 1.1 0.7 0.3 0.3 0.5 0.7 0.7
+  1.1 0.1 0.3 0.3 0.8 0.3 1.8 0.1 1 0.1 1.3 0.1 3.8s0 2.8-0.1 3.8c0 0.9-0.2 1.4-0.3
+  1.8 -0.2 0.4-0.4 0.8-0.7 1.1 -0.3 0.3-0.7 0.5-1.1 0.7 -0.3 0.1-0.8 0.3-1.8 0.3 -1
+  0.1-1.3 0.1-3.8 0.1s-2.8 0-3.8-0.1c-0.9 0-1.4-0.2-1.8-0.3 -0.5-0.2-0.8-0.4-1.1-0.7
+  -0.3-0.3-0.5-0.7-0.7-1.1 -0.1-0.3-0.3-0.8-0.3-1.8 0-1-0.1-1.3-0.1-3.8s0-2.8 0.1-3.8c0-0.9
+  0.2-1.4 0.3-1.8 0.2-0.5 0.4-0.8 0.7-1.1 0.3-0.3 0.7-0.5 1.1-0.7C4.2 2 4.7 1.8 5.7
+  1.8 6.7 1.7 7 1.7 9.5 1.7z\"></path><path class=\"st0 icon-instagram\" d=\"M9.5
+  12.7c-1.8 0-3.2-1.4-3.2-3.2s1.4-3.2 3.2-3.2 3.2 1.4 3.2 3.2S11.2 12.7 9.5 12.7zM9.5
+  4.6c-2.7 0-4.9 2.2-4.9 4.9s2.2 4.9 4.9 4.9 4.9-2.2 4.9-4.9S12.2 4.6 9.5 4.6z\"></path><circle
+  class=\"st0 icon-instagram\" cx=\"14.6\" cy=\"4.4\" r=\"1.1\"></circle></svg>\n
+  \       </a>\n    </li>\n      <li>\n        <a href=\"https://www.youtube.com/rachaelrayshow\"
+  class=\"social-youtube\">\n            <span class=\"sr-only\">Rachael Ray Show
+  Youtube</span>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0
+  0 24 18\"><path class=\"st0 icon-youtube\" d=\"M8.9 13.3V3.7l7.2 4.8L8.9 13.3zM22.8
+  3.8C22.8 1.7 21.1 0 19 0H3.8C1.7 0 0 1.7 0 3.8v10.3C0 16.3 1.7 18 3.8 18h15.2c2.2
+  0 3.8-1.7 3.8-3.8V3.8H22.8z\"></path></svg>\n        </a>\n    </li>\n  </ul>\n\n
+  \ </section>\n\n\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n
+  \ <script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"7925dc8d76\",\"applicationID\":\"114561697\",\"transactionName\":\"bwMAYhdUXUJSVUxZV1ZJI1URXFxfHHJKRUhZCj51CkdWbXVZSl1kfgkQWydAWl1XU0odBkoDDFIAR2NdUlVdWFdUAgdEI1pBXHJVTFlXVg==\",\"queueTime\":0,\"applicationTime\":541,\"atts\":\"Q0QDFF9OTkw=\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script>\n\n<ul
+  id=\"ui-id-1\" tabindex=\"0\" class=\"ui-menu ui-widget ui-widget-content ui-autocomplete
+  ui-front search-api-autocomplete-search\" style=\"display: none;\"></ul><div role=\"status\"
+  aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\"></div><iframe
+  src=\"https://c.sharethis.mgr.consensu.org/v1.0/cmp/portal.html\" id=\"st_gdpr_iframe\"
+  style=\"width: 0px; height: 0px; position: absolute; left: -5000px;\"></iframe></body></html>"

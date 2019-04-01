@@ -1,0 +1,1078 @@
+---
+:url: http://www.vcfed.org/forum/showthread.php?68612
+:body: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><html
+  xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:fb=\"http://www.facebook.com/2008/fbml\"
+  dir=\"ltr\" lang=\"en\" id=\"vbulletin_html\"><head>\n\t<meta http-equiv=\"Content-Type\"
+  content=\"text/html; charset=ISO-8859-1\">\n<meta id=\"e_vb_meta_bburl\" name=\"vb_meta_bburl\"
+  content=\"http://www.vcfed.org/forum\">\n<base href=\"http://www.vcfed.org/forum/\"><!--[if
+  IE]></base><![endif]-->\n<meta name=\"generator\" content=\"vBulletin 4.2.5\">\n<meta
+  http-equiv=\"X-UA-Compatible\" content=\"IE=9\">\n\n\t<link rel=\"Shortcut Icon\"
+  href=\"favicon.ico\" type=\"image/x-icon\">\n\n\n\n\n\n\n\t<meta property=\"fb:app_id\"
+  content=\"124672770889274\">\n<meta property=\"og:site_name\" content=\"Vintage
+  Computer Forum\">\n<meta property=\"og:description\" content=\"This is a discussion
+  forum about vintage computer collecting, use, restoration and display powered by
+  vBulletin. To find out about vBulletin, go to http://www.vbulletin.com/ .\">\n<meta
+  property=\"og:url\" content=\"http://www.vcfed.org/forum/showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan\">\n<meta
+  property=\"og:type\" content=\"article\">\n\n\n\n\n\n<script src=\"https://connect.facebook.net/en_US/sdk.js?hash=e18ec0caee392322df4dda2b686a51c6\"
+  async=\"\" crossorigin=\"anonymous\"></script><script async=\"\" src=\"//www.google-analytics.com/analytics.js\"></script><script
+  type=\"text/javascript\">\n<!--\n\tif (typeof YAHOO === 'undefined') // Load ALL
+  YUI Local\n\t{\n\t\tdocument.write('<script type=\"text/javascript\" src=\"clientscript/yui/yuiloader-dom-event/yuiloader-dom-event.js?v=425\"><\\/script>');\n\t\tdocument.write('<script
+  type=\"text/javascript\" src=\"clientscript/yui/connection/connection-min.js?v=425\"><\\/script>');\n\t\tvar
+  yuipath = 'clientscript/yui';\n\t\tvar yuicombopath = '';\n\t\tvar remoteyui = false;\n\t}\n\telse\t//
+  Load Rest of YUI remotely (where possible)\n\t{\n\t\tvar yuipath = 'clientscript/yui';\n\t\tvar
+  yuicombopath = '';\n\t\tvar remoteyui = true;\n\t\tif (!yuicombopath)\n\t\t{\n\t\t\tdocument.write('<script
+  type=\"text/javascript\" src=\"clientscript/yui/connection/connection-min.js?v=425\"><\\/script>');\n\t\t}\n\t}\n\tvar
+  SESSIONURL = \"s=1c7c2feab3cea6076465faec0e3e642e&\";\n\tvar SECURITYTOKEN = \"guest\";\n\tvar
+  IMGDIR_MISC = \"images/misc\";\n\tvar IMGDIR_BUTTON = \"images/buttons\";\n\tvar
+  vb_disable_ajax = parseInt(\"0\", 10);\n\tvar SIMPLEVERSION = \"425\";\n\tvar BBURL
+  = \"http://www.vcfed.org/forum\";\n\tvar LOGGEDIN = 0 > 0 ? true : false;\n\tvar
+  THIS_SCRIPT = \"showthread\";\n\tvar RELPATH = \"showthread.php?68612\";\n\tvar
+  PATHS = {\n\t\tforum : \"\",\n\t\tcms   : \"\",\n\t\tblog  : \"\"\n\t};\n\tvar AJAXBASEURL
+  = \"http://www.vcfed.org/forum/\";\n// -->\n</script><script type=\"text/javascript\"
+  src=\"clientscript/yui/yuiloader-dom-event/yuiloader-dom-event.js?v=425\"></script><style></style><script
+  type=\"text/javascript\" src=\"clientscript/yui/connection/connection-min.js?v=425\"></script>\n<script
+  type=\"text/javascript\" src=\"http://www.vcfed.org/forum/clientscript/vbulletin-core.js?v=425\"></script>\n\n\n\n\t<link
+  rel=\"alternate\" type=\"application/rss+xml\" title=\"Vintage Computer Forum RSS
+  Feed\" href=\"http://www.vcfed.org/forum/external.php?type=RSS2\">\n\t\n\t\t<link
+  rel=\"alternate\" type=\"application/rss+xml\" title=\"Vintage Computer Forum -
+  General Vintage Computer Discussions - RSS Feed\" href=\"http://www.vcfed.org/forum/external.php?type=RSS2&amp;forumids=14\">\n\t\n\n\n\n\t<link
+  rel=\"stylesheet\" type=\"text/css\" href=\"css.php?styleid=2&amp;langid=1&amp;d=1550528463&amp;td=ltr&amp;sheet=bbcode.css,editor.css,popupmenu.css,reset-fonts.css,vbulletin.css,vbulletin-chrome.css,vbulletin-formcontrols.css,\">\n\n\t<!--[if
+  lt IE 8]>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css.php?styleid=2&amp;langid=1&amp;d=1550528463&amp;td=ltr&amp;sheet=popupmenu-ie.css,vbulletin-ie.css,vbulletin-chrome-ie.css,vbulletin-formcontrols-ie.css,editor-ie.css\"
+  />\n\t<![endif]-->\n\n\n\t<meta name=\"keywords\" content=\"retrobrite, pretty,
+  plastic, couple, strange, yellow, tank, submersion, satisfied, cleared, tint, floppy,
+  side, drive, find, life, corner, possibly, bottom, drain, 51529, 51530, point, black,
+  spots, speckled, 51531, note, handle, coating, 51532, 51533, thought, mildew, needed,
+  keyboard, space, back, rubbery, rough, shape, units, purchased, left, mice, loaded,
+  mouse, decades, ridden, garage\">\n\t<meta name=\"description\" content=\"So I bought
+  a 25 gallon Rubbermaid container. cut a couple rectangular holes in the top that
+  fit the lenses of a couple fluourecent UV lamps I have. Hot glued the lamps into
+  position (and to semi-waterproof the lamps). The entire outside of the container
+  is covered in aluminum foil. \n \nMy first attempt was to retrobrite some very yellow
+  apple IIc 9&quot; mono crt housings. I am using warm water with sodium percarbonate.
+  Unfortunately nowhere on the internet can I find how much SP powder to use. All\">\n\n\t<title>
+  Finally built my submersion retrobrite tank... didnt go according to plan.</title>\n\t<link
+  rel=\"canonical\" href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e\">\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\n\t\n\t\t<link
+  rel=\"stylesheet\" type=\"text/css\" href=\"css.php?styleid=2&amp;langid=1&amp;d=1550528463&amp;td=ltr&amp;sheet=toolsmenu.css,postlist.css,showthread.css,postbit.css,options.css,attachment.css,poll.css,lightbox.css\">\n\t\n\t<!--[if
+  lt IE 8]><link rel=\"stylesheet\" type=\"text/css\" href=\"css.php?styleid=2&amp;langid=1&amp;d=1550528463&amp;td=ltr&amp;sheet=toolsmenu-ie.css,postlist-ie.css,showthread-ie.css,postbit-ie.css,poll-ie.css\"
+  /><![endif]-->\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css.php?styleid=2&amp;langid=1&amp;d=1550528463&amp;td=ltr&amp;sheet=additional.css\">\n\n<script
+  id=\"facebook-jssdk\" async=\"\" src=\"//connect.facebook.net/en_US/sdk.js\"></script><style
+  type=\"text/css\">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:\"lucida
+  grande\", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes
+  fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform
+  .3s forwards}\n.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
+  no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile
+  .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
+  no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
+  no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content
+  .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content
+  .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif)
+  no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif)
+  white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered
+  #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered
+  .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root
+  #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root
+  #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading
+  iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content
+  .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px
+  solid;border-color:#1d3c78;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold
+  14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875)
+  0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header
+  table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content
+  .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content
+  .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px
+  solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px
+  12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold
+  12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0,
+  30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content
+  .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif)
+  no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content
+  .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile
+  .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile
+  .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner
+  1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50%
+  50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}\n.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget
+  span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget
+  iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop
+  span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop
+  iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid
+  span{width:100%}</style></head>\n\n<body>\n\n<table width=\"100%\" bgcolor=\"15a593\"><tbody><tr>\n\n<td>\n\n<img
+  src=\"http://www.vcfed.org/forum/fed_header/fed_header_left2.png\" border=\"0\"
+  width=\"522\" height=\"48\" orgwidth=\"522\" orgheight=\"48\" usemap=\"#image-maps-2017-01-13-011724\"
+  alt=\"\">\n<map name=\"image-maps-2017-01-13-011724\" id=\"ImageMapsCom-image-maps-2017-01-13-011724\">\n<area
+  alt=\"\" title=\"\" href=\"http://vcfed.org/wp/about/\" shape=\"rect\" coords=\"12,3,58,47\"
+  style=\"outline:none;\" target=\"_self\">\n<area alt=\"\" title=\"\" href=\"http://vcfed.org/wp/\"
+  shape=\"rect\" coords=\"67,1,101,48\" style=\"outline:none;\" target=\"_self\">\n<area
+  alt=\"\" title=\"\" href=\"http://vcfed.org/wp/contribute/\" shape=\"rect\" coords=\"109,1,182,46\"
+  style=\"outline:none;\" target=\"_self\">\n<area alt=\"\" title=\"\" href=\"http://vcfed.org/wp/festivals/\"
+  shape=\"rect\" coords=\"190,0,249,46\" style=\"outline:none;\" target=\"_self\">\n<area
+  alt=\"\" title=\"\" href=\"http://www.vcfed.org/forum/forum.php\" shape=\"rect\"
+  coords=\"260,2,305,46\" style=\"outline:none;\" target=\"_self\">\n<area alt=\"\"
+  title=\"\" href=\"http://vcfed.org/wp/groups/\" shape=\"rect\" coords=\"314,0,366,48\"
+  style=\"outline:none;\" target=\"_self\">\n<area alt=\"\" title=\"\" href=\"http://vcfed.org/wp/museums/\"
+  shape=\"rect\" coords=\"375,2,433,48\" style=\"outline:none;\" target=\"_self\">\n<area
+  alt=\"\" title=\"\" href=\"http://vcfed.org/wp/newsletter/\" shape=\"rect\" coords=\"444,2,517,47\"
+  style=\"outline:none;\" target=\"_self\">\n<area shape=\"rect\" coords=\"520,46,522,48\"
+  alt=\"Image Map\" style=\"outline:none;\" title=\"Image Map\" href=\"http://www.image-maps.com/index.php?aff=mapped_users_79991\">\n</map>\n\n\n\n\n\n\n\n</td>\n\n<td
+  align=\"right\">\n\n<img src=\"http://www.vcfed.org/forum/fed_header/fed_header_right2.png\"
+  border=\"0\" width=\"207\" height=\"48\" orgwidth=\"207\" orgheight=\"48\" usemap=\"#image-maps-2017-01-13-013016\"
+  alt=\"\">\n<map name=\"image-maps-2017-01-13-013016\" id=\"ImageMapsCom-image-maps-2017-01-13-013016\">\n<area
+  alt=\"\" title=\"\" href=\"http://facebook.com/vcfederation\" shape=\"rect\" coords=\"5,2,33,47\"
+  style=\"outline:none;\" target=\"_self\">\n<area alt=\"\" title=\"\" href=\"http://twitter.com/vcfederation\"
+  shape=\"rect\" coords=\"42,1,69,48\" style=\"outline:none;\" target=\"_self\">\n<area
+  alt=\"\" title=\"\" href=\"http://www.youtube.com/c/VintageComputerFederation501c3\"
+  shape=\"rect\" coords=\"83,1,113,48\" style=\"outline:none;\" target=\"_self\">\n<area
+  alt=\"\" title=\"\" href=\"https://www.instagram.com/vcfederation/\" shape=\"rect\"
+  coords=\"124,1,151,48\" style=\"outline:none;\" target=\"_self\">\n<area shape=\"rect\"
+  coords=\"205,46,207,48\" alt=\"Image Map\" style=\"outline:none;\" title=\"Image
+  Map\" href=\"http://www.image-maps.com/index.php?aff=mapped_users_79991\">\n</map>\n\n</td>\n\n</tr>\n\n</tbody></table>\n\n\n<div
+  class=\"above_body\"> <!-- closing tag is in template navbar -->\n<div id=\"header\"
+  class=\"floatcontainer doc_header\">\n\t\n\n<div>\n\n\n<a name=\"top\" href=\"http://vcfed.org/wp/festivals/\"
+  class=\"logo-image\"><img src=\"images/misc/soon.png\" alt=\"Vintage Computer Forum
+  - Powered by vBulletin\" title=\"Vintage Computer Forum - Powered by vBulletin\"></a>\n\n</div>\n\t<div
+  id=\"toplinks\" class=\"toplinks\">\n\t\t\n\t\t\t<ul class=\"nouser\">\n\t\t\t\n\t\t\t\t<li><a
+  href=\"register.php?s=1c7c2feab3cea6076465faec0e3e642e\" rel=\"nofollow\">Register</a></li>\n\t\t\t\n\t\t\t\t<li><a
+  rel=\"help\" href=\"faq.php?s=1c7c2feab3cea6076465faec0e3e642e\">Help</a></li>\n\t\t\t\t<li>\n\t\t\t<script
+  type=\"text/javascript\" src=\"clientscript/vbulletin_md5.js?v=425\"></script>\n\t\t\t<form
+  id=\"navbar_loginform\" action=\"login.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=login\"
+  method=\"post\" onsubmit=\"md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf,
+  0)\">\n\t\t\t\t<fieldset id=\"logindetails\" class=\"logindetails\">\n\t\t\t\t\t<div>\n\t\t\t\t\t\t<div>\n\t\t\t\t\t<input
+  type=\"text\" class=\"textbox default-value\" name=\"vb_login_username\" id=\"navbar_username\"
+  size=\"10\" accesskey=\"u\" tabindex=\"101\" value=\"User Name\">\n\t\t\t\t\t<input
+  type=\"password\" class=\"textbox\" tabindex=\"102\" name=\"vb_login_password\"
+  id=\"navbar_password\" size=\"10\" style=\"display: none;\">\n\t\t\t\t\t<input type=\"text\"
+  class=\"textbox default-value\" tabindex=\"102\" name=\"vb_login_password_hint\"
+  id=\"navbar_password_hint\" size=\"10\" value=\"Password\" style=\"display: inline;\">\n\t\t\t\t\t<input
+  type=\"submit\" class=\"loginbutton\" tabindex=\"104\" value=\"Log in\" title=\"Enter
+  your username and password in the boxes provided to login, or click the 'register'
+  button to create a profile for yourself.\" accesskey=\"s\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</fieldset>\n\t\t\t\t<div
+  id=\"remember\" class=\"remember\">\n\t\t\t\t\t<label for=\"cb_cookieuser_navbar\"><input
+  type=\"checkbox\" name=\"cookieuser\" value=\"1\" id=\"cb_cookieuser_navbar\" class=\"cb_cookieuser_navbar\"
+  accesskey=\"c\" tabindex=\"103\"> Remember Me?</label>\n\t\t\t\t</div>\n\n\t\t\t\t<input
+  type=\"hidden\" name=\"s\" value=\"1c7c2feab3cea6076465faec0e3e642e\">\n\t\t\t\t<input
+  type=\"hidden\" name=\"securitytoken\" value=\"guest\">\n\t\t\t\t<input type=\"hidden\"
+  name=\"do\" value=\"login\">\n\t\t\t\t<input type=\"hidden\" name=\"vb_login_md5password\">\n\t\t\t\t<input
+  type=\"hidden\" name=\"vb_login_md5password_utf\">\n\t\t\t</form>\n\t\t\t<script
+  type=\"text/javascript\">\n\t\t\tYAHOO.util.Dom.setStyle('navbar_password_hint',
+  \"display\", \"inline\");\n\t\t\tYAHOO.util.Dom.setStyle('navbar_password', \"display\",
+  \"none\");\n\t\t\tvB_XHTML_Ready.subscribe(function()\n\t\t\t{\n\t\t\t//\n\t\t\t\tYAHOO.util.Event.on('navbar_username',
+  \"focus\", navbar_username_focus);\n\t\t\t\tYAHOO.util.Event.on('navbar_username',
+  \"blur\", navbar_username_blur);\n\t\t\t\tYAHOO.util.Event.on('navbar_password_hint',
+  \"focus\", navbar_password_hint);\n\t\t\t\tYAHOO.util.Event.on('navbar_password',
+  \"blur\", navbar_password);\n\t\t\t});\n\t\t\t\n\t\t\tfunction navbar_username_focus(e)\n\t\t\t{\n\t\t\t//\n\t\t\t\tvar
+  textbox = YAHOO.util.Event.getTarget(e);\n\t\t\t\tif (textbox.value == 'User Name')\n\t\t\t\t{\n\t\t\t\t//\n\t\t\t\t\ttextbox.value='';\n\t\t\t\t\ttextbox.style.color='#000000';\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction
+  navbar_username_blur(e)\n\t\t\t{\n\t\t\t//\n\t\t\t\tvar textbox = YAHOO.util.Event.getTarget(e);\n\t\t\t\tif
+  (textbox.value == '')\n\t\t\t\t{\n\t\t\t\t//\n\t\t\t\t\ttextbox.value='User Name';\n\t\t\t\t\ttextbox.style.color='#777777';\n\t\t\t\t}\n\t\t\t}\n\t\t\t\n\t\t\tfunction
+  navbar_password_hint(e)\n\t\t\t{\n\t\t\t//\n\t\t\t\tvar textbox = YAHOO.util.Event.getTarget(e);\n\t\t\t\t\n\t\t\t\tYAHOO.util.Dom.setStyle('navbar_password_hint',
+  \"display\", \"none\");\n\t\t\t\tYAHOO.util.Dom.setStyle('navbar_password', \"display\",
+  \"inline\");\n\t\t\t\tYAHOO.util.Dom.get('navbar_password').focus();\n\t\t\t}\n\n\t\t\tfunction
+  navbar_password(e)\n\t\t\t{\n\t\t\t//\n\t\t\t\tvar textbox = YAHOO.util.Event.getTarget(e);\n\t\t\t\t\n\t\t\t\tif
+  (textbox.value == '')\n\t\t\t\t{\n\t\t\t\t\tYAHOO.util.Dom.setStyle('navbar_password_hint',
+  \"display\", \"inline\");\n\t\t\t\t\tYAHOO.util.Dom.setStyle('navbar_password',
+  \"display\", \"none\");\n\t\t\t\t}\n\t\t\t}\n\t\t\t</script>\n\t\t\t\t\n\t\t\n\t</li></ul></div>\n\t<div
+  class=\"ad_global_header\" hidden=\"\" uwe0jkx=\"\">\n\t\t\n\t\t\n\t</div>\n\t<hr>\n</div>\n<div
+  id=\"navbar\" class=\"navbar\" align=\"right\">\n\t<ul id=\"navtabs\" class=\"navtabs
+  floatcontainer\">\n\t\t\n\t\t\n\t\n\t\t<li id=\"vbtab_whatsnew\">\n\t\t\t<a class=\"navtab\"
+  href=\"activity.php?s=1c7c2feab3cea6076465faec0e3e642e\">What's new?</a>\n\t\t</li>\n\t\t\n\t\t\n\n\t\n\t\t<li
+  class=\"selected\" id=\"vbtab_forum\">\n\t\t\t<a class=\"navtab\" href=\"forum.php?s=1c7c2feab3cea6076465faec0e3e642e\">Forum</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\t<ul
+  class=\"floatcontainer\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  id=\"vbflink_newposts\"><a href=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=getnew&amp;contenttype=vBForum_Post\">New
+  Posts</a></li>\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  id=\"vbflink_faq\"><a href=\"faq.php?s=1c7c2feab3cea6076465faec0e3e642e\">FAQ</a></li>\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  id=\"vbflink_calendar\"><a href=\"calendar.php?s=1c7c2feab3cea6076465faec0e3e642e\">Calendar</a></li>\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<li
+  class=\"popupmenu\" id=\"vbmenu_community\">\n\t\t\t\t\t\t\t<a href=\"javascript://\"
+  class=\"popupctrl\" id=\"yui-gen1\">Community</a>\n\t\t\t\t\t\t\t<ul class=\"popupbody\"
+  id=\"yui-gen0\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li id=\"vbclink_groups\"><a
+  href=\"group.php?s=1c7c2feab3cea6076465faec0e3e642e\">Groups</a></li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li
+  id=\"vbclink_albums\"><a href=\"album.php?s=1c7c2feab3cea6076465faec0e3e642e\">Albums</a></li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li
+  id=\"vbclink_members\"><a href=\"memberlist.php?s=1c7c2feab3cea6076465faec0e3e642e\">Member
+  List</a></li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<li
+  class=\"popupmenu\" id=\"vbmenu_actions\">\n\t\t\t\t\t\t\t<a href=\"javascript://\"
+  class=\"popupctrl\" id=\"yui-gen3\">Forum Actions</a>\n\t\t\t\t\t\t\t<ul class=\"popupbody\"
+  id=\"yui-gen2\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li id=\"vbalink_mfr\"><a
+  href=\"forumdisplay.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=markread&amp;markreadhash=guest\">Mark
+  Forums Read</a></li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<li
+  class=\"popupmenu\" id=\"vbmenu_qlinks\">\n\t\t\t\t\t\t\t<a href=\"javascript://\"
+  class=\"popupctrl\" id=\"yui-gen5\">Quick Links</a>\n\t\t\t\t\t\t\t<ul class=\"popupbody\"
+  id=\"yui-gen4\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li id=\"vbqlink_posts\"><a
+  href=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=getdaily&amp;contenttype=vBForum_Post\">Today's
+  Posts</a></li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li id=\"vbqlink_leaders\"><a
+  href=\"showgroups.php?s=1c7c2feab3cea6076465faec0e3e642e\">View Site Leaders</a></li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</ul>\n\t\t\n\n\t\n\t\t<li
+  id=\"vbtab_blog\">\n\t\t\t<a class=\"navtab\" href=\"blog.php?s=1c7c2feab3cea6076465faec0e3e642e\">Blogs</a>\n\t\t</li>\n\t\t\n\t\t\n\n\t\n\t\t<li
+  id=\"vbtab_cms\">\n\t\t\t<a class=\"navtab\" href=\"content.php?s=1c7c2feab3cea6076465faec0e3e642e\">Articles</a>\n\t\t</li>\n\t\t\n\t\t\n\n\t\t\n\t</ul>\n\t\n\t\t<div
+  id=\"globalsearch\" class=\"globalsearch\">\n\t\t\t<form action=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=process\"
+  method=\"post\" id=\"navbar_search\" class=\"navbar_search\">\n\t\t\t\t\n\t\t\t\t<input
+  type=\"hidden\" name=\"securitytoken\" value=\"guest\">\n\t\t\t\t<input type=\"hidden\"
+  name=\"do\" value=\"process\">\n\t\t\t\t<span class=\"textboxcontainer\"><span><input
+  type=\"text\" value=\"\" name=\"query\" class=\"textbox\" tabindex=\"99\"></span></span>\n\t\t\t\t<span
+  class=\"buttoncontainer\"><span><input type=\"image\" class=\"searchbutton\" src=\"images/buttons/search.png\"
+  name=\"submit\" onclick=\"document.getElementById('navbar_search').submit;\" tabindex=\"100\"></span></span>\n\t\t\t</form>\n\t\t\t<ul
+  class=\"navbar_advanced_search\">\n\t\t\t\t<li><a href=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e\"
+  accesskey=\"4\">Advanced Search</a></li>\n\t\t\t\t\n\t\t\t</ul>\n\t\t</div>\n\t\n</div>\n</div><!--
+  closing div for above_body -->\n\n<div class=\"body_wrapper\">\n<div id=\"breadcrumb\"
+  class=\"breadcrumb\">\n\t<ul class=\"floatcontainer\">\n\t\t<li class=\"navbithome\"><a
+  href=\"index.php?s=1c7c2feab3cea6076465faec0e3e642e\" accesskey=\"1\"><img src=\"images/misc/navbit-home.png\"
+  alt=\"Home\" title=\"Home\"></a></li>\n\t\t\n\t<li class=\"navbit\"><a href=\"forum.php?s=1c7c2feab3cea6076465faec0e3e642e\">Forum</a></li>\n\n\t<li
+  class=\"navbit\"><a href=\"forumdisplay.php?5-Collections-Community&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Collections/Community</a></li>\n\n\t<li
+  class=\"navbit\"><a href=\"forumdisplay.php?14-General-Vintage-Computer-Discussions&amp;s=1c7c2feab3cea6076465faec0e3e642e\">General
+  Vintage Computer Discussions</a></li>\n\n\t\t\n\t<li class=\"navbit lastnavbit\"><span>
+  Finally built my submersion retrobrite tank... didnt go according to plan.</span></li>\n\n\t</ul>\n\t<hr>\n</div>\n\n\n\n\n\n\n\n\n\t<form
+  action=\"profile.php?do=dismissnotice\" method=\"post\" id=\"notices\" class=\"notices\">\n\t\t<input
+  type=\"hidden\" name=\"do\" value=\"dismissnotice\">\n\t\t<input type=\"hidden\"
+  name=\"s\" value=\"s=1c7c2feab3cea6076465faec0e3e642e&amp;\">\n\t\t<input type=\"hidden\"
+  name=\"securitytoken\" value=\"guest\">\n\t\t<input type=\"hidden\" id=\"dismiss_notice_hidden\"
+  name=\"dismiss_noticeid\" value=\"\">\n\t\t<input type=\"hidden\" name=\"url\" value=\"\">\n\t\t<ol>\n\t\t\t<li
+  class=\"restore\" id=\"navbar_notice_1\">\n\t\n\tIf this is your first visit, be
+  sure to\n\t\tcheck out the <a href=\"faq.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;\"
+  target=\"_blank\"><b>FAQ</b></a> by clicking the\n\t\tlink above. You may have to
+  <a href=\"register.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;\" target=\"_blank\"><b>register</b></a>\n\t\tbefore
+  you can post: click the register link above to proceed. To start viewing messages,\n\t\tselect
+  the forum that you want to visit from the selection below.\n</li>\n\t\t</ol>\n\t</form>\n\n\n\n\n\n\t<div
+  id=\"above_postlist\" class=\"above_postlist\">\n\t\t\n\t\t<div id=\"pagination_top\"
+  class=\"pagination_top\">\n\t\t\n\t\t\t<form action=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan/page5&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  method=\"get\" class=\"pagination popupmenu nohovermenu\" id=\"yui-gen6\">\n<input
+  type=\"hidden\" name=\"t\" value=\"68612\"><input type=\"hidden\" name=\"s\" value=\"1c7c2feab3cea6076465faec0e3e642e\">\n\t\n\t\t<span><a
+  href=\"javascript://\" class=\"popupctrl\" id=\"yui-gen8\">Page 1 of 5</a></span>\n\t\t\n\t\t\n\t\t\n\t\t<span
+  class=\"selected\"><a href=\"javascript://\" title=\"Results 1 to 10 of 46\">1</a></span><span><a
+  href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan/page2&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"Show results 11 to 20 of 46\">2</a></span><span><a href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan/page3&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"Show results 21 to 30 of 46\">3</a></span><span><a href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan/page4&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"Show results 31 to 40 of 46\">4</a></span><span><a href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan/page5&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"Show results 41 to 46 of 46\">5</a></span>\n\t\t\n\t\t\n\t\t<span class=\"prev_next\"><a
+  rel=\"next\" href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan/page2&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"Next Page - Results 11 to 20 of 46\"><img src=\"images/pagination/next-right.png\"
+  alt=\"Next\" title=\"Next\"></a></span>\n\t\t\n\t\t\n\t\t<span class=\"first_last\"><a
+  href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan/page5&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"Last Page - Results 41 to 46 of 46\">Last<img src=\"images/pagination/last-right.png\"
+  alt=\"Last\" title=\"Last\"></a></span>\n\t\t\n\t\n\t<ul class=\"popupbody\" id=\"yui-gen7\">\n\t\t<li
+  class=\"formsubmit jumptopage\"><label>Jump to page: <input type=\"text\" name=\"page\"
+  size=\"4\"></label> <input type=\"submit\" class=\"button\" value=\"Go\"></li>\n\t</ul>\n</form>\n\t\t\n\t\t\t<div
+  id=\"postpagestats_above\" class=\"postpagestats\">\n\t\t\t\tResults 1 to 10 of
+  46\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div id=\"pagetitle\" class=\"pagetitle\">\n\t\t<h1>\n\t\t\tThread:
+  <span class=\"threadtitle\"><a href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"Reload this Page\">Finally built my submersion retrobrite tank... didnt
+  go according to plan.</a></span>\n\t\t</h1>\n\t\t\n\t\t\t\n<fb:like href=\"http://www.vcfed.org/forum/showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan\"
+  font=\"tahoma\" layout=\"standard\" show_faces=\"false\" width=\"300\" action=\"like\"
+  colorscheme=\"light\" data-share=\"true\" class=\" fb_iframe_widget\" fb-xfbml-state=\"rendered\"
+  fb-iframe-plugin-query=\"action=like&amp;app_id=124672770889274&amp;color_scheme=light&amp;container_width=0&amp;font=tahoma&amp;href=http%3A%2F%2Fwww.vcfed.org%2Fforum%2Fshowthread.php%3F68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false&amp;width=300\"><span
+  style=\"vertical-align: bottom; width: 300px; height: 20px;\"><iframe name=\"f94ef2599f5658\"
+  width=\"300px\" height=\"1000px\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\"
+  scrolling=\"no\" allow=\"encrypted-media\" title=\"fb:like Facebook Social Plugin\"
+  src=\"https://www.facebook.com/v2.2/plugins/like.php?action=like&amp;app_id=124672770889274&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fd_vbiawPdxB.js%3Fversion%3D44%23cb%3Df93db02bdaa6e4%26domain%3Dwww.vcfed.org%26origin%3Dhttp%253A%252F%252Fwww.vcfed.org%252Ff3fe13df2565e4c%26relation%3Dparent.parent&amp;color_scheme=light&amp;container_width=0&amp;font=tahoma&amp;href=http%3A%2F%2Fwww.vcfed.org%2Fforum%2Fshowthread.php%3F68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false&amp;width=300\"
+  style=\"border: none; visibility: visible; width: 300px; height: 20px;\" class=\"\"></iframe></span></fb:like>\n\t\t\n\t</div>\n\t<div
+  id=\"thread_controls\" class=\"thread_controls toolsmenu\">\n\t\t<div>\n\t\t<ul
+  id=\"postlist_popups\" class=\"postlist_popups popupgroup\">\n\t\t\t\n\t\t\t\n\t\t\t<li
+  class=\"popupmenu\" id=\"threadtools\">\n\t\t\t\t<h6><a class=\"popupctrl\" href=\"javascript://\"
+  id=\"yui-gen10\">Thread Tools</a></h6>\n\t\t\t\t<ul class=\"popupbody\" id=\"yui-gen9\">\n\t\t\t\t\t<li><a
+  href=\"printthread.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;t=68612&amp;pp=10&amp;page=1\"
+  accesskey=\"3\" rel=\"nofollow\">Show Printable Version</a></li>\n\t\t\t\t\t\n\t\t\t\t\t<li>\n\t\t\t\t\t\t\n\t\t\t\t\t</li>\n\t\t\t\t\t\n\t\t\t\t</ul>\n\t\t\t</li>\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\t\t<li
+  class=\"popupmenu\" id=\"displaymodes\">\n\t\t\t\t\t<h6><a class=\"popupctrl\" href=\"javascript://\"
+  id=\"yui-gen12\">Display</a></h6>\n\t\t\t\t\t<ul class=\"popupbody\" id=\"yui-gen11\">\n\t\t\t\t\t\t<li><label>Linear
+  Mode</label></li>\n\t\t\t\t\t\t<li><a href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e&amp;mode=hybrid\">
+  Switch to Hybrid Mode</a></li>\n\t\t\t\t\t\t<li><a href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559651&amp;mode=threaded#post559651\">
+  Switch to Threaded Mode</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</li>\n\t\t\t\n\n\t\t\t\n\t\t\t</ul>\n\t\t</div>\n\t</div>\n\n<div
+  id=\"postlist\" class=\"postlist restrain\">\n\t\n\n\t\n\t\t<ol id=\"posts\" class=\"posts\"
+  start=\"1\">\n\t\t\t\n<li class=\"postbit postbitim postcontainer old\" id=\"post_559651\">\n\t<div
+  class=\"postdetails_noavatar\">\n\t\t<div class=\"posthead\">\n                        \n
+  \                               <span class=\"postdate old\">\n                                        \n
+  \                                               <span class=\"date\">February 26th,
+  2019,&nbsp;<span class=\"time\">06:46 AM</span></span>\n                                        \n
+  \                               </span>\n                                <span class=\"nodecontrols\">\n
+  \                                       \n                                                <a
+  name=\"post559651\" href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559651#post559651\"
+  class=\"postcounter\">#1</a><a id=\"postcount559651\" name=\"1\"></a>\n                                        \n
+  \                                       \n                                        \n
+  \                               </span>\n                        \n\t\t</div>\n\n\t\t<div
+  class=\"userinfo\">\n\t\t\t<div class=\"contact\">\n\t\t\t\t\n\t\t\t\t\t<a class=\"postuseravatarlink\"
+  href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\" title=\"VERAULT
+  is online now\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"image.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=22724&amp;dateline=1519784310\"
+  alt=\"VERAULT's Avatar\" title=\"VERAULT's Avatar\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>\n\t\t\t\t\n\t\t\t\t<div
+  class=\"username_container\">\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"popupmenu memberaction\"
+  id=\"yui-gen13\">\n\t<a class=\"username online popupctrl\" href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"VERAULT is online now\" id=\"yui-gen15\"><strong>VERAULT</strong></a>\n\t<ul
+  class=\"popupbody memberaction_body\" id=\"yui-gen14\">\n\t\t<li class=\"left\">\n\t\t\t<a
+  href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\" class=\"siteicon_profile\">\n\t\t\t\tView
+  Profile\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t<li class=\"right\">\n\t\t\t<a href=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=finduser&amp;userid=22724&amp;contenttype=vBForum_Post&amp;showposts=1\"
+  class=\"siteicon_forum\" rel=\"nofollow\">\n\t\t\t\tView Forum Posts\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t<li
+  class=\"left\">\n\t\t\t<a href=\"private.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newpm&amp;u=22724\"
+  class=\"siteicon_message\" rel=\"nofollow\">\n\t\t\t\tPrivate Message\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"blog.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=22724\"
+  class=\"siteicon_blog\" rel=\"nofollow\">\n\t\t\t\tView Blog Entries\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"http://www.vcfed.org/forum/list.php?author/22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  class=\"siteicon_article\" rel=\"nofollow\">\n\t\t\t\tView Articles\n\t\t\t</a>\n\t\t</li>\n\t\t\n\n\t\t\n\n\t\t\n\t\t\n\t</ul>\n</div>\n\t\t\t\t\t\t<img
+  class=\"inlineimg onlinestatus\" src=\"images/statusicon/user-online.png\" alt=\"VERAULT
+  is online now\" border=\"0\" title=\"VERAULT is online now\">\n\n\t\t\t\t\t\n\t\t\t\t\t<span
+  class=\"usertitle\">\n\t\t\t\t\t\tSenior Member\n\t\t\t\t\t</span>\n\t\t\t\t\t\n\n
+  \                                       \n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<div
+  class=\"imlinks\">\n\t\t\t\t\t\t\t <a href=\"javascript://\" onclick=\"imwindow('aim',
+  '22724', 440, 255); return false;\"><img src=\"images/misc/im_aim.gif\" alt=\"Send
+  a message via AIM to VERAULT\" title=\"Send a message via AIM to VERAULT\"></a>
+  \  \n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t<div
+  class=\"userinfo_extra\">\n\t\t\t\t\t<dl class=\"userstats\">\n\t\t\t\t\t\t<dt>Join
+  Date</dt> <dd>Jan 2012</dd>\n\t\t\t\t\t\t<dt>Location</dt> <dd>Connecticut, USA</dd>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<dt>Posts</dt>
+  <dd>1,913</dd>\t\n\t\t\t\t\t\t\n\t\t\t\t\t</dl>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n\n\t<div
+  class=\"postbody\">\n\t\t\n\t\t<div class=\"postrow\">\n\t\t\n\t\t<h2 class=\"posttitle
+  icon\">\n\t\t\t<img src=\"images/icons/icon1.png\" alt=\"Default\" title=\"Default\">
+  Finally built my submersion retrobrite tank... didnt go according to plan.\n\t\t</h2>\n\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t<div
+  class=\"content\">\n\t\t\t<div id=\"post_message_559651\">\n\t\t\t\t<blockquote
+  class=\"postcontent restore\">\n\t\t\t\t\tSo I bought a 25 gallon Rubbermaid container.
+  cut a couple rectangular holes in the top that fit the lenses of a couple fluourecent
+  UV lamps I have. Hot glued the lamps into position (and to semi-waterproof the lamps).
+  The entire outside of the container is covered in aluminum foil.<br>\n<br>\nMy first
+  attempt was to retrobrite some very yellow apple IIc 9\" mono crt housings. I am
+  using warm water with sodium percarbonate. Unfortunately nowhere on the internet
+  can I find how much SP powder to use. All I know is the mixture did not bubble up
+  the skin on my hands as much as straight hydrogen peroxide would do from the bottle.
+  I left everything submersed with the uv lamps on all night. In the morning everything
+  was covered in bubbles but they weren't even the slightest bit less yellow.<br>\n<br>\nA
+  few factors come to mind. Not enough sodium percarbonate powder. The water wasn't
+  warm enough (I have an aquarium heater but didn't use it). The UV lamps aren't powerful
+  enough and maybe I should buy LED style lamps, but honestly Id like to not spend
+  the money. I also have a very small submersible pump but I don't know if hats necessary.<br>\n<br>\nAfter
+  work I am going to add 2 to 3 times the sodium percarbonate..<br>\n      But I was
+  hoping you guys may have some ideas.  Its the dead of winter and freezing temps
+  so outdoor retrobrite is reserved for our short summer months. <br>\n<br>\nSo what
+  do you guys think?\n\t\t\t\t</blockquote>\n\t\t\t</div>\n\n\t\t\t\n\n\n\t\t</div>\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t</div>\n\t<div
+  class=\"postfoot\">\n\t\t<div class=\"textcontrols floatcontainer\">\n\t\t\t<span
+  class=\"postcontrols\">\n\t\t\t\t<img style=\"display:none\" id=\"progress_559651\"
+  src=\"images/misc/progress.gif\" alt=\"\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<a
+  id=\"qrwq_559651\" class=\"newreply\" href=\"newreply.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newreply&amp;p=559651\"
+  rel=\"nofollow\" title=\"Reply With Quote\"><img id=\"quoteimg_559651\" src=\"clear.gif\"
+  alt=\"Reply With Quote\" title=\"Reply With Quote\">  Reply With Quote</a> \n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</span>\n\t\t\t<span
+  class=\"postlinking\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t \n\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t
+  \n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t</span>\n\t\t</div>\n\t</div>\n\t<hr>\n</li>\n\n<li
+  class=\"postbit postbitim postcontainer old\" id=\"post_559663\">\n\t<div class=\"postdetails_noavatar\">\n\t\t<div
+  class=\"posthead\">\n                        \n                                <span
+  class=\"postdate old\">\n                                        \n                                                <span
+  class=\"date\">February 26th, 2019,&nbsp;<span class=\"time\">07:48 AM</span></span>\n
+  \                                       \n                                </span>\n
+  \                               <span class=\"nodecontrols\">\n                                        \n
+  \                                               <a name=\"post559663\" href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559663#post559663\"
+  class=\"postcounter\">#2</a><a id=\"postcount559663\" name=\"2\"></a>\n                                        \n
+  \                                       \n                                        \n
+  \                               </span>\n                        \n\t\t</div>\n\n\t\t<div
+  class=\"userinfo\">\n\t\t\t<div class=\"contact\">\n\t\t\t\t\n\t\t\t\t\t<a class=\"postuseravatarlink\"
+  href=\"member.php?31646-KC9UDX&amp;s=1c7c2feab3cea6076465faec0e3e642e\" title=\"KC9UDX
+  is offline\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"image.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=31646&amp;dateline=1455676180\"
+  alt=\"KC9UDX's Avatar\" title=\"KC9UDX's Avatar\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>\n\t\t\t\t\n\t\t\t\t<div
+  class=\"username_container\">\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"popupmenu memberaction\"
+  id=\"yui-gen16\">\n\t<a class=\"username offline popupctrl\" href=\"member.php?31646-KC9UDX&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"KC9UDX is offline\" id=\"yui-gen18\"><strong>KC9UDX</strong></a>\n\t<ul
+  class=\"popupbody memberaction_body\" id=\"yui-gen17\">\n\t\t<li class=\"left\">\n\t\t\t<a
+  href=\"member.php?31646-KC9UDX&amp;s=1c7c2feab3cea6076465faec0e3e642e\" class=\"siteicon_profile\">\n\t\t\t\tView
+  Profile\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t<li class=\"right\">\n\t\t\t<a href=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=finduser&amp;userid=31646&amp;contenttype=vBForum_Post&amp;showposts=1\"
+  class=\"siteicon_forum\" rel=\"nofollow\">\n\t\t\t\tView Forum Posts\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t<li
+  class=\"left\">\n\t\t\t<a href=\"private.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newpm&amp;u=31646\"
+  class=\"siteicon_message\" rel=\"nofollow\">\n\t\t\t\tPrivate Message\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"blog.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=31646\"
+  class=\"siteicon_blog\" rel=\"nofollow\">\n\t\t\t\tView Blog Entries\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"left\">\n\t\t\t<a href=\"https://www.youtube.com/channel/UCuudtRNyYPyjrk4duSbe9lw\"
+  class=\"siteicon_homepage\">\n\t\t\t\tVisit Homepage\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"http://www.vcfed.org/forum/list.php?author/31646-KC9UDX&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  class=\"siteicon_article\" rel=\"nofollow\">\n\t\t\t\tView Articles\n\t\t\t</a>\n\t\t</li>\n\t\t\n\n\t\t\n\n\t\t\n\t\t\n\t</ul>\n</div>\n\t\t\t\t\t\t<img
+  class=\"inlineimg onlinestatus\" src=\"images/statusicon/user-offline.png\" alt=\"KC9UDX
+  is offline\" border=\"0\" title=\"KC9UDX is offline\">\n\n\t\t\t\t\t\n\t\t\t\t\t<span
+  class=\"usertitle\">\n\t\t\t\t\t\tSpace Commander\n\t\t\t\t\t</span>\n\t\t\t\t\t\n\n
+  \                                       \n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<div
+  class=\"imlinks\">\n\t\t\t\t\t\t\t    \n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t<div
+  class=\"userinfo_extra\">\n\t\t\t\t\t<dl class=\"userstats\">\n\t\t\t\t\t\t<dt>Join
+  Date</dt> <dd>Jan 2014</dd>\n\t\t\t\t\t\t<dt>Location</dt> <dd>Centero</dd>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<dt>Posts</dt>
+  <dd>6,671</dd>\t\n\t\t\t\t\t\t<dt>Blog Entries</dt><dd><a href=\"blog.php?31646&amp;s=1c7c2feab3cea6076465faec0e3e642e\">2</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n\n\t<div
+  class=\"postbody\">\n\t\t\n\t\t<div class=\"postrow\">\n\t\t\n\t\t<h2 class=\"posttitle
+  icon\">\n\t\t\t<img src=\"images/icons/icon1.png\" alt=\"Default\" title=\"Default\">
+  \n\t\t</h2>\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t<div class=\"content\">\n\t\t\t<div id=\"post_message_559663\">\n\t\t\t\t<blockquote
+  class=\"postcontent restore\">\n\t\t\t\t\tI don't know anything about Retr0brite,
+  but for all other things submerged, circulation is king.<br>\n<br>\nI've been thinking
+  about all the non-cooking uses for one of those sous vide circulators, and this
+  is one of them.\n\t\t\t\t</blockquote>\n\t\t\t</div>\n\n\t\t\t\n\n\n\t\t</div>\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t</div>\n\t<div
+  class=\"postfoot\">\n\t\t<div class=\"textcontrols floatcontainer\">\n\t\t\t<span
+  class=\"postcontrols\">\n\t\t\t\t<img style=\"display:none\" id=\"progress_559663\"
+  src=\"images/misc/progress.gif\" alt=\"\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<a
+  id=\"qrwq_559663\" class=\"newreply\" href=\"newreply.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newreply&amp;p=559663\"
+  rel=\"nofollow\" title=\"Reply With Quote\"><img id=\"quoteimg_559663\" src=\"clear.gif\"
+  alt=\"Reply With Quote\" title=\"Reply With Quote\">  Reply With Quote</a> \n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</span>\n\t\t\t<span
+  class=\"postlinking\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t \n\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t
+  \n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t</span>\n\t\t</div>\n\t</div>\n\t<hr>\n</li>\n\n<li
+  class=\"postbit postbitim postcontainer old\" id=\"post_559664\">\n\t<div class=\"postdetails_noavatar\">\n\t\t<div
+  class=\"posthead\">\n                        \n                                <span
+  class=\"postdate old\">\n                                        \n                                                <span
+  class=\"date\">February 26th, 2019,&nbsp;<span class=\"time\">08:04 AM</span></span>\n
+  \                                       \n                                </span>\n
+  \                               <span class=\"nodecontrols\">\n                                        \n
+  \                                               <a name=\"post559664\" href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559664#post559664\"
+  class=\"postcounter\">#3</a><a id=\"postcount559664\" name=\"3\"></a>\n                                        \n
+  \                                       \n                                        \n
+  \                               </span>\n                        \n\t\t</div>\n\n\t\t<div
+  class=\"userinfo\">\n\t\t\t<div class=\"contact\">\n\t\t\t\t\n\t\t\t\t\t<a class=\"postuseravatarlink\"
+  href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\" title=\"VERAULT
+  is online now\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"image.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=22724&amp;dateline=1519784310\"
+  alt=\"VERAULT's Avatar\" title=\"VERAULT's Avatar\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>\n\t\t\t\t\n\t\t\t\t<div
+  class=\"username_container\">\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"popupmenu memberaction\"
+  id=\"yui-gen19\">\n\t<a class=\"username online popupctrl\" href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"VERAULT is online now\" id=\"yui-gen21\"><strong>VERAULT</strong></a>\n\t<ul
+  class=\"popupbody memberaction_body\" id=\"yui-gen20\">\n\t\t<li class=\"left\">\n\t\t\t<a
+  href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\" class=\"siteicon_profile\">\n\t\t\t\tView
+  Profile\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t<li class=\"right\">\n\t\t\t<a href=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=finduser&amp;userid=22724&amp;contenttype=vBForum_Post&amp;showposts=1\"
+  class=\"siteicon_forum\" rel=\"nofollow\">\n\t\t\t\tView Forum Posts\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t<li
+  class=\"left\">\n\t\t\t<a href=\"private.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newpm&amp;u=22724\"
+  class=\"siteicon_message\" rel=\"nofollow\">\n\t\t\t\tPrivate Message\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"blog.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=22724\"
+  class=\"siteicon_blog\" rel=\"nofollow\">\n\t\t\t\tView Blog Entries\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"http://www.vcfed.org/forum/list.php?author/22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  class=\"siteicon_article\" rel=\"nofollow\">\n\t\t\t\tView Articles\n\t\t\t</a>\n\t\t</li>\n\t\t\n\n\t\t\n\n\t\t\n\t\t\n\t</ul>\n</div>\n\t\t\t\t\t\t<img
+  class=\"inlineimg onlinestatus\" src=\"images/statusicon/user-online.png\" alt=\"VERAULT
+  is online now\" border=\"0\" title=\"VERAULT is online now\">\n\n\t\t\t\t\t\n\t\t\t\t\t<span
+  class=\"usertitle\">\n\t\t\t\t\t\tSenior Member\n\t\t\t\t\t</span>\n\t\t\t\t\t\n\n
+  \                                       \n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<div
+  class=\"imlinks\">\n\t\t\t\t\t\t\t <a href=\"javascript://\" onclick=\"imwindow('aim',
+  '22724', 440, 255); return false;\"><img src=\"images/misc/im_aim.gif\" alt=\"Send
+  a message via AIM to VERAULT\" title=\"Send a message via AIM to VERAULT\"></a>
+  \  \n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t<div
+  class=\"userinfo_extra\">\n\t\t\t\t\t<dl class=\"userstats\">\n\t\t\t\t\t\t<dt>Join
+  Date</dt> <dd>Jan 2012</dd>\n\t\t\t\t\t\t<dt>Location</dt> <dd>Connecticut, USA</dd>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<dt>Posts</dt>
+  <dd>1,913</dd>\t\n\t\t\t\t\t\t\n\t\t\t\t\t</dl>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n\n\t<div
+  class=\"postbody\">\n\t\t\n\t\t<div class=\"postrow\">\n\t\t\n\t\t<h2 class=\"posttitle
+  icon\">\n\t\t\t<img src=\"images/icons/icon1.png\" alt=\"Default\" title=\"Default\">
+  \n\t\t</h2>\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t<div class=\"content\">\n\t\t\t<div id=\"post_message_559664\">\n\t\t\t\t<blockquote
+  class=\"postcontent restore\">\n\t\t\t\t\t<div class=\"bbcode_container\">\n\t<div
+  class=\"bbcode_quote\">\n\t\t<div class=\"quote_container\">\n\t\t\t<div class=\"bbcode_quote_container\"></div>\n\t\t\t\n\t\t\t\t<div
+  class=\"bbcode_postedby\">\n\t\t\t\t\t<img src=\"images/misc/quote_icon.png\" alt=\"Quote\"
+  title=\"Quote\"> Originally Posted by <strong>KC9UDX</strong>\n\t\t\t\t\t<a href=\"showthread.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559663#post559663\"
+  rel=\"nofollow\"><img class=\"inlineimg\" src=\"images/buttons/viewpost-right.png\"
+  alt=\"View Post\" title=\"View Post\"></a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"message\">I
+  don't know anything about Retr0brite, but for all other things submerged, circulation
+  is king.<br>\n<br>\nI've been thinking about all the non-cooking uses for one of
+  those sous vide circulators, and this is one of them.</div>\n\t\t\t\n\t\t</div>\n\t</div>\n</div>I
+  was more thinking circulation would aid in heat distribution, what other use would
+  circulation have?\n\t\t\t\t</blockquote>\n\t\t\t</div>\n\n\t\t\t\n\n\n\t\t</div>\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t</div>\n\t<div
+  class=\"postfoot\">\n\t\t<div class=\"textcontrols floatcontainer\">\n\t\t\t<span
+  class=\"postcontrols\">\n\t\t\t\t<img style=\"display:none\" id=\"progress_559664\"
+  src=\"images/misc/progress.gif\" alt=\"\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<a
+  id=\"qrwq_559664\" class=\"newreply\" href=\"newreply.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newreply&amp;p=559664\"
+  rel=\"nofollow\" title=\"Reply With Quote\"><img id=\"quoteimg_559664\" src=\"clear.gif\"
+  alt=\"Reply With Quote\" title=\"Reply With Quote\">  Reply With Quote</a> \n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</span>\n\t\t\t<span
+  class=\"postlinking\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t \n\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t
+  \n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t</span>\n\t\t</div>\n\t</div>\n\t<hr>\n</li>\n\n<li
+  class=\"postbit postbitim postcontainer old\" id=\"post_559672\">\n\t<div class=\"postdetails_noavatar\">\n\t\t<div
+  class=\"posthead\">\n                        \n                                <span
+  class=\"postdate old\">\n                                        \n                                                <span
+  class=\"date\">February 26th, 2019,&nbsp;<span class=\"time\">08:51 AM</span></span>\n
+  \                                       \n                                </span>\n
+  \                               <span class=\"nodecontrols\">\n                                        \n
+  \                                               <a name=\"post559672\" href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559672#post559672\"
+  class=\"postcounter\">#4</a><a id=\"postcount559672\" name=\"4\"></a>\n                                        \n
+  \                                       \n                                        \n
+  \                               </span>\n                        \n\t\t</div>\n\n\t\t<div
+  class=\"userinfo\">\n\t\t\t<div class=\"contact\">\n\t\t\t\t\n\t\t\t\t\t<a class=\"postuseravatarlink\"
+  href=\"member.php?29551-soviet9922&amp;s=1c7c2feab3cea6076465faec0e3e642e\" title=\"soviet9922
+  is offline\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"image.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=29551&amp;dateline=1514239391\"
+  alt=\"soviet9922's Avatar\" title=\"soviet9922's Avatar\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>\n\t\t\t\t\n\t\t\t\t<div
+  class=\"username_container\">\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"popupmenu memberaction\"
+  id=\"yui-gen22\">\n\t<a class=\"username offline popupctrl\" href=\"member.php?29551-soviet9922&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"soviet9922 is offline\" id=\"yui-gen24\"><strong>soviet9922</strong></a>\n\t<ul
+  class=\"popupbody memberaction_body\" id=\"yui-gen23\">\n\t\t<li class=\"left\">\n\t\t\t<a
+  href=\"member.php?29551-soviet9922&amp;s=1c7c2feab3cea6076465faec0e3e642e\" class=\"siteicon_profile\">\n\t\t\t\tView
+  Profile\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t<li class=\"right\">\n\t\t\t<a href=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=finduser&amp;userid=29551&amp;contenttype=vBForum_Post&amp;showposts=1\"
+  class=\"siteicon_forum\" rel=\"nofollow\">\n\t\t\t\tView Forum Posts\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t<li
+  class=\"left\">\n\t\t\t<a href=\"private.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newpm&amp;u=29551\"
+  class=\"siteicon_message\" rel=\"nofollow\">\n\t\t\t\tPrivate Message\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"blog.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=29551\"
+  class=\"siteicon_blog\" rel=\"nofollow\">\n\t\t\t\tView Blog Entries\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"http://www.vcfed.org/forum/list.php?author/29551-soviet9922&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  class=\"siteicon_article\" rel=\"nofollow\">\n\t\t\t\tView Articles\n\t\t\t</a>\n\t\t</li>\n\t\t\n\n\t\t\n\n\t\t\n\t\t\n\t</ul>\n</div>\n\t\t\t\t\t\t<img
+  class=\"inlineimg onlinestatus\" src=\"images/statusicon/user-offline.png\" alt=\"soviet9922
+  is offline\" border=\"0\" title=\"soviet9922 is offline\">\n\n\t\t\t\t\t\n\t\t\t\t\t<span
+  class=\"usertitle\">\n\t\t\t\t\t\tSenior Member\n\t\t\t\t\t</span>\n\t\t\t\t\t\n\n
+  \                                       \n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<div
+  class=\"imlinks\">\n\t\t\t\t\t\t\t    \n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t<div
+  class=\"userinfo_extra\">\n\t\t\t\t\t<dl class=\"userstats\">\n\t\t\t\t\t\t<dt>Join
+  Date</dt> <dd>Jun 2013</dd>\n\t\t\t\t\t\t<dt>Location</dt> <dd>Montevideo, Uruguay</dd>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<dt>Posts</dt>
+  <dd>328</dd>\t\n\t\t\t\t\t\t<dt>Blog Entries</dt><dd><a href=\"blog.php?29551&amp;s=1c7c2feab3cea6076465faec0e3e642e\">1</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n\n\t<div
+  class=\"postbody\">\n\t\t\n\t\t<div class=\"postrow\">\n\t\t\n\t\t<h2 class=\"posttitle
+  icon\">\n\t\t\t<img src=\"images/icons/icon1.png\" alt=\"Default\" title=\"Default\">
+  \n\t\t</h2>\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t<div class=\"content\">\n\t\t\t<div id=\"post_message_559672\">\n\t\t\t\t<blockquote
+  class=\"postcontent restore\">\n\t\t\t\t\tI have tried hot water and some Peroxide
+  mixed in just this combo got all the keys from a keyboard so white that i',m afraid
+  the KKK can try to steal them.<br>\n<br>\nThe water have to be keep hot like 50C
+  - 60C at least for this process to work. Also you have to keep a close eye on the
+  process because you can go overboard and whiten the plastic more than the original
+  color.<br>\nAlso the temperature is best to monitor the first time i got the water
+  too hot and the spacebar from my commodore bended like a banana.<br>\n<br>\nFor
+  big things the peroxide cream 80 volumes is the best metod, just use a brush to
+  cover the hardware and let them in the sun. I replay the cream using the brush every
+  20 minutes because it get dry.<br>\nI see people doing thie other way and covering
+  everything using kitchen plastic but doing this i have found the cream evaporate
+  and can cause color streaks on the plastic.\n\t\t\t\t</blockquote>\n\t\t\t</div>\n\n\t\t\t\n\n\n\t\t</div>\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t</div>\n\t<div
+  class=\"postfoot\">\n\t\t<div class=\"textcontrols floatcontainer\">\n\t\t\t<span
+  class=\"postcontrols\">\n\t\t\t\t<img style=\"display:none\" id=\"progress_559672\"
+  src=\"images/misc/progress.gif\" alt=\"\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<a
+  id=\"qrwq_559672\" class=\"newreply\" href=\"newreply.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newreply&amp;p=559672\"
+  rel=\"nofollow\" title=\"Reply With Quote\"><img id=\"quoteimg_559672\" src=\"clear.gif\"
+  alt=\"Reply With Quote\" title=\"Reply With Quote\">  Reply With Quote</a> \n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</span>\n\t\t\t<span
+  class=\"postlinking\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t \n\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t
+  \n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t</span>\n\t\t</div>\n\t</div>\n\t<hr>\n</li>\n\n<li
+  class=\"postbit postbitim postcontainer old\" id=\"post_559673\">\n\t<div class=\"postdetails_noavatar\">\n\t\t<div
+  class=\"posthead\">\n                        \n                                <span
+  class=\"postdate old\">\n                                        \n                                                <span
+  class=\"date\">February 26th, 2019,&nbsp;<span class=\"time\">08:56 AM</span></span>\n
+  \                                       \n                                </span>\n
+  \                               <span class=\"nodecontrols\">\n                                        \n
+  \                                               <a name=\"post559673\" href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559673#post559673\"
+  class=\"postcounter\">#5</a><a id=\"postcount559673\" name=\"5\"></a>\n                                        \n
+  \                                       \n                                        \n
+  \                               </span>\n                        \n\t\t</div>\n\n\t\t<div
+  class=\"userinfo\">\n\t\t\t<div class=\"contact\">\n\t\t\t\t\n\t\t\t\t\t<a class=\"postuseravatarlink\"
+  href=\"member.php?31646-KC9UDX&amp;s=1c7c2feab3cea6076465faec0e3e642e\" title=\"KC9UDX
+  is offline\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"image.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=31646&amp;dateline=1455676180\"
+  alt=\"KC9UDX's Avatar\" title=\"KC9UDX's Avatar\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>\n\t\t\t\t\n\t\t\t\t<div
+  class=\"username_container\">\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"popupmenu memberaction\"
+  id=\"yui-gen25\">\n\t<a class=\"username offline popupctrl\" href=\"member.php?31646-KC9UDX&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"KC9UDX is offline\" id=\"yui-gen27\"><strong>KC9UDX</strong></a>\n\t<ul
+  class=\"popupbody memberaction_body\" id=\"yui-gen26\">\n\t\t<li class=\"left\">\n\t\t\t<a
+  href=\"member.php?31646-KC9UDX&amp;s=1c7c2feab3cea6076465faec0e3e642e\" class=\"siteicon_profile\">\n\t\t\t\tView
+  Profile\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t<li class=\"right\">\n\t\t\t<a href=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=finduser&amp;userid=31646&amp;contenttype=vBForum_Post&amp;showposts=1\"
+  class=\"siteicon_forum\" rel=\"nofollow\">\n\t\t\t\tView Forum Posts\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t<li
+  class=\"left\">\n\t\t\t<a href=\"private.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newpm&amp;u=31646\"
+  class=\"siteicon_message\" rel=\"nofollow\">\n\t\t\t\tPrivate Message\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"blog.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=31646\"
+  class=\"siteicon_blog\" rel=\"nofollow\">\n\t\t\t\tView Blog Entries\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"left\">\n\t\t\t<a href=\"https://www.youtube.com/channel/UCuudtRNyYPyjrk4duSbe9lw\"
+  class=\"siteicon_homepage\">\n\t\t\t\tVisit Homepage\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"http://www.vcfed.org/forum/list.php?author/31646-KC9UDX&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  class=\"siteicon_article\" rel=\"nofollow\">\n\t\t\t\tView Articles\n\t\t\t</a>\n\t\t</li>\n\t\t\n\n\t\t\n\n\t\t\n\t\t\n\t</ul>\n</div>\n\t\t\t\t\t\t<img
+  class=\"inlineimg onlinestatus\" src=\"images/statusicon/user-offline.png\" alt=\"KC9UDX
+  is offline\" border=\"0\" title=\"KC9UDX is offline\">\n\n\t\t\t\t\t\n\t\t\t\t\t<span
+  class=\"usertitle\">\n\t\t\t\t\t\tSpace Commander\n\t\t\t\t\t</span>\n\t\t\t\t\t\n\n
+  \                                       \n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<div
+  class=\"imlinks\">\n\t\t\t\t\t\t\t    \n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t<div
+  class=\"userinfo_extra\">\n\t\t\t\t\t<dl class=\"userstats\">\n\t\t\t\t\t\t<dt>Join
+  Date</dt> <dd>Jan 2014</dd>\n\t\t\t\t\t\t<dt>Location</dt> <dd>Centero</dd>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<dt>Posts</dt>
+  <dd>6,671</dd>\t\n\t\t\t\t\t\t<dt>Blog Entries</dt><dd><a href=\"blog.php?31646&amp;s=1c7c2feab3cea6076465faec0e3e642e\">2</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n\n\t<div
+  class=\"postbody\">\n\t\t\n\t\t<div class=\"postrow\">\n\t\t\n\t\t<h2 class=\"posttitle
+  icon\">\n\t\t\t<img src=\"images/icons/icon1.png\" alt=\"Default\" title=\"Default\">
+  \n\t\t</h2>\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t<div class=\"content\">\n\t\t\t<div id=\"post_message_559673\">\n\t\t\t\t<blockquote
+  class=\"postcontent restore\">\n\t\t\t\t\t<div class=\"bbcode_container\">\n\t<div
+  class=\"bbcode_quote\">\n\t\t<div class=\"quote_container\">\n\t\t\t<div class=\"bbcode_quote_container\"></div>\n\t\t\t\n\t\t\t\t<div
+  class=\"bbcode_postedby\">\n\t\t\t\t\t<img src=\"images/misc/quote_icon.png\" alt=\"Quote\"
+  title=\"Quote\"> Originally Posted by <strong>VERAULT</strong>\n\t\t\t\t\t<a href=\"showthread.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559664#post559664\"
+  rel=\"nofollow\"><img class=\"inlineimg\" src=\"images/buttons/viewpost-right.png\"
+  alt=\"View Post\" title=\"View Post\"></a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"message\">I
+  was more thinking circulation would aid in heat distribution, what other use would
+  circulation have?</div>\n\t\t\t\n\t\t</div>\n\t</div>\n</div>I assume (again, don't
+  really know Retr0brite) that there's some kind of chemical reaction, hence the sodium
+  percarbonate.  Anytime you have a chemical reaction like this, reaction byproducts
+  surround the item, preventing further reaction.  Keeping the solution circulating
+  keeps the things you want to be in contact, in contact, rather than the byproducts.\n\t\t\t\t</blockquote>\n\t\t\t</div>\n\n\t\t\t\n\n\n\t\t</div>\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t</div>\n\t<div
+  class=\"postfoot\">\n\t\t<div class=\"textcontrols floatcontainer\">\n\t\t\t<span
+  class=\"postcontrols\">\n\t\t\t\t<img style=\"display:none\" id=\"progress_559673\"
+  src=\"images/misc/progress.gif\" alt=\"\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<a
+  id=\"qrwq_559673\" class=\"newreply\" href=\"newreply.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newreply&amp;p=559673\"
+  rel=\"nofollow\" title=\"Reply With Quote\"><img id=\"quoteimg_559673\" src=\"clear.gif\"
+  alt=\"Reply With Quote\" title=\"Reply With Quote\">  Reply With Quote</a> \n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</span>\n\t\t\t<span
+  class=\"postlinking\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t \n\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t
+  \n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t</span>\n\t\t</div>\n\t</div>\n\t<hr>\n</li>\n\n<li
+  class=\"postbit postbitim postcontainer old\" id=\"post_559689\">\n\t<div class=\"postdetails_noavatar\">\n\t\t<div
+  class=\"posthead\">\n                        \n                                <span
+  class=\"postdate old\">\n                                        \n                                                <span
+  class=\"date\">February 26th, 2019,&nbsp;<span class=\"time\">10:41 AM</span></span>\n
+  \                                       \n                                </span>\n
+  \                               <span class=\"nodecontrols\">\n                                        \n
+  \                                               <a name=\"post559689\" href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559689#post559689\"
+  class=\"postcounter\">#6</a><a id=\"postcount559689\" name=\"6\"></a>\n                                        \n
+  \                                       \n                                        \n
+  \                               </span>\n                        \n\t\t</div>\n\n\t\t<div
+  class=\"userinfo\">\n\t\t\t<div class=\"contact\">\n\t\t\t\t\n\t\t\t\t\t<a class=\"postuseravatarlink\"
+  href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\" title=\"VERAULT
+  is online now\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"image.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=22724&amp;dateline=1519784310\"
+  alt=\"VERAULT's Avatar\" title=\"VERAULT's Avatar\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>\n\t\t\t\t\n\t\t\t\t<div
+  class=\"username_container\">\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"popupmenu memberaction\"
+  id=\"yui-gen28\">\n\t<a class=\"username online popupctrl\" href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"VERAULT is online now\" id=\"yui-gen30\"><strong>VERAULT</strong></a>\n\t<ul
+  class=\"popupbody memberaction_body\" id=\"yui-gen29\">\n\t\t<li class=\"left\">\n\t\t\t<a
+  href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\" class=\"siteicon_profile\">\n\t\t\t\tView
+  Profile\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t<li class=\"right\">\n\t\t\t<a href=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=finduser&amp;userid=22724&amp;contenttype=vBForum_Post&amp;showposts=1\"
+  class=\"siteicon_forum\" rel=\"nofollow\">\n\t\t\t\tView Forum Posts\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t<li
+  class=\"left\">\n\t\t\t<a href=\"private.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newpm&amp;u=22724\"
+  class=\"siteicon_message\" rel=\"nofollow\">\n\t\t\t\tPrivate Message\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"blog.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=22724\"
+  class=\"siteicon_blog\" rel=\"nofollow\">\n\t\t\t\tView Blog Entries\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"http://www.vcfed.org/forum/list.php?author/22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  class=\"siteicon_article\" rel=\"nofollow\">\n\t\t\t\tView Articles\n\t\t\t</a>\n\t\t</li>\n\t\t\n\n\t\t\n\n\t\t\n\t\t\n\t</ul>\n</div>\n\t\t\t\t\t\t<img
+  class=\"inlineimg onlinestatus\" src=\"images/statusicon/user-online.png\" alt=\"VERAULT
+  is online now\" border=\"0\" title=\"VERAULT is online now\">\n\n\t\t\t\t\t\n\t\t\t\t\t<span
+  class=\"usertitle\">\n\t\t\t\t\t\tSenior Member\n\t\t\t\t\t</span>\n\t\t\t\t\t\n\n
+  \                                       \n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<div
+  class=\"imlinks\">\n\t\t\t\t\t\t\t <a href=\"javascript://\" onclick=\"imwindow('aim',
+  '22724', 440, 255); return false;\"><img src=\"images/misc/im_aim.gif\" alt=\"Send
+  a message via AIM to VERAULT\" title=\"Send a message via AIM to VERAULT\"></a>
+  \  \n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t<div
+  class=\"userinfo_extra\">\n\t\t\t\t\t<dl class=\"userstats\">\n\t\t\t\t\t\t<dt>Join
+  Date</dt> <dd>Jan 2012</dd>\n\t\t\t\t\t\t<dt>Location</dt> <dd>Connecticut, USA</dd>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<dt>Posts</dt>
+  <dd>1,913</dd>\t\n\t\t\t\t\t\t\n\t\t\t\t\t</dl>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n\n\t<div
+  class=\"postbody\">\n\t\t\n\t\t<div class=\"postrow\">\n\t\t\n\t\t<h2 class=\"posttitle
+  icon\">\n\t\t\t<img src=\"images/icons/icon1.png\" alt=\"Default\" title=\"Default\">
+  \n\t\t</h2>\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t<div class=\"content\">\n\t\t\t<div id=\"post_message_559689\">\n\t\t\t\t<blockquote
+  class=\"postcontent restore\">\n\t\t\t\t\t<div class=\"bbcode_container\">\n\t<div
+  class=\"bbcode_quote\">\n\t\t<div class=\"quote_container\">\n\t\t\t<div class=\"bbcode_quote_container\"></div>\n\t\t\t\n\t\t\t\t<div
+  class=\"bbcode_postedby\">\n\t\t\t\t\t<img src=\"images/misc/quote_icon.png\" alt=\"Quote\"
+  title=\"Quote\"> Originally Posted by <strong>soviet9922</strong>\n\t\t\t\t\t<a
+  href=\"showthread.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559672#post559672\"
+  rel=\"nofollow\"><img class=\"inlineimg\" src=\"images/buttons/viewpost-right.png\"
+  alt=\"View Post\" title=\"View Post\"></a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"message\">I
+  have tried hot water and some Peroxide mixed in just this combo got all the keys
+  from a keyboard so white that i',m afraid the KKK can try to steal them.<br>\n<br>\nThe
+  water have to be keep hot like 50C - 60C at least for this process to work. Also
+  you have to keep a close eye on the process because you can go overboard and whiten
+  the plastic more than the original color.<br>\nAlso the temperature is best to monitor
+  the first time i got the water too hot and the spacebar from my commodore bended
+  like a banana.<br>\n<br>\nFor big things the peroxide cream 80 volumes is the best
+  metod, just use a brush to cover the hardware and let them in the sun. I replay
+  the cream using the brush every 20 minutes because it get dry.<br>\nI see people
+  doing thie other way and covering everything using kitchen plastic but doing this
+  i have found the cream evaporate and can cause color streaks on the plastic.</div>\n\t\t\t\n\t\t</div>\n\t</div>\n</div>Thanks
+  Soviet9922, ill try tonite with heat between 50-60C\n\t\t\t\t</blockquote>\n\t\t\t</div>\n\n\t\t\t\n\n\n\t\t</div>\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t</div>\n\t<div
+  class=\"postfoot\">\n\t\t<div class=\"textcontrols floatcontainer\">\n\t\t\t<span
+  class=\"postcontrols\">\n\t\t\t\t<img style=\"display:none\" id=\"progress_559689\"
+  src=\"images/misc/progress.gif\" alt=\"\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<a
+  id=\"qrwq_559689\" class=\"newreply\" href=\"newreply.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newreply&amp;p=559689\"
+  rel=\"nofollow\" title=\"Reply With Quote\"><img id=\"quoteimg_559689\" src=\"clear.gif\"
+  alt=\"Reply With Quote\" title=\"Reply With Quote\">  Reply With Quote</a> \n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</span>\n\t\t\t<span
+  class=\"postlinking\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t \n\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t
+  \n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t</span>\n\t\t</div>\n\t</div>\n\t<hr>\n</li>\n\n<li
+  class=\"postbit postbitim postcontainer old\" id=\"post_559690\">\n\t<div class=\"postdetails_noavatar\">\n\t\t<div
+  class=\"posthead\">\n                        \n                                <span
+  class=\"postdate old\">\n                                        \n                                                <span
+  class=\"date\">February 26th, 2019,&nbsp;<span class=\"time\">10:42 AM</span></span>\n
+  \                                       \n                                </span>\n
+  \                               <span class=\"nodecontrols\">\n                                        \n
+  \                                               <a name=\"post559690\" href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559690#post559690\"
+  class=\"postcounter\">#7</a><a id=\"postcount559690\" name=\"7\"></a>\n                                        \n
+  \                                       \n                                        \n
+  \                               </span>\n                        \n\t\t</div>\n\n\t\t<div
+  class=\"userinfo\">\n\t\t\t<div class=\"contact\">\n\t\t\t\t\n\t\t\t\t\t<a class=\"postuseravatarlink\"
+  href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\" title=\"VERAULT
+  is online now\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"image.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=22724&amp;dateline=1519784310\"
+  alt=\"VERAULT's Avatar\" title=\"VERAULT's Avatar\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>\n\t\t\t\t\n\t\t\t\t<div
+  class=\"username_container\">\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"popupmenu memberaction\"
+  id=\"yui-gen31\">\n\t<a class=\"username online popupctrl\" href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"VERAULT is online now\" id=\"yui-gen33\"><strong>VERAULT</strong></a>\n\t<ul
+  class=\"popupbody memberaction_body\" id=\"yui-gen32\">\n\t\t<li class=\"left\">\n\t\t\t<a
+  href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\" class=\"siteicon_profile\">\n\t\t\t\tView
+  Profile\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t<li class=\"right\">\n\t\t\t<a href=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=finduser&amp;userid=22724&amp;contenttype=vBForum_Post&amp;showposts=1\"
+  class=\"siteicon_forum\" rel=\"nofollow\">\n\t\t\t\tView Forum Posts\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t<li
+  class=\"left\">\n\t\t\t<a href=\"private.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newpm&amp;u=22724\"
+  class=\"siteicon_message\" rel=\"nofollow\">\n\t\t\t\tPrivate Message\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"blog.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=22724\"
+  class=\"siteicon_blog\" rel=\"nofollow\">\n\t\t\t\tView Blog Entries\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"http://www.vcfed.org/forum/list.php?author/22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  class=\"siteicon_article\" rel=\"nofollow\">\n\t\t\t\tView Articles\n\t\t\t</a>\n\t\t</li>\n\t\t\n\n\t\t\n\n\t\t\n\t\t\n\t</ul>\n</div>\n\t\t\t\t\t\t<img
+  class=\"inlineimg onlinestatus\" src=\"images/statusicon/user-online.png\" alt=\"VERAULT
+  is online now\" border=\"0\" title=\"VERAULT is online now\">\n\n\t\t\t\t\t\n\t\t\t\t\t<span
+  class=\"usertitle\">\n\t\t\t\t\t\tSenior Member\n\t\t\t\t\t</span>\n\t\t\t\t\t\n\n
+  \                                       \n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<div
+  class=\"imlinks\">\n\t\t\t\t\t\t\t <a href=\"javascript://\" onclick=\"imwindow('aim',
+  '22724', 440, 255); return false;\"><img src=\"images/misc/im_aim.gif\" alt=\"Send
+  a message via AIM to VERAULT\" title=\"Send a message via AIM to VERAULT\"></a>
+  \  \n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t<div
+  class=\"userinfo_extra\">\n\t\t\t\t\t<dl class=\"userstats\">\n\t\t\t\t\t\t<dt>Join
+  Date</dt> <dd>Jan 2012</dd>\n\t\t\t\t\t\t<dt>Location</dt> <dd>Connecticut, USA</dd>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<dt>Posts</dt>
+  <dd>1,913</dd>\t\n\t\t\t\t\t\t\n\t\t\t\t\t</dl>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n\n\t<div
+  class=\"postbody\">\n\t\t\n\t\t<div class=\"postrow\">\n\t\t\n\t\t<h2 class=\"posttitle
+  icon\">\n\t\t\t<img src=\"images/icons/icon1.png\" alt=\"Default\" title=\"Default\">
+  \n\t\t</h2>\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t<div class=\"content\">\n\t\t\t<div id=\"post_message_559690\">\n\t\t\t\t<blockquote
+  class=\"postcontent restore\">\n\t\t\t\t\t<div class=\"bbcode_container\">\n\t<div
+  class=\"bbcode_quote\">\n\t\t<div class=\"quote_container\">\n\t\t\t<div class=\"bbcode_quote_container\"></div>\n\t\t\t\n\t\t\t\t<div
+  class=\"bbcode_postedby\">\n\t\t\t\t\t<img src=\"images/misc/quote_icon.png\" alt=\"Quote\"
+  title=\"Quote\"> Originally Posted by <strong>KC9UDX</strong>\n\t\t\t\t\t<a href=\"showthread.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559673#post559673\"
+  rel=\"nofollow\"><img class=\"inlineimg\" src=\"images/buttons/viewpost-right.png\"
+  alt=\"View Post\" title=\"View Post\"></a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"message\">I
+  assume (again, don't really know Retr0brite) that there's some kind of chemical
+  reaction, hence the sodium percarbonate.  Anytime you have a chemical reaction like
+  this, reaction byproducts surround the item, preventing further reaction.  Keeping
+  the solution circulating keeps the things you want to be in contact, in contact,
+  rather than the byproducts.</div>\n\t\t\t\n\t\t</div>\n\t</div>\n</div>Well adding
+  the calculator is easy, problem is its hard enough getting small things like keybaps,
+  power buttons, and crt knobs to not flip over when there is no current. Ill have
+  to be creative.\n\t\t\t\t</blockquote>\n\t\t\t</div>\n\n\t\t\t\n\n\n\t\t</div>\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t</div>\n\t<div
+  class=\"postfoot\">\n\t\t<div class=\"textcontrols floatcontainer\">\n\t\t\t<span
+  class=\"postcontrols\">\n\t\t\t\t<img style=\"display:none\" id=\"progress_559690\"
+  src=\"images/misc/progress.gif\" alt=\"\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<a
+  id=\"qrwq_559690\" class=\"newreply\" href=\"newreply.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newreply&amp;p=559690\"
+  rel=\"nofollow\" title=\"Reply With Quote\"><img id=\"quoteimg_559690\" src=\"clear.gif\"
+  alt=\"Reply With Quote\" title=\"Reply With Quote\">  Reply With Quote</a> \n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</span>\n\t\t\t<span
+  class=\"postlinking\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t \n\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t
+  \n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t</span>\n\t\t</div>\n\t</div>\n\t<hr>\n</li>\n\n<li
+  class=\"postbit postbitim postcontainer old\" id=\"post_559693\">\n\t<div class=\"postdetails_noavatar\">\n\t\t<div
+  class=\"posthead\">\n                        \n                                <span
+  class=\"postdate old\">\n                                        \n                                                <span
+  class=\"date\">February 26th, 2019,&nbsp;<span class=\"time\">10:50 AM</span></span>\n
+  \                                       \n                                </span>\n
+  \                               <span class=\"nodecontrols\">\n                                        \n
+  \                                               <a name=\"post559693\" href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559693#post559693\"
+  class=\"postcounter\">#8</a><a id=\"postcount559693\" name=\"8\"></a>\n                                        \n
+  \                                       \n                                        \n
+  \                               </span>\n                        \n\t\t</div>\n\n\t\t<div
+  class=\"userinfo\">\n\t\t\t<div class=\"contact\">\n\t\t\t\t\n\t\t\t\t\t<a class=\"postuseravatarlink\"
+  href=\"member.php?29551-soviet9922&amp;s=1c7c2feab3cea6076465faec0e3e642e\" title=\"soviet9922
+  is offline\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"image.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=29551&amp;dateline=1514239391\"
+  alt=\"soviet9922's Avatar\" title=\"soviet9922's Avatar\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>\n\t\t\t\t\n\t\t\t\t<div
+  class=\"username_container\">\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"popupmenu memberaction\"
+  id=\"yui-gen34\">\n\t<a class=\"username offline popupctrl\" href=\"member.php?29551-soviet9922&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"soviet9922 is offline\" id=\"yui-gen36\"><strong>soviet9922</strong></a>\n\t<ul
+  class=\"popupbody memberaction_body\" id=\"yui-gen35\">\n\t\t<li class=\"left\">\n\t\t\t<a
+  href=\"member.php?29551-soviet9922&amp;s=1c7c2feab3cea6076465faec0e3e642e\" class=\"siteicon_profile\">\n\t\t\t\tView
+  Profile\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t<li class=\"right\">\n\t\t\t<a href=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=finduser&amp;userid=29551&amp;contenttype=vBForum_Post&amp;showposts=1\"
+  class=\"siteicon_forum\" rel=\"nofollow\">\n\t\t\t\tView Forum Posts\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t<li
+  class=\"left\">\n\t\t\t<a href=\"private.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newpm&amp;u=29551\"
+  class=\"siteicon_message\" rel=\"nofollow\">\n\t\t\t\tPrivate Message\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"blog.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=29551\"
+  class=\"siteicon_blog\" rel=\"nofollow\">\n\t\t\t\tView Blog Entries\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"http://www.vcfed.org/forum/list.php?author/29551-soviet9922&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  class=\"siteicon_article\" rel=\"nofollow\">\n\t\t\t\tView Articles\n\t\t\t</a>\n\t\t</li>\n\t\t\n\n\t\t\n\n\t\t\n\t\t\n\t</ul>\n</div>\n\t\t\t\t\t\t<img
+  class=\"inlineimg onlinestatus\" src=\"images/statusicon/user-offline.png\" alt=\"soviet9922
+  is offline\" border=\"0\" title=\"soviet9922 is offline\">\n\n\t\t\t\t\t\n\t\t\t\t\t<span
+  class=\"usertitle\">\n\t\t\t\t\t\tSenior Member\n\t\t\t\t\t</span>\n\t\t\t\t\t\n\n
+  \                                       \n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<div
+  class=\"imlinks\">\n\t\t\t\t\t\t\t    \n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t<div
+  class=\"userinfo_extra\">\n\t\t\t\t\t<dl class=\"userstats\">\n\t\t\t\t\t\t<dt>Join
+  Date</dt> <dd>Jun 2013</dd>\n\t\t\t\t\t\t<dt>Location</dt> <dd>Montevideo, Uruguay</dd>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<dt>Posts</dt>
+  <dd>328</dd>\t\n\t\t\t\t\t\t<dt>Blog Entries</dt><dd><a href=\"blog.php?29551&amp;s=1c7c2feab3cea6076465faec0e3e642e\">1</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n\n\t<div
+  class=\"postbody\">\n\t\t\n\t\t<div class=\"postrow\">\n\t\t\n\t\t<h2 class=\"posttitle
+  icon\">\n\t\t\t<img src=\"images/icons/icon1.png\" alt=\"Default\" title=\"Default\">
+  \n\t\t</h2>\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t<div class=\"content\">\n\t\t\t<div id=\"post_message_559693\">\n\t\t\t\t<blockquote
+  class=\"postcontent restore\">\n\t\t\t\t\tAlso i don't mentioned but using the heat
+  method there's no need for UV light the process will work whiteout it.<br>\nMaybe
+  yo will need to increase the amount of Peroxide if you are using too little for
+  this method to work i do a 20%-30% peroxide for the water amount.\n\t\t\t\t</blockquote>\n\t\t\t</div>\n\n\t\t\t\n\n\n\t\t</div>\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t</div>\n\t<div
+  class=\"postfoot\">\n\t\t<div class=\"textcontrols floatcontainer\">\n\t\t\t<span
+  class=\"postcontrols\">\n\t\t\t\t<img style=\"display:none\" id=\"progress_559693\"
+  src=\"images/misc/progress.gif\" alt=\"\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<a
+  id=\"qrwq_559693\" class=\"newreply\" href=\"newreply.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newreply&amp;p=559693\"
+  rel=\"nofollow\" title=\"Reply With Quote\"><img id=\"quoteimg_559693\" src=\"clear.gif\"
+  alt=\"Reply With Quote\" title=\"Reply With Quote\">  Reply With Quote</a> \n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</span>\n\t\t\t<span
+  class=\"postlinking\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t \n\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t
+  \n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t</span>\n\t\t</div>\n\t</div>\n\t<hr>\n</li>\n\n<li
+  class=\"postbit postbitim postcontainer old\" id=\"post_559698\">\n\t<div class=\"postdetails_noavatar\">\n\t\t<div
+  class=\"posthead\">\n                        \n                                <span
+  class=\"postdate old\">\n                                        \n                                                <span
+  class=\"date\">February 26th, 2019,&nbsp;<span class=\"time\">11:14 AM</span></span>\n
+  \                                       \n                                </span>\n
+  \                               <span class=\"nodecontrols\">\n                                        \n
+  \                                               <a name=\"post559698\" href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559698#post559698\"
+  class=\"postcounter\">#9</a><a id=\"postcount559698\" name=\"9\"></a>\n                                        \n
+  \                                       \n                                        \n
+  \                               </span>\n                        \n\t\t</div>\n\n\t\t<div
+  class=\"userinfo\">\n\t\t\t<div class=\"contact\">\n\t\t\t\t\n\t\t\t\t\t<a class=\"postuseravatarlink\"
+  href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\" title=\"VERAULT
+  is online now\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"image.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=22724&amp;dateline=1519784310\"
+  alt=\"VERAULT's Avatar\" title=\"VERAULT's Avatar\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>\n\t\t\t\t\n\t\t\t\t<div
+  class=\"username_container\">\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"popupmenu memberaction\"
+  id=\"yui-gen37\">\n\t<a class=\"username online popupctrl\" href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"VERAULT is online now\" id=\"yui-gen39\"><strong>VERAULT</strong></a>\n\t<ul
+  class=\"popupbody memberaction_body\" id=\"yui-gen38\">\n\t\t<li class=\"left\">\n\t\t\t<a
+  href=\"member.php?22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\" class=\"siteicon_profile\">\n\t\t\t\tView
+  Profile\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t<li class=\"right\">\n\t\t\t<a href=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=finduser&amp;userid=22724&amp;contenttype=vBForum_Post&amp;showposts=1\"
+  class=\"siteicon_forum\" rel=\"nofollow\">\n\t\t\t\tView Forum Posts\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t<li
+  class=\"left\">\n\t\t\t<a href=\"private.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newpm&amp;u=22724\"
+  class=\"siteicon_message\" rel=\"nofollow\">\n\t\t\t\tPrivate Message\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"blog.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=22724\"
+  class=\"siteicon_blog\" rel=\"nofollow\">\n\t\t\t\tView Blog Entries\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"http://www.vcfed.org/forum/list.php?author/22724-VERAULT&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  class=\"siteicon_article\" rel=\"nofollow\">\n\t\t\t\tView Articles\n\t\t\t</a>\n\t\t</li>\n\t\t\n\n\t\t\n\n\t\t\n\t\t\n\t</ul>\n</div>\n\t\t\t\t\t\t<img
+  class=\"inlineimg onlinestatus\" src=\"images/statusicon/user-online.png\" alt=\"VERAULT
+  is online now\" border=\"0\" title=\"VERAULT is online now\">\n\n\t\t\t\t\t\n\t\t\t\t\t<span
+  class=\"usertitle\">\n\t\t\t\t\t\tSenior Member\n\t\t\t\t\t</span>\n\t\t\t\t\t\n\n
+  \                                       \n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<div
+  class=\"imlinks\">\n\t\t\t\t\t\t\t <a href=\"javascript://\" onclick=\"imwindow('aim',
+  '22724', 440, 255); return false;\"><img src=\"images/misc/im_aim.gif\" alt=\"Send
+  a message via AIM to VERAULT\" title=\"Send a message via AIM to VERAULT\"></a>
+  \  \n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t<div
+  class=\"userinfo_extra\">\n\t\t\t\t\t<dl class=\"userstats\">\n\t\t\t\t\t\t<dt>Join
+  Date</dt> <dd>Jan 2012</dd>\n\t\t\t\t\t\t<dt>Location</dt> <dd>Connecticut, USA</dd>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<dt>Posts</dt>
+  <dd>1,913</dd>\t\n\t\t\t\t\t\t\n\t\t\t\t\t</dl>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n\n\t<div
+  class=\"postbody\">\n\t\t\n\t\t<div class=\"postrow\">\n\t\t\n\t\t<h2 class=\"posttitle
+  icon\">\n\t\t\t<img src=\"images/icons/icon1.png\" alt=\"Default\" title=\"Default\">
+  \n\t\t</h2>\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t<div class=\"content\">\n\t\t\t<div id=\"post_message_559698\">\n\t\t\t\t<blockquote
+  class=\"postcontent restore\">\n\t\t\t\t\t<div class=\"bbcode_container\">\n\t<div
+  class=\"bbcode_quote\">\n\t\t<div class=\"quote_container\">\n\t\t\t<div class=\"bbcode_quote_container\"></div>\n\t\t\t\n\t\t\t\t<div
+  class=\"bbcode_postedby\">\n\t\t\t\t\t<img src=\"images/misc/quote_icon.png\" alt=\"Quote\"
+  title=\"Quote\"> Originally Posted by <strong>soviet9922</strong>\n\t\t\t\t\t<a
+  href=\"showthread.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559693#post559693\"
+  rel=\"nofollow\"><img class=\"inlineimg\" src=\"images/buttons/viewpost-right.png\"
+  alt=\"View Post\" title=\"View Post\"></a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"message\">Also
+  i don't mentioned but using the heat method there's no need for UV light the process
+  will work whiteout it.<br>\nMaybe yo will need to increase the amount of Peroxide
+  if you are using too little for this method to work i do a 20%-30% peroxide for
+  the water amount.</div>\n\t\t\t\n\t\t</div>\n\t</div>\n</div>im using powdered sodium
+  percarbonate... which creates hydrogen peroxide as a by product. So I dont know
+  the solution since I cant find how much to add per gallon/liter of water. So im
+  guessing. Like I said ill add 3 times as much. If it starts reacting to my skin
+  as normal h202 does (lots of bubbling and tingling) ill assume it making the correct
+  mixture. I am a bit paranoid about high levels of O2 which can combust So I am not
+  striving for a ultra rich solution.\n\t\t\t\t</blockquote>\n\t\t\t</div>\n\n\t\t\t\n\n\n\t\t</div>\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t</div>\n\t<div
+  class=\"postfoot\">\n\t\t<div class=\"textcontrols floatcontainer\">\n\t\t\t<span
+  class=\"postcontrols\">\n\t\t\t\t<img style=\"display:none\" id=\"progress_559698\"
+  src=\"images/misc/progress.gif\" alt=\"\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<a
+  id=\"qrwq_559698\" class=\"newreply\" href=\"newreply.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newreply&amp;p=559698\"
+  rel=\"nofollow\" title=\"Reply With Quote\"><img id=\"quoteimg_559698\" src=\"clear.gif\"
+  alt=\"Reply With Quote\" title=\"Reply With Quote\">  Reply With Quote</a> \n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</span>\n\t\t\t<span
+  class=\"postlinking\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t \n\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t
+  \n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t</span>\n\t\t</div>\n\t</div>\n\t<hr>\n</li>\n\n<li
+  class=\"postbit postbitim postcontainer old\" id=\"post_559700\">\n\t<div class=\"postdetails_noavatar\">\n\t\t<div
+  class=\"posthead\">\n                        \n                                <span
+  class=\"postdate old\">\n                                        \n                                                <span
+  class=\"date\">February 26th, 2019,&nbsp;<span class=\"time\">11:27 AM</span></span>\n
+  \                                       \n                                </span>\n
+  \                               <span class=\"nodecontrols\">\n                                        \n
+  \                                               <a name=\"post559700\" href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559700#post559700\"
+  class=\"postcounter\">#10</a><a id=\"postcount559700\" name=\"10\"></a>\n                                        \n
+  \                                       \n                                        \n
+  \                               </span>\n                        \n\t\t</div>\n\n\t\t<div
+  class=\"userinfo\">\n\t\t\t<div class=\"contact\">\n\t\t\t\t\n\t\t\t\t\t<a class=\"postuseravatarlink\"
+  href=\"member.php?44704-ngtwolf&amp;s=1c7c2feab3cea6076465faec0e3e642e\" title=\"ngtwolf
+  is offline\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"image.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=44704&amp;dateline=1545468296\"
+  alt=\"ngtwolf's Avatar\" title=\"ngtwolf's Avatar\">\n\t\t\t\t\t\t\n\t\t\t\t\t</a>\n\t\t\t\t\n\t\t\t\t<div
+  class=\"username_container\">\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"popupmenu memberaction\"
+  id=\"yui-gen40\">\n\t<a class=\"username offline popupctrl\" href=\"member.php?44704-ngtwolf&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"ngtwolf is offline\" id=\"yui-gen42\"><strong>ngtwolf</strong></a>\n\t<ul
+  class=\"popupbody memberaction_body\" id=\"yui-gen41\">\n\t\t<li class=\"left\">\n\t\t\t<a
+  href=\"member.php?44704-ngtwolf&amp;s=1c7c2feab3cea6076465faec0e3e642e\" class=\"siteicon_profile\">\n\t\t\t\tView
+  Profile\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t<li class=\"right\">\n\t\t\t<a href=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=finduser&amp;userid=44704&amp;contenttype=vBForum_Post&amp;showposts=1\"
+  class=\"siteicon_forum\" rel=\"nofollow\">\n\t\t\t\tView Forum Posts\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t<li
+  class=\"left\">\n\t\t\t<a href=\"private.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newpm&amp;u=44704\"
+  class=\"siteicon_message\" rel=\"nofollow\">\n\t\t\t\tPrivate Message\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"blog.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;u=44704\"
+  class=\"siteicon_blog\" rel=\"nofollow\">\n\t\t\t\tView Blog Entries\n\t\t\t</a>\n\t\t</li>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<li
+  class=\"right\">\n\t\t\t<a href=\"http://www.vcfed.org/forum/list.php?author/44704-ngtwolf&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  class=\"siteicon_article\" rel=\"nofollow\">\n\t\t\t\tView Articles\n\t\t\t</a>\n\t\t</li>\n\t\t\n\n\t\t\n\n\t\t\n\t\t\n\t</ul>\n</div>\n\t\t\t\t\t\t<img
+  class=\"inlineimg onlinestatus\" src=\"images/statusicon/user-offline.png\" alt=\"ngtwolf
+  is offline\" border=\"0\" title=\"ngtwolf is offline\">\n\n\t\t\t\t\t\n\t\t\t\t\t<span
+  class=\"usertitle\">\n\t\t\t\t\t\tSenior Member\n\t\t\t\t\t</span>\n\t\t\t\t\t\n\n
+  \                                       \n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<div
+  class=\"imlinks\">\n\t\t\t\t\t\t\t    \n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t<div
+  class=\"userinfo_extra\">\n\t\t\t\t\t<dl class=\"userstats\">\n\t\t\t\t\t\t<dt>Join
+  Date</dt> <dd>Apr 2018</dd>\n\t\t\t\t\t\t<dt>Location</dt> <dd>Los Angeles, CA</dd>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<dt>Posts</dt>
+  <dd>442</dd>\t\n\t\t\t\t\t\t\n\t\t\t\t\t</dl>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t</div>\n\n\t<div
+  class=\"postbody\">\n\t\t\n\t\t<div class=\"postrow\">\n\t\t\n\t\t<h2 class=\"posttitle
+  icon\">\n\t\t\t<img src=\"images/icons/icon1.png\" alt=\"Default\" title=\"Default\">
+  \n\t\t</h2>\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t<div class=\"content\">\n\t\t\t<div
+  id=\"post_message_559700\">\n\t\t\t\t<blockquote class=\"postcontent restore\">\n\t\t\t\t\t<div
+  class=\"bbcode_container\">\n\t<div class=\"bbcode_quote\">\n\t\t<div class=\"quote_container\">\n\t\t\t<div
+  class=\"bbcode_quote_container\"></div>\n\t\t\t\n\t\t\t\t<div class=\"bbcode_postedby\">\n\t\t\t\t\t<img
+  src=\"images/misc/quote_icon.png\" alt=\"Quote\" title=\"Quote\"> Originally Posted
+  by <strong>soviet9922</strong>\n\t\t\t\t\t<a href=\"showthread.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;p=559672#post559672\"
+  rel=\"nofollow\"><img class=\"inlineimg\" src=\"images/buttons/viewpost-right.png\"
+  alt=\"View Post\" title=\"View Post\"></a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"message\">For
+  big things the peroxide cream 80 volumes is the best metod, just use a brush to
+  cover the hardware and let them in the sun. I replay the cream using the brush every
+  20 minutes because it get dry.<br>\nI see people doing thie other way and covering
+  everything using kitchen plastic but doing this i have found the cream evaporate
+  and can cause color streaks on the plastic.</div>\n\t\t\t\n\t\t</div>\n\t</div>\n</div>I
+  can't answer the OP's question since I live in California so we don't usually have
+  to resort to lights.  But just wanted to comment to this part in that I've had bad
+  experience with the creme so I only do the submersion method now (with the clear
+  saloncare 40).  If you do use the creme (might have to on large stuff you can't
+  submerge), you just have to be extra diligent about it because it can easily cause
+  streaks.  Basically, set that alarm to go out every 20 minutes and move the creme
+  around.\n\t\t\t\t</blockquote>\n\t\t\t</div>\n\n\t\t\t\n\n\n\t\t</div>\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t<blockquote
+  class=\"signature restore\"><div class=\"signaturecontainer\">-- Brian<br>\n<br>\nWorking
+  Systems:  Apple IIe/II+/Mac+, Atari 800/520STFM, Commodore 64/Amiga 3000/SX-64,
+  IBM PS/1 2121-B82, Kaypro II, Tandy 1000 SX, TI-99/4A, TRS-80 Model 4 GA<br>\nProject
+  Systems: Mac 512K, Amstrad PCW 8256, Kaypro 2/84 (Bad Chips: 81-194, 81-189).</div></blockquote>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t</div>\n\t<div
+  class=\"postfoot\">\n\t\t<div class=\"textcontrols floatcontainer\">\n\t\t\t<span
+  class=\"postcontrols\">\n\t\t\t\t<img style=\"display:none\" id=\"progress_559700\"
+  src=\"images/misc/progress.gif\" alt=\"\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<a
+  id=\"qrwq_559700\" class=\"newreply\" href=\"newreply.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=newreply&amp;p=559700\"
+  rel=\"nofollow\" title=\"Reply With Quote\"><img id=\"quoteimg_559700\" src=\"clear.gif\"
+  alt=\"Reply With Quote\" title=\"Reply With Quote\">  Reply With Quote</a> \n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</span>\n\t\t\t<span
+  class=\"postlinking\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t \n\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t
+  \n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t</span>\n\t\t</div>\n\t</div>\n\t<hr>\n</li>\n\n\t\t</ol>\n\t\t<div
+  class=\"separator\"></div>\n\t\t<div class=\"postlistfoot\">\n\t\t\t\n\t\t</div>\n\n\t\n\n</div>\n\n<div
+  id=\"below_postlist\" class=\"noinlinemod below_postlist\">\n\t\n\t<div id=\"pagination_bottom\"
+  class=\"pagination_bottom\">\n\t\n\t\t<form action=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan/page5&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  method=\"get\" class=\"pagination popupmenu nohovermenu\" id=\"yui-gen43\">\n<input
+  type=\"hidden\" name=\"t\" value=\"68612\"><input type=\"hidden\" name=\"s\" value=\"1c7c2feab3cea6076465faec0e3e642e\">\n\t\n\t\t<span><a
+  href=\"javascript://\" class=\"popupctrl\" id=\"yui-gen45\">Page 1 of 5</a></span>\n\t\t\n\t\t\n\t\t\n\t\t<span
+  class=\"selected\"><a href=\"javascript://\" title=\"Results 1 to 10 of 46\">1</a></span><span><a
+  href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan/page2&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"Show results 11 to 20 of 46\">2</a></span><span><a href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan/page3&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"Show results 21 to 30 of 46\">3</a></span><span><a href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan/page4&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"Show results 31 to 40 of 46\">4</a></span><span><a href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan/page5&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"Show results 41 to 46 of 46\">5</a></span>\n\t\t\n\t\t\n\t\t<span class=\"prev_next\"><a
+  rel=\"next\" href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan/page2&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"Next Page - Results 11 to 20 of 46\"><img src=\"images/pagination/next-right.png\"
+  alt=\"Next\" title=\"Next\"></a></span>\n\t\t\n\t\t\n\t\t<span class=\"first_last\"><a
+  href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan/page5&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  title=\"Last Page - Results 41 to 46 of 46\">Last<img src=\"images/pagination/last-right.png\"
+  alt=\"Last\" title=\"Last\"></a></span>\n\t\t\n\t\n\t<ul class=\"popupbody\" id=\"yui-gen44\">\n\t\t<li
+  class=\"formsubmit jumptopage\"><label>Jump to page: <input type=\"text\" name=\"page\"
+  size=\"4\"></label> <input type=\"submit\" class=\"button\" value=\"Go\"></li>\n\t</ul>\n</form>\n\t\n\t\t<div
+  class=\"clear\"></div>\n<div class=\"navpopupmenu popupmenu nohovermenu\" id=\"showthread_navpopup\">\n\t\n\t\t<span
+  class=\"shade\">Quick Navigation</span>\n\t\t<a href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e\"
+  class=\"popupctrl\" id=\"yui-gen47\"><span class=\"ctrlcontainer\">General Vintage
+  Computer Discussions</span></a>\n\t\t<a href=\"showthread.php?68612#top\" class=\"textcontrol\"
+  onclick=\"document.location.hash='top';return false;\">Top</a>\n\t\n\t<ul class=\"navpopupbody
+  popupbody\" id=\"yui-gen46\">\n\t\t\n\t\t<li class=\"optionlabel\">Site Areas</li>\n\t\t<li><a
+  href=\"usercp.php?s=1c7c2feab3cea6076465faec0e3e642e\">Settings</a></li>\n\t\t<li><a
+  href=\"private.php?s=1c7c2feab3cea6076465faec0e3e642e\">Private Messages</a></li>\n\t\t<li><a
+  href=\"subscription.php?s=1c7c2feab3cea6076465faec0e3e642e\">Subscriptions</a></li>\n\t\t<li><a
+  href=\"online.php?s=1c7c2feab3cea6076465faec0e3e642e\">Who's Online</a></li>\n\t\t<li><a
+  href=\"search.php?s=1c7c2feab3cea6076465faec0e3e642e\">Search Forums</a></li>\n\t\t<li><a
+  href=\"forum.php?s=1c7c2feab3cea6076465faec0e3e642e\">Forums Home</a></li>\n\t\t\n\t\t\t<li
+  class=\"optionlabel\">Forums</li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?4-Administrative&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Administrative</a>\n\t\t\t\t\t<ol
+  class=\"d1\">\n\t\t\t\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?13-Announcements&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Announcements</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\t</ol>\n\t\t\t\t</li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?6-Genres&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Genres</a>\n\t\t\t\t\t<ol
+  class=\"d1\">\n\t\t\t\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?20-Early-Apple-(I-etc-)&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Early
+  Apple (I, ][, ///, etc.)</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?41-Later-Apple-(68000-based-machines-Mac-Lisa-etc-)&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Later
+  Apple (68000+ based machines - Mac, Lisa, etc.)</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?27-Atari&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Atari</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?21-Commodore&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Commodore</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?23-DEC&amp;s=1c7c2feab3cea6076465faec0e3e642e\">DEC</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?22-PCs-and-Clones&amp;s=1c7c2feab3cea6076465faec0e3e642e\">PCs
+  and Clones</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?63-Later-PCs&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Later
+  PCs</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?70-Pentium-(First-generation)&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Pentium
+  (First generation)</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?24-S-100&amp;s=1c7c2feab3cea6076465faec0e3e642e\">S-100</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?25-CP-M-and-MP-M&amp;s=1c7c2feab3cea6076465faec0e3e642e\">CP/M
+  and MP/M</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?26-Unix-Xenix-Linux-Workstations&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Unix/Xenix/Linux
+  Workstations</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?46-Tandy-Radio-Shack&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Tandy/Radio
+  Shack</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?47-Handhelds-Portables&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Handhelds/Portables</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?49-Pre-Altair-Microcomputers&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Pre-Altair
+  Microcomputers</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?62-Texas-Instruments&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Texas
+  Instruments</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?48-Minis-and-Mainframes&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Minis
+  and Mainframes</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?40-Other&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Other</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\t</ol>\n\t\t\t\t</li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?65-Vintage-Gaming&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Vintage
+  Gaming</a>\n\t\t\t\t\t<ol class=\"d1\">\n\t\t\t\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?66-Vintage-Gaming&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Vintage
+  Gaming</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\t</ol>\n\t\t\t\t</li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?5-Collections-Community&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Collections/Community</a>\n\t\t\t\t\t<ol
+  class=\"d1\">\n\t\t\t\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?14-General-Vintage-Computer-Discussions&amp;s=1c7c2feab3cea6076465faec0e3e642e\">General
+  Vintage Computer Discussions</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?15-Your-Vintage-Computer-Collections&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Your
+  Vintage Computer Collections</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?36-Introductions&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Introductions</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?37-Vintage-Computer-Link-Exchange&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Vintage
+  Computer Link Exchange</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?67-Events-and-Organizations&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Events
+  and Organizations</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?83-Retro-Podcasts-Discussion&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Retro
+  Podcasts Discussion</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\t</ol>\n\t\t\t\t</li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?7-Marketplace&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Marketplace</a>\n\t\t\t\t\t<ol
+  class=\"d1\">\n\t\t\t\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?28-Vintage-Computer-Items-For-Sale-or-Trade&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Vintage
+  Computer Items For Sale or Trade</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?29-Vintage-Computer-Items-Wanted&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Vintage
+  Computer Items Wanted</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?30-Vintage-Computer-Services-Offered-Needed&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Vintage
+  Computer Services Offered/Needed</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?31-Vintage-Computer-Auctions&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Vintage
+  Computer Auctions</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\t</ol>\n\t\t\t\t</li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?3-Technical-Support&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Technical
+  Support</a>\n\t\t\t\t\t<ol class=\"d1\">\n\t\t\t\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?16-Vintage-Computer-Software&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Vintage
+  Computer Software</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?17-Vintage-Computer-Hardware&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Vintage
+  Computer Hardware</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?18-Vintage-Computer-Programming&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Vintage
+  Computer Programming</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?19-Vintage-Computer-Tools&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Vintage
+  Computer Tools</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?42-Vintage-Computer-Forum-Support&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Vintage
+  Computer Forum Support</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?50-Vintage-Computer-Reviews&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Vintage
+  Computer Reviews</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\t</ol>\n\t\t\t\t</li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?10-Vintage-Documentation&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Vintage
+  Documentation</a>\n\t\t\t\t\t<ol class=\"d1\">\n\t\t\t\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?43-Requests-Discussions&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Requests/Discussions</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?44-Online-Manuals&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Online
+  Manuals</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?45-Available-Printed-Documentation&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Available
+  Printed Documentation</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\t</ol>\n\t\t\t\t</li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?8-Completely-off-Topic&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Completely
+  off Topic</a>\n\t\t\t\t\t<ol class=\"d1\">\n\t\t\t\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?33-General-Off-Topic&amp;s=1c7c2feab3cea6076465faec0e3e642e\">General
+  Off Topic</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?61-Off-Topic-Marketplace&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Off
+  Topic Marketplace</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?34-Rants&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Rants</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?35-Humor&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Humor</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\t</ol>\n\t\t\t\t</li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?71-VCWiki&amp;s=1c7c2feab3cea6076465faec0e3e642e\">VCWiki</a>\n\t\t\t\t\t<ol
+  class=\"d1\">\n\t\t\t\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?72-VCWiki&amp;s=1c7c2feab3cea6076465faec0e3e642e\">VCWiki</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?73-History&amp;s=1c7c2feab3cea6076465faec0e3e642e\">History</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?74-How-To&amp;s=1c7c2feab3cea6076465faec0e3e642e\">How To</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?75-Systems&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Systems</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?76-Software&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Software</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?77-Hardware&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Hardware</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?78-Publications&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Publications</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?79-Companies&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Companies</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?80-Luminaries&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Luminaries</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"forumdisplay.php?81-Collecting-and-Using&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Collecting
+  and Using</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li><a href=\"forumdisplay.php?82-Other&amp;s=1c7c2feab3cea6076465faec0e3e642e\">Other</a></li>\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\t</ol>\n\t\t\t\t</li>\n\t\t\t\n\t\t\n\t\t\n\t</ul>\n</div>\n<div
+  class=\"clear\"></div>\n\t</div>\n</div>\n\n\n\n\n\n\n\n\n\t<!-- next / previous
+  links -->\n\t<div class=\"navlinks\">\n\t\t\n\t\t\t<strong>«</strong>\n\t\t\t<a
+  href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e&amp;goto=nextoldest\"
+  rel=\"nofollow\">Previous Thread</a>\n\t\t\t|\n\t\t\t<a href=\"showthread.php?68612-Finally-built-my-submersion-retrobrite-tank-didnt-go-according-to-plan&amp;s=1c7c2feab3cea6076465faec0e3e642e&amp;goto=nextnewest\"
+  rel=\"nofollow\">Next Thread</a>\n\t\t\t<strong>»</strong>\n\t\t\n\t</div>\n\t<!--
+  / next / previous links -->\n\n<div id=\"thread_info\" class=\"thread_info block\">\n\t\n\t\n\t\n\t\n\t\n\t\n\t<div
+  class=\"options_block_container\">\n\t\t\n\t\t<div class=\"options_block2\">\n\t\t\t<h4
+  class=\"blockhead options_correct\">Bookmarks</h4>\n\t\t\t<div id=\"social_bookmarks_list\"
+  class=\"thread_info_block blockbody formcontrols floatcontainer options_correct\">\n\t\t\t\t<h5
+  class=\"blocksubhead\">Bookmarks</h5>\n\t\t\t\t<ul class=\"icon_list\"><li class=\"smallfont\">\n\t\n\t\t<a
+  href=\"http://digg.com/submit?phrase=2&amp;url=http%3A%2F%2Fwww.vcfed.org%2Fforum%2Fshowthread.php%3Ft%3D68612&amp;title=Finally+built+my+submersion+retrobrite+tank...+didnt+go+according+to+plan.\"
+  target=\"socialbookmark\"><img src=\"images/misc/bookmarksite_digg.gif\" alt=\"Submit
+  to Digg\" title=\"Submit to Digg\"></a>\n\t\n\t<a href=\"http://digg.com/submit?phrase=2&amp;url=http%3A%2F%2Fwww.vcfed.org%2Fforum%2Fshowthread.php%3Ft%3D68612&amp;title=Finally+built+my+submersion+retrobrite+tank...+didnt+go+according+to+plan.\"
+  target=\"socialbookmark\">Digg</a>\n</li><li class=\"smallfont\">\n\t\n\t\t<a href=\"http://del.icio.us/post?url=http%3A%2F%2Fwww.vcfed.org%2Fforum%2Fshowthread.php%3Ft%3D68612&amp;title=Finally+built+my+submersion+retrobrite+tank...+didnt+go+according+to+plan.\"
+  target=\"socialbookmark\"><img src=\"images/misc/bookmarksite_delicious.gif\" alt=\"Submit
+  to del.icio.us\" title=\"Submit to del.icio.us\"></a>\n\t\n\t<a href=\"http://del.icio.us/post?url=http%3A%2F%2Fwww.vcfed.org%2Fforum%2Fshowthread.php%3Ft%3D68612&amp;title=Finally+built+my+submersion+retrobrite+tank...+didnt+go+according+to+plan.\"
+  target=\"socialbookmark\">del.icio.us</a>\n</li><li class=\"smallfont\">\n\t\n\t\t<a
+  href=\"http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.vcfed.org%2Fforum%2Fshowthread.php%3Ft%3D68612&amp;title=Finally+built+my+submersion+retrobrite+tank...+didnt+go+according+to+plan.\"
+  target=\"socialbookmark\"><img src=\"images/misc/bookmarksite_stumbleupon.gif\"
+  alt=\"Submit to StumbleUpon\" title=\"Submit to StumbleUpon\"></a>\n\t\n\t<a href=\"http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.vcfed.org%2Fforum%2Fshowthread.php%3Ft%3D68612&amp;title=Finally+built+my+submersion+retrobrite+tank...+didnt+go+according+to+plan.\"
+  target=\"socialbookmark\">StumbleUpon</a>\n</li><li class=\"smallfont\">\n\t\n\t\t<a
+  href=\"http://www.google.com/bookmarks/mark?op=edit&amp;output=popup&amp;bkmk=http%3A%2F%2Fwww.vcfed.org%2Fforum%2Fshowthread.php%3Ft%3D68612&amp;title=Finally+built+my+submersion+retrobrite+tank...+didnt+go+according+to+plan.\"
+  target=\"socialbookmark\"><img src=\"images/misc/bookmarksite_google.gif\" alt=\"Submit
+  to Google\" title=\"Submit to Google\"></a>\n\t\n\t<a href=\"http://www.google.com/bookmarks/mark?op=edit&amp;output=popup&amp;bkmk=http%3A%2F%2Fwww.vcfed.org%2Fforum%2Fshowthread.php%3Ft%3D68612&amp;title=Finally+built+my+submersion+retrobrite+tank...+didnt+go+according+to+plan.\"
+  target=\"socialbookmark\">Google</a>\n</li></ul>\n\t\t\t</div>\n\t\t</div>\n\t\t\n\t\t<div
+  class=\"options_block\">\n\t\t\t<h4 class=\"collapse blockhead options_correct\">\n\t\t\t\t<a
+  class=\"collapse\" id=\"collapse_posting_rules\" href=\"showthread.php?68612#top\"><img
+  src=\"images/buttons/collapse_40b.png\" alt=\"\"></a>\n\t\t\t\tPosting Permissions\n\t\t\t</h4>\n\t\t\t<div
+  id=\"posting_rules\" class=\"thread_info_block blockbody formcontrols floatcontainer
+  options_correct\">\n\t\t\t\t\n<div id=\"forumrules\" class=\"info_subblock\">\n\n\t<ul
+  class=\"youcandoblock\">\n\t\t<li>You <strong>may not</strong> post new threads</li>\n\t\t<li>You
+  <strong>may not</strong> post replies</li>\n\t\t<li>You <strong>may not</strong>
+  post attachments</li>\n\t\t<li>You <strong>may not</strong> edit your posts</li>\n\t\t<li>&nbsp;</li>\n\t</ul>\n\t<div
+  class=\"bbcodeblock\">\n\t\t<ul>\n\t\t\t<li><a href=\"misc.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=bbcode\"
+  target=\"_blank\">BB code</a> is <strong>On</strong></li>\n\t\t\t<li><a href=\"misc.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=showsmilies\"
+  target=\"_blank\">Smilies</a> are <strong>On</strong></li>\n\t\t\t<li><a href=\"misc.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=bbcode#imgcode\"
+  target=\"_blank\">[IMG]</a> code is <strong>On</strong></li>\n\t\t\t<li><a href=\"misc.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=bbcode#videocode\"
+  target=\"_blank\">[VIDEO]</a> code is <strong>On</strong></li>\n\t\t\t<li>HTML code
+  is <strong>Off</strong></li>\n\t\t</ul>\n\t</div>\n\t<p class=\"rules_link\"><a
+  href=\"misc.php?s=1c7c2feab3cea6076465faec0e3e642e&amp;do=showrules\" target=\"_blank\">Forum
+  Rules</a></p>\n\n</div>\n\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n\n\n\n\n\n\n\n\n<div
+  id=\"footer\" class=\"floatcontainer footer\">\n\n\t<form action=\"forum.php\" method=\"get\"
+  id=\"footer_select\" class=\"footer_select\">\n\n\t\t\n\t\t\t<select name=\"styleid\"
+  onchange=\"switch_id(this, 'style')\">\n\t\t\t\t<optgroup label=\"Quick Style Chooser\"><option
+  class=\"hidden\"></option></optgroup>\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<optgroup
+  label=\"&nbsp;Standard Styles\">\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t<option value=\"2\"
+  class=\"\" selected=\"selected\">-- vB4 Default Style</option>\n\n\t\t\t\t\t\n\t\t\t\t\t</optgroup>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<optgroup
+  label=\"&nbsp;Mobile Styles\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t<option value=\"3\" class=\"\">--
+  Default Mobile Style</option>\n\n\t\t\t\t\t\n\t\t\t\t\t</optgroup>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t</select>\t\n\t\t\n\t\t\n\t\t\n\t</form>\n\n\t<ul
+  id=\"footer_links\" class=\"footer_links\">\n\t\t<li><a href=\"sendmessage.php?s=1c7c2feab3cea6076465faec0e3e642e\"
+  rel=\"nofollow\" accesskey=\"9\">Contact Us</a></li>\n\t\t<li><a href=\"http://www.vcfed.org\">Vintage
+  Computer Forum</a></li>\n\t\t\n\t\t\n\t\t<li><a href=\"archive/index.php?s=1c7c2feab3cea6076465faec0e3e642e\">Archive</a></li>\n\t\t\n\t\t\n\t\t\n\t\t<li><a
+  href=\"showthread.php?68612#top\" onclick=\"document.location.hash='top'; return
+  false;\">Top</a></li>\n\t</ul>\n\t\n\t\n\t\n\t\n\t<script type=\"text/javascript\">\n\t<!--\n\t\t//
+  Main vBulletin Javascript Initialization\n\t\tvBulletin_init();\n\t//-->\n\t</script>\n
+  \       \n</div>\n</div> <!-- closing div for body_wrapper -->\n\n<div class=\"below_body\">\n<div
+  id=\"footer_time\" class=\"shade footer_time\">All times are GMT -8. The time now
+  is <span class=\"time\">08:19 AM</span>.</div>\n\n<div id=\"footer_copyright\" class=\"shade
+  footer_copyright\">\n\t<!-- Do not remove this copyright notice -->\n\tPowered by
+  <a href=\"https://www.vbulletin.com\" id=\"vbulletinlink\">vBulletin®</a> Version
+  4.2.5 <br>Copyright © 2019 vBulletin Solutions Inc. All rights reserved. \n\t<!--
+  Do not remove this copyright notice -->\t\n</div>\n<div id=\"footer_morecopyright\"
+  class=\"shade footer_morecopyright\">\n\t<!-- Do not remove cronimage or your scheduled
+  tasks will cease to function -->\n\t\n\t<!-- Do not remove cronimage or your scheduled
+  tasks will cease to function -->\n\t© 2002-2019 Vintage Computer Federation, all
+  rights reserved\n\t\n</div>\n\n<script type=\"text/javascript\">\n<!-- Google Analytics
+  -->\n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+  Date();a=s.createElement(o),\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\nga('create',
+  'UA-300783-1', 'auto');\nga('require', 'displayfeatures');\nga('send', 'pageview');\n\n</script>\n<!--
+  End Google Analytics -->\n \n\n\t<div id=\"fb-root\" class=\" fb_reset\"><div style=\"position:
+  absolute; top: -10000px; width: 0px; height: 0px;\"><div><iframe name=\"fb_xdm_frame_https\"
+  frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\"
+  allow=\"encrypted-media\" id=\"fb_xdm_frame_https\" aria-hidden=\"true\" title=\"Facebook
+  Cross Domain Communication Frame\" tabindex=\"-1\" src=\"https://staticxx.facebook.com/connect/xd_arbiter/r/d_vbiawPdxB.js?version=44#channel=f3fe13df2565e4c&amp;origin=http%3A%2F%2Fwww.vcfed.org\"
+  style=\"border: none;\"></iframe></div><div><iframe name=\"f12b9dfe6c9a41\" frameborder=\"0\"
+  allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\" allow=\"encrypted-media\"
+  src=\"https://www.facebook.com/connect/ping?client_id=124672770889274&amp;domain=www.vcfed.org&amp;origin=1&amp;redirect_uri=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fd_vbiawPdxB.js%3Fversion%3D44%23cb%3Df30dab44a09986%26domain%3Dwww.vcfed.org%26origin%3Dhttp%253A%252F%252Fwww.vcfed.org%252Ff3fe13df2565e4c%26relation%3Dparent&amp;response_type=token%2Csigned_request&amp;sdk=joey\"
+  style=\"display: none;\"></iframe></div></div></div>\n<script type=\"text/javascript\"
+  src=\"http://www.vcfed.org/forum/clientscript/vbulletin_facebook.js?v=425\"></script>\n\n<script
+  type=\"text/javascript\">\n<!--\n\tloadFacebookAPI('en_US');\n\tfunction fbAsyncInit()\n\t{\n\t\tvBfb
+  = new vB_Facebook({\n\t\t\tappid : \"124672770889274\",\n\t\t\tconnected : 0,\n\t\t\tactive
+  : 0,\n\t\t\tautoreg : 0,\n\t\t\tfeed_newthread : 1,\n\t\t\tfeed_postreply : 1,\n\t\t\tfeed_blogentry
+  : 1,\n\t\t\tfeed_blogcomment : 1,\n\t\t\tfeed_newarticle : 1,\n\t\t\tfeed_articlecomment
+  : 1\n\t\t});\n\t}\n// -->\n</script>\n\n</div>\n\n\n</body></html>"

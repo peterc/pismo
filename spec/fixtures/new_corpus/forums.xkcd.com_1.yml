@@ -1,0 +1,500 @@
+---
+:url: http://forums.xkcd.com/viewtopic.php?f=39&t=126113
+:body: "<!DOCTYPE html><html dir=\"ltr\" lang=\"en-gb\"><head>\n<meta charset=\"utf-8\">\n<meta
+  http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"viewport\" content=\"width=device-width,
+  initial-scale=1\">\n\n<title>Cooking Concepts &amp; Terms for Beginners - xkcd</title>\n\n\t<link
+  rel=\"alternate\" type=\"application/atom+xml\" title=\"Feed - xkcd\" href=\"http://forums.xkcd.com/feed.php\">\t\t<link
+  rel=\"alternate\" type=\"application/atom+xml\" title=\"Feed - All forums\" href=\"http://forums.xkcd.com/feed.php?mode=forums\">\t<link
+  rel=\"alternate\" type=\"application/atom+xml\" title=\"Feed - New Topics\" href=\"http://forums.xkcd.com/feed.php?mode=topics\">\t<link
+  rel=\"alternate\" type=\"application/atom+xml\" title=\"Feed - Active Topics\" href=\"http://forums.xkcd.com/feed.php?mode=topics_active\">\t<link
+  rel=\"alternate\" type=\"application/atom+xml\" title=\"Feed - Forum - Food\" href=\"http://forums.xkcd.com/feed.php?f=39\">\t<link
+  rel=\"alternate\" type=\"application/atom+xml\" title=\"Feed - Topic - Cooking Concepts
+  &amp; Terms for Beginners\" href=\"http://forums.xkcd.com/feed.php?f=39&amp;t=126113\">\t\n\t<link
+  rel=\"canonical\" href=\"http://forums.xkcd.com/viewtopic.php?t=126113\">\n\n<!--\n\tphpBB
+  style name: prosilver\n\tBased on style:   prosilver (this is the default phpBB3
+  style)\n\tOriginal author:  Tom Beddard ( http://www.subBlue.com/ )\n\tModified
+  by:\n-->\n\n<link href=\"./styles/prosilver/theme/stylesheet.css?assets_version=9\"
+  rel=\"stylesheet\">\n<link href=\"./styles/prosilver/theme/en/stylesheet.css?assets_version=9\"
+  rel=\"stylesheet\">\n<link href=\"./styles/prosilver/theme/responsive.css?assets_version=9\"
+  rel=\"stylesheet\" media=\"all and (max-width: 700px)\">\n\n\n\n<!--[if lte IE 9]>\n\t<link
+  href=\"./styles/prosilver/theme/tweaks.css?assets_version=9\" rel=\"stylesheet\">\n<![endif]-->\n\n\n\n\n<script
+  async=\"\" src=\"//www.google-analytics.com/analytics.js\"></script><script>\n\t(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n\t(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+  Date();a=s.createElement(o),\n\tm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n\t})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n\tga('create',
+  'UA-25700708-3', 'auto');\n\t\tga('send', 'pageview');\n</script>\n\n</head>\n<body
+  id=\"phpbb\" class=\"notouch section-viewtopic ltr hasjs\" style=\"\">\n\n\n<div
+  id=\"wrap\">\n\t<a id=\"top\" class=\"anchor\" accesskey=\"t\"></a>\n\t<div id=\"page-header\">\n\t\t<div
+  class=\"headerbar\" role=\"banner\">\n\t\t\t<div class=\"inner\">\n\n\t\t\t<div
+  id=\"site-description\">\n\t\t\t\t<a id=\"logo\" class=\"logo\" href=\"./index.php?sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"Board index\"><span class=\"imageset site_logo\"></span></a>\n\t\t\t\t<h1>xkcd</h1>\n\t\t\t\t<p>Forums
+  for the webcomic xkcd.com</p>\n\t\t\t\t<p class=\"skiplink\"><a href=\"#start_here\">Skip
+  to content</a></p>\n\t\t\t</div>\n\n\t\t\t\t\t\t\t\t\t<div id=\"search-box\" class=\"search-box
+  search-header\" role=\"search\">\n\t\t\t\t<form action=\"./search.php?sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  method=\"get\" id=\"search\">\n\t\t\t\t<fieldset>\n\t\t\t\t\t<input name=\"keywords\"
+  id=\"keywords\" type=\"search\" maxlength=\"128\" title=\"Search for keywords\"
+  class=\"inputbox search tiny\" size=\"20\" value=\"\" placeholder=\"Search…\">\n\t\t\t\t\t<button
+  class=\"button icon-button search-icon\" type=\"submit\" title=\"Search\">Search</button>\n\t\t\t\t\t<a
+  href=\"./search.php?sid=c9cb12cc179ee64f6afa6f52bb674cdc\" class=\"button icon-button
+  search-adv-icon\" title=\"Advanced search\">Advanced search</a>\n\t\t\t\t\t<input
+  type=\"hidden\" name=\"sid\" value=\"c9cb12cc179ee64f6afa6f52bb674cdc\">\n\n\t\t\t\t</fieldset>\n\t\t\t\t</form>\n\t\t\t</div>\n\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\t\t\t<div
+  class=\"navbar\" role=\"navigation\">\n\t<div class=\"inner\">\n\n\t<ul id=\"nav-main\"
+  class=\"linklist bulletin compact\" role=\"menubar\">\n\n\t\t<li id=\"quick-links\"
+  class=\"small-icon responsive-menu dropdown-container\" data-skip-responsive=\"true\">\n\t\t\t<a
+  href=\"#\" class=\"responsive-menu-link dropdown-trigger dropdown-toggle\">Quick
+  links</a>\n\t\t\t<div class=\"dropdown hidden\">\n\t\t\t\t<div class=\"pointer\"><div
+  class=\"pointer-inner\"></div></div>\n\t\t\t\t<ul class=\"dropdown-contents\" role=\"menu\">\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"separator\"></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li class=\"small-icon
+  icon-search-unanswered\"><a href=\"./search.php?search_id=unanswered&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  role=\"menuitem\">Unanswered topics</a></li>\n\t\t\t\t\t\t<li class=\"small-icon
+  icon-search-active\"><a href=\"./search.php?search_id=active_topics&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  role=\"menuitem\">Active topics</a></li>\n\t\t\t\t\t\t<li class=\"separator\"></li>\n\t\t\t\t\t\t<li
+  class=\"small-icon icon-search\"><a href=\"./search.php?sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  role=\"menuitem\">Search</a></li>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li class=\"separator\"></li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"small-icon icon-team\"><a href=\"./memberlist.php?mode=team&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  role=\"menuitem\">The team</a></li>\t\t\t\t\t\t\t\t\t\t<li class=\"separator\"></li>\n\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</li>\n\n\t\t\t\t<li
+  class=\"small-icon icon-faq\" data-skip-responsive=\"true\"><a href=\"./faq.php?sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  rel=\"help\" title=\"Frequently Asked Questions\" role=\"menuitem\">FAQ</a></li>\n\t\t\t\t\t\t\n\t\t\t<li
+  class=\"small-icon icon-logout rightside\" data-skip-responsive=\"true\"><a href=\"./ucp.php?mode=login&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"Login\" accesskey=\"x\" role=\"menuitem\">Login</a></li>\n\t\t\t\t\t<li
+  class=\"small-icon icon-register rightside\" data-skip-responsive=\"true\"><a href=\"./ucp.php?mode=register&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  role=\"menuitem\">Register</a></li>\n\t\t\t\t\t\t</ul>\n\n\t<ul id=\"nav-breadcrumbs\"
+  class=\"linklist navlinks\" role=\"menubar\">\n\t\t\t\t\t\t<li class=\"small-icon
+  icon-home breadcrumbs wrapped\" style=\"max-width: 729px;\">\n\t\t\t\t\t\t\t\t\t<span
+  class=\"crumb wrapped wrapped-max wrapped-wide wrapped-medium wrapped-small wrapped-tiny\"
+  itemtype=\"http://data-vocabulary.org/Breadcrumb\" itemscope=\"\"><a href=\"./index.php?sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  accesskey=\"h\" data-navbar-reference=\"index\" itemprop=\"url\" title=\"Board index\"><span
+  itemprop=\"title\">Board index</span></a></span>\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"crumb
+  wrapped wrapped-max wrapped-wide wrapped-medium wrapped-small wrapped-tiny\" itemtype=\"http://data-vocabulary.org/Breadcrumb\"
+  itemscope=\"\" data-forum-id=\"32\"><a href=\"./viewforum.php?f=32&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  itemprop=\"url\" title=\"High Culture\"><span itemprop=\"title\">High Culture</span></a></span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+  class=\"crumb wrapped wrapped-max wrapped-wide wrapped-medium wrapped-small wrapped-tiny\"
+  itemtype=\"http://data-vocabulary.org/Breadcrumb\" itemscope=\"\" data-forum-id=\"39\"><a
+  href=\"./viewforum.php?f=39&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\" itemprop=\"url\"
+  title=\"Food\"><span itemprop=\"title\">Food</span></a></span>\n\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\n\t\t\t\t\t<li
+  class=\"rightside responsive-search\" style=\"display: none;\"><a href=\"./search.php?sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"View the advanced search options\" role=\"menuitem\">Search</a></li>\n\t\t\t</ul>\n\n\t</div>\n</div>\n\t</div>\n\n\t\n\t<a
+  id=\"start_here\" class=\"anchor\"></a>\n\t<div id=\"page-body\" role=\"main\">\n\t\t\n\t\t\n<h2
+  class=\"topic-title\"><a href=\"./viewtopic.php?f=39&amp;t=126113&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Cooking
+  Concepts &amp; Terms for Beginners</a></h2>\n<!-- NOTE: remove the style=\"display:
+  none\" when you want to have the forum description on the topic body -->\n<div style=\"display:
+  none !important;\">Apparently, people like to eat.<br></div>\n<p>\n\t<strong>Moderators:</strong>
+  <a href=\"./memberlist.php?mode=viewprofile&amp;u=9592&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  style=\"color: #CC6600;\" class=\"username-coloured\">SecondTalon</a>, <a style=\"color:#006600;\"
+  href=\"./memberlist.php?mode=group&amp;g=6592&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Moderators
+  General</a>, <a style=\"color:#CC6600;\" href=\"./memberlist.php?mode=group&amp;g=7357&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Prelates</a>\n</p>\n\n\n<div
+  class=\"action-bar top\">\n\n\t<div class=\"buttons\">\n\t\t\n\t\t\t<a href=\"./posting.php?mode=reply&amp;f=39&amp;t=126113&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"button icon-button reply-icon\" title=\"Post a reply\">\n\t\t\tPost Reply\t\t</a>\n\t\n\t\t\t</div>\n\n\t\t<div
+  class=\"dropdown-container dropdown-button-control topic-tools\">\n\t\t<span title=\"Topic
+  tools\" class=\"button icon-button tools-icon dropdown-trigger dropdown-select dropdown-toggle\"></span>\n\t\t<div
+  class=\"dropdown hidden\">\n\t\t\t<div class=\"pointer\"><div class=\"pointer-inner\"></div></div>\n\t\t\t<ul
+  class=\"dropdown-contents\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"small-icon icon-print\"><a href=\"./viewtopic.php?f=39&amp;t=126113&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc&amp;view=print\"
+  title=\"Print view\" accesskey=\"p\">Print view</a></li>\t\t\t\t\t\t\t</ul>\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"search-box\" role=\"search\">\n\t\t\t<form method=\"get\" id=\"topic-search\"
+  action=\"./search.php?sid=c9cb12cc179ee64f6afa6f52bb674cdc\">\n\t\t\t<fieldset>\n\t\t\t\t<input
+  class=\"inputbox search tiny\" type=\"search\" name=\"keywords\" id=\"search_keywords\"
+  size=\"20\" placeholder=\"Search this topic…\">\n\t\t\t\t<button class=\"button
+  icon-button search-icon\" type=\"submit\" title=\"Search\">Search</button>\n\t\t\t\t<a
+  href=\"./search.php?sid=c9cb12cc179ee64f6afa6f52bb674cdc\" class=\"button icon-button
+  search-adv-icon\" title=\"Advanced search\">Advanced search</a>\n\t\t\t\t<input
+  type=\"hidden\" name=\"t\" value=\"126113\">\n<input type=\"hidden\" name=\"sf\"
+  value=\"msgonly\">\n<input type=\"hidden\" name=\"sid\" value=\"c9cb12cc179ee64f6afa6f52bb674cdc\">\n\n\t\t\t</fieldset>\n\t\t\t</form>\n\t\t</div>\n\t\n\t\t\t<div
+  class=\"pagination\">\n\t\t\t6 posts\n\t\t\t\t\t\t\t• Page <strong>1</strong> of
+  <strong>1</strong>\n\t\t\t\t\t</div>\n\t\t</div>\n\n\n\n\n\t\t\t<div id=\"p4434295\"
+  class=\"post has-profile bg2 online\">\n\t\t<div class=\"inner\">\n\n\t\t<dl class=\"postprofile\"
+  id=\"profile4434295\">\n\t\t\t<dt class=\"no-profile-rank has-avatar\">\n\t\t\t\t<div
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=71631&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"avatar\"><img class=\"avatar\" src=\"./download/file.php?avatar=71631_1377467347.png\"
+  width=\"128\" height=\"150\" alt=\"User avatar\"></a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<a
+  href=\"./memberlist.php?mode=viewprofile&amp;u=71631&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"username\">sardia</a>\t\t\t\t\t\t\t</dt>\n\n\t\t\t\t\t\t\t\t\t\n\t\t<dd
+  class=\"profile-posts\"><strong>Posts:</strong> <a href=\"./search.php?author_id=71631&amp;sr=posts&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">6703</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> Sat Apr 03, 2010 3:39 am UTC</dd>\t\t\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content4434295\">\n\n\t\t\t\t\t\t<h3
+  class=\"first\"><a href=\"#p4434295\">Cooking Concepts &amp; Terms for Beginners</a></h3>\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=39&amp;p=4434295&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"Reply with quote\" class=\"button icon-button quote-icon\"><span>Quote</span></a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"responsive-menu dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button\"><span></span>&nbsp;</a><div class=\"dropdown
+  hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul class=\"dropdown-contents\"><li
+  class=\"clone clone-first\">\n\t\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=39&amp;p=4434295&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"Reply with quote\" class=\"quote-icon\"><span>Quote</span></a>\n\t\t\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><a href=\"./viewtopic.php?p=4434295&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc#p4434295\"><span
+  class=\"imageset icon_post_target\" title=\"Post\">Post</span></a><span class=\"responsive-hide\">by
+  <strong><a href=\"./memberlist.php?mode=viewprofile&amp;u=71631&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"username\">sardia</a></strong> » </span>Sat Feb 23, 2019 12:27 am UTC </p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\">We were all novices at some point in our lives, and sometimes
+  we forget how much experienced cooks stand on the shoulders of giants. Here are
+  some basic concepts and terms used to describe cooking.<br><br>Umami <div style=\"margin:20px;
+  margin-top:5px\"><div class=\"quotetitle\"><b>Spoiler:</b> <input type=\"button\"
+  value=\"Show\" style=\"width:45px;font-size:10px;margin:0px;padding:0px;\" onclick=\"if
+  (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  = '';        this.innerText = ''; this.value = 'Hide'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  = 'none'; this.innerText = ''; this.value = 'Show'; }\"></div><div class=\"quotecontent\"><div
+  style=\"display: none;\">one of the 6 tastes. The others are salt, sweet, sour,
+  bitter, and rancidity(of fat). This is a pleasant savory taste that comes from glutamates
+  from several sources. The big ones are tomatoes, fishes like anchovies (fish sauce),
+  soy sauce, msg, mushrooms, and most animals. All have high levels of glutamates/umami.
+  Most bottled versions are concentrated, and only a splash is needed to boost flavor
+  levels. Just like you wouldn't chug vinegar, don't judge it based on the intense
+  aroma and flavor. Instead taste it after stirring a bit into the dish.<br>Discard
+  X after simmering- many flavorful compounds are fat or water soluble. Flavor compounds
+  aren't infinite, and are distributed by osmosis/diffusion. In addition, some flavor
+  enhancers aren't tasty after they been simmered. It makes sense to discard them.
+  Examples Bay leaf, bones, cheap vegetables.</div></div></div><br>Cooking temperature-
+  water in food boils at 212F and will not go higher until the liquid water boils
+  off. This affects Browning/searing food.<br>\"sugar is a liquid ingredient\" - could
+  be remembering the quote wrong but heard it on Good Eats and it makes recipes make
+  sooooo much more sense.<br>Some major methods of cooking:<br><div style=\"margin:20px;
+  margin-top:5px\"><div class=\"quotetitle\"><b>Spoiler:</b> <input type=\"button\"
+  value=\"Show\" style=\"width:45px;font-size:10px;margin:0px;padding:0px;\" onclick=\"if
+  (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  = '';        this.innerText = ''; this.value = 'Hide'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  = 'none'; this.innerText = ''; this.value = 'Show'; }\"></div><div class=\"quotecontent\"><div
+  style=\"display: none;\">Braising-cooking in a liquid. Stews are braises, so is
+  chili and pot roast.<br>Roasting-cooking in dry heat, usually in an oven. Baking
+  is basically roasting.<br>Deep frying-frying in enough fat to submerge the food
+  being cooked.<br>Sautéing-cooking in a small amount of fat.<br>Boiling-cooking in
+  a large amount of water.<br>Steaming-cooking in a closed vessel, with the food being
+  cooked elevated over the liquid.<br>These days there is also Sous-vide cooking,
+  where the food is sealed in a bag before being submerged in water heated to a precise
+  temperature.</div></div></div><br>Gelatin <div style=\"margin:20px; margin-top:5px\"><div
+  class=\"quotetitle\"><b>Spoiler:</b> <input type=\"button\" value=\"Show\" style=\"width:45px;font-size:10px;margin:0px;padding:0px;\"
+  onclick=\"if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  = '';        this.innerText = ''; this.value = 'Hide'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  = 'none'; this.innerText = ''; this.value = 'Show'; }\"></div><div class=\"quotecontent\"><div
+  style=\"display: none;\">most people taste gelatin from Jell-O desserts, lip smacking
+  sauces from restaurants, and eating stew. Gelatin is extracted when you boil bones
+  for soup stock or cooking tough cuts of meat for a long time (BBQ ,/stew). The collagen
+  in connective tissue of cheap tough meat turns into gelatin under heat and time.</div></div></div><br>Bullion
+  cubes- a beef bullion cubes is beef broth that has no water.<br>Broth- beef broth
+  is beef fat with flavoring, and salt with water.<br>Stock<div style=\"margin:20px;
+  margin-top:5px\"><div class=\"quotetitle\"><b>Spoiler:</b> <input type=\"button\"
+  value=\"Show\" style=\"width:45px;font-size:10px;margin:0px;padding:0px;\" onclick=\"if
+  (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  = '';        this.innerText = ''; this.value = 'Hide'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  = 'none'; this.innerText = ''; this.value = 'Show'; }\"></div><div class=\"quotecontent\"><div
+  style=\"display: none;\">bones Simmered in water with herbs. Most expensive of the
+  three liquids. For some reason, store bought beef stock has less gelatin and tastes
+  worse than chicken stock. Home made is best, but not always practical . Chicken
+  stock in a beef dish won't hurt the beefy taste. It's ok to swap to get the superior
+  gelatin and flavor of chicken stock. It's the fat that makes food taste distinctive
+  of that animal. Fun fact adding lamb fat to lean beef makes it tastes like lamb.</div></div></div><br>Searing
+  - to brown food/meat/veggies on a hot pan, usually with fat to conduct heat faster.
+  Purpose is to improve flavor. Downside overcooks the layer underneath the browned/seared
+  area.<br>Fond - when brown bits of food get stuck to the pan instead of your food
+  or mouth. It's tasty, 5 stars on Yelp.<br>Deglazing <div style=\"margin:20px; margin-top:5px\"><div
+  class=\"quotetitle\"><b>Spoiler:</b> <input type=\"button\" value=\"Show\" style=\"width:45px;font-size:10px;margin:0px;padding:0px;\"
+  onclick=\"if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  = '';        this.innerText = ''; this.value = 'Hide'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display
+  = 'none'; this.innerText = ''; this.value = 'Show'; }\"></div><div class=\"quotecontent\"><div
+  style=\"display: none;\">using a liquid to recover the Fond stuck on the pan. Pour
+  water onto a pan that has fond on it. Stir the pan to help suspend tasty Fond particles,
+  and then pour onto your food. Water is bland, so most people use leftover wine,
+  broth, or stock.</div></div></div><br>Reducing-concentrating flavor by evaporating
+  water from a liquid. If you reduce with an oven, it's possible for the liquids on
+  the surface of a pot to evaporate enough water that it enables browning. Say the
+  bubbly browned cheese in a potato gratin. <br><br>Edit 3/1/19 Compiled the posts
+  into 1.</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"notice\">\n\t\t\t\t\tLast
+  edited by <a href=\"./memberlist.php?mode=viewprofile&amp;u=71631&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"username\">sardia</a> on Sun Mar 03, 2019 7:12 pm UTC, edited 6 times in
+  total.\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\t\t\n\t\t</div>\n\t</div>\n\n\t<hr
+  class=\"divider\">\n\t\t\t\t<div id=\"p4434315\" class=\"post has-profile bg1 online\">\n\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile4434315\">\n\t\t\t<dt
+  class=\"no-profile-rank has-avatar\">\n\t\t\t\t<div class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a
+  href=\"./memberlist.php?mode=viewprofile&amp;u=71631&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"avatar\"><img class=\"avatar\" src=\"./download/file.php?avatar=71631_1377467347.png\"
+  width=\"128\" height=\"150\" alt=\"User avatar\"></a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<a
+  href=\"./memberlist.php?mode=viewprofile&amp;u=71631&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"username\">sardia</a>\t\t\t\t\t\t\t</dt>\n\n\t\t\t\t\t\t\t\t\t\n\t\t<dd
+  class=\"profile-posts\"><strong>Posts:</strong> <a href=\"./search.php?author_id=71631&amp;sr=posts&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">6703</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> Sat Apr 03, 2010 3:39 am UTC</dd>\t\t\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content4434315\">\n\n\t\t\t\t\t\t<h3><a
+  href=\"#p4434315\">Re: Cooking Concepts &amp; Terms for Beginners</a></h3>\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=39&amp;p=4434315&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"Reply with quote\" class=\"button icon-button quote-icon\"><span>Quote</span></a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"responsive-menu dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button\"><span></span>&nbsp;</a><div class=\"dropdown
+  hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul class=\"dropdown-contents\"><li
+  class=\"clone clone-first\">\n\t\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=39&amp;p=4434315&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"Reply with quote\" class=\"quote-icon\"><span>Quote</span></a>\n\t\t\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><a href=\"./viewtopic.php?p=4434315&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc#p4434315\"><span
+  class=\"imageset icon_post_target\" title=\"Post\">Post</span></a><span class=\"responsive-hide\">by
+  <strong><a href=\"./memberlist.php?mode=viewprofile&amp;u=71631&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"username\">sardia</a></strong> » </span>Sat Feb 23, 2019 1:22 am UTC </p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\">Gelatin - most people taste gelatin from Jell-O desserts, lip
+  smacking sauces from restaurants, and eating stew. Gelatin is extracted when you
+  boil bones for soup stock or cooking tough cuts of meat for a long time (BBQ ,/stew).
+  The collagen in connective tissue of cheap tough meat turns into gelatin under heat
+  and time.<br><br>Bullion cubes- a beef bullion cubes is beef broth that has no water.<br><br>Broth-
+  \ beef broth is beef fat with flavoring, and salt with water.<br><br>Stock- bones
+  Simmered in water with herbs. Most expensive of the three liquids. For some reason,
+  store bought beef stock has less gelatin and tastes worse than chicken stock. Home
+  made is best, but not always practical . Chicken stock in a beef dish won't hurt
+  the beefy taste. It's ok to swap to get the superior gelatin and flavor of chicken
+  stock. It's the fat that makes food taste distinctive of that animal.<br>Fun fact
+  adding lamb fat to lean beef makes it tastes like lamb.<br><br>Part 2 of x</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div
+  class=\"notice\">\n\t\t\t\t\tLast edited by <a href=\"./memberlist.php?mode=viewprofile&amp;u=71631&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"username\">sardia</a> on Sat Feb 23, 2019 1:02 pm UTC, edited 3 times in
+  total.\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\t\t\n\t\t</div>\n\t</div>\n\n\t<hr
+  class=\"divider\">\n\t\t\t\t<div id=\"p4434331\" class=\"post has-profile bg2\">\n\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile4434331\">\n\t\t\t<dt
+  class=\"has-profile-rank has-avatar\">\n\t\t\t\t<div class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a
+  href=\"./memberlist.php?mode=viewprofile&amp;u=41266&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"avatar\"><img class=\"avatar\" src=\"./download/file.php?avatar=41266_1305603829.jpg\"
+  width=\"100\" height=\"90\" alt=\"User avatar\"></a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<a
+  href=\"./memberlist.php?mode=viewprofile&amp;u=41266&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  style=\"color: #993399;\" class=\"username-coloured\">PAstrychef</a>\t\t\t\t\t\t\t</dt>\n\n\t\t\t\t\t\t<dd
+  class=\"profile-rank\">for all intimate metaphysical encounters</dd>\t\t\t\n\t\t<dd
+  class=\"profile-posts\"><strong>Posts:</strong> <a href=\"./search.php?author_id=41266&amp;sr=posts&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">2993</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> Sun Dec 21, 2008 6:24 pm UTC</dd>\t\t\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content4434331\">\n\n\t\t\t\t\t\t<h3><a
+  href=\"#p4434331\">Re: Cooking Concepts &amp; Terms for Beginners</a></h3>\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=39&amp;p=4434331&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"Reply with quote\" class=\"button icon-button quote-icon\"><span>Quote</span></a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"responsive-menu dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button\"><span></span>&nbsp;</a><div class=\"dropdown
+  hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul class=\"dropdown-contents\"><li
+  class=\"clone clone-first\">\n\t\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=39&amp;p=4434331&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"Reply with quote\" class=\"quote-icon\"><span>Quote</span></a>\n\t\t\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><a href=\"./viewtopic.php?p=4434331&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc#p4434331\"><span
+  class=\"imageset icon_post_target\" title=\"Post\">Post</span></a><span class=\"responsive-hide\">by
+  <strong><a href=\"./memberlist.php?mode=viewprofile&amp;u=41266&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  style=\"color: #993399;\" class=\"username-coloured\">PAstrychef</a></strong> »
+  </span>Sat Feb 23, 2019 3:00 am UTC </p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div class=\"content\">Some
+  major methods of cooking:<br>Braising-cooking in a liquid. Stews are braises, so
+  is chili and pot roast. <br>Roasting-cooking in dry heat, usually in an oven. Baking
+  is basically roasting.<br>Deep frying-frying in enough fat to submerge the food
+  being cooked.<br>Sautéing-cooking in a small amount of fat.<br>Boiling-cooking in
+  a large amount of water.<br>Steaming-cooking in a closed vessel, with the food being
+  cooked elevated over the liquid.<br>These days there is also Sous-vide cooking,
+  where the food is sealed in a bag before being submerged in water heated to a precise
+  temperature.</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div id=\"sig4434331\"
+  class=\"signature\">Don’t become a well-rounded person. Well rounded people are
+  smooth and dull. Become a thoroughly spiky person. Grow spikes from every angle.
+  Stick in their throats like a puffer fish.</div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\t\t\n\t\t</div>\n\t</div>\n\n\t<hr
+  class=\"divider\">\n\t\t\t\t<div id=\"p4434336\" class=\"post has-profile bg1\">\n\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile4434336\">\n\t\t\t<dt
+  class=\"has-profile-rank has-avatar\">\n\t\t\t\t<div class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a
+  href=\"./memberlist.php?mode=viewprofile&amp;u=25542&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"avatar\"><img class=\"avatar\" src=\"./download/file.php?avatar=25542_1460490978.jpg\"
+  width=\"123\" height=\"150\" alt=\"User avatar\"></a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<a
+  href=\"./memberlist.php?mode=viewprofile&amp;u=25542&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"username\">Sungura</a>\t\t\t\t\t\t\t</dt>\n\n\t\t\t\t\t\t<dd class=\"profile-rank\">When
+  life gives you banananas, make bananana bread</dd>\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=25542&amp;sr=posts&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">3873</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> Sat Jan 12, 2008 2:32 am UTC</dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd
+  class=\"profile-custom-field profile-phpbb_location\"><strong>Location:</strong>
+  AL</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div class=\"postbody\">\n\t\t\t\t\t\t<div
+  id=\"post_content4434336\">\n\n\t\t\t\t\t\t<h3><a href=\"#p4434336\">Re: Cooking
+  Concepts &amp; Terms for Beginners</a></h3>\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"post-buttons
+  compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=39&amp;p=4434336&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"Reply with quote\" class=\"button icon-button quote-icon\"><span>Quote</span></a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"responsive-menu dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button\"><span></span>&nbsp;</a><div class=\"dropdown
+  hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul class=\"dropdown-contents\"><li
+  class=\"clone clone-first\">\n\t\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=39&amp;p=4434336&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"Reply with quote\" class=\"quote-icon\"><span>Quote</span></a>\n\t\t\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><a href=\"./viewtopic.php?p=4434336&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc#p4434336\"><span
+  class=\"imageset icon_post_target\" title=\"Post\">Post</span></a><span class=\"responsive-hide\">by
+  <strong><a href=\"./memberlist.php?mode=viewprofile&amp;u=25542&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"username\">Sungura</a></strong> » </span>Sat Feb 23, 2019 3:23 am UTC </p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\">\"sugar is a liquid ingredient\" - could be remembering the quote
+  wrong but heard it on Good Eats and it makes recipes make sooooo much more sense.</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig4434336\" class=\"signature\">\"<span style=\"font-style: italic\">Would
+  you rather fight a Sungura-sized spider or 1000 spider-sized Sunguras?\"</span>
+  -Zarq<br><span style=\"font-size: 85%; line-height: 116%;\">she/&lt;any gender neutral&gt;/snug
+  </span></div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t\t\t<div class=\"back2top\"><a
+  href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\t\t\n\t\t</div>\n\t</div>\n\n\t<hr
+  class=\"divider\">\n\t\t\t\t<div id=\"p4434473\" class=\"post has-profile bg2 online\">\n\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile4434473\">\n\t\t\t<dt
+  class=\"no-profile-rank has-avatar\">\n\t\t\t\t<div class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a
+  href=\"./memberlist.php?mode=viewprofile&amp;u=71631&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"avatar\"><img class=\"avatar\" src=\"./download/file.php?avatar=71631_1377467347.png\"
+  width=\"128\" height=\"150\" alt=\"User avatar\"></a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<a
+  href=\"./memberlist.php?mode=viewprofile&amp;u=71631&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"username\">sardia</a>\t\t\t\t\t\t\t</dt>\n\n\t\t\t\t\t\t\t\t\t\n\t\t<dd
+  class=\"profile-posts\"><strong>Posts:</strong> <a href=\"./search.php?author_id=71631&amp;sr=posts&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">6703</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> Sat Apr 03, 2010 3:39 am UTC</dd>\t\t\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content4434473\">\n\n\t\t\t\t\t\t<h3><a
+  href=\"#p4434473\">Re: Cooking Concepts &amp; Terms for Beginners</a></h3>\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=39&amp;p=4434473&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"Reply with quote\" class=\"button icon-button quote-icon\"><span>Quote</span></a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"responsive-menu dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button\"><span></span>&nbsp;</a><div class=\"dropdown
+  hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul class=\"dropdown-contents\"><li
+  class=\"clone clone-first\">\n\t\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=39&amp;p=4434473&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"Reply with quote\" class=\"quote-icon\"><span>Quote</span></a>\n\t\t\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><a href=\"./viewtopic.php?p=4434473&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc#p4434473\"><span
+  class=\"imageset icon_post_target\" title=\"Post\">Post</span></a><span class=\"responsive-hide\">by
+  <strong><a href=\"./memberlist.php?mode=viewprofile&amp;u=71631&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"username\">sardia</a></strong> » </span>Sat Feb 23, 2019 6:04 pm UTC </p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\">Umami - one of the 6 tastes. The others are salt, sweet, sour,
+  bitter, and rancidity(of fat). This is a pleasant savory taste that comes from glutamates
+  from several sources. The big ones are tomatoes, fishes like anchovies (fish sauce),
+  soy sauce, msg, mushrooms, and most animals. All have high levels of glutamates/umami.
+  Most bottled versions are concentrated, and only a splash is needed to boost flavor
+  levels. Just like you wouldn't chug vinegar, don't judge it based on the intense
+  aroma and flavor. Instead taste it after stirring a bit into the dish.<br><br>Discard
+  X after simmering- many flavorful compounds are fat or water soluble. Flavor compounds
+  aren't infinite, and are distributed by osmosis/diffusion. In addition, some flavor
+  enhancers aren't tasty after they been simmered.  It makes sense to discard them.
+  Examples Bay leaf, bones, cheap vegetables.<br><br>Cooking temperature- water in
+  food boils at 212F and will not go higher until the liquid water boils off. This
+  affects Browning/searing food.</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\t\t\n\t\t</div>\n\t</div>\n\n\t<hr
+  class=\"divider\">\n\t\t\t\t<div id=\"p4436297\" class=\"post has-profile bg1 online\">\n\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile4436297\">\n\t\t\t<dt
+  class=\"no-profile-rank has-avatar\">\n\t\t\t\t<div class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a
+  href=\"./memberlist.php?mode=viewprofile&amp;u=71631&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"avatar\"><img class=\"avatar\" src=\"./download/file.php?avatar=71631_1377467347.png\"
+  width=\"128\" height=\"150\" alt=\"User avatar\"></a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<a
+  href=\"./memberlist.php?mode=viewprofile&amp;u=71631&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"username\">sardia</a>\t\t\t\t\t\t\t</dt>\n\n\t\t\t\t\t\t\t\t\t\n\t\t<dd
+  class=\"profile-posts\"><strong>Posts:</strong> <a href=\"./search.php?author_id=71631&amp;sr=posts&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">6703</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> Sat Apr 03, 2010 3:39 am UTC</dd>\t\t\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content4436297\">\n\n\t\t\t\t\t\t<h3><a
+  href=\"#p4436297\">Re: Cooking Concepts &amp; Terms for Beginners</a></h3>\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=39&amp;p=4436297&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"Reply with quote\" class=\"button icon-button quote-icon\"><span>Quote</span></a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"responsive-menu dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button\"><span></span>&nbsp;</a><div class=\"dropdown
+  hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul class=\"dropdown-contents\"><li
+  class=\"clone clone-first\">\n\t\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=39&amp;p=4436297&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  title=\"Reply with quote\" class=\"quote-icon\"><span>Quote</span></a>\n\t\t\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><a href=\"./viewtopic.php?p=4436297&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc#p4436297\"><span
+  class=\"imageset icon_post_target\" title=\"Post\">Post</span></a><span class=\"responsive-hide\">by
+  <strong><a href=\"./memberlist.php?mode=viewprofile&amp;u=71631&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"username\">sardia</a></strong> » </span>Sun Mar 03, 2019 7:09 pm UTC </p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\">I've compiled the posts together. Not sure about the format, but
+  can a mod delete the duplicate posts for me? I wrote this while bored on a road
+  trip. I may add more during my next trip.</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\t\t\n\t\t</div>\n\t</div>\n\n\t<hr
+  class=\"divider\">\n\t\n\n\t<form id=\"viewtopic\" method=\"post\" action=\"./viewtopic.php?f=39&amp;t=126113&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">\n\t<fieldset
+  class=\"display-options\" style=\"margin-top: 0; \">\n\t\t\t\t<label>Display posts
+  from previous: <select name=\"st\" id=\"st\"><option value=\"0\" selected=\"selected\">All
+  posts</option><option value=\"1\">1 day</option><option value=\"7\">7 days</option><option
+  value=\"14\">2 weeks</option><option value=\"30\">1 month</option><option value=\"90\">3
+  months</option><option value=\"180\">6 months</option><option value=\"365\">1 year</option></select></label>\n\t\t<label>Sort
+  by <select name=\"sk\" id=\"sk\"><option value=\"a\">Author</option><option value=\"t\"
+  selected=\"selected\">Post time</option><option value=\"s\">Subject</option></select></label>
+  <label><select name=\"sd\" id=\"sd\"><option value=\"a\" selected=\"selected\">Ascending</option><option
+  value=\"d\">Descending</option></select></label>\n\t\t<input type=\"submit\" name=\"sort\"
+  value=\"Go\" class=\"button2\">\n\t\t\t</fieldset>\n\t</form>\n\t<hr>\n\n<div class=\"action-bar
+  bottom\">\n\t<div class=\"buttons\">\n\t\t\n\t\t\t<a href=\"./posting.php?mode=reply&amp;f=39&amp;t=126113&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"button icon-button reply-icon\" title=\"Post a reply\">\n\t\t\tPost Reply\t\t</a>\n\t\n\t\t\t</div>\n\n\t\t<div
+  class=\"dropdown-container dropdown-button-control topic-tools\">\n\t\t<span title=\"Topic
+  tools\" class=\"button icon-button tools-icon dropdown-trigger dropdown-select dropdown-toggle\"></span>\n\t\t<div
+  class=\"dropdown hidden\">\n\t\t\t<div class=\"pointer\"><div class=\"pointer-inner\"></div></div>\n\t\t\t<ul
+  class=\"dropdown-contents\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"small-icon icon-print\"><a href=\"./viewtopic.php?f=39&amp;t=126113&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc&amp;view=print\"
+  title=\"Print view\" accesskey=\"p\">Print view</a></li>\t\t\t\t\t\t\t</ul>\n\t\t</div>\n\t</div>\n\n\t\t\n\t\n\t\t\t<div
+  class=\"pagination\">\n\t\t\t6 posts\n\t\t\t\t\t\t\t• Page <strong>1</strong> of
+  <strong>1</strong>\n\t\t\t\t\t</div>\n\t\t<div class=\"clear\"></div>\n</div>\n\n\n\t<p
+  class=\"jumpbox-return\"><a href=\"./viewforum.php?f=39&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  class=\"left-box arrow-left\" accesskey=\"r\">Return to “Food”</a></p>\n\n\n\t<div
+  class=\"dropdown-container dropdown-container-right dropdown-up dropdown-left dropdown-button-control\"
+  id=\"jumpbox\">\n\t\t<span title=\"Jump to\" class=\"dropdown-trigger button dropdown-select
+  dropdown-toggle\">\n\t\t\tJump to\t\t</span>\n\t\t<div class=\"dropdown hidden\">\n\t\t\t<div
+  class=\"pointer\"><div class=\"pointer-inner\"></div></div>\n\t\t\t<ul class=\"dropdown-contents\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=26&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">The Comic</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp;
+  &nbsp;<a href=\"./viewforum.php?f=7&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Individual
+  XKCD Comic Threads</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a
+  href=\"./viewforum.php?f=60&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">What If?</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=27&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Sound and
+  Fury</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=9&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">News
+  &amp; Articles</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=8&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Serious
+  Business</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=16&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">XKCD
+  Meetups</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=2&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">General</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=29&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Numberologics,
+  Alchemy, Linguinomics, and other Academiology</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp;
+  &nbsp;<a href=\"./viewforum.php?f=17&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Mathematics</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp;
+  &nbsp;<a href=\"./viewforum.php?f=18&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Science</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp;
+  &nbsp;&nbsp; &nbsp;<a href=\"./viewforum.php?f=59&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Fictional
+  Science</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=25&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Language/Linguistics</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp;
+  &nbsp;<a href=\"./viewforum.php?f=44&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">School</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=30&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Analytical
+  Engines</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=20&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">The
+  Help Desk</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=11&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Coding</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp;
+  &nbsp;<a href=\"./viewforum.php?f=12&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Computer
+  Science</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=36&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Hardware</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp;
+  &nbsp;<a href=\"./viewforum.php?f=40&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Religious
+  Wars</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"./viewforum.php?f=31&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Enigmas
+  and Diversions</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=3&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Logic
+  Puzzles</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=14&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Forum
+  Games</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;&nbsp; &nbsp;<a
+  href=\"./viewforum.php?f=53&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Mafia</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp;
+  &nbsp;<a href=\"./viewforum.php?f=4&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Your
+  art and links</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=43&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Fit
+  Club</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"./viewforum.php?f=32&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">High
+  Culture</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=21&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Gaming</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp;
+  &nbsp;<a href=\"./viewforum.php?f=22&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Movies
+  and TV Shows</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=23&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Music</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp;
+  &nbsp;<a href=\"./viewforum.php?f=24&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Books</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp;
+  &nbsp;&nbsp; &nbsp;<a href=\"./viewforum.php?f=49&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Comics/Graphic
+  Novels</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=39&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Food</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=33&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Site Administration</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp;
+  &nbsp;<a href=\"./viewforum.php?f=10&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Site/Forum
+  issues</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;<a href=\"./viewforum.php?f=5&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">News</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=52&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Duat</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp;
+  &nbsp;<a href=\"./viewforum.php?f=47&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Free
+  as in Destitute</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp; &nbsp;&nbsp;
+  &nbsp;<a href=\"./viewforum.php?f=51&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Jesse
+  is a handsome and intelligent man who smells nice</a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>&nbsp;
+  &nbsp;&nbsp; &nbsp;<a href=\"./viewforum.php?f=55&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\">Azrael
+  is pretty cool also</a></li>\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t</div>\n\t</div>\n\n\n\t<div
+  class=\"stat-block online-list\">\n\t\t<h3>Who is online</h3>\n\t\t<p>Users browsing
+  this forum: No registered users and 3 guests</p>\n\t</div>\n\n\t\t\t</div>\n\n\n<div
+  id=\"page-footer\" role=\"contentinfo\">\n\t<div class=\"navbar\" role=\"navigation\">\n\t<div
+  class=\"inner\">\n\n\t<ul id=\"nav-footer\" class=\"linklist bulletin compact\"
+  role=\"menubar\">\n\t\t<li class=\"small-icon icon-home breadcrumbs wrapped\">\n\t\t\t\t\t\t\t\t\t<span
+  class=\"crumb wrapped wrapped-max wrapped-wide wrapped-medium wrapped-small wrapped-tiny\"><a
+  href=\"./index.php?sid=c9cb12cc179ee64f6afa6f52bb674cdc\" data-navbar-reference=\"index\"
+  title=\"Board index\">Board index</a></span>\n\t\t\t\t\t</li>\n\t\t\n\t\t\t\t<li
+  class=\"responsive-menu rightside dropdown-container\"><a href=\"javascript:void(0);\"
+  class=\"responsive-menu-link dropdown-toggle\">&nbsp;</a><div class=\"dropdown hidden\"><div
+  class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul class=\"dropdown-contents\"><li
+  class=\"small-icon icon-team clone clone-last\" data-last-responsive=\"true\"><a
+  href=\"./memberlist.php?mode=team&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\" role=\"menuitem\">The
+  team</a></li><li class=\"small-icon icon-contact clone clone-last\" data-last-responsive=\"true\"><a
+  href=\"./memberlist.php?mode=contactadmin&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  role=\"menuitem\">Contact us</a></li><li class=\"clone clone-first\">All times are
+  <abbr title=\"UTC\">UTC</abbr></li><li class=\"small-icon icon-delete-cookies clone
+  clone-first\"><a href=\"./ucp.php?mode=delete_cookies&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  data-ajax=\"true\" data-refresh=\"true\" role=\"menuitem\">Delete all board cookies</a></li></ul></div></li><li
+  class=\"rightside hidden\">All times are <abbr title=\"UTC\">UTC</abbr></li>\n\t\t\t\t\t\t\t<li
+  class=\"small-icon icon-delete-cookies rightside hidden\"><a href=\"./ucp.php?mode=delete_cookies&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  data-ajax=\"true\" data-refresh=\"true\" role=\"menuitem\">Delete all board cookies</a></li>\n\t\t\t\t\t\t\t\t\t<li
+  class=\"small-icon icon-team rightside hidden\" data-last-responsive=\"true\"><a
+  href=\"./memberlist.php?mode=team&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\" role=\"menuitem\">The
+  team</a></li>\t\t\t\t<li class=\"small-icon icon-contact rightside hidden\" data-last-responsive=\"true\"><a
+  href=\"./memberlist.php?mode=contactadmin&amp;sid=c9cb12cc179ee64f6afa6f52bb674cdc\"
+  role=\"menuitem\">Contact us</a></li>\t</ul>\n\n\t</div>\n</div>\n\n\t<div class=\"copyright\">\n\t\t\t\tPowered
+  by <a href=\"https://www.phpbb.com/\">phpBB</a>® Forum Software © phpBB Limited\n\t\t\t\t\t\t\t\t\t</div>\n\n\t<div
+  id=\"darkenwrapper\" data-ajax-error-title=\"AJAX error\" data-ajax-error-text=\"Something
+  went wrong when processing your request.\" data-ajax-error-text-abort=\"User aborted
+  request.\" data-ajax-error-text-timeout=\"Your request timed out; please try again.\"
+  data-ajax-error-text-parsererror=\"Something went wrong with the request and the
+  server returned an invalid reply.\">\n\t\t<div id=\"darken\">&nbsp;</div>\n\t</div>\n\n\t<div
+  id=\"phpbb_alert\" class=\"phpbb_alert\" data-l-err=\"Error\" data-l-timeout-processing-req=\"Request
+  timed out.\">\n\t\t<a href=\"#\" class=\"alert_close\"></a>\n\t\t<h3 class=\"alert_title\">&nbsp;</h3><p
+  class=\"alert_text\"></p>\n\t</div>\n\t<div id=\"phpbb_confirm\" class=\"phpbb_alert\">\n\t\t<a
+  href=\"#\" class=\"alert_close\"></a>\n\t\t<div class=\"alert_text\"></div>\n\t</div>\n</div>\n\n</div>\n\n<div>\n\t<a
+  id=\"bottom\" class=\"anchor\" accesskey=\"z\"></a>\n\t</div>\n\n<script type=\"text/javascript\"
+  src=\"./assets/javascript/jquery.min.js?assets_version=9\"></script>\n<script type=\"text/javascript\"
+  src=\"./assets/javascript/core.js?assets_version=9\"></script>\n\n\n<script type=\"text/javascript\"
+  src=\"./styles/prosilver/template/forum_fn.js?assets_version=8\"></script>\n\n<script
+  type=\"text/javascript\" src=\"./styles/prosilver/template/ajax.js?assets_version=8\"></script>\n\n\n\n\n\n\n</body></html>"

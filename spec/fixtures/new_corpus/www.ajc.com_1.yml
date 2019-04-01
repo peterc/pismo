@@ -1,0 +1,1631 @@
+---
+:url: https://www.ajc.com/lifestyles/food--cooking/recipes-immersed-flavor/LWKFCLk54Q3rcOoL5tkRuK/
+:body: "<!DOCTYPE html><html lang=\"en\"><head><script src=\"https://d29usylhdk1xyu.cloudfront.net/translations/share/en-US\"
+  type=\"text/javascript\"></script><script src=\"https://d29usylhdk1xyu.cloudfront.net/translations/login/en-US\"
+  type=\"text/javascript\"></script><script src=\"https://connect.facebook.net/en_US/sdk.js?hash=e18ec0caee392322df4dda2b686a51c6\"
+  async=\"\" crossorigin=\"anonymous\"></script><script defer=\"\" src=\"https://widget-cdn.rpxnow.com/load/login.cmgdigital.com\"></script><script
+  id=\"facebook-jssdk\" src=\"https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v3.2\"></script><script
+  id=\"playbuzz-sdk\" src=\"https://embed.playbuzz.com/sdk.js\"></script><script async=\"\"
+  src=\"//cdn.taboola.com/libtrc/cox-atlantajournal-constitution/loader.js\" id=\"tb_loader_script\"></script><script
+  style=\"display:none\">\n(function () {\n    var agent = window.navigator.userAgent,\n
+  \       safari = agent.indexOf('Safari') >= 0,\n        versionIndex = agent.indexOf('Version'),\n
+  \       version = 0,\n        // Returns null when healthy, undefined when localStorage
+  is not supported.\n        unlocked = localStorage.getItem('federateUnlocked'),\n
+  \       // Site setting defined in site's environment.properties file.\n        active
+  = true;\n\n    // Grab the Safari version number.\n    if (versionIndex >= 0) {\n
+  \       version = parseInt('' + agent.substring(versionIndex + 8));\n    }\n\n    //
+  Global state for all other code in the page to use.\n    window.janrainSafariRefreshDetected
+  = active && safari && version > 5 && unlocked === null;\n\n    // Provide console
+  feedback when refresh is impending.\n    if (janrainSafariRefreshDetected) {\n        console.warn('[jsrd
+  v1.0.1] JANRAIN / SAFARI REFRESH DETECTED!');\n    }\n}());\n</script>\n\n    <!--
+  Methode uuid: \"6118ba9c-fd43-4c23-aa24-5f682728cd9f\" -->\n\n    <!--  one frameset
+  common -->\n        \n\n\n\n<script type=\"text/javascript\">(window.NREUM||(NREUM={})).loader_config={xpid:\"UA8DVFJACQoCVFhXAQI=\"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function
+  r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return
+  r(o||e)},o,o.exports)}return e[n].exports}if(\"function\"==typeof __nr_require)return
+  __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function
+  r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t(\"ee\"),a=t(21),s={};try{o=localStorage.getItem(\"__nr_flags\").split(\",\"),console&&\"function\"==typeof
+  console.log&&(s.console=!0,o.indexOf(\"dev\")!==-1&&(s.dev=!0),o.indexOf(\"nr_dev\")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on(\"internal-error\",function(t){r(t.stack)}),s.dev&&i.on(\"fn-err\",function(t,e,n){r(n.stack)}),s.dev&&(r(\"NR
+  AGENT IN DEVELOPMENT MODE\"),r(\"flags: \"+a(s,function(t,e){return t}).join(\",
+  \")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i(\"ierr\",[f,c.now(),!0])}catch(d){}}return\"function\"==typeof
+  u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||\"Uncaught
+  error with no additional information\",this.sourceURL=e,this.line=n}function o(t,e){var
+  n=e?null:c.now();i(\"err\",[t,n])}var i=t(\"handle\"),a=t(22),s=t(\"ee\"),c=t(\"loader\"),f=t(\"gos\"),u=window.onerror,d=!1,p=\"nr@seenError\",l=0;c.features.err=!0,t(1),window.onerror=r;try{throw
+  new Error}catch(h){\"stack\"in h&&(t(13),t(12),\"addEventListener\"in window&&t(6),c.xhrWrappable&&t(14),d=!0)}s.on(\"fn-start\",function(t,e,n){d&&(l+=1)}),s.on(\"fn-err\",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on(\"fn-end\",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on(\"internal-error\",function(t){i(\"ierr\",[t,c.now(),!0])})},{}],3:[function(t,e,n){t(\"loader\").features.ins=!0},{}],4:[function(t,e,n){function
+  r(){M++,N=y.hash,this[u]=g.now()}function o(){M--,y.hash!==N&&i(0,!0);var t=g.now();this[h]=~~this[h]+t-this[u],this[d]=t}function
+  i(t,e){E.emit(\"newURL\",[\"\"+y,e])}function a(t,e){t.on(e,function(){this[e]=g.now()})}var
+  s=\"-start\",c=\"-end\",f=\"-body\",u=\"fn\"+s,d=\"fn\"+c,p=\"cb\"+s,l=\"cb\"+c,h=\"jsTime\",m=\"fetch\",v=\"addEventListener\",w=window,y=w.location,g=t(\"loader\");if(w[v]&&g.xhrWrappable){var
+  b=t(10),x=t(11),E=t(8),O=t(6),P=t(13),R=t(7),T=t(14),L=t(9),j=t(\"ee\"),S=j.get(\"tracer\");t(15),g.features.spa=!0;var
+  N,M=0;j.on(u,r),j.on(p,r),j.on(d,o),j.on(l,o),j.buffer([u,d,\"xhr-done\",\"xhr-resolved\"]),O.buffer([u]),P.buffer([\"setTimeout\"+c,\"clearTimeout\"+s,u]),T.buffer([u,\"new-xhr\",\"send-xhr\"+s]),R.buffer([m+s,m+\"-done\",m+f+s,m+f+c]),E.buffer([\"newURL\"]),b.buffer([u]),x.buffer([\"propagate\",p,l,\"executor-err\",\"resolve\"+s]),S.buffer([u,\"no-\"+u]),L.buffer([\"new-jsonp\",\"cb-start\",\"jsonp-error\",\"jsonp-end\"]),a(T,\"send-xhr\"+s),a(j,\"xhr-resolved\"),a(j,\"xhr-done\"),a(R,m+s),a(R,m+\"-done\"),a(L,\"new-jsonp\"),a(L,\"jsonp-end\"),a(L,\"cb-start\"),E.on(\"pushState-end\",i),E.on(\"replaceState-end\",i),w[v](\"hashchange\",i,!0),w[v](\"load\",i,!0),w[v](\"popstate\",function(){i(0,M>1)},!0)}},{}],5:[function(t,e,n){function
+  r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var
+  o=t(\"ee\"),i=t(\"handle\"),a=t(13),s=t(12),c=\"learResourceTimings\",f=\"addEventListener\",u=\"resourcetimingbufferfull\",d=\"bstResource\",p=\"resource\",l=\"-start\",h=\"-end\",m=\"fn\"+l,v=\"fn\"+h,w=\"bstTimer\",y=\"pushState\",g=t(\"loader\");g.features.stn=!0,t(8);var
+  b=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,e){var
+  n=t[0];n instanceof b&&i(\"bst\",[n,e,this.bstStart,g.now()])}),a.on(m,function(t,e,n){this.bstStart=g.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,e){i(w,[e,this.bstStart,g.now(),\"requestAnimationFrame\"])}),o.on(y+l,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i(\"bstHist\",[location.pathname+location.hash,this.startPath,this.time])}),f
+  in window.performance&&(window.performance[\"c\"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance[\"c\"+c]()},!1):window.performance[f](\"webkit\"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance[\"webkitC\"+c]()},!1)),document[f](\"scroll\",r,{passive:!0}),document[f](\"keypress\",r,!1),document[f](\"click\",r,!1)}},{}],6:[function(t,e,n){function
+  r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function
+  o(t){s.inPlace(t,[u,d],\"-\",i)}function i(t,e){return t[1]}var a=t(\"ee\").get(\"events\"),s=t(24)(a,!0),c=t(\"gos\"),f=XMLHttpRequest,u=\"addEventListener\",d=\"removeEventListener\";e.exports=a,\"getPrototypeOf\"in
+  Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+\"-start\",function(t,e){var
+  n=t[1],r=c(n,\"nr@wrapped\",function(){function t(){if(\"function\"==typeof n.handleEvent)return
+  n.handleEvent.apply(n,arguments)}var e={object:t,\"function\":n}[typeof n];return
+  e?s(e,\"fn-\",null,e.name||\"anonymous\"):n});this.wrapped=t[1]=r}),a.on(d+\"-start\",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function
+  r(t,e,n){var r=t[e];\"function\"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return
+  o.emit(n+\"start\",arguments,t),t.then(function(e){return o.emit(n+\"end\",[null,e],t),e},function(e){throw
+  o.emit(n+\"end\",[e],t),e})})}var o=t(\"ee\").get(\"fetch\"),i=t(21);e.exports=o;var
+  a=window,s=\"fetch-\",c=s+\"body-\",f=[\"arrayBuffer\",\"blob\",\"json\",\"text\",\"formData\"],u=a.Request,d=a.Response,p=a.fetch,l=\"prototype\";u&&d&&p&&(i(f,function(t,e){r(u[l],e,c),r(d[l],e,c)}),r(a,\"fetch\",s),o.on(s+\"end\",function(t,e){var
+  n=this;if(e){var r=e.headers.get(\"content-length\");null!==r&&(n.rxSize=r),o.emit(s+\"done\",[null,e],n)}else
+  o.emit(s+\"done\",[t],n)}))},{}],8:[function(t,e,n){var r=t(\"ee\").get(\"history\"),o=t(24)(r);e.exports=r,o.inPlace(window.history,[\"pushState\",\"replaceState\"],\"-\")},{}],9:[function(t,e,n){function
+  r(t){function e(){c.emit(\"jsonp-end\",[],p),t.removeEventListener(\"load\",e,!1),t.removeEventListener(\"error\",n,!1)}function
+  n(){c.emit(\"jsonp-error\",[],p),c.emit(\"jsonp-end\",[],p),t.removeEventListener(\"load\",e,!1),t.removeEventListener(\"error\",n,!1)}var
+  r=t&&\"string\"==typeof t.nodeName&&\"script\"===t.nodeName.toLowerCase();if(r){var
+  o=\"function\"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=s(a),d=\"function\"==typeof
+  u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],\"cb-\",p),t.addEventListener(\"load\",e,!1),t.addEventListener(\"error\",n,!1),c.emit(\"new-jsonp\",[t.src],p)}}}}}function
+  o(){return\"addEventListener\"in window}function i(t){var e=t.match(u);return e?e[1]:null}function
+  a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var
+  e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var
+  c=t(\"ee\").get(\"jsonp\"),f=t(24)(c);if(e.exports=c,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\\.([^.]+)/,p=/^(\\w+)(\\.|$)(.*)$/,l=[\"appendChild\",\"insertBefore\",\"replaceChild\"];f.inPlace(HTMLElement.prototype,l,\"dom-\"),f.inPlace(HTMLHeadElement.prototype,l,\"dom-\"),f.inPlace(HTMLBodyElement.prototype,l,\"dom-\"),c.on(\"dom-start\",function(t){r(t[0])})}},{}],10:[function(t,e,n){var
+  r=t(\"ee\").get(\"mutation\"),o=t(24)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return
+  this instanceof i?new i(o(t,\"fn-\")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function
+  r(t){var e=a.context(),n=s(t,\"executor-\",e),r=new f(n);return a.context(r).getCtx=function(){return
+  e},a.emit(\"new-promise\",[r,e],e),r}function o(t,e){return e}var i=t(24),a=t(\"ee\").get(\"promise\"),s=i(a),c=t(21),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,[\"all\",\"race\"].forEach(function(t){var
+  e=f[t];f[t]=function(n){function r(t){return function(){a.emit(\"propagate\",[null,!o],i),o=o||!t}}var
+  o=!1;c(n,function(e,n){Promise.resolve(n).then(r(\"all\"===t),r(!1))});var i=e.apply(f,arguments),s=f.resolve(i);return
+  s}}),[\"resolve\",\"reject\"].forEach(function(t){var e=f[t];f[t]=function(t){var
+  n=e.apply(f,arguments);return t!==n&&a.emit(\"propagate\",[t,!0],n),n}}),f.prototype[\"catch\"]=function(t){return
+  this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on(\"executor-start\",function(t){t[0]=s(t[0],\"resolve-\",this),t[1]=s(t[1],\"resolve-\",this)}),a.on(\"executor-err\",function(t,e,n){t[1](n)}),s.inPlace(f.prototype,[\"then\"],\"then-\",o),a.on(\"then-start\",function(t,e){this.promise=e,t[0]=s(t[0],\"cb-\",this),t[1]=s(t[1],\"cb-\",this)}),a.on(\"then-end\",function(t,e,n){this.nextPromise=n;var
+  r=this.promise;a.emit(\"propagate\",[r,!0],n)}),a.on(\"cb-end\",function(t,e,n){a.emit(\"propagate\",[n,!0],this.nextPromise)}),a.on(\"propagate\",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t
+  instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return\"\"+f})},{}],12:[function(t,e,n){var
+  r=t(\"ee\").get(\"raf\"),o=t(24)(r),i=\"equestAnimationFrame\";e.exports=r,o.inPlace(window,[\"r\"+i,\"mozR\"+i,\"webkitR\"+i,\"msR\"+i],\"raf-\"),r.on(\"raf-start\",function(t){t[0]=o(t[0],\"fn-\")})},{}],13:[function(t,e,n){function
+  r(t,e,n){t[0]=a(t[0],\"fn-\",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],\"fn-\",this,n)}var
+  i=t(\"ee\").get(\"timer\"),a=t(24)(i),s=\"setTimeout\",c=\"setInterval\",f=\"clearTimeout\",u=\"-start\",d=\"-\";e.exports=i,a.inPlace(window,[s,\"setImmediate\"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,\"clearImmediate\"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],14:[function(t,e,n){function
+  r(t,e){d.inPlace(e,[\"onreadystatechange\"],\"fn-\",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit(\"xhr-resolved\",[],t)),d.inPlace(t,y,\"fn-\",s)}function
+  i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function
+  s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t(\"ee\"),u=f.get(\"xhr\"),d=t(24)(u),p=NREUM.o,l=p.XHR,h=p.MO,m=p.PR,v=p.SI,w=\"readystatechange\",y=[\"onload\",\"onerror\",\"onabort\",\"onloadstart\",\"onloadend\",\"onprogress\",\"ontimeout\"],g=[];e.exports=u;var
+  b=window.XMLHttpRequest=function(t){var e=new l(t);try{u.emit(\"new-xhr\",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit(\"internal-error\",[n])}catch(r){}}return
+  e};if(c(l,b),b.prototype=l.prototype,d.inPlace(b.prototype,[\"open\",\"send\"],\"-xhr-\",s),u.on(\"send-xhr-start\",function(t,e){r(t,e),i(e)}),u.on(\"open-xhr-start\",r),h){var
+  x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else
+  f.on(\"fn-end\",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function
+  r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var
+  i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var c=t.getResponseHeader(\"X-NewRelic-App-Data\");c&&(e.cat=c.split(\",
+  \").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit(\"xhr-done\",[t],t),s(\"xhr\",[e,n,this.startTime])}}}function
+  o(t,e){var n=t.responseType;if(\"json\"===n&&null!==e)return e;var r=\"arraybuffer\"===n||\"blob\"===n||\"json\"===n?t.response:t.responseText;return
+  h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+\":\"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var
+  a=t(\"loader\");if(a.xhrWrappable){var s=t(\"handle\"),c=t(16),f=t(\"ee\"),u=[\"load\",\"error\",\"abort\",\"timeout\"],d=u.length,p=t(\"id\"),l=t(19),h=t(18),m=window.XMLHttpRequest;a.features.xhr=!0,t(14),f.on(\"new-xhr\",function(t){var
+  e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,l&&(l>34||l<10)||window.opera||t.addEventListener(\"progress\",function(t){e.lastSize=t.loaded},!1)}),f.on(\"open-xhr-start\",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on(\"open-xhr-end\",function(t,e){\"loader_config\"in
+  NREUM&&\"xpid\"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader(\"X-NewRelic-ID\",NREUM.loader_config.xpid)}),f.on(\"send-xhr-start\",function(t,e){var
+  n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{\"abort\"===t.type&&(o.params.aborted=!0),(\"load\"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||\"function\"!=typeof
+  e.onload))&&o.end(e)}catch(n){try{f.emit(\"internal-error\",[n])}catch(r){}}};for(var
+  s=0;s<d;s++)e.addEventListener(u[s],this.listener,!1)}),f.on(\"xhr-cb-time\",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&\"function\"==typeof
+  n.onload||this.end(n)}),f.on(\"xhr-load-added\",function(t,e){var n=\"\"+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on(\"xhr-load-removed\",function(t,e){var
+  n=\"\"+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on(\"addEventListener-end\",function(t,e){e
+  instanceof m&&\"load\"===t[0]&&f.emit(\"xhr-load-added\",[t[1],t[2]],e)}),f.on(\"removeEventListener-end\",function(t,e){e
+  instanceof m&&\"load\"===t[0]&&f.emit(\"xhr-load-removed\",[t[1],t[2]],e)}),f.on(\"fn-start\",function(t,e,n){e
+  instanceof m&&(\"onload\"===n&&(this.onload=!0),(\"load\"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on(\"fn-end\",function(t,e){this.xhrCbStart&&f.emit(\"xhr-cb-time\",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],16:[function(t,e,n){e.exports=function(t){var
+  e=document.createElement(\"a\"),n=window.location,r={};e.href=t,r.port=e.port;var
+  o=e.href.split(\"://\");!r.port&&o[1]&&(r.port=o[1].split(\"/\")[0].split(\"@\").pop().split(\":\")[1]),r.port&&\"0\"!==r.port||(r.port=\"https\"===o[0]?\"443\":\"80\"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],\"/\"!==r.pathname.charAt(0)&&(r.pathname=\"/\"+r.pathname);var
+  i=!e.protocol||\":\"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return
+  r.sameOrigin=i&&(!e.hostname||a),r}},{}],17:[function(t,e,n){function r(){}function
+  o(t,e,n){return function(){return i(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void
+  0:this}}var i=t(\"handle\"),a=t(21),s=t(22),c=t(\"ee\").get(\"tracer\"),f=t(\"loader\"),u=NREUM;\"undefined\"==typeof
+  window.newrelic&&(newrelic=u);var d=[\"setPageViewName\",\"setCustomAttribute\",\"setErrorHandler\",\"finished\",\"addToTrace\",\"inlineHit\",\"addRelease\"],p=\"api-\",l=p+\"ixn-\";a(d,function(t,e){u[e]=o(p+e,!0,\"api\")}),u.addPageAction=o(p+\"addPageAction\",!0),u.setCurrentRouteName=o(p+\"routeName\",!0),e.exports=newrelic,u.interaction=function(){return(new
+  r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o=\"function\"==typeof
+  e;return i(l+\"tracer\",[f.now(),t,n],r),function(){if(c.emit((o?\"\":\"no-\")+\"fn-start\",[f.now(),r,o],n),o)try{return
+  e.apply(this,arguments)}catch(t){throw c.emit(\"fn-err\",[arguments,this,t],n),t}finally{c.emit(\"fn-end\",[f.now()],n)}}}};a(\"actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get\".split(\",\"),function(t,e){h[e]=o(l+e)}),newrelic.noticeError=function(t,e){\"string\"==typeof
+  t&&(t=new Error(t)),i(\"err\",[t,f.now(),!1,e])}},{}],18:[function(t,e,n){e.exports=function(t){if(\"string\"==typeof
+  t&&t.length)return t.length;if(\"object\"==typeof t){if(\"undefined\"!=typeof ArrayBuffer&&t
+  instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if(\"undefined\"!=typeof
+  Blob&&t instanceof Blob&&t.size)return t.size;if(!(\"undefined\"!=typeof FormData&&t
+  instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],19:[function(t,e,n){var
+  r=0,o=navigator.userAgent.match(/Firefox[\\/\\s](\\d+\\.\\d+)/);o&&(r=+o[1]),e.exports=r},{}],20:[function(t,e,n){function
+  r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split(\".\"),r=e.split(\".\"),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var
+  o=null,i=null,a=/Version\\/(\\S+)\\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf(\"Chrome\")===-1&&s.indexOf(\"Chromium\")===-1&&(o=\"Safari\",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],21:[function(t,e,n){function
+  r(t,e){var n=[],r=\"\",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return
+  n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],22:[function(t,e,n){function
+  r(t,e,n){e||(e=0),\"undefined\"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return
+  i}e.exports=r},{}],23:[function(t,e,n){e.exports={exists:\"undefined\"!=typeof window.performance&&window.performance.timing&&\"undefined\"!=typeof
+  window.performance.timing.navigationStart}},{}],24:[function(t,e,n){function r(t){return!(t&&t
+  instanceof Function&&t.apply&&!t[a])}var o=t(\"ee\"),i=t(22),a=\"nr@original\",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t,e){function
+  n(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s=\"function\"==typeof
+  n?n(r,a):n||{}}catch(f){p([f,\"\",[r,a,o],s])}u(e+\"start\",[r,a,o],s);try{return
+  c=t.apply(a,r)}catch(d){throw u(e+\"err\",[r,a,d],s),d}finally{u(e+\"end\",[r,a,c],s)}}return
+  r(t)?t:(e||(e=\"\"),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o=\"\");var
+  a,s,c,f=\"-\"===o.charAt(0);for(c=0;c<e.length;c++)s=e[c],a=t[s],r(a)||(t[s]=n(a,f?s+o:o,i,s))}function
+  u(n,r,o){if(!c||e){var i=c;c=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}c=i}}function
+  d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return
+  t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return
+  e}function p(e){try{t.emit(\"internal-error\",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function
+  r(){}function o(t){function e(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function
+  n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),s=m(n),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var
+  d=u[g[n]];return d&&d.push([b,n,r,a]),a}}function l(t,e){y[t]=m(t).concat(e)}function
+  h(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function
+  m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||\"feature\",g[n]=e,e
+  in u||(u[e]=[])})}var y={},g={},b={on:l,addEventListener:l,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:a,aborted:!1};return
+  b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var
+  s=\"nr@context\",c=t(\"gos\"),f=t(21),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function
+  r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return
+  Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return
+  t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function
+  r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t(\"ee\").get(\"handle\");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function
+  r(t){var e=typeof t;return!t||\"object\"!==e&&\"function\"!==e?-1:t===window?0:a(t,i,function(){return
+  o++})}var o=1,i=\"nr@id\",a=t(\"gos\");e.exports=r},{}],loader:[function(t,e,n){function
+  r(){if(!E++){var t=x.info=NREUM.info,e=l.getElementsByTagName(\"script\")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return
+  u.abort();f(g,function(e,n){t[e]||(t[e]=n)}),c(\"mark\",[\"onload\",a()+x.offset],null,\"api\");var
+  n=l.createElement(\"script\");n.src=\"https://\"+t.agent,e.parentNode.insertBefore(n,e)}}function
+  o(){\"complete\"===l.readyState&&i()}function i(){c(\"mark\",[\"domContent\",a()+x.offset],null,\"api\")}function
+  a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new
+  Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t(\"handle\"),f=t(21),u=t(\"ee\"),d=t(20),p=window,l=p.document,h=\"addEventListener\",m=\"attachEvent\",v=p.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:v,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var
+  y=\"\"+location,g={beacon:\"bam.nr-data.net\",errorBeacon:\"bam.nr-data.net\",agent:\"js-agent.newrelic.com/nr-spa-1118.min.js\"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(17),l[h]?(l[h](\"DOMContentLoaded\",i,!1),p[h](\"load\",r,!1)):(l[m](\"onreadystatechange\",o),p[m](\"onload\",r)),c(\"mark\",[\"firstbyte\",s],null,\"api\");var
+  E=0,O=t(23)},{}]},{},[\"loader\",2,15,5,3,4]);</script><style></style>\n<script
+  src=\"//cdn.blueconic.net/coxmediagroup.js\"></script>\n        \n        <!-- nicheParams:
+  ContextMap[envPropertyNiche:false, isNiche:false, legacyNiche:false, nicheClass:,
+  nicheProductID:null, nicheReferrerSuffix:null, referredNiche:null, section:SiteSection
+  [[+       214#] /PortalSites/ajc.com/things-to-do [FolderProxyImpl:PortalSection,
+  6.0.1231534449]], sectionShortTitle:] -->\n<!-- begin site_meta_override block -->\n<!--
+  begin page_title_override block -->\n<title>Best sous vide recipes: Egg bites, dill
+  salmon, crème brûlée</title>\n<!-- end page_title_override block -->\n\n<!-- begin
+  meta_description_override block -->\n<meta name=\"description\" content=\"Now small,
+  affordable sous vide circulators are available for home cooks. The appliance goes
+  into a container of water, and its heating coil and circulating fan produce a continuously
+  circulating temperature-controlled water bath. \">\n<!-- end meta_description_override
+  block -->\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\n\t\n\t\n\n\n\n\n<meta
+  http-equiv=\"Content-Security-Policy\" content=\"default-src 'self' http://*.pagefair.com
+  http://*.cloudfront.net http://*.tiles.mapbox.com http://*.intellicast.com http://*.wsi.com
+  http://*.coxnewsweb.com http://*.mathtag.com http://*.inform.com http://*.s3.amazonaws.com
+  http://*.zap2it.com http://*.ajc.com http://*.accessatlanta.com http://*.myajc.com
+  http://*.contextweb.com http://*.adkernel.com http://*.pubmatic.com http://ad.afy11.net
+  http://*.coxmediagroup.com http://*.coxohio.com http://*.coxmediagroupohio.com http://code.ionicframework.com
+  http://*.pointslocal.com http://*.cmgdigital.com http://*.googleapis.com http://*.wibbitz.com
+  http://*.cdn.turner.com https:; img-src 'self' http://*.pagefair.com http://*.cloudfront.net
+  http://*.tiles.mapbox.com http://*.intellicast.com http://*.wsi.com http://*.coxnewsweb.com
+  http://*.mathtag.com http://*.inform.com http://*.s3.amazonaws.com http://*.zap2it.com
+  http://*.ajc.com http://*.accessatlanta.com http://*.myajc.com http://*.contextweb.com
+  http://*.adkernel.com http://*.pubmatic.com http://ad.afy11.net http://*.coxmediagroup.com
+  http://*.coxohio.com http://*.coxmediagroupohio.com http://code.ionicframework.com
+  http://*.pointslocal.com http://*.cmgdigital.com http://*.googleapis.com http://*.wibbitz.com
+  http://*.cdn.turner.com https: blob: data: https:; script-src 'self' 'self' http://*.pagefair.com
+  http://*.cloudfront.net http://*.tiles.mapbox.com http://*.intellicast.com http://*.wsi.com
+  http://*.coxnewsweb.com http://*.mathtag.com http://*.inform.com http://*.s3.amazonaws.com
+  http://*.zap2it.com http://*.ajc.com http://*.accessatlanta.com http://*.myajc.com
+  http://*.contextweb.com http://*.adkernel.com http://*.pubmatic.com http://ad.afy11.net
+  http://*.coxmediagroup.com http://*.coxohio.com http://*.coxmediagroupohio.com http://code.ionicframework.com
+  http://*.pointslocal.com http://*.cmgdigital.com http://*.googleapis.com http://*.wibbitz.com
+  http://*.cdn.turner.com https: 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self'
+  http://*.pagefair.com http://*.cloudfront.net http://*.tiles.mapbox.com http://*.intellicast.com
+  http://*.wsi.com http://*.coxnewsweb.com http://*.mathtag.com http://*.inform.com
+  http://*.s3.amazonaws.com http://*.zap2it.com http://*.ajc.com http://*.accessatlanta.com
+  http://*.myajc.com http://*.contextweb.com http://*.adkernel.com http://*.pubmatic.com
+  http://ad.afy11.net http://*.coxmediagroup.com http://*.coxohio.com http://*.coxmediagroupohio.com
+  http://code.ionicframework.com http://*.pointslocal.com http://*.cmgdigital.com
+  http://*.googleapis.com http://*.wibbitz.com http://*.cdn.turner.com https: 'unsafe-inline';
+  media-src 'self' http://*.pagefair.com http://*.cloudfront.net http://*.tiles.mapbox.com
+  http://*.intellicast.com http://*.wsi.com http://*.coxnewsweb.com http://*.mathtag.com
+  http://*.inform.com http://*.s3.amazonaws.com http://*.zap2it.com http://*.ajc.com
+  http://*.accessatlanta.com http://*.myajc.com http://*.contextweb.com http://*.adkernel.com
+  http://*.pubmatic.com http://ad.afy11.net http://*.coxmediagroup.com http://*.coxohio.com
+  http://*.coxmediagroupohio.com http://code.ionicframework.com http://*.pointslocal.com
+  http://*.cmgdigital.com http://*.googleapis.com http://*.wibbitz.com http://*.cdn.turner.com
+  https: blob: data:; font-src 'self' http://*.pagefair.com http://*.cloudfront.net
+  http://*.tiles.mapbox.com http://*.intellicast.com http://*.wsi.com http://*.coxnewsweb.com
+  http://*.mathtag.com http://*.inform.com http://*.s3.amazonaws.com http://*.zap2it.com
+  http://*.ajc.com http://*.accessatlanta.com http://*.myajc.com http://*.contextweb.com
+  http://*.adkernel.com http://*.pubmatic.com http://ad.afy11.net http://*.coxmediagroup.com
+  http://*.coxohio.com http://*.coxmediagroupohio.com http://code.ionicframework.com
+  http://*.pointslocal.com http://*.cmgdigital.com http://*.googleapis.com http://*.wibbitz.com
+  http://*.cdn.turner.com https: data:; upgrade-insecure-requests;\"><meta charset=\"UTF-8\">\n<meta
+  http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\"
+  content=\"IE=Edge,chrome=1\">\n\n<!-- begin canonical_url_override block -->\n<link
+  rel=\"canonical\" href=\"https://www.ajc.com/lifestyles/food--cooking/recipes-immersed-flavor/LWKFCLk54Q3rcOoL5tkRuK/\">\n<!--
+  end canonical_url_override block -->\n\n<!-- begin viewport_override block -->\n<meta
+  name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1,
+  user-scalable=no\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\">\n<!--
+  end viewport_override block -->\n<!-- begin favicon_override block -->\n<link rel=\"apple-touch-icon\"
+  href=\"/r/PortalConfig/np-one/assets-one/myajc/images/favicon-apple-touch-icon.png\">\n<link
+  rel=\"shortcut icon\" href=\"/r/PortalConfig/np-one/assets-one/myajc/images/favicon.ico\">\n<!--
+  end favicon_override block -->\n\n<!-- begin og_meta_override block -->\n<meta property=\"og:image\"
+  content=\"https://www.ajc.com/rf/image_large/Pub/p10/AJC/2019/01/16/Images/sous-vide.jpg\">\n<meta
+  property=\"og:image:height\" content=\"450\">\n<meta property=\"og:image:width\"
+  content=\"800\">\n<meta property=\"og:title\" content=\"Make sous vide recipes immersed
+  in flavor\">\n<meta property=\"og:type\" content=\"article\">\n\t<meta property=\"og:url\"
+  content=\"https://www.ajc.com/lifestyles/food--cooking/recipes-immersed-flavor/LWKFCLk54Q3rcOoL5tkRuK/\">\n<meta
+  property=\"og:description\" content=\"Now small, affordable sous vide circulators
+  are available for home cooks. The appliance goes into a container of water, and
+  its heating coil and circulating fan produce a continuously circulating temperature-controlled
+  water bath. \">\n<meta property=\"og:site_name\" content=\"ajc\">\n<!-- end og_meta_override
+  block -->\n\n<!-- begin twitter_meta_override block -->\n<meta name=\"twitter:card\"
+  content=\"summary_large_image\">\n<meta name=\"twitter:description\" content=\"Now
+  small, affordable sous vide circulators are available for home cooks. The appliance
+  goes into a container of water, and its heating coil and circulating fan produce
+  a continuously circulating temperature-controlled water bath. \">\n<meta name=\"twitter:image\"
+  content=\"https://www.ajc.com/rf/image_large/Pub/p10/AJC/2019/01/16/Images/sous-vide.jpg\">\n<meta
+  name=\"twitter:site\" content=\"@ajc\">\n<meta name=\"twitter:title\" content=\"Make
+  sous vide recipes immersed in flavor\">\n<meta name=\"twitter:url\" content=\"https://www.ajc.com/lifestyles/food--cooking/recipes-immersed-flavor/LWKFCLk54Q3rcOoL5tkRuK/\">\n<!--
+  end twitter_meta_override block -->\n<!-- begin fb_appid_override block -->\n<meta
+  property=\"fb:app_id\" content=\"366816260017522\">\n<meta property=\"fb:pages\"
+  content=\"13310147298\">\n<!-- end fb_appid_override block -->\n\n<!-- persrec meta
+  configuration -->\n<meta property=\"og:pers_rec_image\" content=\"https://www.ajc.com/rf/image_large/Pub/p10/AJC/2019/01/16/Images/sous-vide.jpg\">\n\t<meta
+  property=\"og:pers_rec_first_pub_date\" content=\"2019-01-16T00:00:00-0500\">\n\n<meta
+  property=\"og:pers_rec_web_type\" content=\"article\">\n\t<!-- grab expiration date
+  (if it exists) (implemented for persrec vendors) -->\n<!-- end persrec meta -->\n\n<meta
+  name=\"news_keywords\" content=\"sous vide, immersion circulator, sous vide recipes,
+  cooking, recipes\">\n<link rel=\"amphtml\" href=\"https://www.ajc.com/lifestyles/food--cooking/recipes-immersed-flavor/LWKFCLk54Q3rcOoL5tkRuK/amp.html\">\n
+  \   <meta name=\"language\" content=\"English\">\n\n<!-- end site_meta_override
+  block -->\n<!--  Start Structured Data -->\n<script type=\"application/ld+json\">\n{\n\t\"@context\":
+  \"http://schema.org\",\n    \"@type\": \"NewsArticle\",\n\t\"inLanguage\": \"en_US\",\n\t\"mainEntityofPage\":
+  \"https://www.ajc.com/lifestyles/food--cooking/recipes-immersed-flavor/LWKFCLk54Q3rcOoL5tkRuK/\",\n\t\"publisher\":
+  {\n\t\t\"@type\": \"Organization\",\n\t\t\"name\": \"For the AJC\",\n\t\t\"logo\":
+  {\n\t\t\t\"@type\": \"ImageObject\",\n\t\t\t\"url\": \"https://www.ajc.com/rw/PortalConfig/np-free/assets/ajc/images/small-logo.png\"\n\t\t}\n\t},\n\t\"articleSection\":
+  \"Things to do\",\n\t\"headline\": \"Make sous vide recipes immersed in flavor\",\n\t\"datePublished\":
+  \"2019-01-16T05:00:00Z\",\n\t\"dateModified\": \"2019-01-16T13:50:41Z\",\n\t\"author\":
+  {\n\t\t\"@type\": \"Organization\",\n\t\t\"name\": \" C. W. Cameron\"\n\t},\n\t\"image\":
+  {\n\t\t\"@type\": \"ImageObject\",\n\t\t\"url\": \"https://www.ajc.com/rf/image_inline/Pub/p10/AJC/2019/01/16/Images/sous-vide.jpg\"\n\t}\n}\n</script>\n<!--
+  \ End Structured Data -->\n<script type=\"text/javascript\">\n              window._taboola
+  = window._taboola || [];\n              _taboola.push({article:'auto'});\n              !function
+  (e, f, u, i) {\n                if (!document.getElementById(i)){\n                  e.async
+  = 1;\n                  e.src = u;\n                  e.id = i;\n                  f.parentNode.insertBefore(e,
+  f);\n                }\n              }(document.createElement('script'),\n              document.getElementsByTagName('script')[0],\n
+  \             '//cdn.taboola.com/libtrc/cox-atlantajournal-constitution/loader.js',\n
+  \             'tb_loader_script');\n              if(window.performance && typeof
+  window.performance.mark == 'function')\n                {window.performance.mark('tbl_ic');}\n
+  \           </script>\n        <!-- IE11 fallback -->\n        <script src=\"//www.googletagservices.com/tag/js/gpt.js\"></script>\n<script
+  src=\"//www.ajc.com/r/PortalConfig/common/assets/js/harmony-7.6.0.min.js\"></script>\n\n<script
+  style=\"display:none\">\n        window.cmg = window.cmg || {};\n        cmg.adconf
+  = {\n            slotconf: [],\n            targeting: {}\n        };\n    </script>\n<script
+  style=\"display:none\">\n    cmg.adconf.adunit = '12523293/Atlanta_NP/ajc_web_default/things_to_do';\n</script>\n<script
+  style=\"display:none\">\n    (function () {\n        cmg.adconf.targeting.sky =
+  'Few Clouds' || 'ERROR';\n        cmg.adconf.targeting.weather = '';\n\n        \n
+  \               var floor = Math.floor(48 / 5) * 5;\n                cmg.adconf.targeting.temp_range
+  = floor + ' to ' + (floor + 4);\n            \n    }());\n</script>\n<script style=\"display:none\">\n
+  \   cmg.adconf.targeting.obj_type = location.pathname.indexOf('queryResult') > 0
+  ? 'List' : 'story';\n    cmg.adconf.targeting.obj_id = '8.0.3443451929';\n    cmg.adconf.targeting.uuid
+  = '6118ba9c-fd43-4c23-aa24-5f682728cd9f';\n\n    </script>\n<script style=\"display:none\">\n
+  \   (function () {\n        \n        function getQueryParam(name) {\n            var
+  q = location.search.match(new RegExp('[?&]' + name + '=([^&#]*)'));\n            return
+  q && q[1];\n        }\n\n        cmg.adconf.targeting.environ = location.search.indexOf('testads')
+  > 0 ? 'debug' : location.host.split('.')[0];\n        cmg.adconf.targeting.mediatype
+  = 'np-one';\n        cmg.adconf.targeting.qa = getQueryParam('qa') || '';\n    }());\n</script>\n<script
+  style=\"display:none\">\n        cmg.adconf.breakpoints = [\n            1,\n            768,\n
+  \           972,\n            \n        ];\n\n        \n        cmg.adconf.targeting.topics
+  = [\n            \n                'Recipes',\n            \n                'dining
+  team',\n            \n                'cooking',\n            \n                'home
+  cooking',\n            \n        ];\n\n        \n        cmg.adconf.targeting.categories
+  = [\n            \n                    'Lifestyles',\n                \n                    'Food
+  & Cooking',\n                \n        ];\n\n        \n        googletag.cmd.push(function
+  () {\n            var pubads = googletag.pubads();\n            \n                harmony.disable.initialLoad(true);\n
+  \           \n            pubads.collapseEmptyDivs(true);\n            pubads.enableSingleRequest();\n
+  \           pubads.setCentering(true);\n        });\n    </script>\n<script>\n\tharmony.on('ready',
+  function () {\n\t    if (!cmg.adconf || !cmg.adconf.slotconf) {\n\t    \tconsole.error('Ad
+  slots not configured in cmg.adconf.slotconf. Amazon A9 bidding quitting');\n\t    \treturn;\n\t
+  \   }\n\n\t\t//Load the APS JavaScript Library\n\t    !function(a9,a,p,s,t,A,g){if(a[a9])return;function
+  q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q(\"i\",arguments)},fetchBids:function(){q(\"f\",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}(\"apstag\",window,document,\"script\",\"//c.amazon-adsystem.com/aax2/apstag.js\");\n\n\t
+  \   //Initialize the Library\n\t    apstag.init({\n\t        pubID: '3185',\n\t
+  \       adServer: 'googletag'\n\t    });\n\n        var singlePixel = ''+[1,1],\n
+  \           biddingSlots = cmg.adconf.slotconf.reduce(function (filtered, conf)
+  {\n                if (conf.name !== 'WP01' && (''+conf.sizes !== singlePixel))
+  {\n                    filtered.push({\n                        slotID: conf.id,\n
+  \                       slotName: conf.adunit,\n                        sizes: conf.sizes\n
+  \                   });\n                }\n                return filtered;\n            },
+  []);\n\n\t    apstag.fetchBids({\n\t        slots: biddingSlots,\n\t        timeout:
+  2e3\n\t    }, function(bids) {\n\t        // set apstag targeting on googletag,
+  then trigger the first DFP request in googletag's disableInitialLoad integration\n\t
+  \       googletag.cmd.push(function(){\n\t            apstag.setDisplayBids();\n\t
+  \           if (window.add_prebid_script) {\n\t                window.add_prebid_script();\n\t
+  \           } else {\n\t                googletag.pubads().refresh();\n\t            }\n\t
+  \       });\n\t    });\n\t});\n</script>\n<meta name=\"eomportal-instanceid\" content=\"231210\">\n<meta
+  name=\"eomportal-id\" content=\"1109281\">\n<meta name=\"eomportal-loid\" content=\"8.0.3443451929\">\n<meta
+  name=\"eomportal-uuid\" content=\"6118ba9c-fd43-4c23-aa24-5f682728cd9f\">\n<meta
+  name=\"eomportal-lastUpdate\" content=\"Mon Mar 18 11:15:54 EDT 2019\">\n<link rel=\"stylesheet\"
+  type=\"text/css\" href=\"/r/PortalConfig/np-one/assets-one/css/story.css\">\n<link
+  rel=\"stylesheet\" type=\"text/css\" href=\"/r/PortalConfig/np-one/assets-one/css/footer.css\">\n<link
+  rel=\"stylesheet\" type=\"text/css\" href=\"/r/PortalConfig/np-one/assets-one/css/ie11.css\">\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+  \   \n\n\n<!-- Meter objectType: story/NA -->\n\n\n\n\n<meta name=\"cmg:product\"
+  content=\"\">\n\n\n\n    \n    \n    \n    \n    \n    \n        \n        \n        \n
+  \   \n        \n        \n        \n    \n    \n    \n\n    \n        \n        \n
+  \       \n    \n        \n        \n        \n    \n        \n        \n        \n
+  \   \n        \n        \n        \n    \n\n\n    \n    \n    <meta name=\"cmg:siteSection\"
+  content=\"Lifestyles\">\n    \n\n    \n    \n    \n        \n        \n            \n
+  \           \n            <meta name=\"cmg:mainSection\" content=\"/things-to-do\">\n
+  \               \n         \n    \n\n    \n    <meta name=\"cmg:primaryCategory\"
+  content=\"/Lifestyles/Food &amp; Cooking\">\n    \n\n    \n    <meta name=\"cmg:categories\"
+  content=\"/Lifestyles/Food &amp; Cooking, /Entertainment/Dining\">\n    \n    \n
+  \   \n    <meta name=\"cmg:topics\" content=\"Recipes, dining team, cooking, home
+  cooking\">\n    \n\n\n\n\n    \n    \n                    \n    \n    \n\n    \n\n<meta
+  name=\"cmg:meter\" content=\"true\">\n\n\n\n<meta name=\"cmg:maxMeterTemporary\"
+  content=\"5\">\n\n\n\n<meta name=\"cmg:updatePageViewDataDirectly\" content=\"true\">\n<!--
+  begin metrics_complete_override block -->\n        <script>localStorage.setItem(\"sdsat_debug\",
+  true);</script>\n\n\n\n\n\n\n\n\n\n\n\n<script>\nif(typeof(pubsub)==\"undefined\"){\n\tpubsub={\n\t\t\tsubscribe:function(){\n\t\t\t\tif(typeof(DDO.deferredSubscribe)
+  == \"undefined\"){\n\t\t\t\t\tDDO.deferredSubscribe = [];\n\t\t\t\t}\n\t\t\t\tDDO.deferredSubscribe.push(arguments);\n\t\t\t},\n\t\t\tpublish:function(){\n\t\t\t\tif(typeof(DDO.deferredPublish)
+  == \"undefined\"){\n\t\t\t\t\tDDO.deferredPublish = [];\n\t\t\t\t}\n\t\t\t\tDDO.deferredPublish.push(arguments);\n\t\t\t}\n\t};\n\t\n}\nwindow.pubsub
+  = pubsub;\n</script>\n\n<script src=\"//assets.adobedtm.com/20d5deb47c9e7fe47a9f969db01578a739d7179d/satelliteLib-3bdb96ce8c62153cdc81a8a72fc964fe2ffa1652.js\"></script>\n\n\n\n\n<!--
+  begin metrics_complete_override block -->\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!-- METRIC
+  TAG -->\n\n\n\n\n\n<!-- Primary Category -->\n\n\n\n\n<!-- Setting originating site
+  Start-->\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\n\n\n\n \n\n\n\t\n\n\n\n<!-- Setting originating
+  site End-->\n\n<!-- Setting Site Domain and Site ID Start-->\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!--
+  Setting Site Domain and Site ID End-->\n\n<!-- Setting Provide Name -->\n\n\n\n\n\n\n\n\n\t\n\n\n\n\n\n\n\t\n\t\t\n\t\t\n\t\t\t\n\t\n\t\n\n\n\n\n\n\n\n\n\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\n\n\n<!--Standalone
+  -->\n\n\n\n\n<!-- Setting video proxy and video proxy play list vendor names -->\n\n
+  \n<script>\nvar DDO = DDO || {};\n\n<!-- begin metrics_dtm_library_override block
+  -->\n\tDDO.DTMLibraryURL = '//assets.adobedtm.com/20d5deb47c9e7fe47a9f969db01578a739d7179d/satelliteLib-3bdb96ce8c62153cdc81a8a72fc964fe2ffa1652.js';\n<!--
+  end metrics_dtm_library_override block -->\n\n\nDDO.hasLocalStorage = function(){\n\tisDefined
+  = typeof(localStorage) != \"undefined\";\n\tif(isDefined){\n\t\tlocalStorage.setItem(\"test\",
+  \"test\");\n\t\tcanRetrieve = localStorage.getItem(\"test\") == \"test\";\n\t}\n\tlocalStorage.removeItem(\"test\");\n\treturn
+  isDefined && canRetrieve;\n\t\t \n}\n\nDDO.connextActive = function(){\n\tvar connextMetaTag
+  = document.querySelector('meta[name=\"cmg:connext:config\"]');\n\tif(connextMetaTag){
+  \n\t\treturn true;\n\t}else{\n\t\treturn false;\n\t}\n}\n\n</script>\n\n<script
+  src=\"//www.ajc.com/r//PortalConfig/np-one/metrics/js/dtm-ddo-utilities.js\"></script>\n\n\n\n\n<script>\n\n\t//
+  \tSITE DATA\n\t\n\tDDO.siteData = {\n\t\tsiteID: 'ajc',\n\t    siteDomain: 'ajc.com',\n\t
+  \   siteVersion: 'responsive site',\n\t    siteFormat: 'newspaper',\n\t    siteMetro:
+  'ga: atlanta',\n\t    siteMedium: 'newspaper',\n\t    siteType: 'main: onesite',\n\t
+  \   siteCMS: 'methode'\n\t};\n    // PAGE DATA\n\tvar isDwp = false;\n\tconsole.log(\"isDwp:
+  \", isDwp);\n\tvar isHome = isDwp && false;\n\tconsole.log(\"page Title:\" + 'Best
+  sous vide recipes: Egg bites, dill salmon, crème brûlée');\n\tvar trimPageNameUrl
+  = removeExtracharFromUrl('/lifestyles/food--cooking/recipes-immersed-flavor/LWKFCLk54Q3rcOoL5tkRuK/');\n\tconsole.log(\"Primary
+  Category: \" + '/Lifestyles/Food & Cooking');\n\t\t    \n\tDDO.pageData = {\n\t\tpageFlow
+  : \"\",\n\t\tpageNumber : '1',\n\t\tpageType : 'standalone page',\n\t\tpageIsDwp:
+  isDwp // Necessary for bookmarklet purposes.\n\t};\n\tif(isDwp) {\n\t    DDO.pageData.pageContentType
+  = (isHome) ? 'homepage' : 'section front';\n\t\tDDO.pageData.pageMainSection = (isHome)
+  ? '/'+'homepage' : '/lifestyles/food--cooking/recipes-immersed-flavor/LWKFCLk54Q3rcOoL5tkRuK/';\n\t\tDDO.pageData.pageName
+  = (isHome) ? '/' + 'homepage' + '/' : '/lifestyles/food--cooking/recipes-immersed-flavor/LWKFCLk54Q3rcOoL5tkRuK/';\n\t}
+  else {\n\t    DDO.pageData.pageContentType = 'article';\n\t\tDDO.pageData.pageMainSection
+  ='/things-to-do';\n\t\tDDO.pageData.pageName = trimPageNameUrl;\n\t}\n\t\n\tDDO.pageData.pageTitle
+  = 'Best sous vide recipes: Egg bites, dill salmon, crème brûlée';\n\tDDO.pageData.pageSiteSection
+  = (isHome) ? 'home' : 'Lifestyles';\n\t \n\tif (DDO.pageData.pageContentType ==
+  '') {\n\t\tvar pageName = DDO.pageData.pageName;\n\t\tvar pageNameSplit = pageName.split('/');\n\t\tDDO.pageData.pageContentType
+  = pageNameSplit[1];\n\t}\n\t\n\tDDO.pageData.pageCategory = 'Food & Cooking';\n\tif
+  (DDO.pageData.pageCategory == 'Error') {\n\t\tDDO.pageData.pageContentType = \"Page
+  not found\";\n\t}\n\tDDO.pageData.pageSubCategory = '';\n\t\n\tif(DDO.pageData.pageContentType
+  =='404'){\t\t\n\t\tDDO.pageData.pageType=\"errorpage\";\t\t\n\t\tDDO.pageData.pageTitle=\"page
+  not found\";\t\t\n\t\tDDO.pageData.pageContentType = \"404 page\";\t\t\n\t\tURLArray
+  = window.location.href.split('/');\t\t\n\t\tDDO.pageData.pageName = '/404_page/'+URLArray[URLArray.length-1];\t\t\n\t}\n\t\n\tif(DDO.pageData.pageContentType
+  == 'weather'){\n\t\tDDO.pageData.pageCategory = 'weather';\n\t\tDDO.pageData.pageTitle
+  = 'weather';\n\t}\n\t\n\tif(DDO.pageData.pageContentType == 'search'){\n\t\tvar
+  aMetricsSiteSearchType, aMetricsSearchTerms, aMetricsNumResults;\n\t\tDDO.pageData.pageName
+  = \"/search-results/\";\n\t\tDDO.pageData.pageTitle = \"search results\";\n\t\tDDO.pageData.pageMainSection
+  = \"/search\";\n\t\tDDO.pageData.pageContentType = \"search\"; \n\t\tDDO.pageData.pageSiteSection
+  = \"search\";\n\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\n\t}\n\t\n\t// CONTENT DATA (contentViewType
+  is set in access meter metrics)\n\tDDO.contentData = DDO.contentData || {};\n\tvar
+  contentTopics ='';\n\t\n\t\tcontentTopics += false ? 'Recipes' : 'Recipes' + ',';\n\t\n\t\tcontentTopics
+  += false ? 'dining team' : 'dining team' + ',';\n\t\n\t\tcontentTopics += false
+  ? 'cooking' : 'cooking' + ',';\n\t\n\t\tcontentTopics += true ? 'home cooking' :
+  'home cooking' + ',';\n\t\n\tDDO.contentData.contentTopics = contentTopics;\n\tvar
+  contentByline = '';\n\t\n\t\tcontentByline += true ? 'C. W. Cameron' : 'C. W. Cameron'
+  + ',';\n\t\n\tDDO.contentData.contentByline = contentByline;\n\tDDO.contentData.contentOriginatingSite
+  =  'ajc';\n\tDDO.contentData.contentID = '6118ba9c-fd43-4c23-aa24-5f682728cd9f';\n\tDDO.contentData.contentVendor
+  = '';\n\tDDO.contentData.contentViewType = DDO.contentData.contentViewType || '';\n\tDDO.contentData.contentPublishDate
+  = '20190116050000';\n\tDDO.contentData.contentUpdatedDate = '';\n\tDDO.contentData.blogName
+  = '';\n\tDDO.contentData.galleryName = '';\n\tvar pageSubContentType = '';\n\tif(pageSubContentType
+  == 'Post') {\n\t\tDDO.contentData.blogName = 'Best sous vide recipes: Egg bites,
+  dill salmon, crème brûlée';\n\t}else if(DDO.pageData.pageContentType == 'gallery')
+  {\n\t\tDDO.contentData.galleryName = 'Best sous vide recipes: Egg bites, dill salmon,
+  crème brûlée';\n\t}\n\n    //GOOGLE NLP TAGS DISPLAY\n    \n    \n        \n          \n
+  \         \n          \n           DDO.contentData.contentGoogleTaxonomy1=\"/Food
+  & Drink/Cooking & Recipes\"\n           DDO.contentData.contentGoogleConfidenceScore1='0.84';\n
+  \       \n    \n\n\t//We need to set this one only for imported stories.\n\tDDO.contentData.contentOriginatingCMS='Methode';\n\tDDO.contentData.contentOriginatingID='6118ba9c-fd43-4c23-aa24-5f682728cd9f';\n\tDDO.contentData.melvilID='23511872';\n\n\t\n\t
+  \   \n\t    \n\t        DDO.contentData.connextProductID = '';\n\t    \n\t\t\n\t\n\t//SEARCH
+  DATA PAGE CONTENT\n\t\t\n   \n  \n   DDO.pageData.pageNumber = location.search.split('page=')[1]
+  ? location.search.split('page=')[1] : location.search.split('offset=')[1] ? location.search.split('offset=')[1]
+  : '1';\n   \n<!-- begin metrics_elements_override block -->\n\n\n<!-- end metrics_elements_override
+  block -->\t\n\nDDO.init = function(pubsub, dependentEvents) {\n\t// The following
+  code defers loading the DTM library until after certain events have been fired,\n\t//
+  namely janrain, mg2, and access meter.\n\t// Note: we need to add access meter to
+  list of dependent events etc!\n\tDDO.dependentEvents = dependentEvents;// e.g. ['authn',
+  'authz'];\n\tsetTimeout(function(){\n\t\tDDO.dependentEventCheck(\"TIMED OUT\");\n\t},
+  10000);\n\tif(dependentEvents.length == 0){\n\t\tDDO.utilities.triggerDTMPageView();//DDO.utilities.loadDTMLibrary();\n\t}\n\t\n\tpubsub.publish(\"DDO-initialized\");\n\tconsole.log('DDO:
+  ', DDO);\n}\n\n//Function to remove last alphanumeric chars from DDO.pageData.pageName
+  url\nfunction removeExtracharFromUrl(urlPath){\n    var urlArr = urlPath.split('/');\n
+  \   if (urlArr.length > 3) {\n    \tvar urlArr_new = [];\n\t\tfor (var i=0; i<urlArr.length-2;i++)
+  {\n\t\t\turlArr_new.push(urlArr[i]);\n\t\t}\n\t\treturn urlArr_new.join('/') + '/';\n
+  \   } \n    else {\n    \treturn urlPath;\t\n    }\n}\n\n</script>\n\n<!-- end metrics_complete_override
+  block -->\n\n\n\n\n\n\n\n\n\n<script>\nDDO.interaction = {\n\tinit: function(pubsub,
+  $){\n\t\t// pubsubcutioner can use regex for event names, thus all interaction type
+  events\n\t\t// can be listened to assuming the data is correct.\n\t\tpubsub.subscribe(\"site-interaction\",
+  function(event, data){\n\t\t\t// data should be like: {element:\"[widget clicked]\",action:
+  \"[button clicked]\"}\n\t\t\tDDO.action(\"interaction.Website\", data);\n\t\t});\n\t}\n};\n</script>\n\n\n\n\n\n\n<script>\nDDO.janrainPort
+  = {\n\tinit: function(pubsub, $){\n\t\tvar returnUser = false;\n\t\tvar isModalOpen
+  = false;\n\t\tvar autoLogin = true;\n\t\t\n\t\tpubsub.subscribe(\"janrain.sessionNotFound\",
+  function(){\n\t\t\tpubsub.publish(\"authn-anonymous\");\n\t\t});\n\t\tpubsub.subscribe(\"janrain.logout\",function(){\n\t\t\tpubsub.publish(\"authn-logout\");\n\t\t});\n\t\tpubsub.subscribe(\"janrain.loginSuccess\",
+  function(event, data){\n\t\t\tpubsub.publish(\"login-success\");\n\t\t\tpubsub.publish(\"authn-login\",
+  data);\n\t\t\tif(!returnUser && !window.mg2){\n\t\t\t\tpubsub.publish(\"login-complete\");\n\t\t\t}\n\t\t});\n\t\tpubsub.subscribe(\"janrain.loginFailed\",
+  function(){\n\t\t\tpubsub.publish(\"login-error\");\n\t\t});\n\t\t\n\t\tpubsub.subscribe(\"janrain.sessionFound\",
+  function(event, data){\n\t\t\tpubsub.publish(\"session-found\");\n\t\t\tpubsub.publish(\"authn-login\",
+  data);\n\t\t\tif(autoLogin) { \n\t\t\t\tpubsub.publish(\"authn-login-return\");\n\t\t\t}\n\t\t\t\n\t\t});\n\t\tpubsub.subscribe(\"janrain.onEmailSent\",
+  function(){\n\t\t\tpubsub.publish(\"registration-success\");\n\t\t});\n\t\tpubsub.subscribe(\"janrain.onModalOpen\",
+  function(){\n\t\t\tif (!isModalOpen) {\n\t\t\t\tpubsub.publish(\"authn-modal-open\");\n\t\t\t\tisModalOpen
+  = true;\n\t\t\t\tautoLogin = false;\n\t\t\t}\n\t\t});\n\t\tpubsub.subscribe(\"janrain.onModalClose\",
+  function(){\n\t\t\tpubsub.publish(\"authn-modal-close\");\n\t\t\tisModalOpen = false;\n\t\t});\n\t}\n}\n</script>\n\n\n\n\n\n\n<script>\nDDO.comment
+  = {\n\tinit: function(pubsub, $){\n\t\tpubsub.subscribe('livefyre.commentPosted',
+  function(event, data){\n\t\t\tDDO.action('commentSubmitted');\n\t\t\tif (data.sharedToFacebook)
+  {\n                pubsub.publish('authn-social-share', { type:'share-content',
+  site:'facebook' });\n            }\n            if (data.sharedToTwitter) {\n                pubsub.publish('authn-social-share',
+  { type:'share-content', site:'twitter' });\n            }\n\t\t});\n\t\t\n\t\tpubsub.subscribe('additional-comments',
+  function(event, data){\n\t\t\tDDO.action('additionalComments', data);\n\t\t});\n\t}\n};\n</script>\n\n\n\n\n\n\n\n<script>\nDDO.socialShare
+  = {\n\tinit: function(pubsub, $){\n\t\tpubsub.subscribe(\"authn-social-share\",
+  function(event, data){\n\t\t\tDDO.action(\"socialClick\", data);\t\t\t\n\t\t});\n\t\tpubsub.subscribe(\"livefyre.commentShared\",
+  function(event, data){\n\t\t\tif (data.sharedToFacebook) {\n\t            DDO.action('socialClick',
+  { type:'share-comment', site:'facebook' });\n\t        }\n\t        if (data.sharedToTwitter)
+  {\n\t            DDO.action('socialClick', { type:'share-comment', site:'twitter'
+  });\n\t        }\n\t\t});\n\t\n\t}\n};\n</script>\n\n\n\n\n\n\n<script>\nDDO.gallery
+  = {\n\tinit: function(pubsub, $){\n\t\tpubsub.subscribe(\"gallery-secondary\", function(event,
+  data){\n\t\t\tDDO.action('gallerySecondaryPhotoView', data);\n\t\t});\n\t\tpubsub.subscribe(\"gallery-opened\",
+  function(event, data){\n\t\t\tDDO.action('galleryOpened', data);\n\t\t});\n\t}\n};\n</script>\n\n\n\n\n\n\n<script>\nDDO.breakingNews
+  = {\n\tinit: function(pubsub, $){\n\t\tpubsub.subscribe(\"breaking-news-banner\",
+  function(event, data){\n\t\t\tDDO.action(\"breakingNews\", {contentType:DDO.pageData.pageContentType});\n\t\t});\n\t\t\n\t\tpubsub.subscribe(\"breaking-news-story\",
+  function(event, data){\n\t\t\tDDO.action('breakingNewsStory');\n\t\t});\n\t}\n};\n</script>\n\n\n\n\n\n\n<script>\nDDO.relatedObjects
+  = {\n\tinit: function(pubsub, $){\n\t\tpubsub.subscribe(\"related-objects\", function(event,
+  data){\n\t\t\tDDO.action(\"relatedObjects\", {contentType:DDO.pageData.pageContentType});\n\t\t});\n\t\tpubsub.subscribe(\"non-gallery-photo\",
+  function(event, data){\n\t\t\tDDO.action(\"nonGalleryPhoto\", {contentType:DDO.pageData.pageContentType});\n\t\t});\n\t}\n};\n</script>\n\n\n\n\n\n\n\n\n<script>\nwindow.breakpointArray
+  = [1230, 990, 748];\nDDO.breakpoint = {\n\tinit: function(pubsub, $){\n\t\t\n\t\tDDO.pageData
+  = DDO.pageData || {};\n\t\tif (typeof $ !== 'undefined') {\n\t\t\tvar columns =
+  getColumnNumber($(window).width());\n\t\t}\n\t\tDDO.pageData.pageLayout = columns
+  + \" column\"\n\t\tDDO.dependentEventCheck('breakpoint');\n\t\t\n\t\tpubsub.subscribe(\"breakpoint\",
+  function(event, data){\n\t\t\tDDO.action(\"pageLayoutChange\", data);\n\t\t});\n\t}\n};\n\nfunction
+  getColumnNumber(width){\n    breakpointArray = window.breakpointArray || 0;\n    if(breakpointArray
+  === 0){\n        console.log(\"Breakpoint metrics tag not included in Methode frameset.
+  Cannot compute column widths.\")\n        return false;\n    }else{\n        threeColumn
+  = breakpointArray [0],\n        twoColumn = breakpointArray[1],\n        oneColumn
+  = breakpointArray[2];\n        if(width<= oneColumn){\n            return 1;\n        }else
+  if(width>oneColumn &&  width <= twoColumn){\n            return 2;\n        }else
+  if (width>twoColumn &&  width <= threeColumn) {\n            return 3;\n        }else
+  if (width>threeColumn){\n            return 4;\n        }\n\n    }\n\n}\n</script><!--
+  end metrics_complete_override block -->        \n    <link rel=\"preload\" href=\"https://pb-story.playbuzz.com/production/da964cc413e025e48d6e57039217f9be590c4e77-2019-03-18-12-17-16/story-viewer.js\"
+  as=\"script\"></head>\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n<body
+  data-spy=\"scroll\" data-target=\".subnav\" data-offset=\"50\" id=\"body\" class=\"body
+  \" data-webtype=\"story\">\n    <!-- Interscroller ad -->\n\t\t<div id=\"cm-ad-PX01-h1\"
+  class=\"PX01 cm-ad default\" hidden=\"\" zkn1y3u=\"\"></div>\n\n    <script style=\"display:none\">\n
+  \           googletag.cmd.push(function () {\n                \n                var
+  defaultSizes = [];\n                \n                    defaultSizes.push([1,
+  1]);\n                \n                var mapping = googletag.sizeMapping();\n
+  \               var sizes = [];\n                \n                    sizes = [];\n
+  \                   \n                        sizes.push([1, 1]);\n                    \n
+  \                   mapping.addSize(\n                        [1, 1], sizes\n                    );\n
+  \               \n                    sizes = [];\n                    \n                        sizes.push([1,
+  1]);\n                    \n                    mapping.addSize(\n                        [768,
+  1], sizes\n                    );\n                \n                    sizes =
+  [];\n                    \n                        sizes.push([1, 1]);\n                    \n
+  \                   mapping.addSize(\n                        [972, 1], sizes\n
+  \                   );\n                \n                var conf = {\n                    name:
+  'PX01',\n                    id: 'cm-ad-PX01',\n                    sizes: defaultSizes,\n
+  \                   group: 'default',\n                    adunit: cmg.adconf.adunit,\n
+  \                   outofpage: false,\n                    companion: false,\n                    mapping:
+  mapping.build(),\n                    targeting: {\n                        ad_slot:
+  'PX01'\n                    }\n                };\n                cmg.adconf.slotconf.push(conf);\n
+  \               var slot = harmony.defineSlot(conf);\n\n                \n            });\n
+  \       </script>\n<div id=\"cm-ad-NS01-h1\" class=\"NS01 cm-ad default\" hidden=\"\"
+  zkn1y3u=\"\"></div>\n\n    <script style=\"display:none\">\n            googletag.cmd.push(function
+  () {\n                \n                var defaultSizes = [];\n                \n
+  \                   defaultSizes.push([1, 1]);\n                \n                var
+  mapping = googletag.sizeMapping();\n                var sizes = [];\n                \n
+  \                   sizes = [];\n                    \n                        sizes.push([1,
+  1]);\n                    \n                    mapping.addSize(\n                        [972,
+  1], sizes\n                    );\n                \n                    sizes =
+  [];\n                    \n                        sizes.push([1, 1]);\n                    \n
+  \                   mapping.addSize(\n                        [768, 1], sizes\n
+  \                   );\n                \n                    sizes = [];\n                    \n
+  \                       sizes.push([1, 1]);\n                    \n                    mapping.addSize(\n
+  \                       [1, 1], sizes\n                    );\n                \n
+  \               var conf = {\n                    name: 'NS01',\n                    id:
+  'cm-ad-NS01',\n                    sizes: defaultSizes,\n                    group:
+  'default',\n                    adunit: cmg.adconf.adunit,\n                    outofpage:
+  false,\n                    companion: false,\n                    mapping: mapping.build(),\n
+  \                   targeting: {\n                        ad_slot: 'NS01'\n                    }\n
+  \               };\n                cmg.adconf.slotconf.push(conf);\n                var
+  slot = harmony.defineSlot(conf);\n\n                \n            });\n        </script>\n<div
+  class=\"retargeting-pixel retargeting-pixel-header\" style=\"display:none\">\n\t\n</div>\n<i
+  class=\"jsinclude\" style=\"display:none\" data-key=\"currentSite\" data-value=\"https://www.ajc.com\"
+  data-literal=\"false\"></i>\n<script src=\"https://membercenter.ajc.com/sdk.js\"></script>\n\n<i
+  class=\"jsinclude\" style=\"display:none\" data-key=\"mc_prod\" data-value=\"true\"
+  data-literal=\"true\"></i>\n<i class=\"jsinclude\" style=\"display:none\" data-key=\"membercenter_url\"
+  data-value=\"https://membercenter.ajc.com\" data-literal=\"false\"></i>\n<div class=\"wallpaper-ad\">\n\t\t\t
+  \t<div id=\"cm-ad-HS01-h1\" class=\"HS01 cm-ad default\" hidden=\"\" zkn1y3u=\"\"></div>\n\n
+  \   <script style=\"display:none\">\n            googletag.cmd.push(function ()
+  {\n                \n                var defaultSizes = [];\n                \n
+  \                   defaultSizes.push([1, 1]);\n                \n                var
+  mapping = googletag.sizeMapping();\n                var sizes = [];\n                \n
+  \                   sizes = [];\n                    \n                        sizes.push([1,
+  1]);\n                    \n                    mapping.addSize(\n                        [1,
+  1], sizes\n                    );\n                \n                    sizes =
+  [];\n                    \n                        sizes.push([1, 1]);\n                    \n
+  \                   mapping.addSize(\n                        [768, 1], sizes\n
+  \                   );\n                \n                    sizes = [];\n                    \n
+  \                       sizes.push([1, 1]);\n                    \n                    mapping.addSize(\n
+  \                       [972, 1], sizes\n                    );\n                \n
+  \               var conf = {\n                    name: 'HS01',\n                    id:
+  'cm-ad-HS01',\n                    sizes: defaultSizes,\n                    group:
+  'default',\n                    adunit: cmg.adconf.adunit,\n                    outofpage:
+  false,\n                    companion: false,\n                    mapping: mapping.build(),\n
+  \                   targeting: {\n                        ad_slot: 'HS01'\n                    }\n
+  \               };\n                cmg.adconf.slotconf.push(conf);\n                var
+  slot = harmony.defineSlot(conf);\n\n                \n                    if (slot)
+  {\n                        \n                        var bpMap = {},\n                            activeBPs
+  = [1, 768, 972];\n                        activeBPs.forEach(function (bp) {\n                            bpMap[bp]
+  = true;\n                        });\n\n                        \n                        harmony.on('update/slots',
+  function (bp) {\n                            slot.enabled = bp in bpMap;\n                        },
+  true);\n                    }\n                \n            });\n        </script>\n</div>\n<!--
+  begin breaking_news_override block -->\n<!-- pubEndDateFull Mon Mar 18 10:26:01
+  EDT 2019 -->\n            <!-- end breaking_news_override block -->\n<!-- begin
+  header_override block -->\n        <div class=\"wrapper wrapper--header story-page
+  full-header\">\n<!--    <div class=\"wrapper wrapper--header\"> -->\n\n    <header
+  class=\"container header\">\n        <div class=\"header-mobile-container\">\n            <div
+  class=\"nav-menu-toggle\">\n                <div class=\"nav-flyout-btn\"></div>\n
+  \           </div>\n            \n            <div class=\"header__logo header__logo-container\">\n
+  \               <a class=\"header-mobile-container__link ajc\" href=\"/\" title=\"www.ajc.com\">\n
+  \                   <span class=\"header__mobile-logo__image\">\n                        <img
+  class=\"ajc myajc\" src=\"/r/PortalConfig/np-one/assets-one/ajc/images/logo-full.svg\">\n
+  \                   </span>\n\n                    <span class=\"header__mobile-pinned-logo__image\">\n
+  \                       <img class=\"ajc myajc\" src=\"/r/PortalConfig/np-one/assets-one/ajc/images/logo-short.svg\">\n
+  \                   </span>\n\n                    <img class=\"header__desktop-logo__image
+  ajc\" src=\"/r/PortalConfig/np-one/assets-one/ajc/images/logo-full.svg\" name=\"www.ajc.com\"
+  alt=\"www.ajc.com Logo\">\n                </a>\n            </div>\n\n            <div
+  class=\"main-nav__user-desktop main-nav__user-mobile-pinned\">\n                <div
+  class=\"nav-auth js-nav-auth\">\n    <div class=\"nav-auth__anon-user\">\n            <div
+  class=\"nav-auth__anon-user__icon js-auth-login\">\n                <div class=\"nav-auth__anon-user__icon__img\">\n
+  \               \t<img src=\"/r/PortalConfig/np-one/assets-one/images/icons/user-icon.svg\"
+  name=\"user icon\" alt=\"user icon\">\n                </div>\n            </div>\n
+  \       </div>\n        \n        <div class=\"nav-auth__authed-user\">\n            <a
+  href=\"#\" class=\"nav-auth__authed-user__icon main-nav__item__link js-user-profile\">
+  \           \n                <div class=\"nav-auth__authed-user__icon__img\">\n\t
+  \               <img src=\"/r/PortalConfig/np-one/assets-one/images/icons/user-icon-anonymous-mobile.svg\"
+  name=\"user icon\" alt=\"user icon\">\n                </div>\n                <img
+  class=\"nav-auth__authed-user__icon__avatar js-user-avatar\">\n            </a>\n
+  \       </div>\n    </div>\n</div>\n        </div>\n\n        <nav class=\"sticky-nav\">\n
+  \   <ul class=\"story-nav clearfix\">\n        <li class=\"story-nav__item js-metrics-social-share\">\n
+  \           <a href=\"//www.facebook.com/share.php?u=https%3A%2F%2Fwww.ajc.com%2Flifestyles%2Ffood--cooking%2Frecipes-immersed-flavor%2FLWKFCLk54Q3rcOoL5tkRuK%2F&amp;title=Make%20sous%20vide%20recipes%20immersed%20in%20flavor\"
+  class=\"story-nav__icon story-nav__facebook-icon\" title=\"Share on Facebook\" data-width=\"600\"
+  data-height=\"280\" data-metrics-element=\"facebook\" data-metrics-element-subtitle=\"social-widget-top\"
+  target=\"_blank\">\n                <span class=\"sr-only\">Share on Facebook</span></a>\n
+  \       </li>\n        <li class=\"story-nav__item js-metrics-social-share\">\n
+  \           <a href=\"//twitter.com/intent/tweet?url=https%3A%2F%2Fwww.ajc.com%2Flifestyles%2Ffood--cooking%2Frecipes-immersed-flavor%2FLWKFCLk54Q3rcOoL5tkRuK%2F&amp;text=Make%20sous%20vide%20recipes%20immersed%20in%20flavor\"
+  class=\"story-nav__icon story-nav__twitter-icon\" title=\"Share on Twitter\" data-width=\"600\"
+  data-height=\"280\" data-metrics-element=\"twitter\" data-metrics-element-subtitle=\"social-widget-top\"
+  target=\"_blank\">\n                <span class=\"sr-only\">Share on Twitter</span></a>\n
+  \       </li><li class=\"story-nav__item\">    \n            <a class=\"story-nav__icon
+  story-nav__down-arrow-icon\"></a>\n        </li>\n        <ul class=\"story-nav__mobile-dropdown\">\n
+  \           <li class=\"story-nav__item\">\n                <a class=\"story-nav__icon
+  story-nav__up-arrow-icon\"></a>\n            </li>\n            <li class=\"story-nav__item
+  js-metrics-social-share\">            \n                    <a href=\"//pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.ajc.com%2Flifestyles%2Ffood--cooking%2Frecipes-immersed-flavor%2FLWKFCLk54Q3rcOoL5tkRuK%2F&amp;media=https%3A%2F%2Fwww.ajc.com%2Frf%2Fimage_inline%2FPub%2Fp10%2FAJC%2F2019%2F01%2F16%2FImages%2Fsous-vide.jpg&amp;description=Make%20sous%20vide%20recipes%20immersed%20in%20flavor\"
+  class=\"story-nav__icon story-nav__pinterest-icon\" title=\"Share on Pinterest\"
+  data-width=\"850\" data-height=\"700\" data-metrics-element=\"pinterest\" data-metrics-element-subtitle=\"social-widget-top\"
+  target=\"_blank\">\n                        <span class=\"sr-only\">Share on Pinterest</span>\n
+  \                   </a>\n                </li>\n            <li class=\"story-nav__item
+  js-metrics-social-share\">                \n                <a href=\"//www.reddit.com/submit?url=https%3A%2F%2Fwww.ajc.com%2Flifestyles%2Ffood--cooking%2Frecipes-immersed-flavor%2FLWKFCLk54Q3rcOoL5tkRuK%2F&amp;title=Make%20sous%20vide%20recipes%20immersed%20in%20flavor\"
+  class=\"story-nav__icon story-nav__reddit-icon\" title=\"Share on Reddit\" data-width=\"850\"
+  data-height=\"700\" data-metrics-element=\"reddit\" data-metrics-element-subtitle=\"social-widget-top\"
+  target=\"_blank\">\n                    <span class=\"sr-only\">Share on Reddit</span>\n
+  \               </a>   \n            </li>\n            <li class=\"story-nav__item
+  js-metrics-social-share\">                \n                <a href=\"mailto:?Subject=Make%20sous%20vide%20recipes%20immersed%20in%20flavor&amp;Body=Can%202019%20be%20the%20year%20you%20finally%20step%20away%20from%20dried-out%20slow-cooker%20meals%20and%20tough%2C%20overdone%20chicken%20breasts%3F%20Yes%2C%20if%20you%20add%20a%20sous%20vide%20circulator%20(also%20called%20an%20immersion%20circulator)%20to%20your%20cooking%20arsenal.%20This%20long%2C%20simple%20cylinder%20will%20store%20tidily%20on%20a%20pantry%20shelf%2C%20but%20when%20you%20put%20it%20to%20work%20there%E2%80%99ll%20be%20no%20more%20excuses%20for%20undercooked%20carrots%20or%20overcooked%20broccoli%2C%20or%20for%20tough%20shrimp...https%3A%2F%2Fwww.ajc.com%2Flifestyles%2Ffood--cooking%2Frecipes-immersed-flavor%2FLWKFCLk54Q3rcOoL5tkRuK%2F\"
+  class=\"story-nav__icon story-nav__email-icon\" title=\"Share via Email\" data-width=\"600\"
+  data-height=\"400\" data-metrics-element=\"email\" data-metrics-element-subtitle=\"social-widget-top\">\n
+  \                   <span class=\"sr-only\">Share via Email</span>\n                </a>\n
+  \           </li>\n            <li class=\"story-nav__item\">\n                    <a
+  href=\"\" class=\"story-nav__icon story-nav__comment-icon comments-header story-nav__comment-icon__show\"></a>\n
+  \               </li>\n            </ul>\n        <li class=\"story-nav__item story-nav__user-icon\">\n
+  \           <div class=\"nav-auth js-nav-auth\">\n    <div class=\"nav-auth__anon-user\">\n
+  \           <a href=\"#\" class=\"nav-auth__anon-user__icon js-auth-login\">\n                <div
+  class=\"nav-auth__anon-user__icon__img\">   \n                \t<img src=\"/r/PortalConfig/np-one/assets-one/images/icons/user-icon.svg\"
+  name=\"user icon\" alt=\"user icon\">\n                </div>\n                <div
+  class=\"nav-auth__anon-user__icon__text\">Log In</div>\n            </a>\n        </div>\n\n
+  \       <div class=\"nav-auth__authed-user\">\n            <a class=\"nav-auth__authed-user__icon
+  main-nav__item__link\">            \n                <div class=\"nav-auth__authed-user__icon__img\">\n\t
+  \               <img src=\"/r/PortalConfig/np-one/assets-one/images/icons/user-icon-anonymous-desktop.svg\"
+  name=\"user icon\" alt=\"user icon\">\n                </div>\n                <img
+  class=\"nav-auth__authed-user__icon__avatar js-user-avatar\">\n            </a>\n
+  \         \n            <div class=\"nav-auth__authed-user__flyout-label main-nav__flyout__section-name\">\n
+  \               <a class=\"nav-auth__authed-user__flyout-label__icon main-nav__item__link\">\n
+  \                   <div class=\"nav-auth__authed-user__flyout-label__icon__img\">\n
+  \                   \t<img src=\"/r/PortalConfig/np-one/assets-one/images/icons/user-icon-anonymous-desktop.svg\"
+  name=\"user icon\" alt=\"user icon\">\n                    </div>\n                    <img
+  class=\"nav-auth__authed-user__flyout-label__icon__avatar js-user-avatar\">\n                </a>\n
+  \               <div class=\"nav-auth__authed-user__flyout-label__overlay main-nav__flyout__section-name--overlay\"></div>\n
+  \           </div>\n\n            <div class=\"main-nav__flyout nav-auth__authed-user__flyout
+  js-auth-flyout\">\n                <div class=\"nav-auth__authed-user__flyout__title\">\n
+  \                   <a href=\"#\" class=\"js-user-name js-user-profile\"></a>\n
+  \               </div>\n                <ul item-count=\"4\" class=\"main-nav__flyout-subnav
+  js-auth-flyout-subnav\">\n                    <li class=\"main-nav__flyout-subnav__item
+  js-auth-item hidden\">\n                        <a href=\"#\"></a>\n                    </li>\n
+  \               </ul>\n                <div class=\"nav-auth__authed-user__flyout__logout\">\n
+  \                   <a href=\"#\" class=\"nav-auth__authed-user__flyout__logout__btn
+  js-auth-logout\">Logout</a>\n                </div>\n            </div>\n        </div>\n
+  \   </div>\n</li>\n \n    </ul>\n\n    <ul class=\"main-nav\">       \n        <li
+  class=\"main-nav__item main-nav--sticky-logo\">\n            <a href=\"/\" class=\"main-nav__item__logo\">\n
+  \               <img class=\"ajc\" src=\"/r/PortalConfig/np-one/assets-one/ajc/images/logo-short.svg\"
+  name=\"www.ajc.com\" alt=\"www.ajc.com Logo\">        \n            </a>\n        </li>\n
+  \n        <li data-name=\"Frontpage\" data-id=\"home page\" class=\"main-nav__item
+  main-nav__item--mobile-menu main-nav__item--bottom-bar js-main-nav__primary-item
+  \ \">\n<a target=\"_self\" href=\"/\" class=\"main-nav__item__link\">Frontpage</a>\n<div
+  class=\"main-nav__item--circle\"></div>\n</li><li data-name=\"News\" data-id=\"\"
+  class=\"main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar js-main-nav__primary-item
+  \ \">\n<a class=\"main-nav__item__link\">News</a>\n<div class=\"main-nav__item--circle\"></div>\n<div
+  class=\"main-nav__flyout__section-name\">\n<a class=\"main-nav__item__link\">News</a>\n<div
+  class=\"main-nav__flyout__section-name--overlay\"></div>\n</div>\n<div class=\"main-nav__flyout
+  js-main-nav-flyout\" style=\"width: 729px;\">\n<ul item-count=\"14\" class=\"main-nav__flyout-subnav
+  js-main-nav-flyout-subnav\">\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/news/\">\n\t\t\t\t\t\t\t\t\t\tAll News</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/atlanta-news/\">Local&nbsp;News</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/weather/\">Local Weather</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/traffic/\">Local Traffic</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/investigations/\">AJC Investigations</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/crime/\">Crime</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/schools/\">Education</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/business/\">Business</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/nation/\">Nation
+  &amp; World</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/news/columnists/\">AJC Columnists</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/opinion/\">Opinion</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/obituaries/\">Obituaries</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/data/\">Interactives/Data</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/ajcjobs/\">Jobs</a>\n</li>\n</ul>\n</div>\n</li><li data-name=\"Politics\"
+  data-id=\"politics\" class=\"main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar
+  js-main-nav__primary-item  \">\n<a class=\"main-nav__item__link\">Politics</a>\n<div
+  class=\"main-nav__item--circle\"></div>\n<div class=\"main-nav__flyout__section-name\">\n<a
+  class=\"main-nav__item__link\">Politics</a>\n<div class=\"main-nav__flyout__section-name--overlay\"></div>\n</div>\n<div
+  class=\"main-nav__flyout js-main-nav-flyout\" style=\"width: 729px;\">\n<ul item-count=\"9\"
+  class=\"main-nav__flyout-subnav js-main-nav-flyout-subnav\">\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/georgia-government/\">\n\t\t\t\t\t\t\t\t\t\tAll Politics</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/politics-blog/\">Political
+  Insider</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/news/georgia-state-legislature/\">Legislature</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/issues/\">Issues</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/election/\">Elections</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/georgia-politics-voices/\">Columnists</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/national-politics/\">National</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/state--regional-govt--politics/how-contact-your-lawmakers-and-get-involved-georgia-politics/WY5agdUCcpWRNDHKbm7YKP/\">Take
+  Action</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/news/luckovich-blog/\">Mike Luckovich</a>\n</li>\n</ul>\n</div>\n</li><li
+  data-name=\"County By County\" data-id=\"\" class=\"main-nav__item main-nav__item--mobile-menu
+  main-nav__item--bottom-bar js-main-nav__primary-item  \">\n<a class=\"main-nav__item__link\">County
+  By County</a>\n<div class=\"main-nav__item--circle\"></div>\n<div class=\"main-nav__flyout__section-name\">\n<a
+  class=\"main-nav__item__link\">County By County</a>\n<div class=\"main-nav__flyout__section-name--overlay\"></div>\n</div>\n<div
+  class=\"main-nav__flyout js-main-nav-flyout\" style=\"width: 729px;\">\n<ul item-count=\"8\"
+  class=\"main-nav__flyout-subnav js-main-nav-flyout-subnav\">\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/neighborhoods/\">\n\t\t\t\t\t\t\t\t\t\tAll County By County</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/neighborhoods/clayton/\">Clayton</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/neighborhoods/cobb/\">Cobb</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/neighborhoods/dekalb/\">DeKalb</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/neighborhoods/gwinnett/\">Gwinnett</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/neighborhoods/north-fulton/\">North
+  Fulton</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/neighborhoods/atlanta-intown/\">Intown Atlanta</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/local-govt--politics/gwinnett-upcoming-marta-referendum-comprehensive-voter-guide/CVj5YhwsvzesGoX29o0xvL/\">Gwinnett
+  MARTA referendum</a>\n</li>\n</ul>\n</div>\n</li><li data-name=\"Things To Do\"
+  data-id=\"\" class=\"main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar
+  js-main-nav__primary-item  selected\">\n<a class=\"main-nav__item__link\">Things
+  To Do</a>\n<div class=\"main-nav__item--circle\"></div>\n<div class=\"main-nav__item--selected\"></div>\n<div
+  class=\"main-nav__flyout__section-name\">\n<a class=\"main-nav__item__link\">Things
+  To Do</a>\n<div class=\"main-nav__flyout__section-name--overlay\"></div>\n</div>\n<div
+  class=\"main-nav__flyout js-main-nav-flyout\" style=\"width: 729px;\">\n<ul item-count=\"12\"
+  class=\"main-nav__flyout-subnav js-main-nav-flyout-subnav\">\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/things-to-do/\">\n\t\t\t\t\t\t\t\t\t\tAll Things To Do</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_blank\" href=\"https://events.ajc.com/home\">Events
+  in Atlanta</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/life/atlanta-restaurants-blog/\">Atlanta&nbsp;Restaurants</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/life/music-blog/\">Atlanta
+  Music Scene</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/things-to-do/buford-highway-dining-guide/\">AJC&nbsp;Dining&nbsp;Guides</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/things-to-do/atlanta-restaurants-food/\">Food
+  &amp; Recipes</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/life/radiotvtalk-blog/\">Radio &amp; TV</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/things-to-do/flashback/\">Flashback&nbsp;Photos</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_blank\" href=\"https://games.ajc.com/\">Puzzles
+  &amp; Games</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/the-a-list/\">My Atlanta</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/podcasts/\">Podcasts</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/peachtree/\">AJC Peachtree Road Race</a>\n</li>\n</ul>\n</div>\n</li><li
+  data-name=\"Life\" data-id=\"life\" class=\"main-nav__item main-nav__item--mobile-menu
+  main-nav__item--bottom-bar js-main-nav__primary-item  \">\n<a class=\"main-nav__item__link\">Life</a>\n<div
+  class=\"main-nav__item--circle\"></div>\n<div class=\"main-nav__flyout__section-name\">\n<a
+  class=\"main-nav__item__link\">Life</a>\n<div class=\"main-nav__flyout__section-name--overlay\"></div>\n</div>\n<div
+  class=\"main-nav__flyout js-main-nav-flyout\" style=\"width: 729px;\">\n<ul item-count=\"12\"
+  class=\"main-nav__flyout-subnav js-main-nav-flyout-subnav\">\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/life/\">\n\t\t\t\t\t\t\t\t\t\tAll Life</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/life/buzz-blog/\">Celebrity
+  Buzz</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/life/talk-town-blog/\">Talk of the Town</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/life/home-garden/\">Home&nbsp;&amp;&nbsp;Garden</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/health-news/BI5FoTVo4SGUtuoI5fp8DL/\">Health</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/travel/\">Travel</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/life/arts-culture/\">Atlanta
+  Living &amp; Arts</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_blank\"
+  href=\"https://classifieds.ajc.com/\">Classifieds</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/video/Fsahkc3p7ItDwBqiOF1oGP/\">Videos</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/photos/JwxCP0l6c3vJ6M3qFPysrO/\">Photos</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/lifestyles/women-history-month/948slYZE6b8RECJO2YMDFK/\">Women’s
+  History Month</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"https://www.ajc.com/ajchomefinder/private-quarters/\">Private Quarters</a>\n</li>\n</ul>\n</div>\n</li><li
+  data-name=\"Sports\" data-id=\"sports\" class=\"main-nav__item main-nav__item--mobile-menu
+  main-nav__item--bottom-bar js-main-nav__primary-item  \">\n<a class=\"main-nav__item__link\">Sports</a>\n<div
+  class=\"main-nav__item--circle\"></div>\n<div class=\"main-nav__flyout__section-name\">\n<a
+  class=\"main-nav__item__link\">Sports</a>\n<div class=\"main-nav__flyout__section-name--overlay\"></div>\n</div>\n<div
+  class=\"main-nav__flyout js-main-nav-flyout\" style=\"width: 729px;\">\n<ul item-count=\"10\"
+  class=\"main-nav__flyout-subnav js-main-nav-flyout-subnav\">\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/sports/\">\n\t\t\t\t\t\t\t\t\t\tAll Sports</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/sports/atlanta-braves/\">Braves/MLB</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/sports/georgia-bulldogs/\">UGA/DawgNation</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/sports/atlanta-falcons/\">Falcons/NFL</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/sports/atlanta-united/\">Atlanta
+  United/MLS</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/sports/georgia-tech/\">Georgia Tech/ACC</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/sports/hawks/\">Hawks/NBA</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/sports/high-school/\">High Schools</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"https://ajc.stats.com/\">Scores&nbsp;&amp;&nbsp;Stats</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/sports/in-the-game/\">In
+  The Game with Harrah’s</a>\n</li>\n</ul>\n</div>\n</li><li class=\"main-nav__item
+  main-nav__item--bottom-bar\">\n            <span class=\"main-nav__item--separater-bar\"></span>\n
+  \       </li>\n\n        <li class=\"main-nav__item main-nav__item--bottom-bar main-nav__item__epaper\">\n
+  \           <a class=\"main-nav__item__link\" href=\"https://www.ajc.com/epaper\"
+  target=\"_blank\">ePaper</a>\n        </li>\n        <li class=\"main-nav__item
+  main-nav__item--bottom-bar main-nav__item__search-desktop\">\n            <form
+  class=\"main-nav__item__search\">\n                <input type=\"text\" class=\"main-nav__item__search__input\"
+  id=\"search\" name=\"q\" value=\"\"> \n                <img class=\"main-nav__search-icon\"
+  src=\"/r/PortalConfig/np-one/assets-one/images/icons/search-icon.svg\">\n            </form>\n
+  \       </li>\n        \n        <li class=\"main-nav__item main-nav__weather-icon-desktop\">\n
+  \           <a href=\"/weather/\" class=\"main-nav__weather-icon-link\">\n                <div
+  class=\"weather-monochrome weather-12\"></div>\n            </a>\n        </li>\n\n
+  \       <li class=\"main-nav__item main-nav__weather-temp-desktop\">\n            <a
+  href=\"/weather/\" class=\"main-nav__weather-temp-text\">\n                48°\n
+  \           </a>\n        </li>\n\n        <li class=\"main-nav__item main-nav__user-desktop\">\n
+  \           <div class=\"nav-auth js-nav-auth\">\n    <div class=\"nav-auth__anon-user\">\n
+  \           <a href=\"#\" class=\"nav-auth__anon-user__icon js-auth-login\">\n                <div
+  class=\"nav-auth__anon-user__icon__img\">   \n                \t<img src=\"/r/PortalConfig/np-one/assets-one/images/icons/user-icon.svg\"
+  name=\"user icon\" alt=\"user icon\">\n                </div>\n                <div
+  class=\"nav-auth__anon-user__icon__text\">Log In</div>\n            </a>\n        </div>\n\n
+  \       <div class=\"nav-auth__authed-user\">\n            <a class=\"nav-auth__authed-user__icon
+  main-nav__item__link\">            \n                <div class=\"nav-auth__authed-user__icon__img\">\n\t
+  \               <img src=\"/r/PortalConfig/np-one/assets-one/images/icons/user-icon-anonymous-desktop.svg\"
+  name=\"user icon\" alt=\"user icon\">\n                </div>\n                <img
+  class=\"nav-auth__authed-user__icon__avatar js-user-avatar\">\n            </a>\n
+  \         \n            <div class=\"nav-auth__authed-user__flyout-label main-nav__flyout__section-name\">\n
+  \               <a class=\"nav-auth__authed-user__flyout-label__icon main-nav__item__link\">\n
+  \                   <div class=\"nav-auth__authed-user__flyout-label__icon__img\">\n
+  \                   \t<img src=\"/r/PortalConfig/np-one/assets-one/images/icons/user-icon-anonymous-desktop.svg\"
+  name=\"user icon\" alt=\"user icon\">\n                    </div>\n                    <img
+  class=\"nav-auth__authed-user__flyout-label__icon__avatar js-user-avatar\">\n                </a>\n
+  \               <div class=\"nav-auth__authed-user__flyout-label__overlay main-nav__flyout__section-name--overlay\"></div>\n
+  \           </div>\n\n            <div class=\"main-nav__flyout nav-auth__authed-user__flyout
+  js-auth-flyout\">\n                <div class=\"nav-auth__authed-user__flyout__title\">\n
+  \                   <a href=\"#\" class=\"js-user-name js-user-profile\"></a>\n
+  \               </div>\n                <ul item-count=\"4\" class=\"main-nav__flyout-subnav
+  js-auth-flyout-subnav\">\n                    <li class=\"main-nav__flyout-subnav__item
+  js-auth-item hidden\">\n                        <a href=\"#\"></a>\n                    </li>\n
+  \               </ul>\n                <div class=\"nav-auth__authed-user__flyout__logout\">\n
+  \                   <a href=\"#\" class=\"nav-auth__authed-user__flyout__logout__btn
+  js-auth-logout\">Logout</a>\n                </div>\n            </div>\n        </div>\n
+  \   </div>\n</li>\n        <!-- end header_desktop_account_override block -->         \n
+  \   </ul>\n</nav>\n<div class=\"header__subscribe-bar\">\n            <a href=\"#\"
+  class=\"header__subscribe-bar__link\"><span>Worth knowing. Worth supporting.</span>
+  <span class=\"bold\">Subscribe today for $1.00</span></a>\n        </div>\n    </header>\n</div>\n<div
+  class=\"page-padding\"></div>\n<!-- end header_override block -->\n        \n        <div
+  id=\"page-content-wrapper\">\n\n        <div class=\"container main-container\">\n
+  \                   <div class=\"retargeting-pixel retargeting-pixel-body\" style=\"display:none\">\n\t\n</div>\n<div
+  class=\"cm-channel-root niche-page-root clearfix\">\n                        <!--
+  begin content_override block -->\n                        <header class=\"tease
+  tease--row--desktop story-header story-header--photo\">\n    <div class=\"img-responsive
+  tease__img tease__img--ndnvideo\"> \n\t        </div>\n    <div class=\"tease__img
+  tease__img--photo\">\n\t\t\t<div class=\"img-fluid\">\n<img src=\"/rf/image_inline/Pub/p10/AJC/2019/01/16/Images/sous-vide.jpg\"
+  srcset=\"/rf/image_inline/Pub/p10/AJC/2019/01/16/Images/sous-vide.jpg 365w,/rf/image_md/Pub/p10/AJC/2019/01/16/Images/sous-vide.jpg
+  400w,/rf/image_large/Pub/p10/AJC/2019/01/16/Images/sous-vide.jpg 800w,/rf/image_lowres/Pub/p10/AJC/2019/01/16/Images/sous-vide.jpg
+  1000w\" sizes=\"(max-width: 1023px) 95vw, (min-width: 1024px) 840px, (min-width:
+  1280px) 1070px\" id=\"U62417457168rxO\"></div>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+  \   \n    <div class=\"photo__caption__toggle\">\n        <div class=\"fill-line
+  fill-line--long\"></div>\n        <div class=\"fill-line\"></div>\n        <div
+  class=\"fill-line fill-line--long\"></div>\n        <div class=\"fill-line\"></div>\n
+  \       <div class=\"fill-line fill-line--long\"></div>\n    </div>\n    <div class=\"photo__caption\">\n
+  \       <div class=\"photo__caption__text\">\n            Egg Bites from “Sous Vide
+  Made Simple” by Lisa Q. Fetterman, Meesha Halm and Scott Peabody.\nMONICA LO\n\n
+  \           \n            \n                <div class=\"photo__credit__text hidden--large\">\n
+  \                   Photo: MONICA LO\n                </div>\n            \n        </div>\n
+  \   </div>\n    \n\n\n    <div class=\"photo__credit\">\n        <div class=\"photo__credit__text\">\n
+  \           Photo: MONICA LO\n        </div>\n    </div>\n\n</div>\n    <div class=\"tease__content
+  \">\n\t    <div class=\"tease__text\">\n\t        <h1 class=\"tease__heading\" data-character-count=\"41\">Make
+  sous vide recipes immersed in flavor</h1>\n\t    </div>\n\t</div>\n</header>\n<div
+  class=\"container\">\n    <div class=\"byline tease__details\">\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+  \   \n    \n    \n    \n    \n    \n        \n        \n        \n        \n        \n
+  \       \n            <a href=\"/things-to-do/\" class=\"label\">Things to do</a>\n
+  \       \n    \n<div class=\"tease__timestamp\">\n        <time class=\"timestamp\"
+  data-shorthandformat=\"\" data-updated=\"false\" data-timestamp-original=\"20190116050000\"
+  data-timestamp=\"01/16/2019 05:00:00 GMT\" data-pubdate=\"Jan 16, 2019\">Jan 16,
+  2019</time>\n    </div>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\n<div
+  class=\"names\">\n\t\t                By\n\t\t                <ul>\n\t\t        <li>
+  \                   \n\t\t        C. W. Cameron<span class=\"source\">, For the
+  AJC</span>\n\t\t        </li>\n\t\t        </ul>\n\t\t            </div>\n\t\t        </div><h2
+  class=\"subhead\">Use your sous vide ciculator to make egg bites, dill salmon and
+  crème brûlée</h2>\n    </div>\n\n<article class=\"container\">\n    <div class=\"story-text
+  clearfix\">\n        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n        \n
+  \   \n    \n\n\n\n\n\n    \n    \n    \n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n        \n\t\t\n\t\t
+  \   \n\t\t    \n            \n\t\t    \n\t\t\n    \n    \n\n\n\n\t\n\t\n\t\n\t\n\t\n
+  \   \n    \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+  \   \n    \n        \n            \n            \n\t\t        \n\t\t            \n\t\t
+  \           \n\t\t                \n\t\t                    \n\n\n\n\n\n\n\n\n\n\t\n\n\t\n\n\t\n\n\t\t
+  \               <div class=\"ad-container hidden--medium hidden--large\">\n            <div
+  id=\"cm-ad-MP01-h1\" class=\"MP01 cm-ad default\" hidden=\"\" zkn1y3u=\"\"></div>\n\n
+  \   <script style=\"display:none\">\n            googletag.cmd.push(function ()
+  {\n                \n                var defaultSizes = [];\n                \n
+  \                   defaultSizes.push([320, 50]);\n                \n                var
+  mapping = googletag.sizeMapping();\n                var sizes = [];\n                \n
+  \                   sizes = [];\n                    \n                        sizes.push([320,
+  50]);\n                    \n                        sizes.push([320, 150]);\n                    \n
+  \                   mapping.addSize(\n                        [1, 1], sizes\n                    );\n
+  \               \n                    sizes = [];\n                    \n                    mapping.addSize(\n
+  \                       [768, 1], sizes\n                    );\n                \n
+  \                   sizes = [];\n                    \n                    mapping.addSize(\n
+  \                       [972, 1], sizes\n                    );\n                \n
+  \               var conf = {\n                    name: 'MP01',\n                    id:
+  'cm-ad-MP01',\n                    sizes: defaultSizes,\n                    group:
+  'default',\n                    adunit: cmg.adconf.adunit,\n                    outofpage:
+  false,\n                    companion: false,\n                    mapping: mapping.build(),\n
+  \                   targeting: {\n                        ad_slot: 'MP01'\n                    }\n
+  \               };\n                cmg.adconf.slotconf.push(conf);\n                var
+  slot = harmony.defineSlot(conf);\n\n                \n                    if (slot)
+  {\n                        \n                        var bpMap = {},\n                            activeBPs
+  = [1];\n                        activeBPs.forEach(function (bp) {\n                            bpMap[bp]
+  = true;\n                        });\n\n                        \n                        harmony.on('update/slots',
+  function (bp) {\n                            slot.enabled = bp in bpMap;\n                        },
+  true);\n                    }\n                \n            });\n        </script>\n</div>\n
+  \       <div class=\"ad-container hidden--small\">\n            <div id=\"cm-ad-HP01-h1\"
+  class=\"HP01 cm-ad default\" hidden=\"\" zkn1y3u=\"\"></div>\n\n    <script style=\"display:none\">\n
+  \           googletag.cmd.push(function () {\n                \n                var
+  defaultSizes = [];\n                \n                    defaultSizes.push([728,
+  90]);\n                \n                var mapping = googletag.sizeMapping();\n
+  \               var sizes = [];\n                \n                    sizes = [];\n
+  \                   \n                    mapping.addSize(\n                        [1,
+  1], sizes\n                    );\n                \n                    sizes =
+  [];\n                    \n                        sizes.push([728, 90]);\n                    \n
+  \                       sizes.push([728, 315]);\n                    \n                    mapping.addSize(\n
+  \                       [768, 1], sizes\n                    );\n                \n
+  \                   sizes = [];\n                    \n                        sizes.push([728,
+  90]);\n                    \n                        sizes.push([970, 250]);\n                    \n
+  \                   mapping.addSize(\n                        [972, 1], sizes\n
+  \                   );\n                \n                var conf = {\n                    name:
+  'HP01',\n                    id: 'cm-ad-HP01',\n                    sizes: defaultSizes,\n
+  \                   group: 'default',\n                    adunit: cmg.adconf.adunit,\n
+  \                   outofpage: false,\n                    companion: false,\n                    mapping:
+  mapping.build(),\n                    targeting: {\n                        ad_slot:
+  'HP01'\n                    }\n                };\n                cmg.adconf.slotconf.push(conf);\n
+  \               var slot = harmony.defineSlot(conf);\n\n                \n                    if
+  (slot) {\n                        \n                        var bpMap = {},\n                            activeBPs
+  = [768, 972];\n                        activeBPs.forEach(function (bp) {\n                            bpMap[bp]
+  = true;\n                        });\n\n                        \n                        harmony.on('update/slots',
+  function (bp) {\n                            slot.enabled = bp in bpMap;\n                        },
+  true);\n                    }\n                \n            });\n        </script>\n</div>\n
+  \   <!-- paragraph: 1 / 32 -->\n    <div class=\"full-width \"><p>Can 2019 be the
+  year you finally step away from dried-out slow-cooker meals and tough, overdone
+  chicken breasts? Yes, if you add a sous vide circulator (also called an immersion
+  circulator) to your cooking arsenal. This long, simple cylinder will store tidily
+  on a pantry shelf, but when you put it to work there’ll be no more excuses for undercooked
+  carrots or overcooked broccoli, or for tough shrimp in that pretty shrimp cocktail.</p></div><div
+  class=\"story-rail not-sticky hidden--small hidden--medium\">\n            <div
+  class=\"ad-container\">\n                <div id=\"cm-ad-RP01-h1\" class=\"RP01
+  cm-ad default\" hidden=\"\" zkn1y3u=\"\"></div>\n\n    <script style=\"display:none\">\n
+  \           googletag.cmd.push(function () {\n                \n                var
+  defaultSizes = [];\n                \n                    defaultSizes.push([300,
+  250]);\n                \n                var mapping = googletag.sizeMapping();\n
+  \               var sizes = [];\n                \n                    sizes = [];\n
+  \                   \n                    mapping.addSize(\n                        [1,
+  1], sizes\n                    );\n                \n                    sizes =
+  [];\n                    \n                        sizes.push([300, 250]);\n                    \n
+  \                       sizes.push([300, 600]);\n                    \n                    mapping.addSize(\n
+  \                       [768, 1], sizes\n                    );\n                \n
+  \                   sizes = [];\n                    \n                        sizes.push([300,
+  250]);\n                    \n                        sizes.push([300, 600]);\n
+  \                   \n                    mapping.addSize(\n                        [972,
+  1], sizes\n                    );\n                \n                var conf =
+  {\n                    name: 'RP01',\n                    id: 'cm-ad-RP01',\n                    sizes:
+  defaultSizes,\n                    group: 'default',\n                    adunit:
+  cmg.adconf.adunit,\n                    outofpage: false,\n                    companion:
+  false,\n                    mapping: mapping.build(),\n                    targeting:
+  {\n                        ad_slot: 'RP01'\n                    }\n                };\n
+  \               cmg.adconf.slotconf.push(conf);\n                var slot = harmony.defineSlot(conf);\n\n
+  \               \n                    if (slot) {\n                        \n                        var
+  bpMap = {},\n                            activeBPs = [972];\n                        activeBPs.forEach(function
+  (bp) {\n                            bpMap[bp] = true;\n                        });\n\n
+  \                       \n                        harmony.on('update/slots', function
+  (bp) {\n                            slot.enabled = bp in bpMap;\n                        },
+  true);\n                    }\n                \n            });\n        </script>\n</div>\n
+  \       </div>\n    <!-- paragraph: 2 / 32 -->\n    <p>Sous vide cooking has been
+  around for decades in restaurant kitchens making precision cooking possible on a
+  large scale and rapidly.</p><div class=\"ad-container hidden--medium hidden--large\">\n
+  \           <div id=\"cm-ad-MP02-h1\" class=\"MP02 cm-ad default\" hidden=\"\" zkn1y3u=\"\"></div>\n\n
+  \   <script style=\"display:none\">\n            googletag.cmd.push(function ()
+  {\n                \n                var defaultSizes = [];\n                \n
+  \                   defaultSizes.push([300, 250]);\n                \n                var
+  mapping = googletag.sizeMapping();\n                var sizes = [];\n                \n
+  \                   sizes = [];\n                    \n                    mapping.addSize(\n
+  \                       [768, 1], sizes\n                    );\n                \n
+  \                   sizes = [];\n                    \n                        sizes.push([300,
+  250]);\n                    \n                    mapping.addSize(\n                        [1,
+  1], sizes\n                    );\n                \n                    sizes =
+  [];\n                    \n                    mapping.addSize(\n                        [972,
+  1], sizes\n                    );\n                \n                var conf =
+  {\n                    name: 'MP02',\n                    id: 'cm-ad-MP02',\n                    sizes:
+  defaultSizes,\n                    group: 'default',\n                    adunit:
+  cmg.adconf.adunit,\n                    outofpage: false,\n                    companion:
+  false,\n                    mapping: mapping.build(),\n                    targeting:
+  {\n                        ad_slot: 'MP02'\n                    }\n                };\n
+  \               cmg.adconf.slotconf.push(conf);\n                var slot = harmony.defineSlot(conf);\n\n
+  \               \n                    if (slot) {\n                        \n                        var
+  bpMap = {},\n                            activeBPs = [1];\n                        activeBPs.forEach(function
+  (bp) {\n                            bpMap[bp] = true;\n                        });\n\n
+  \                       \n                        harmony.on('update/slots', function
+  (bp) {\n                            slot.enabled = bp in bpMap;\n                        },
+  true);\n                    }\n                \n            });\n        </script>\n</div>\n
+  \       <div class=\"ad-container hidden--small hidden--large\">\n            <div
+  id=\"cm-ad-RP01-h2\" class=\"RP01 cm-ad default\" hidden=\"\" zkn1y3u=\"\"></div>\n\n
+  \   <script style=\"display:none\">\n            googletag.cmd.push(function ()
+  {\n                \n                var defaultSizes = [];\n                \n
+  \                   defaultSizes.push([300, 250]);\n                \n                var
+  mapping = googletag.sizeMapping();\n                var sizes = [];\n                \n
+  \                   sizes = [];\n                    \n                    mapping.addSize(\n
+  \                       [1, 1], sizes\n                    );\n                \n
+  \                   sizes = [];\n                    \n                        sizes.push([300,
+  250]);\n                    \n                        sizes.push([300, 600]);\n
+  \                   \n                    mapping.addSize(\n                        [768,
+  1], sizes\n                    );\n                \n                    sizes =
+  [];\n                    \n                        sizes.push([300, 250]);\n                    \n
+  \                       sizes.push([300, 600]);\n                    \n                    mapping.addSize(\n
+  \                       [972, 1], sizes\n                    );\n                \n
+  \               var conf = {\n                    name: 'RP01',\n                    id:
+  'cm-ad-RP01',\n                    sizes: defaultSizes,\n                    group:
+  'default',\n                    adunit: cmg.adconf.adunit,\n                    outofpage:
+  false,\n                    companion: false,\n                    mapping: mapping.build(),\n
+  \                   targeting: {\n                        ad_slot: 'RP01'\n                    }\n
+  \               };\n                cmg.adconf.slotconf.push(conf);\n                var
+  slot = harmony.defineSlot(conf);\n\n                \n                    if (slot)
+  {\n                        \n                        var bpMap = {},\n                            activeBPs
+  = [768];\n                        activeBPs.forEach(function (bp) {\n                            bpMap[bp]
+  = true;\n                        });\n\n                        \n                        harmony.on('update/slots',
+  function (bp) {\n                            slot.enabled = bp in bpMap;\n                        },
+  true);\n                    }\n                \n            });\n        </script>\n</div>\n
+  \   <!-- paragraph: 3 / 32 -->\n    <p>Now small, affordable sous vide circulators
+  are available for home cooks. The appliance goes into a container of water, and
+  its heating coil and circulating fan produce a continuously circulating temperature-controlled
+  water bath. Whatever you’re cooking goes into an airtight cooking bag and then into
+  the water.</p><!-- If Nativo is enabled and story is not 'short,' display Nativo-MOAP
+  -->\n        <div class=\"story-nativo_placeholder--moap story-rail_break\"></div>\n
+  \   <!-- paragraph: 4 / 32 -->\n    <div class=\"inline-media-container inline-media-container--align-center\">\n
+  \               <div class=\"img-fluid\">\n                            <img class=\"photo\"
+  src=\"/rf/image_inline/Pub/p10/AJC/2019/01/16/Images/SousVide_for-everybodyCover.JPG\"
+  srcset=\"/rf/image_inline/Pub/p10/AJC/2019/01/16/Images/SousVide_for-everybodyCover.JPG
+  365w, /rf/image_md/Pub/p10/AJC/2019/01/16/Images/SousVide_for-everybodyCover.JPG
+  400w, /rf/image_large/Pub/p10/AJC/2019/01/16/Images/SousVide_for-everybodyCover.JPG
+  800w\" sizes=\"(max-width: 1004px) 95vw, (min-width: 1005px) 710px, 840px\" title=\"\">\n
+  \                    </div>\n                    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+  \   \n    <div class=\"photo__caption__toggle\">\n        <div class=\"fill-line
+  fill-line--long\"></div>\n        <div class=\"fill-line\"></div>\n        <div
+  class=\"fill-line fill-line--long\"></div>\n        <div class=\"fill-line\"></div>\n
+  \       <div class=\"fill-line fill-line--long\"></div>\n    </div>\n    <div class=\"photo__caption\">\n
+  \       <div class=\"photo__caption__text\">\n            \"Sous Vide for Everybody\"
+  from America's Test Kitchen\n            \n        </div>\n    </div>\n    \n\n\n
+  \   <div class=\"photo__credit\">\n        <div class=\"photo__credit__text\">\n
+  \           Photo: HANDOUT\n        </div>\n    </div>\n\n</div>\n            <!--
+  paragraph: 5 / 32 -->\n    <p>Because the water will never get hotter than the temperature
+  you set, assuming you program the correct cooking temperature it’s simply not possible
+  to overcook your food.</p><div class=\"story-interscroller__placeholder full-width\"></div>\n
+  \   <!-- paragraph: 6 / 32 -->\n    <p>And your food can sit at the perfect temperature
+  for quite some time. Your chicken breast will be done in an hour, but it can sit
+  in that water bath for four hours and not overcook.</p><div class=\"inline-script-embed-container
+  story-subscription__placeholder subscription-promo\"></div>\n    <!-- paragraph:
+  7 / 32 -->\n    <p>Chef Nealey Thompson of The Cook’s Warehouse teaches the shop’s
+  quarterly “Sous Vide 101” cooking classes. In working with her students, she’s found
+  that steaks get people excited about sous vide cooking but once they understand
+  the process, the sky’s the limit. “I love using my sous vide to prepare thick, bone-in
+  pork chops, fried chicken, whole beef tenderloin, and even my Thanksgiving turkey,”
+  she says.</p><!-- paragraph: 8 / 32 -->\n    <p>She says many of Atlanta’s best
+  restaurants have been using sous vide for years. “It is only since the invention
+  of the portable immersion circulator that the technology has become accessible to
+  home cooks. As demand has increased, the size of these units has decreased, along
+  with the price!”</p><!-- <div class=\"story-rail__break\"></div> -->\n        <div
+  class=\"ad-container hidden--medium hidden--large\">\n            <div id=\"cm-ad-MP03-h1\"
+  class=\"MP03 cm-ad default\" hidden=\"\" zkn1y3u=\"\"></div>\n\n    <script style=\"display:none\">\n
+  \           googletag.cmd.push(function () {\n                \n                var
+  defaultSizes = [];\n                \n                    defaultSizes.push([300,
+  250]);\n                \n                var mapping = googletag.sizeMapping();\n
+  \               var sizes = [];\n                \n                    sizes = [];\n
+  \                   \n                    mapping.addSize(\n                        [768,
+  1], sizes\n                    );\n                \n                    sizes =
+  [];\n                    \n                        sizes.push([300, 250]);\n                    \n
+  \                   mapping.addSize(\n                        [1, 1], sizes\n                    );\n
+  \               \n                    sizes = [];\n                    \n                    mapping.addSize(\n
+  \                       [972, 1], sizes\n                    );\n                \n
+  \               var conf = {\n                    name: 'MP03',\n                    id:
+  'cm-ad-MP03',\n                    sizes: defaultSizes,\n                    group:
+  'default',\n                    adunit: cmg.adconf.adunit,\n                    outofpage:
+  false,\n                    companion: false,\n                    mapping: mapping.build(),\n
+  \                   targeting: {\n                        ad_slot: 'MP03'\n                    }\n
+  \               };\n                cmg.adconf.slotconf.push(conf);\n                var
+  slot = harmony.defineSlot(conf);\n\n                \n                    if (slot)
+  {\n                        \n                        var bpMap = {},\n                            activeBPs
+  = [1];\n                        activeBPs.forEach(function (bp) {\n                            bpMap[bp]
+  = true;\n                        });\n\n                        \n                        harmony.on('update/slots',
+  function (bp) {\n                            slot.enabled = bp in bpMap;\n                        },
+  true);\n                    }\n                \n            });\n        </script>\n</div>\n
+  \       <div class=\"ad-container hidden--small hidden--large\">\n            <div
+  id=\"cm-ad-RP09-h1\" class=\"RP09 cm-ad default\" hidden=\"\" zkn1y3u=\"\"></div>\n\n
+  \   <script style=\"display:none\">\n            googletag.cmd.push(function ()
+  {\n                \n                var defaultSizes = [];\n                \n
+  \                   defaultSizes.push([300, 250]);\n                \n                var
+  mapping = googletag.sizeMapping();\n                var sizes = [];\n                \n
+  \                   sizes = [];\n                    \n                    mapping.addSize(\n
+  \                       [1, 1], sizes\n                    );\n                \n
+  \                   sizes = [];\n                    \n                        sizes.push([300,
+  250]);\n                    \n                        sizes.push([300, 600]);\n
+  \                   \n                    mapping.addSize(\n                        [972,
+  1], sizes\n                    );\n                \n                    sizes =
+  [];\n                    \n                        sizes.push([300, 250]);\n                    \n
+  \                       sizes.push([300, 600]);\n                    \n                    mapping.addSize(\n
+  \                       [768, 1], sizes\n                    );\n                \n
+  \               var conf = {\n                    name: 'RP09',\n                    id:
+  'cm-ad-RP09',\n                    sizes: defaultSizes,\n                    group:
+  'default',\n                    adunit: cmg.adconf.adunit,\n                    outofpage:
+  false,\n                    companion: false,\n                    mapping: mapping.build(),\n
+  \                   targeting: {\n                        ad_slot: 'RP09'\n                    }\n
+  \               };\n                cmg.adconf.slotconf.push(conf);\n                var
+  slot = harmony.defineSlot(conf);\n\n                \n                    if (slot)
+  {\n                        \n                        var bpMap = {},\n                            activeBPs
+  = [768];\n                        activeBPs.forEach(function (bp) {\n                            bpMap[bp]
+  = true;\n                        });\n\n                        \n                        harmony.on('update/slots',
+  function (bp) {\n                            slot.enabled = bp in bpMap;\n                        },
+  true);\n                    }\n                \n            });\n        </script>\n</div>\n
+  \       <div class=\"story-rail hidden--small hidden--medium desktop-RP09 \" style=\"height:
+  auto;\">\n            <div class=\"ad-container sticky-element\">\n                <div
+  id=\"cm-ad-RP09-h2\" class=\"RP09 cm-ad default\" hidden=\"\" zkn1y3u=\"\"></div>\n\n
+  \   <script style=\"display:none\">\n            googletag.cmd.push(function ()
+  {\n                \n                var defaultSizes = [];\n                \n
+  \                   defaultSizes.push([300, 250]);\n                \n                var
+  mapping = googletag.sizeMapping();\n                var sizes = [];\n                \n
+  \                   sizes = [];\n                    \n                    mapping.addSize(\n
+  \                       [1, 1], sizes\n                    );\n                \n
+  \                   sizes = [];\n                    \n                        sizes.push([300,
+  250]);\n                    \n                        sizes.push([300, 600]);\n
+  \                   \n                    mapping.addSize(\n                        [972,
+  1], sizes\n                    );\n                \n                    sizes =
+  [];\n                    \n                        sizes.push([300, 250]);\n                    \n
+  \                       sizes.push([300, 600]);\n                    \n                    mapping.addSize(\n
+  \                       [768, 1], sizes\n                    );\n                \n
+  \               var conf = {\n                    name: 'RP09',\n                    id:
+  'cm-ad-RP09',\n                    sizes: defaultSizes,\n                    group:
+  'default',\n                    adunit: cmg.adconf.adunit,\n                    outofpage:
+  false,\n                    companion: false,\n                    mapping: mapping.build(),\n
+  \                   targeting: {\n                        ad_slot: 'RP09'\n                    }\n
+  \               };\n                cmg.adconf.slotconf.push(conf);\n                var
+  slot = harmony.defineSlot(conf);\n\n                \n                    if (slot)
+  {\n                        \n                        var bpMap = {},\n                            activeBPs
+  = [972];\n                        activeBPs.forEach(function (bp) {\n                            bpMap[bp]
+  = true;\n                        });\n\n                        \n                        harmony.on('update/slots',
+  function (bp) {\n                            slot.enabled = bp in bpMap;\n                        },
+  true);\n                    }\n                \n            });\n        </script>\n</div>\n
+  \       </div>\n    <!-- paragraph: 9 / 32 -->\n    <p>And although there are a
+  lot of sous vide accessories available these days, she says a large stock pot and
+  freezer-safe sealable food-storage bags are all you need to get started.&nbsp;</p><!--
+  paragraph: 10 / 32 -->\n    <p>\n<strong>Egg Bites</strong>\n</p><!-- paragraph:
+  11 / 32 -->\n    <p>Sous vide for breakfast. No, this isn’t as fast as scrambling
+  eggs, but it’s totally hands-off, and the little jars refrigerate perfectly so you
+  can make one batch and then enjoy breakfast for several days. The recipe is for
+  the simplest version. Customize it by adding 1/2 cup grated cheese, 1/4 cup cooked
+  bacon or sausage or a tablespoon of chopped fresh herbs like basil or chives.</p><!--
+  paragraph: 12 / 32 -->\n    <!-- The scriptblock tag represents a codeblock in Swing.
+  \ Codeblocks are always displayed centered. -->\n            <div class=\"inline-script-embed-container\">\n
+  \               <script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src='https://embed.playbuzz.com/sdk.js';fjs.parentNode.insertBefore(js,fjs);}(document,'script','playbuzz-sdk'));</script>
+  <div class=\"playbuzz\" data-id=\"e7496f70-174e-46fc-889d-f0ade7399610\" data-show-share=\"false\"
+  data-show-info=\"false\" data-rendered=\"true\"><iframe allowfullscreen=\"true\"
+  scrolling=\"no\" data-id=\"e7496f70-174e-46fc-889d-f0ade7399610\" data-show-share=\"false\"
+  data-show-info=\"false\" data-sdk-load-id=\"33237b08-9b4c-4dc8-b0ba-d93669ac4679\"
+  style=\"width: 1px; min-width: 100%; height: 852px; border: 0px;\"></iframe></div></div>\n
+  \           <!-- paragraph: 13 / 32 -->\n    <p>— Adapted from a recipe in “Sous
+  Vide Made Simple” by Lisa Q. Fetterman ($30, Ten Speed Press, an imprint of Penguin
+  Random House).</p><!-- paragraph: 14 / 32 -->\n    <div class=\"inline-media-container
+  inline-media-container--align-center\">\n                <div class=\"img-fluid\">\n
+  \                           <img class=\"photo\" src=\"/rf/image_inline/Pub/p10/AJC/2019/01/16/Images/newsEngin.23511872_DillSalmon.jpg\"
+  srcset=\"/rf/image_inline/Pub/p10/AJC/2019/01/16/Images/newsEngin.23511872_DillSalmon.jpg
+  365w, /rf/image_md/Pub/p10/AJC/2019/01/16/Images/newsEngin.23511872_DillSalmon.jpg
+  400w, /rf/image_large/Pub/p10/AJC/2019/01/16/Images/newsEngin.23511872_DillSalmon.jpg
+  800w\" sizes=\"(max-width: 1004px) 95vw, (min-width: 1005px) 710px, 840px\" title=\"\">\n
+  \                    </div>\n                    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+  \   \n    <div class=\"photo__caption__toggle\">\n        <div class=\"fill-line
+  fill-line--long\"></div>\n        <div class=\"fill-line\"></div>\n        <div
+  class=\"fill-line fill-line--long\"></div>\n        <div class=\"fill-line\"></div>\n
+  \       <div class=\"fill-line fill-line--long\"></div>\n    </div>\n    <div class=\"photo__caption\">\n
+  \       <div class=\"photo__caption__text\">\n            Dill Salmon from “Mastering
+  the Art of Sous Vide Cooking” by Justice Stewart. CHEYENNE COHEN AND MANDY MAXWELL\n
+  \           \n        </div>\n    </div>\n    \n\n\n    <div class=\"photo__credit\">\n
+  \       <div class=\"photo__credit__text\">\n            Photo: For the AJC\n        </div>\n
+  \   </div>\n\n</div>\n            <!-- paragraph: 15 / 32 -->\n    <p>\n<strong>Dill
+  Salmon</strong>\n</p><!-- paragraph: 16 / 32 -->\n    <p>If you’ve never been comfortable
+  cooking fish, sous vide is the perfect tool for you. You can’t overcook it, and
+  you just use the tiniest amount of fat. A quick sear when it’s done and dinner is
+  ready.</p><!-- paragraph: 17 / 32 -->\n    <!-- The scriptblock tag represents a
+  codeblock in Swing.  Codeblocks are always displayed centered. -->\n            <div
+  class=\"inline-script-embed-container\">\n                <script>(function(d,s,id){var
+  js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src='https://embed.playbuzz.com/sdk.js';fjs.parentNode.insertBefore(js,fjs);}(document,'script','playbuzz-sdk'));</script>
+  <div class=\"playbuzz\" data-id=\"dddcb53d-6e4c-4b6e-afb4-77cc38e1d875\" data-show-share=\"false\"
+  data-show-info=\"false\" data-rendered=\"true\"><iframe allowfullscreen=\"true\"
+  scrolling=\"no\" data-id=\"dddcb53d-6e4c-4b6e-afb4-77cc38e1d875\" data-show-share=\"false\"
+  data-show-info=\"false\" data-sdk-load-id=\"33237b08-9b4c-4dc8-b0ba-d93669ac4679\"
+  style=\"width: 1px; min-width: 100%; height: 597px; border: 0px;\"></iframe></div></div>\n
+  \           <!-- paragraph: 18 / 32 -->\n    <p>— Adapted from a recipe in “Mastering
+  the Art of Sous Vide Cooking” by Justice Stewart ($21.99, Page Street Publishing
+  Co.).</p><!-- paragraph: 19 / 32 -->\n    <div class=\"inline-media-container inline-media-container--align-center\">\n
+  \               <div class=\"img-fluid\">\n                            <img class=\"photo\"
+  src=\"/rf/image_inline/Pub/p10/AJC/2019/01/16/Images/newsEngin.23511872_SFS_Perfect_Seared_Steaks.jpg\"
+  srcset=\"/rf/image_inline/Pub/p10/AJC/2019/01/16/Images/newsEngin.23511872_SFS_Perfect_Seared_Steaks.jpg
+  365w, /rf/image_md/Pub/p10/AJC/2019/01/16/Images/newsEngin.23511872_SFS_Perfect_Seared_Steaks.jpg
+  400w, /rf/image_large/Pub/p10/AJC/2019/01/16/Images/newsEngin.23511872_SFS_Perfect_Seared_Steaks.jpg
+  800w\" sizes=\"(max-width: 1004px) 95vw, (min-width: 1005px) 710px, 840px\" title=\"\">\n
+  \                    </div>\n                    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+  \   \n    <div class=\"photo__caption__toggle\">\n        <div class=\"fill-line
+  fill-line--long\"></div>\n        <div class=\"fill-line\"></div>\n        <div
+  class=\"fill-line fill-line--long\"></div>\n        <div class=\"fill-line\"></div>\n
+  \       <div class=\"fill-line fill-line--long\"></div>\n    </div>\n    <div class=\"photo__caption\">\n
+  \       <div class=\"photo__caption__text\">\n            Perfect Seared Steak from
+  “Sous Vide for Everybody” from America’s Test Kitchen. AMERICA’S TEST KITCHEN\n
+  \           \n        </div>\n    </div>\n    \n\n\n    <div class=\"photo__credit\">\n
+  \       <div class=\"photo__credit__text\">\n            Photo: For the AJC\n        </div>\n
+  \   </div>\n\n</div>\n            <!-- paragraph: 20 / 32 -->\n    <p>\n<strong>Perfect
+  Seared Steaks</strong>\n</p><!-- paragraph: 21 / 32 -->\n    <p>Steak is the thing
+  that makes people fall in love with sous vide cooking. We’ve included a pan sauce
+  recipe that goes together after the steaks are seared.</p><!-- paragraph: 22 / 32
+  -->\n    <!-- The scriptblock tag represents a codeblock in Swing.  Codeblocks are
+  always displayed centered. -->\n            <div class=\"inline-script-embed-container\">\n
+  \               <script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src='https://embed.playbuzz.com/sdk.js';fjs.parentNode.insertBefore(js,fjs);}(document,'script','playbuzz-sdk'));</script>
+  <div class=\"playbuzz\" data-id=\"c465fe5f-4768-4360-83e7-b7df79c6a807\" data-show-share=\"false\"
+  data-show-info=\"false\" data-rendered=\"true\"><iframe allowfullscreen=\"true\"
+  scrolling=\"no\" data-id=\"c465fe5f-4768-4360-83e7-b7df79c6a807\" data-show-share=\"false\"
+  data-show-info=\"false\" data-sdk-load-id=\"33237b08-9b4c-4dc8-b0ba-d93669ac4679\"
+  style=\"width: 1px; min-width: 100%; height: 948px; border: 0px;\"></iframe></div></div>\n
+  \           <!-- paragraph: 23 / 32 -->\n    <p>— Adapted from a recipe in ““Sous
+  Vide for Everybody” by America’s Test Kitchen ($26.99, America’s Test Kitchen).</p><!--
+  paragraph: 24 / 32 -->\n    <!-- The scriptblock tag represents a codeblock in Swing.
+  \ Codeblocks are always displayed centered. -->\n            <div class=\"inline-script-embed-container\">\n
+  \               <p>\n<strong></strong><script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src='https://embed.playbuzz.com/sdk.js';fjs.parentNode.insertBefore(js,fjs);}(document,'script','playbuzz-sdk'));</script>
+  </p><div class=\"playbuzz\" data-id=\"d7b9ebf3-dda6-42eb-8cc5-3531930c82dd\" data-show-share=\"false\"
+  data-show-info=\"false\" data-rendered=\"true\"><iframe allowfullscreen=\"true\"
+  scrolling=\"no\" data-id=\"d7b9ebf3-dda6-42eb-8cc5-3531930c82dd\" data-show-share=\"false\"
+  data-show-info=\"false\" data-sdk-load-id=\"33237b08-9b4c-4dc8-b0ba-d93669ac4679\"
+  style=\"width: 1px; min-width: 100%; height: 591px; border: 0px;\"></iframe></div>\n<p></p></div>\n
+  \           <!-- paragraph: 25 / 32 -->\n    <p>— Adapted from a recipe in ““Sous
+  Vide for Everybody” by America’s Test Kitchen ($26.99, America’s Test Kitchen).</p><!--
+  paragraph: 26 / 32 -->\n    <!-- The scriptblock tag represents a codeblock in Swing.
+  \ Codeblocks are always displayed centered. -->\n            <div class=\"inline-script-embed-container\">\n
+  \               <script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src='https://embed.playbuzz.com/sdk.js';fjs.parentNode.insertBefore(js,fjs);}(document,'script','playbuzz-sdk'));</script>
+  <div class=\"playbuzz\" data-id=\"2c9d2070-09df-487a-a2ae-cc4ce96cc0c1\" data-show-share=\"false\"
+  data-show-info=\"false\" data-rendered=\"true\"><iframe allowfullscreen=\"true\"
+  scrolling=\"no\" data-id=\"2c9d2070-09df-487a-a2ae-cc4ce96cc0c1\" data-show-share=\"false\"
+  data-show-info=\"false\" data-sdk-load-id=\"33237b08-9b4c-4dc8-b0ba-d93669ac4679\"
+  style=\"width: 1px; min-width: 100%; height: 804px; border: 0px;\"></iframe></div></div>\n
+  \           <!-- paragraph: 27 / 32 -->\n    <div class=\"inline-media-container
+  inline-media-container--align-center\">\n                <div class=\"img-fluid\">\n
+  \                           <img class=\"photo\" src=\"/rf/image_inline/Pub/p10/AJC/2019/01/16/Images/newsEngin.23511872_SFS_CremeBrulee.jpg\"
+  srcset=\"/rf/image_inline/Pub/p10/AJC/2019/01/16/Images/newsEngin.23511872_SFS_CremeBrulee.jpg
+  365w, /rf/image_md/Pub/p10/AJC/2019/01/16/Images/newsEngin.23511872_SFS_CremeBrulee.jpg
+  400w, /rf/image_large/Pub/p10/AJC/2019/01/16/Images/newsEngin.23511872_SFS_CremeBrulee.jpg
+  800w\" sizes=\"(max-width: 1004px) 95vw, (min-width: 1005px) 710px, 840px\" title=\"\">\n
+  \                    </div>\n                    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+  \   \n    <div class=\"photo__caption__toggle\">\n        <div class=\"fill-line
+  fill-line--long\"></div>\n        <div class=\"fill-line\"></div>\n        <div
+  class=\"fill-line fill-line--long\"></div>\n        <div class=\"fill-line\"></div>\n
+  \       <div class=\"fill-line fill-line--long\"></div>\n    </div>\n    <div class=\"photo__caption\">\n
+  \       <div class=\"photo__caption__text\">\n            Creme Brulee from “Sous
+  Vide for Everybody” from America’s Test Kitchen. AMERICA’S TEST KITCHEN\n            \n
+  \       </div>\n    </div>\n    \n\n\n    <div class=\"photo__credit\">\n        <div
+  class=\"photo__credit__text\">\n            Photo: For the AJC\n        </div>\n
+  \   </div>\n\n</div>\n            <!-- paragraph: 28 / 32 -->\n    <p>\n<strong>Crème
+  Brûlée</strong>\n</p><!-- paragraph: 29 / 32 -->\n    <p>Sous vide for dessert!
+  Yes. Custards are exactly the right thing to make with a sous vide circulator. No
+  hot spots. No roasting pan of boiling water and risking a burn when you lower a
+  ramekin of custard into that boiling hot water. The custard cooks evenly and the
+  result is silky smooth. No torch? You can use your broiler.</p><!-- paragraph: 30
+  / 32 -->\n    <!-- The scriptblock tag represents a codeblock in Swing.  Codeblocks
+  are always displayed centered. -->\n            <div class=\"inline-script-embed-container\">\n
+  \               <script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src='https://embed.playbuzz.com/sdk.js';fjs.parentNode.insertBefore(js,fjs);}(document,'script','playbuzz-sdk'));</script>
+  <div class=\"playbuzz\" data-id=\"f9cf1b5e-d966-4618-be15-b0af324e6012\" data-show-share=\"false\"
+  data-show-info=\"false\" data-rendered=\"true\"><iframe allowfullscreen=\"true\"
+  scrolling=\"no\" data-id=\"f9cf1b5e-d966-4618-be15-b0af324e6012\" data-show-share=\"false\"
+  data-show-info=\"false\" data-sdk-load-id=\"33237b08-9b4c-4dc8-b0ba-d93669ac4679\"
+  style=\"width: 1px; min-width: 100%; height: 1083px; border: 0px;\"></iframe></div></div>\n
+  \           <!-- paragraph: 31 / 32 -->\n    <p>— Adapted from a recipe in ““Sous
+  Vide for Everybody” by America’s Test Kitchen ($26.99, America’s Test Kitchen).</p><!--
+  paragraph: 32 / 32 -->\n    <p>\n<storyinfobox>\n</storyinfobox></p><p>\n<b>&lt;&lt;Sous</b><strong>
+  vide appliances, class</strong>\n</p>\n\n<p>The Cook’s Warehouse carries the Vesta
+  Imersa Immersion Circulator ($169) and the All-Clad Sous Vide Immersion Circulator
+  ($199). “The Vesta offers Wi-Fi enabled technology and an intuitive display. The
+  All-Clad offers sleek design and uncompromising performance expected from the name
+  brand.”</p>\n\n<p>The Cook’s Warehouse offers a quarterly “Sous Vide 101” class.
+  The next one will be in March. Check The Cook’s Warehouse&nbsp;<a href=\"https://www.cookswarehouse.com/cooking-classes\"
+  shape=\"rect\" target=\"_blank\">class schedule</a> for registration information.</p>\n\n<p>\n<b>&lt;&lt;Sous</b><strong>
+  vide cookbooks</strong>\n</p>\n\n<p>New to sous vide? Here are three recent cookbooks
+  you might find useful:</p>\n\n<p>“Mastering the Art of Sous Vide Cooking” by Justice
+  Stewart ($21.99, Page Street Publishing Co.) organizes its recipes into proteins,
+  vegetables, small plates, brunch and desserts. Stewart even explains how the sous
+  vide can be your tool for foolproof versions of classic sauces like Béarnaise and
+  Hollandaise.</p>\n\n<p>“Sous Vide Made Simple” by Lisa Q. Fetterman ($30, Ten Speed
+  Press, an imprint of Penguin Random House) has 65 recipes, most of which are organized
+  around basic master recipes like Slow-Cooked Pork or Flaky White Fish. The idea
+  is that you will sous vide your protein or a vegetable like cauliflower or mushrooms,
+  then use the spin-off recipes to turn your basic ingredient into dinner.</p>\n\n<p>“Sous
+  Vide for Everybody” by America’s Test Kitchen ($26.99, America’s Test Kitchen) takes
+  an encyclopedia approach to sous vide cooking with the usual chapters on proteins
+  and vegetables but including beans, grains and, our favorite, cocktails, in its
+  100 or so recipes.</p>\n\n<p></p>\n\n\n<p></p><p class=\"eos-msg__nolog-or-nosub\">\n\tSupport
+  real journalism. Support local journalism. Subscribe to The Atlanta Journal-Constitution
+  today.\n\t<a href=\"https://subscribe.ajc.com/lpa4\">See offers.</a>\n</p>\n<p class=\"eos-msg__log-and-sub\">\n\tYour
+  subscription to the Atlanta Journal-Constitution funds in-depth reporting and investigations
+  that keep you informed. Thank you for supporting real journalism.\n</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<div
+  id=\"taboola-below-article-thumbnails\"></div>\n    <script type=\"text/javascript\">\n
+  \     window._taboola = window._taboola || [];\n      _taboola.push({\n        mode:
+  'thumbnails-feed-4x1',\n        container: 'taboola-below-article-thumbnails',\n
+  \       placement: 'AJC Custom Feed',\n        target_type: 'mix'\n      });\n    </script>\n<div
+  class=\"story-nativo__placeholder--boap full-width story-rail__break\"></div>\n\n\t\t
+  \           \n\t\t        \n            \n        \n    \n    \n    \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+  \n\n</div>\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\n\t    \n\t\n\n\n\n<div
+  id=\"fb-root\" class=\" fb_reset\"><div style=\"position: absolute; top: -10000px;
+  width: 0px; height: 0px;\"><div><iframe name=\"fb_xdm_frame_https\" frameborder=\"0\"
+  allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\" allow=\"encrypted-media\"
+  id=\"fb_xdm_frame_https\" aria-hidden=\"true\" title=\"Facebook Cross Domain Communication
+  Frame\" tabindex=\"-1\" src=\"https://staticxx.facebook.com/connect/xd_arbiter/r/d_vbiawPdxB.js?version=44#channel=f64b0dffc6f204&amp;origin=https%3A%2F%2Fwww.ajc.com\"
+  style=\"border: none;\"></iframe></div></div></div>\n\t<script>\n\t\t(function(d,
+  s, id) {\n\t\t  var js, fjs = d.getElementsByTagName(s)[0];\n\t\t  if (d.getElementById(id))
+  return;\n\t\t  js = d.createElement(s); js.id = id;\n\t\t  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';\n\t\t
+  \ fjs.parentNode.insertBefore(js, fjs);\n\t\t}(document, 'script', 'facebook-jssdk'));\n\t</script>\n\t<script>\n\t\t
+  \       function cmg_loadFbComments(container) {\n\t\t        \tlet commentsDiv
+  = document.createElement('div');\n\t\t        \tcommentsDiv.setAttribute('class',
+  'fb-comments');\n\t\t        \tcommentsDiv.setAttribute('data-href', 'https://www.ajc.com/lifestyles/food--cooking/recipes-immersed-flavor/LWKFCLk54Q3rcOoL5tkRuK/');\n\t\t
+  \       \tcommentsDiv.setAttribute('data-mobile', 'auto-detect');\n                    commentsDiv.setAttribute('data-colorscheme',
+  '');\n\t                commentsDiv.setAttribute('data-numposts', '');\n\t                commentsDiv.setAttribute('data-order-by',
+  '');\n\t                commentsDiv.setAttribute('data-width', '');\n\t\t        \tif
+  (typeof container === 'undefined') {\n\t\t        \t\t// no container element was
+  passed in, so default to the body\n\t\t        \t\tcontainer = document.querySelector('body');\n\t\t
+  \       \t}\n\t\t        \tcontainer.appendChild(commentsDiv);\n\t\t        \tif
+  (typeof FB !== 'undefined') {\n\t\t        \t\t// initialize the comments plugin\n\t\t
+  \       \t\t// we pass in the container rather than the newly-created div because
+  the fb sdk can only act on a pre-existing dom element\n\t\t        \t\t// see https://developers.facebook.com/docs/reference/javascript/FB.XFBML.parse
+  for more details\n\t\t        \t    FB.XFBML.parse(container);\n\t\t        \t}\n\t\t
+  \       }\n\t        </script>\n\t    <div class=\"comment-desktop-container\">\n
+  \      <div class=\"inner-close-container\">\n           <div class=\"comments-close\">X</div>\n
+  \      </div> \n       <div class=\"inner-comment-container\">\n           <div
+  class=\"comments-widget\"></div>  \n       </div>\n   </div>\n   </article>\n\n<!--
+  end content_override block -->\n                    </div>\n                </div>\n
+  \           <div class=\"retargeting-pixel retargeting-pixel-footer\" style=\"display:none\">\n\t\n</div>\n<!--
+  begin footer_override block -->\n        <footer class=\"wrapper one-site\">\n\t<div
+  class=\"container\">\n\t\t<div class=\"footer-heading footer--row\">\n\t<div class=\"footer-heading__logo\">\n\t\t<img
+  class=\"footer-heading__logo-image ajc\" src=\"/r/PortalConfig/np-one/assets-one/ajc/images/logo-footer.svg\"
+  alt=\"Footer Logo\">\n\t</div>\n\t<div class=\"footer-heading__email\">\n\t\t<a
+  class=\"footer-heading__email-heading\" href=\"https://hub.ajc.com/newsletters\">\n\t\t\tSign
+  up for our newsletters\n\t\t\t<img class=\"footer-heading__email-button\" src=\"/r/PortalConfig/np-one/assets-one/myajc/images/one-round-button.svg\"
+  alt=\"Footer Round Button\">\n\t\t</a>\n\t</div>\n</div><div class=\"footer-menu
+  footer--row\">\n\t<div aria-expanded=\"false\" aria-haspopup=\"true\" class=\"footer-menu__section\">\n<a
+  class=\"footer-menu__dropdown-toggler\" href=\"#\"><span class=\"footer-menu__section-heading\">About</span><img
+  alt=\"www.myajc.com Footer Menu Arrow\" name=\"www.myajc.com\" src=\"/r/PortalConfig/np-one/assets-one/myajc/images/one-footer-menu-arrow.svg\"
+  class=\"footer-menu__section__arrow\"></a>\n<ul class=\"footer-menu__section-options\">\n<li
+  class=\"footer-menu__option-items\">\n<a target=\"_self\" title=\"Our&nbsp;History\"
+  href=\"//www.ajc.com/online/site-information/ajc-history/sfel93Zm9j9cPxhWUNUg6O/\">Our&nbsp;History</a>\n</li>\n<li
+  class=\"footer-menu__option-items\">\n<a target=\"\" title=\"\" href=\"\"></a>\n</li>\n<li
+  class=\"footer-menu__option-items\">\n<a target=\"_self\" title=\"FAQ\" href=\"/frequently-asked-questions/\">FAQ</a>\n</li>\n<li
+  class=\"footer-menu__option-items\">\n<a target=\"_blank\" title=\"Careers\" href=\"//jobs.coxmediagroup.com/location/atlanta-jobs/1646/6252001-4197000-4196508-4180439/4\">Careers</a>\n</li>\n</ul>\n</div>\n<div
+  aria-expanded=\"false\" aria-haspopup=\"true\" class=\"footer-menu__section\">\n<a
+  class=\"footer-menu__dropdown-toggler\" href=\"#\"><span class=\"footer-menu__section-heading\">Contact</span><img
+  alt=\"www.myajc.com Footer Menu Arrow\" name=\"www.myajc.com\" src=\"/r/PortalConfig/np-one/assets-one/myajc/images/one-footer-menu-arrow.svg\"
+  class=\"footer-menu__section__arrow\"></a>\n<ul class=\"footer-menu__section-options\">\n<li
+  class=\"footer-menu__option-items\">\n<a target=\"_self\" title=\"Contact&nbsp;Us\"
+  href=\"/online/contact/RTua5WXfBxLIYMgUe6AerN/\">Contact&nbsp;Us</a>\n</li>\n<li
+  class=\"footer-menu__option-items\">\n<a target=\"_self\" title=\"Send&nbsp;a News
+  Tip\" href=\"//www.ajc.com/marketing/atlanta-news-georgia-news-send-your-news-and-article-suggestions/wRL8MoFE7aoXKvGXT8506H/\">Send&nbsp;a
+  News Tip</a>\n</li>\n<li class=\"footer-menu__option-items\">\n<a target=\"_blank\"
+  title=\"Advertise\" href=\"http://www.ajcmediakit.com/\">Advertise</a>\n</li>\n<li
+  class=\"footer-menu__option-items\">\n<a target=\"_self\" title=\"AJC&nbsp;Newsroom\"
+  href=\"//www.ajc.com/staff/\">AJC&nbsp;Newsroom</a>\n</li>\n</ul>\n</div>\n<div
+  aria-expanded=\"false\" aria-haspopup=\"true\" class=\"footer-menu__section\">\n<a
+  class=\"footer-menu__dropdown-toggler\" href=\"#\"><span class=\"footer-menu__section-heading\">Subscriptions</span><img
+  alt=\"www.myajc.com Footer Menu Arrow\" name=\"www.myajc.com\" src=\"/r/PortalConfig/np-one/assets-one/myajc/images/one-footer-menu-arrow.svg\"
+  class=\"footer-menu__section__arrow\"></a>\n<ul class=\"footer-menu__section-options\">\n<li
+  class=\"footer-menu__option-items\">\n<a target=\"_self\" title=\"Print&nbsp;Subscription\"
+  href=\"//subscribe.ajc.com/printftr\">Print&nbsp;Subscription</a>\n</li>\n<li class=\"footer-menu__option-items\">\n<a
+  target=\"_self\" title=\"Digital Subscription\" href=\"//subscribe.ajc.com/digitalftr\">Digital
+  Subscription</a>\n</li>\n<li class=\"footer-menu__option-items\">\n<a target=\"_self\"
+  title=\"Manage Subscription\" href=\"//hub.myajc.com/your-account\">Manage Subscription</a>\n</li>\n<li
+  class=\"footer-menu__option-items\">\n<a target=\"_self\" title=\"Your Profile\"
+  href=\"//hub.myajc.com/\">Your Profile</a>\n</li>\n<li class=\"footer-menu__option-items\">\n<a
+  target=\"_self\" title=\"Why Subscribe?\" href=\"//www.ajc.com/news/the-making-real-journalism/XBk86C122Fzf78vqcw4mEK/\">Why
+  Subscribe?</a>\n</li>\n<li class=\"footer-menu__option-items\">\n<a target=\"_blank\"
+  title=\"NIE/Newspapers&nbsp;in&nbsp;Education\" href=\"//www.nieonline.com/ajc/\">NIE/Newspapers&nbsp;in&nbsp;Education</a>\n</li>\n</ul>\n</div>\n<div
+  aria-expanded=\"false\" aria-haspopup=\"true\" class=\"footer-menu__section\">\n<a
+  class=\"footer-menu__dropdown-toggler\" href=\"#\"><span class=\"footer-menu__section-heading\">Products</span><img
+  alt=\"www.myajc.com Footer Menu Arrow\" name=\"www.myajc.com\" src=\"/r/PortalConfig/np-one/assets-one/myajc/images/one-footer-menu-arrow.svg\"
+  class=\"footer-menu__section__arrow\"></a>\n<ul class=\"footer-menu__section-options\">\n<li
+  class=\"footer-menu__option-items\">\n<a target=\"_blank\" title=\"ePaper\" href=\"//www.ajc.com/epaper\">ePaper</a>\n</li>\n<li
+  class=\"footer-menu__option-items\">\n<a target=\"_self\" title=\"Newsletters\"
+  href=\"//hub.myajc.com/newsletters\">Newsletters</a>\n</li>\n<li class=\"footer-menu__option-items\">\n<a
+  target=\"_self\" title=\"Podcasts\" href=\"//www.ajc.com/podcasts/?icmp=ajc_internallink_podcast\">Podcasts</a>\n</li>\n<li
+  class=\"footer-menu__option-items\">\n<a target=\"_blank\" title=\"Download&nbsp;iOS&nbsp;App\"
+  href=\"//itunes.apple.com/us/app/ajc-com/id414120752?mt=8\">Download&nbsp;iOS&nbsp;App</a>\n</li>\n<li
+  class=\"footer-menu__option-items\">\n<a target=\"_blank\" title=\"Download Android
+  App\" href=\"//play.google.com/store/apps/details?id=com.cmgdigital.AJCBreakingNews&amp;hl=en_US\">Download
+  Android App</a>\n</li>\n<li class=\"footer-menu__option-items\">\n<a target=\"_self\"
+  title=\"SMS &amp; Alerts\" href=\"//hub.myajc.com/text-alerts\">SMS &amp; Alerts</a>\n</li>\n</ul>\n</div><div
+  class=\"footer-menu__section\">\n\t\t<a class=\"footer-menu__dropdown-toggler\">\n\t\t\t<span
+  class=\"footer-menu__section-heading\">Follow</span>\n\t\t</a>\n\t\t<div>\n\t\t\t<a
+  target=\"_blank\" href=\"//www.facebook.com/ajc\">\n\t\t\t\t<img class=\"footer-menu__section__facebook\"
+  src=\"/r/PortalConfig/np-one/assets-one/myajc/images/one-facebook-icon.svg\" name=\"\"
+  alt=\"Footer Facebook Icon\">\n\t\t\t</a>\n\t\t\t<a target=\"_blank\" href=\"//www.twitter.com/ajc\">\n\t\t\t\t<img
+  class=\"footer-menu__section__twitter\" src=\"/r/PortalConfig/np-one/assets-one/myajc/images/one-twitter-icon.svg\"
+  name=\"\" alt=\"Footer Twitter Icon\">\n\t\t\t</a>\n\t\t</div>\n\t</div>\n</div>\n<div
+  class=\"footer-sub footer--row footer-sub__empty\">\n\t</div>\n<div class=\"footer-terms\">\n\t\t<p>©
+  <span class=\"current-year\">2019</span>\n\t\t\t<a href=\"//www.coxmediagroup.com\"
+  target=\"_blank\">Cox Media Group</a>.\n\t\t\tAll Rights Reserved. By using this
+  website, you accept the terms of our\n\t\t\t<a href=\"/visitor_agreement/\">Visitor
+  Agreement</a> and\n\t\t\t<a href=\"/privacy_policy/\">Privacy Policy</a>, and understand
+  your options regarding\n\t\t\t<a href=\"/privacy_policy/#ad-choices\">Ad Choices</a>\n\t\t\t.
+  Learn about\n\t\t\t<a href=\"//jobs.coxmediagroup.com/\" target=\"_blank\">careers
+  at Cox Media Group</a>.\n\t\t</p>\n</div>\n</div>\n</footer>\n\n<script>\nvar url
+  = document.location.href.toString();\nif (url.indexOf(\"mode=new\") != -1) {\n\tif
+  (url.indexOf(\"?mode=new&\") != -1) {\n\t    var newUrl = url.replace(\"?mode=new&\",\"?\");\n\t}
+  else if (url.indexOf(\"?mode=new\") != -1) {\n\t    var newUrl = url.replace(\"?mode=new\",\"\");\n\t}
+  else if (url.indexOf(\"&mode=new\") != -1) {\n\t    var newUrl = url.replace(\"&mode=new\",\"\");\n\t}\n\tif
+  (history.replaceState) {\n\t\twindow.history.replaceState({\"path\":newUrl}, document.title,
+  newUrl);\n\t} else {\n\t\tlocation.replace(newUrl);\n\t}\n}\n</script>\n\n<script
+  id=\"extended-scripts-block\">\n<!-- begin extended_scripts_override block -->\n<!--
+  end extended_scripts_override block -->\n</script>\n<!-- end footer_override block
+  -->\n        \n        </div> <script type=\"text/javascript\" src=\"/r/PortalConfig/np-one/assets-one/js/story.min.js\"></script><script
+  src=\"https://static.chartbeat.com/js/chartbeat_video.js\"></script><script src=\"https://w3.cdn.anvato.net/player/prod/v3/scripts/anvload.js\"></script>\n<script
+  type=\"text/javascript\" src=\"/r/PortalConfig/np-one/assets-one/js/footer.min.js\"></script>\n<script
+  async=\"\" defer=\"\">\n          (function(d, s, id) {\n              var js, fjs
+  = d.getElementsByTagName(s)[0];\n              if (d.getElementById(id)) return;\n
+  \             js = d.createElement(s); js.id = id;\n              js.src = '//connect.facebook.net/en_US/all.js#xfbml=1';\n
+  \             fjs.parentNode.insertBefore(js, fjs);\n            }(document, 'script',
+  'facebook-jssdk'));\n        </script>\n        \n        <script src=\"//tru.am/scripts/custom/coxmedia.js\"></script>\n\n
+  \       <script style=\"display:none\">\n            googletag.cmd.push(function
+  () {\n                \n                if (window.newrelic) {\n                    var
+  pageload = performance.now();\n                    newrelic.addPageAction('cmg_ads_pageview',
+  {\n                        cmg_ads_page_type: cmg.adconf.targeting.obj_type,\n                        cmg_ads_environment:
+  cmg.adconf.targeting.environ,\n                        cmg_ads_media_type: cmg.adconf.targeting.mediatype,\n
+  \                       cmg_ads_adunit: cmg.adconf.adunit,\n                        cmg_ads_adunit_level_one:
+  'Atlanta_NP',\n                        cmg_ads_adunit_level_two: 'ajc_web_default'\n
+  \                   });\n                    harmony.one('slotRenderEnded', function
+  () {\n                        newrelic.addPageAction('cmg_ads_rendered', {\n                            cmg_ads_render_time:
+  performance.now() - pageload,\n                            cmg_ads_page_type: cmg.adconf.targeting.obj_type,\n
+  \                           cmg_ads_environment: cmg.adconf.targeting.environ,\n
+  \                           cmg_ads_media_type: cmg.adconf.targeting.mediatype,\n
+  \                           cmg_ads_adunit: cmg.adconf.adunit,\n                            cmg_ads_adunit_level_one:
+  'Atlanta_NP',\n                            cmg_ads_adunit_level_two: 'ajc_web_default'\n
+  \                       });\n                    }, true);\n                    harmony.on('slotRenderEnded',
+  function (event) {\n                        event.slot._loadstart = performance.now();\n
+  \                   }, true);\n                    harmony.on('slotOnload', function
+  (event) {\n                        newrelic.addPageAction('cmg_ads_load', {\n                            cmg_ads_slot:
+  event.slot._name,\n                            cmg_ads_render_time: performance.now()
+  - event.slot._loadstart,\n                            cmg_ads_page_type: cmg.adconf.targeting.obj_type,\n
+  \                           cmg_ads_environment: cmg.adconf.targeting.environ,\n
+  \                           cmg_ads_media_type: cmg.adconf.targeting.mediatype,\n
+  \                           cmg_ads_adunit: cmg.adconf.adunit,\n                            cmg_ads_adunit_level_one:
+  'Atlanta_NP',\n                            cmg_ads_adunit_level_two: 'ajc_web_default'\n
+  \                       });\n                    });\n                }\n\n                \n
+  \               harmony.load.targeting(cmg.adconf.targeting);\n                harmony.load.breakpoints(cmg.adconf.breakpoints);\n\n
+  \               \n                if (cmg.adconf.breakpoints.length) {\n                    \n
+  \                   var currentBP = harmony.breakpoint();\n                    cmg.adconf.targeting.breakpoint
+  = currentBP + 'px';\n                    googletag.pubads().setTargeting('breakpoint',
+  currentBP + 'px');\n                    harmony.trigger('update/slots', currentBP);\n
+  \                   \n                    harmony.on('breakpoint/update', function
+  (bp) {\n                        googletag.pubads().clear();\n                        googletag.pubads().setTargeting('breakpoint',
+  bp + 'px');\n                        harmony.trigger('update/slots', bp);\n                        harmony.show.group('default');\n
+  \                       console.info('Ad System Update: Targeting key \"breakpoint\"
+  changed to \"' + bp + 'px\"');\n                    }, true);\n                }\n\n
+  \               \n                if (!window.janrainSafariRefreshDetected) {\n
+  \                   harmony.show.group('default');\n                    harmony.trigger('ready');\n
+  \               }\n\n                \n                if (window.moatPrebidApi
+  && moatPrebidApi.slotDataAvailable && moatPrebidApi.slotDataAvailable()) {\n                    moatPrebidApi.setMoatTargetingForAllSlots();\n
+  \               }\n            });\n        </script>\n<script style=\"display:none\">\n
+  \   harmony.one('ready', function () {\n        function append(msg) {\n            msg
+  = msg || '';\n            log += msg + '\\n';\n        }\n        function title(name)
+  {\n            log += '\\n';\n            log += name;\n            log += '\\n-------------\\n'\n
+  \       }\n        var log = '/* -----===== Begin Ad Logs =====----- */\\n';\n\n
+  \       title('Ad Unit:');\n        append(\n            cmg.adconf.adunit || 'ERROR:
+  Ad unit could not be calculated!'\n        );\n        if (cmg.adconf.adunitOverride)
+  {\n            append('WARNING: Ad unit override is active.');\n        }\n        \n\n
+  \       title('Breakpoints:');\n        append(\n            cmg.adconf.breakpoints.length
+  ? cmg.adconf.breakpoints : 'None defined'\n        );\n\n        title('System Targeting:');\n
+  \       append(\n            JSON.stringify(cmg.adconf.targeting, null, 3) || 'WARNING:
+  None defined.'\n        );\n\n        title('Slot Configurations:');\n        if
+  (!cmg.adconf.slotconf.length) {\n            append('WARNING: This page contains
+  no ad slots.');\n        }\n        var slotList = [];\n        cmg.adconf.slotconf.forEach(function
+  (slot) {\n         if (slotList.indexOf(slot.name) == -1) {\n             slotList.push(slot.name);\n
+  \           append(slot.name);\n\n            append('. default sizes:');\n            slot.sizes
+  = slot.sizes || [];\n            if (!slot.sizes.length) {\n                append('\\tNone
+  defined');\n            }\n            slot.sizes.forEach(function (size) {\n                append('\\t'
+  + size);\n            });\n\n            append('. group: ' + slot.group);\n            append('.
+  companion? ' + (slot.companion ? 'yes' : 'no'));\n            append('. out-of-page?
+  ' + (slot.interstitial ? 'yes' : 'no'));\n            append('. targeting: ' + JSON.stringify(slot.targeting,
+  null, 3));\n\n            append('. size mapping:');\n            slot.mapping =
+  slot.mapping || [];\n            if (!slot.mapping.length) {\n                append('\\tNone
+  defined');\n            }\n            slot.mapping.forEach(function (breakpoint)
+  {\n                append('\\tat width ' + breakpoint[0][0] + 'px, use sizes:');\n
+  \               if (!breakpoint[1].length) {\n                    append('\\t\\tNone
+  defined');\n                }\n                breakpoint[1].forEach(function (size)
+  {\n                    append('\\t\\t' + size);\n                });\n            });\n\n
+  \           append();\n        }\n        });\n\n        title('System Information:');\n
+  \       append('Methode tags version 4.0.4');\n        append('Harmony version '
+  + harmony.version);\n\n        log += '\\n/* -----====== End Ad Logs ======-----
+  */\\n';\n\n        console.info(log);\n    });\n</script>\n<script>\n\t            window.add_prebid_script
+  = function () {\n\t                var s = document.createElement( 'script' );\n\t
+  \               s.setAttribute('src', 'https://acdn.adnxs.com/prebid/c/6990/pb.js');\n\t
+  \               s.setAttribute('defer','');\n\t                document.body.appendChild(s);\n\t
+  \           }\n\n\t            </script>\n        <script>_satellite.pageBottom();</script>\n
+  \       \n\n\n\n<script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"applicationID\":\"19209563\",\"applicationTime\":189,\"beacon\":\"bam.nr-data.net\",\"queueTime\":0,\"licenseKey\":\"aaf23b031f\",\"transactionName\":\"MQYHNRZYCkZVBxcKVghMLzI0FgFaWUszDEsSAgkiC1cCXFNLDRNmVlNXBQtXARpbCgY8CVZRAQcWWAlQRwEXPFMWFw==\",\"agent\":\"\",\"errorBeacon\":\"bam.nr-data.net\"}</script>\n\n<!--
+  begin header_mobile_nav_override block -->\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\t\n\t\n\t\n\n\n\n\n\n\n\n\n\n\n\n
+  \ \n  \n    \n   \n   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\t\t\t\n\t\t\n\t\n\t\n\n\n\n<div
+  style=\"display:none\" id=\"weather_widget_data\">\n    hour1: 11:00 AM + 51 + 1\n
+  \   hour2: 12:00 PM + 54 + 1\n    hour3: 1:00 PM + 55 + 12</div>\n\n<nav class=\"hamburger\">\n
+  \   <div class=\"nav-menu-toggle\">\n            <div class=\"nav-flyout-btn\"></div>\n
+  \   </div>\n    \n    <div class=\"header__logo--subnav\">\n        <a href=\"/\"
+  title=\"www.ajc.com\">\n            <img class=\"ajc myajc\" src=\"/r/PortalConfig/np-one/assets-one/ajc/images/logo-mobile-hamburger.svg\">\n
+  \       </a>\n    </div>\n    \n    <ul class=\"main-nav\">\n\n        <li class=\"main-nav__item
+  main-nav__user-mobile\"><div class=\"nav-auth js-nav-auth\">\n    <div class=\"nav-auth__anon-user\">\n
+  \           <div class=\"nav-auth__anon-user__icon js-auth-login\">\n                <div
+  class=\"nav-auth__anon-user__icon__img\">\n                \t<img src=\"/r/PortalConfig/np-one/assets-one/images/icons/user-icon-white.svg\"
+  name=\"user icon\" alt=\"user icon\">\n                </div>\n                <div
+  class=\"nav-auth__anon-user__icon__text\">Log In</div>\n            </div>\n        </div>\n\n
+  \       <div class=\"nav-auth__authed-user js-auth-mobile\">\n            <div class=\"nav-auth__authed-user__icon
+  main-nav__item__link\">\n                <div class=\"nav-auth__authed-user__icon__img\">\n
+  \                  \t<img src=\"/r/PortalConfig/np-one/assets-one/images/icons/user-icon-anonymous-hamburger.svg\"
+  name=\"user icon\" alt=\"user icon\">\n                </div>\n                <img
+  class=\"nav-auth__authed-user__icon__avatar js-user-avatar\">\n                <div
+  class=\"nav-auth__authed-user__icon__text js-user-name\"></div>\n            </div>\n
+  \         \n            <div class=\"main-nav__flyout nav-auth__authed-user__flyout\">\n
+  \               <ul class=\"main-nav__flyout-subnav nav-auth__authed-user__flyout__subnav\">\n
+  \                   <li class=\"main-nav__flyout-subnav__item nav-auth__authed-user__flyout__item
+  nav-auth__authed-user__flyout__item--bold\">\n                        <a href=\"#\"
+  class=\"js-auth-logout\">Logout</a>\n                    </li>\n                    <li
+  class=\"main-nav__flyout-subnav__item nav-auth__authed-user__flyout__item js-auth-item
+  hidden\">\n                        <a href=\"#\"></a>\n                    </li>\n
+  \               </ul>\n            </div>\n        </div>     \n \n    </div>\n</li>\n
+  \       \n        <li class=\"main-nav__item main-nav__item__search-mobile\">\n
+  \         <div class=\"main-nav__item__search-form-container\">\n            <img
+  class=\"main-nav__search-icon-mobile\" src=\"/r/PortalConfig/np-one/assets-one/images/icons/search-icon.svg\">\n
+  \           <form class=\"main-nav__item__search\">\n                <input type=\"text\"
+  class=\"main-nav__item__search__input\" id=\"search\" name=\"q\" value=\"\"> \n
+  \           </form>\n          </div>\n        </li>\n\n        <li data-name=\"Frontpage\"
+  data-id=\"home page\" class=\"main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar
+  \  \">\n<a target=\"_self\" href=\"/\" class=\"main-nav__item__link\">Frontpage</a>\n<div
+  class=\"main-nav__item--circle\"></div>\n</li><li data-name=\"News\" data-id=\"\"
+  class=\"main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar   \">\n<a
+  class=\"main-nav__item__link\">News</a>\n<div class=\"main-nav__item--circle\"></div>\n<div
+  class=\"main-nav__flyout__section-name\">\n<a class=\"main-nav__item__link\">News</a>\n<div
+  class=\"main-nav__flyout__section-name--overlay\"></div>\n</div>\n<div class=\"main-nav__flyout
+  js-main-nav-flyout\">\n<ul item-count=\"14\" class=\"main-nav__flyout-subnav js-main-nav-flyout-subnav\">\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/\">\n\t\t\t\t\t\t\t\t\t\tAll
+  News</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/news/atlanta-news/\">Local&nbsp;News</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/weather/\">Local Weather</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/traffic/\">Local Traffic</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/investigations/\">AJC Investigations</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/crime/\">Crime</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/schools/\">Education</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/business/\">Business</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/nation/\">Nation
+  &amp; World</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/news/columnists/\">AJC Columnists</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/opinion/\">Opinion</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/obituaries/\">Obituaries</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/data/\">Interactives/Data</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/ajcjobs/\">Jobs</a>\n</li>\n</ul>\n</div>\n</li><li data-name=\"Politics\"
+  data-id=\"politics\" class=\"main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar
+  \  \">\n<a class=\"main-nav__item__link\">Politics</a>\n<div class=\"main-nav__item--circle\"></div>\n<div
+  class=\"main-nav__flyout__section-name\">\n<a class=\"main-nav__item__link\">Politics</a>\n<div
+  class=\"main-nav__flyout__section-name--overlay\"></div>\n</div>\n<div class=\"main-nav__flyout
+  js-main-nav-flyout\">\n<ul item-count=\"9\" class=\"main-nav__flyout-subnav js-main-nav-flyout-subnav\">\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/georgia-government/\">\n\t\t\t\t\t\t\t\t\t\tAll
+  Politics</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/news/politics-blog/\">Political Insider</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/georgia-state-legislature/\">Legislature</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/issues/\">Issues</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/election/\">Elections</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/georgia-politics-voices/\">Columnists</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/national-politics/\">National</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/state--regional-govt--politics/how-contact-your-lawmakers-and-get-involved-georgia-politics/WY5agdUCcpWRNDHKbm7YKP/\">Take
+  Action</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/news/luckovich-blog/\">Mike Luckovich</a>\n</li>\n</ul>\n</div>\n</li><li
+  data-name=\"County By County\" data-id=\"\" class=\"main-nav__item main-nav__item--mobile-menu
+  main-nav__item--bottom-bar   \">\n<a class=\"main-nav__item__link\">County By County</a>\n<div
+  class=\"main-nav__item--circle\"></div>\n<div class=\"main-nav__flyout__section-name\">\n<a
+  class=\"main-nav__item__link\">County By County</a>\n<div class=\"main-nav__flyout__section-name--overlay\"></div>\n</div>\n<div
+  class=\"main-nav__flyout js-main-nav-flyout\">\n<ul item-count=\"8\" class=\"main-nav__flyout-subnav
+  js-main-nav-flyout-subnav\">\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/neighborhoods/\">\n\t\t\t\t\t\t\t\t\t\tAll County By County</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/neighborhoods/clayton/\">Clayton</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/neighborhoods/cobb/\">Cobb</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/neighborhoods/dekalb/\">DeKalb</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/neighborhoods/gwinnett/\">Gwinnett</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/neighborhoods/north-fulton/\">North
+  Fulton</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/neighborhoods/atlanta-intown/\">Intown Atlanta</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/local-govt--politics/gwinnett-upcoming-marta-referendum-comprehensive-voter-guide/CVj5YhwsvzesGoX29o0xvL/\">Gwinnett
+  MARTA referendum</a>\n</li>\n</ul>\n</div>\n</li><li data-name=\"Things To Do\"
+  data-id=\"\" class=\"main-nav__item main-nav__item--mobile-menu main-nav__item--bottom-bar
+  \  \">\n<a class=\"main-nav__item__link\">Things To Do</a>\n<div class=\"main-nav__item--circle\"></div>\n<div
+  class=\"main-nav__flyout__section-name\">\n<a class=\"main-nav__item__link\">Things
+  To Do</a>\n<div class=\"main-nav__flyout__section-name--overlay\"></div>\n</div>\n<div
+  class=\"main-nav__flyout js-main-nav-flyout\">\n<ul item-count=\"12\" class=\"main-nav__flyout-subnav
+  js-main-nav-flyout-subnav\">\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/things-to-do/\">\n\t\t\t\t\t\t\t\t\t\tAll Things To Do</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_blank\" href=\"https://events.ajc.com/home\">Events in Atlanta</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/life/atlanta-restaurants-blog/\">Atlanta&nbsp;Restaurants</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/life/music-blog/\">Atlanta
+  Music Scene</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/things-to-do/buford-highway-dining-guide/\">AJC&nbsp;Dining&nbsp;Guides</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/things-to-do/atlanta-restaurants-food/\">Food
+  &amp; Recipes</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/life/radiotvtalk-blog/\">Radio &amp; TV</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/things-to-do/flashback/\">Flashback&nbsp;Photos</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_blank\" href=\"https://games.ajc.com/\">Puzzles
+  &amp; Games</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/the-a-list/\">My Atlanta</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/podcasts/\">Podcasts</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/peachtree/\">AJC Peachtree Road Race</a>\n</li>\n</ul>\n</div>\n</li><li
+  data-name=\"Life\" data-id=\"life\" class=\"main-nav__item main-nav__item--mobile-menu
+  main-nav__item--bottom-bar   \">\n<a class=\"main-nav__item__link\">Life</a>\n<div
+  class=\"main-nav__item--circle\"></div>\n<div class=\"main-nav__flyout__section-name\">\n<a
+  class=\"main-nav__item__link\">Life</a>\n<div class=\"main-nav__flyout__section-name--overlay\"></div>\n</div>\n<div
+  class=\"main-nav__flyout js-main-nav-flyout\">\n<ul item-count=\"12\" class=\"main-nav__flyout-subnav
+  js-main-nav-flyout-subnav\">\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/life/\">\n\t\t\t\t\t\t\t\t\t\tAll Life</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/life/buzz-blog/\">Celebrity Buzz</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/life/talk-town-blog/\">Talk of the Town</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/life/home-garden/\">Home&nbsp;&amp;&nbsp;Garden</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/health-news/BI5FoTVo4SGUtuoI5fp8DL/\">Health</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/travel/\">Travel</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/life/arts-culture/\">Atlanta
+  Living &amp; Arts</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_blank\"
+  href=\"https://classifieds.ajc.com/\">Classifieds</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/news/video/Fsahkc3p7ItDwBqiOF1oGP/\">Videos</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/news/photos/JwxCP0l6c3vJ6M3qFPysrO/\">Photos</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/lifestyles/women-history-month/948slYZE6b8RECJO2YMDFK/\">Women’s
+  History Month</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"https://www.ajc.com/ajchomefinder/private-quarters/\">Private Quarters</a>\n</li>\n</ul>\n</div>\n</li><li
+  data-name=\"Sports\" data-id=\"sports\" class=\"main-nav__item main-nav__item--mobile-menu
+  main-nav__item--bottom-bar   \">\n<a class=\"main-nav__item__link\">Sports</a>\n<div
+  class=\"main-nav__item--circle\"></div>\n<div class=\"main-nav__flyout__section-name\">\n<a
+  class=\"main-nav__item__link\">Sports</a>\n<div class=\"main-nav__flyout__section-name--overlay\"></div>\n</div>\n<div
+  class=\"main-nav__flyout js-main-nav-flyout\">\n<ul item-count=\"10\" class=\"main-nav__flyout-subnav
+  js-main-nav-flyout-subnav\">\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/sports/\">\n\t\t\t\t\t\t\t\t\t\tAll Sports</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/sports/atlanta-braves/\">Braves/MLB</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/sports/georgia-bulldogs/\">UGA/DawgNation</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/sports/atlanta-falcons/\">Falcons/NFL</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/sports/atlanta-united/\">Atlanta
+  United/MLS</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\"
+  href=\"/sports/georgia-tech/\">Georgia Tech/ACC</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/sports/hawks/\">Hawks/NBA</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"/sports/high-school/\">High Schools</a>\n</li>\n<li class=\"main-nav__flyout-subnav__item\">\n<a
+  target=\"_self\" href=\"https://ajc.stats.com/\">Scores&nbsp;&amp;&nbsp;Stats</a>\n</li>\n<li
+  class=\"main-nav__flyout-subnav__item\">\n<a target=\"_self\" href=\"/sports/in-the-game/\">In
+  The Game with Harrah’s</a>\n</li>\n</ul>\n</div>\n</li><li class=\"main-nav__item
+  main-nav__item--bottom-bar main-nav__item__epaper\">\n\t            <a class=\"main-nav__item__link\"
+  href=\"https://www.ajc.com/epaper\" target=\"_blank\">ePaper</a>\n\t        </li>\n
+  \       <li>\n            <div class=\"mobile-weather-widget\">\n                <a
+  href=\"/weather/\">\n\t<div class=\"weather-widget \">\n\t\t<div class=\"weather-widget__top\">\n\t\t
+  \   <div class=\"weather-widget__met-img\">\n\t\t\t\t\t<img src=\"https://media-beta.wsbtv.com/photo/2016/01/14/WSB_Brad_Nitz_1452784472007_223138_ver1.0.png\">\n\t\t\t\t</div>\n\t\t\t\t<div
+  class=\"weather-widget__met-info\">\n\t\t\t\t\t<div class=\"weather-widget__forecast-by\">Forecast
+  by Meteorologist</div>\n\t\t\t\t\t<div class=\"weather-widget__met-name\">Brad Nitz</div>\n\t\t\t\t\t<img
+  src=\"/rw/PortalConfig/np-one/assets-one/images/weatherlogo-affiliate-wsbtv.png\">\n\t\t\t\t</div>\n\t\t\t<div
+  class=\"weather-widget__now\">\n\t\t\t\t<div class=\"weather-widget__current-temp\">\n\t\t\t\t
+  \   <div class=\"weather-icon weather-12\"></div>\n\t\t\t\t\t48° \n\t\t\t\t</div>\n\t\t\t\t<div
+  class=\"weather-widget__current-desc\">\n\t\t\t\t\tFew Clouds</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div
+  class=\"weather-widget__bottom weather-background-12\">\n\t\t\t<div class=\"weather-widget__hour1\">\n\t\t\t\t<span
+  class=\"weather-widget__hour1-time\">11:00 AM</span>\n\t\t\t\t<span class=\"weather-icon
+  weather-1\"></span>\n\t\t\t\t<span class=\"weather-widget__hour1-temp\">51°</span>\n\t\t\t</div>\n\t\t\t<div
+  class=\"weather-widget__hour2\">\n\t\t\t\t<span class=\"weather-widget__hour2-time\">12:00
+  PM</span>\n\t\t\t\t<span class=\"weather-icon weather-1\"></span>\n\t\t\t\t<span
+  class=\"weather-widget__hour2-temp\">54°</span>\n\t\t\t</div>\n\t\t\t<div class=\"weather-widget__hour3\">\n\t\t\t\t<span
+  class=\"weather-widget__hour3-time\">1:00 PM</span>\n\t\t\t\t<span class=\"weather-icon
+  weather-12\"></span>\n\t\t\t\t<span class=\"weather-widget__hour3-temp\">55°</span>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</a>\n</div>\n
+  \       </li>\n\n        <li>\n            \n            <div class=\"mobile-menu-footer\">\n
+  \               <div class=\"mobile-menu-footer__social\">\n                    <a
+  target=\"_blank\" href=\"//www.facebook.com/ajc\" class=\"mobile-menu-footer__social__facebook\">
+  <img src=\"/r/PortalConfig/np-one/assets-one/images/icons/facebook.svg\" name=\"\"
+  alt=\"Facebook Icon\"> <span class=\"sr-only\">Facebook</span>\n                    </a>
+  <a target=\"_blank\" href=\"//www.twitter.com/ajc\" class=\"mobile-menu-footer__social__twitter\">
+  <img src=\"/r/PortalConfig/np-one/assets-one/images/icons/twitter.svg\" name=\"\"
+  alt=\"Twitter Icon\"> <span class=\"sr-only\">Twitter</span>\n                    </a>\n
+  \               </div>\n                <div class=\"mobile-menu-footer__copyright\">\n
+  \                   <span>© 2019</span> <a href=\"https://www.coxmediagroup.com\"
+  target=\"_blank\">Cox Media Group</a>\n                </div>\n                <div
+  class=\"mobile-menu-footer__bottom-links\">\n                    <a href=\"/visitor_agreement/\">Visitor
+  Agreement</a> | <a href=\"/privacy_policy/\">Privacy Policy</a> | <a href=\"/contact-us/\">Contact</a>\n
+  \               </div>\n                <a href=\"https://hub.ajc.com/products#mobile-app\"
+  target=\"_blank\">Mobile Apps</a>\n                \t</div>\n        </li>\n    </ul>\n
+  \   \n    <div class=\"hamburger-close-btn\">\n        <img class=\"\" src=\"/r/PortalConfig/np-one/assets-one/images/icons/close.svg\">\n
+  \   </div>\n\n</nav>\n<!-- end header_mobile_nav_override block -->\n\n<script type=\"text/javascript\">\n\t\t\t
+  \ window._taboola = window._taboola || [];\n\t\t\t  _taboola.push({flush: true});\n\t\t\t</script>\n\t\t<!--support
+  for page refresh-->\n\t\t\n\n\n<div id=\"signIn\" style=\"display: none;\"></div><div
+  class=\"immersive-view-modal\"></div></body></html>"

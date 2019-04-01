@@ -1,0 +1,453 @@
+---
+:url: https://www.chefsteps.com/activities/simple-sous-vide-vegetables
+:body: "<!DOCTYPE html><html ng-app=\"freshSteps\" ng-controller=\"AppController as
+  app\" xmlns:fb=\"http://ogp.me/ns/fb#\"><head ng-controller=\"HeadController as
+  head\"><style type=\"text/css\">@charset \"UTF-8\";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none
+  !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>\n<title
+  ng-bind-html=\"head.meta.getTitle()\">ChefSteps</title>\n<!-- ngIf: head.meta.dict.description
+  --><meta name=\"description\" ng-attr-content=\"{{head.meta.dict.description}}\"
+  ng-if=\"head.meta.dict.description\" content=\"ChefSteps is here to make cooking
+  more fun. Get recipes, tips, and videos that show the whys behind the hows for sous
+  vide, grilling, baking, and more.\"><!-- end ngIf: head.meta.dict.description -->\n<!--
+  ngIf: head.meta.dict.keywords -->\n<!-- ngIf: head.meta.dict.canonical -->\n<!--
+  ngIf: head.meta.dict.og.url -->\n<!-- ngIf: head.is404() -->\n<meta content=\"website\"
+  property=\"og:type\">\n<meta ng-attr-content=\"{{head.meta.dict.og.title}}\" property=\"og:title\">\n<meta
+  ng-attr-content=\"{{head.meta.dict.og.description}}\" property=\"og:description\">\n<meta
+  ng-attr-content=\"{{head.meta.dict.og.image}}\" property=\"og:image\">\n<meta content=\"summary_large_image\"
+  property=\"twitter:card\">\n<meta content=\"@chefsteps\" property=\"twitter:site\">\n<meta
+  ng-attr-content=\"{{head.meta.dict.twitter.title}}\" property=\"twitter:title\">\n<meta
+  ng-attr-content=\"{{head.meta.dict.twitter.description}}\" property=\"twitter:description\">\n<meta
+  ng-attr-content=\"{{head.meta.dict.twitter.image}}\" property=\"twitter:image\">\n<!--
+  ngIf: head.meta.dict.noindex -->\n<meta charset=\"utf-8\">\n<meta content=\"initial-scale=1,
+  maximum-scale=1, user-scalable=no, width=device-width\" name=\"viewport\">\n<meta
+  content=\"ChefSteps\" name=\"apple-mobile-web-app-title\">\n<meta content=\"en\"
+  http-equiv=\"Content-Language\">\n<meta content=\"single_host_origin\" name=\"google-signin-cookiepolicy\">\n<meta
+  content=\"d64492c5d22d7921-60170f9c9b7267c6-g7179c5f7a7e64573-d\" name=\"google-translate-customization\">\n<meta
+  content=\"zaV8aQl8p4mWRpDlE0g7fskT_IQ43Z42rsHq0QchNNk\" name=\"google-site-verification\">\n<!--
+  ngIf: head.meta.dict.sousVideTargeted -->\n<meta content=\"ChefSteps\" name=\"apple-mobile-web-app-title\">\n<link
+  href=\"https://d92f495ogyf88.cloudfront.net/favicons/apple-touch-icon-57x57.png?v=yyy4wNKzaA\"
+  rel=\"apple-touch-icon\" sizes=\"57x57\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/apple-touch-icon-60x60.png?v=yyy4wNKzaA\"
+  rel=\"apple-touch-icon\" sizes=\"60x60\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/apple-touch-icon-72x72.png?v=yyy4wNKzaA\"
+  rel=\"apple-touch-icon\" sizes=\"72x72\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/apple-touch-icon-76x76.png?v=yyy4wNKzaA\"
+  rel=\"apple-touch-icon\" sizes=\"76x76\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/apple-touch-icon-114x114.png?v=yyy4wNKzaA\"
+  rel=\"apple-touch-icon\" sizes=\"114x114\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/apple-touch-icon-120x120.png?v=yyy4wNKzaA\"
+  rel=\"apple-touch-icon\" sizes=\"120x120\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/apple-touch-icon-144x144.png?v=yyy4wNKzaA\"
+  rel=\"apple-touch-icon\" sizes=\"144x144\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/apple-touch-icon-152x152.png?v=yyy4wNKzaA\"
+  rel=\"apple-touch-icon\" sizes=\"152x152\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/apple-touch-icon-180x180.png?v=yyy4wNKzaA\"
+  rel=\"apple-touch-icon\" sizes=\"180x180\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/favicon-32x32.png?v=yyy4wNKzaA\"
+  rel=\"icon\" sizes=\"32x32\" type=\"image/png\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/favicon-194x194.png?v=yyy4wNKzaA\"
+  rel=\"icon\" sizes=\"194x194\" type=\"image/png\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/favicon-96x96.png?v=yyy4wNKzaA\"
+  rel=\"icon\" sizes=\"96x96\" type=\"image/png\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/android-chrome-192x192.png?v=yyy4wNKzaA\"
+  rel=\"icon\" sizes=\"192x192\" type=\"image/png\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/favicon-16x16.png?v=yyy4wNKzaA\"
+  rel=\"icon\" size=\"16x16\" type=\"image/png\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/manifest.json?v=yyy4wNKzaA\"
+  rel=\"manifest\">\n<link href=\"https://d92f495ogyf88.cloudfront.net/favicons/favicon.ico?v=yyy4wNKzaA\"
+  rel=\"shortcut icon\">\n<meta content=\"#da532c\" name=\"msapplication-TileColor\">\n<meta
+  content=\"https://d92f495ogyf88.cloudfront.net/favicons/mstile-144x144.png?v=yyy4wNKzaA\"
+  name=\"msapplication-TileImage\">\n<meta content=\"#ffffff\" name=\"theme-color\">\n<link
+  href=\"https://plus.google.com/106370441183974123730?rel=author\">\n<link href=\"/feed\"
+  rel=\"alternate\" title=\"ATOM\" type=\"application/atom+xml\">\n<link href=\"/feed\"
+  rel=\"alternate\" title=\"RSS\" type=\"application/rss+xml\">\n<link href=\"https://d3ro0sksttkvbt.cloudfront.net/assets-f75a2da/css/library.css\"
+  rel=\"stylesheet\" type=\"text/css\">\n<link href=\"https://d3ro0sksttkvbt.cloudfront.net/assets-f75a2da/css/chefsteps.css\"
+  rel=\"stylesheet\" type=\"text/css\">\n<link href=\"/apple-touch-icon.png\" rel=\"apple-touch-icon\">\n<link
+  href=\"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css\" rel=\"stylesheet\"
+  type=\"text/css\">\n<script type=\"text/javascript\" async=\"\" src=\"https://connect.facebook.net/en_US/fbevents.js\"></script><script
+  type=\"text/javascript\" async=\"\" src=\"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js\"></script><script
+  type=\"text/javascript\" async=\"\" src=\"https://www.google-analytics.com/analytics.js\"></script><script
+  type=\"text/javascript\" async=\"\" src=\"https://cdn.segment.com/analytics.js/v1/CohfhzCATDidS52kLILe3ZZ3mVYYgzsP/analytics.min.js\"></script><script
+  src=\"https://connect.facebook.net/en_US/sdk.js?hash=e18ec0caee392322df4dda2b686a51c6\"
+  async=\"\" crossorigin=\"anonymous\"></script><script type=\"text/javascript\" id=\"www-widgetapi-script\"
+  src=\"https://s.ytimg.com/yts/jsbin/www-widgetapi-vfl5ur_dk/www-widgetapi.js\" async=\"\"></script><script
+  id=\"facebook-jssdk\" src=\"//connect.facebook.net/en_US/sdk.js\"></script><script
+  id=\"embedly-platform\" async=\"\" src=\"https://cdn.embedly.com/widgets/platform.js\"></script><script
+  id=\"twitter-wjs\" src=\"//platform.twitter.com/widgets.js\"></script><script type=\"text/javascript\">window.csConfig
+  = {\"env\":\"production\",\"deploySHA\":\"f75a2da\",\"chefstepsEndpoint\":\"https://www.chefsteps.com\",\"bloomApiEndpoint\":\"https://cs-bloom-api-production.herokuapp.com\",\"bloomEnv\":\"production\",\"bloomCommunityEndpoint\":\"https://cs-bloom-community-production.herokuapp.com\",\"segmentWriteKey\":\"CohfhzCATDidS52kLILe3ZZ3mVYYgzsP\",\"fsAssetRoot\":\"https://d3ro0sksttkvbt.cloudfront.net/assets-f75a2da\",\"facebookAppId\":\"380147598730003\",\"shopifyEndpoint\":\"https://store.chefsteps.com\",\"spreeEndpoint\":\"https://shop.chefsteps.com\",\"isInternationalLive\":true,\"messengerEndpoint\":\"https://m.me/ChefSteps\",\"isJouleReadyLive\":true};</script>\n<script
+  id=\"json-ld-product\" type=\"application/ld+json\"></script>\n<script crossorigin=\"anonymous\"
+  src=\"https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js\"></script><style></style>\n<script
+  type=\"text/javascript\">window.save_underscore = window._;</script>\n<script crossorigin=\"anonymous\"
+  src=\"https://d3ro0sksttkvbt.cloudfront.net/assets-f75a2da/js/library.js\"></script><style></style>\n<script
+  crossorigin=\"anonymous\" src=\"https://d3ro0sksttkvbt.cloudfront.net/assets-f75a2da/templates/templates.js\"></script>\n<script
+  crossorigin=\"anonymous\" src=\"//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js\"></script>\n<script
+  crossorigin=\"anonymous\" src=\"https://d3ro0sksttkvbt.cloudfront.net/assets-f75a2da/js/chefsteps.js\"></script>\n<script
+  src=\"//api.filepicker.io/v2/filepicker.js\"></script>\n<script async=\"\" src=\"//f.vimeocdn.com/js/froogaloop2.min.js\"></script>\n<script
+  async=\"\" src=\"https://www.youtube.com/iframe_api\"></script>\n<script async=\"\"
+  crossorigin=\"anonymous\" src=\"https://photorankstatics-a.akamaihd.net/81b03e40475846d5883661ff57b34ece/static/frontend/latest/build.min.js\"></script>\n<script>\n
+  \ function onOlapicLoad(){\n    OlapicSDK.conf.set('apikey', 'e242136515ecc58764343a1023408c3683dc6fad7e6195185bc16c039c7f6888');\n
+  \ \n    window.olapic = window.olapic || new OlapicSDK.Olapic( function(o){\n      window.olapic
+  = o;\n    })\n  }\n</script>\n<script>\n  window.youtubeAPIReady = false;\n  window.onYouTubeIframeAPIReady
+  = function() {\n    window.youtubeAPIReady = true;\n  }\n</script>\n<script>\n  window.twttr
+  = (function (d,s,id) {\n      var t, js, fjs = d.getElementsByTagName(s)[0];\n      if
+  (d.getElementById(id)) return; js=d.createElement(s); js.id=id;\n      js.src=\"//platform.twitter.com/widgets.js\";
+  fjs.parentNode.insertBefore(js, fjs);\n      return window.twttr || (t = { _e: [],
+  ready: function(f){ t._e.push(f) } });\n    }(document, \"script\", \"twitter-wjs\"));\n</script>\n\n<script>\n
+  \ !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error(\"Segment
+  snippet included twice.\");else{analytics.invoked=!0;analytics.methods=[\"trackSubmit\",\"trackClick\",\"trackLink\",\"trackForm\",\"pageview\",\"identify\",\"group\",\"track\",\"ready\",\"alias\",\"page\",\"once\",\"off\",\"on\"];analytics.factory=function(t){return
+  function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return
+  analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var
+  e=document.createElement(\"script\");e.type=\"text/javascript\";e.async=!0;e.src=(\"https:\"===document.location.protocol?\"https://\":\"http://\")+\"cdn.segment.com/analytics.js/v1/\"+t+\"/analytics.min.js\";var
+  n=document.getElementsByTagName(\"script\")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION=\"3.0.1\";}}();\n</script>\n\n<script>\n
+  \ (function(w, d){\n   var id='embedly-platform', n = 'script';\n   if (!d.getElementById(id)){\n
+  \    w.embedly = w.embedly || function() {(w.embedly.q = w.embedly.q || []).push(arguments);};\n
+  \    var e = d.createElement(n); e.id = id; e.async=1;\n     e.src = ('https:' ===
+  document.location.protocol ? 'https' : 'http') + '://cdn.embedly.com/widgets/platform.js';\n
+  \    var s = d.getElementsByTagName(n)[0];\n     s.parentNode.insertBefore(e, s);\n
+  \  }\n  })(window, document);\n</script>\n\n<style type=\"text/css\">.fp__btn{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline-block;height:34px;padding:4px
+  30px 5px 40px;position:relative;margin-bottom:0;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;font-family:\"Open
+  Sans\", sans-serif;font-size:12px;font-weight:600;line-height:1.42857143;color:#fff;text-align:center;white-space:nowrap;background:#ef4925;background-image:url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAYAAABLy77vAAAABGdBTUEAALGPC/xhBQAAAJRJREFUOBHNUcEWgCAIy14fbl9egK5MRarHQS7ocANmOCgWh1gdNERig1CgwPlLxkZuE80ndHlU+4Lda1zz0m01dSKtcz0h7qpQb7WR+HyrqRPxahzwwMqqkEVs6qnv+86NQAbcJlK/X+vMeMe7XcBOYaRzcbItUR7/8QgcykmElQrQPErnmxNxl2yyiwcgEvQUocIJaE6yERwqXDIAAAAASUVORK5CYII=\");background-repeat:no-repeat;background-position:15px
+  6px;border:1px solid transparent;border-radius:17px}.fp__btn:hover{background-color:#d64533}.fp__btn::after{position:absolute;content:\"\";top:15px;right:14px;width:7px;height:4px;background:url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAYAAAA1BOUGAAAABGdBTUEAALGPC/xhBQAAAGlJREFUCB1j/P//vw4DA4MiEKOD+0xAkatA/AJNBsS/ysTIyPgfyDgHxO+hCkD0Oag4RAhoPDsQm4NoqCIGBiBnAhBjAxNAkkxAvBZNFsQHuQesmxPIOQZVAKI54UZDFYgABbcBsQhMAgDIVGYSqZsn6wAAAABJRU5ErkJggg==\");}.fp__btn:hover::after{background-position:0
+  -4px;}.fp__btn:active,.fp__btn:focus{outline:none}@media only screen and (min--moz-device-pixel-ratio:
+  2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio:
+  2), only screen and (min-device-pixel-ratio: 2){.fp__btn{background-image:url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAqCAYAAADbCvnoAAAABGdBTUEAALGPC/xhBQAAAQFJREFUWAntWEESwjAIbBwfHl+upNoRNjKUJhk5kIvZQGG7bHOwPGltgdYtEJedShKyJnLHhEILz1Zi9HCOzFI7FUqFLAWseDgPdfeQ9QZ4b1j53nstnEJJyBqx20NeT1gEMB5uZG6Fzn5lV5UMp1ASQhMjdnvoqjewsYbDjcytEH5lsxULp1AS0sx8nJfVnjganf3NkVlKhVPIfQ9Zb6jF0atK3mNriXwpicPHvIeyr3sTDA53VgpgH8BvMu1ZCCz7ew/7MPwlE4CQJPNnQj2ZX4SYlEPbVpsvKFZ5TOwhcRoUTQiwwhVjArPEqVvRhMCneMXzDk9lwYphIwrZZOihF32oehMAa1qSAAAAAElFTkSuQmCC\");background-size:18px
+  21px}.fp__btn::after{background:url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAABGdBTUEAALGPC/xhBQAAANpJREFUKBWVkU8KglAYxJ/u3HuBwmUX8BqepKN4ka4RguDOVYu2QVCrhIJ6/caekqLiGxi+PzPD58PAWrszxmygD84h7hpePFLy1mEQBJamgvcVYXkqZXTR0LwpJWw0z0Ba6bymDcrI4kkp4EvzCNoVztNKfVATwoOiyx/NDup1SVqPQVBbDDeK3txBb9JuHfhNW3HWjZhDX+SGRAgPHkl5f0+kieBxRVieaPD5LGJ4WghLiwehbkBI4HUirF3S+SYrhhQ2f2H16aR5vMSYwbdjNtYXZ0J7cc70BXnFMHIGznzEAAAAAElFTkSuQmCC\");background-size:7px
+  8px;}}</style><link rel=\"stylesheet\" type=\"text/css\" href=\"https://photorankstatics-a.akamaihd.net/static/frontend/v3.3.1/build.min.css\"
+  id=\"olapicsdk_bootstrap_file\"><style type=\"text/css\">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:\"lucida
+  grande\", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes
+  fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform
+  .3s forwards}\n.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
+  no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile
+  .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
+  no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png)
+  no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content
+  .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content
+  .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif)
+  no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif)
+  white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered
+  #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered
+  .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root
+  #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root
+  #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading
+  iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content
+  .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px
+  solid;border-color:#1d3c78;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold
+  14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875)
+  0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header
+  table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content
+  .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content
+  .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px
+  solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px
+  12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold
+  12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0,
+  30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content
+  .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif)
+  no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content
+  .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile
+  .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile
+  .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner
+  1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50%
+  50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}\n.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget
+  span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget
+  iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop
+  span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop
+  iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid
+  span{width:100%}</style></head><body ng-class=\"[app.mobileClass(), app.modalsClass,
+  app.navClass, {'show-collection-nav': app.showCollectionNav}]\" class=\"\"><div
+  ng-controller=\"CookieConsentController as cookieConsentController\">\n<!-- ngIf:
+  cookieConsentController.canDoAnalytics() --><div id=\"ttdUniversalPixelTag494e9ee22af1482caed405e60c2ad433\"
+  ng-if=\"cookieConsentController.canDoAnalytics()\" style=\"display: none;\" class=\"\">\n<script>\n
+  \ function OpenProfileId(){function h(){var r=!1,n=\"\",t=null,i=\"\",u=\"\";try{i=\"AcroPDF.PDF\";t=new
+  ActiveXObject(i)}catch(f){}if(!t)try{i=\"PDF.PdfCtrl\";t=new ActiveXObject(i)}catch(f){}if(t)try{r=!0;u=i;n=t.GetVersions().split(\",\");n=n[0].split(\"=\");n=parseFloat(n[1])}catch(f){}return{isInstalled:r,version:n,name:u}}function
+  c(){var r=!1,n=\"\",t=null,i=\"\",u=\"\";try{i=\"ShockwaveFlash.ShockwaveFlash\";t=new
+  ActiveXObject(i)}catch(f){}if(t)try{r=!0;u=i;n=t.GetVariable(\"$version\").substring(4);n=n.split(\",\");n=parseFloat(n[0]+\".\"+n[1])}catch(f){}return{isInstalled:r,version:n,name:u}}function
+  l(){var n=!1,t=\"\";try{n=navigator.javaEnabled();t=n?\"Java\":\"\"}catch(i){}return{isInstalled:n,version:\"\",name:t}}function
+  a(){var r=!1,n=\"\",t=null,i=\"\",u=\"\";try{i=\"QuickTime.QuickTime\";t=new ActiveXObject(i)}catch(f){}if(t)try{r=!0;u=i;n=t.QuickTimeVersion.toString(16);n=n.substring(0,1)+\".\"+n.substring(1,3);n=parseFloat(n)}catch(f){}return{isInstalled:r,version:n,name:u}}function
+  v(){for(var u=!1,n=\"\",r=[\"rmocx.RealPlayer G2 Control\",\"rmocx.RealPlayer G2
+  Control.1\",\"RealPlayer.RealPlayer(tm) ActiveX Control (32-bit)\",\"RealVideo.RealVideo(tm)
+  ActiveX Control (32-bit)\",\"RealPlayer\"],t=null,f=\"\",e=\"\",i=0;i<r.length;i++){try{t=new
+  ActiveXObject(r[i])}catch(o){continue}if(t){f=r[i];break}}if(t)try{u=!0;e=f;n=t.GetVersionInfo();n=parseFloat(n)}catch(o){}return{isInstalled:u,version:n,name:e}}function
+  y(){var r=!1,n=\"\",t=null,i=\"\",u=\"\";try{i=\"SWCtl.SWCtl\";t=new ActiveXObject(i)}catch(f){}if(t)try{r=!0;u=i;n=t.ShockwaveVersion(\"\").split(\"r\");n=parseFloat(n[0])}catch(f){}return{isInstalled:r,version:n,name:u}}function
+  p(){var i=!1,r=\"\",n=null,t=\"\",u=\"\";try{t=\"WMPlayer.OCX\";n=new ActiveXObject(t)}catch(f){}if(n)try{i=!0;u=t;r=parseFloat(n.versionInfo)}catch(f){}return{isInstalled:i,version:r,name:u}}function
+  w(){var n=\"|\",r=\"\",u={},f=[],t,e,i;try{if(window.navigator.plugins&&window.navigator.plugins.length){for(t=0,e=window.navigator.plugins.length;t<e;t++)i=window.navigator.plugins[t].name||\"\",u.hasOwnProperty(i)||(u[i]=\"\",f.push(i));r=f.join(n)}else
+  window.ActiveXObject&&(r=h().name+n+c().name+n+l().name+n+a().name+n+v().name+n+y().name+n+p().name)}catch(o){}return
+  r}function b(){var t=new Date,n=t.getTimezoneOffset()/-60;return n=(n>0?\"+\":\"\")+n,\"GMT\"+n}function
+  e(f,e){var o=f[0],s=f[1],h=f[2],c=f[3];o=n(o,s,h,c,e[0],7,-680876936);c=n(c,o,s,h,e[1],12,-389564586);h=n(h,c,o,s,e[2],17,606105819);s=n(s,h,c,o,e[3],22,-1044525330);o=n(o,s,h,c,e[4],7,-176418897);c=n(c,o,s,h,e[5],12,1200080426);h=n(h,c,o,s,e[6],17,-1473231341);s=n(s,h,c,o,e[7],22,-45705983);o=n(o,s,h,c,e[8],7,1770035416);c=n(c,o,s,h,e[9],12,-1958414417);h=n(h,c,o,s,e[10],17,-42063);s=n(s,h,c,o,e[11],22,-1990404162);o=n(o,s,h,c,e[12],7,1804603682);c=n(c,o,s,h,e[13],12,-40341101);h=n(h,c,o,s,e[14],17,-1502002290);s=n(s,h,c,o,e[15],22,1236535329);o=t(o,s,h,c,e[1],5,-165796510);c=t(c,o,s,h,e[6],9,-1069501632);h=t(h,c,o,s,e[11],14,643717713);s=t(s,h,c,o,e[0],20,-373897302);o=t(o,s,h,c,e[5],5,-701558691);c=t(c,o,s,h,e[10],9,38016083);h=t(h,c,o,s,e[15],14,-660478335);s=t(s,h,c,o,e[4],20,-405537848);o=t(o,s,h,c,e[9],5,568446438);c=t(c,o,s,h,e[14],9,-1019803690);h=t(h,c,o,s,e[3],14,-187363961);s=t(s,h,c,o,e[8],20,1163531501);o=t(o,s,h,c,e[13],5,-1444681467);c=t(c,o,s,h,e[2],9,-51403784);h=t(h,c,o,s,e[7],14,1735328473);s=t(s,h,c,o,e[12],20,-1926607734);o=i(o,s,h,c,e[5],4,-378558);c=i(c,o,s,h,e[8],11,-2022574463);h=i(h,c,o,s,e[11],16,1839030562);s=i(s,h,c,o,e[14],23,-35309556);o=i(o,s,h,c,e[1],4,-1530992060);c=i(c,o,s,h,e[4],11,1272893353);h=i(h,c,o,s,e[7],16,-155497632);s=i(s,h,c,o,e[10],23,-1094730640);o=i(o,s,h,c,e[13],4,681279174);c=i(c,o,s,h,e[0],11,-358537222);h=i(h,c,o,s,e[3],16,-722521979);s=i(s,h,c,o,e[6],23,76029189);o=i(o,s,h,c,e[9],4,-640364487);c=i(c,o,s,h,e[12],11,-421815835);h=i(h,c,o,s,e[15],16,530742520);s=i(s,h,c,o,e[2],23,-995338651);o=r(o,s,h,c,e[0],6,-198630844);c=r(c,o,s,h,e[7],10,1126891415);h=r(h,c,o,s,e[14],15,-1416354905);s=r(s,h,c,o,e[5],21,-57434055);o=r(o,s,h,c,e[12],6,1700485571);c=r(c,o,s,h,e[3],10,-1894986606);h=r(h,c,o,s,e[10],15,-1051523);s=r(s,h,c,o,e[1],21,-2054922799);o=r(o,s,h,c,e[8],6,1873313359);c=r(c,o,s,h,e[15],10,-30611744);h=r(h,c,o,s,e[6],15,-1560198380);s=r(s,h,c,o,e[13],21,1309151649);o=r(o,s,h,c,e[4],6,-145523070);c=r(c,o,s,h,e[11],10,-1120210379);h=r(h,c,o,s,e[2],15,718787259);s=r(s,h,c,o,e[9],21,-343485551);f[0]=u(o,f[0]);f[1]=u(s,f[1]);f[2]=u(h,f[2]);f[3]=u(c,f[3])}function
+  f(n,t,i,r,f,e){return t=u(u(t,n),u(r,e)),u(t<<f|t>>>32-f,i)}function n(n,t,i,r,u,e,o){return
+  f(t&i|~t&r,n,t,u,e,o)}function t(n,t,i,r,u,e,o){return f(t&r|i&~r,n,t,u,e,o)}function
+  i(n,t,i,r,u,e,o){return f(t^i^r,n,t,u,e,o)}function r(n,t,i,r,u,e,o){return f(i^(t|~r),n,t,u,e,o)}function
+  k(n){var u,r,t,i;for(/[\\x80-\\xFF]/.test(n)&&(n=unescape(encodeURI(n))),txt=\"\",u=n.length,r=[1732584193,-271733879,-1732584194,271733878],t=64;t<=n.length;t+=64)e(r,d(n.substring(t-64,t)));for(n=n.substring(t-64),i=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],t=0;t<n.length;t++)i[t>>2]|=n.charCodeAt(t)<<(t%4<<3);if(i[t>>2]|=128<<(t%4<<3),t>55)for(e(r,i),t=0;t<16;t++)i[t]=0;return
+  i[14]=u*8,e(r,i),r}function d(n){for(var i=[],t=0;t<64;t+=4)i[t>>2]=n.charCodeAt(t)+(n.charCodeAt(t+1)<<8)+(n.charCodeAt(t+2)<<16)+(n.charCodeAt(t+3)<<24);return
+  i}function g(n){for(var i=\"\",t=0;t<4;t++)i+=o[n>>t*8+4&15]+o[n>>t*8&15];return
+  i}function nt(n){for(var t=0;t<n.length;t++)n[t]=g(n[t]);return n.join(\"\")}function
+  s(n){return nt(k(n))}function u(n,t){return n+t&4294967295}function tt(n){return
+  s(n)}var o=\"0123456789abcdef\".split(\"\");if(s(\"hello\")!=\"5d41402abc4b2a76b9719d911017c592\"){function
+  u(n,t){var i=(n&65535)+(t&65535),r=(n>>16)+(t>>16)+(i>>16);return r<<16|i&65535}}this.getId=function(){var
+  n=\"\";try{var t=window.navigator.userAgent,i=w(),r=b(),u=window.screen.width,f=window.screen.height,e=window.screen.pixelDepth,o=t+i+r+u+f+e;n=tt(o)}catch(s){}return
+  n};this.getVersion=function(){return\"1.1\"};this.getSite=function(){return window.location.host+window.location.pathname}}function
+  TTDUniversalPixelApi(n){function i(n,t){t=t.replace(/[\\[]/,\"\\\\[\").replace(/[\\]]/,\"\\\\]\");var
+  r=new RegExp(\"[\\\\?&]\"+t+\"=([^&#]*)\"),i=r.exec(n);return i===null?\"\":decodeURIComponent(i[1].replace(/\\+/g,\"
+  \"))}function r(){var t=window,n=\"\",r=!1;try{top.location.href&&(n=top.location.href)}catch(u){r=!0}if(r)for(;;)try{if(n=t.document.referrer,window.parent!=t)t=window.parent;else
+  break}catch(u){break}return-1<n.indexOf(\"cloudfront.net\")&&(n=i(n,\"url\")||n),n}var
+  t=\"1.1.1\";this.getVersion=function(){return t};this.init=function(t,i,u,f,e){var
+  l,h,a,c,v;if(t&&t!=\"\"&&i&&!(i.length<=0)&&(l=document.getElementById(f),l)){var
+  y=new OpenProfileId,o=document.createElement(\"iframe\"),s=\"\",p=y.getId(),w=y.getVersion();if(paramMap={MonetaryValue:\"v\",MonetaryValueFormat:\"vf\"},h=[],typeof
+  _pixelParams!=\"undefined\")for(a in _pixelParams)c=_pixelParams[a],v=paramMap[a],v&&c&&!/%%.*%%/i.test(c)&&h.push(v+\"=\"+encodeURIComponent(c));var
+  b=\"adv=\"+t,k=\"upid=\"+i.join(\",\"),d=n||r();s=u+\"?\"+b+\"&ref=\"+encodeURIComponent(d)+\"&\"+k+\"&osi=\"+p+\"&osv=\"+w+\"&upv=\"+this.getVersion();h.length>0&&(s=s+\"&\"+h.join(\"&\"));o.setAttribute(\"id\",\"universal_pixel\");o.setAttribute(\"allowTransparency\",!0);o.setAttribute(\"height\",0);o.setAttribute(\"width\",0);o.setAttribute(\"style\",\"visibility:hidden;\");o.setAttribute(\"src\",s);l.appendChild(o);e&&e.isEnabled&&e.callback&&e.callback(s)}}}\n
+  \ /*\n  //# sourceMappingURL=up_loader.1.1.1.min.js.map\n  */\n</script>\n<script>\n
+  \ (function(global) {\n    if (typeof TTDUniversalPixelApi === 'function') {\n      var
+  universalPixelApi = new TTDUniversalPixelApi();\n      universalPixelApi.init(\"kk4y7t6\",
+  [\"1rrdcv6\"], \"https://insight.adsrvr.org/track/up\", \"ttdUniversalPixelTag494e9ee22af1482caed405e60c2ad433\");\n
+  \   }\n  })(this);\n</script><iframe id=\"universal_pixel\" allowtransparency=\"true\"
+  height=\"0\" width=\"0\" style=\"visibility: hidden; display: none !important;\"
+  src=\"https://insight.adsrvr.org/track/up?adv=kk4y7t6&amp;ref=https%3A%2F%2Fwww.chefsteps.com%2Factivities%2Fsimple-sous-vide-vegetables&amp;upid=1rrdcv6&amp;osi=5fe0e44fcc547cfc90d8fe5352614de1&amp;osv=1.1&amp;upv=1.1.1\"
+  hidden=\"\"></iframe>\n</div><!-- end ngIf: cookieConsentController.canDoAnalytics()
+  -->\n</div>\n\n<script>\n  function statusChangeCallback(response) {\n    if (window.fbResponse
+  === undefined) {\n      window.fbResponse = {}\n    }\n    if (response.status ===
+  'connected') {\n      if (window.fbResponse.user === undefined) {\n        window.fbResponse.user
+  = {}\n      }\n      window.fbResponse.status = 'connected'\n      window.fbResponse.user.user_id
+  = response.authResponse.userID\n      window.fbResponse.user.authentication_token
+  = response.authResponse.accessToken\n    } else if (response.status === 'not_authorized')
+  {\n      window.fbResponse.status = 'not authorized'\n    } else {\n      window.fbResponse.status
+  = 'not connected'\n    }\n  }\n  \n  window.fbAsyncInit = function() {\n  FB.init({\n
+  \   appId      : '380147598730003',\n    xfbml      : true,  // parse social plugins
+  on this page\n    version    : 'v2.7' // use graph api version 2.8\n  });\n  \n
+  \ FB.getLoginStatus(function(response) {\n    statusChangeCallback(response);\n
+  \ });\n  \n  };\n  \n  // Load the SDK asynchronously\n  (function(d, s, id) {\n
+  \   var js, fjs = d.getElementsByTagName(s)[0];\n    if (d.getElementById(id)) return;\n
+  \   js = d.createElement(s); js.id = id;\n    js.src = \"//connect.facebook.net/en_US/sdk.js\";\n
+  \   fjs.parentNode.insertBefore(js, fjs);\n  }(document, 'script', 'facebook-jssdk'));\n</script>\n\n\n\n<div
+  class=\"nav-spacer\"></div>\n<div class=\"cs-icons-sprite-sheet\">\n<!--?xml version=\"1.0\"
+  encoding=\"utf-8\"?--><svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><symbol
+  id=\"arrow-large\" viewBox=\"0 0 20 14\" enable-background=\"new 0 0 20 14\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M20,7c0,0.6-0.5,1-1,1H3.4l4.3,4.3c0.4,0.4,0.4,1,0,1.4C7.5,13.9,7.3,14,7,14c-0.3,0-0.5-0.1-0.7-0.3l-6-6\n\t\tC0.2,7.6,0.1,7.5,0.1,7.4c0-0.1,0-0.1,0-0.1C0,7.2,0,7.1,0,7c0-0.3,0.1-0.5,0.3-0.7l6-6c0.4-0.4,1-0.4,1.4,0c0.4,0.4,0.4,1,0,1.4\n\t\tL3.4,6H19C19.6,6,20,6.5,20,7z\"></path>\n</g>\n</symbol><symbol
+  id=\"arrow-small\" viewBox=\"0 0 13.5 9.5\" enable-background=\"new 0 0 13.5 9.5\"
+  xml:space=\"preserve\">\n<g>\n\t<path fill=\"currentColor\" d=\"M13.5,4.8c0,0.4-0.3,0.8-0.8,0.8H2.6l2.7,2.7c0.3,0.3,0.3,0.8,0,1.1C5.1,9.5,5,9.5,4.8,9.5\n\t\tc-0.2,0-0.4-0.1-0.5-0.2l-4-4C0.1,5.2,0,5.1,0,4.9c0-0.1,0-0.1,0-0.2c0,0,0-0.1,0-0.1c0-0.2,0.1-0.3,0.2-0.4l4-4\n\t\tc0.3-0.3,0.8-0.3,1.1,0c0.3,0.3,0.3,0.8,0,1.1L2.6,4h10.2C13.2,4,13.5,4.4,13.5,4.8z\"></path>\n</g>\n</symbol><symbol
+  id=\"bulb\" viewBox=\"0 0 26.3 28.7\" enable-background=\"new 0 0 26.3 28.7\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M15.7,21.7h-5c-0.6,0-1.1-0.4-1.2-1c0-0.2-0.1-0.4-0.1-0.4c-0.1-0.9-0.2-2-0.3-2.4C7.8,16.7,7,15.1,7,13.3\n\t\tc0-3.3,2.7-6.1,6-6.1l0.1,0c3.3,0,6.1,2.7,6.1,6c0,1.8-0.7,3.5-2.1,4.7c-0.1,0.4-0.2,1.4-0.3,2.4c0,0,0,0.1,0,0.4\n\t\tC16.8,21.3,16.3,21.7,15.7,21.7z
+  M11.4,19.7H15c0.2-2.7,0.5-3,0.8-3.2c1-0.8,1.5-2,1.5-3.3c0-2.2-1.9-4-4.1-4\n\t\tc-2.3,0-4.1,1.9-4.1,4.1c0,1.2,0.6,2.4,1.5,3.2C10.8,16.7,11.2,17,11.4,19.7z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M15.2,24.9h-4.1c-0.6,0-1-0.4-1-1s0.4-1,1-1h4.1c0.6,0,1,0.4,1,1S15.8,24.9,15.2,24.9z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M13.2,6.1c-0.6,0-1-0.4-1-1V1c0-0.6,0.4-1,1-1s1,0.4,1,1v4.1C14.2,5.6,13.7,6.1,13.2,6.1z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M7.5,8.5c-0.3,0-0.5-0.1-0.7-0.3L3.9,5.3c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l2.9,2.9c0.4,0.4,0.4,1,0,1.4\n\t\tC8,8.4,7.7,8.5,7.5,8.5z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M5.1,14.2H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h4.1c0.6,0,1,0.4,1,1S5.6,14.2,5.1,14.2z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M18.9,8.5c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l2.9-2.9c0.4-0.4,1-0.4,1.4,0s0.4,1,0,1.4l-2.9,2.9\n\t\tC19.4,8.4,19.1,8.5,18.9,8.5z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M25.3,14.2h-4.1c-0.6,0-1-0.4-1-1s0.4-1,1-1h4.1c0.6,0,1,0.4,1,1S25.9,14.2,25.3,14.2z\"></path>\n\t<circle
+  fill=\"currentColor\" cx=\"13.2\" cy=\"27.4\" r=\"1.3\"></circle>\n</g>\n</symbol><symbol
+  id=\"c-active\" viewBox=\"0 0 12.6 12.9\" enable-background=\"new 0 0 12.6 12.9\"
+  xml:space=\"preserve\">\n<g>\n\t<path fill=\"currentColor\" d=\"M6.4,12.9c-1.8,0-3.4-0.7-4.6-2C0.6,9.7,0,8.2,0,6.3C0,4.6,0.6,3,1.9,1.8C3.1,0.6,4.7,0,6.4,0\n\t\tc2.9,0,5.4,1.9,6.2,5H9.3C8.7,3.7,7.7,3.1,6.4,3.1c-1.9,0-3.3,1.4-3.3,3.3c0,2,1.5,3.5,3.3,3.5c1.2,0,2.2-0.6,2.9-1.8h3.3\n\t\tC11.7,11.1,9.4,12.9,6.4,12.9z\"></path>\n</g>\n</symbol><symbol
+  id=\"c-inactive\" viewBox=\"0 0 12 12.9\" enable-background=\"new 0 0 12 12.9\"
+  xml:space=\"preserve\">\n<g>\n\t<path fill=\"currentColor\" d=\"M6.3,1.2c-2.8,0-5,2.4-5,5.2c0,3.1,2.3,5.4,5,5.4c1.7,0,3.1-0.7,4.1-2.2h1.5c-1.1,2.1-3.1,3.3-5.5,3.3\n\t\tC2.7,12.9,0,10.1,0,6.4c0-1.7,0.7-3.3,1.9-4.6C3.1,0.6,4.6,0,6.3,0c2.5,0,4.5,1.2,5.7,3.5h-1.5C9.5,2.1,8.2,1.2,6.3,1.2z\"></path>\n</g>\n</symbol><symbol
+  id=\"camera\" viewBox=\"0 0 30.3 21.7\" enable-background=\"new 0 0 30.3 21.7\"
+  xml:space=\"preserve\">\n<g>\n\t<g>\n\t\t<path fill=\"currentColor\" d=\"M19.2,2c0.2,0.3,0.5,0.9,0.6,1.3c0.7,1.6,1.7,3.6,3.7,3.6h3.8c0.6,0,1,0.4,1,1v10.9c0,0.6-0.4,1-1,1H3\n\t\t\tc-0.6,0-1-0.4-1-1V7.8c0-0.6,0.4-1,1-1h3.8c2.1,0,3-2,3.7-3.6c0.2-0.4,0.4-0.9,0.6-1.3H19.2
+  M19.7,0h-9.1C9,0,8.3,4.8,6.8,4.8H3\n\t\t\tc-1.7,0-3,1.3-3,3v10.9c0,1.7,1.3,3,3,3h24.3c1.7,0,3-1.3,3-3V7.8c0-1.7-1.3-3-3-3c0,0-3.8,0-3.8,0C22,4.8,21.3,0,19.7,0L19.7,0z\"></path>\n\t</g>\n\t<path
+  fill=\"currentColor\" d=\"M15.2,8.8c1.9,0,3.4,1.5,3.4,3.4c0,1.9-1.5,3.4-3.4,3.4c-1.9,0-3.4-1.5-3.4-3.4\n\t\tC11.8,10.3,13.3,8.8,15.2,8.8
+  M15.2,6.8c-3,0-5.4,2.4-5.4,5.4s2.4,5.4,5.4,5.4c3,0,5.4-2.4,5.4-5.4S18.2,6.8,15.2,6.8L15.2,6.8z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M25.5,10.9c-0.3,0-0.5-0.1-0.7-0.3c-0.2-0.2-0.3-0.4-0.3-0.7c0-0.3,0.1-0.5,0.3-0.7c0.4-0.4,1-0.4,1.4,0\n\t\tc0.2,0.2,0.3,0.4,0.3,0.7c0,0.3-0.1,0.5-0.3,0.7C26,10.8,25.8,10.9,25.5,10.9z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M5.5,3.9h-2c-0.6,0-1-0.4-1-1s0.4-1,1-1h2c0.6,0,1,0.4,1,1S6,3.9,5.5,3.9z\"></path>\n</g>\n</symbol><symbol
+  id=\"camera-filled\" viewBox=\"0 0 30.3 21.7\" enable-background=\"new 0 0 30.3
+  21.7\" xml:space=\"preserve\">\n<g>\n\t<g>\n\t\t<path fill=\"currentColor\" d=\"M15.2,8.4c-2.1,0-3.8,1.7-3.8,3.8s1.7,3.8,3.8,3.8c2.1,0,3.8-1.7,3.8-3.8S17.2,8.4,15.2,8.4z\"></path>\n\t\t<path
+  fill=\"currentColor\" d=\"M27.3,4.8c0,0-3.8,0-3.8,0C22,4.8,21.3,0,19.7,0h-9.1C9,0,8.3,4.8,6.8,4.8H3c-1.7,0-3,1.3-3,3v10.9\n\t\t\tc0,1.7,1.3,3,3,3h24.3c1.7,0,3-1.3,3-3V7.8C30.3,6.2,29,4.8,27.3,4.8z
+  M15.2,17.6c-3,0-5.5-2.4-5.5-5.5s2.4-5.5,5.5-5.5\n\t\t\ts5.5,2.4,5.5,5.5S18.2,17.6,15.2,17.6z
+  M26.2,10.6c-0.2,0.2-0.5,0.3-0.7,0.3c-0.3,0-0.5-0.1-0.7-0.3c-0.2-0.2-0.3-0.4-0.3-0.7\n\t\t\tc0-0.3,0.1-0.5,0.3-0.7c0.4-0.4,1-0.4,1.4,0c0.2,0.2,0.3,0.4,0.3,0.7C26.5,10.1,26.4,10.4,26.2,10.6z\"></path>\n\t</g>\n\t<path
+  fill=\"currentColor\" d=\"M5.5,3.9h-2c-0.6,0-1-0.4-1-1s0.4-1,1-1h2c0.6,0,1,0.4,1,1S6,3.9,5.5,3.9z\"></path>\n</g>\n</symbol><symbol
+  id=\"camera-roll\" viewBox=\"0 0 25 25\" enable-background=\"new 0 0 25 25\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M22,7.7h-4.7V3c0-1.6-1.3-3-3-3H3C1.3,0,0,1.3,0,3v11.3c0,1.6,1.3,3,3,3h4.7V22c0,1.7,1.3,3,3,3H22\n\t\tc1.7,0,3-1.3,3-3V10.7C25,9,23.7,7.7,22,7.7z
+  M7.7,10.7v4.7H3c-0.5,0-1-0.4-1-1V3c0-0.5,0.5-1,1-1h11.3c0.6,0,1,0.5,1,1v4.7h-4.7\n\t\tC9,7.7,7.7,9,7.7,10.7z
+  M23,22c0,0.6-0.5,1-1,1H10.7c-0.5,0-1-0.4-1-1V10.7c0-0.6,0.5-1,1-1H22c0.5,0,1,0.4,1,1V22z\"></path>\n\t<g>\n\t\t<path
+  fill=\"currentColor\" d=\"M16.3,20.2c-0.6,0-1-0.4-1-1v-6.3c0-0.6,0.4-1,1-1s1,0.4,1,1v6.3C17.3,19.8,16.9,20.2,16.3,20.2z\"></path>\n\t\t<path
+  fill=\"currentColor\" d=\"M19.5,17h-6.3c-0.6,0-1-0.4-1-1s0.4-1,1-1h6.3c0.6,0,1,0.4,1,1S20.1,17,19.5,17z\"></path>\n\t</g>\n</g>\n</symbol><symbol
+  id=\"code\" viewBox=\"0 0 22 11.3\" enable-background=\"new 0 0 22 11.3\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M16.5,11.1c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l3.8-3.8l-3.8-3.8c-0.4-0.4-0.4-1,0-1.4\n\t\ts1-0.4,1.4,0l4.5,4.5c0.4,0.4,0.4,1,0,1.4l-4.5,4.5C17,11,16.7,11.1,16.5,11.1z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M5.5,11.1c-0.3,0-0.5-0.1-0.7-0.3L0.3,6.3C0.1,6.1,0,5.8,0,5.5S0.1,5,0.3,4.8l4.5-4.5c0.4-0.4,1-0.4,1.4,0\n\t\ts0.4,1,0,1.4L2.4,5.5l3.8,3.8c0.4,0.4,0.4,1,0,1.4C6.1,11,5.8,11.1,5.5,11.1z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M9.3,11.3c-0.1,0-0.2,0-0.4-0.1C8.4,11,8.1,10.5,8.3,9.9l3.5-9.1c0.2-0.5,0.8-0.8,1.3-0.6\n\t\tc0.5,0.2,0.8,0.8,0.6,1.3l-3.5,9.1C10.1,11.1,9.7,11.3,9.3,11.3z\"></path>\n</g>\n</symbol><symbol
+  id=\"comment\" viewBox=\"0 0 23 23.8\" enable-background=\"new 0 0 23 23.8\" xml:space=\"preserve\">\n<metadata>\n\t<sfw
+  xmlns=\"&amp;ns_sfw;\">\n\t\t<slices></slices>\n\t\t<slicesourcebounds width=\"3121.4\"
+  height=\"1504.8\" x=\"-639\" y=\"767\" bottomleftorigin=\"true\"></slicesourcebounds>\n\t</sfw>\n</metadata>\n<g>\n\t<g>\n\t\t<path
+  fill=\"currentColor\" d=\"M19,2c1.1,0,2,0.8,2,1.9v9c0,1-0.9,2.1-2,2.1h-3.4L11,19.2V15H4c-1.1,0-2-1.1-2-2.1v-9C2,2.8,2.9,2,4,2H19\n\t\t\t
+  M19,0H4C1.8,0,0,1.7,0,3.9v9C0,15.1,1.8,17,4,17h5v2.2v4.6l3.4-3.1l4-3.7H19c2.2,0,4-1.9,4-4.1v-9C23,1.7,21.2,0,19,0L19,0z\"></path>\n\t</g>\n</g>\n</symbol><symbol
+  id=\"comment-add\" viewBox=\"0 0 23 23.8\" enable-background=\"new 0 0 23 23.8\"
+  xml:space=\"preserve\">\n<metadata>\n\t<sfw xmlns=\"&amp;ns_sfw;\">\n\t\t<slices></slices>\n\t\t<slicesourcebounds
+  width=\"3121.4\" height=\"1504.8\" x=\"-639\" y=\"767\" bottomleftorigin=\"true\"></slicesourcebounds>\n\t</sfw>\n</metadata>\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M12,12.7c-0.6,0-1-0.4-1-1V6.3c0-0.6,0.4-1,1-1s1,0.4,1,1v5.4C13,12.2,12.6,12.7,12,12.7z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M15,10H9c-0.6,0-1-0.4-1-1s0.4-1,1-1h6c0.6,0,1,0.4,1,1S15.6,10,15,10z\"></path>\n</g>\n<g>\n\t<g>\n\t\t<path
+  fill=\"currentColor\" d=\"M19,2c1.1,0,2,0.8,2,1.9v9c0,1-0.9,2.1-2,2.1h-3.4L11,19.2V15H4c-1.1,0-2-1.1-2-2.1v-9C2,2.8,2.9,2,4,2H19\n\t\t\t
+  M19,0H4C1.8,0,0,1.7,0,3.9v9C0,15.1,1.8,17,4,17h5v2.2v4.6l3.4-3.1l4-3.7H19c2.2,0,4-1.9,4-4.1v-9C23,1.7,21.2,0,19,0L19,0z\"></path>\n\t</g>\n</g>\n</symbol><symbol
+  id=\"degree\" viewBox=\"0 0 8.1 8.2\" enable-background=\"new 0 0 8.1 8.2\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M8.1,4.1c0,2.2-1.8,4.1-4.1,4.1c-2.3,0-4-1.8-4-4.1S1.8,0,4.1,0C6.3,0,8.1,1.8,8.1,4.1z
+  M1.7,4.1\n\t\tc0,1.3,1,2.4,2.4,2.4s2.3-1.1,2.3-2.4c0-1.3-1-2.3-2.3-2.3C2.8,1.7,1.7,2.8,1.7,4.1z\"></path>\n</g>\n</symbol><symbol
+  id=\"edit\" viewBox=\"0 0 19.9 21.3\" enable-background=\"new 0 0 19.9 21.3\" xml:space=\"preserve\">\n<metadata>\n\t<sfw
+  xmlns=\"&amp;ns_sfw;\">\n\t\t<slices></slices>\n\t\t<slicesourcebounds width=\"3121.4\"
+  height=\"1504.8\" x=\"-639\" y=\"767\" bottomleftorigin=\"true\"></slicesourcebounds>\n\t</sfw>\n</metadata>\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M12,21.3H2c-1.1,0-2-0.9-2-2v-14c0-1.1,0.9-2,2-2h5c0.6,0,1,0.4,1,1s-0.4,1-1,1H2v14h10v-5c0-0.6,0.4-1,1-1\n\t\ts1,0.4,1,1v5C14,20.4,13.1,21.3,12,21.3z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M19.3,2.1l-1.6-1.6c-0.8-0.8-2.1-0.8-2.8,0l-1.5,1.5c0,0,0,0,0,0c0,0,0,0,0,0l-7,7C6,9.4,5.8,9.7,5.8,10.1\n\t\tl-0.5,2.1c-0.1,0.6,0,1.2,0.4,1.7c0.4,0.5,0.9,0.8,1.6,0.8c0.2,0,0.3,0,0.5-0.1l2.1-0.5c0.3-0.1,0.7-0.3,0.9-0.5l7-6.9\n\t\tc0,0,0.1,0,0.1-0.1c0,0,0,0,0.1-0.1L19.3,5c0.4-0.4,0.6-0.9,0.6-1.4S19.7,2.5,19.3,2.1z
+  M9.3,12.2l-2.1,0.5l0.5-2.1L14,4.3l1.6,1.6\n\t\tL9.3,12.2z M17,4.4l-1.6-1.6L16.3,2l1.6,1.6L17,4.4z\"></path>\n</g>\n</symbol><symbol
+  id=\"edit-a-copy\" viewBox=\"0 0 21.1 18\" enable-background=\"new 0 0 21.1 18\"
+  xml:space=\"preserve\">\n<metadata>\n\t<sfw xmlns=\"&amp;ns_sfw;\">\n\t\t<slices></slices>\n\t\t<slicesourcebounds
+  width=\"3121.4\" height=\"1504.8\" x=\"-639\" y=\"767\" bottomleftorigin=\"true\"></slicesourcebounds>\n\t</sfw>\n</metadata>\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M14,18H7c-1.1,0-2-0.9-2-2V7c0-1.1,0.9-2,2-2h2c0.6,0,1,0.4,1,1S9.6,7,9,7H7v9h7v-2c0-0.6,0.4-1,1-1\n\t\ts1,0.4,1,1v2C16,17.1,15.1,18,14,18z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M3,13H2c-1.1,0-2-0.9-2-2V2c0-1.1,0.9-2,2-2h7c1.1,0,2,0.9,2,2v1c0,0.6-0.4,1-1,1S9,3.6,9,3V2H2v9h1\n\t\tc0.6,0,1,0.4,1,1S3.6,13,3,13z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M20.3,4.1L18.2,2c-0.4-0.4-1-0.4-1.4,0l-2.3,2.3L9.9,8.8C9.8,8.9,9.7,9.1,9.6,9.3l-0.7,2.9\n\t\tc-0.2,0.7,0.5,1.4,1.2,1.2l2.9-0.7c0.2-0.1,0.3-0.1,0.5-0.3L18,7.9c0,0,0,0,0,0c0,0,0,0,0,0l2.2-2.2C20.7,5.2,20.7,4.5,20.3,4.1z\n\t\t
+  M17.5,4.1l0.8,0.8l-0.9,0.9l-0.8-0.8L17.5,4.1z M12.3,10.8l-1,0.2l0.2-1l3.7-3.7l0.8,0.8L12.3,10.8z\"></path>\n</g>\n</symbol><symbol
+  id=\"f-active\" viewBox=\"0 0 6.8 12.4\" enable-background=\"new 0 0 6.8 12.4\"
+  xml:space=\"preserve\">\n<g>\n\t<path fill=\"currentColor\" d=\"M0,0h6.8v2.7H3v2h3.7v2.8H3v4.9H0V0z\"></path>\n</g>\n</symbol><symbol
+  id=\"f-inactive\" viewBox=\"0 0 6.1 12.4\" enable-background=\"new 0 0 6.1 12.4\"
+  xml:space=\"preserve\">\n<g>\n\t<path fill=\"currentColor\" d=\"M0,0h6.1v1.2H1.2v4.4h4.9v1.2H1.2v5.6H0V0z\"></path>\n</g>\n</symbol><symbol
+  id=\"facebook\" viewBox=\"0 0 11.4 22\" enable-background=\"new 0 0 11.4 22\" xml:space=\"preserve\">\n<path
+  id=\"aqf_2_\" fill=\"currentColor\" d=\"M7.4,22V12h3.4l0.5-3.9H7.4V5.6c0-1.1,0.3-1.9,1.9-1.9l2.1,0V0.2c-0.4,0-1.6-0.2-3-0.2\n\tc-3,0-5,1.8-5,5.2v2.9H0V12h3.4v10H7.4z\"></path>\n</symbol><symbol
+  id=\"google-plus\" viewBox=\"0 0 20 20\" enable-background=\"new 0 0 20 20\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M7.9,4.4C7.7,4.2,7.4,4.1,7,4.1c-0.5,0-0.8,0.2-1.1,0.6C5.6,5,5.5,5.5,5.5,5.9c0,0.6,0.2,1.3,0.5,1.9\n\t\tc0.2,0.3,0.4,0.6,0.7,0.8C7,8.8,7.3,8.9,7.7,8.9c0.4,0,0.8-0.2,1.1-0.5C8.9,8.2,9,8,9,7.8c0-0.2,0-0.4,0-0.6c0-0.7-0.2-1.3-0.5-2\n\t\tC8.4,4.9,8.2,4.6,7.9,4.4z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M0,0v20h20V0H0z M9.7,4.4c0.1,0.1,0.3,0.3,0.4,0.5c0.1,0.2,0.2,0.4,0.3,0.6c0.1,0.2,0.1,0.5,0.1,0.9\n\t\tc0,0.6-0.1,1.1-0.4,1.5C10,8.1,9.9,8.2,9.7,8.4C9.6,8.5,9.4,8.7,9.2,8.8C9.1,8.9,9,9.1,8.9,9.2C8.8,9.3,8.8,9.5,8.8,9.7\n\t\tc0,0.2,0.1,0.3,0.2,0.4c0.1,0.1,0.2,0.2,0.3,0.3l0.6,0.5c0.4,0.3,0.7,0.6,0.9,1c0.3,0.4,0.4,0.8,0.4,1.4c0,0.8-0.4,1.6-1.1,2.2\n\t\tc-0.8,0.7-1.8,1-3.2,1c-1.2,0-2.1-0.3-2.7-0.8c-0.6-0.5-0.9-1-0.9-1.7c0-0.3,0.1-0.7,0.3-1c0.2-0.4,0.5-0.7,1-1\n\t\tc0.5-0.3,1.1-0.5,1.7-0.6c0.6-0.1,1.1-0.1,1.5-0.1c-0.1-0.2-0.2-0.3-0.3-0.5c-0.1-0.2-0.2-0.4-0.2-0.6c0-0.1,0-0.3,0.1-0.4\n\t\tc0-0.1,0.1-0.2,0.1-0.3c-0.2,0-0.4,0-0.5,0C6,9.4,5.3,9.1,4.8,8.6C4.3,8,4.1,7.4,4.1,6.7c0-0.8,0.3-1.6,1-2.3\n\t\tc0.5-0.4,1-0.7,1.5-0.8c0.5-0.1,1-0.2,1.4-0.2h3.4l-1,0.6h-1C9.5,4.2,9.6,4.3,9.7,4.4z
+  M16.8,9.9h-1.8v1.8h-1V9.9h-1.8v0h0v-1h1.8\n\t\tV7h1v1.8h1.8v0h0V9.9z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M7.8,11.7c-0.1,0-0.3,0-0.7,0c-0.4,0-0.7,0.1-1.1,0.2C6,12,5.9,12,5.7,12.1c-0.2,0.1-0.3,0.2-0.5,0.3\n\t\tc-0.2,0.1-0.3,0.3-0.4,0.5c-0.1,0.2-0.2,0.5-0.2,0.8c0,0.6,0.3,1.1,0.8,1.5c0.5,0.4,1.2,0.6,2.1,0.6c0.8,0,1.4-0.2,1.8-0.5\n\t\tc0.4-0.3,0.6-0.8,0.6-1.3c0-0.4-0.1-0.8-0.4-1.1c-0.3-0.3-0.8-0.7-1.4-1.1C8.1,11.7,8,11.7,7.8,11.7z\"></path>\n\t<rect
+  x=\"14.9\" y=\"8.8\" fill=\"currentColor\" width=\"1.8\" height=\"0\"></rect>\n\t<polygon
+  fill=\"currentColor\" points=\"13.9,8.8 13.9,8.8 12.1,8.8 12.1,9.8 12.1,9.8 12.1,8.8
+  \t\"></polygon>\n\t<polygon fill=\"currentColor\" points=\"13.9,7 14.9,7 14.9,8.8
+  14.9,8.8 14.9,7 13.9,7 13.9,8.8 13.9,8.8 \t\"></polygon>\n\t<polygon fill=\"currentColor\"
+  points=\"14.9,11.6 13.9,11.6 13.9,9.9 13.9,9.9 13.9,11.6 14.9,11.6 14.9,9.9 14.9,9.9
+  \t\"></polygon>\n\t<rect x=\"14.9\" y=\"8.8\" fill=\"currentColor\" width=\"0\"
+  height=\"0\"></rect>\n\t<rect x=\"13.9\" y=\"8.8\" fill=\"currentColor\" width=\"0\"
+  height=\"0\"></rect>\n\t<polyline fill=\"currentColor\" points=\"13.9,9.9 13.9,9.8
+  12.1,9.8 12.1,9.9 \t\"></polyline>\n\t<rect x=\"13.9\" y=\"9.8\" fill=\"currentColor\"
+  width=\"0\" height=\"0\"></rect>\n</g>\n</symbol><symbol id=\"home\" viewBox=\"0
+  0 20.6 18.5\" enable-background=\"new 0 0 20.6 18.5\" xml:space=\"preserve\">\n<metadata>\n\t<sfw
+  xmlns=\"&amp;ns_sfw;\">\n\t\t<slices></slices>\n\t\t<slicesourcebounds width=\"2425.4\"
+  height=\"1507.5\" x=\"57\" y=\"764.2\" bottomleftorigin=\"true\"></slicesourcebounds>\n\t</sfw>\n</metadata>\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M20.2,7.5l-9.3-7.3c-0.4-0.3-0.9-0.3-1.2,0L0.4,7.5C0,7.9-0.1,8.5,0.2,8.9c0.3,0.4,1,0.5,1.4,0.2l1.2-0.9\n\t\tv9.3c0,0.5,0.4,1,1,1h4.6c0.6,0,1-0.5,1-1v-4.5h1.8v4.5c0,0.5,0.5,1,1,1h4.6c0.6,0,1-0.5,1-1V8.2L19,9.1c0.2,0.1,0.4,0.2,0.6,0.2\n\t\tc0.3,0,0.6-0.1,0.8-0.4C20.8,8.5,20.7,7.9,20.2,7.5z
+  M15.8,16.5h-2.6v-4.5c0-0.6-0.4-1-1-1H8.4c-0.6,0-1,0.4-1,1v4.5H4.8V6.6\n\t\tl5.5-4.3l5.5,4.3V16.5z\"></path>\n</g>\n</symbol><symbol
+  id=\"instagram\" viewBox=\"-782.5 689.9 22.1 22.1\" style=\"enable-background:new
+  -782.5 689.9 22.1 22.1;\" xml:space=\"preserve\">\n<g id=\"atXMLID_7_\">\n\t<path
+  fill=\"currentColor\" id=\"atXMLID_8_\" d=\"M-764.7,689.9h-13.6c-2.4,0-4.3,1.9-4.3,4.3v4.5v9c0,2.4,1.9,4.3,4.3,4.3h13.6\n\t\tc2.4,0,4.3-1.9,4.3-4.3v-9v-4.5C-760.4,691.8-762.3,689.9-764.7,689.9z
+  M-763.4,692.4l0.5,0v0.5v3.3l-3.7,0l0-3.7L-763.4,692.4z\n\t\t M-774.6,698.7c0.7-1,1.9-1.6,3.2-1.6c1.3,0,2.4,0.6,3.2,1.6c0.5,0.6,0.7,1.4,0.7,2.3c0,2.1-1.7,3.9-3.9,3.9\n\t\tc-2.1,0-3.9-1.7-3.9-3.9C-775.3,700.1-775.1,699.3-774.6,698.7z
+  M-762.6,707.7c0,1.2-0.9,2.1-2.1,2.1h-13.6c-1.2,0-2.1-0.9-2.1-2.1\n\t\tv-9h3.3c-0.3,0.7-0.4,1.5-0.4,2.3c0,3.3,2.7,6,6,6s6-2.7,6-6c0-0.8-0.2-1.6-0.4-2.3h3.3V707.7z\"></path>\n</g>\n</symbol><symbol
+  id=\"mail\" viewBox=\"0 0 26 20\" enable-background=\"new 0 0 26 20\" xml:space=\"preserve\">\n<metadata>\n\t<sfw
+  xmlns=\"&amp;ns_sfw;\">\n\t\t<slices></slices>\n\t\t<slicesourcebounds width=\"3121.4\"
+  height=\"1504.8\" x=\"-639\" y=\"767\" bottomleftorigin=\"true\"></slicesourcebounds>\n\t</sfw>\n</metadata>\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M23,0H3C1.3,0,0,1.3,0,3v14c0,1.7,1.3,3,3,3h20c1.7,0,3-1.3,3-3V3C26,1.3,24.7,0,23,0z
+  M22.4,2L13,9.3\n\t\tL3.6,2H22.4z M24,17c0,0.6-0.5,1-1,1H3c-0.5,0-1-0.4-1-1V3.3l10.4,8.1c0.2,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2L24,3.3V17z\"></path>\n</g>\n</symbol><symbol
+  id=\"menu\" viewBox=\"0 0 18.2 16\" enable-background=\"new 0 0 18.2 16\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M17.2,2H1C0.4,2,0,1.6,0,1s0.4-1,1-1h16.2c0.6,0,1,0.4,1,1S17.7,2,17.2,2z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M17.2,9H1C0.4,9,0,8.6,0,8s0.4-1,1-1h16.2c0.6,0,1,0.4,1,1S17.7,9,17.2,9z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M17.2,16H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h16.2c0.6,0,1,0.4,1,1S17.7,16,17.2,16z\"></path>\n</g>\n</symbol><symbol
+  id=\"more\" viewBox=\"0 0 19.1 4\" enable-background=\"new 0 0 19.1 4\" xml:space=\"preserve\">\n<g>\n\t<circle
+  fill=\"currentColor\" cx=\"2\" cy=\"2\" r=\"2\"></circle>\n\t<circle fill=\"currentColor\"
+  cx=\"9.6\" cy=\"2\" r=\"2\"></circle>\n\t<circle fill=\"currentColor\" cx=\"17.1\"
+  cy=\"2\" r=\"2\"></circle>\n</g>\n</symbol><symbol id=\"movie\" viewBox=\"0 0 24
+  24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">\n<g>\n\t<g>\n\t\t<path
+  fill=\"currentColor\" d=\"M17.6,12c0,0.7-0.4,1.4-1,1.7l-5.3,3c-0.3,0.2-0.6,0.3-1,0.3c-0.4,0-0.7-0.1-1-0.3c-0.6-0.4-1-1-1-1.7V9\n\t\t\tc0-0.7,0.4-1.4,1-1.7C9.7,7.1,10,7,10.4,7c0.3,0,0.7,0.1,1,0.3l5.3,3C17.3,10.6,17.6,11.3,17.6,12z\"></path>\n\t</g>\n\t<path
+  fill=\"currentColor\" d=\"M12,2c5.5,0,10,4.5,10,10c0,5.5-4.5,10-10,10C6.5,22,2,17.5,2,12C2,6.5,6.5,2,12,2
+  M12,0C5.4,0,0,5.4,0,12\n\t\ts5.4,12,12,12s12-5.4,12-12S18.6,0,12,0L12,0z\"></path>\n</g>\n</symbol><symbol
+  id=\"pinterest\" viewBox=\"0 0 20 20\" enable-background=\"new 0 0 20 20\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M10,0C4.5,0,0,4.5,0,10c0,4.1,2.5,7.6,6,9.2c0-0.7,0-1.5,0.2-2.3c0.2-0.8,1.3-5.4,1.3-5.4s-0.3-0.6-0.3-1.6\n\t\tc0-1.5,0.9-2.6,1.9-2.6c0.9,0,1.3,0.7,1.3,1.5c0,0.9-0.6,2.3-0.9,3.5c-0.3,1.1,0.5,1.9,1.6,1.9c1.9,0,3.2-2.4,3.2-5.3\n\t\tc0-2.2-1.5-3.8-4.2-3.8c-3,0-4.9,2.3-4.9,4.8c0,0.9,0.3,1.5,0.7,2C6,12,6.1,12.1,6,12.4c0,0.2-0.2,0.6-0.2,0.8\n\t\tc-0.1,0.3-0.3,0.3-0.5,0.3c-1.4-0.6-2-2.1-2-3.8c0-2.8,2.4-6.2,7.1-6.2c3.8,0,6.3,2.8,6.3,5.7c0,3.9-2.2,6.9-5.4,6.9\n\t\tc-1.1,0-2.1-0.6-2.4-1.2c0,0-0.6,2.3-0.7,2.7c-0.2,0.8-0.6,1.5-1,2.1C8.1,19.9,9,20,10,20c5.5,0,10-4.5,10-10C20,4.5,15.5,0,10,0z\"></path>\n</g>\n</symbol><symbol
+  id=\"play\" viewBox=\"-780.6 689.9 19.8 22.1\" style=\"enable-background:new -780.6
+  689.9 19.8 22.1;\" xml:space=\"preserve\">\n<path fill=\"currentColor\" id=\"azXMLID_1287_\"
+  d=\"M-780.6,691.2v19.5c0,1,1.1,1.6,1.9,1.1l17.2-9.7c0.9-0.5,0.9-1.8,0-2.3l-17.2-9.7\n\tC-779.5,689.6-780.6,690.2-780.6,691.2z\"></path>\n</symbol><symbol
+  id=\"power\" viewBox=\"0 0 18.4 20.5\" enable-background=\"new 0 0 18.4 20.5\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M9.2,10.5C8.5,10.5,8,9.9,8,9.2v-8C8,0.6,8.5,0,9.2,0s1.2,0.6,1.2,1.2v8C10.5,9.9,9.9,10.5,9.2,10.5z\"></path>\n\t<g>\n\t\t<path
+  fill=\"currentColor\" d=\"M9.2,20.5c-5.1,0-9.2-4.1-9.2-9.2c0-2.5,1-4.8,2.7-6.5c0.5-0.5,1.3-0.5,1.8,0C5,5.3,5,6.1,4.5,6.6\n\t\t\tc-1.3,1.3-2,3-2,4.7c0,3.7,3,6.7,6.7,6.7c3.7,0,6.7-3,6.7-6.7c0-1.8-0.7-3.5-2-4.7c-0.5-0.5-0.5-1.3,0-1.8c0.5-0.5,1.3-0.5,1.8,0\n\t\t\tc1.8,1.7,2.7,4.1,2.7,6.5C18.4,16.4,14.3,20.5,9.2,20.5z\"></path>\n\t</g>\n</g>\n</symbol><symbol
+  id=\"print\" viewBox=\"0 0 22 28\" enable-background=\"new 0 0 22 28\" xml:space=\"preserve\">\n<metadata>\n\t<sfw
+  xmlns=\"&amp;ns_sfw;\">\n\t\t<slices></slices>\n\t\t<slicesourcebounds width=\"3121.4\"
+  height=\"1504.8\" x=\"-639\" y=\"767\" bottomleftorigin=\"true\"></slicesourcebounds>\n\t</sfw>\n</metadata>\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M18.9,2C19.5,2,20,2.5,20,3.1v21.8c0,0.6-0.5,1.1-1.1,1.1H3.1C2.5,26,2,25.5,2,24.9V3.1C2,2.5,2.5,2,3.1,2\n\t\tH18.9
+  M18.9,0H3.1C1.4,0,0,1.4,0,3.1v21.8C0,26.6,1.4,28,3.1,28h15.8c1.7,0,3.1-1.4,3.1-3.1V3.1C22,1.4,20.6,0,18.9,0L18.9,0z\"></path>\n\t<g>\n\t\t<rect
+  x=\"4\" y=\"5\" fill=\"currentColor\" width=\"14\" height=\"2\"></rect>\n\t</g>\n\t<g>\n\t\t<rect
+  x=\"4\" y=\"9\" fill=\"currentColor\" width=\"14\" height=\"2\"></rect>\n\t</g>\n\t<g>\n\t\t<rect
+  x=\"4\" y=\"13\" fill=\"currentColor\" width=\"14\" height=\"2\"></rect>\n\t</g>\n\t<g>\n\t\t<rect
+  x=\"4\" y=\"17\" fill=\"currentColor\" width=\"13\" height=\"2\"></rect>\n\t</g>\n\t<g>\n\t\t<rect
+  x=\"4\" y=\"21\" fill=\"currentColor\" width=\"8\" height=\"2\"></rect>\n\t</g>\n</g>\n</symbol><symbol
+  id=\"rate\" viewBox=\"0 0 35.5 34\" enable-background=\"new 0 0 35.5 34\" xml:space=\"preserve\">\n<path
+  fill=\"currentColor\" d=\"M17.8,2l4.7,10.5l11,1l-8.7,8.1L27.5,32l-9.7-6.1L8,32l2.7-10.5L2,13.5l11-1L17.8,2
+  M17.8,0\n\tc-0.8,0-1.5,0.5-1.8,1.2l-4.2,9.4l-9.9,0.9c-0.8,0.1-1.5,0.6-1.7,1.3c-0.3,0.7,0,1.6,0.5,2.1l7.9,7.3l-2.4,9.3\n\tc-0.2,0.8,0.1,1.6,0.8,2.1C7.2,33.9,7.6,34,8,34c0.4,0,0.7-0.1,1.1-0.3l8.7-5.4l8.7,5.4c0.3,0.2,0.7,0.3,1.1,0.3\n\tc0.4,0,0.8-0.1,1.2-0.4c0.7-0.5,1-1.3,0.8-2.1L27,22.2l7.9-7.3c0.6-0.5,0.8-1.4,0.5-2.1c-0.3-0.7-0.9-1.3-1.7-1.3l-9.9-0.9l-4.2-9.4\n\tC19.3,0.5,18.6,0,17.8,0L17.8,0z\"></path>\n</symbol><symbol
+  id=\"rated\" viewBox=\"0 0 35.5 34\" enable-background=\"new 0 0 35.5 34\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M34.9,14.9L27,22.2l2.4,9.3c0.2,0.8-0.1,1.6-0.8,2.1c-0.3,0.2-0.8,0.4-1.2,0.4c-0.4,0-0.7-0.1-1.1-0.3\n\t\tl-8.7-5.4l-8.7,5.4C8.8,33.9,8.4,34,8,34c-0.4,0-0.8-0.1-1.2-0.4c-0.7-0.5-1-1.3-0.8-2.1l2.4-9.3l-7.9-7.3\n\t\tc-0.6-0.5-0.8-1.4-0.5-2.1c0.2-0.8,0.9-1.3,1.7-1.4l9.9-0.9l4.2-9.4C16.3,0.5,17,0,17.8,0c0.8,0,1.5,0.5,1.8,1.2l4.2,9.4l9.9,0.9\n\t\tc0.8,0.1,1.5,0.6,1.7,1.4C35.7,13.6,35.5,14.4,34.9,14.9z\"></path>\n</g>\n</symbol><symbol
+  id=\"save\" viewBox=\"0 0 15 26\" enable-background=\"new 0 0 15 26\" xml:space=\"preserve\">\n<metadata>\n\t<sfw
+  xmlns=\"&amp;ns_sfw;\">\n\t\t<slices></slices>\n\t\t<slicesourcebounds width=\"3121.4\"
+  height=\"1504.8\" x=\"-639\" y=\"767\" bottomleftorigin=\"true\"></slicesourcebounds>\n\t</sfw>\n</metadata>\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M11.2,2C12.3,2,13,2.6,13,3v18.4l-4.1-3.9C8.5,17.2,8,17,7.5,17s-1,0.2-1.4,0.5L2,21.4V3c0-0.4,0.7-1,1.8-1\n\t\tH11.2
+  M11.2,0H3.8C1.7,0,0,1.3,0,3v23l7.5-7l7.5,7V3C15,1.3,13.3,0,11.2,0L11.2,0z\"></path>\n</g>\n</symbol><symbol
+  id=\"saved\" viewBox=\"0 0 15 26\" enable-background=\"new 0 0 15 26\" xml:space=\"preserve\">\n<metadata>\n\t<sfw
+  xmlns=\"&amp;ns_sfw;\">\n\t\t<slices></slices>\n\t\t<slicesourcebounds width=\"3121.4\"
+  height=\"1504.8\" x=\"-639\" y=\"767\" bottomleftorigin=\"true\"></slicesourcebounds>\n\t</sfw>\n</metadata>\n<g>\n\t<g>\n\t\t<path
+  fill=\"currentColor\" d=\"M15,3v23l-7.5-7L0,26V3c0-1.7,1.7-3,3.8-3h7.5C13.3,0,15,1.3,15,3z\"></path>\n\t</g>\n</g>\n</symbol><symbol
+  id=\"share\" viewBox=\"0 0 19.2 19.2\" enable-background=\"new 0 0 19.2 19.2\" xml:space=\"preserve\">\n<metadata>\n\t<sfw
+  xmlns=\"&amp;ns_sfw;\">\n\t\t<slices></slices>\n\t\t<slicesourcebounds width=\"3121.4\"
+  height=\"1504.8\" x=\"-639\" y=\"767\" bottomleftorigin=\"true\"></slicesourcebounds>\n\t</sfw>\n</metadata>\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M16,19.2H2c-1.1,0-2-0.9-2-2v-14c0-1.1,0.9-2,2-2h3c0.6,0,1,0.4,1,1s-0.4,1-1,1H2v14h14v-3c0-0.6,0.4-1,1-1\n\t\ts1,0.4,1,1v3C18,18.3,17.1,19.2,16,19.2z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M19.2,0v7.2c0,0.6-0.5,1-1,1c-0.6,0-1-0.4-1-1V3.4l-8.5,8.5c-0.2,0.2-0.5,0.3-0.7,0.3s-0.5-0.1-0.7-0.3\n\t\tc-0.4-0.4-0.4-1,0-1.4L15.8,2H12c-0.5,0-1-0.4-1-1c0-0.6,0.5-1,1-1H19.2z\"></path>\n</g>\n</symbol><symbol
+  id=\"sides\" viewBox=\"0 0 19.5 19.5\" enable-background=\"new 0 0 19.5 19.5\" xml:space=\"preserve\">\n<g>\n\t<g>\n\t\t<path
+  fill=\"currentColor\" d=\"M16.5,19.5c-0.2,0-0.4-0.1-0.5-0.2l-8.7-9.1c-0.7,0.4-1.6,0.2-2.2-0.4L3,7.6C2.8,7.5,2.7,7.3,2.7,7.1\n\t\t\tc0-0.2,0.1-0.4,0.2-0.5L6.6,3c0.3-0.3,0.8-0.3,1.1,0l2.2,2.2c0.6,0.6,0.7,1.4,0.4,2.2l9.1,8.7c0.2,0.1,0.2,0.3,0.2,0.6\n\t\t\tc0,0.1,0,1.3-0.8,2.1C17.8,19.5,16.7,19.5,16.5,19.5C16.5,19.5,16.5,19.5,16.5,19.5z
+  M7.4,8.5C7.4,8.5,7.4,8.5,7.4,8.5\n\t\t\tc0.2,0,0.4,0.1,0.5,0.2l8.9,9.3c0.2-0.1,0.6-0.2,0.8-0.4s0.3-0.5,0.4-0.8L8.7,7.9C8.6,7.8,8.5,7.6,8.5,7.4S8.5,7,8.7,6.9\n\t\t\tc0.4-0.4,0.1-0.6,0.1-0.7L7.1,4.5L4.5,7.1l1.6,1.6c0.1,0.1,0.2,0.1,0.3,0.1c0.2,0,0.3-0.1,0.4-0.2C7,8.5,7.2,8.5,7.4,8.5z\"></path>\n\n\t\t\t<path
+  fill=\"currentColor\" stroke=\"#FFFFFF\" stroke-width=\"1.5\" stroke-linecap=\"round\"
+  stroke-linejoin=\"round\" stroke-miterlimit=\"10\" d=\"\n\t\t\tM5.3,5.3\"></path>\n\t\t<path
+  fill=\"currentColor\" d=\"M7.1,4.2C6.9,4.2,6.7,4.2,6.6,4L3.9,1.3C3.6,1,3.6,0.5,3.9,0.2s0.8-0.3,1.1,0L7.7,3c0.3,0.3,0.3,0.8,0,1.1\n\t\t\tC7.5,4.2,7.3,4.2,7.1,4.2z\"></path>\n\t\t<path
+  fill=\"currentColor\" d=\"M5.3,6C5.1,6,4.9,6,4.8,5.8L2,3.1C1.7,2.8,1.7,2.3,2,2s0.8-0.3,1.1,0l2.7,2.7c0.3,0.3,0.3,0.8,0,1.1\n\t\t\tC5.7,6,5.5,6,5.3,6z\"></path>\n\t\t<path
+  fill=\"currentColor\" d=\"M3.5,7.8C3.3,7.8,3.1,7.8,3,7.6L0.2,4.9c-0.3-0.3-0.3-0.8,0-1.1s0.8-0.3,1.1,0L4,6.6\n\t\t\tc0.3,0.3,0.3,0.8,0,1.1C3.9,7.8,3.7,7.8,3.5,7.8z\"></path>\n\t</g>\n\t<g>\n\t\t<path
+  fill=\"currentColor\" d=\"M4,19.5c-0.2,0-1.3,0-2-0.8c-0.8-0.8-0.8-1.9-0.8-2.1c0-0.2,0.1-0.4,0.2-0.5L6,11.7c0.3-0.3,0.8-0.3,1.1,0\n\t\t\tc0.3,0.3,0.3,0.8,0,1.1L2.7,17c0,0.2,0.1,0.5,0.3,0.7c0.2,0.2,0.5,0.3,0.7,0.3l4.2-4.4c0.3-0.3,0.8-0.3,1.1,0\n\t\t\tc0.3,0.3,0.3,0.8,0,1.1l-4.5,4.6C4.4,19.4,4.2,19.5,4,19.5C4,19.5,4,19.5,4,19.5z\"></path>\n\t\t<g>\n\t\t\t<path
+  fill=\"currentColor\" d=\"M14.7,9C14.7,9,14.7,9,14.7,9c-0.9,0-1.6-0.3-2.2-0.9c-0.7-0.7-1-1.6-0.8-2.7c0.1-1,0.6-2,1.4-2.7\n\t\t\t\tc0.9-0.9,2.1-1.4,3.2-1.4c0.9,0,1.6,0.3,2.2,0.9c1.3,1.3,1.1,3.8-0.6,5.4C17,8.4,15.9,9,14.7,9z
+  M16.4,2.8c-0.7,0-1.6,0.4-2.2,1\n\t\t\t\tc-0.5,0.5-0.9,1.2-1,1.9c-0.1,0.6,0.1,1.1,0.4,1.4c0.3,0.3,0.8,0.4,1.1,0.4c0.7,0,1.6-0.4,2.2-1c1.1-1.1,1.3-2.6,0.6-3.3\n\t\t\t\tC17.2,2.8,16.7,2.8,16.4,2.8z\"></path>\n\t\t</g>\n\t</g>\n</g>\n</symbol><symbol
+  id=\"spanner\" viewBox=\"0 0 14.6 8.3\" enable-background=\"new 0 0 14.6 8.3\" xml:space=\"preserve\">\n<path
+  fill=\"currentColor\" d=\"M7.3,8.3C7.1,8.3,6.8,8.2,6.6,8L0.3,1.7c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l5.6,5.6l5.6-5.6\n\tc0.4-0.4,1-0.4,1.4,0s0.4,1,0,1.4L8,8C7.8,8.2,7.6,8.3,7.3,8.3z\"></path>\n</symbol><symbol
+  id=\"steps\" viewBox=\"0 0 16.7 16\" enable-background=\"new 0 0 16.7 16\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M15.7,2H4.7c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.1c0.6,0,1,0.4,1,1S16.3,2,15.7,2z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M1,2C0.7,2,0.5,1.9,0.3,1.7C0.1,1.5,0,1.3,0,1c0-0.3,0.1-0.5,0.3-0.7c0.4-0.4,1-0.4,1.4,0\n\t\tC1.9,0.5,2,0.7,2,1c0,0.3-0.1,0.5-0.3,0.7S1.3,2,1,2z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M1,6.7c-0.3,0-0.5-0.1-0.7-0.3C0.1,6.2,0,5.9,0,5.7C0,5.4,0.1,5.1,0.3,5c0.4-0.4,1-0.4,1.4,0\n\t\tC1.9,5.1,2,5.4,2,5.7c0,0.3-0.1,0.5-0.3,0.7C1.5,6.6,1.3,6.7,1,6.7z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M1,11.3c-0.3,0-0.5-0.1-0.7-0.3C0.1,10.9,0,10.6,0,10.3c0-0.3,0.1-0.5,0.3-0.7c0.4-0.4,1-0.4,1.4,0\n\t\tC1.9,9.8,2,10.1,2,10.3c0,0.3-0.1,0.5-0.3,0.7C1.5,11.2,1.3,11.3,1,11.3z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M1,16c-0.3,0-0.5-0.1-0.7-0.3C0.1,15.5,0,15.3,0,15c0-0.3,0.1-0.5,0.3-0.7c0.4-0.4,1-0.4,1.4,0\n\t\tC1.9,14.5,2,14.7,2,15c0,0.3-0.1,0.5-0.3,0.7S1.3,16,1,16z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M12.3,6.7H4.7c-0.6,0-1-0.4-1-1s0.4-1,1-1h7.6c0.6,0,1,0.4,1,1S12.8,6.7,12.3,6.7z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M15.7,11.3H4.7c-0.6,0-1-0.4-1-1s0.4-1,1-1h11.1c0.6,0,1,0.4,1,1S16.3,11.3,15.7,11.3z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M9.3,16H4.7c-0.6,0-1-0.4-1-1s0.4-1,1-1h4.7c0.6,0,1,0.4,1,1S9.9,16,9.3,16z\"></path>\n</g>\n</symbol><symbol
+  id=\"tick\" viewBox=\"0 0 17.2 13.2\" enable-background=\"new 0 0 17.2 13.2\" xml:space=\"preserve\">\n<path
+  fill=\"currentColor\" d=\"M5.5,13.2L0.3,8c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l3.8,3.8l10-10c0.4-0.4,1-0.4,1.4,0s0.4,1,0,1.4L5.5,13.2z\n\t\"></path>\n</symbol><symbol
+  id=\"time-large\" viewBox=\"0 0 28.4 25.2\" enable-background=\"new 0 0 28.4 25.2\"
+  xml:space=\"preserve\">\n<g>\n\t<path fill=\"currentColor\" d=\"M15.8,25.2c-6.9,0-12.6-5.7-12.6-12.6c0-0.6,0.4-1,1-1s1,0.4,1,1c0,5.8,4.8,10.6,10.6,10.6\n\t\ts10.6-4.8,10.6-10.6S21.6,2,15.8,2c-0.6,0-1-0.4-1-1s0.4-1,1-1c6.9,0,12.6,5.7,12.6,12.6C28.4,19.5,22.7,25.2,15.8,25.2z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M1,14.4c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l3.2-3.2c0.4-0.4,1-0.4,1.4,0s0.4,1,0,1.4l-3.2,3.2\n\t\tC1.5,14.3,1.3,14.4,1,14.4z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M7.3,14.4c-0.3,0-0.5-0.1-0.7-0.3l-3.2-3.2c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0L8,12.7c0.4,0.4,0.4,1,0,1.4\n\t\tC7.8,14.3,7.6,14.4,7.3,14.4z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M12.4,17.4c-0.3,0-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l3.1-3.1V6c0-0.6,0.4-1,1-1s1,0.4,1,1V13\n\t\tc0,0.3-0.1,0.5-0.3,0.7l-3.4,3.4C12.9,17.3,12.6,17.4,12.4,17.4z\"></path>\n\t<circle
+  fill=\"currentColor\" cx=\"15.8\" cy=\"19.4\" r=\"1\"></circle>\n\t<circle fill=\"currentColor\"
+  cx=\"20.7\" cy=\"17.4\" r=\"1\"></circle>\n\t<circle fill=\"currentColor\" cx=\"22.8\"
+  cy=\"12.4\" r=\"1\"></circle>\n\t<circle fill=\"currentColor\" cx=\"20.7\" cy=\"7.4\"
+  r=\"1\"></circle>\n</g>\n</symbol><symbol id=\"time-small\" viewBox=\"0 0 19.7 17.5\"
+  enable-background=\"new 0 0 19.7 17.5\" xml:space=\"preserve\">\n<g>\n\t<path fill=\"currentColor\"
+  d=\"M10.9,17.5c-4.8,0-8.8-3.9-8.8-8.8C2.2,8.3,2.5,8,2.9,8s0.8,0.3,0.8,0.8c0,4,3.3,7.2,7.2,7.2\n\t\ts7.2-3.3,7.2-7.2s-3.3-7.2-7.2-7.2c-0.4,0-0.8-0.3-0.8-0.8S10.5,0,10.9,0c4.8,0,8.8,3.9,8.8,8.8S15.8,17.5,10.9,17.5z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M0.8,10C0.6,10,0.4,10,0.2,9.8c-0.3-0.3-0.3-0.8,0-1.1l2.2-2.2c0.3-0.3,0.8-0.3,1.1,0s0.3,0.8,0,1.1\n\t\tL1.3,9.8C1.1,10,0.9,10,0.8,10z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M5.1,10C4.9,10,4.7,10,4.6,9.8L2.4,7.6c-0.3-0.3-0.3-0.8,0-1.1s0.8-0.3,1.1,0l2.2,2.2\n\t\tc0.3,0.3,0.3,0.8,0,1.1C5.5,10,5.3,10,5.1,10z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M8.6,12.1c-0.2,0-0.4-0.1-0.5-0.2c-0.3-0.3-0.3-0.8,0-1.1l2.1-2.1V4.2c0-0.4,0.3-0.8,0.8-0.8\n\t\ts0.8,0.3,0.8,0.8v4.9c0,0.2-0.1,0.4-0.2,0.5l-2.3,2.3C9,12.1,8.8,12.1,8.6,12.1z\"></path>\n\t<circle
+  fill=\"currentColor\" cx=\"10.9\" cy=\"13.5\" r=\"0.8\"></circle>\n\t<circle fill=\"currentColor\"
+  cx=\"14.4\" cy=\"12\" r=\"0.8\"></circle>\n\t<circle fill=\"currentColor\" cx=\"15.8\"
+  cy=\"8.6\" r=\"0.8\"></circle>\n\t<circle fill=\"currentColor\" cx=\"14.4\" cy=\"5.2\"
+  r=\"0.8\"></circle>\n</g>\n</symbol><symbol id=\"twitter\" viewBox=\"0 0 27.1 22\"
+  enable-background=\"new 0 0 27.1 22\" xml:space=\"preserve\">\n<path fill=\"currentColor\"
+  d=\"M27.1,2.6c-1,0.4-2.1,0.7-3.2,0.9c1.1-0.7,2-1.8,2.4-3.1c-1.1,0.6-2.3,1.1-3.5,1.3c-1-1.1-2.5-1.8-4.1-1.8\n\tc-3.1,0-5.6,2.5-5.6,5.6c0,0.4,0,0.9,0.1,1.3C8.7,6.6,4.6,4.4,1.9,1C1.4,1.8,1.1,2.8,1.1,3.8c0,1.9,1,3.6,2.5,4.6\n\tc-0.9,0-1.8-0.3-2.5-0.7c0,0,0,0,0,0.1c0,2.7,1.9,4.9,4.5,5.4c-0.5,0.1-1,0.2-1.5,0.2c-0.4,0-0.7,0-1-0.1c0.7,2.2,2.8,3.8,5.2,3.9\n\tc-1.9,1.5-4.3,2.4-6.9,2.4c-0.4,0-0.9,0-1.3-0.1C2.5,21.1,5.4,22,8.5,22c10.2,0,15.8-8.5,15.8-15.8c0-0.2,0-0.5,0-0.7\n\tC25.4,4.7,26.3,3.7,27.1,2.6z\"></path>\n</symbol><symbol
+  id=\"wifi-medium\" viewBox=\"0 0 11.3 7.1\" enable-background=\"new 0 0 11.3 7.1\"
+  xml:space=\"preserve\">\n<g>\n\t<path fill=\"currentColor\" d=\"M10.3,3.9c-0.2,0-0.5-0.1-0.7-0.3C8.5,2.6,7.1,2,5.7,2s-2.9,0.6-4,1.6C1.3,4,0.7,4,0.3,3.6\n\t\tc-0.4-0.4-0.4-1,0-1.4C1.8,0.8,3.7,0,5.7,0c2,0,3.9,0.8,5.3,2.2c0.4,0.4,0.4,1,0,1.4C10.8,3.8,10.6,3.9,10.3,3.9z\"></path>\n\t<circle
+  fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"currentColor\" cx=\"5.7\" cy=\"5.6\"
+  r=\"1.5\"></circle>\n</g>\n</symbol><symbol id=\"wifi-protected\" viewBox=\"0 0
+  11.3 16\" enable-background=\"new 0 0 11.3 16\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M10.3,6.1H9.5V3.9C9.5,1.7,7.8,0,5.6,0C3.5,0,1.8,1.7,1.7,3.9c0,0,0,0,0,0v2.2H1c-0.5,0-1,0.4-1,1V15\n\t\tc0,0.6,0.5,1,1,1h9.3c0.5,0,1-0.4,1-1V7.1C11.3,6.6,10.8,6.1,10.3,6.1z
+  M3.7,3.9C3.7,2.8,4.6,2,5.6,2c0.5,0,1,0.2,1.3,0.6\n\t\tc0.4,0.4,0.6,0.8,0.6,1.3v2.2H3.7V3.9z
+  M9.3,14H2V8.1h7.3V14z\"></path>\n</g>\n</symbol><symbol id=\"wifi-strong\" viewBox=\"0
+  0 16.9 11.4\" enable-background=\"new 0 0 16.9 11.4\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M15.9,5c-0.3,0-0.5-0.1-0.7-0.3C13.4,3,11,2,8.4,2C5.9,2,3.5,3,1.7,4.7c-0.4,0.4-1,0.4-1.4,0\n\t\tc-0.4-0.4-0.4-1,0-1.4C2.5,1.2,5.4,0,8.4,0c3.1,0,5.9,1.2,8.1,3.3c0.4,0.4,0.4,1,0,1.4C16.4,4.9,16.1,5,15.9,5z\"></path>\n\t<path
+  fill=\"currentColor\" d=\"M13.1,8.2c-0.2,0-0.5-0.1-0.7-0.3c-1.1-1-2.5-1.6-4-1.6c-1.5,0-2.9,0.6-4,1.6c-0.4,0.4-1,0.4-1.4,0\n\t\tc-0.4-0.4-0.4-1,0-1.4C4.5,5,6.4,4.3,8.4,4.3c2,0,3.9,0.8,5.3,2.2c0.4,0.4,0.4,1,0,1.4C13.6,8,13.4,8.2,13.1,8.2z\"></path>\n\t<circle
+  fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"currentColor\" cx=\"8.4\" cy=\"9.9\"
+  r=\"1.5\"></circle>\n</g>\n</symbol><symbol id=\"wifi-weak\" viewBox=\"0 0 3 3\"
+  enable-background=\"new 0 0 3 3\" xml:space=\"preserve\">\n<g>\n\t<circle fill-rule=\"evenodd\"
+  clip-rule=\"evenodd\" fill=\"currentColor\" cx=\"1.5\" cy=\"1.5\" r=\"1.5\"></circle>\n</g>\n</symbol><symbol
+  id=\"x\" viewBox=\"0 0 14 14\" enable-background=\"new 0 0 14 14\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M13.7,12.3c0.4,0.4,0.4,1,0,1.4C13.5,13.9,13.3,14,13,14c-0.3,0-0.5-0.1-0.7-0.3L7,8.4l-5.3,5.3\n\t\tc-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4L5.6,7L0.3,1.7c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0L7,5.6l5.3-5.3c0.4-0.4,1-0.4,1.4,0\n\t\tc0.4,0.4,0.4,1,0,1.4L8.4,7L13.7,12.3z\"></path>\n</g>\n</symbol><symbol
+  id=\"collection\" viewBox=\"0 0 22 22\" enable-background=\"new 0 0 22 22\" xml:space=\"preserve\">\n<g>\n\t<path
+  fill=\"currentColor\" d=\"M21,8H18V5a1,1,0,0,0-1-1H14V1a1,1,0,0,0-.95-1H1A1,1,0,0,0,0,1V13.05A1,1,0,0,0,1,14H4v3a1,1,0,0,0,1,1H8v3a1,1,0,0,0,.95,1H21a1,1,0,0,0,1-1V8.94A1,1,0,0,0,21,8ZM2,12V2H12V4H5A1,1,0,0,0,4,5v7H2Zm4,4V6H16V8H8.95A0.91,0.91,0,0,0,8,8.94V16H6Zm14,4H10V10H20V20Z\"></path>\n</g>\n</symbol></svg>\n\n</div>\n<modals
+  active-modal=\"app.activeModal\" show-modals=\"app.showModals\" class=\"\"><div
+  class=\"modals modals-animate-fade ng-hide\" close-on-click=\"true\" ng-show=\"modals.showModals\"
+  ng-switch=\"modals.activeModal\">\n<i class=\"close-x\" cs-icon=\"x\" ng-click=\"modals.close()\"><svg
+  class=\"cs-icon-x-dims\">\n  <use xlink:href=\"#x\"></use>\n</svg></i>\n<!-- ngSwitchWhen:
+  login -->\n<!-- ngSwitchWhen: signup -->\n<!-- ngSwitchWhen: recover -->\n<!-- ngSwitchWhen:
+  terms -->\n<!-- ngSwitchWhen: ftue -->\n<!-- ngSwitchWhen: buyResult -->\n<!-- ngSwitchWhen:
+  requirePassword -->\n<!-- ngSwitchWhen: specialTerms -->\n<!-- ngSwitchWhen: internationalJoule
+  -->\n<!-- ngSwitchWhen: jouleWaitlist -->\n<!-- ngSwitchWhen: content -->\n<!--
+  ngSwitchWhen: continueToCheckout -->\n<!-- ngSwitchWhen: waiting -->\n</div>\n</modals>\n<alerts><div
+  class=\"alerts\">\n<!-- ngRepeat: alert in alerts.alerts track by $index -->\n</div>\n</alerts>\n<!--
+  uiView: nav --><div ui-view=\"nav\"></div>\n<!-- uiView: main --><div data-anim-speed=\"250\"
+  id=\"mainView\" ng-class=\"{'show-flag': app.showFlag}\" ui-view=\"main\" class=\"\"></div>\n<footer>\n<!--
+  uiView: footer --><div class=\"anim-slide-below-fade\" ui-view=\"footer\"></div>\n</footer>\n\n<div
+  ng-controller=\"CookieConsentController as cookieConsentController\" style=\"background:
+  #383736\">\n<!-- ngIf: cookieConsentController.canDoAnalytics() --><img height=\"1\"
+  ng-if=\"cookieConsentController.canDoAnalytics()\" src=\"https://secure.adnxs.com/px?id=907696&amp;seg=10251279&amp;t=2\"
+  width=\"1\" hidden=\"\" style=\"display: none !important;\" class=\"\"><!-- end
+  ngIf: cookieConsentController.canDoAnalytics() -->\n</div>\n\n<iframe name=\"filepicker_comm_iframe\"
+  id=\"filepicker_comm_iframe\" src=\"https://dialog.filepicker.io/dialog/comm_iframe/\"
+  style=\"display: none;\"></iframe><iframe name=\"fpapi_comm_iframe\" id=\"fpapi_comm_iframe\"
+  src=\"https://www.filepicker.io/dialog/comm_iframe/\" style=\"display: none;\"></iframe><iframe
+  scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=https%3A%2F%2Fwww.chefsteps.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
+  title=\"Twitter settings iframe\" style=\"display: none;\"></iframe><div id=\"fb-root\"
+  class=\" fb_reset\"><div style=\"position: absolute; top: -10000px; width: 0px;
+  height: 0px;\"><div><iframe name=\"fb_xdm_frame_https\" frameborder=\"0\" allowtransparency=\"true\"
+  allowfullscreen=\"true\" scrolling=\"no\" allow=\"encrypted-media\" id=\"fb_xdm_frame_https\"
+  aria-hidden=\"true\" title=\"Facebook Cross Domain Communication Frame\" tabindex=\"-1\"
+  src=\"https://staticxx.facebook.com/connect/xd_arbiter/r/d_vbiawPdxB.js?version=44#channel=f3a5139e75b3494&amp;origin=https%3A%2F%2Fwww.chefsteps.com\"
+  style=\"border: none;\"></iframe></div><div></div></div></div></body></html>"

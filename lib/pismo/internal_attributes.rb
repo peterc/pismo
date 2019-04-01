@@ -25,7 +25,7 @@ module Pismo
 
     # Returns the author of the page/content
     def authors
-      @authors ||= Parsers::Author.call(doc: doc, meta: meta, url: url)
+      @authors ||= Parsers::Authors.call(doc: doc, meta: meta, url: url, jsonld: jsonld)
     end
 
     def author
@@ -59,6 +59,10 @@ module Pismo
 
     def meta
       Parsers::Meta.call(doc: doc)
+    end
+
+    def jsonld
+      @jsonld ||= Parsers::Jsonld.call(doc: doc)
     end
 
     def headers

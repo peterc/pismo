@@ -1,0 +1,1003 @@
+---
+:url: https://www.wellandgood.com/good-food/sous-vide-cooking-guide/
+:body: "<!DOCTYPE html><html lang=\"en\" class=\"wf-ptserif-n4-inactive wf-ptserif-i4-inactive
+  wf-ptserif-n7-inactive wf-ptserif-i7-inactive wf-acuminpro-i4-inactive wf-acuminpro-n4-inactive
+  wf-acuminprocondensed-n5-inactive wf-acuminprocondensed-n6-inactive wf-acuminproextracondensed-n5-inactive
+  wf-inactive\"><head>\n    <meta charset=\"utf-8\"><script type=\"text/javascript\"
+  async=\"\" src=\"https://www.gstatic.com/recaptcha/api2/v1552285980763/recaptcha__en.js\"></script><script
+  async=\"\" src=\"//www.googletagmanager.com/gtm.js?id=GTM-5Q356Q\"></script><script
+  src=\"//use.typekit.net/wbd6gie.js\" type=\"text/javascript\" async=\"\"></script><script
+  type=\"text/javascript\">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function
+  r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return
+  r(o||n)},o,o.exports)}return n[t].exports}if(\"function\"==typeof __nr_require)return
+  __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function
+  r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void
+  0:this}}var i=e(\"handle\"),a=e(3),u=e(4),f=e(\"ee\").get(\"tracer\"),c=e(\"loader\"),s=NREUM;\"undefined\"==typeof
+  window.newrelic&&(newrelic=s);var p=[\"setPageViewName\",\"setCustomAttribute\",\"setErrorHandler\",\"finished\",\"addToTrace\",\"inlineHit\",\"addRelease\"],d=\"api-\",l=d+\"ixn-\";a(p,function(e,n){s[n]=o(d+n,!0,\"api\")}),s.addPageAction=o(d+\"addPageAction\",!0),s.setCurrentRouteName=o(d+\"routeName\",!0),n.exports=newrelic,s.interaction=function(){return(new
+  r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o=\"function\"==typeof
+  n;return i(l+\"tracer\",[c.now(),e,t],r),function(){if(f.emit((o?\"\":\"no-\")+\"fn-start\",[c.now(),r,o],t),o)try{return
+  n.apply(this,arguments)}catch(e){throw f.emit(\"fn-err\",[arguments,this,e],t),e}finally{f.emit(\"fn-end\",[c.now()],t)}}}};a(\"actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get\".split(\",\"),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){\"string\"==typeof
+  e&&(e=new Error(e)),i(\"err\",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function
+  r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split(\".\"),r=n.split(\".\"),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var
+  o=null,i=null,a=/Version\\/(\\S+)\\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf(\"Chrome\")===-1&&u.indexOf(\"Chromium\")===-1&&(o=\"Safari\",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function
+  r(e,n){var t=[],r=\"\",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return
+  t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function
+  r(e,n,t){n||(n=0),\"undefined\"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return
+  i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:\"undefined\"!=typeof window.performance&&window.performance.timing&&\"undefined\"!=typeof
+  window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function
+  o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var
+  a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function
+  l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function
+  v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||\"feature\",y[t]=n,n
+  in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return
+  b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var
+  u=\"nr@context\",f=e(\"gos\"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function
+  r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return
+  Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return
+  e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function
+  r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e(\"ee\").get(\"handle\");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function
+  r(e){var n=typeof e;return!e||\"object\"!==n&&\"function\"!==n?-1:e===window?0:a(e,i,function(){return
+  o++})}var o=1,i=\"nr@id\",a=e(\"gos\");n.exports=r},{}],loader:[function(e,n,t){function
+  r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName(\"script\")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return
+  s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f(\"mark\",[\"onload\",a()+x.offset],null,\"api\");var
+  t=l.createElement(\"script\");t.src=\"https://\"+e.agent,n.parentNode.insertBefore(t,n)}}function
+  o(){\"complete\"===l.readyState&&i()}function i(){f(\"mark\",[\"domContent\",a()+x.offset],null,\"api\")}function
+  a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new
+  Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e(\"handle\"),c=e(3),s=e(\"ee\"),p=e(2),d=window,l=d.document,m=\"addEventListener\",v=\"attachEvent\",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var
+  h=\"\"+location,y={beacon:\"bam.nr-data.net\",errorBeacon:\"bam.nr-data.net\",agent:\"js-agent.newrelic.com/nr-1118.min.js\"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m](\"DOMContentLoaded\",i,!1),d[m](\"load\",r,!1)):(l[v](\"onreadystatechange\",o),d[v](\"onload\",r)),f(\"mark\",[\"firstbyte\",u],null,\"api\");var
+  E=0,O=e(5)},{}]},{},[\"loader\"]);</script>\n    <!-- Viewport -->\n    <meta name=\"viewport\"
+  content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\">\n
+  \   <style></style><!-- Favicons -->\n    <link rel=\"apple-touch-icon\" sizes=\"57x57\"
+  href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/apple-touch-icon-57x57.png\">\n
+  \   <link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/apple-touch-icon-60x60.png\">\n
+  \   <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/apple-touch-icon-72x72.png\">\n
+  \   <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/apple-touch-icon-76x76.png\">\n
+  \   <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/apple-touch-icon-114x114.png\">\n
+  \   <link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/apple-touch-icon-120x120.png\">\n
+  \   <link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/apple-touch-icon-144x144.png\">\n
+  \   <link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/apple-touch-icon-152x152.png\">\n
+  \   <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/apple-touch-icon-180x180.png\">\n
+  \   <link rel=\"icon\" type=\"image/png\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/favicon-32x32.png\"
+  sizes=\"32x32\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/favicon-194x194.png\"
+  sizes=\"194x194\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/favicon-96x96.png\"
+  sizes=\"96x96\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/android-chrome-192x192.png\"
+  sizes=\"192x192\">\n    <link rel=\"icon\" type=\"image/png\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/favicon-16x16.png\"
+  sizes=\"16x16\">\n    <link rel=\"manifest\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/manifest.json\">\n
+  \   <link rel=\"mask-icon\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/safari-pinned-tab.svg\"
+  color=\"#b6277e \">\n    <link rel=\"shortcut icon\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/favicon.ico?a=2\">\n
+  \   <meta name=\"msapplication-TileImage\" content=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/mstile-144x144.png\">\n
+  \   <meta name=\"msapplication-TileColor\" content=\"#da532c&nbsp;\">\n    <meta
+  name=\"theme-color\" content=\"#ffffff &nbsp;\">\n    <meta property=\"fb:pages\"
+  content=\"91915774693\">\n    <title>A beginner's guide to sous-vide cooking | Well+Good</title>\n<!--
+  JM Twitter Cards by Julien Maury 9.4 -->\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta
+  name=\"twitter:creator\" content=\"@wellandgoodnyc\">\n<meta name=\"twitter:site\"
+  content=\"@wellandgoodnyc\">\n<meta name=\"twitter:title\" content=\"Sous-vide cooking
+  is here to make your summer dinner parties a cinch\">\n<meta name=\"twitter:description\"
+  content=\"You don't need to be a pro chef to master this healthy technique.\">\n<meta
+  name=\"twitter:image\" content=\"https://www.wellandgood.com/wp-content/uploads/2018/06/Stocksy-friends-cheers-Jill-Chen.jpg\">\n<!--
+  /JM Twitter Cards by Julien Maury 9.4 -->\n<style type=\"text/css\">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,header,section{display:block}a{background-color:transparent}h1{font-size:2em;margin:.67em
+  0}img{border:0}hr{box-sizing:content-box;height:0}button,input{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button,input[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}@font-face{font-family:\"PT
+  Serif\";src:url(/wp-content/themes/wellgood-2016/assets/fonts/PT_Serif-Web-Regular.ttf);font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:\"PT
+  Serif\";src:url(/wp-content/themes/wellgood-2016/assets/fonts/PT_Serif-Web-Italic.ttf);font-weight:400;font-style:italic;font-display:swap}@font-face{font-family:\"PT
+  Serif\";src:url(/wp-content/themes/wellgood-2016/assets/fonts/PT_Serif-Web-Bold.ttf);font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:\"PT
+  Serif\";src:url(/wp-content/themes/wellgood-2016/assets/fonts/PT_Serif-Web-BoldItalic.ttf);font-weight:700;font-style:italic;font-display:swap}body{color:#000;font-family:\"PT
+  Serif\",serif;font-size:16px;-webkit-text-size-adjust:100%;-webkit-min-device-pixel-ratio:2}*{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.article-card__title,.module-heading,.relationship-stories--featured-stories
+  .relationship-stories__title,.relationship-stories__category,.relationship-stories__title,.signup-form__submit,.small,h1,h2,h3,p,ul{visibility:hidden}.article-card__title,.module-heading,.relationship-stories--featured-stories
+  .relationship-stories__title,.relationship-stories__category,.relationship-stories__title,.signup-form__submit,h1,h2,h3{line-height:1}.article-card__title,.module-heading,.relationship-stories--featured-stories
+  .relationship-stories__title,h1,h2{font-family:acumin-pro-extra-condensed,\"Acumin
+  Pro ExtraCondensed\",sans-serif;font-weight:600;margin-bottom:5px}.relationship-stories__title,.signup-form__submit,h3{font-family:acumin-pro-condensed,\"Acumin
+  Pro Condensed\",sans-serif}.article-card__title,.module-heading,.relationship-stories--featured-stories
+  .relationship-stories__title,.relationship-stories__title,.signup-form__submit,h1,h2,h3{font-weight:500}.relationship-stories__category{font-family:acumin-pro,\"Acumin
+  Pro\",sans-serif;font-weight:400;letter-spacing:.1em}.article-card__title,.module-heading,.relationship-stories--featured-stories
+  .relationship-stories__title,.relationship-stories__category,.signup-form__submit,h1,h2,h3{text-transform:uppercase}.relationship-stories__title{text-transform:none;letter-spacing:0}.article-card__title,.module-heading,.relationship-stories--featured-stories
+  .relationship-stories__title,.signup-form__submit,h1,h2,h3{letter-spacing:.04em}.article-card__title,.module-heading,h1{font-size:34px}.relationship-stories--featured-stories
+  .relationship-stories__title,h2{font-size:28px}.relationship-stories__title,.signup-form__submit,h3{font-size:16px}.relationship-stories__title{line-height:1.25}.relationship-stories__category{font-size:12px}p,ul{font-family:\"PT
+  Serif\",serif;font-size:16px;line-height:1.85;letter-spacing:normal;font-weight:300;margin-bottom:20px}p.excerpt{font-size:14px}ul{list-style-type:none;margin-left:30px}.small{font-size:14px}.error{color:red}.menu-drawer,.menu-drawer
+  a,.nav__primary .menu-item,.nav__primary .menu-item a{font-family:acumin-pro,\"Acumin
+  Pro\",sans-serif;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none}@media
+  (min-width:54.375em){.menu-drawer,.nav__primary .menu-item{font-size:14px}}@media
+  (max-width:62.5em){.article-card__title,.module-heading,h1{font-size:27px}.relationship-stories--featured-stories
+  .relationship-stories__title,h2{font-size:23px}.relationship-stories__title,.signup-form__submit,h3{font-size:15px}.relationship-stories__category{font-size:12px}p.excerpt{font-size:14px}}@media
+  (max-width:30.125em){.article-card__title,.module-heading,h1{font-size:22px}.relationship-stories--featured-stories
+  .relationship-stories__title,h2{font-size:18px}.relationship-stories__title,.signup-form__submit,h3{font-size:15px}.relationship-stories__category{font-size:12px}p.excerpt{font-size:14px}}.image-module,.relationship-stories__image{background-position:center;background-repeat:no-repeat}.image-module,.relationship-stories__image{background-size:cover}.relationship-stories__image{position:relative;height:0}@font-face{font-family:iconfont;src:url(/wp-content/themes/wellgood-2016/assets/fonts/iconfont.eot?v=1550012145);src:url(/wp-content/themes/wellgood-2016/assets/fonts/iconfont.eot?v=1550012145#iefix)
+  format(\"eot\"),url(/wp-content/themes/wellgood-2016/assets/fonts/iconfont.woff2?v=1550012145)
+  format(\"woff2\"),url(/wp-content/themes/wellgood-2016/assets/fonts/iconfont.woff?v=1550012145)
+  format(\"woff\"),url(/wp-content/themes/wellgood-2016/assets/fonts/iconfont.ttf?v=1550012145)
+  format(\"truetype\"),url(/wp-content/themes/wellgood-2016/assets/fonts/iconfont.svg?v=1550012145#iconfont)
+  format(\"svg\")}.icon-facebook:before,.icon-instagram:before,.icon-pinterest-p:before,.icon-search-thin-small:before,.icon-twitter:before,.icon-x:before,.icon-youtube:before{font-family:iconfont;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;text-transform:none}.icon-facebook:before{content:\"\"}.icon-instagram:before{content:\"\"}.icon-pinterest-p:before{content:\"\"}.icon-search-thin-small:before{content:\"\"}.icon-twitter:before{content:\"\"}.icon-x:before{content:\"\"}.icon-youtube:before{content:\"\"}body{background:#fff;margin:0
+  auto}*{box-sizing:border-box}.module-heading{border-bottom:1px solid #e8e8e8;padding-bottom:5px;margin-top:20px;margin-bottom:10px}@media
+  (min-width:54.375em){.module-heading{margin-bottom:15px}}.module-alternate{background:#f5f5f5;margin-top:0;padding-top:17px;padding-bottom:30px}hr{border:0;height:0;border-bottom:1px
+  solid #e8e8e8}li,ul{list-style-type:none;margin:0;padding:0}.container,.header__inner{margin-left:auto;margin-right:auto;max-width:1280px;padding-left:25px;padding-right:25px}@media
+  (min-width:30.125em){.container,.header__inner{padding-left:40px;padding-right:40px}}.container--ad{position:relative;z-index:1300;background:#fff;max-width:none;width:100%}.container--ad
+  .advertisement{max-width:1280px;margin:0 auto}@media (min-width:40.125em){[data-module-init*=flickity]{visibility:visible;opacity:1;height:auto}}[data-module-init*=flickity]:after{content:'flickity';display:none}@media
+  (min-width:40.125em){[data-module-init*=flickity]:not(.desktop-enabled):after{content:''}}.by
+  .label{display:none}a{color:#000}.signup-form__submit{padding:10px 35px;display:inline-block;border:1px
+  solid #000;position:relative;text-align:center;text-decoration:none;box-shadow:inset
+  0 0 0 1px rgba(224,103,88,0)}@media only screen and (max-width:449px){.signup-form__submit{width:100%}}.article-card__image,.relationship-stories__image{position:relative}.article-card__image
+  img,.relationship-stories__image img{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}.article-card__image:before,.relationship-stories__image:before{content:'';display:block;position:absolute;top:0;bottom:0;left:0;right:0;z-index:2;background-color:#000;visibility:hidden;opacity:0}.article-card__image,.relationship-stories__image{position:relative;background-color:#f5f5f5}.article-card__image:after,.relationship-stories__image:after{font-family:iconfont;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;text-transform:none;content:\"\"}.article-card__image:after,.relationship-stories__image:after{display:inline-block;text-align:center;font-size:70px;color:#e8e8e8;z-index:0;position:absolute;top:50%;left:0;right:0;margin-top:-35px}.article-card__image
+  img,.relationship-stories__image img{position:relative;z-index:1}.menu{margin:0}.menu-item{display:inline-block}.menu-item
+  a{display:inline-block;color:#000;text-transform:uppercase;font-weight:400;text-decoration:none}.menu-header-menu-container{visibility:hidden;opacity:0;position:fixed;bottom:0}@media
+  (min-width:75.0625em){.menu-header-menu-container{position:static;visibility:visible;opacity:1}}.menu-header-menu-container{display:none}@media
+  (min-width:75.0625em){.menu-header-menu-container{position:absolute;top:0;width:auto;box-shadow:none;border:none;white-space:nowrap;left:initial;right:85px;-webkit-transform:none;-ms-transform:none;transform:none;display:block}.header--tall:not(.js-header-sliding)
+  .menu-header-menu-container{left:50%;right:initial;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}body.home
+  .menu-header-menu-container{z-index:5}}.nav__primary .menu-item{display:block}.nav__primary
+  .menu-item a{padding-top:35px}@media (min-width:75.0625em){.nav__primary .menu-item{display:inline-block}.nav__primary
+  .menu-item a{padding:25px 8px}}.nav__logo{padding-top:35px;width:65px;margin:0 auto}@media
+  (min-width:75.0625em){.nav__logo{display:none}}.menu-drawer-container{position:fixed;width:100%;height:100%;top:0;left:0;z-index:99999999;visibility:hidden}.menu-drawer-container
+  .drawer-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-color:#000;opacity:0;z-index:8}.menu-drawer{position:absolute;top:0;left:0;width:81.25%;max-width:380px;background-color:#fff;padding:25px;height:100vh;overflow-y:scroll;visibility:visible;z-index:9;-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);opacity:0}@media
+  (min-width:54.375em){.menu-drawer{padding:35px}}.menu-drawer hr{margin:25px 0}.menu-drawer
+  hr:first-of-type{margin:25px 0}.menu-drawer .nav__primary .menu-item{display:block}.menu-drawer
+  .nav__primary .menu-item:not(:last-child){margin-bottom:10px}.menu-drawer .nav__primary
+  .menu-item a{padding:0}.menu-drawer__menu .menu-item .label{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.drawer-close{height:40px;width:40px;position:absolute;top:25px;right:20px;border:1px
+  solid #e8e8e8;border-radius:50%;z-index:9}@media (min-width:40.125em){.drawer-close{top:35px;right:35px}}.drawer-close:after,.drawer-close:before{content:\"\";width:20px;height:1px;background-color:#000;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto}.drawer-close:before{-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}.drawer-close:after{-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}.drawer-signup{margin-top:25px}.drawer-signup
+  .signup-form__thanks{width:100%;max-width:none}.drawer-signup .signup-form__thanks
+  p{text-transform:none}.drawer-social{margin-top:25px}.drawer-social .menu-item a{padding:0;margin-right:10px}.drawer-social
+  .menu-item a:before{height:30px;width:30px;font-size:16px}@media (min-width:54.375em){.drawer-social
+  .menu-item a:before{height:33px;width:33px;font-size:17px}}.drawer-signup__heading{font-size:21px;letter-spacing:.7px}@media
+  (min-width:54.375em){.drawer-signup__heading{font-size:24px}}.drawer-submenu .menu-item:not(:last-child){margin-bottom:15px}article.home
+  .main{width:100%}@media (min-width:62.5em){article.home .main{display:table}article.home
+  .main>section{display:table-cell;vertical-align:top}}article.home .sidebar{position:relative}@media
+  (min-width:62.5em){article.home .sidebar{padding-left:25px;width:325px}}.post__sidebar{position:relative;margin-top:20px}@media
+  (min-width:54.375em){.post__sidebar{margin-top:0;width:300px}}.post__content{margin:0
+  auto;position:relative}@media (min-width:54.375em){.post__content{position:static}}@media
+  (min-width:54.375em){.post__content{width:calc(100% - 350px)}}.post__sticky-advertisement{margin-bottom:20px}@media
+  (min-width:54.375em){.post__sticky-advertisement{margin-top:20px;width:300px}}.post__sticky-advertisement
+  .advertisement{margin-top:0;margin-bottom:0;padding-top:10px;padding-bottom:10px}.article-card{text-align:left;padding:0
+  0 20px 0;border-bottom:1px solid #e8e8e8}.article-card a{text-decoration:none}@media
+  (min-width:54.375em){.article-card{border-bottom:none;padding-bottom:0}}.article-card__image{display:block;padding-bottom:66.66667%;overflow:hidden}@media
+  (min-width:40.125em){.article-card__image{padding-bottom:30%;width:45%;display:inline-block;vertical-align:middle}}.article-card__image
+  img{position:absolute;display:block;width:100%;height:auto}.article-card__meta{margin-top:10px}@media
+  (min-width:40.125em){.article-card__meta{width:55%;padding-left:40px;display:inline-block;vertical-align:middle;margin-top:0;max-width:415px}}.article-card__title{margin-top:10px}@media
+  (min-width:40.125em){.article-card__title{margin-top:0}}.article-card__excerpt{line-height:1.5;margin-top:5px;margin-bottom:15px}@media
+  (min-width:40.125em){.article-card__excerpt{margin-top:10px;margin-bottom:15px}}.main-wrapper{padding-top:87px}@media
+  (min-width:75.0625em){.main-wrapper{padding-top:75px}}.home .main-wrapper{padding-top:0}.header{width:100%;margin:0
+  auto 20px;text-align:center;position:fixed;top:0;border-bottom:1px solid #e8e8e8;background-color:#fff;z-index:1000}.header:after{content:'';position:absolute;top:0;bottom:0;left:0;right:0;background-color:#fff;z-index:-1}@media
+  (min-width:75.0625em){.header.header--tall{position:relative;padding-top:136px}.header:before{content:'';z-index:201;position:absolute;bottom:-1px;left:0;right:0;border-bottom:1px
+  solid #e8e8e8}}.logo{display:inline-block;font-family:acumin-pro,\"Acumin Pro\",sans-serif;font-weight:400;font-size:12px;letter-spacing:8px;color:#888;margin:0;padding-top:12px;background-color:#fff;z-index:2}@media
+  (min-width:75.0625em){.logo{padding-top:6px;font-size:14px;float:left}.header--tall
+  .logo{border-bottom:1px solid #e8e8e8;float:none;position:absolute;height:136px;top:-136px;left:calc((-100vw
+  + 100%)/ 2);padding-top:15px;width:100vw}.header--tall .logo .logo-good:after,.header--tall
+  .logo .logo-well:after{font-size:14px}.header--tall .logo .logo-and{margin-left:1em;margin-right:1.45em}.header:not(.header--tall)
+  .logo,.logo .js-header-sliding{margin-left:55px;padding-top:17px;position:relative;z-index:9}}.logo-wrapper{display:block}.logo-and,.logo-good,.logo-well{display:inline-block;vertical-align:middle}.logo-and
+  .label,.logo-good .label,.logo-well .label{display:none}.logo-graphic,.nav__logo-image{position:relative;padding-bottom:100%}.logo-good:after,.logo-well:after{font-size:8px}.logo-well:after{font-family:iconfont;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;text-transform:none;content:\"\"}.logo-good:after{font-family:iconfont;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;text-transform:none;content:\"\"}.logo-and{margin-left:.5em;margin-right:1em}.logo-and
+  .logo-graphic{width:36px;height:36px;vertical-align:middle}@media (min-width:75.0625em){.logo-and
+  .logo-graphic{width:44px;height:44px}.header--tall .logo-and .logo-graphic{width:105px;height:105px}}.header__inner{position:relative;height:62px}@media
+  (min-width:75.0625em){.header__inner{background-color:#fff;height:75px}body.home
+  .header__inner:before{content:\"\";position:absolute;top:0;left:0;width:100%;height:100%;background-color:#fff;z-index:4}}.header__search,.nav-trigger{position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.header__search{margin-top:3px;right:25px;line-height:1.3em;padding:24.5px}@media
+  (max-width:75.0625em){.header__search{padding-right:0}}@media (min-width:30.125em){.header__search{right:40px}}@media
+  (min-width:75.0625em){.header__search{position:static;float:right;-webkit-transform:none;-ms-transform:none;transform:none}.header__search
+  .icon-search-thin-small,.header__search .icon-x{display:inline-block;margin-left:0;margin-right:-24.5px}body.home
+  .header__search{z-index:5;position:relative;top:0;right:-16px}}.header__search .icon-x{display:none}.header__search
+  .icon-search-thin-small,.header__search .icon-x{margin-left:-24.5px}.nav-trigger{width:40px;height:62px;z-index:1100;left:25px}@media
+  (min-width:30.125em){.nav-trigger{left:0}}@media (min-width:75.0625em){.nav-trigger{width:62px}}@media
+  (min-width:30.125em){.nav-trigger{width:77px;margin-left:40px}}.nav-trigger__bar{-webkit-backface-visibility:hidden;backface-visibility:hidden;height:1px;width:23px;background:#000;position:absolute;left:0;margin-top:25px}.nav-trigger__bar--top{top:0}.nav-trigger__bar--middle{top:6px}.nav-trigger__bar--bottom{top:12px}.search-bar{background:#fff;position:absolute;top:63px;box-shadow:0
+  5px 10px 0 rgba(0,0,0,.05);font-size:0;visibility:hidden;z-index:-1;-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%);width:100%}@media
+  (min-width:75.0625em){.search-bar{top:77px}.header--tall .search-bar{top:212px}}@media
+  (min-width:80.125em){.search-bar{top:77px}}.search-bar__inner{margin-left:auto;margin-right:auto;max-width:1280px;position:relative;margin-left:auto;margin-right:auto;max-width:1280px;padding-left:25px;padding-right:25px}.search-bar__inner
+  form{position:relative}.search-bar__submit{background:0 0;outline:0;border:none;font-size:16px;position:absolute;right:0;top:0;padding:14px;margin-right:-14px}@media
+  (min-width:75.0625em){.search-bar__submit{right:auto;padding:30px;left:0;top:0;margin-left:-30px;margin-right:0}}.search-bar__hint{display:none;margin:0;font-size:14px;position:absolute;right:0;top:30px;color:#a6a6a6}@media
+  (min-width:75.0625em){.search-bar__hint{display:block}}.search-bar__input{display:block;font-family:acumin-pro-extra-condensed,\"Acumin
+  Pro ExtraCondensed\",sans-serif;font-size:18px;background:0 0;border:none;line-height:1em;width:100%;padding:10px
+  0 14px;vertical-align:middle;outline:0}@media (min-width:75.0625em){.search-bar__input{font-size:32px;padding-top:15px;padding-bottom:19px;padding-left:43px}}.search-bar__input::-webkit-input-placeholder{color:#ccc;line-height:normal;text-transform:uppercase}.search-bar__input:-ms-input-placeholder{color:#ccc;line-height:normal;text-transform:uppercase}.search-bar__input::-ms-clear{display:none;width:0;height:0}.header--ad:not(.js-header-sliding):not(.js-header-slided){margin-bottom:0;position:relative}.made-in-ny
+  .label{display:none}section.advertisement{margin:30px auto;text-align:center}section.advertisement
+  div{margin:0 auto;max-width:100%}.post__sticky-advertisement{overflow:hidden}.post__sticky-advertisement
+  .ad-position-b{padding-top:0}@media (min-width:54.375em){.post__sticky-advertisement
+  .ad-position-b{padding-top:10px}}.ad-position-a{position:relative}@media (max-width:54.375em){.header__wrapper
+  .ad-position-a{position:fixed;bottom:0;left:0;right:0;z-index:99999999;margin:0;visibility:hidden}.header__wrapper
+  .ad-position-a.show-mobile{visibility:visible}}.menu-item-type-social a{display:inline-block;padding:20px
+  5px}@media (min-width:54.375em){.menu-item-type-social a{padding-left:2px;padding-right:2px}}.menu-item-type-social
+  a .label{display:none}.menu-item-type-social a:before{letter-spacing:0;text-align:center;line-height:2em;font-size:14px;display:inline-block;width:28px;height:28px;border:1px
+  solid #e8e8e8;border-radius:50%;background-color:transparent}.relationship-stories__container{overflow:hidden}@media
+  (min-width:40.125em){.relationship-stories__list{margin:10px -12px 0;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}}@media
+  (min-width:54.375em){.relationship-stories__list{margin-top:15px}}.relationship-stories__card{position:relative;width:100%;font-size:0;padding-bottom:10px;text-align:center}@media
+  (min-width:40.125em) and (max-width:62.5em){.relationship-stories__card{background-color:#fff;display:inline-block;width:calc(33%
+  - 17px);margin-left:10px;margin-right:10px;padding-bottom:30px;height:auto}.relationship-stories__card:nth-child(1),.relationship-stories__card:nth-child(2){width:calc(50%
+  - 20px);margin-bottom:20px}}@media (min-width:62.5em){.relationship-stories__card{background-color:#fff;display:inline-block;width:calc(20%
+  - 24px);margin:0 12px;padding-bottom:30px}}.relationship-stories__card+.relationship-stories__card{padding-top:10px;border-top:1px
+  solid #e8e8e8}@media (min-width:40.125em){.relationship-stories__card+.relationship-stories__card{padding-top:0;border-top:none}}.relationship-stories__card
+  a{text-decoration:none}.relationship-stories__category{display:block;margin-top:10px}@media
+  (min-width:40.125em){.relationship-stories__category{margin-top:15px}}.relationship-stories__image-wrapper{width:33.333%;display:inline-block;vertical-align:middle;padding-right:10px}@media
+  (min-width:40.125em){.relationship-stories__image-wrapper{width:100%;display:block;padding-right:0}}.relationship-stories__image{padding-bottom:66.66667%;width:100%;vertical-align:middle;overflow:hidden}@media
+  (min-width:40.125em){.relationship-stories__image{padding-bottom:66.66667%;display:block}}.relationship-stories__title{display:inline-block;width:66.666%;vertical-align:middle;margin:0;padding-left:10px;text-align:left}@media
+  (min-width:40.125em){.relationship-stories__title{display:block;padding:0 20px;margin:5px
+  0;width:auto;text-align:center}}.relationship-stories--featured-stories{background:0
+  0;padding-bottom:0;margin-bottom:30px;padding-top:0}.relationship-stories--featured-stories
+  .relationship-stories__container{padding:0}@media (min-width:40.125em){.relationship-stories--featured-stories
+  .relationship-stories__list{margin-left:-2%;margin-right:-2%}}.relationship-stories--featured-stories
+  .relationship-stories__image-wrapper{display:block;width:100%;padding-right:0}.relationship-stories--featured-stories
+  .relationship-stories__card{margin-left:20px;margin-right:20px;width:calc(100% -
+  40px);border-top:none;padding:0}@media (min-width:40.125em){.relationship-stories--featured-stories
+  .relationship-stories__card{width:calc(33.333% - 4%);margin:0 2%}}.relationship-stories--featured-stories
+  .relationship-stories__title{display:block;padding:0 10px;width:auto;margin-top:5px;text-align:center}.latest-stories{padding-bottom:30px}.signup-form__thanks,.signup-form__thanks
+  p{font-size:14px}.signup-form__email{font-size:16px;font-family:\"PT Serif\",serif}@media
+  (min-width:40.125em){.signup-form__email{font-size:14px}}.signup-form__thanks{display:none;max-width:95%;margin-left:auto;margin-right:auto}.signup-form__group{position:relative;margin-top:20px;display:-webkit-flex;display:-ms-flexbox;display:flex}@media
+  (min-width:54.375em){.signup-form__group{margin-top:10px}}.signup-form__email{border:1px
+  solid #e8e8e8;border-radius:2px;outline:0;width:100%;padding:11px 73px 11px 13px;-webkit-appearance:none;border-radius:0;-webkit-flex:1;-ms-flex:1;flex:1}.signup-form__submit{color:#fff;background:#000;height:100%;padding:0;line-height:1em;text-transform:uppercase;border:none;position:absolute;top:0;right:0;width:60px;-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:0}@media
+  (min-width:54.375em){.collection__excerpt{padding-left:15px;padding-right:15px}}@media
+  (min-width:54.375em){.collection__card--featured .collection__excerpt{padding-left:40px;padding-right:40px}}.collection__excerpt{margin-top:5px}@media
+  (min-width:54.375em){.collection__excerpt{margin-top:10px}}.collection__three-up
+  .collection__excerpt{display:none}.image-module{z-index:1;position:absolute;bottom:0;top:0;left:0;right:0;opacity:0;-webkit-transform:scale(1,1)
+  translate3d(0,0,0);transform:scale(1,1) translate3d(0,0,0)}.image-module-img{width:100%;height:auto;opacity:0}.recipe-instruction__detail:before{content:counter(item);grid-area:int;border-radius:50%;border:1px
+  solid #e06758;color:#e06758;width:25px;height:25px;text-align:center;line-height:25px;margin-top:10px;display:block}</style>\n<!--
+  This site is optimized with the Yoast SEO plugin v8.2 - https://yoast.com/wordpress/plugins/seo/
+  -->\n<meta name=\"description\" content=\"The sous-vide technique can make food
+  healthier and more evenly cooked. Here,  a pro chef shares tips on how to do it
+  at home—without a ton of experience or equipment.\">\n<link rel=\"canonical\" href=\"https://www.wellandgood.com/good-food/sous-vide-cooking-guide/\">\n<meta
+  property=\"og:locale\" content=\"en_US\">\n<meta property=\"og:type\" content=\"article\">\n<meta
+  property=\"og:title\" content=\"A beginner's guide to sous-vide cooking | Well+Good\">\n<meta
+  property=\"og:description\" content=\"The sous-vide technique can make food healthier
+  and more evenly cooked. Here,  a pro chef shares tips on how to do it at home—without
+  a ton of experience or equipment.\">\n<meta property=\"og:url\" content=\"https://www.wellandgood.com/good-food/sous-vide-cooking-guide/\">\n<meta
+  property=\"og:site_name\" content=\"Well+Good\">\n<meta property=\"article:publisher\"
+  content=\"https://www.facebook.com/iamwellandgood\">\n<meta property=\"article:tag\"
+  content=\"Cooking Tips\">\n<meta property=\"article:section\" content=\"Good Food\">\n<meta
+  property=\"article:published_time\" content=\"2018-06-08T17:03:31-04:00\">\n<meta
+  property=\"og:image\" content=\"https://www.wellandgood.com/wp-content/uploads/2018/06/Stocksy-friends-cheers-Jill-Chen.jpg\">\n<meta
+  property=\"og:image:secure_url\" content=\"https://www.wellandgood.com/wp-content/uploads/2018/06/Stocksy-friends-cheers-Jill-Chen.jpg\">\n<meta
+  property=\"og:image:width\" content=\"854\">\n<meta property=\"og:image:height\"
+  content=\"562\">\n<meta property=\"og:image:alt\" content=\"healthy sous-vide cooking\">\n<meta
+  name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:description\"
+  content=\"The sous-vide technique can make food healthier and more evenly cooked.
+  Here, a pro chef shares tips on how to do it at home—without a ton of experience
+  or equipment.\">\n<meta name=\"twitter:title\" content=\"A beginner's guide to sous-vide
+  cooking | Well+Good\">\n<meta name=\"twitter:site\" content=\"@iamwellandgood\">\n<meta
+  name=\"twitter:image\" content=\"https://www.wellandgood.com/wp-content/uploads/2018/06/Stocksy-friends-cheers-Jill-Chen.jpg\">\n<meta
+  name=\"twitter:creator\" content=\"@iamwellandgood\">\n<script type=\"application/ld+json\">{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"Organization\",\"url\":\"https:\\/\\/www.wellandgood.com\\/\",\"sameAs\":[\"https:\\/\\/www.facebook.com\\/iamwellandgood\",\"http:\\/\\/instagram.com\\/iamwellandgood\",\"https:\\/\\/www.youtube.com\\/channel\\/UC1bcqvAnNsBoq_RWJNxYvhQ\",\"http:\\/\\/pinterest.com\\/iamwellandgood\",\"https:\\/\\/twitter.com\\/iamwellandgood\"],\"@id\":\"https:\\/\\/www.wellandgood.com\\/#organization\",\"name\":\"Well+Good\",\"logo\":\"https:\\/\\/www.wellandgood.com\\/wp-content\\/uploads\\/2018\\/10\\/WG-Wordmark.png\"}</script>\n<!--
+  / Yoast SEO plugin. -->\n\n<link rel=\"dns-prefetch\" href=\"//www.yummly.com\">\n<link
+  rel=\"dns-prefetch\" href=\"//www.google.com\">\n<link rel=\"dns-prefetch\" href=\"//fonts.googleapis.com\">\n<link
+  rel=\"dns-prefetch\" href=\"//s.w.org\">\n<link rel=\"stylesheet\" id=\"imagelinks_imagelinks-css\"
+  href=\"#\" onload=\"this.href='https://www.wellandgood.com/wp-content/plugins/imagelinks/lib/imagelinks.css?ver=1.4.0'\"
+  type=\"text/css\" media=\"all\">\n<noscript><link rel='stylesheet' id='imagelinks_imagelinks-css'
+  \ href='https://www.wellandgood.com/wp-content/plugins/imagelinks/lib/imagelinks.css?ver=1.4.0'
+  type='text/css' media='all' />\n</noscript><link rel=\"stylesheet\" id=\"wpurp_style_minified-css\"
+  href=\"#\" onload=\"this.href='https://www.wellandgood.com/wp-content/plugins/wp-ultimate-recipe/assets/wpurp-public-forced.css?ver=3.11.1'\"
+  type=\"text/css\" media=\"all\">\n<noscript><link rel='stylesheet' id='wpurp_style_minified-css'
+  \ href='https://www.wellandgood.com/wp-content/plugins/wp-ultimate-recipe/assets/wpurp-public-forced.css?ver=3.11.1'
+  type='text/css' media='all' />\n</noscript><link rel=\"stylesheet\" id=\"wpurp_style2-css\"
+  href=\"https://fonts.googleapis.com/css?family=Open+Sans&amp;ver=3.11.1\" type=\"text/css\"
+  media=\"all\">\n<link rel=\"https://api.w.org/\" href=\"https://www.wellandgood.com/wp-json/\">\n<link
+  rel=\"EditURI\" type=\"application/rsd+xml\" title=\"RSD\" href=\"https://www.wellandgood.com/xmlrpc.php?rsd\">\n<link
+  rel=\"wlwmanifest\" type=\"application/wlwmanifest+xml\" href=\"https://www.wellandgood.com/wp-includes/wlwmanifest.xml\">
+  \n<meta name=\"generator\" content=\"WordPress 4.9.8\">\n<link rel=\"shortlink\"
+  href=\"https://www.wellandgood.com/?p=305463\">\n<link rel=\"alternate\" type=\"application/json+oembed\"
+  href=\"https://www.wellandgood.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.wellandgood.com%2Fgood-food%2Fsous-vide-cooking-guide%2F\">\n<link
+  rel=\"alternate\" type=\"text/xml+oembed\" href=\"https://www.wellandgood.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.wellandgood.com%2Fgood-food%2Fsous-vide-cooking-guide%2F&amp;format=xml\">\n<meta
+  name=\"pocket-site-verification\" content=\"e5ab52bbadc2281f4803a907a07a48\">\n<link
+  rel=\"amphtml\" href=\"https://www.wellandgood.com/good-food/sous-vide-cooking-guide/amp/\">\n
+  \ <!-- Start GPT Async Tag -->\n  <script async=\"async\" src=\"https://www.googletagservices.com/tag/js/gpt.js\"></script>\n
+  \ <script>\n    var gptadslots = [];\n    var googletag = googletag || {cmd:[]};\n
+  \ </script>\n  <style type=\"text/css\">\n    section.advertisement div, section.advertisement
+  iframe { max-width: none !important; }\n  </style>\n  <!-- End GPT Async Tag -->\n\n\t<script
+  type=\"text/javascript\">\n        // Typekit\n        (function() {\n            var
+  tk = document.createElement('script');\n            var d = false;\n            tk.src
+  = '//use.typekit.net/wbd6gie.js';\n            tk.type = 'text/javascript';\n            tk.async
+  = true;\n            tk.onload = tk.onreadystatechange = function() {\n                var
+  rs = this.readyState;\n                if (d || rs && rs != 'complete' && rs !=
+  'loaded') return;\n                d = true;\n                try { Typekit.load({async:
+  true}); } catch (e) {}\n            };\n            var s = document.getElementsByTagName('script')[0];\n
+  \           s.parentNode.insertBefore(tk, s);\n        })();\n\n\t</script>\n\n
+  \ <link rel=\"icon\" href=\"https://www.wellandgood.com/wp-content/uploads/2018/04/favicon-194x194-150x150.png\"
+  sizes=\"32x32\">\n<link rel=\"icon\" href=\"https://www.wellandgood.com/wp-content/uploads/2018/04/favicon-194x194.png\"
+  sizes=\"192x192\">\n<link rel=\"apple-touch-icon-precomposed\" href=\"https://www.wellandgood.com/wp-content/uploads/2018/04/favicon-194x194.png\">\n<meta
+  name=\"msapplication-TileImage\" content=\"https://www.wellandgood.com/wp-content/uploads/2018/04/favicon-194x194.png\">\n
+  \   <script>\n      if (!dataLayer) {\n        var dataLayer = []\n      }\n      dataLayer.push({\n
+  \       'pagetype': \"article\",\n        'category': \"Good Food\",\n        'published':
+  \"June 8, 2018\",\n        'modified': \"June 8, 2018\",\n        'author': \"Laurel
+  Leicht\",\n        'tags': \"Cooking Tips\",\n        'partner': \"non-branded\",\n
+  \       'campaign': \"no-campaign\"\n      })\n    </script><style type=\"text/css\">.tk-pt-serif{font-family:\"pt-serif\",serif;}.tk-acumin-pro{font-family:\"acumin-pro\",sans-serif;}.tk-acumin-pro-condensed{font-family:\"acumin-pro-condensed\",sans-serif;}.tk-acumin-pro-extra-condensed{font-family:\"acumin-pro-extra-condensed\",sans-serif;}</style><style
+  type=\"text/css\">@font-face{font-family:tk-pt-serif-n4;src:url(https://use.typekit.net/af/740b38/000000000000000000012500/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/740b38/000000000000000000012500/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/740b38/000000000000000000012500/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+  format(\"opentype\");font-weight:400;font-style:normal;}@font-face{font-family:tk-pt-serif-i4;src:url(https://use.typekit.net/af/e61d82/0000000000000000000124fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/e61d82/0000000000000000000124fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/e61d82/0000000000000000000124fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+  format(\"opentype\");font-weight:400;font-style:italic;}@font-face{font-family:tk-pt-serif-n7;src:url(https://use.typekit.net/af/63cd12/0000000000000000000124ff/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/63cd12/0000000000000000000124ff/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/63cd12/0000000000000000000124ff/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3)
+  format(\"opentype\");font-weight:700;font-style:normal;}@font-face{font-family:tk-pt-serif-i7;src:url(https://use.typekit.net/af/e614cb/0000000000000000000124fd/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/e614cb/0000000000000000000124fd/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/e614cb/0000000000000000000124fd/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3)
+  format(\"opentype\");font-weight:700;font-style:italic;}@font-face{font-family:tk-acumin-pro-i4;src:url(https://use.typekit.net/af/aa5b59/00000000000000003b9acaf7/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/aa5b59/00000000000000003b9acaf7/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/aa5b59/00000000000000003b9acaf7/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+  format(\"opentype\");font-weight:400;font-style:italic;}@font-face{font-family:tk-acumin-pro-n4;src:url(https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+  format(\"opentype\");font-weight:400;font-style:normal;}@font-face{font-family:tk-acumin-pro-condensed-n5;src:url(https://use.typekit.net/af/b1bf07/00000000000000003b9acb0a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/b1bf07/00000000000000003b9acb0a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/b1bf07/00000000000000003b9acb0a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+  format(\"opentype\");font-weight:500;font-style:normal;}@font-face{font-family:tk-acumin-pro-condensed-n6;src:url(https://use.typekit.net/af/7bebb5/00000000000000003b9acb0c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/7bebb5/00000000000000003b9acb0c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/7bebb5/00000000000000003b9acb0c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3)
+  format(\"opentype\");font-weight:600;font-style:normal;}@font-face{font-family:tk-acumin-pro-extra-conden-n5;src:url(https://use.typekit.net/af/b8e425/00000000000000003b9acb1c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/b8e425/00000000000000003b9acb1c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/b8e425/00000000000000003b9acb1c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+  format(\"opentype\");font-weight:500;font-style:normal;}</style><style type=\"text/css\">@font-face{font-family:pt-serif;src:url(https://use.typekit.net/af/740b38/000000000000000000012500/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/740b38/000000000000000000012500/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/740b38/000000000000000000012500/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+  format(\"opentype\");font-weight:400;font-style:normal;}@font-face{font-family:pt-serif;src:url(https://use.typekit.net/af/e61d82/0000000000000000000124fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/e61d82/0000000000000000000124fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/e61d82/0000000000000000000124fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+  format(\"opentype\");font-weight:400;font-style:italic;}@font-face{font-family:pt-serif;src:url(https://use.typekit.net/af/63cd12/0000000000000000000124ff/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/63cd12/0000000000000000000124ff/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/63cd12/0000000000000000000124ff/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3)
+  format(\"opentype\");font-weight:700;font-style:normal;}@font-face{font-family:pt-serif;src:url(https://use.typekit.net/af/e614cb/0000000000000000000124fd/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/e614cb/0000000000000000000124fd/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/e614cb/0000000000000000000124fd/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3)
+  format(\"opentype\");font-weight:700;font-style:italic;}@font-face{font-family:acumin-pro;src:url(https://use.typekit.net/af/aa5b59/00000000000000003b9acaf7/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/aa5b59/00000000000000003b9acaf7/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/aa5b59/00000000000000003b9acaf7/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+  format(\"opentype\");font-weight:400;font-style:italic;}@font-face{font-family:acumin-pro;src:url(https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/46da36/00000000000000003b9acaf6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+  format(\"opentype\");font-weight:400;font-style:normal;}@font-face{font-family:acumin-pro-condensed;src:url(https://use.typekit.net/af/b1bf07/00000000000000003b9acb0a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/b1bf07/00000000000000003b9acb0a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/b1bf07/00000000000000003b9acb0a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+  format(\"opentype\");font-weight:500;font-style:normal;}@font-face{font-family:acumin-pro-condensed;src:url(https://use.typekit.net/af/7bebb5/00000000000000003b9acb0c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/7bebb5/00000000000000003b9acb0c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/7bebb5/00000000000000003b9acb0c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3)
+  format(\"opentype\");font-weight:600;font-style:normal;}@font-face{font-family:acumin-pro-extra-condensed;src:url(https://use.typekit.net/af/b8e425/00000000000000003b9acb1c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+  format(\"woff2\"),url(https://use.typekit.net/af/b8e425/00000000000000003b9acb1c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+  format(\"woff\"),url(https://use.typekit.net/af/b8e425/00000000000000003b9acb1c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+  format(\"opentype\");font-weight:500;font-style:normal;}</style>\n  </head>\n  <body
+  class=\"post-template-default single single-post postid-305463 single-format-standard
+  has-leaderboard-ad has-scrolling-header\" data-module-init=\"image anchor-link parsely\"
+  data-anchor-link-offset=\".header .header__inner\" data-module-fired=\"true\">\n<!--
+  Google Tag Manager -->\n<noscript><iframe src=\"//www.googletagmanager.com/ns.html?id=GTM-5Q356Q\"\nheight=\"0\"
+  width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew
+  Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-5Q356Q');</script>\n\n<script>\n
+  \ // establish an array of advertising slots\n  // used to check if Krux is loaded
+  before an ad fires\n  var ad_intervals = [];\n</script>\n\n<div class=\"main-wrapper\">\n
+  \ \t<div class=\"header__wrapper\">\n\t<div class=\"container container--ad\" hidden=\"\"
+  rjofwjh=\"\">\n      \n\n<section data-module-init=\"advertisement\" class=\"advertisement
+  ad-position-a show-mobile\" data-ad-index=\"0\" data-module-fired=\"true\">\n  <div
+  id=\"div-gpt-ad-8891272-1-305463-\" class=\"advertising-adslot\" hidden=\"\" rjofwjh=\"\">\n
+  \   <script type=\"text/javascript\">\n      ad_intervals['div-gpt-ad-8891272-1-305463-']
+  = setInterval(function() {\n        // wait to fire advertisement code until the
+  Krux variable is defined\n        if (typeof window.Krux !== 'undefined') {\n          clearTimeout(ad_intervals['div-gpt-ad-8891272-1-305463-'])\n
+  \         googletag.cmd.push(function() {\n            var mapping1 = googletag.sizeMapping()\n
+  \                           .addSize([1000, 0], [[970, 250], [970, 90], [728, 90]])\n
+  \                           .addSize([869, 0], [[728, 90]])\n                            .addSize([640,
+  0], [[468, 60], [375, 50], [320, 100], [320, 50]])\n                            .addSize([0,
+  0], [[375, 50], [320, 100], [320, 50], [300, 50]])\n                            .build();\n\nvar
+  mapping2 = googletag.sizeMapping()\n                            .addSize([1000,
+  0], [[300, 600], [300, 250], [160, 600]])\n                            .addSize([869,
+  0], [[320, 100], [300, 250]])\n                            .addSize([640, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .addSize([0, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .build();\n\nvar mapping3
+  = googletag.sizeMapping()\n                            .addSize([1000, 563], [1,
+  1])\n                            .addSize([0, 0], [1, 1])\n                            .build();\n
+  \  \nvar mapping4 = googletag.sizeMapping()\n                            .addSize([1000,
+  0], [[300, 600], [300, 250], [160, 600]])\n                            .addSize([869,
+  0], [[320, 100], [300, 250]])\n                            .addSize([640, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .addSize([0, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .build();\n            gptadslots.push(googletag.defineSlot('/6117/Food',
+  [[970,250],[970,90],[728,90],[468,60],[375,50],[320,100],[320,50],[300,50]], 'div-gpt-ad-8891272-1-305463-')\n
+  \                            .setTargeting('pos', ['a'])\n                             .defineSizeMapping(mapping1)\n
+  \                            .addService(googletag.pubads()));\n            \n            googletag.pubads().enableSingleRequest();\n\n
+  \           \n            googletag.pubads().setTargeting('id', ['305463'])\n.setTargeting('tag',
+  ['cooking-tips'])\n\n            // Krux services\n            if (typeof Krux !==
+  'undefined') {\n              googletag.pubads().setTargeting(\"ksg\", Krux.segments);\n
+  \             googletag.pubads().setTargeting(\"kuid\", Krux.user);\n            }\n
+  \           // End krux services\n\n            googletag.pubads().collapseEmptyDivs();\n
+  \           googletag.enableServices();\n\n                                          googletag.display('div-gpt-ad-8891272-1-305463-');\n
+  \                         \n          });\n        }\n      }, 100)\n    </script>\n
+  \ </div>\n</section>\n\n\t</div>\n<div class=\"menu-drawer-container\">\n  <span
+  class=\"drawer-overlay js-drawer-close\"></span>\n\t<div class=\"menu-drawer\">\n\t\t<div
+  class=\"menu-drawer__menu\">\n\t\t\t<ul id=\"menu-menu-drawer\" class=\"nav__menu
+  nav__primary\"><li id=\"menu-item-255450\" class=\"menu-item menu-item-type-taxonomy
+  menu-item-object-category menu-item-255450\"><a href=\"https://www.wellandgood.com/good-sweat/\"
+  data-vars-event=\"hamburger nav\"><span class=\"label\">Good Sweat</span></a></li>\n<li
+  id=\"menu-item-255449\" class=\"menu-item menu-item-type-taxonomy menu-item-object-category
+  menu-item-255449\"><a href=\"https://www.wellandgood.com/good-looks/\" data-vars-event=\"hamburger
+  nav\"><span class=\"label\">Good Looks</span></a></li>\n<li id=\"menu-item-255447\"
+  class=\"menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255447\"><a
+  href=\"https://www.wellandgood.com/good-advice/\" data-vars-event=\"hamburger nav\"><span
+  class=\"label\">Good Advice</span></a></li>\n<li id=\"menu-item-255448\" class=\"menu-item
+  menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent
+  current-post-parent menu-item-255448\"><a href=\"https://www.wellandgood.com/good-food/\"
+  data-vars-event=\"hamburger nav\"><span class=\"label\">Good Food</span></a></li>\n<li
+  id=\"menu-item-255451\" class=\"menu-item menu-item-type-taxonomy menu-item-object-category
+  menu-item-255451\"><a href=\"https://www.wellandgood.com/good-travel/\" data-vars-event=\"hamburger
+  nav\"><span class=\"label\">Good Travel</span></a></li>\n<li id=\"menu-item-255452\"
+  class=\"menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255452\"><a
+  href=\"https://www.wellandgood.com/good-home/\" data-vars-event=\"hamburger nav\"><span
+  class=\"label\">Good Home</span></a></li>\n</ul>\t\t</div>\n    <hr>\n          <div
+  class=\"drawer-featured\">\n        <h3 class=\"drawer-featured__heading\" style=\"background-color:
+  #85626c\">Introducing the</h3>\n        <a href=\"https://www.wellandgood.com/well-and-good-healthy-cookbook/\"
+  class=\"drawer-featured__link\" data-vars-event=\"hamburger spotlight\">Well+Good
+  Cookbook</a>\n      </div>\n    \t\t<hr>\n\t\t<div class=\"drawer-cta-menu\">\n\t\t\t\t<ul
+  id=\"menu-drawer-sub-menu\" class=\"nav__menu nav__primary drawer-submenu\"><li
+  id=\"menu-item-368231\" class=\"menu-item menu-item-type-post_type menu-item-object-page
+  menu-item-368231\"><a href=\"https://www.wellandgood.com/well-and-good-healthy-cookbook/\"
+  data-vars-event=\"sub nav\"><span class=\"label\">Well+Good Cookbook</span></a></li>\n<li
+  id=\"menu-item-353723\" class=\"menu-item menu-item-type-post_type menu-item-object-page
+  menu-item-353723\"><a href=\"https://www.wellandgood.com/well-good-council/\" data-vars-event=\"sub
+  nav\"><span class=\"label\">Well+Good Council</span></a></li>\n<li id=\"menu-item-255456\"
+  class=\"menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-255456\"><a
+  href=\"https://www.wellandgood.com/tag/video/\" data-vars-event=\"sub nav\"><span
+  class=\"label\">Video</span></a></li>\n<li id=\"menu-item-255461\" class=\"menu-item
+  menu-item-type-post_type menu-item-object-page menu-item-255461\"><a href=\"https://www.wellandgood.com/talks/\"
+  data-vars-event=\"sub nav\"><span class=\"label\">W+G Talks</span></a></li>\n<li
+  id=\"menu-item-376208\" class=\"menu-item menu-item-type-post_type menu-item-object-page
+  menu-item-376208\"><a href=\"https://www.wellandgood.com/retreats/\" data-vars-event=\"sub
+  nav\"><span class=\"label\">W+G Retreats</span></a></li>\n</ul>\t\t</div>\n\t\t<div
+  class=\"drawer-signup\">\n\t\t\t<h2 class=\"drawer-signup__heading\">Subscribe To
+  Our Newsletter</h2>\n\t\t\t\n<div class=\"signup-form__tagline small\"></div>\n
+  \   <div class=\"signup-form__thanks\"><p>Thanks for signing up for our newsletter!</p>\n<p>To
+  make sure your Well+Good emails don’t go into your spam or promotions folder, please
+  add news@wellandgood.com to your email contacts.</p>\n</div>\n\n<form action=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/lib/postup-process.php?ajax\"
+  class=\"signup-form__form signup-form__SignupForm\" method=\"post\" data-module-init=\"signup-form\"
+  data-success-elem=\".signup-form__thanks\" data-success-hide-elem=\".modal-signup
+  .signup-form__initial, .signup-form__tagline, .signup-form__group__fields, .modal-signup
+  .link-bottom\" data-error-elem=\".signup-form__result\" data-loading-class=\"loading\"
+  data-module-fired=\"true\">\n\t<div class=\"signup-form__fields\">\n\t\t<div class=\"signup-form__group
+  signup-form__group__fields\">\n\t\t\t<input type=\"text\" class=\"required signup-form__email\"
+  name=\"email\" id=\"email\" placeholder=\"Email Address\">\n\t\t\t<input type=\"submit\"
+  name=\"submit\" class=\"signup-form__submit\" value=\"Join\">\n\t\t</div>\n\t\t<p
+  class=\"signup-form__result small error\"></p>\n\n\t\t<!--<div class=\"signup-form__group
+  signup-form__location signup-form__group__fields\">\n\t\t\t<p class=\"signup-form__location-headline\">interested
+  in another edition?</p>\n\t\t\t<label class=\"signup-form__radio\"><input type=\"checkbox\"
+  name=\"groups[]\" value=\"New York\" class=\"nyc\"><span class=\"radio\"></span>
+  New York</label>\n\t\t\t<label class=\"signup-form__radio\"><input type=\"checkbox\"
+  name=\"groups[]\" value=\"Los Angeles\" class=\"la\"><span class=\"radio\"></span>
+  Los Angeles</label>\n\t\t\t<input type=\"hidden\" name=\"groups[]\" value=\"Anywhere\"
+  class=\"anywhere hidden\">\n\n\t\t\t<p class=\"signup-form__location-headline\">www.wellandgood.com</p>\n\t\t</div>-->\n\t\t<input
+  type=\"hidden\" name=\"form\" value=\"SignupForm\">\n\t</div>\n</form>\n\t\t</div>\n\t\t<div
+  class=\"drawer-social\">\n\t\t\t\t<div class=\"menu-social-menu-container\">\n\t
+  \   <ul id=\"menu-social-menu\" class=\"menu\">\n\t\t\t        <li class=\"menu-item
+  menu-item-type-social\"><a href=\"https://www.facebook.com/iamwellandgood\" class=\"icon-facebook\"
+  target=\"_blank\"><span class=\"label\">Facebook</span></a></li>\n\t    \t        <li
+  class=\"menu-item menu-item-type-social\"><a href=\"http://pinterest.com/iamwellandgood\"
+  class=\"icon-pinterest-p\" target=\"_blank\"><span class=\"label\">Pinterest</span></a></li>\n\t
+  \   \t        <li class=\"menu-item menu-item-type-social\"><a href=\"http://www.twitter.com/iamwellandgood\"
+  class=\"icon-twitter\" target=\"_blank\"><span class=\"label\">Twitter</span></a></li>\n\t
+  \   \t        <li class=\"menu-item menu-item-type-social\"><a href=\"https://www.youtube.com/channel/UC1bcqvAnNsBoq_RWJNxYvhQ\"
+  class=\"icon-youtube\" target=\"_blank\"><span class=\"label\">Youtube</span></a></li>\n\t
+  \   \t        <li class=\"menu-item menu-item-type-social\"><a href=\"http://instagram.com/iamwellandgood\"
+  class=\"icon-instagram\" target=\"_blank\"><span class=\"label\">Instagram</span></a></li>\n\t
+  \   \t    </ul>\n\t</div>\n\t\t</div>\n\t\t<a href=\"#\" class=\"drawer-close js-drawer-close\"></a>\n\t</div>\n</div>\n\n<header
+  class=\"header header--ad\" data-module-init=\"header\" data-module-fired=\"true\">\n\n\t<div
+  class=\"header__inner\">\n\t\t<div class=\"header__search\" data-search-elem=\".search-bar
+  .search-bar__input\">\n\t\t\t<span class=\"icon-search-thin-small\"></span>\n\t\t\t<span
+  class=\"icon-x\"></span>\n\t\t</div>\n\n\t\t\n\t\t<a href=\"#\" class=\"nav-trigger\"
+  tabindex=\"2\" aria-haspopup=\"true\">\n\t\t\t<span class=\"nav-trigger__bar nav-trigger__bar--top\"></span>\n\t\t\t<span
+  class=\"nav-trigger__bar nav-trigger__bar--middle\"></span>\n\t\t\t<span class=\"nav-trigger__bar
+  nav-trigger__bar--bottom\"></span>\n\t\t</a>\n\n\t\t    \t\t<a href=\"/\" class=\"logo-wrapper\"
+  tabindex=\"1\"><div class=\"logo\"><span class=\"logo-well\"><span class=\"label\">Well</span></span><span
+  class=\"logo-and\"><span class=\"label\">+</span><div class=\"logo-graphic\">  <div
+  class=\"image-module\">\n    <img src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/spacer.gif\"
+  data-src=\"https://www.wellandgood.com/wp-content/uploads/2019/02/Plus-FEB-19-300x300-Final-150x150.jpg\"
+  class=\"image-module-img\" data-src-retina=\"https://www.wellandgood.com/wp-content/uploads/2019/02/Plus-FEB-19-300x300-Final-150x150.jpg\"
+  alt=\"+\">\n          <noscript>\n      <img src=\"https://www.wellandgood.com/wp-content/uploads/2019/02/Plus-FEB-19-300x300-Final-150x150.jpg\"
+  alt=\"+\" />\n    </noscript>\n  </div>\n</div></span><span class=\"logo-good\"><span
+  class=\"label\">Good</span></span></div></a>\n\n\t\t<div class=\"menu-header-menu-container\">\n\t\t\t<div
+  class=\"nav__logo\">\n\t\t\t\t<div class=\"nav__logo-image\">  <div class=\"image-module\">\n
+  \   <img src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/spacer.gif\"
+  data-src=\"https://www.wellandgood.com/wp-content/uploads/2019/02/Plus-FEB-19-300x300-Final-150x150.jpg\"
+  class=\"image-module-img\" data-src-retina=\"https://www.wellandgood.com/wp-content/uploads/2019/02/Plus-FEB-19-300x300-Final-150x150.jpg\"
+  alt=\"+\">\n          <noscript>\n      <img src=\"https://www.wellandgood.com/wp-content/uploads/2019/02/Plus-FEB-19-300x300-Final-150x150.jpg\"
+  alt=\"+\" />\n    </noscript>\n  </div>\n</div>\n\t\t\t</div>\n\t\t\t<ul id=\"menu-header-menu\"
+  class=\"nav__menu nav__primary\"><li id=\"menu-item-121331\" class=\"js-toggle-nav__good-sweat
+  menu-item menu-item-type-taxonomy menu-item-object-category menu-item-121331\"><a
+  href=\"https://www.wellandgood.com/good-sweat/\" data-vars-event=\"header nav\"><span
+  class=\"label\">Good Sweat</span></a></li>\n<li id=\"menu-item-121333\" class=\"js-toggle-nav__good-looks
+  menu-item menu-item-type-taxonomy menu-item-object-category menu-item-121333\"><a
+  href=\"https://www.wellandgood.com/good-looks/\" data-vars-event=\"header nav\"><span
+  class=\"label\">Good Looks</span></a></li>\n<li id=\"menu-item-121330\" class=\"js-toggle-nav__good-advice
+  menu-item menu-item-type-taxonomy menu-item-object-category menu-item-121330\"><a
+  href=\"https://www.wellandgood.com/good-advice/\" data-vars-event=\"header nav\"><span
+  class=\"label\">Good Advice</span></a></li>\n<li id=\"menu-item-121332\" class=\"js-toggle-nav__good-food
+  menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor
+  current-menu-parent current-post-parent menu-item-121332\"><a href=\"https://www.wellandgood.com/good-food/\"
+  data-vars-event=\"header nav\"><span class=\"label\">Good Food</span></a></li>\n<li
+  id=\"menu-item-193505\" class=\"js-toggle-nav__good-travel menu-item menu-item-type-taxonomy
+  menu-item-object-category menu-item-193505\"><a href=\"https://www.wellandgood.com/good-travel/\"
+  data-vars-event=\"header nav\"><span class=\"label\">Good Travel</span></a></li>\n<li
+  id=\"menu-item-255462\" class=\"js-toggle-nav__good-home menu-item menu-item-type-taxonomy
+  menu-item-object-category menu-item-255462\"><a href=\"https://www.wellandgood.com/good-home/\"
+  data-vars-event=\"header nav\"><span class=\"label\">Good Home</span></a></li>\n</ul>\t\t</div>\n\t</div>\n\t<div
+  class=\"search-bar\">\n\t\t<div class=\"search-bar__inner\">\n\t\t\t<form id=\"search-form\"
+  action=\"https://www.wellandgood.com\">\n\t\t\t\t<input required=\"\" class=\"search-bar__input\"
+  type=\"text\" name=\"s\" placeholder=\"Enter Search…\" value=\"\">\n\t\t\t\t<p class=\"search-bar__hint\">Press
+  \"Enter\" to Search</p>\n\t\t\t\t<button class=\"search-bar__submit\"><span class=\"icon-search-thin-small\"></span></button>\n\t\t\t</form>\n\t\t</div>\n\t</div>\n</header>\n\n\t</div>\n<script
+  type=\"text/javascript\">\n      var blacklistedPartners = [7960]\n    </script>\n<div
+  class=\"post-content__infinite-wrapper\" data-module-init=\"infinite-scroll\" data-module-fired=\"true\">\n
+  \ \n\n\n<article class=\"post\" id=\"post-305463\" data-url=\"https://www.wellandgood.com/good-food/sous-vide-cooking-guide/\"
+  data-datalayer=\"{&quot;pagetype&quot;:&quot;article&quot;,&quot;category&quot;:&quot;Good
+  Food&quot;,&quot;published&quot;:&quot;June 8, 2018&quot;,&quot;modified&quot;:&quot;June
+  8, 2018&quot;,&quot;author&quot;:&quot;Laurel Leicht&quot;,&quot;tags&quot;:&quot;Cooking
+  Tips&quot;,&quot;infiniteInstance&quot;:0,&quot;partner&quot;:&quot;non-branded&quot;,&quot;campaign&quot;:&quot;no-campaign&quot;}\"
+  data-title=\"Sous-vide cooking is here to make your summer dinner parties a cinch\">\n\n\t<div
+  class=\"post__inner\">\n\t\t<!--  -->\n\t\t<div class=\"container container--with-aside
+  post__content-wrapper\">\n\t\t\t<div class=\"post__content\" data-module-init=\"pinterest
+  audio-tracking\" data-module-fired=\"true\">\n\t\t\t\t<header class=\"post__header\">\n\t\t\t\t\t<h1
+  class=\"big post__title\">Sous-vide cooking is here to make your summer dinner parties
+  a cinch</h1>\n\t\t\t\t\t<div class=\"post__info info\">\n\t\t\t\t\t\t<div class=\"social-share\">\n\t<a
+  class=\"social-share__button social-share__button--facebook\" target=\"_blank\"
+  href=\"//www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.wellandgood.com%2Fgood-food%2Fsous-vide-cooking-guide%2F\"
+  data-vars-event=\"Facebook\" data-vars-info=\"/good-food/sous-vide-cooking-guide/\">\n\t\t<span
+  class=\"icon-facebook\"></span> Share\n\t</a>\n\t<a class=\"social-share__button
+  social-share__button--twitter\" target=\"_blank\" href=\"//twitter.com/share?text=Sous-vide%20cooking%20is%20here%20to%20make%20your%20summer%20dinner%20parties%20a%20cinch%20via%20%40iamwellandgood&amp;url=https%3A%2F%2Fwww.wellandgood.com%2Fgood-food%2Fsous-vide-cooking-guide%2F\"
+  data-vars-event=\"Twitter\" data-vars-info=\"/good-food/sous-vide-cooking-guide/\">\n\t\t<span
+  class=\"icon-twitter\"></span> Tweet\n\t</a>\n\t<a class=\"social-share__button
+  social-share__button--pinterest\" target=\"_blank\" href=\"//pinterest.com/pin/create/link/?url=https%3A%2F%2Fwww.wellandgood.com%2Fgood-food%2Fsous-vide-cooking-guide%2F&amp;description=Sous-vide%20cooking%20is%20here%20to%20make%20your%20summer%20dinner%20parties%20a%20cinch&amp;media=https%3A%2F%2Fwww.wellandgood.com%2Fwp-content%2Fuploads%2F2018%2F06%2FStocksy-friends-cheers-Jill-Chen-608x400.jpg\"
+  data-vars-event=\"Pinterest\" data-vars-info=\"/good-food/sous-vide-cooking-guide/\">\n\t\t<span
+  class=\"icon-pinterest-p\"></span> Pin It\n\t</a>\n</div>\n\t\t\t\t\t\t<div class=\"post__info-inner\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p
+  class=\"avatar-wrapper post__avatar\">\n\t\t\t\t\t\t\t\t\t<img src=\"https://www.wellandgood.com/wp-content/uploads/2016/08/wg-profile.jpg\"
+  width=\"32\" height=\"32\" alt=\"\" class=\"avatar avatar-32 wp-user-avatar wp-user-avatar-32
+  photo avatar-default\">\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p
+  class=\"meta post__category\"><a href=\"https://www.wellandgood.com/good-food/\">Good
+  Food</a></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"meta by post__by\"><span class=\"icon-by\"><span
+  class=\"label\">by</span></span>\n\t\t\t\t\t\t\t\tLaurel Leicht, June 8, 2018</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<hr
+  class=\"hr__under-info\">\n\n\t\t\t\t\t<figure class=\"post__featured-image\">\n
+  \           <div class=\"post-ad-b-wrapper\" data-sticky-id=\"post-305463\" data-module-init=\"\"
+  data-flow-at=\"#post-305463 .post__inner\" data-position-b=\"tablet\" data-pin-at=\".header\"
+  data-module-fired=\"true\">\n\t\t\t\t\t\t\t\n\n\n\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div
+  class=\"post__featured-image-wrapper\">\n                  <div class=\"image-module\">\n
+  \   <img src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/spacer.gif\"
+  data-src=\"https://www.wellandgood.com/wp-content/uploads/2018/06/Stocksy-friends-cheers-Jill-Chen.jpg\"
+  class=\"image-module-img\" data-src-retina=\"https://www.wellandgood.com/wp-content/uploads/2018/06/Stocksy-friends-cheers-Jill-Chen.jpg\"
+  alt=\"Thumbnail for Sous-vide cooking is here to make your summer dinner parties
+  a cinch\">\n          <noscript>\n      <img src=\"https://www.wellandgood.com/wp-content/uploads/2018/06/Stocksy-friends-cheers-Jill-Chen.jpg\"
+  alt=\"Thumbnail for Sous-vide cooking is here to make your summer dinner parties
+  a cinch\" />\n    </noscript>\n  </div>\n                  <a target=\"_blank\"
+  href=\"//pinterest.com/pin/create/link/?url=https%3A%2F%2Fwww.wellandgood.com%2Fgood-food%2Fsous-vide-cooking-guide%2F&amp;description=Sous-vide%20cooking%20is%20here%20to%20make%20your%20summer%20dinner%20parties%20a%20cinch&amp;media=https%3A%2F%2Fwww.wellandgood.com%2Fwp-content%2Fuploads%2F2018%2F06%2FStocksy-friends-cheers-Jill-Chen-608x400.jpg\"
+  class=\"post__pin-link\">\n                    <span class=\"post__pin-wrapper\">\n
+  \                     <span class=\"post__pin-image social-share__button social-share__button--circle
+  social-share__button--pinterest\">\n                        <span class=\"icon-pinterest-p\"></span>\n
+  \                     </span>\n                      <span class=\"post__pin-label\">Pin
+  It</span>\n                    </span>\n                  </a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<figcaption>Photo:
+  Stocksy/Jill Chen</figcaption>\n                        \t\t\t\t\t</figure>\n\t\t\t\t</header>\n
+  \       <aside class=\"post__share social-share--circle\" data-sticky-id=\"post-305463\"
+  data-module-init=\"sticky-pin\" data-flow-at=\"#post-305463 .post__inner\" data-pin-at=\".header\"
+  data-module-fired=\"true\">\n  <div class=\"post__share--inner\">\n    <a class=\"social-share__button
+  social-share__button--facebook\" target=\"_blank\" href=\"//www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.wellandgood.com%2Fgood-food%2Fsous-vide-cooking-guide%2F\"
+  data-vars-event=\"Facebook\" data-vars-info=\"/good-food/sous-vide-cooking-guide/\">\n
+  \     <span class=\"icon-facebook\"></span>\n    </a>\n    <a class=\"social-share__button
+  social-share__button--twitter\" target=\"_blank\" href=\"//twitter.com/share?text=Sous-vide%20cooking%20is%20here%20to%20make%20your%20summer%20dinner%20parties%20a%20cinch%20via%20%40iamwellandgood&amp;url=https%3A%2F%2Fwww.wellandgood.com%2Fgood-food%2Fsous-vide-cooking-guide%2F\"
+  data-vars-event=\"Twitter\" data-vars-info=\"/good-food/sous-vide-cooking-guide/\">\n
+  \     <span class=\"icon-twitter\"></span>\n    </a>\n    <a class=\"social-share__button
+  social-share__button--pinterest\" target=\"_blank\" href=\"//pinterest.com/pin/create/link/?url=https%3A%2F%2Fwww.wellandgood.com%2Fgood-food%2Fsous-vide-cooking-guide%2F&amp;description=Sous-vide%20cooking%20is%20here%20to%20make%20your%20summer%20dinner%20parties%20a%20cinch&amp;media=https%3A%2F%2Fwww.wellandgood.com%2Fwp-content%2Fuploads%2F2018%2F06%2FStocksy-friends-cheers-Jill-Chen-608x400.jpg\"
+  data-vars-event=\"Pinterest\" data-vars-info=\"/good-food/sous-vide-cooking-guide/\">\n
+  \     <span class=\"icon-pinterest-p\"></span>\n    </a>\n    <a class=\"social-share__button
+  social-share__button--flipboard\" target=\"_blank\" href=\"https://share.flipboard.com/bookmarklet/popout?v=2&amp;title=Sous-vide%20cooking%20is%20here%20to%20make%20your%20summer%20dinner%20parties%20a%20cinch&amp;url=https%3A%2F%2Fwww.wellandgood.com%2Fgood-food%2Fsous-vide-cooking-guide%2F\"
+  data-flip-widget=\"shareflip\" data-vars-event=\"Flipboard\" data-vars-info=\"/good-food/sous-vide-cooking-guide/\">\n
+  \     <span></span>\n    </a>\n    <a class=\"social-share__button social-share__button--email\"
+  href=\"mailto:?subject=Sous-vide%20cooking%20is%20here%20to%20make%20your%20summer%20dinner%20parties%20a%20cinch&amp;body=You%20don%27t%20need%20to%20be%20a%20pro%20chef%20to%20master%20this%20healthy%20technique.%20https%3A%2F%2Fwww.wellandgood.com%2Fgood-food%2Fsous-vide-cooking-guide%2F\"
+  data-vars-event=\"Email\" data-vars-info=\"/good-food/sous-vide-cooking-guide/\">\n
+  \     <span class=\"icon-paper-plane\"></span>\n    </a>\n      </div>\n</aside>\n\t\t\t\t<main
+  class=\"post__main\" data-refresh-ads=\"\">\n\t\t\t\t\t<p>If you’ve watched any
+  TV cooking competition, you’ve most likely heard the term “sous vide” being thrown
+  around. (It’s pronounced <em>soo-veed</em>, if that rings any bells.) But the chances
+  that you’ve personally tried the technique—in which vacuum-sealed food is slowly
+  cooked inside a temperature-controlled water bath, resulting in the perfect amount
+  of doneness—are much slimmer. After all, how many home cooks have a Cryovac plastic-wrapping
+  machine sitting on their counter?\n</p><p>Although this gourmet cooking style seems
+  complicated and mysterious, it can actually be pretty easy. Believe it or not, you
+  can pull it off with equipment that’s commonly found in most kitchens.\n</p><p>“People
+  shouldn’t be scared of sous vide—it’s fairly simple once you wrap your mind around
+  it,” says Robert Curry, executive chef at the Michelin-starred restaurant at <a
+  data-vars-event=\"body text\" data-vars-click-url=\"https://aubergedusoleil.aubergeresorts.com/\"
+  href=\"https://aubergedusoleil.aubergeresorts.com/\" target=\"_blank\" rel=\"noopener\">Auberge
+  du Soleil</a> in Napa, CA, where his menu combines local California fare with classic
+  French cuisine.</p><div data-position-b=\"mobile\"><section data-module-init=\"advertisement\"
+  class=\"advertisement ad-position-b\" data-ad-index=\"1\" data-module-fired=\"true\">\n
+  \ <div id=\"div-gpt-ad-8891272-2-305463-\" class=\"advertising-adslot\" hidden=\"\"
+  rjofwjh=\"\">\n    <script type=\"text/javascript\">\n      ad_intervals['div-gpt-ad-8891272-2-305463-']
+  = setInterval(function() {\n        // wait to fire advertisement code until the
+  Krux variable is defined\n        if (typeof window.Krux !== 'undefined') {\n          clearTimeout(ad_intervals['div-gpt-ad-8891272-2-305463-'])\n
+  \         googletag.cmd.push(function() {\n            var mapping1 = googletag.sizeMapping()\n
+  \                           .addSize([1000, 0], [[970, 250], [970, 90], [728, 90]])\n
+  \                           .addSize([869, 0], [[728, 90]])\n                            .addSize([640,
+  0], [[468, 60], [375, 50], [320, 100], [320, 50]])\n                            .addSize([0,
+  0], [[375, 50], [320, 100], [320, 50], [300, 50]])\n                            .build();\n\nvar
+  mapping2 = googletag.sizeMapping()\n                            .addSize([1000,
+  0], [[300, 600], [300, 250], [160, 600]])\n                            .addSize([869,
+  0], [[320, 100], [300, 250]])\n                            .addSize([640, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .addSize([0, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .build();\n\nvar mapping3
+  = googletag.sizeMapping()\n                            .addSize([1000, 563], [1,
+  1])\n                            .addSize([0, 0], [1, 1])\n                            .build();\n
+  \  \nvar mapping4 = googletag.sizeMapping()\n                            .addSize([1000,
+  0], [[300, 600], [300, 250], [160, 600]])\n                            .addSize([869,
+  0], [[320, 100], [300, 250]])\n                            .addSize([640, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .addSize([0, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .build();\n            gptadslots.push(googletag.defineSlot('/6117/Food',
+  [[375,50],[320,100],[300,600],[300,250],[160,600]], 'div-gpt-ad-8891272-2-305463-')\n
+  \                            .setTargeting('pos', ['b'])\n                             .defineSizeMapping(mapping2)\n
+  \                            .addService(googletag.pubads()));\n            \n            googletag.pubads().enableSingleRequest();\n\n
+  \           \n            googletag.pubads().setTargeting('id', ['305463'])\n.setTargeting('tag',
+  ['cooking-tips'])\n\n            // Krux services\n            if (typeof Krux !==
+  'undefined') {\n              googletag.pubads().setTargeting(\"ksg\", Krux.segments);\n
+  \             googletag.pubads().setTargeting(\"kuid\", Krux.user);\n            }\n
+  \           // End krux services\n\n            googletag.pubads().collapseEmptyDivs();\n
+  \           googletag.enableServices();\n\n                                          window.adPosBCallback
+  = function() {\n                  googletag.display('div-gpt-ad-8891272-2-305463-');\n
+  \               };\n                          \n          });\n        }\n      },
+  100)\n    </script>\n  </div>\n</section></div>\n<p>Bonus: Cooking this way retains
+  your food’s nutrients and cuts down on grease. “Sous vide does have some nutritional
+  advantages,” says <a data-vars-event=\"body text\" data-vars-click-url=\"http://www.sarahaasrdn.com/\"
+  href=\"http://www.sarahaasrdn.com/\" target=\"_blank\" rel=\"noopener\">Sara Haas</a>,
+  RDN, a registered dietician nutritionist and chef in Chicago. For one, you don’t
+  need to use any additional fat. (Though <a data-vars-event=\"body text\" data-vars-click-url=\"https://www.wellandgood.com/good-food/beginners-guide-to-ketogenic-diet/\"
+  href=\"https://www.wellandgood.com/good-food/beginners-guide-to-ketogenic-diet/\"
+  target=\"_blank\" rel=\"noopener\">ketogenic diet</a> devotees would argue that
+  more fat is a <em>good</em> thing, not everyone agrees.) Plus, she says, “Similar
+  to cooking food in a crock pot or pressure cooker, the nutrients are essentially
+  ‘locked in’ the food. And since there’s limited moisture loss, food will likely
+  be juicier and more flavorful.” Certainly beats the letdown (and potential health
+  risks) of <a data-vars-event=\"body text\" data-vars-click-url=\"https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/cooked-meats-fact-sheet\"
+  href=\"https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/cooked-meats-fact-sheet\"
+  target=\"_blank\" rel=\"noopener\">over-blackened salmon</a> or <a data-vars-event=\"body
+  text\" data-vars-click-url=\"https://www.wellandgood.com/good-food/smartphone-app-to-identify-food-bacteria/\"
+  href=\"https://www.wellandgood.com/good-food/smartphone-app-to-identify-food-bacteria/\"
+  target=\"_blank\" rel=\"noopener\">under-grilled chicken</a>, doesn’t it?\n</p><h2>Read
+  on to learn how to cook sous vide at home—no special equipment required.</h2>\n<figure
+  id=\"attachment_305687\" style=\"width: 870px\" class=\"wp-caption aligncenter\">
+  \ <div class=\"image-module post__image-wrapper\">\n    <img src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/spacer.gif\"
+  data-src=\"https://www.wellandgood.com/wp-content/uploads/2018/06/Stocksy-Salmon-Pan-jamie-grill-atlas.jpg\"
+  class=\"image-module-img\" data-src-retina=\"https://www.wellandgood.com/wp-content/uploads/2018/06/Stocksy-Salmon-Pan-jamie-grill-atlas.jpg\"
+  alt=\"Thumbnail for Sous-vide cooking is here to make your summer dinner parties
+  a cinch\">\n          <noscript>\n      <img src=\"https://www.wellandgood.com/wp-content/uploads/2018/06/Stocksy-Salmon-Pan-jamie-grill-atlas.jpg\"
+  alt=\"Thumbnail for Sous-vide cooking is here to make your summer dinner parties
+  a cinch\" />\n    </noscript>\n  <a target=\"_blank\" href=\"//pinterest.com/pin/create/link/?url=https%3A%2F%2Fwww.wellandgood.com%2Fgood-food%2Fsous-vide-cooking-guide%2F&amp;media=https%3A%2F%2Fwww.wellandgood.com%2Fwp-content%2Fthemes%2Fwellgood-2016%2Fassets%2Fimg%2Fspacer.gif\"
+  class=\"post__pin-link\"><span class=\"post__pin-wrapper\"><span class=\"post__pin-image
+  social-share__button social-share__button--circle social-share__button--pinterest\"><span
+  class=\"icon-pinterest-p\"></span></span><span class=\"post__pin-label\">Pin It</span></span></a></div>\n<figcaption
+  class=\"wp-caption-text\">Photo: Stocksy/Jamie Grill Atlas</figcaption></figure>\n<h2>A
+  beginner’s guide to sous-vide cooking</h2>\n<p>Curry has been cooking sous vide—everything
+  from fish to lamb ribeye to potatoes—for years. “The whole premise of the idea is
+  to [cook the protein at an] even temperature and then sear afterward to achieve
+  that extra-savory flavor,” he says. The process is different from plain <a data-vars-event=\"body
+  text\" data-vars-click-url=\"https://www.wellandgood.com/good-food/how-to-poach-an-egg/\"
+  href=\"https://www.wellandgood.com/good-food/how-to-poach-an-egg/\" target=\"_blank\"
+  rel=\"noopener\">poaching</a> because the food is generally sealed in a plastic
+  sack—hence the term “sous vide,” which is French for “under vacuum.”\n</p><p>The
+  expensive, scientific-looking gadgets that high-profile chefs break out when cooking
+  sous vide is where the technique’s intimidation factor comes from. But all that
+  stuff isn’t necessary to nail the technique, says Curry. He does strongly suggest
+  home cooks invest in a thermal immersion circulator to help them dial in to a specific
+  water temperature, but it doesn’t have to put a serious dent in your wallet—<a data-vars-event=\"body
+  text\" data-vars-click-url=\"https://www.amazon.com/gp/product/B00UKPBXM4/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=welcom03a-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B00UKPBXM4&amp;linkId=afbf596a2886850ea36748944e744f81\"
+  href=\"https://www.amazon.com/gp/product/B00UKPBXM4/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=welcom03a-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B00UKPBXM4&amp;linkId=afbf596a2886850ea36748944e744f81\"
+  target=\"_blank\" rel=\"noopener\">you can get one for about $100</a>.\n</p><p>You
+  can also skip the circulator and just use a regular ol’ pot on the stove, but it’s
+  much more difficult to keep the water temperature set, Curry warns. And if the water
+  gets too hot, your food will cook unevenly—overdone on the outside, raw in the middle—which
+  defeats the purpose of sous vide.\n</p><p>The pricy vacuum-sealed bags aren’t crucial
+  either. Instead, you can simply reach for a roll of <a data-vars-event=\"body text\"
+  data-vars-click-url=\"https://www.amazon.com/gp/product/B077QLSLRQ/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=welcom03a-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B077QLSLRQ&amp;linkId=ade5290ec44f21851f803ea01ffccedd\"
+  href=\"https://www.amazon.com/gp/product/B077QLSLRQ/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=welcom03a-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B077QLSLRQ&amp;linkId=ade5290ec44f21851f803ea01ffccedd\"
+  target=\"_blank\" rel=\"noopener\">plastic wrap</a>. To try it, wipe a wet towel
+  along a section of your counter to get it damp, then lay a sheet of plastic wrap
+  over it—the moisture is just to get the plastic to stay in place. Put a marinated
+  cut of meat, fish, veggies, herbs, or whatever else you’re cooking on one end, then
+  roll it all the way up. Next, wrap the plastic-wrapped food in a layer of <a data-vars-event=\"body
+  text\" data-vars-click-url=\"https://www.amazon.com/gp/product/B00UNT0Y2M/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=welcom03a-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B00UNT0Y2M&amp;linkId=f57b882b41b0cc5948ed40d0b1842f63\"
+  href=\"https://www.amazon.com/gp/product/B00UNT0Y2M/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=welcom03a-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B00UNT0Y2M&amp;linkId=f57b882b41b0cc5948ed40d0b1842f63\"
+  target=\"_blank\" rel=\"noopener\">aluminum foil</a>. Set the temperature on the
+  immersion circulator in a pan of water on the counter, drop in the wrapped food,
+  and leave it. Fish, veggies, and tender cuts of meat can be ready in about 45 minutes,
+  while tougher cuts can take several hours—and don’t forget to finish off your protein
+  by searing it on the stovetop.\n</p><p>It’s so easy, you can even do this ahead
+  of time. If you’ve got <a data-vars-event=\"body text\" data-vars-click-url=\"https://www.wellandgood.com/good-food/dinner-party-tip-taryn-toomey/\"
+  href=\"https://www.wellandgood.com/good-food/dinner-party-tip-taryn-toomey/\" target=\"_blank\"
+  rel=\"noopener\">dinner party</a> plans, cook the meal sous-vide early in the day,
+  then leave it in an ice bath until guests show up, says Curry. Take it out of the
+  ice bath 20 minutes before mealtime, and sear the food on the stove before serving.\n</p><p>“If
+  you’re having people over for a party, it can be pretty foolproof,” says Curry.
+  “You know the piece of meat, as long as you cook it long enough, is going to turn
+  out nicely every time.” That means less stress slaving over the stove, and more
+  freedom to <a data-vars-event=\"body text\" data-vars-click-url=\"https://www.wellandgood.com/good-advice/summer-playlist-taryn-toomey/\"
+  href=\"https://www.wellandgood.com/good-advice/summer-playlist-taryn-toomey/\" target=\"_blank\"
+  rel=\"noopener\">perfect your playlist</a>.\n</p><p><strong>For more on how to up
+  your summer entertaining game, check out these <a data-vars-event=\"body text\"
+  data-vars-click-url=\"http://wellandgood.com/good-home/summer-outdoor-party-ideas-emily-henderson/\"
+  href=\"http://wellandgood.com/good-home/summer-outdoor-party-ideas-emily-henderson/\"
+  target=\"_blank\" rel=\"noopener\">dinner party tips from an HGTV host</a>—and dress
+  your table with&nbsp;<a data-vars-event=\"body text\" data-vars-click-url=\"https://www.wellandgood.com/good-home/target-home-collection-made-by-design/\"
+  href=\"https://www.wellandgood.com/good-home/target-home-collection-made-by-design/\"
+  target=\"_blank\" rel=\"noopener\">Target’s new minimalist-chic home line</a>.&nbsp;</strong>\n\t\t\t\t</p></main>\n\t\t\t</div>\n\t\t\t<aside
+  class=\"sidebar post__sidebar\">\n\t\t\t\t<div class=\"post__sticky-advertisement
+  advertisement__mobile-wrapper\">\n\t\t\t\t\t\n\n<section data-module-init=\"advertisement\"
+  class=\"advertisement ad-position-c\" data-ad-index=\"2\" data-module-fired=\"true\">\n
+  \ <div id=\"div-gpt-ad-8891272-3-305463-\" class=\"advertising-adslot\" hidden=\"\"
+  rjofwjh=\"\">\n    <script type=\"text/javascript\">\n      ad_intervals['div-gpt-ad-8891272-3-305463-']
+  = setInterval(function() {\n        // wait to fire advertisement code until the
+  Krux variable is defined\n        if (typeof window.Krux !== 'undefined') {\n          clearTimeout(ad_intervals['div-gpt-ad-8891272-3-305463-'])\n
+  \         googletag.cmd.push(function() {\n            var mapping1 = googletag.sizeMapping()\n
+  \                           .addSize([1000, 0], [[970, 250], [970, 90], [728, 90]])\n
+  \                           .addSize([869, 0], [[728, 90]])\n                            .addSize([640,
+  0], [[468, 60], [375, 50], [320, 100], [320, 50]])\n                            .addSize([0,
+  0], [[375, 50], [320, 100], [320, 50], [300, 50]])\n                            .build();\n\nvar
+  mapping2 = googletag.sizeMapping()\n                            .addSize([1000,
+  0], [[300, 600], [300, 250], [160, 600]])\n                            .addSize([869,
+  0], [[320, 100], [300, 250]])\n                            .addSize([640, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .addSize([0, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .build();\n\nvar mapping3
+  = googletag.sizeMapping()\n                            .addSize([1000, 563], [1,
+  1])\n                            .addSize([0, 0], [1, 1])\n                            .build();\n
+  \  \nvar mapping4 = googletag.sizeMapping()\n                            .addSize([1000,
+  0], [[300, 600], [300, 250], [160, 600]])\n                            .addSize([869,
+  0], [[320, 100], [300, 250]])\n                            .addSize([640, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .addSize([0, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .build();\n            gptadslots.push(googletag.defineSlot('/6117/Food',
+  [[375,50],[320,100],[300,250]], 'div-gpt-ad-8891272-3-305463-')\n                             .setTargeting('pos',
+  ['c'])\n                             .defineSizeMapping(mapping4)\n                             .addService(googletag.pubads()));\n
+  \           \n            googletag.pubads().enableSingleRequest();\n\n            \n
+  \           googletag.pubads().setTargeting('id', ['305463'])\n.setTargeting('tag',
+  ['cooking-tips'])\n\n            // Krux services\n            if (typeof Krux !==
+  'undefined') {\n              googletag.pubads().setTargeting(\"ksg\", Krux.segments);\n
+  \             googletag.pubads().setTargeting(\"kuid\", Krux.user);\n            }\n
+  \           // End krux services\n\n            googletag.pubads().collapseEmptyDivs();\n
+  \           googletag.enableServices();\n\n                                          googletag.display('div-gpt-ad-8891272-3-305463-');\n
+  \                         \n          });\n        }\n      }, 100)\n    </script>\n
+  \ </div>\n</section>\n\n\t\t\t\t</div>\n\t\t\t</aside>\n\t\t</div>\n\t\t<div class=\"container
+  container--with-aside\">\n\t\t\t<footer class=\"post__footer\">\n        <div>\n
+  \     <p class=\"post__tags tag-list info\">\n      <span class=\"icon-tag\"></span>
+  <a href=\"https://www.wellandgood.com/tag/cooking-tips/\" rel=\"tag\">Cooking Tips</a>
+  \   </p>\n    <hr class=\"hr__under-info\">\n</div>\n\t\t\t</footer>\n\t\t\t<aside
+  class=\"sidebar\">\n\t\t\t</aside>\n\t\t</div>\n\t</div>\n</article>\n\n  <div class=\"js-insert-above
+  load-more-indicator\" data-first-post=\"305463\" data-branded=\"1\">\n    <p class=\"load-more-indicator__text
+  not-showing\">Loading More Posts...</p>\n  </div>\n</div>\n<section class=\"relationship-stories
+  relationship-stories--most-popular module-alternate\">\n  <div class=\"container
+  relationship-stories__container\">\n    <div class=\"module-heading relationship-stories__headline\">\n
+  \     <span class=\"relationship-stories__headline-label\">Most <strong>Popular</strong></span>\n
+  \     \n    </div>\n    <div class=\"relationship-stories__list\">\n                      <article
+  class=\"relationship-stories__card\">\n          <a class=\"relationship-stories__image-wrapper\"
+  href=\"https://www.wellandgood.com/good-food/healthy-post-workout-meal/\" target=\"\">\n
+  \           <div class=\"relationship-stories__image\" title=\"Never skip breakfast
+  again with this easy, healthy post-workout meal\">  <div class=\"image-module\">\n
+  \   <img src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/spacer.gif\"
+  data-src=\"https://www.wellandgood.com/wp-content/uploads/2019/03/Stocksy-woman-breakfast-bowl-Santi-Nunez-608x400.jpg\"
+  class=\"image-module-img\" data-src-retina=\"https://www.wellandgood.com/wp-content/uploads/2019/03/Stocksy-woman-breakfast-bowl-Santi-Nunez-850x570.jpg\"
+  alt=\"Never skip breakfast again with this easy, healthy post-workout meal\">\n
+  \         <noscript>\n      <img src=\"https://www.wellandgood.com/wp-content/uploads/2019/03/Stocksy-woman-breakfast-bowl-Santi-Nunez-608x400.jpg\"
+  alt=\"Never skip breakfast again with this easy, healthy post-workout meal\" />\n
+  \   </noscript>\n  </div>\n</div>\n          </a>\n          <a href=\"https://www.wellandgood.com/good-food/healthy-post-workout-meal/\"
+  target=\"\">\n            <p class=\"relationship-stories__ranking\">1</p>\n            <p
+  class=\"relationship-stories__title\">Never skip breakfast again with this easy,
+  healthy post-workout meal</p>\n          </a>\n        </article>\n                            <article
+  class=\"relationship-stories__card\">\n          <a class=\"relationship-stories__image-wrapper\"
+  href=\"https://www.wellandgood.com/good-advice/queer-eye-crying/\" target=\"\">\n
+  \           <div class=\"relationship-stories__image\" title=\"If a good cry is
+  healthy, the new season of “Queer Eye” has gotta be a cure-all\">  <div class=\"image-module\">\n
+  \   <img src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/spacer.gif\"
+  data-src=\"https://www.wellandgood.com/wp-content/uploads/2019/03/queer-eye-crying-575x400.jpg\"
+  class=\"image-module-img\" data-src-retina=\"https://www.wellandgood.com/wp-content/uploads/2019/03/queer-eye-crying-850x570.jpg\"
+  alt=\"If a good cry is healthy, the new season of “Queer Eye” has gotta be a cure-all\">\n
+  \         <noscript>\n      <img src=\"https://www.wellandgood.com/wp-content/uploads/2019/03/queer-eye-crying-575x400.jpg\"
+  alt=\"If a good cry is healthy, the new season of “Queer Eye” has gotta be a cure-all\"
+  />\n    </noscript>\n  </div>\n</div>\n          </a>\n          <a href=\"https://www.wellandgood.com/good-advice/queer-eye-crying/\"
+  target=\"\">\n            <p class=\"relationship-stories__ranking\">2</p>\n            <p
+  class=\"relationship-stories__title\">If a good cry is healthy, the new season of
+  “Queer Eye” has gotta be a cure-all</p>\n          </a>\n        </article>\n                            <article
+  class=\"relationship-stories__card\">\n          <a class=\"relationship-stories__image-wrapper\"
+  href=\"https://www.wellandgood.com/good-food/healthy-nutella-justins-chocolate-hazelnut-almond-butter/\"
+  target=\"\">\n            <div class=\"relationship-stories__image\" title=\"Grab
+  a bigger spoon, because we found a Nutella dupe with way less sugar\">  <div class=\"image-module\">\n
+  \   <img src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/spacer.gif\"
+  data-src=\"https://www.wellandgood.com/wp-content/uploads/2019/03/GettyImages-mrs-600x400.jpg\"
+  class=\"image-module-img\" data-src-retina=\"https://www.wellandgood.com/wp-content/uploads/2019/03/GettyImages-mrs-850x570.jpg\"
+  alt=\"Grab a bigger spoon, because we found a Nutella dupe with way less sugar\">\n
+  \         <noscript>\n      <img src=\"https://www.wellandgood.com/wp-content/uploads/2019/03/GettyImages-mrs-600x400.jpg\"
+  alt=\"Grab a bigger spoon, because we found a Nutella dupe with way less sugar\"
+  />\n    </noscript>\n  </div>\n</div>\n          </a>\n          <a href=\"https://www.wellandgood.com/good-food/healthy-nutella-justins-chocolate-hazelnut-almond-butter/\"
+  target=\"\">\n            <p class=\"relationship-stories__ranking\">3</p>\n            <p
+  class=\"relationship-stories__title\">Grab a bigger spoon, because we found a Nutella
+  dupe with way less sugar</p>\n          </a>\n        </article>\n                            <article
+  class=\"relationship-stories__card\">\n          <a class=\"relationship-stories__image-wrapper\"
+  href=\"https://www.wellandgood.com/good-travel/painted-lady-butterflies-california/\"
+  target=\"\">\n            <div class=\"relationship-stories__image\" title=\"Millions
+  of butterflies are dancing among the wildflowers in California—and you need to see
+  it to believe it\">  <div class=\"image-module\">\n    <img src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/spacer.gif\"
+  data-src=\"https://www.wellandgood.com/wp-content/uploads/2019/03/GettyImages-Frank-Krahmer-600x400.jpg\"
+  class=\"image-module-img\" data-src-retina=\"https://www.wellandgood.com/wp-content/uploads/2019/03/GettyImages-Frank-Krahmer-850x570.jpg\"
+  alt=\"Millions of butterflies are dancing among the wildflowers in California—and
+  you need to see it to believe it\">\n          <noscript>\n      <img src=\"https://www.wellandgood.com/wp-content/uploads/2019/03/GettyImages-Frank-Krahmer-600x400.jpg\"
+  alt=\"Millions of butterflies are dancing among the wildflowers in California—and
+  you need to see it to believe it\" />\n    </noscript>\n  </div>\n</div>\n          </a>\n
+  \         <a href=\"https://www.wellandgood.com/good-travel/painted-lady-butterflies-california/\"
+  target=\"\">\n            <p class=\"relationship-stories__ranking\">4</p>\n            <p
+  class=\"relationship-stories__title\">Millions of butterflies are dancing among
+  the wildflowers in California—and you need to see it to believe it</p>\n          </a>\n
+  \       </article>\n                            <article class=\"relationship-stories__card\">\n
+  \         <a class=\"relationship-stories__image-wrapper\" href=\"https://www.wellandgood.com/good-looks/cute-outfit-ideas/\"
+  target=\"\">\n            <div class=\"relationship-stories__image\" title=\"These
+  50 genius outfit ideas are the antidote to end-of-winter wardrobe boredom\">  <div
+  class=\"image-module\">\n    <img src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/spacer.gif\"
+  data-src=\"https://www.wellandgood.com/wp-content/uploads/2019/03/GettyImages-woman-closet-kupicoo-600x400.jpg\"
+  class=\"image-module-img\" data-src-retina=\"https://www.wellandgood.com/wp-content/uploads/2019/03/GettyImages-woman-closet-kupicoo-850x570.jpg\"
+  alt=\"These 50 genius outfit ideas are the antidote to end-of-winter wardrobe boredom\">\n
+  \         <noscript>\n      <img src=\"https://www.wellandgood.com/wp-content/uploads/2019/03/GettyImages-woman-closet-kupicoo-600x400.jpg\"
+  alt=\"These 50 genius outfit ideas are the antidote to end-of-winter wardrobe boredom\"
+  />\n    </noscript>\n  </div>\n</div>\n          </a>\n          <a href=\"https://www.wellandgood.com/good-looks/cute-outfit-ideas/\"
+  target=\"\">\n            <p class=\"relationship-stories__ranking\">5</p>\n            <p
+  class=\"relationship-stories__title\">These 50 genius outfit ideas are the antidote
+  to end-of-winter wardrobe boredom</p>\n          </a>\n        </article>\n                      </div>\n
+  \ </div>\n</section>\n<section class=\"collection  collection--national-yoga-month
+  collection__three-up\">\n  <div class=\"container collection__container\">\n    <div
+  class=\"module-heading collection__headline\">\n      <span class=\"collection__headline-main\">Featured
+  Collection</span>\n\n                            \n      \n                        </div>\n
+  \   <div class=\"collection__list carousel--mobile\" data-module-init=\"flickity\"
+  data-module-fired=\"true\">\n                      <a href=\"https://www.wellandgood.com/good-looks/hyaluronic-acid-serum-jane-iredale/\"
+  target=\"\" class=\"collection__card collection__card--featured\">\n          <article>\n
+  \           <div class=\"collection__image\" title=\"Everyone’s going crazy over
+  this holy grail skin-care ingredient—I tried it to see what all the buzz is about\">
+  \ <div class=\"image-module\">\n    <img src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/spacer.gif\"
+  data-src=\"https://www.wellandgood.com/wp-content/uploads/2019/02/Branded-Feature-Jane-Iredale.jpg\"
+  class=\"image-module-img\" data-src-retina=\"https://www.wellandgood.com/wp-content/uploads/2019/02/Branded-Feature-Jane-Iredale.jpg\"
+  alt=\"Everyone’s going crazy over this holy grail skin-care ingredient—I tried it
+  to see what all the buzz is about\">\n          <noscript>\n      <img src=\"https://www.wellandgood.com/wp-content/uploads/2019/02/Branded-Feature-Jane-Iredale.jpg\"
+  alt=\"Everyone&#8217;s going crazy over this holy grail skin-care ingredient—I tried
+  it to see what all the buzz is about\" />\n    </noscript>\n  </div>\n</div>\n            <p
+  class=\"collection__title\">Everyone’s going crazy over this holy grail skin-care
+  ingredient—I tried it to see what all the buzz is about</p>\n                          <p
+  class=\"excerpt collection__excerpt\">The glow is real.</p>\n                      </article>\n
+  \       </a>\n                      <a href=\"https://www.wellandgood.com/good-advice/family-business-advice-gomacro/\"
+  target=\"\" class=\"collection__card \">\n          <article>\n            <div
+  class=\"collection__image\" title=\"Here’s what it’s actually like to work with
+  your mom (and start a protein-bar empire)\">  <div class=\"image-module\">\n    <img
+  src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/spacer.gif\"
+  data-src=\"https://www.wellandgood.com/wp-content/uploads/2019/03/GoMacro-CCA-Branded-Feature-Update-1400px.jpg\"
+  class=\"image-module-img\" data-src-retina=\"https://www.wellandgood.com/wp-content/uploads/2019/03/GoMacro-CCA-Branded-Feature-Update-1400px.jpg\"
+  alt=\"Here’s what it’s actually like to work with your mom (and start a protein-bar
+  empire)\">\n          <noscript>\n      <img src=\"https://www.wellandgood.com/wp-content/uploads/2019/03/GoMacro-CCA-Branded-Feature-Update-1400px.jpg\"
+  alt=\"Here&#8217;s what it&#8217;s actually like to work with your mom (and start
+  a protein-bar empire)\" />\n    </noscript>\n  </div>\n</div>\n            <p class=\"collection__title\">Here’s
+  what it’s actually like to work with your mom (and start a protein-bar empire)</p>\n
+  \                     </article>\n        </a>\n                      <a href=\"https://www.wellandgood.com/good-looks/what-to-wear-to-hot-yoga/\"
+  target=\"\" class=\"collection__card \">\n          <article>\n            <div
+  class=\"collection__image\" title=\"What to wear to hot yoga so you don’t overheat
+  (or recreate your slip ‘n’ slide days)\">  <div class=\"image-module\">\n    <img
+  src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/spacer.gif\"
+  data-src=\"https://www.wellandgood.com/wp-content/uploads/2019/02/what-to-wear-to-hot-yoga-2.jpg\"
+  class=\"image-module-img\" data-src-retina=\"https://www.wellandgood.com/wp-content/uploads/2019/02/what-to-wear-to-hot-yoga-2.jpg\"
+  alt=\"What to wear to hot yoga so you don’t overheat (or recreate your slip ‘n’
+  slide days)\">\n          <noscript>\n      <img src=\"https://www.wellandgood.com/wp-content/uploads/2019/02/what-to-wear-to-hot-yoga-2.jpg\"
+  alt=\"What to wear to hot yoga so you don&#8217;t overheat (or recreate your slip
+  &#8216;n&#8217; slide days)\" />\n    </noscript>\n  </div>\n</div>\n            <p
+  class=\"collection__title\">What to wear to hot yoga so you don’t overheat (or recreate
+  your slip ‘n’ slide days)</p>\n                      </article>\n        </a>\n
+  \                   </div>\n  </div>\n</section>\n  <footer class=\"footer\" data-module-init=\"footer\"
+  data-module-fired=\"true\">\n\n\t\n\t<div class=\"footer__logo\"><div class=\"footer__logo-image\">
+  \ <div class=\"image-module\">\n    <img src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/spacer.gif\"
+  data-src=\"https://www.wellandgood.com/wp-content/uploads/2019/02/Plus-FEB-19-300x300-Final-150x150.jpg\"
+  class=\"image-module-img\" data-src-retina=\"https://www.wellandgood.com/wp-content/uploads/2019/02/Plus-FEB-19-300x300-Final-150x150.jpg\"
+  alt=\"+\">\n          <noscript>\n      <img src=\"https://www.wellandgood.com/wp-content/uploads/2019/02/Plus-FEB-19-300x300-Final-150x150.jpg\"
+  alt=\"+\" />\n    </noscript>\n  </div>\n</div></div>\n\n\t<div class=\"container
+  signup-form signup-form--footer\">\n\t\t<p class=\"module-heading-minimal signup-form__headline\">YOUR
+  HEALTHIEST RELATIONSHIP</p>\n\n\t\t\n<div class=\"signup-form__tagline small\"><p>Well+Good
+  is obsessed with your health and wellness. Get it daily.</p>\n</div>\n    <div class=\"signup-form__thanks\"><p>Thanks
+  for signing up for our newsletter!</p>\n<p>To make sure your Well+Good emails don’t
+  go into your spam or promotions folder, please add news@wellandgood.com to your
+  email contacts.</p>\n</div>\n\n<form action=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/lib/postup-process.php?ajax\"
+  class=\"signup-form__form signup-form__footer\" method=\"post\" data-module-init=\"signup-form\"
+  data-success-elem=\".signup-form__thanks\" data-success-hide-elem=\".modal-signup
+  .signup-form__initial, .signup-form__tagline, .signup-form__group__fields, .modal-signup
+  .link-bottom\" data-error-elem=\".signup-form__result\" data-loading-class=\"loading\"
+  data-module-fired=\"true\">\n\t<div class=\"signup-form__fields\">\n\t\t<div class=\"signup-form__group
+  signup-form__group__fields\">\n\t\t\t<input type=\"text\" class=\"required signup-form__email\"
+  name=\"email\" id=\"email\" placeholder=\"Email Address\">\n\t\t\t<input type=\"submit\"
+  name=\"submit\" class=\"signup-form__submit\" value=\"Join\">\n\t\t</div>\n\t\t<p
+  class=\"signup-form__result small error\"></p>\n\n\t\t<!--<div class=\"signup-form__group
+  signup-form__location signup-form__group__fields\">\n\t\t\t<p class=\"signup-form__location-headline\">Interested
+  in another edition?</p>\n\t\t\t<label class=\"signup-form__radio\"><input type=\"checkbox\"
+  name=\"groups[]\" value=\"New York\" class=\"nyc\"><span class=\"radio\"></span>
+  New York</label>\n\t\t\t<label class=\"signup-form__radio\"><input type=\"checkbox\"
+  name=\"groups[]\" value=\"Los Angeles\" class=\"la\"><span class=\"radio\"></span>
+  Los Angeles</label>\n\t\t\t<input type=\"hidden\" name=\"groups[]\" value=\"Anywhere\"
+  class=\"anywhere hidden\">\n\n\t\t\t<p class=\"signup-form__location-headline\">www.wellandgood.com</p>\n\t\t</div>-->\n\t\t<input
+  type=\"hidden\" name=\"form\" value=\"footer\">\n\t</div>\n</form>\n\t</div>\n\n\t<hr>\n\n\t<div
+  class=\"container\">\n\t\t<div class=\"footer__inner\">\n\t\t\t<div class=\"menu-footer-menu-container\"><ul
+  id=\"menu-footer-menu\" class=\"menu\"><li id=\"menu-item-128662\" class=\"menu-item
+  menu-item-type-post_type menu-item-object-page menu-item-128662\"><a href=\"https://www.wellandgood.com/about-wg/\"><span
+  class=\"label\">About</span></a></li>\n<li id=\"menu-item-128663\" class=\"menu-item
+  menu-item-type-post_type menu-item-object-page menu-item-128663\"><a href=\"https://www.wellandgood.com/were-hiring/\"><span
+  class=\"label\">Careers</span></a></li>\n<li id=\"menu-item-122364\" class=\"menu-item
+  menu-item-type-custom menu-item-object-custom menu-item-122364\"><a href=\"https://www.wellandgood.com/contact-us/\"><span
+  class=\"label\">Contact Us</span></a></li>\n<li id=\"menu-item-134526\" class=\"menu-item
+  menu-item-type-post_type menu-item-object-page menu-item-134526\"><a href=\"https://www.wellandgood.com/advertise-with-wellgood/\"><span
+  class=\"label\">Advertise</span></a></li>\n<li id=\"menu-item-122361\" class=\"menu-item
+  menu-item-type-custom menu-item-object-custom menu-item-122361\"><a href=\"http://wellandgood.com/media/\"><span
+  class=\"label\">Press</span></a></li>\n</ul></div>\n\t\t\t<div class=\"made-in-ny\"><span
+  class=\"label\">Made in NY</span><div class=\"made-in-ny-logo\">  <div class=\"image-module\">\n
+  \   <img src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/spacer.gif\"
+  data-src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/made-in-ny.png\"
+  class=\"image-module-img\" data-src-retina=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/made-in-ny.png\"
+  alt=\"+\">\n          <noscript>\n      <img src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/img/made-in-ny.png\"
+  alt=\"+\" />\n    </noscript>\n  </div>\n</div></div>\n\n\t\t\t\t<div class=\"menu-social-menu-container\">\n\t
+  \   <ul id=\"menu-social-menu\" class=\"menu\">\n\t\t\t        <li class=\"menu-item
+  menu-item-type-social\"><a href=\"https://www.facebook.com/iamwellandgood\" class=\"icon-facebook\"
+  target=\"_blank\"><span class=\"label\">Facebook</span></a></li>\n\t    \t        <li
+  class=\"menu-item menu-item-type-social\"><a href=\"http://pinterest.com/iamwellandgood\"
+  class=\"icon-pinterest-p\" target=\"_blank\"><span class=\"label\">Pinterest</span></a></li>\n\t
+  \   \t        <li class=\"menu-item menu-item-type-social\"><a href=\"http://www.twitter.com/iamwellandgood\"
+  class=\"icon-twitter\" target=\"_blank\"><span class=\"label\">Twitter</span></a></li>\n\t
+  \   \t        <li class=\"menu-item menu-item-type-social\"><a href=\"https://www.youtube.com/channel/UC1bcqvAnNsBoq_RWJNxYvhQ\"
+  class=\"icon-youtube\" target=\"_blank\"><span class=\"label\">Youtube</span></a></li>\n\t
+  \   \t        <li class=\"menu-item menu-item-type-social\"><a href=\"http://instagram.com/iamwellandgood\"
+  class=\"icon-instagram\" target=\"_blank\"><span class=\"label\">Instagram</span></a></li>\n\t
+  \   \t    </ul>\n\t</div>\n\n\t\t\t<div class=\"copyright\"><p>© <span class=\"year\">2019</span>&nbsp;Well+Good
+  LLC. All rights reserved. Read our <a href=\"/privacy-policy/\">Privacy Policy</a>
+  and <a href=\"/terms-and-conditions/\">Terms and Conditions</a>.</p>\n<p>&nbsp;</p>\n</div>\n\t\t</div>\n\t</div>\n\n\n</footer>\n
+  \ \n\n<section data-module-init=\"advertisement\" class=\"advertisement ad-position-out_of_page\"
+  data-ad-index=\"-1\" data-module-fired=\"true\">\n  <div id=\"div-gpt-ad-8891272-4-305463-\"
+  class=\"advertising-adslot\" hidden=\"\" rjofwjh=\"\">\n    <script type=\"text/javascript\">\n
+  \     ad_intervals['div-gpt-ad-8891272-4-305463-'] = setInterval(function() {\n
+  \       // wait to fire advertisement code until the Krux variable is defined\n
+  \       if (typeof window.Krux !== 'undefined') {\n          clearTimeout(ad_intervals['div-gpt-ad-8891272-4-305463-'])\n
+  \         googletag.cmd.push(function() {\n            var mapping1 = googletag.sizeMapping()\n
+  \                           .addSize([1000, 0], [[970, 250], [970, 90], [728, 90]])\n
+  \                           .addSize([869, 0], [[728, 90]])\n                            .addSize([640,
+  0], [[468, 60], [375, 50], [320, 100], [320, 50]])\n                            .addSize([0,
+  0], [[375, 50], [320, 100], [320, 50], [300, 50]])\n                            .build();\n\nvar
+  mapping2 = googletag.sizeMapping()\n                            .addSize([1000,
+  0], [[300, 600], [300, 250], [160, 600]])\n                            .addSize([869,
+  0], [[320, 100], [300, 250]])\n                            .addSize([640, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .addSize([0, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .build();\n\nvar mapping3
+  = googletag.sizeMapping()\n                            .addSize([1000, 563], [1,
+  1])\n                            .addSize([0, 0], [1, 1])\n                            .build();\n
+  \  \nvar mapping4 = googletag.sizeMapping()\n                            .addSize([1000,
+  0], [[300, 600], [300, 250], [160, 600]])\n                            .addSize([869,
+  0], [[320, 100], [300, 250]])\n                            .addSize([640, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .addSize([0, 0], [[375,
+  50], [320, 100], [300, 250]])\n                            .build();\n            gptadslots.push(googletag.defineOutOfPageSlot('/6117/Food',
+  'div-gpt-ad-8891272-4-305463-')\n                             .defineSizeMapping(mapping3)\n
+  \                            .addService(googletag.pubads()));\n            \n            googletag.pubads().enableSingleRequest();\n\n
+  \           \n            googletag.pubads().setTargeting('id', ['305463'])\n.setTargeting('tag',
+  ['cooking-tips'])\n\n            // Krux services\n            if (typeof Krux !==
+  'undefined') {\n              googletag.pubads().setTargeting(\"ksg\", Krux.segments);\n
+  \             googletag.pubads().setTargeting(\"kuid\", Krux.user);\n            }\n
+  \           // End krux services\n\n            googletag.pubads().collapseEmptyDivs();\n
+  \           googletag.enableServices();\n\n                                          googletag.display('div-gpt-ad-8891272-4-305463-');\n
+  \                         \n          });\n        }\n      }, 100)\n    </script>\n
+  \ </div>\n</section>\n\n  <script type=\"text/javascript\" src=\"https://www.yummly.com/js/widget.js?wordpress&amp;ver=3.11.1\"
+  async=\"async\"></script>\n<script type=\"text/javascript\">\n/* <![CDATA[ */\nvar
+  wpApiSettings = {\"root\":\"https:\\/\\/www.wellandgood.com\\/wp-json\\/\",\"nonce\":\"a0be64512f\"};\nvar
+  wpApiSettings = {\"root\":\"https:\\/\\/www.wellandgood.com\\/wp-json\\/\",\"nonce\":\"a0be64512f\"};\n/*
+  ]]> */\n</script>\n<script type=\"text/javascript\" src=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/js/scripts.min.js?ver=4.36.0\"
+  async=\"async\"></script>\n<script type=\"text/javascript\" src=\"https://www.google.com/recaptcha/api.js?ver=4.9.8\"
+  async=\"async\"></script>\n<script type=\"text/javascript\" src=\"https://www.wellandgood.com/wp-includes/js/wp-embed.min.js?ver=4.9.8\"
+  async=\"async\"></script>\n\t<!-- START Parse.ly Include: Standard -->\n\t<div id=\"parsely-root\"
+  style=\"display: none\">\n\t\t<span id=\"parsely-cfg\" data-parsely-site=\"wellandgood.com\"></span>\n\t<script
+  id=\"parsely-script\" async=\"\" src=\"https://d1z2jf7jlzjs58.cloudfront.net/p.js\"></script></div>\n\t<script>\n
+  \       var parselyCallbacks = {\n            callbacks: [],\n            loaded:
+  false,\n            init: function() {\n                this.callbacks.map(function(c)
+  {\n                    c(PARSELY);\n                });\n                this.loaded
+  = true;\n            },\n            onload: function(c) {\n                if (this.loaded)
+  {\n                    c(PARSELY);\n                } else {\n                    this.callbacks.push(c);\n
+  \               }\n            }\n        };\n        var PARSELY = {\n            onload:
+  parselyCallbacks.init.bind(parselyCallbacks)\n        };\n\t</script>\n\t<script>\n
+  \       (function(s, p, d) {\n            var h=d.location.protocol, i=p+\"-\"+s,\n
+  \               e=d.getElementById(i), r=d.getElementById(p+\"-root\"),\n                u=h===\"https:\"?\"d1z2jf7jlzjs58.cloudfront.net\"\n
+  \                   :\"static.\"+p+\".com\";\n            if (e) return;\n            e
+  = d.createElement(s); e.id = i; e.async = true;\n            e.src = h+\"//\"+u+\"/p.js\";
+  r.appendChild(e);\n        })(\"script\", \"parsely\", document);\n\t</script>\n\t<!--
+  END Parse.ly Include: Standard -->\n\n\t<!-- Parse.ly metadata -->\n\t<script type=\"application/ld+json\">\n\t\t{\n
+  \   \"@context\": \"http:\\/\\/schema.org\",\n    \"@type\": \"NewsArticle\",\n
+  \   \"headline\": \"Sous-vide cooking is here to make your summer dinner parties
+  a cinch\",\n    \"url\": \"https:\\/\\/www.wellandgood.com\\/good-food\\/sous-vide-cooking-guide\\/\",\n
+  \   \"thumbnailUrl\": \"https:\\/\\/www.wellandgood.com\\/wp-content\\/uploads\\/2018\\/06\\/Stocksy-friends-cheers-Jill-Chen-425x285.jpg\",\n
+  \   \"mainEntityOfPage\": \"https:\\/\\/www.wellandgood.com\\/good-food\\/sous-vide-cooking-guide\\/\",\n
+  \   \"dateCreated\": \"2018-06-08T17:03:31.000Z\",\n    \"articleSection\": \"Good
+  Food\",\n    \"creator\": \"Laurel Leicht\",\n    \"keywords\": [\n        \"Cooking
+  Tips\"\n    ],\n    \"author\": \"Laurel Leicht\",\n    \"datePublished\": \"2018-06-08T17:03:31.000Z\",\n
+  \   \"image\": \"https:\\/\\/www.wellandgood.com\\/wp-content\\/uploads\\/2018\\/06\\/Stocksy-friends-cheers-Jill-Chen.jpg\",\n
+  \   \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Well+Good\",\n
+  \       \"url\": \"https:\\/\\/www.wellandgood.com\",\n        \"logo\": {\n            \"@type\":
+  \"imageObject\",\n            \"url\": \"https:\\/\\/www.wellandgood.com\\/wp-content\\/uploads\\/2019\\/02\\/Plus-FEB-19-300x300-Final.jpg\"\n
+  \       }\n    },\n    \"dateModified\": \"2018-06-08T17:03:31.000Z\"\n}\t</script>\n\t<!--
+  END Parse.ly metadata -->\n\t    \n    <script>\n      var loadDeferredStyles =
+  function() {\n        var addStylesNode = document.getElementById(\"deferred-styles\");\n
+  \       var replacement = document.createElement(\"div\");\n        replacement.innerHTML
+  = addStylesNode.textContent;\n        document.body.appendChild(replacement)\n        addStylesNode.parentElement.removeChild(addStylesNode);\n
+  \     };\n      var raf = requestAnimationFrame || mozRequestAnimationFrame ||\n
+  \         webkitRequestAnimationFrame || msRequestAnimationFrame;\n      if (raf)
+  raf(function() { window.setTimeout(loadDeferredStyles, 0); });\n      else window.addEventListener('load',
+  loadDeferredStyles);\n    </script>\n    </div> <!-- .main-wrapper -->\n  <script
+  type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"276478611e\",\"applicationID\":\"18889540\",\"transactionName\":\"ZwRbNURQCEFXV0VdCV5OeAJCWAlcGUdYWgFcBA==\",\"queueTime\":0,\"applicationTime\":563,\"atts\":\"S0NYQwxKG08=\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script>\n\n<div>\n
+  \     <link rel=\"stylesheet\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/css/main.min.css?ver=4.36.0\">\n
+  \   </div></body></html>"

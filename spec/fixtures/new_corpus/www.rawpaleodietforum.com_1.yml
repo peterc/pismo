@@ -1,0 +1,815 @@
+---
+:url: https://www.rawpaleodietforum.com/index.php?topic=13048.0
+:body: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><html
+  xmlns=\"http://www.w3.org/1999/xhtml\"><head>\n\t<link rel=\"stylesheet\" type=\"text/css\"
+  href=\"https://www.rawpaleodietforum.com/Themes/default/css/index.css?fin20\">\n\t<link
+  rel=\"stylesheet\" type=\"text/css\" href=\"https://www.rawpaleodietforum.com/Themes/default/css/webkit.css\">\n\t<script
+  type=\"text/javascript\" src=\"https://www.rawpaleodietforum.com/Themes/default/scripts/script.js?fin20\"></script>\n\t<script
+  type=\"text/javascript\" src=\"https://www.rawpaleodietforum.com/Themes/default/scripts/theme.js?fin20\"></script>\n\t<script
+  type=\"text/javascript\"><!-- // --><![CDATA[\n\t\tvar smf_theme_url = \"https://www.rawpaleodietforum.com/Themes/default\";\n\t\tvar
+  smf_default_theme_url = \"https://www.rawpaleodietforum.com/Themes/default\";\n\t\tvar
+  smf_images_url = \"https://www.rawpaleodietforum.com/Themes/default/images\";\n\t\tvar
+  smf_scripturl = \"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;\";\n\t\tvar
+  smf_iso_case_folding = false;\n\t\tvar smf_charset = \"UTF-8\";\n\t\tvar ajax_notification_text
+  = \"Loading...\";\n\t\tvar ajax_notification_cancel_text = \"Cancel\";\n\t// ]]></script>\n\t<meta
+  http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n\t<meta name=\"description\"
+  content=\"Discussion: At what temperature is food still raw?\">\n\t<meta name=\"keywords\"
+  content=\"paleo diet, paleo diet forum, raw paleo diet, raw paleolithic diet, raw
+  paleo forum, raw paleo diet forum, loose weight, diet plan, paleo, diet food, fat
+  loss\">\n\t<title>Discussion: At what temperature is food still raw?</title>\n\t<link
+  rel=\"canonical\" href=\"https://www.rawpaleodietforum.com/index.php?topic=13048.0\">\n\t<link
+  rel=\"help\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=help\">\n\t<link
+  rel=\"search\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=search\">\n\t<link
+  rel=\"contents\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;\">\n\t<link
+  rel=\"alternate\" type=\"application/rss+xml\" title=\"Paleo Diet: Raw Paleo Diet
+  and Lifestyle Forum - RSS\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;type=rss;action=.xml\">\n\t<link
+  rel=\"prev\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.0;prev_next=prev\">\n\t<link
+  rel=\"next\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.0;prev_next=next\">\n\t<link
+  rel=\"index\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;board=3.0\"><script
+  type=\"text/javascript\">\n        var ct_date = new Date(), \n            ctTimeMs
+  = new Date().getTime(),\n            ctMouseEventTimerFlag = true, //Reading interval
+  flag\n            ctMouseData = [],\n            ctMouseDataCounter = 0;\n\n        function
+  ctSetCookie(c_name, value) {\n            document.cookie = c_name + \"=\" + encodeURIComponent(value)
+  + \"; path=/\";\n        }\n        ctSetCookie(\"ct_ps_timestamp\", Math.floor(new
+  Date().getTime()/1000));\n        ctSetCookie(\"ct_fkp_timestamp\", \"0\");\n        ctSetCookie(\"ct_pointer_data\",
+  \"0\");\n        ctSetCookie(\"ct_timezone\", \"0\");\n\n        setTimeout(function(){\n
+  \           ctSetCookie(\"ct_checkjs\", \"29368edb1903e681564b757dec904c49\");\n
+  \           ctSetCookie(\"ct_timezone\", ct_date.getTimezoneOffset()/60*(-1));\n
+  \       },1000);\n\n        //Writing first key press timestamp\n        var ctFunctionFirstKey
+  = function output(event){\n            var KeyTimestamp = Math.floor(new Date().getTime()/1000);\n
+  \           ctSetCookie(\"ct_fkp_timestamp\", KeyTimestamp);\n            ctKeyStopStopListening();\n
+  \       }\n\n        //Reading interval\n        var ctMouseReadInterval = setInterval(function(){\n
+  \           ctMouseEventTimerFlag = true;\n        }, 150);\n            \n        //Writting
+  interval\n        var ctMouseWriteDataInterval = setInterval(function(){\n            ctSetCookie(\"ct_pointer_data\",
+  JSON.stringify(ctMouseData));\n        }, 1200);\n\n        //Logging mouse position
+  each 150 ms\n        var ctFunctionMouseMove = function output(event){\n            if(ctMouseEventTimerFlag
+  == true){\n                \n                ctMouseData.push([\n                    Math.round(event.pageY),\n
+  \                   Math.round(event.pageX),\n                    Math.round(new
+  Date().getTime() - ctTimeMs)\n                ]);\n                \n                ctMouseDataCounter++;\n
+  \               ctMouseEventTimerFlag = false;\n                if(ctMouseDataCounter
+  >= 100){\n                    ctMouseStopData();\n                }\n            }\n
+  \       }\n\n        //Stop mouse observing function\n        function ctMouseStopData(){\n
+  \           if(typeof window.addEventListener == \"function\"){\n                window.removeEventListener(\"mousemove\",
+  ctFunctionMouseMove);\n            }else{\n                window.detachEvent(\"onmousemove\",
+  ctFunctionMouseMove);\n            }\n            clearInterval(ctMouseReadInterval);\n
+  \           clearInterval(ctMouseWriteDataInterval);                \n        }\n\n
+  \       //Stop key listening function\n        function ctKeyStopStopListening(){\n
+  \           if(typeof window.addEventListener == \"function\"){\n                window.removeEventListener(\"mousedown\",
+  ctFunctionFirstKey);\n                window.removeEventListener(\"keydown\", ctFunctionFirstKey);\n
+  \           }else{\n                window.detachEvent(\"mousedown\", ctFunctionFirstKey);\n
+  \               window.detachEvent(\"keydown\", ctFunctionFirstKey);\n            }\n
+  \       }\n\n        if(typeof window.addEventListener == \"function\"){\n            window.addEventListener(\"mousemove\",
+  ctFunctionMouseMove);\n            window.addEventListener(\"mousedown\", ctFunctionFirstKey);\n
+  \           window.addEventListener(\"keydown\", ctFunctionFirstKey);\n        }else{\n
+  \           window.attachEvent(\"onmousemove\", ctFunctionMouseMove);\n            window.attachEvent(\"mousedown\",
+  ctFunctionFirstKey);\n            window.attachEvent(\"keydown\", ctFunctionFirstKey);\n
+  \       }\n    </script>\n</head>\n<body>\n<div id=\"wrapper\" style=\"width: 90%\">\n\t<div
+  id=\"header\"><div class=\"frame\">\n\t\t<div id=\"top_section\">\n\t\t\t<h1 class=\"forumtitle\">\n\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;\"><img
+  src=\"https://www.rawpaleodietforum.com/raw-paleo-diet-forum.jpg\" alt=\"Paleo Diet:
+  Raw Paleo Diet and Lifestyle Forum\"></a>\n\t\t\t</h1>\n\t\t\t<img id=\"upshrink\"
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/upshrink.png\" alt=\"*\"
+  title=\"Shrink or expand the header.\" style=\"cursor: pointer;\">\n\t\t\t<div id=\"siteslogan\"
+  class=\"floatright\">The Raw Paleo Diet and Lifestyle Community: Paleo Diet, Raw
+  Meat, Raw Fat, Raw Fruit, Raw Vegetables</div>\n\t\t</div>\n\t\t<div id=\"upper_section\"
+  class=\"middletext\">\n\t\t\t<div class=\"user\">\n\t\t\t\t<script type=\"text/javascript\"
+  src=\"https://www.rawpaleodietforum.com/Themes/default/scripts/sha1.js\"></script>\n\t\t\t\t<form
+  id=\"guest_form\" action=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=login2\"
+  method=\"post\" accept-charset=\"UTF-8\" onsubmit=\"hashLoginPassword(this, 'f377c0075d9db3dc76943aa6d917030b');\">\n\t\t\t\t\t<div
+  class=\"info\">Welcome, <strong>Guest</strong>. Please <a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=login\">login</a>
+  or <a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=register\">register</a>.<br>Did
+  you miss your <a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=activate\">activation
+  email</a>?</div>\n\t\t\t\t\t<input type=\"text\" name=\"user\" size=\"10\" class=\"input_text\">\n\t\t\t\t\t<input
+  type=\"password\" name=\"passwrd\" size=\"10\" class=\"input_password\">\n\t\t\t\t\t<select
+  name=\"cookielength\">\n\t\t\t\t\t\t<option value=\"60\">1 Hour</option>\n\t\t\t\t\t\t<option
+  value=\"1440\">1 Day</option>\n\t\t\t\t\t\t<option value=\"10080\">1 Week</option>\n\t\t\t\t\t\t<option
+  value=\"43200\">1 Month</option>\n\t\t\t\t\t\t<option value=\"-1\" selected=\"selected\">Forever</option>\n\t\t\t\t\t</select>\n\t\t\t\t\t<input
+  type=\"submit\" value=\"Login\" class=\"button_submit\"><br>\n\t\t\t\t\t<div class=\"info\">Login
+  with username, password and session length</div>\n\t\t\t\t\t<input type=\"hidden\"
+  name=\"hash_passwrd\" value=\"\"><input type=\"hidden\" name=\"a3ca4e01\" value=\"f377c0075d9db3dc76943aa6d917030b\">\n\t\t\t\t</form>\n\t\t\t</div>\n\t\t\t<div
+  class=\"news normaltext\">\n\t\t\t\t<form id=\"search_form\" action=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=search2\"
+  method=\"post\" accept-charset=\"UTF-8\">\n\t\t\t\t\t<input type=\"text\" name=\"search\"
+  value=\"\" class=\"input_text\">&nbsp;\n\t\t\t\t\t<input type=\"submit\" name=\"submit\"
+  value=\"Search\" class=\"button_submit\">\n\t\t\t\t\t<input type=\"hidden\" name=\"advanced\"
+  value=\"0\">\n\t\t\t\t\t<input type=\"hidden\" name=\"topic\" value=\"13048\"></form>\n\t\t\t\t<h2>News:
+  </h2>\n\t\t\t\t<p>Visit our website: <a href=\"http://www.rawpaleodiet.com\" class=\"bbc_link\"
+  target=\"_blank\">www.rawpaleodiet.com</a><br>Join our Yahoo Group: <a href=\"http://health.groups.yahoo.com/group/rawpaleodiet/\"
+  class=\"bbc_link\" target=\"_blank\">RawPaleoDiet</a><br><a href=\"http://rawpaleodietforum.com/index.php?action=.xml;sa=recent;limit=50\"
+  class=\"bbc_link\" target=\"_blank\">RSS Feed Latest 50 Posts</a><br></p>\n\t\t\t</div>\n\t\t</div>\n\t\t<br
+  class=\"clear\">\n\t\t<script type=\"text/javascript\"><!-- // --><![CDATA[\n\t\t\tvar
+  oMainHeaderToggle = new smc_Toggle({\n\t\t\t\tbToggleEnabled: true,\n\t\t\t\tbCurrentlyCollapsed:
+  false,\n\t\t\t\taSwappableContainers: [\n\t\t\t\t\t'upper_section'\n\t\t\t\t],\n\t\t\t\taSwapImages:
+  [\n\t\t\t\t\t{\n\t\t\t\t\t\tsId: 'upshrink',\n\t\t\t\t\t\tsrcExpanded: smf_images_url
+  + '/upshrink.png',\n\t\t\t\t\t\taltExpanded: 'Shrink or expand the header.',\n\t\t\t\t\t\tsrcCollapsed:
+  smf_images_url + '/upshrink2.png',\n\t\t\t\t\t\taltCollapsed: 'Shrink or expand
+  the header.'\n\t\t\t\t\t}\n\t\t\t\t],\n\t\t\t\toThemeOptions: {\n\t\t\t\t\tbUseThemeSettings:
+  false,\n\t\t\t\t\tsOptionName: 'collapse_header',\n\t\t\t\t\tsSessionVar: 'a3ca4e01',\n\t\t\t\t\tsSessionId:
+  'f377c0075d9db3dc76943aa6d917030b'\n\t\t\t\t},\n\t\t\t\toCookieOptions: {\n\t\t\t\t\tbUseCookie:
+  true,\n\t\t\t\t\tsCookieName: 'upshrink'\n\t\t\t\t}\n\t\t\t});\n\t\t// ]]></script>\n\t\t<div
+  id=\"main_menu\">\n\t\t\t<ul class=\"dropmenu\" id=\"menu_nav\">\n\t\t\t\t<li id=\"button_home\">\n\t\t\t\t\t<a
+  class=\"active firstlevel\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;\">\n\t\t\t\t\t\t<span
+  class=\"last firstlevel\">Home</span>\n\t\t\t\t\t</a>\n\t\t\t\t</li>\n\t\t\t\t<li
+  id=\"button_help\">\n\t\t\t\t\t<a class=\"firstlevel\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=help\">\n\t\t\t\t\t\t<span
+  class=\"firstlevel\">Help</span>\n\t\t\t\t\t</a>\n\t\t\t\t</li>\n\t\t\t\t<li id=\"button_search\">\n\t\t\t\t\t<a
+  class=\"firstlevel\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=search\">\n\t\t\t\t\t\t<span
+  class=\"firstlevel\">Search</span>\n\t\t\t\t\t</a>\n\t\t\t\t</li>\n\t\t\t\t<li id=\"button_login\">\n\t\t\t\t\t<a
+  class=\"firstlevel\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=login\">\n\t\t\t\t\t\t<span
+  class=\"firstlevel\">Login</span>\n\t\t\t\t\t</a>\n\t\t\t\t</li>\n\t\t\t\t<li id=\"button_register\">\n\t\t\t\t\t<a
+  class=\"firstlevel\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=register\">\n\t\t\t\t\t\t<span
+  class=\"last firstlevel\">Register</span>\n\t\t\t\t\t</a>\n\t\t\t\t</li>\n\t\t\t</ul>\n\t\t</div>\n\t\t<br
+  class=\"clear\">\n\t</div></div>\n\t<div id=\"content_section\"><div class=\"frame\">\n\t\t<div
+  id=\"main_content_section\">\n\t<div class=\"navigate_section\">\n\t\t<ul>\n\t\t\t<li>\n\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;\"><span>Paleo
+  Diet: Raw Paleo Diet and Lifestyle Forum</span></a> »\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;#c1\"><span>Raw
+  Paleo Diet Forums</span></a> »\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;board=3.0\"><span>General
+  Discussion</span></a> (Moderator: <a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=7\"
+  title=\"Board Moderator\">TylerDurden</a>) »\n\t\t\t</li>\n\t\t\t<li class=\"last\">\n\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.0\"><span>Discussion:
+  At what temperature is food still raw?</span></a>\n\t\t\t</li>\n\t\t</ul>\n\t</div>\n\t\t\t<a
+  id=\"top\"></a>\n\t\t\t<a id=\"msg145127\"></a>\n\t\t\t<div class=\"pagesection\">\n\t\t\t\t<div
+  class=\"nextlinks\"><a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.0;prev_next=prev#new\">«
+  previous</a> <a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.0;prev_next=next#new\">next
+  »</a></div>\n\t\t<div class=\"buttonlist floatright\">\n\t\t\t<ul>\n\t\t\t\t<li><a
+  class=\"button_strip_print\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=printpage;topic=13048.0\"
+  rel=\"new_win nofollow\"><span class=\"last\">Print</span></a></li>\n\t\t\t</ul>\n\t\t</div>\n\t\t\t\t<div
+  class=\"pagelinks floatleft\">Pages: [<strong>1</strong>]   &nbsp;&nbsp;<a href=\"#lastPost\"><strong>Go
+  Down</strong></a></div>\n\t\t\t</div>\n\t\t\t<div id=\"forumposts\">\n\t\t\t\t<div
+  class=\"cat_bar\">\n\t\t\t\t\t<h3 class=\"catbg\">\n\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/topic/normal_post.gif\"
+  align=\"bottom\" alt=\"\">\n\t\t\t\t\t\t<span id=\"author\">Author</span>\n\t\t\t\t\t\tTopic:
+  Discussion: At what temperature is food still raw? &nbsp;(Read 1261 times)\n\t\t\t\t\t</h3>\n\t\t\t\t</div>\n\t\t\t\t<p
+  id=\"whoisviewing\" class=\"smalltext\">0 Members and 1 Guest are viewing this topic.\n\t\t\t\t</p>\n\t\t\t\t<form
+  action=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=quickmod2;topic=13048.0\"
+  method=\"post\" accept-charset=\"UTF-8\" name=\"quickModForm\" id=\"quickModForm\"
+  style=\"margin: 0;\" onsubmit=\"return oQuickModify.bInEditMode ? oQuickModify.modifySave('f377c0075d9db3dc76943aa6d917030b',
+  'a3ca4e01') : false\">\n\t\t\t\t<div class=\"windowbg\">\n\t\t\t\t\t<span class=\"topslice\"><span></span></span>\n\t\t\t\t\t<div
+  class=\"post_wrapper\">\n\t\t\t\t\t\t<div class=\"poster\">\n\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/useroff.gif\" alt=\"Offline\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\"
+  title=\"View the profile of surfsteve\">surfsteve</a>\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<ul
+  class=\"reset smalltext\" id=\"msg_145127_extra_info\">\n\t\t\t\t\t\t\t\t<li class=\"postgroup\">Chief</li>\n\t\t\t\t\t\t\t\t<li
+  class=\"stars\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"></li>\n\t\t\t\t\t\t\t\t<li class=\"avatar\">\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\">\n\t\t\t\t\t\t\t\t\t\t<img
+  class=\"avatar\" src=\"https://www.rawpaleodietforum.com/avatarsuploaded/avatar_133515_1528908325.jpeg\"
+  alt=\"\">\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"postcount\">Posts:
+  616</li>\n\t\t\t\t\t\t\t\t<li class=\"gender\">Gender: <img class=\"gender\" src=\"https://www.rawpaleodietforum.com/Themes/default/images/Male.gif\"
+  alt=\"Male\"></li>\n\t\t\t\t\t\t\t\t<li class=\"profile\">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\"><img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/icons/profile_sm.gif\"
+  alt=\"View Profile\" title=\"View Profile\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"postarea\">\n\t\t\t\t\t\t\t<div class=\"flow_hidden\">\n\t\t\t\t\t\t\t\t<div
+  class=\"keyinfo\">\n\t\t\t\t\t\t\t\t\t<div class=\"messageicon\">\n\t\t\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/post/xx.gif\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h5
+  id=\"subject_145127\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.msg145127#msg145127\"
+  rel=\"nofollow\">Discussion: At what temperature is food still raw?</a>\n\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t<div
+  class=\"smalltext\">« <strong> on:</strong> September 27, 2018, 06:40:17 am »</div>\n\t\t\t\t\t\t\t\t\t<div
+  id=\"msg_145127_quick_mod\"></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"post\">\n\t\t\t\t\t\t\t\t<div class=\"inner\" id=\"msg_145127\">I've read
+  that food is still considered raw as long as it is not cooked over anywhere between
+  105 degrees F. and as high as 118 degrees depending on who you ask. Since I got
+  my new sous vide cooker I can control the temperature within increments of half
+  a degree. Raw salmon skin is like eating leather but today's salmon skin at 109.9
+  degrees F. was tender and chewable.&nbsp; Though the beef looked raw it was nice
+  not to eat something cold and stiff right out of the refrigerator.<br><br>I know
+  I can set beef out in the sun and it will cook much hotter than the 109.9 degrees
+  from my sous vide cooker and there's no doubt in my mind that our paleo ancestors
+  ate meat that was \"cooked from the sun\" <br><br>What temperature do you guys think
+  that food is cooked at and how is it degraded from those temperatures? <br><br>On
+  a side note I also feel that food soaked in vinegar or lemon juice seems cooked.
+  What do you guys think about that? I don't know why but I really like the sour taste
+  of it that way. I often wonder if I crave meat soaked in lemon juice as a form of
+  substitution from when meat gets rotten because it develops a similar sour taste.
+  Though in my mind spoiled meat is something to avoid. Maybe it's something I need
+  to get over but I been eating raw for several years and still I have an aversion
+  to spoiled meat...<br><br></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"moderatorbar\">\n\t\t\t\t\t\t\t<div class=\"smalltext modified\" id=\"modified_145127\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"smalltext reportlinks\">\n\t\t\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/ip.gif\"
+  alt=\"\">\n\t\t\t\t\t\t\t\tLogged\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span
+  class=\"botslice\"><span></span></span>\n\t\t\t\t</div>\n\t\t\t\t<hr class=\"post_separator\">\n\t\t\t\t<a
+  id=\"msg145130\"></a>\n\t\t\t\t<div class=\"windowbg2\">\n\t\t\t\t\t<span class=\"topslice\"><span></span></span>\n\t\t\t\t\t<div
+  class=\"post_wrapper\">\n\t\t\t\t\t\t<div class=\"poster\">\n\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/useroff.gif\" alt=\"Offline\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=7\"
+  title=\"View the profile of TylerDurden\">TylerDurden</a>\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<ul
+  class=\"reset smalltext\" id=\"msg_145130_extra_info\">\n\t\t\t\t\t\t\t\t<li class=\"membergroup\">Global
+  Moderator</li>\n\t\t\t\t\t\t\t\t<li class=\"postgroup\">Mammoth Hunter</li>\n\t\t\t\t\t\t\t\t<li
+  class=\"stars\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"></li>\n\t\t\t\t\t\t\t\t<li class=\"avatar\">\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=7\">\n\t\t\t\t\t\t\t\t\t\t<img
+  class=\"avatar\" src=\"https://www.rawpaleodietforum.com/avatarsuploaded/avatar_7_1543176583.jpeg\"
+  alt=\"\">\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"postcount\">Posts:
+  16,614</li>\n\t\t\t\t\t\t\t\t<li class=\"gender\">Gender: <img class=\"gender\"
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/Male.gif\" alt=\"Male\"></li>\n\t\t\t\t\t\t\t\t<li
+  class=\"profile\">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=7\"><img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/icons/profile_sm.gif\"
+  alt=\"View Profile\" title=\"View Profile\"></a></li>\n\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"http://www.rawpaleodiet.com/\" title=\"Raw Paleolithic Diet\" target=\"_blank\"
+  class=\"new_win\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/www_sm.gif\"
+  alt=\"Raw Paleolithic Diet\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"postarea\">\n\t\t\t\t\t\t\t<div class=\"flow_hidden\">\n\t\t\t\t\t\t\t\t<div
+  class=\"keyinfo\">\n\t\t\t\t\t\t\t\t\t<div class=\"messageicon\">\n\t\t\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/post/xx.gif\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h5
+  id=\"subject_145130\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.msg145130#msg145130\"
+  rel=\"nofollow\">Re: Discussion: At what temperature is food still raw?</a>\n\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t<div
+  class=\"smalltext\">« <strong>Reply #1 on:</strong> September 27, 2018, 04:56:12
+  pm »</div>\n\t\t\t\t\t\t\t\t\t<div id=\"msg_145130_quick_mod\"></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"post\">\n\t\t\t\t\t\t\t\t<div class=\"inner\" id=\"msg_145130\">Actually.
+  most view 104F as the upper limit.37C was the upper limit for raw honey according
+  to AV and some others. If the meat is changed then clearly the meat is being damaged
+  by the heat. Soaking in lemon juice, like with ceviche, is not. the same as cooking.
+  To get used to high meat try leaving fresh raw&nbsp; meat out for a few extra hours&nbsp;
+  and extending the duration every so often</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"moderatorbar\">\n\t\t\t\t\t\t\t<div class=\"smalltext modified\" id=\"modified_145130\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"smalltext reportlinks\">\n\t\t\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/ip.gif\"
+  alt=\"\">\n\t\t\t\t\t\t\t\tLogged\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"signature\"
+  id=\"msg_145130_signature\">'We can't go to prison - the food's bad and the sex
+  is worse': What Barclays banker accused of getting £11.8bn secret bailout from Qatar
+  during 2008 crash said to his colleague</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span
+  class=\"botslice\"><span></span></span>\n\t\t\t\t</div>\n\t\t\t\t<hr class=\"post_separator\">\n\t\t\t\t<a
+  id=\"msg145131\"></a>\n\t\t\t\t<div class=\"windowbg\">\n\t\t\t\t\t<span class=\"topslice\"><span></span></span>\n\t\t\t\t\t<div
+  class=\"post_wrapper\">\n\t\t\t\t\t\t<div class=\"poster\">\n\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/useroff.gif\" alt=\"Offline\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\"
+  title=\"View the profile of surfsteve\">surfsteve</a>\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<ul
+  class=\"reset smalltext\" id=\"msg_145131_extra_info\">\n\t\t\t\t\t\t\t\t<li class=\"postgroup\">Chief</li>\n\t\t\t\t\t\t\t\t<li
+  class=\"stars\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"></li>\n\t\t\t\t\t\t\t\t<li class=\"avatar\">\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\">\n\t\t\t\t\t\t\t\t\t\t<img
+  class=\"avatar\" src=\"https://www.rawpaleodietforum.com/avatarsuploaded/avatar_133515_1528908325.jpeg\"
+  alt=\"\">\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"postcount\">Posts:
+  616</li>\n\t\t\t\t\t\t\t\t<li class=\"gender\">Gender: <img class=\"gender\" src=\"https://www.rawpaleodietforum.com/Themes/default/images/Male.gif\"
+  alt=\"Male\"></li>\n\t\t\t\t\t\t\t\t<li class=\"profile\">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\"><img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/icons/profile_sm.gif\"
+  alt=\"View Profile\" title=\"View Profile\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"postarea\">\n\t\t\t\t\t\t\t<div class=\"flow_hidden\">\n\t\t\t\t\t\t\t\t<div
+  class=\"keyinfo\">\n\t\t\t\t\t\t\t\t\t<div class=\"messageicon\">\n\t\t\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/post/xx.gif\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h5
+  id=\"subject_145131\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.msg145131#msg145131\"
+  rel=\"nofollow\">Re: Discussion: At what temperature is food still raw?</a>\n\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t<div
+  class=\"smalltext\">« <strong>Reply #2 on:</strong> September 27, 2018, 08:04:08
+  pm »</div>\n\t\t\t\t\t\t\t\t\t<div id=\"msg_145131_quick_mod\"></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"post\">\n\t\t\t\t\t\t\t\t<div class=\"inner\" id=\"msg_145131\">&nbsp;I
+  stand corrected. If 104 degrees F. is the upper limit than clearly, unless they
+  lived in northern climates, our paleo ancestors ate cooked food. Even in northern
+  climates the sun can warm food well above that temperature. <br><br>I don't know
+  about other animals but human beings can have a fever above 104 and still survive.
+  I've heard that the lethal temperature is 107 degrees. <br><br>Do you think that
+  maybe there is a different temperature that is considered cooked for different foods?
+  I live near Death Valley and I've grown tomatoes in the summer when the days have
+  exceeded 120 degrees and the plants are still living just fine. <br><br>Are you
+  suggesting that food can be cooked and still be alive?<br><br>If any of this is
+  true than clearly the sun was the first way man cooked his food and not by fire.
+  Now you've got me rethinking this whole raw vs cooked foods thing. I'm sure most
+  people are familiar with the saying \"It's hot enough to fry eggs on the sidewalk\".
+  Prehistoric man did not have sidewalks but surely some unlucky bird must have had
+  one of their eggs fall on to a rock on a hot summer day. If not the bird themselves...<br><br></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"moderatorbar\">\n\t\t\t\t\t\t\t<div class=\"smalltext modified\" id=\"modified_145131\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"smalltext reportlinks\">\n\t\t\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/ip.gif\"
+  alt=\"\">\n\t\t\t\t\t\t\t\tLogged\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span
+  class=\"botslice\"><span></span></span>\n\t\t\t\t</div>\n\t\t\t\t<hr class=\"post_separator\">\n\t\t\t\t<a
+  id=\"msg145137\"></a>\n\t\t\t\t<div class=\"windowbg2\">\n\t\t\t\t\t<span class=\"topslice\"><span></span></span>\n\t\t\t\t\t<div
+  class=\"post_wrapper\">\n\t\t\t\t\t\t<div class=\"poster\">\n\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/useroff.gif\" alt=\"Offline\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=7\"
+  title=\"View the profile of TylerDurden\">TylerDurden</a>\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<ul
+  class=\"reset smalltext\" id=\"msg_145137_extra_info\">\n\t\t\t\t\t\t\t\t<li class=\"membergroup\">Global
+  Moderator</li>\n\t\t\t\t\t\t\t\t<li class=\"postgroup\">Mammoth Hunter</li>\n\t\t\t\t\t\t\t\t<li
+  class=\"stars\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"></li>\n\t\t\t\t\t\t\t\t<li class=\"avatar\">\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=7\">\n\t\t\t\t\t\t\t\t\t\t<img
+  class=\"avatar\" src=\"https://www.rawpaleodietforum.com/avatarsuploaded/avatar_7_1543176583.jpeg\"
+  alt=\"\">\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"postcount\">Posts:
+  16,614</li>\n\t\t\t\t\t\t\t\t<li class=\"gender\">Gender: <img class=\"gender\"
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/Male.gif\" alt=\"Male\"></li>\n\t\t\t\t\t\t\t\t<li
+  class=\"profile\">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=7\"><img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/icons/profile_sm.gif\"
+  alt=\"View Profile\" title=\"View Profile\"></a></li>\n\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"http://www.rawpaleodiet.com/\" title=\"Raw Paleolithic Diet\" target=\"_blank\"
+  class=\"new_win\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/www_sm.gif\"
+  alt=\"Raw Paleolithic Diet\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"postarea\">\n\t\t\t\t\t\t\t<div class=\"flow_hidden\">\n\t\t\t\t\t\t\t\t<div
+  class=\"keyinfo\">\n\t\t\t\t\t\t\t\t\t<div class=\"messageicon\">\n\t\t\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/post/xx.gif\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h5
+  id=\"subject_145137\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.msg145137#msg145137\"
+  rel=\"nofollow\">Re: Discussion: At what temperature is food still raw?</a>\n\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t<div
+  class=\"smalltext\">« <strong>Reply #3 on:</strong> September 27, 2018, 10:46:04
+  pm »</div>\n\t\t\t\t\t\t\t\t\t<div id=\"msg_145137_quick_mod\"></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"post\">\n\t\t\t\t\t\t\t\t<div class=\"inner\" id=\"msg_145137\">Obviously
+  this is not a harsh and clear limit.The enzymes start becoming denatured after 40C/104F
+  which is why humans die after reaching c. 43C(?), due to enzyme destruction. Some
+  animals and plants and bacteria have special enzymes which survive far higher temperatures,
+  of course. I do not recall the exact point where the heat-created toxins start increasing
+  as only then could the food be considered cooked.Another point:- just because the
+  ambient temperature is above 40C does not mean the food is also at that temperature.For
+  example, a freshly killed wild hare will have lots of raw blood in it which would
+  presumably cool the corpse for a while etc.</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"moderatorbar\">\n\t\t\t\t\t\t\t<div class=\"smalltext modified\" id=\"modified_145137\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"smalltext reportlinks\">\n\t\t\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/ip.gif\"
+  alt=\"\">\n\t\t\t\t\t\t\t\tLogged\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"signature\"
+  id=\"msg_145137_signature\">'We can't go to prison - the food's bad and the sex
+  is worse': What Barclays banker accused of getting £11.8bn secret bailout from Qatar
+  during 2008 crash said to his colleague</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span
+  class=\"botslice\"><span></span></span>\n\t\t\t\t</div>\n\t\t\t\t<hr class=\"post_separator\">\n\t\t\t\t<a
+  id=\"msg145138\"></a>\n\t\t\t\t<div class=\"windowbg\">\n\t\t\t\t\t<span class=\"topslice\"><span></span></span>\n\t\t\t\t\t<div
+  class=\"post_wrapper\">\n\t\t\t\t\t\t<div class=\"poster\">\n\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/useroff.gif\" alt=\"Offline\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=155212\"
+  title=\"View the profile of PaganGoy\">PaganGoy</a>\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<ul
+  class=\"reset smalltext\" id=\"msg_145138_extra_info\">\n\t\t\t\t\t\t\t\t<li class=\"postgroup\">Warrior</li>\n\t\t\t\t\t\t\t\t<li
+  class=\"stars\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"></li>\n\t\t\t\t\t\t\t\t<li class=\"avatar\">\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=155212\">\n\t\t\t\t\t\t\t\t\t\t<img
+  class=\"avatar\" src=\"https://www.rawpaleodietforum.com/avatarsuploaded/avatar_155212_1550992567.jpeg\"
+  alt=\"\">\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"postcount\">Posts:
+  211</li>\n\t\t\t\t\t\t\t\t<li class=\"gender\">Gender: <img class=\"gender\" src=\"https://www.rawpaleodietforum.com/Themes/default/images/Male.gif\"
+  alt=\"Male\"></li>\n\t\t\t\t\t\t\t\t<li class=\"profile\">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=155212\"><img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/icons/profile_sm.gif\"
+  alt=\"View Profile\" title=\"View Profile\"></a></li>\n\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"https://www.wewant2live.com/shop/\" title=\"Wewant2live\" target=\"_blank\"
+  class=\"new_win\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/www_sm.gif\"
+  alt=\"Wewant2live\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"postarea\">\n\t\t\t\t\t\t\t<div class=\"flow_hidden\">\n\t\t\t\t\t\t\t\t<div
+  class=\"keyinfo\">\n\t\t\t\t\t\t\t\t\t<div class=\"messageicon\">\n\t\t\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/post/xx.gif\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h5
+  id=\"subject_145138\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.msg145138#msg145138\"
+  rel=\"nofollow\">Re: Discussion: At what temperature is food still raw?</a>\n\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t<div
+  class=\"smalltext\">« <strong>Reply #4 on:</strong> September 27, 2018, 10:59:20
+  pm »</div>\n\t\t\t\t\t\t\t\t\t<div id=\"msg_145138_quick_mod\"></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"post\">\n\t\t\t\t\t\t\t\t<div class=\"inner\" id=\"msg_145138\">This is
+  why one must has to be very careful when buying cheese as you never know how much
+  they heated it.<br>Always best to make it yourself.</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"moderatorbar\">\n\t\t\t\t\t\t\t<div class=\"smalltext modified\" id=\"modified_145138\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"smalltext reportlinks\">\n\t\t\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/ip.gif\"
+  alt=\"\">\n\t\t\t\t\t\t\t\tLogged\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span
+  class=\"botslice\"><span></span></span>\n\t\t\t\t</div>\n\t\t\t\t<hr class=\"post_separator\">\n\t\t\t\t<a
+  id=\"msg145143\"></a>\n\t\t\t\t<div class=\"windowbg2\">\n\t\t\t\t\t<span class=\"topslice\"><span></span></span>\n\t\t\t\t\t<div
+  class=\"post_wrapper\">\n\t\t\t\t\t\t<div class=\"poster\">\n\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/useroff.gif\" alt=\"Offline\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\"
+  title=\"View the profile of surfsteve\">surfsteve</a>\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<ul
+  class=\"reset smalltext\" id=\"msg_145143_extra_info\">\n\t\t\t\t\t\t\t\t<li class=\"postgroup\">Chief</li>\n\t\t\t\t\t\t\t\t<li
+  class=\"stars\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"></li>\n\t\t\t\t\t\t\t\t<li class=\"avatar\">\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\">\n\t\t\t\t\t\t\t\t\t\t<img
+  class=\"avatar\" src=\"https://www.rawpaleodietforum.com/avatarsuploaded/avatar_133515_1528908325.jpeg\"
+  alt=\"\">\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"postcount\">Posts:
+  616</li>\n\t\t\t\t\t\t\t\t<li class=\"gender\">Gender: <img class=\"gender\" src=\"https://www.rawpaleodietforum.com/Themes/default/images/Male.gif\"
+  alt=\"Male\"></li>\n\t\t\t\t\t\t\t\t<li class=\"profile\">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\"><img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/icons/profile_sm.gif\"
+  alt=\"View Profile\" title=\"View Profile\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"postarea\">\n\t\t\t\t\t\t\t<div class=\"flow_hidden\">\n\t\t\t\t\t\t\t\t<div
+  class=\"keyinfo\">\n\t\t\t\t\t\t\t\t\t<div class=\"messageicon\">\n\t\t\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/post/xx.gif\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h5
+  id=\"subject_145143\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.msg145143#msg145143\"
+  rel=\"nofollow\">Re: Discussion: At what temperature is food still raw?</a>\n\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t<div
+  class=\"smalltext\">« <strong>Reply #5 on:</strong> September 28, 2018, 01:07:55
+  am »</div>\n\t\t\t\t\t\t\t\t\t<div id=\"msg_145143_quick_mod\"></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"post\">\n\t\t\t\t\t\t\t\t<div class=\"inner\" id=\"msg_145143\">I still
+  remember in my youth, one day, hiking in the mountains on a very hot day,for only
+  two or three hours with a previously frozen, unopened package of hot dogs in the
+  top of my back pack and eating an entire hot dog and part of a second one before
+  realizing that it was the hot dogs that were sour and not a problem with my taste
+  buds, before throwing the rest of them out and wondering if I had been poisoned
+  by them. As many of you might have guessed, nothing happened and I never got sick
+  from eating them. Odd thinking back that it was the same logic and reasoning telling
+  me that they couldn't have been spoiled in such a short time that kept me eating
+  them yet also led me to believe that I might get sick from them. <br><br>I tend
+  to think that prehistoric man, eating freshly killed animals was not always what
+  happened and that the majority of meat eaten by them came from grubs and insects
+  or was scavenged. Our high stomach acid content suggests that we are well adapted
+  to eating decaying flesh. More so than other faster, stronger animals with sharp
+  teeth and claws.&nbsp; But then, just because man ate a certain way doesn't mean
+  it was ideal and fresh food that hasn't baked out in the hot sun may indeed be better.
+  I suppose the same argument could be made for eating cooked food. I guess I'm trying
+  to find out where to draw the lines. How about examining the diet and characteristics
+  of people like centenarians that have lived the longest? <br><br>So are there a
+  number of us that think that food that has been “baked” by the hot sun is closer
+  to cooked food than raw food? At this point I'm starting to believe that my natural
+  craving for sour foods very well could have something to do with my ancestors eating
+  spoiled meat and fermented vegetables. Right now I've got some five day old ceviche
+  that just a short time ago I'd have thrown away, but will eat with no hesitation
+  so I guess I'm making progress in that direction. <br><br><br></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"moderatorbar\">\n\t\t\t\t\t\t\t<div class=\"smalltext modified\" id=\"modified_145143\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"smalltext reportlinks\">\n\t\t\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/ip.gif\"
+  alt=\"\">\n\t\t\t\t\t\t\t\tLogged\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span
+  class=\"botslice\"><span></span></span>\n\t\t\t\t</div>\n\t\t\t\t<hr class=\"post_separator\">\n\t\t\t\t<a
+  id=\"msg145184\"></a>\n\t\t\t\t<div class=\"windowbg\">\n\t\t\t\t\t<span class=\"topslice\"><span></span></span>\n\t\t\t\t\t<div
+  class=\"post_wrapper\">\n\t\t\t\t\t\t<div class=\"poster\">\n\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/useroff.gif\" alt=\"Offline\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\"
+  title=\"View the profile of surfsteve\">surfsteve</a>\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<ul
+  class=\"reset smalltext\" id=\"msg_145184_extra_info\">\n\t\t\t\t\t\t\t\t<li class=\"postgroup\">Chief</li>\n\t\t\t\t\t\t\t\t<li
+  class=\"stars\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"></li>\n\t\t\t\t\t\t\t\t<li class=\"avatar\">\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\">\n\t\t\t\t\t\t\t\t\t\t<img
+  class=\"avatar\" src=\"https://www.rawpaleodietforum.com/avatarsuploaded/avatar_133515_1528908325.jpeg\"
+  alt=\"\">\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"postcount\">Posts:
+  616</li>\n\t\t\t\t\t\t\t\t<li class=\"gender\">Gender: <img class=\"gender\" src=\"https://www.rawpaleodietforum.com/Themes/default/images/Male.gif\"
+  alt=\"Male\"></li>\n\t\t\t\t\t\t\t\t<li class=\"profile\">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\"><img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/icons/profile_sm.gif\"
+  alt=\"View Profile\" title=\"View Profile\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"postarea\">\n\t\t\t\t\t\t\t<div class=\"flow_hidden\">\n\t\t\t\t\t\t\t\t<div
+  class=\"keyinfo\">\n\t\t\t\t\t\t\t\t\t<div class=\"messageicon\">\n\t\t\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/post/xx.gif\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h5
+  id=\"subject_145184\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.msg145184#msg145184\"
+  rel=\"nofollow\">Re: Discussion: At what temperature is food still raw?</a>\n\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t<div
+  class=\"smalltext\">« <strong>Reply #6 on:</strong> October 01, 2018, 10:03:32 pm
+  »</div>\n\t\t\t\t\t\t\t\t\t<div id=\"msg_145184_quick_mod\"></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"post\">\n\t\t\t\t\t\t\t\t<div class=\"inner\" id=\"msg_145184\">For several
+  days I've been \"cooking\" my food at 108 degrees F. I cooked some steak and salmon
+  yesterday. I ate the steak for lunch but left the salmon in the sous vide cooker
+  till later that evening. I spiced it up with herbs including plenty of lemon that
+  I had dried in my dehydrator and after a couple bites I noticed it had a stinky
+  smell to it. This has never happened at higher temperatures but apparently 108 degrees
+  is low enough to let bacteria grow. As far as I know the meat didn't taste sour
+  but it's hard to tell with all the lemon I put on it. Before this forum I would
+  have been afraid to eat it but I did and it didn't taste that bad and I finished
+  every last bite. <br><br>My question is: Does fish taste sour when it becomes fermented?
+  If I hadn't covered it in lemon I would know for sure. <br><br>I'm a little concerned
+  because I know high meat is fermented in the refrigerator and this was done at 108
+  degrees so maybe it has a different taste depending upon what temperature it's fermented
+  at due to the type of bacteria that are encouraged to grow. As soon as I finished
+  eating I downed a glass of betaine HCL water to ensure my stomach acids would be
+  strong enough to help my body&nbsp; kill whatever bacteria were present...<br><br><br><br>&nbsp;</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"moderatorbar\">\n\t\t\t\t\t\t\t<div class=\"smalltext modified\" id=\"modified_145184\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"smalltext reportlinks\">\n\t\t\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/ip.gif\"
+  alt=\"\">\n\t\t\t\t\t\t\t\tLogged\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span
+  class=\"botslice\"><span></span></span>\n\t\t\t\t</div>\n\t\t\t\t<hr class=\"post_separator\">\n\t\t\t\t<a
+  id=\"msg145185\"></a>\n\t\t\t\t<div class=\"windowbg2\">\n\t\t\t\t\t<span class=\"topslice\"><span></span></span>\n\t\t\t\t\t<div
+  class=\"post_wrapper\">\n\t\t\t\t\t\t<div class=\"poster\">\n\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/useroff.gif\" alt=\"Offline\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=131\"
+  title=\"View the profile of van\">van</a>\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<ul
+  class=\"reset smalltext\" id=\"msg_145185_extra_info\">\n\t\t\t\t\t\t\t\t<li class=\"postgroup\">Mammoth
+  Hunter</li>\n\t\t\t\t\t\t\t\t<li class=\"stars\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"></li>\n\t\t\t\t\t\t\t\t<li class=\"avatar\">\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=131\">\n\t\t\t\t\t\t\t\t\t\t<img
+  class=\"avatar\" src=\"https://www.rawpaleodietforum.com/avatarsuploaded/avatar_131_1321982728.png\"
+  alt=\"\">\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"postcount\">Posts:
+  1,741</li>\n\t\t\t\t\t\t\t\t<li class=\"gender\">Gender: <img class=\"gender\" src=\"https://www.rawpaleodietforum.com/Themes/default/images/Male.gif\"
+  alt=\"Male\"></li>\n\t\t\t\t\t\t\t\t<li class=\"profile\">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=131\"><img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/icons/profile_sm.gif\"
+  alt=\"View Profile\" title=\"View Profile\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"postarea\">\n\t\t\t\t\t\t\t<div class=\"flow_hidden\">\n\t\t\t\t\t\t\t\t<div
+  class=\"keyinfo\">\n\t\t\t\t\t\t\t\t\t<div class=\"messageicon\">\n\t\t\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/post/xx.gif\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h5
+  id=\"subject_145185\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.msg145185#msg145185\"
+  rel=\"nofollow\">Re: Discussion: At what temperature is food still raw?</a>\n\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t<div
+  class=\"smalltext\">« <strong>Reply #7 on:</strong> October 01, 2018, 11:07:05 pm
+  »</div>\n\t\t\t\t\t\t\t\t\t<div id=\"msg_145185_quick_mod\"></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"post\">\n\t\t\t\t\t\t\t\t<div class=\"inner\" id=\"msg_145185\">I think
+  your Sous vide cooker, cooks in a plastic bag without air.&nbsp; If so, you'll have
+  an increase of anaerobic bacteria types.&nbsp; But not really sure.&nbsp; I'd question
+  the use of plastic myself.&nbsp; I don't trust any plastics, especially when temperatures
+  is involved. </div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"moderatorbar\">\n\t\t\t\t\t\t\t<div class=\"smalltext modified\" id=\"modified_145185\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"smalltext reportlinks\">\n\t\t\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/ip.gif\"
+  alt=\"\">\n\t\t\t\t\t\t\t\tLogged\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span
+  class=\"botslice\"><span></span></span>\n\t\t\t\t</div>\n\t\t\t\t<hr class=\"post_separator\">\n\t\t\t\t<a
+  id=\"msg145189\"></a>\n\t\t\t\t<div class=\"windowbg\">\n\t\t\t\t\t<span class=\"topslice\"><span></span></span>\n\t\t\t\t\t<div
+  class=\"post_wrapper\">\n\t\t\t\t\t\t<div class=\"poster\">\n\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/useroff.gif\" alt=\"Offline\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=89714\"
+  title=\"View the profile of dariorpl\">dariorpl</a>\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<ul
+  class=\"reset smalltext\" id=\"msg_145189_extra_info\">\n\t\t\t\t\t\t\t\t<li class=\"postgroup\">Chief</li>\n\t\t\t\t\t\t\t\t<li
+  class=\"stars\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"></li>\n\t\t\t\t\t\t\t\t<li class=\"postcount\">Posts: 940</li>\n\t\t\t\t\t\t\t\t<li
+  class=\"gender\">Gender: <img class=\"gender\" src=\"https://www.rawpaleodietforum.com/Themes/default/images/Male.gif\"
+  alt=\"Male\"></li>\n\t\t\t\t\t\t\t\t<li class=\"profile\">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=89714\"><img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/icons/profile_sm.gif\"
+  alt=\"View Profile\" title=\"View Profile\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"postarea\">\n\t\t\t\t\t\t\t<div class=\"flow_hidden\">\n\t\t\t\t\t\t\t\t<div
+  class=\"keyinfo\">\n\t\t\t\t\t\t\t\t\t<div class=\"messageicon\">\n\t\t\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/post/xx.gif\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h5
+  id=\"subject_145189\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.msg145189#msg145189\"
+  rel=\"nofollow\">Re: Discussion: At what temperature is food still raw?</a>\n\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t<div
+  class=\"smalltext\">« <strong>Reply #8 on:</strong> October 02, 2018, 07:55:44 pm
+  »</div>\n\t\t\t\t\t\t\t\t\t<div id=\"msg_145189_quick_mod\"></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"post\">\n\t\t\t\t\t\t\t\t<div class=\"inner\" id=\"msg_145189\">I think
+  it's more of a process. The more heat and the longer the exposure, the less raw
+  it is. It may also vary by the type of food.<br><br>Paleo people may have ocasionally
+  eaten sunbaked meat, but we have no reason to assume that they would set meat out
+  to bake in the sun on purpose. <br><br>It makes more sense to take the carcass in
+  the shade where it's more comfortable on a hot sunny day.</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"moderatorbar\">\n\t\t\t\t\t\t\t<div class=\"smalltext modified\" id=\"modified_145189\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"smalltext reportlinks\">\n\t\t\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/ip.gif\"
+  alt=\"\">\n\t\t\t\t\t\t\t\tLogged\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"signature\"
+  id=\"msg_145189_signature\"><em>We now live in a world where medicine destroys health,
+  law destroys justice, education destroys knowledge, government destroys order, the
+  press destroys information, religion destroys morals, and banking destroys the economy</em></div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span
+  class=\"botslice\"><span></span></span>\n\t\t\t\t</div>\n\t\t\t\t<hr class=\"post_separator\">\n\t\t\t\t<a
+  id=\"msg145190\"></a>\n\t\t\t\t<div class=\"windowbg2\">\n\t\t\t\t\t<span class=\"topslice\"><span></span></span>\n\t\t\t\t\t<div
+  class=\"post_wrapper\">\n\t\t\t\t\t\t<div class=\"poster\">\n\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/useroff.gif\" alt=\"Offline\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=7\"
+  title=\"View the profile of TylerDurden\">TylerDurden</a>\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<ul
+  class=\"reset smalltext\" id=\"msg_145190_extra_info\">\n\t\t\t\t\t\t\t\t<li class=\"membergroup\">Global
+  Moderator</li>\n\t\t\t\t\t\t\t\t<li class=\"postgroup\">Mammoth Hunter</li>\n\t\t\t\t\t\t\t\t<li
+  class=\"stars\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/starmod.gif\"
+  alt=\"*\"></li>\n\t\t\t\t\t\t\t\t<li class=\"avatar\">\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=7\">\n\t\t\t\t\t\t\t\t\t\t<img
+  class=\"avatar\" src=\"https://www.rawpaleodietforum.com/avatarsuploaded/avatar_7_1543176583.jpeg\"
+  alt=\"\">\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"postcount\">Posts:
+  16,614</li>\n\t\t\t\t\t\t\t\t<li class=\"gender\">Gender: <img class=\"gender\"
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/Male.gif\" alt=\"Male\"></li>\n\t\t\t\t\t\t\t\t<li
+  class=\"profile\">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=7\"><img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/icons/profile_sm.gif\"
+  alt=\"View Profile\" title=\"View Profile\"></a></li>\n\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"http://www.rawpaleodiet.com/\" title=\"Raw Paleolithic Diet\" target=\"_blank\"
+  class=\"new_win\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/www_sm.gif\"
+  alt=\"Raw Paleolithic Diet\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"postarea\">\n\t\t\t\t\t\t\t<div class=\"flow_hidden\">\n\t\t\t\t\t\t\t\t<div
+  class=\"keyinfo\">\n\t\t\t\t\t\t\t\t\t<div class=\"messageicon\">\n\t\t\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/post/xx.gif\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h5
+  id=\"subject_145190\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.msg145190#msg145190\"
+  rel=\"nofollow\">Re: Discussion: At what temperature is food still raw?</a>\n\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t<div
+  class=\"smalltext\">« <strong>Reply #9 on:</strong> October 02, 2018, 10:23:34 pm
+  »</div>\n\t\t\t\t\t\t\t\t\t<div id=\"msg_145190_quick_mod\"></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"post\">\n\t\t\t\t\t\t\t\t<div class=\"inner\" id=\"msg_145190\">Look at
+  it this way:-&nbsp; the more heat from the sun the more enzymes are denatured BUT
+  the longer it is left out in the sun the more the bacteria predigest the raw meat
+  making it better/rawer.</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"moderatorbar\">\n\t\t\t\t\t\t\t<div class=\"smalltext modified\" id=\"modified_145190\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"smalltext reportlinks\">\n\t\t\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/ip.gif\"
+  alt=\"\">\n\t\t\t\t\t\t\t\tLogged\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"signature\"
+  id=\"msg_145190_signature\">'We can't go to prison - the food's bad and the sex
+  is worse': What Barclays banker accused of getting £11.8bn secret bailout from Qatar
+  during 2008 crash said to his colleague</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span
+  class=\"botslice\"><span></span></span>\n\t\t\t\t</div>\n\t\t\t\t<hr class=\"post_separator\">\n\t\t\t\t<a
+  id=\"msg145193\"></a>\n\t\t\t\t<div class=\"windowbg\">\n\t\t\t\t\t<span class=\"topslice\"><span></span></span>\n\t\t\t\t\t<div
+  class=\"post_wrapper\">\n\t\t\t\t\t\t<div class=\"poster\">\n\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/useroff.gif\" alt=\"Offline\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\"
+  title=\"View the profile of surfsteve\">surfsteve</a>\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<ul
+  class=\"reset smalltext\" id=\"msg_145193_extra_info\">\n\t\t\t\t\t\t\t\t<li class=\"postgroup\">Chief</li>\n\t\t\t\t\t\t\t\t<li
+  class=\"stars\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"></li>\n\t\t\t\t\t\t\t\t<li class=\"avatar\">\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\">\n\t\t\t\t\t\t\t\t\t\t<img
+  class=\"avatar\" src=\"https://www.rawpaleodietforum.com/avatarsuploaded/avatar_133515_1528908325.jpeg\"
+  alt=\"\">\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"postcount\">Posts:
+  616</li>\n\t\t\t\t\t\t\t\t<li class=\"gender\">Gender: <img class=\"gender\" src=\"https://www.rawpaleodietforum.com/Themes/default/images/Male.gif\"
+  alt=\"Male\"></li>\n\t\t\t\t\t\t\t\t<li class=\"profile\">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\"><img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/icons/profile_sm.gif\"
+  alt=\"View Profile\" title=\"View Profile\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"postarea\">\n\t\t\t\t\t\t\t<div class=\"flow_hidden\">\n\t\t\t\t\t\t\t\t<div
+  class=\"keyinfo\">\n\t\t\t\t\t\t\t\t\t<div class=\"messageicon\">\n\t\t\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/post/xx.gif\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h5
+  id=\"subject_145193\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.msg145193#msg145193\"
+  rel=\"nofollow\">Re: Discussion: At what temperature is food still raw?</a>\n\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t<div
+  class=\"smalltext\">« <strong>Reply #10 on:</strong> October 03, 2018, 02:11:25
+  am »</div>\n\t\t\t\t\t\t\t\t\t<div id=\"msg_145193_quick_mod\"></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"post\">\n\t\t\t\t\t\t\t\t<div class=\"inner\" id=\"msg_145193\">I agree
+  with Van to be concerned with fermenting food in plastic bags and that it was probably
+  some type of anaerobic bacteria that formed. Now that I think about it I did have
+  a little diarrhea after consuming it but never connected the two in my mind till
+  just now. It probably would have been a lot worse had I not taken the betaine HCL
+  right after eating it. From now on I will try and use my souse vide cooker to only
+  warm the food and not leave it in there for hours and hours, giving it a chance
+  to ferment. I've also been heating up a frying pan and cooking meat only till it
+  is warmed a little in the middle. Most of the time it works but yesterday someone
+  came to the door while I was cooking and the meat was well above body temperature
+  in the middle and parts of it were actually cooked. <br><br>I don't like eating
+  cold meat out of the fridge unless it is pickled in lemon juice or vinegar. I thought
+  about warming it in my food dehydrator but am afraid that it will lead me to eating
+  dehydrated meats again and plus it is hard to clean. <br><br>I guess the important
+  thing to note is that warming meat to low temperatures such as 108F. leads to bacteria
+  production and needs to be taken into account. From now on I will make an effort
+  not to leave it in much longer than is needed to achieve the desired temperature.
+  <br><br>I wonder if maybe warming the meat in a dehydrator and using plastic or
+  wax paper underneath it would be a good idea. I think I'll put some wax paper on
+  my store list and give it a try.<br><br>I really like preparing raw meat in a salad,
+  ceviche style or as a tartare, which is pretty much the same thing, only with less
+  vegetables; but confess I need a change now and then. Plus simply warming it is
+  a little more paleo style, simulating a fresh kill; though that is notas&nbsp; high
+  on my list of priorities as it appears to be to most people on this forum. <br><br>&nbsp;</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"moderatorbar\">\n\t\t\t\t\t\t\t<div class=\"smalltext modified\" id=\"modified_145193\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"smalltext reportlinks\">\n\t\t\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/ip.gif\"
+  alt=\"\">\n\t\t\t\t\t\t\t\tLogged\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span
+  class=\"botslice\"><span></span></span>\n\t\t\t\t</div>\n\t\t\t\t<hr class=\"post_separator\">\n\t\t\t\t<a
+  id=\"msg145194\"></a>\n\t\t\t\t<div class=\"windowbg2\">\n\t\t\t\t\t<span class=\"topslice\"><span></span></span>\n\t\t\t\t\t<div
+  class=\"post_wrapper\">\n\t\t\t\t\t\t<div class=\"poster\">\n\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/useroff.gif\" alt=\"Offline\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=131\"
+  title=\"View the profile of van\">van</a>\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<ul
+  class=\"reset smalltext\" id=\"msg_145194_extra_info\">\n\t\t\t\t\t\t\t\t<li class=\"postgroup\">Mammoth
+  Hunter</li>\n\t\t\t\t\t\t\t\t<li class=\"stars\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"></li>\n\t\t\t\t\t\t\t\t<li class=\"avatar\">\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=131\">\n\t\t\t\t\t\t\t\t\t\t<img
+  class=\"avatar\" src=\"https://www.rawpaleodietforum.com/avatarsuploaded/avatar_131_1321982728.png\"
+  alt=\"\">\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"postcount\">Posts:
+  1,741</li>\n\t\t\t\t\t\t\t\t<li class=\"gender\">Gender: <img class=\"gender\" src=\"https://www.rawpaleodietforum.com/Themes/default/images/Male.gif\"
+  alt=\"Male\"></li>\n\t\t\t\t\t\t\t\t<li class=\"profile\">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=131\"><img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/icons/profile_sm.gif\"
+  alt=\"View Profile\" title=\"View Profile\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"postarea\">\n\t\t\t\t\t\t\t<div class=\"flow_hidden\">\n\t\t\t\t\t\t\t\t<div
+  class=\"keyinfo\">\n\t\t\t\t\t\t\t\t\t<div class=\"messageicon\">\n\t\t\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/post/xx.gif\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h5
+  id=\"subject_145194\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.msg145194#msg145194\"
+  rel=\"nofollow\">Re: Discussion: At what temperature is food still raw?</a>\n\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t<div
+  class=\"smalltext\">« <strong>Reply #11 on:</strong> October 03, 2018, 02:22:57
+  am »</div>\n\t\t\t\t\t\t\t\t\t<div id=\"msg_145194_quick_mod\"></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"post\">\n\t\t\t\t\t\t\t\t<div class=\"inner\" id=\"msg_145194\">how about
+  doing what some of us do,,&nbsp; take your portion out of the fridge 2-4 hours ahead
+  of time. Tastes best that way to me.&nbsp; Same with fat.</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"moderatorbar\">\n\t\t\t\t\t\t\t<div class=\"smalltext modified\" id=\"modified_145194\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"smalltext reportlinks\">\n\t\t\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/ip.gif\"
+  alt=\"\">\n\t\t\t\t\t\t\t\tLogged\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span
+  class=\"botslice\"><span></span></span>\n\t\t\t\t</div>\n\t\t\t\t<hr class=\"post_separator\">\n\t\t\t\t<a
+  id=\"msg146628\"></a>\n\t\t\t\t<div class=\"windowbg\">\n\t\t\t\t\t<span class=\"topslice\"><span></span></span>\n\t\t\t\t\t<div
+  class=\"post_wrapper\">\n\t\t\t\t\t\t<div class=\"poster\">\n\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/useroff.gif\" alt=\"Offline\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=180192\"
+  title=\"View the profile of birdy\">birdy</a>\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<ul
+  class=\"reset smalltext\" id=\"msg_146628_extra_info\">\n\t\t\t\t\t\t\t\t<li class=\"postgroup\">Forager</li>\n\t\t\t\t\t\t\t\t<li
+  class=\"stars\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"></li>\n\t\t\t\t\t\t\t\t<li class=\"postcount\">Posts: 5</li>\n\t\t\t\t\t\t\t\t<li
+  class=\"profile\">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=180192\"><img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/icons/profile_sm.gif\"
+  alt=\"View Profile\" title=\"View Profile\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"postarea\">\n\t\t\t\t\t\t\t<div class=\"flow_hidden\">\n\t\t\t\t\t\t\t\t<div
+  class=\"keyinfo\">\n\t\t\t\t\t\t\t\t\t<div class=\"messageicon\">\n\t\t\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/post/xx.gif\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h5
+  id=\"subject_146628\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.msg146628#msg146628\"
+  rel=\"nofollow\">Re: Discussion: At what temperature is food still raw?</a>\n\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t<div
+  class=\"smalltext\">« <strong>Reply #12 on:</strong> March 13, 2019, 10:47:39 am
+  »</div>\n\t\t\t\t\t\t\t\t\t<div id=\"msg_146628_quick_mod\"></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"post\">\n\t\t\t\t\t\t\t\t<div class=\"inner\" id=\"msg_146628\">What do
+  you think about partially cooked/undercooked meat, like rare steaks? Im still starting
+  out with the raw meats and find it hard to eat completely raw. Though adding enough
+  spices to it would make that more achievable for me I guess. Just don't like eating
+  it completely \"naked\" and cold. Last time I tried raw chicken, I lightly heated
+  it in the pan with some butter and spices until it got white on the outside but
+  was still completely pink inside. <br><br>also, what about adding spices in general?
+  i like adding lots of them. But I think I heard somewhere that strong spices with
+  antibacterial properties like ginger or garlic&nbsp; also kill the beneficial bacteria
+  of the raw meat?<br></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"moderatorbar\">\n\t\t\t\t\t\t\t<div class=\"smalltext modified\" id=\"modified_146628\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"smalltext reportlinks\">\n\t\t\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/ip.gif\"
+  alt=\"\">\n\t\t\t\t\t\t\t\tLogged\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span
+  class=\"botslice\"><span></span></span>\n\t\t\t\t</div>\n\t\t\t\t<hr class=\"post_separator\">\n\t\t\t\t<a
+  id=\"msg146631\"></a>\n\t\t\t\t<div class=\"windowbg2\">\n\t\t\t\t\t<span class=\"topslice\"><span></span></span>\n\t\t\t\t\t<div
+  class=\"post_wrapper\">\n\t\t\t\t\t\t<div class=\"poster\">\n\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/useroff.gif\" alt=\"Offline\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\"
+  title=\"View the profile of surfsteve\">surfsteve</a>\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<ul
+  class=\"reset smalltext\" id=\"msg_146631_extra_info\">\n\t\t\t\t\t\t\t\t<li class=\"postgroup\">Chief</li>\n\t\t\t\t\t\t\t\t<li
+  class=\"stars\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"><img src=\"https://www.rawpaleodietforum.com/Themes/default/images/star.gif\"
+  alt=\"*\"></li>\n\t\t\t\t\t\t\t\t<li class=\"avatar\">\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\">\n\t\t\t\t\t\t\t\t\t\t<img
+  class=\"avatar\" src=\"https://www.rawpaleodietforum.com/avatarsuploaded/avatar_133515_1528908325.jpeg\"
+  alt=\"\">\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"postcount\">Posts:
+  616</li>\n\t\t\t\t\t\t\t\t<li class=\"gender\">Gender: <img class=\"gender\" src=\"https://www.rawpaleodietforum.com/Themes/default/images/Male.gif\"
+  alt=\"Male\"></li>\n\t\t\t\t\t\t\t\t<li class=\"profile\">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=133515\"><img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/icons/profile_sm.gif\"
+  alt=\"View Profile\" title=\"View Profile\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"postarea\">\n\t\t\t\t\t\t\t<div class=\"flow_hidden\">\n\t\t\t\t\t\t\t\t<div
+  class=\"keyinfo\">\n\t\t\t\t\t\t\t\t\t<div class=\"messageicon\">\n\t\t\t\t\t\t\t\t\t\t<img
+  src=\"https://www.rawpaleodietforum.com/Themes/default/images/post/xx.gif\" alt=\"\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h5
+  id=\"subject_146631\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.msg146631#msg146631\"
+  rel=\"nofollow\">Re: Discussion: At what temperature is food still raw?</a>\n\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t<div
+  class=\"smalltext\">« <strong>Reply #13 on:</strong> March 14, 2019, 01:14:04 am
+  »</div>\n\t\t\t\t\t\t\t\t\t<div id=\"msg_146631_quick_mod\"></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"post\">\n\t\t\t\t\t\t\t\t<div class=\"inner\" id=\"msg_146631\">I been cooking
+  my meat that way for years. I still never developed a taste for completely raw though.
+  I use spices but stopped using pepper as it is a night shade.</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"moderatorbar\">\n\t\t\t\t\t\t\t<div class=\"smalltext modified\" id=\"modified_146631\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div
+  class=\"smalltext reportlinks\">\n\t\t\t\t\t\t\t\t<img src=\"https://www.rawpaleodietforum.com/Themes/default/images/ip.gif\"
+  alt=\"\">\n\t\t\t\t\t\t\t\tLogged\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span
+  class=\"botslice\"><span></span></span>\n\t\t\t\t</div>\n\t\t\t\t<hr class=\"post_separator\">\n\t\t\t\t</form>\n\t\t\t</div>\n\t\t\t<a
+  id=\"lastPost\"></a>\n\t\t\t<div class=\"pagesection\">\n\t\t\t\t\n\t\t<div class=\"buttonlist
+  floatright\">\n\t\t\t<ul>\n\t\t\t\t<li><a class=\"button_strip_print\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=printpage;topic=13048.0\"
+  rel=\"new_win nofollow\"><span class=\"last\">Print</span></a></li>\n\t\t\t</ul>\n\t\t</div>\n\t\t\t\t<div
+  class=\"pagelinks floatleft\">Pages: [<strong>1</strong>]   &nbsp;&nbsp;<a href=\"#top\"><strong>Go
+  Up</strong></a></div>\n\t\t\t\t<div class=\"nextlinks_bottom\"><a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.0;prev_next=prev#new\">«
+  previous</a> <a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.0;prev_next=next#new\">next
+  »</a></div>\n\t\t\t</div>\n\t<div class=\"navigate_section\">\n\t\t<ul>\n\t\t\t<li>\n\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;\"><span>Paleo
+  Diet: Raw Paleo Diet and Lifestyle Forum</span></a> »\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;#c1\"><span>Raw
+  Paleo Diet Forums</span></a> »\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;board=3.0\"><span>General
+  Discussion</span></a> (Moderator: <a href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=profile;u=7\"
+  title=\"Board Moderator\">TylerDurden</a>) »\n\t\t\t</li>\n\t\t\t<li class=\"last\">\n\t\t\t\t<a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;topic=13048.0\"><span>Discussion:
+  At what temperature is food still raw?</span></a>\n\t\t\t</li>\n\t\t</ul>\n\t</div>\n\t\t\t<div
+  id=\"moderationbuttons\"></div>\n\t\t\t<div class=\"plainbox\" id=\"display_jump_to\"><label
+  class=\"smalltext\" for=\"display_jump_to_select\">Jump to:</label> <select name=\"display_jump_to_select\"
+  id=\"display_jump_to_select\" onfocus=\"grabJumpToContent();\"><option value=\"?board=3.0\">=&gt;
+  General Discussion</option></select>&nbsp;<input type=\"button\" value=\"go\" onclick=\"window.location.href
+  = 'https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;board=3.0';\"></div>\n\t\t<br
+  class=\"clear\">\n\t\t\t<form action=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=spellcheck\"
+  method=\"post\" accept-charset=\"UTF-8\" name=\"spell_form\" id=\"spell_form\" target=\"spellWindow\"><input
+  type=\"hidden\" name=\"spellstring\" value=\"\"></form>\n\t\t\t\t<script type=\"text/javascript\"
+  src=\"https://www.rawpaleodietforum.com/Themes/default/scripts/spellcheck.js\"></script>\n\t\t\t\t<script
+  type=\"text/javascript\" src=\"https://www.rawpaleodietforum.com/Themes/default/scripts/topic.js\"></script>\n\t\t\t\t<script
+  type=\"text/javascript\"><!-- // --><![CDATA[\n\t\t\t\t\tvar oQuickReply = new QuickReply({\n\t\t\t\t\t\tbDefaultCollapsed:
+  false,\n\t\t\t\t\t\tiTopicId: 13048,\n\t\t\t\t\t\tiStart: 0,\n\t\t\t\t\t\tsScriptUrl:
+  smf_scripturl,\n\t\t\t\t\t\tsImagesUrl: \"https://www.rawpaleodietforum.com/Themes/default/images\",\n\t\t\t\t\t\tsContainerId:
+  \"quickReplyOptions\",\n\t\t\t\t\t\tsImageId: \"quickReplyExpand\",\n\t\t\t\t\t\tsImageCollapsed:
+  \"collapse.gif\",\n\t\t\t\t\t\tsImageExpanded: \"expand.gif\",\n\t\t\t\t\t\tsJumpAnchor:
+  \"quickreply\"\n\t\t\t\t\t});\n\t\t\t\t\tif ('XMLHttpRequest' in window)\n\t\t\t\t\t{\n\t\t\t\t\t\tvar
+  oQuickModify = new QuickModify({\n\t\t\t\t\t\t\tsScriptUrl: smf_scripturl,\n\t\t\t\t\t\t\tbShowModify:
+  true,\n\t\t\t\t\t\t\tiTopicId: 13048,\n\t\t\t\t\t\t\tsTemplateBodyEdit: '\\n\\t\\t\\t\\t\\t\\t\\t\\t<div
+  id=\"quick_edit_body_container\" style=\"width: 90%\">\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t<div
+  id=\"error_box\" style=\"padding: 4px;\" class=\"error\"><' + '/div>\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t<textarea
+  class=\"editor\" name=\"message\" rows=\"12\" style=\"width: 100%; margin-bottom:
+  10px;\" tabindex=\"1\">%body%<' + '/textarea><br />\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t<input
+  type=\"hidden\" name=\"a3ca4e01\" value=\"f377c0075d9db3dc76943aa6d917030b\" />\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t<input
+  type=\"hidden\" name=\"topic\" value=\"13048\" />\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t<input
+  type=\"hidden\" name=\"msg\" value=\"%msg_id%\" />\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t<div
+  class=\"righttext\">\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t<input type=\"submit\" name=\"post\"
+  value=\"Save\" tabindex=\"2\" onclick=\"return oQuickModify.modifySave(\\'f377c0075d9db3dc76943aa6d917030b\\',
+  \\'a3ca4e01\\');\" accesskey=\"s\" class=\"button_submit\" />&nbsp;&nbsp;<input
+  type=\"button\" value=\"Spell Check\" tabindex=\"3\" onclick=\"spellCheck(\\'quickModForm\\',
+  \\'message\\');\" class=\"button_submit\" />&nbsp;&nbsp;<input type=\"submit\" name=\"cancel\"
+  value=\"Cancel\" tabindex=\"4\" onclick=\"return oQuickModify.modifyCancel();\"
+  class=\"button_submit\" />\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t<' + '/div>\\n\\t\\t\\t\\t\\t\\t\\t\\t<'
+  + '/div>',\n\t\t\t\t\t\t\tsTemplateSubjectEdit: '<input type=\"text\" style=\"width:
+  90%;\" name=\"subject\" value=\"%subject%\" size=\"80\" maxlength=\"80\" tabindex=\"5\"
+  class=\"input_text\" />',\n\t\t\t\t\t\t\tsTemplateBodyNormal: '%body%',\n\t\t\t\t\t\t\tsTemplateSubjectNormal:
+  '<a hr'+'ef=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;'+'?topic=13048.msg%msg_id%#msg%msg_id%\"
+  rel=\"nofollow\">%subject%<' + '/a>',\n\t\t\t\t\t\t\tsTemplateTopSubject: 'Topic:
+  %subject% &nbsp;(Read 1261 times)',\n\t\t\t\t\t\t\tsErrorBorderStyle: '1px solid
+  red'\n\t\t\t\t\t\t});\n\n\t\t\t\t\t\taJumpTo[aJumpTo.length] = new JumpTo({\n\t\t\t\t\t\t\tsContainerId:
+  \"display_jump_to\",\n\t\t\t\t\t\t\tsJumpToTemplate: \"<label class=\\\"smalltext\\\"
+  for=\\\"%select_id%\\\">Jump to:<\" + \"/label> %dropdown_list%\",\n\t\t\t\t\t\t\tiCurBoardId:
+  3,\n\t\t\t\t\t\t\tiCurBoardChildLevel: 0,\n\t\t\t\t\t\t\tsCurBoardName: \"General
+  Discussion\",\n\t\t\t\t\t\t\tsBoardChildLevelIndicator: \"==\",\n\t\t\t\t\t\t\tsBoardPrefix:
+  \"=> \",\n\t\t\t\t\t\t\tsCatSeparator: \"-----------------------------\",\n\t\t\t\t\t\t\tsCatPrefix:
+  \"\",\n\t\t\t\t\t\t\tsGoButtonLabel: \"go\"\n\t\t\t\t\t\t});\n\n\t\t\t\t\t\taIconLists[aIconLists.length]
+  = new IconList({\n\t\t\t\t\t\t\tsBackReference: \"aIconLists[\" + aIconLists.length
+  + \"]\",\n\t\t\t\t\t\t\tsIconIdPrefix: \"msg_icon_\",\n\t\t\t\t\t\t\tsScriptUrl:
+  smf_scripturl,\n\t\t\t\t\t\t\tbShowModify: true,\n\t\t\t\t\t\t\tiBoardId: 3,\n\t\t\t\t\t\t\tiTopicId:
+  13048,\n\t\t\t\t\t\t\tsSessionId: \"f377c0075d9db3dc76943aa6d917030b\",\n\t\t\t\t\t\t\tsSessionVar:
+  \"a3ca4e01\",\n\t\t\t\t\t\t\tsLabelIconList: \"Message Icon\",\n\t\t\t\t\t\t\tsBoxBackground:
+  \"transparent\",\n\t\t\t\t\t\t\tsBoxBackgroundHover: \"#ffffff\",\n\t\t\t\t\t\t\tiBoxBorderWidthHover:
+  1,\n\t\t\t\t\t\t\tsBoxBorderColorHover: \"#adadad\" ,\n\t\t\t\t\t\t\tsContainerBackground:
+  \"#ffffff\",\n\t\t\t\t\t\t\tsContainerBorder: \"1px solid #adadad\",\n\t\t\t\t\t\t\tsItemBorder:
+  \"1px solid #ffffff\",\n\t\t\t\t\t\t\tsItemBorderHover: \"1px dotted gray\",\n\t\t\t\t\t\t\tsItemBackground:
+  \"transparent\",\n\t\t\t\t\t\t\tsItemBackgroundHover: \"#e0e0f0\"\n\t\t\t\t\t\t});\n\t\t\t\t\t}\n\t\t\t\t//
+  ]]></script><div class=\"cleantalk_tell_others\" style=\"text-align: center;padding:5px
+  0;\"><a href=\"https://cleantalk.org/smf-anti-spam-mod\">SMF spam</a> blocked by
+  CleanTalk</div>\n\t\t</div>\n\t</div></div>\n\t<div id=\"footer_section\"><div class=\"frame\">\n\t\t<ul
+  class=\"reset\">\n\t\t\t<li class=\"copyright\">\n\t\t\t<span class=\"smalltext\"
+  style=\"display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;\"><a
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=credits\"
+  title=\"Simple Machines Forum\" target=\"_blank\" class=\"new_win\">SMF 2.0.15</a>
+  |\n <a href=\"http://www.simplemachines.org/about/smf/license.php\" title=\"License\"
+  target=\"_blank\" class=\"new_win\">SMF © 2017</a>, <a href=\"http://www.simplemachines.org\"
+  title=\"Simple Machines\" target=\"_blank\" class=\"new_win\">Simple Machines</a>\n\t\t\t</span></li>\n\t\t\t<li><a
+  id=\"button_xhtml\" href=\"http://validator.w3.org/check?uri=referer\" target=\"_blank\"
+  class=\"new_win\" title=\"Valid XHTML 1.0!\"><span>XHTML</span></a></li>\n\t\t\t<li><a
+  id=\"button_rss\" href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;action=.xml;type=rss\"
+  class=\"new_win\"><span>RSS</span></a></li>\n\t\t\t<li class=\"last\"><a id=\"button_wap2\"
+  href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;wap2\"
+  class=\"new_win\"><span>WAP2</span></a></li>\n\t\t</ul>\n\t</div></div>\n</div>\n</body></html>"

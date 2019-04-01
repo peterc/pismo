@@ -1,0 +1,1008 @@
+---
+:url: https://www.reviewed.com/cooking/features/what-is-sous-vide-cooking
+:body: "<!DOCTYPE html><html class=\" js no-flexbox flexbox-legacy canvas canvastext
+  webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history
+  draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius
+  boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections
+  csstransforms csstransforms3d csstransitions fontface generatedcontent video audio
+  localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths\"><head><script
+  type=\"text/javascript\" async=\"\" charset=\"utf-8\" src=\"https://connect.facebook.net/en_US/fbevents.js\"
+  id=\"utag_10\"></script><script type=\"text/javascript\" async=\"\" id=\"tealium-tag-3005\"
+  src=\"https://sb.scorecardresearch.com/c2/6035223/cs.js\"></script><script type=\"text/javascript\"
+  async=\"async\" src=\"https://dpm.demdex.net/id?d_visid_ver=1.5.3&amp;d_rtbd=json&amp;d_ver=2&amp;d_orgid=CF4957F555EE9B727F000101%40AdobeOrg&amp;d_nsid=0&amp;d_cb=s_c_il%5B1%5D._setMarketingCloudFields\"></script><script
+  type=\"text/javascript\" async=\"\" src=\"//static.criteo.net/js/ld/publishertag.prebid.js\"></script><script
+  type=\"text/javascript\" async=\"\" src=\"//assets.pinterest.com/js/pinit_main.js?0.6286356029775755\"></script><style
+  type=\"text/css\">@charset \"UTF-8\";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none
+  !important;}ng\\:form{display:block;}.ng-animate-block-transitions{transition:0s
+  all!important;-webkit-transition:0s all!important;}</style>\n<script async=\"\"
+  type=\"text/javascript\" src=\"https://www.googletagservices.com/tag/js/gpt.js\"></script><script
+  async=\"\" src=\"//www.googletagmanager.com/gtm.js?id=GTM-KB4CSW\"></script><script
+  type=\"text/javascript\">var _rollbarConfig = {\"accessToken\":\"d74f7a71650741a7968eee58be61908e\",\"captureUncaught\":true,\"hostWhiteList\":[\"herokuapp.com\",\"reviewed.com\"],\"ignoredMessages\":[\"Script
+  error.\",\"Objet appelant non valide\",\"Cannot convert undefined or null to object\",\"Illegal
+  invocation\",\"Cannot read property 'innerText' of null\",\"Invalid calling object\",\"Can't
+  find variable: jgPlayVideo\",\"ReferenceError: Can't find variable: jgPlayVideo\",\"Security
+  warning: an embedded \\u003cscript\\u003e tag on another site requested protected
+  JavaScript. If you know what you're doing, go ahead and disable forgery protection
+  on this action to permit cross-origin JavaScript embedding.\",\"ActionController::InvalidCrossOriginRequest:
+  Security warning: an embedded \\u003cscript\\u003e tag on another site requested
+  protected JavaScript. If you know what you're doing, go ahead and disable forgery
+  protection on this action to permit cross-origin JavaScript embedding.\",\"Unexpected
+  token function\",\"Uncaught SyntaxError: Unexpected token else\",\"TypeError: undefined
+  is not an object (evaluating 'document.getElementsByTagName('video')[0].webkitExitFullScreen')\",\"undefined
+  is not an object (evaluating 'document.getElementsByTagName('video')[0].webkitExitFullScreen')\"],\"payload\":{\"environment\":\"production\"}};</script>\n<script
+  type=\"text/javascript\">!function(r){function e(n){if(o[n])return o[n].exports;var
+  t=o[n]={exports:{},id:n,loaded:!1};return r[n].call(t.exports,t,t.exports,e),t.loaded=!0,t.exports}var
+  o={};return e.m=r,e.c=o,e.p=\"\",e(0)}([function(r,e,o){\"use strict\";var n=o(1),t=o(4);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||\"https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.3.8/rollbar.min.js\",_rollbarConfig.async=void
+  0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){\"use
+  strict\";function n(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error(\"[Rollbar]:
+  Internal error\",r)}catch(r){}}}}function t(r,e){this.options=r,this._rollbarOldOnError=null;var
+  o=s++;this.shimId=function(){return o},\"undefined\"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}function
+  a(r,e){if(r){var o=e.globalAlias||\"Rollbar\";if(\"object\"==typeof r[o])return
+  r[o];r._rollbarShims={},r._rollbarWrappedError=null;var t=new p(e);return n(function(){e.captureUncaught&&(t._rollbarOldOnError=r.onerror,i.captureUncaughtExceptions(r,t,!0),i.wrapGlobals(r,t,!0)),e.captureUnhandledRejections&&i.captureUnhandledRejections(r,t,!0);var
+  n=e.autoInstrument;return e.enabled!==!1&&(void 0===n||n===!0||\"object\"==typeof
+  n&&n.network)&&r.addEventListener&&(r.addEventListener(\"load\",t.captureLoad.bind(t)),r.addEventListener(\"DOMContentLoaded\",t.captureDomContentLoaded.bind(t))),r[o]=t,t})()}}function
+  l(r){return n(function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new
+  Date};window._rollbarShims[this.shimId()].messages.push(n)})}var i=o(2),s=0,d=o(3),c=function(r,e){return
+  new t(r,e)},p=d.bind(null,c);t.prototype.loadFull=function(r,e,o,t,a){var l=function(){var
+  e;if(void 0===r._rollbarDidLoad){e=new Error(\"rollbar.js did not load\");for(var
+  o,n,t,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(t=n.args||[],i=0;i<t.length;++i)if(l=t[i],\"function\"==typeof
+  l){l(e);break}}\"function\"==typeof a&&a(e)},i=!1,s=e.createElement(\"script\"),d=e.getElementsByTagName(\"script\")[0],c=d.parentNode;s.crossOrigin=\"\",s.src=t.rollbarJsUrl,o||(s.async=!0),s.onload=s.onreadystatechange=n(function(){if(!(i||this.readyState&&\"loaded\"!==this.readyState&&\"complete\"!==this.readyState)){s.onload=s.onreadystatechange=null;try{c.removeChild(s)}catch(r){}i=!0,l()}}),c.insertBefore(s,d)},t.prototype.wrap=function(r,e,o){try{var
+  n;if(n=\"function\"==typeof e?e:function(){return e||{}},\"function\"!=typeof r)return
+  r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&\"function\"==typeof
+  o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw\"string\"==typeof
+  e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e,e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var
+  t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return
+  r}};for(var u=\"log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad\".split(\",\"),f=0;f<u.length;++f)t.prototype[u[f]]=l(u[f]);r.exports={setupShim:a,Rollbar:p}},function(r,e){\"use
+  strict\";function o(r,e,o){if(r){var t;\"function\"==typeof e._rollbarOldOnError?t=e._rollbarOldOnError:r.onerror&&!r.onerror.belongsToShim&&(t=r.onerror,e._rollbarOldOnError=t);var
+  a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};a.belongsToShim=o,r.onerror=a}}function
+  n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null),e.handleUncaughtException.apply(e,n),o&&o.apply(r,n)}function
+  t(r,e,o){if(r){\"function\"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener(\"unhandledrejection\",r._rollbarURH);var
+  n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n=\"[unhandledrejection]
+  error getting `promise` from event\"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){t=\"[unhandledrejection]
+  error getting `detail` from event\"}o||(o=\"[unhandledrejection] error getting `reason`
+  from event\"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener(\"unhandledrejection\",n)}}function
+  a(r,e,o){if(r){var n,t,a=\"EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload\".split(\",\");for(n=0;n<a.length;++n)t=a[n],r[t]&&r[t].prototype&&l(e,r[t].prototype,o)}}function
+  l(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty(\"addEventListener\")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var
+  t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var
+  a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var
+  l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports={captureUncaughtExceptions:o,captureUnhandledRejections:t,wrapGlobals:a}},function(r,e){\"use
+  strict\";function o(r,e){this.impl=r(e,this),this.options=e,n(o.prototype)}function
+  n(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return
+  this.impl[r].apply(this.impl,e)}},o=\"log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad\".split(\",\"),n=0;n<o.length;n++)r[o[n]]=e(o[n])}o.prototype._swapAndProcessMessages=function(r,e){this.impl=r(this.options);for(var
+  o,n,t;o=e.shift();)n=o.method,t=o.args,this[n]&&\"function\"==typeof this[n]&&(\"captureDomContentLoaded\"===n||\"captureLoad\"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return
+  this},r.exports=o},function(r,e){\"use strict\";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){r=r||{};for(var
+  o,n,t=r.globalAlias||\"Rollbar\",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);</script>\n
+  \ <title>\n      What is sous vide cooking? - Reviewed Cooking\n  </title>\n\n\n
+  \ <script>\n//<![CDATA[\n\n    window.js_vars = {\"gtmVersion\":21,\"website_id\":\"cooking\",\"category\":\"Kitchen
+  \\u0026 Cooking\",\"search_is_unscoped\":true,\"env\":\"production\",\"dfpid\":\"7103\",\"ias_id\":\"922805\",\"lazy_ads_disabled_for\":\"dishwashers,vacuums\",\"permitted_amazon_tracking_codes\":\"ppckeywee-20,ppcrvadwords-20,ppcpinterest-20\",\"custom_ad_placement\":false,\"authors\":\"Rachael
+  Priore\",\"search_categories\":{\"sleep\":\"Sleep\",\"deals\":\"Deals\",\"grills\":\"Grills\",\"projectors\":\"Projectors\",\"wearables\":\"Wearables\",\"beauty\":\"Beauty\",\"health\":\"Health\",\"cruises\":\"Cruises\",\"reviewed\":\"Reviewed\",\"coffee\":\"Coffee\",\"espresso\":\"Espresso\",\"lenses\":\"Lenses\",\"cameras\":\"Cameras\",\"tablets\":\"Tablets\",\"tech\":\"Tech\",\"mobilecoverage\":\"Mobile
+  Coverage\",\"laundry-cleaning\":\"Laundry \\u0026 Cleaning\",\"cooking\":\"Kitchen
+  \\u0026 Cooking\",\"headphones\":\"Headphones\",\"laptops\":\"Laptops\",\"printers\":\"Printers\",\"monitors\":\"Computer
+  Monitors\",\"freezers\":\"Freezers\",\"luxuryhome\":\"Luxury Appliances\",\"microwaves\":\"Microwaves\",\"ovens\":\"Ovens\",\"home-theater\":\"Home
+  Theater\",\"lifestyle\":\"Lifestyle\",\"parenting\":\"Parenting\",\"smartphones\":\"Smartphones\",\"camcorders\":\"Camcorders\",\"dishwashers\":\"Dishwashers\",\"televisions\":\"Televisions\",\"home-outdoors\":\"Home
+  \\u0026 Outdoors\",\"cars\":\"Cars\",\"laundry\":\"Laundry\",\"refrigerators\":\"Refrigerators\",\"robotvacuums\":\"Robot
+  Vacuums\",\"smarthome\":\"Smart Home\",\"vacuums\":\"Vacuums\"},\"search_suppress_scores\":[\"cars\",\"cruises\",\"wearables\"],\"search_excluded\":[\"cruises\",\"mobilecoverage\"],\"search_articles_only\":[\"cooking\",\"grills\",\"home-outdoors\",\"luxuryhome\",\"parenting\",\"reviewed\",\"smarthome\",\"tech\",\"deals\",\"wearables\"],\"hooper_url\":\"https://hooper.herokuapp.com\",\"niche_tracking_id\":null,\"suppress_rendering_xhr_includes\":false,\"page_action_ids\":\"articles.show\",\"retailer\":{},\"read_more\":true,\"gdpr\":false,\"cloudinary_account\":\"reviewed-com\",\"algolia_account\":\"M5OIGTW601\",\"algolia_key\":\"a98afffe5a350b389f931e5ed811c546\",\"article_id\":22464}\n\n//]]>\n</script>\n
+  \ <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta
+  content=\"pots, pans, cookware, knives, countertop appliance, toaster, cooking,
+  baking, ovens, stoves\" name=\"keywords\">\n  <meta name=\"surrogate-key\" value=\"1c6debce284fe9341eb2be355a893912f222a0c6
+  cooking/articles/show articles/show cooking\">\n      <meta name=\"item-image\"
+  content=\"https://reviewed-production.s3.amazonaws.com/1551381840182/sous-vide-lead.jpg\">\n
+  \   <meta name=\"article-classification\" content=\"how-to\">\n\n    <link rel=\"amphtml\"
+  href=\"https://www.reviewed.com/cooking/features/what-is-sous-vide-cooking.amp\">\n
+  \   <meta name=\"position\" content=\"leaderboard_1\" data-gad-target-unit=\"leaderboard_1\">\n
+  \   <meta name=\"position\" content=\"rectangle_1\" data-gad-target-unit=\"rectangle_1\">\n
+  \   <meta name=\"position\" content=\"rectangle_2\" data-gad-target-unit=\"rectangle_2\">\n
+  \   <meta name=\"position\" content=\"rectangle_3\" data-gad-target-unit=\"rectangle_3\">\n
+  \   <meta name=\"position\" content=\"rectangle_4\" data-gad-target-unit=\"rectangle_4\">\n
+  \   <meta name=\"position\" content=\"rectangle_5\" data-gad-target-unit=\"rectangle_5\">\n
+  \   <meta name=\"position\" content=\"rectangle_6\" data-gad-target-unit=\"rectangle_6\">\n
+  \ <meta property=\"fb:pages\" content=\"201996980631\">\n    <meta property=\"fb:app_id\"
+  content=\"354875974636581\">\n  <meta property=\"og:type\" content=\"article\">\n
+  \ <meta property=\"og:image\" content=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--kasG-6Qn--/b_white,c_fill,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_1200/https://reviewed-production.s3.amazonaws.com/1551381840182/sous-vide-lead.jpg\">\n
+  \ <meta property=\"og:title\" content=\"What exactly is sous vide cooking, anyway?\">\n
+  \ <meta property=\"og:url\" content=\"https://www.reviewed.com/cooking/features/what-is-sous-vide-cooking\">\n
+  \ <meta property=\"og:site_name\" content=\"Reviewed Cooking\">\n  <meta property=\"og:description\"
+  content=\"It's not as confusing as it sounds.\">\n\n    <meta name=\"twitter:card\"
+  content=\"summary_large_image\">\n  <meta name=\"twitter:site\" content=\"@reviewed\">\n
+  \ <meta name=\"twitter:creator\" content=\"@fitspiredtravlr\">\n  <meta name=\"twitter:title\"
+  content=\"What exactly is sous vide cooking, anyway?\">\n  <meta name=\"twitter:description\"
+  content=\"It's not as confusing as it sounds.\">\n  <meta name=\"twitter:image\"
+  content=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--kasG-6Qn--/b_white,c_fill,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_1200/https://reviewed-production.s3.amazonaws.com/1551381840182/sous-vide-lead.jpg\">\n\n
+  \ \n  <meta name=\"csrf-param\" content=\"authenticity_token\">\n<meta name=\"csrf-token\"
+  content=\"YKAtPrTxrrC14TFcLDsJF5oj1eO14kMawNYYbevkTG6DZlAYIvvMbt7oUzXJ9fE1geDnfAigMhQP4hyun9wNQA==\">\n
+  \ <meta content=\"how-to\" name=\"page_class\" data-gad-target=\"true\">\n<meta
+  content=\"default\" name=\"layout\" data-gad-target=\"true\">\n<meta content=\"brand_value\"
+  name=\"reviewed-brand\" data-gad-target=\"true\">\n<meta content=\"cok\" name=\"reviewed-website-id\"
+  data-gad-target=\"true\">\n<meta content=\"cooking\" name=\"reviewed-category\"
+  data-gad-target=\"true\">\n<meta content=\"false\" name=\"is_search\" data-gad-target=\"true\">\n<meta
+  content=\"NA\" name=\"prod_id\" data-gad-target=\"true\">\n<meta content=\"\" name=\"utm_source\"
+  data-gad-target=\"true\">\n<meta content=\"\" name=\"kuid\" data-gad-target=\"true\">\n<meta
+  content=\"\" name=\"search_cat\" data-gad-target=\"true\">\n\n  <meta content=\"Sous
+  vide cookers, also called immersion circulators, are a popular kitchen tool that
+  allow you to evenly cook a variety of food in water.\" name=\"description\">\n\n
+  \ <!-- GDPR: false -->\n\n  <link rel=\"stylesheet\" media=\"screen\" href=\"//fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,400,300,600,700\">\n
+  \ <link rel=\"stylesheet\" media=\"screen\" href=\"/assets/bootstrap-ed67c24086502cbda22beec45b62899d3f0ff20249d9779a5895d7c85ea8b2fe.css\">\n
+  \ <link rel=\"stylesheet\" media=\"screen\" href=\"//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css\">\n
+  \ <link rel=\"stylesheet\" media=\"screen\" href=\"/assets/vendored-58e0d24e733748b51018772e0358f57064bb2431836356934bd3c8ffb5fb76c2.css\">\n
+  \ <link rel=\"stylesheet\" media=\"screen\" href=\"/assets/application-efd8d4cba411e30ba2538245ceacb234f0672795982de7a2e2442f6fd2667dc8.css\">\n
+  \ \n\n  <link rel=\"stylesheet\" media=\"screen\" href=\"/assets/articles-6f7b3b0017e3081d0058da9bdb20c73c1d74bb9ffec3a5163d4610d53f0e4d04.css\">\n\n
+  \ <link rel=\"stylesheet\" media=\"screen\" href=\"/assets/categories/cooking/cooking-1fc316f7a6b5ed364470b7c8f5b94bddafceefaaf3560915fa7a2b5ef2239852.css\">\n
+  \ <link rel=\"stylesheet\" media=\"print\" href=\"/assets/article_print-5f63a8a0bb85c41bd710a644fbbe48c5d1a8892fa8080d1d847bf8e1f50f6982.css\">\n\n
+  \ <link rel=\"alternate\" type=\"application/atom+xml\" title=\"Reviewed Atom\"
+  href=\"/articles.atom\">\n  <link rel=\"alternate\" type=\"application/atom+xml\"
+  title=\"Reviewed Science Atom\" href=\"https://www.reviewed.com/science.atom\">\n
+  \ <link rel=\"canonical\" href=\"https://www.reviewed.com/cooking/features/what-is-sous-vide-cooking\">\n\n
+  \ <meta name=\"apple-mobile-web-app-title\" content=\"Reviewed\">\n\n  <link rel=\"shortcut
+  icon\" href=\"/assets/favicon-c4fa22787527d989c36d7c2c0b8a1cfae10144608a1acfb204c635bedcba70c8.ico\">\n<link
+  rel=\"apple-touch-icon\" href=\"/assets/mobile/touch-icon-iphone-c2e8288c6fffd3d599ef95ee24de4ed295aeb6cc7a42d5e413010484cb6326a6.png\">\n<link
+  rel=\"apple-touch-icon\" sizes=\"36x36\" href=\"/assets/mobile/launcher-icon-0-75x-e7d7a256e31854548df4945670f67dd9b5401f4575e8cd7c3a0b5b66148fedcd.png\">\n<link
+  rel=\"apple-touch-icon\" sizes=\"48x48\" href=\"/assets/mobile/launcher-icon-1x-650f5dfc2ef39c5982e1acc2cc2e6c4f267eb0b0cff28ad8b0cd39d50e66542b.png\">\n<link
+  rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"/assets/mobile/touch-icon-iphone-c2e8288c6fffd3d599ef95ee24de4ed295aeb6cc7a42d5e413010484cb6326a6.png\">\n<link
+  rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"/assets/mobile/launcher-icon-1-5x-c63ba5777b7c862e0758290fd3b68da4c2e78601eede06d428e5e013d8d0dcd0.png\">\n<link
+  rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"/assets/mobile/touch-icon-ipad-7b2c9580e68ac66b1b9a3950e05acdf2e1e18a873ee2a8a5dad976c4e3499bc9.png\">\n<link
+  rel=\"apple-touch-icon\" sizes=\"96x96\" href=\"/assets/mobile/launcher-icon-2x-86641af860e083b707dbc8205babada9db0f8ad7e97774c3a7945c764833c862.png\">\n<link
+  rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"/assets/mobile/touch-icon-iphone-retina-41130978c27af88429038dba656ea1f6a0826d0229cec72c6e1e7dcab0aab59d.png\">\n<link
+  rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"/assets/mobile/launcher-icon-3x-5cc96dc03a682666c34d4e1133c44e6c3a5641b2768a73b62039e2206d66f5c1.png\">\n<link
+  rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"/assets/mobile/touch-icon-ipad-retina-a202cddc6eac3195a4bc2e96ad0cedc01afc341ea53cbb9dafd9cfb9d8af59f7.png\">\n<link
+  rel=\"apple-touch-icon\" sizes=\"192x192\" href=\"/assets/mobile/launcher-icon-4x-598a7f44e8bd3684bce184c646355d05dbcf48ab5e825c893fa1f0404728bc39.png\">\n\n
+  \   <style></style><script type=\"application/ld+json\">\n  {\n    \"@context\":
+  \"https://schema.org\",\n    \"@type\": \"Article\",\n    \"mainEntityOfPage\":
+  {\n      \"@type\": \"WebPage\",\n      \"@id\": \"https://www.reviewed.com/cooking/features/what-is-sous-vide-cooking\"\n
+  \   },\n    \"headline\": \"What exactly is sous vide cooking, anyway?\",\n    \"image\":
+  [\"https://reviewed-com-res.cloudinary.com/image/fetch/s--tCtHiXa6--/b_white,c_fill,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_1200,q_auto,w_1200/https://reviewed-production.s3.amazonaws.com/1551381840182/sous-vide-lead.jpg\",\"https://reviewed-com-res.cloudinary.com/image/fetch/s--R4KsOZkL--/b_white,c_fill,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_900,q_auto,w_1200/https://reviewed-production.s3.amazonaws.com/1551381840182/sous-vide-lead.jpg\",\"https://reviewed-com-res.cloudinary.com/image/fetch/s--Q7AQw0jt--/b_white,c_fill,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_675,q_auto,w_1200/https://reviewed-production.s3.amazonaws.com/1551381840182/sous-vide-lead.jpg\"],\n
+  \   \"datePublished\": \"2019-03-04T22:14:21Z\",\n    \"dateModified\": \"2019-03-04T22:14:22Z\",\n
+  \   \"author\": [{\"@type\":\"Person\",\"name\":\"Rachael Priore\"}],\n    \"publisher\":
+  {\n      \"@type\": \"Organization\",\n      \"name\": \"Reviewed\",\n      \"logo\":
+  {\n        \"@type\": \"ImageObject\",\n        \"url\": \"http://www.reviewed.com/assets/logo-7f6a6351bd2870aac4df12431be42412b02dc71d9c9aec4460ae81a6081454de.png\"\n
+  \     }\n    },\n    \"description\": \"Sous vide cookers, also called immersion
+  circulators, are a popular kitchen tool that allow you to evenly cook a variety
+  of food in water.\"\n  }\n</script>\n\n\n  <script src=\"/assets/head-67203d1373768bdd632ef5eb9aff1affd128e0704c3d4ffca347c08a64e8dfb4.js\"></script>\n\n
+  \ \n\n  <script src=\"/assets/lazysizes.min-7da81a8a9f2a74cb07f1870f4acbe14dcd80eab67158b7955a74351942dcaa19.js\"></script>\n
+  \ \n    <!-- Global site tag (gtag.js) - Google Ads: 1072466190 -->\n<script async=\"\"
+  src=\"https://www.googletagmanager.com/gtag/js?id=AW-1072466190\"></script>\n<script>
+  window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date()); gtag('config', 'AW-1072466190'); </script>\n\n<!-- Event
+  snippet for Affiliate Clicks conversion page In your html page, add the snippet
+  and call gtag_report_conversion when someone clicks on the chosen link or button.
+  -->\n<script>\n  function gtag_report_conversion(url) {\n    if (typeof(url) !=
+  'undefined') {\n      window.open(url);\n    }\n    gtag('event', 'conversion',
+  {\n      'send_to': 'AW-1072466190/1HZMCJDY64kBEI6Ssv8D'\n    });\n    return false;\n
+  \ }\n</script>\n\n\n  \n<script type=\"text/javascript\" async=\"\" src=\"//rvw.disqus.com/count.js\"></script><script
+  type=\"text/javascript\" async=\"\" src=\"//rvw.disqus.com/embed.js\"></script><style
+  type=\"text/css\"> span.PIN_1552922146176_embed_grid { \n  width: 100%;\n  max-width:
+  257px;\n  min-width: 140px;\n  display: inline-block;\n  box-shadow: inset 0 0 1px
+  #000;\n  border-radius: 5px;\n  overflow: hidden;\n  font: 12px \"Helvetica Neue\",
+  Helvetica, arial, sans-serif;\n  color: rgb(54, 54, 54);\n  box-sizing: border-box;\n
+  \ background: #fff;\n  cursor: pointer;\n  -webkit-font-smoothing: antialiased;\n}\n
+  span.PIN_1552922146176_embed_grid * { \n  display: block;\n  position: relative;\n
+  \ font: inherit;\n  cursor: inherit;\n  color: inherit;\n  box-sizing: inherit;\n
+  \ margin: 0;\n  padding: 0;\n  text-align: left;\n}\n span.PIN_1552922146176_embed_grid
+  .PIN_1552922146176_hd { \n  height: 55px;\n}\n span.PIN_1552922146176_embed_grid
+  .PIN_1552922146176_hd .PIN_1552922146176_img { \n  position: absolute;\n  top: 10px;\n
+  \ left: 10px;\n  height: 36px;\n  width: 36px;\n  border-radius: 18px;\n  background:
+  transparent url () 0 0 no-repeat;\n  background-size: cover;\n}\n span.PIN_1552922146176_embed_grid
+  .PIN_1552922146176_hd .PIN_1552922146176_pinner { \n  white-space: nowrap;\n  overflow:
+  hidden;\n  text-overflow: ellipsis;\n  width: 75%;\n  position: absolute;\n  top:
+  20px;\n  left: 56px;\n  font-size: 14px;\n  font-weight: bold;\n}\n span.PIN_1552922146176_embed_grid
+  .PIN_1552922146176_bd { \n  padding: 0 10px;\n  -moz-scrollbars: none;\n  -ms-overflow-style:
+  none;\n  overflow-x: hidden;\n  overflow-y: auto;\n}\n span.PIN_1552922146176_embed_grid
+  .PIN_1552922146176_bd .PIN_1552922146176_ct { \n  width: 100%;\n  height: auto;\n}\n
+  span.PIN_1552922146176_embed_grid .PIN_1552922146176_bd .PIN_1552922146176_ct .PIN_1552922146176_col
+  { \n  display: inline-block;\n  width: 100%;\n  padding: 1px;\n  vertical-align:
+  top;\n  min-width: 60px;\n}\n span.PIN_1552922146176_embed_grid .PIN_1552922146176_bd
+  .PIN_1552922146176_ct .PIN_1552922146176_col .PIN_1552922146176_img { \n  margin:
+  0;\n  display: inline-block;\n  width: 100%;\n  background: transparent url() 0
+  0 no-repeat;\n  background-size: cover;\n  box-shadow: inset 0 0 1px #000;\n  border-radius:
+  2px;\n}\n span.PIN_1552922146176_embed_grid .PIN_1552922146176_ft { \n  padding:
+  11px;\n}\n span.PIN_1552922146176_embed_grid .PIN_1552922146176_ft .PIN_1552922146176_button
+  { \n  border-radius: 3px;\n  text-align: center;\n  box-shadow: inset 0 0 1px #888;\n
+  \ background-color: #efefef;\n  position: relative;\n  display: block;\n  overflow:
+  hidden;\n  height: 33px;\n  width: 100%;\n  min-width: 70px;\n  padding: 0 3px;\n}\n
+  span.PIN_1552922146176_embed_grid .PIN_1552922146176_ft .PIN_1552922146176_button
+  .PIN_1552922146176_label { \n  position: absolute;\n  left: 0;\n  width: 100%;\n
+  \ text-align: center;\n}\n span.PIN_1552922146176_embed_grid .PIN_1552922146176_ft
+  .PIN_1552922146176_button .PIN_1552922146176_label.PIN_1552922146176_top { \n  top:
+  0;\n}\n span.PIN_1552922146176_embed_grid .PIN_1552922146176_ft .PIN_1552922146176_button
+  .PIN_1552922146176_label.PIN_1552922146176_bottom { \n  bottom: 0;\n}\n span.PIN_1552922146176_embed_grid
+  .PIN_1552922146176_ft .PIN_1552922146176_button .PIN_1552922146176_label .PIN_1552922146176_string
+  { \n  white-space: pre;\n  color: #746d6a;\n  font-size: 13px;\n  font-weight: bold;\n
+  \ vertical-align: top;\n  display: inline-block;\n  height: 33px;\n  line-height:
+  33px;\n}\n span.PIN_1552922146176_embed_grid .PIN_1552922146176_ft .PIN_1552922146176_button
+  .PIN_1552922146176_label .PIN_1552922146176_logo { \n  display: inline-block;\n
+  \ vertical-align: bottom;\n  height: 32px;\n  width: 80px;\n  background: transparent
+  url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTJweCIgd2lkdGg9IjUwcHgiIHZpZXdCb3g9IjAgMCA1MCAxMiI+PGc+PHBhdGggZD0iTTE5LjY5LDkuMjggTDE5LjY5LDQuMjggTDIxLjI3LDQuMjggTDIxLjI3LDkuMjggTDE5LjY5LDkuMjggWiBNNS45NywwLjAwIEM5LjI3LDAuMDAgMTEuOTUsMi42OSAxMS45NSw2LjAwIEMxMS45NSw5LjMxIDkuMjcsMTIuMDAgNS45NywxMi4wMCBDNS4zOCwxMi4wMCA0LjgwLDExLjkxIDQuMjYsMTEuNzUgQzQuMjYsMTEuNzUgNC4yNiwxMS43NSA0LjI2LDExLjc1IEM0LjI1LDExLjc1IDQuMjQsMTEuNzQgNC4yMywxMS43NCBMNC4yMSwxMS43MyBDNC4yMSwxMS43MyA0LjIxLDExLjczIDQuMjEsMTEuNzMgQzQuNDUsMTEuMzMgNC44MSwxMC42OCA0Ljk1LDEwLjE2IEM1LjAyLDkuODggNS4zMiw4LjczIDUuMzIsOC43MyBDNS41Miw5LjExIDYuMDgsOS40MiA2LjY5LDkuNDIgQzguNDksOS40MiA5Ljc5LDcuNzYgOS43OSw1LjY5IEM5Ljc5LDMuNzEgOC4xOCwyLjIzIDYuMTEsMi4yMyBDMy41MywyLjIzIDIuMTYsMy45NiAyLjE2LDUuODYgQzIuMTYsNi43NCAyLjYzLDcuODMgMy4zNyw4LjE4IEMzLjQ5LDguMjMgMy41NSw4LjIxIDMuNTcsOC4xMCBDMy41OSw4LjAyIDMuNjksNy42MSAzLjc0LDcuNDIgQzMuNzUsNy4zNiAzLjc1LDcuMzEgMy43MCw3LjI1IEMzLjQ1LDYuOTUgMy4yNSw2LjM5IDMuMjUsNS44OCBDMy4yNSw0LjU1IDQuMjUsMy4yNyA1Ljk1LDMuMjcgQzcuNDIsMy4yNyA4LjQ1LDQuMjggOC40NSw1LjcxIEM4LjQ1LDcuMzQgNy42Myw4LjQ2IDYuNTcsOC40NiBDNS45OCw4LjQ2IDUuNTQsNy45OCA1LjY4LDcuMzggQzUuODUsNi42NyA2LjE4LDUuOTAgNi4xOCw1LjM4IEM2LjE4LDQuOTIgNS45Myw0LjU0IDUuNDIsNC41NCBDNC44Miw0LjU0IDQuMzQsNS4xNiA0LjM0LDUuOTkgQzQuMzQsNi41MiA0LjUyLDYuODggNC41Miw2Ljg4IEM0LjUyLDYuODggMy45Myw5LjQwIDMuODIsOS44NyBDMy43MCwxMC4zOCAzLjc1LDExLjExIDMuODAsMTEuNTkgTDMuODAsMTEuNTkgQzMuNzksMTEuNTkgMy43OCwxMS41OCAzLjc4LDExLjU4IEMzLjc3LDExLjU4IDMuNzYsMTEuNTggMy43NiwxMS41NyBDMy43NiwxMS41NyAzLjc2LDExLjU3IDMuNzYsMTEuNTcgQzEuNTYsMTAuNjkgMC4wMCw4LjUzIDAuMDAsNi4wMCBDMC4wMCwyLjY5IDIuNjcsMC4wMCA1Ljk3LDAuMDAgWiBNMTYuODcsMi4zMSBDMTcuNzEsMi4zMSAxOC4zNCwyLjU0IDE4Ljc2LDIuOTUgQzE5LjIxLDMuMzcgMTkuNDYsMy45NiAxOS40Niw0LjY2IEMxOS40Niw2LjAwIDE4LjU0LDYuOTUgMTcuMTEsNi45NSBMMTUuNzIsNi45NSBMMTUuNzIsOS4yOCBMMTQuMTIsOS4yOCBMMTQuMTIsMi4zMSBMMTYuODcsMi4zMSBaIE0xNi45NCw1LjU4IEMxNy41Niw1LjU4IDE3LjkxLDUuMjEgMTcuOTEsNC42NSBDMTcuOTEsNC4xMCAxNy41NSwzLjc2IDE2Ljk0LDMuNzYgTDE1LjcyLDMuNzYgTDE1LjcyLDUuNTggTDE2Ljk0LDUuNTggWiBNNTAuMDAsNS4yOCBMNDkuMTksNS4yOCBMNDkuMTksNy42MiBDNDkuMTksOC4wMSA0OS40MCw4LjExIDQ5Ljc0LDguMTEgQzQ5LjgzLDguMTEgNDkuOTMsOC4xMCA1MC4wMCw4LjEwIEw1MC4wMCw5LjI4IEM0OS44NCw5LjMxIDQ5LjU4LDkuMzMgNDkuMjIsOS4zMyBDNDguMzAsOS4zMyA0Ny42NCw5LjAzIDQ3LjY0LDcuOTYgTDQ3LjY0LDUuMjggTDQ3LjE2LDUuMjggTDQ3LjE2LDQuMjggTDQ3LjY0LDQuMjggTDQ3LjY0LDIuNzAgTDQ5LjE5LDIuNzAgTDQ5LjE5LDQuMjggTDUwLjAwLDQuMjggTDUwLjAwLDUuMjggWiBNNDUuMzEsNi4xMyBDNDYuMTgsNi4yNyA0Ny4yMSw2LjUwIDQ3LjIxLDcuNzcgQzQ3LjIxLDguODcgNDYuMjUsOS40MyA0NC45NSw5LjQzIEM0My41NSw5LjQzIDQyLjY1LDguODEgNDIuNTQsNy43OCBMNDQuMDUsNy43OCBDNDQuMTUsOC4yMCA0NC40Niw4LjQwIDQ0Ljk0LDguNDAgQzQ1LjQyLDguNDAgNDUuNzIsOC4yMiA0NS43Miw3LjkwIEM0NS43Miw3LjQ1IDQ1LjEyLDcuNDAgNDQuNDYsNy4yOSBDNDMuNTksNy4xNCA0Mi42Nyw2LjkxIDQyLjY3LDUuNzQgQzQyLjY3LDQuNjggNDMuNjQsNC4xNCA0NC44Miw0LjE0IEM0Ni4yMiw0LjE0IDQ2Ljk4LDQuNzUgNDcuMDYsNS43NCBMNDUuNjAsNS43NCBDNDUuNTQsNS4yOSA0NS4yNCw1LjE1IDQ0LjgwLDUuMTUgQzQ0LjQyLDUuMTUgNDQuMTIsNS4zMCA0NC4xMiw1LjYxIEM0NC4xMiw1Ljk2IDQ0LjY4LDYuMDEgNDUuMzEsNi4xMyBaIE0yMC40OCwyLjAwIEMyMS4wMCwyLjAwIDIxLjQzLDIuNDIgMjEuNDMsMi45NSBDMjEuNDMsMy40OCAyMS4wMCwzLjkwIDIwLjQ4LDMuOTAgQzE5Ljk1LDMuOTAgMTkuNTMsMy40OCAxOS41MywyLjk1IEMxOS41MywyLjQyIDE5Ljk1LDIuMDAgMjAuNDgsMi4wMCBaIE0yOC40OCw3LjYyIEMyOC40OCw4LjAxIDI4LjcwLDguMTEgMjkuMDQsOC4xMSBDMjkuMTAsOC4xMSAyOS4xOCw4LjEwIDI5LjI0LDguMTAgTDI5LjI0LDkuMjkgQzI5LjA4LDkuMzEgMjguODMsOS4zMyAyOC41Miw5LjMzIEMyNy42MCw5LjMzIDI2Ljk0LDkuMDMgMjYuOTQsNy45NiBMMjYuOTQsNS4yOCBMMjYuNDIsNS4yOCBMMjYuNDIsNC4yOCBMMjYuOTQsNC4yOCBMMjYuOTQsMi43MCBMMjguNDgsMi43MCBMMjguNDgsNC4yOCBMMjkuMjQsNC4yOCBMMjkuMjQsNS4yOCBMMjguNDgsNS4yOCBMMjguNDgsNy42MiBaIE0yNC42OSw0LjE0IEMyNS43Nyw0LjE0IDI2LjQxLDQuOTIgMjYuNDEsNi4wMyBMMjYuNDEsOS4yOCBMMjQuODMsOS4yOCBMMjQuODMsNi4zNSBDMjQuODMsNS44MiAyNC41Nyw1LjQ2IDI0LjA1LDUuNDYgQzIzLjUzLDUuNDYgMjMuMTgsNS45MCAyMy4xOCw2LjUyIEwyMy4xOCw5LjI4IEwyMS42MCw5LjI4IEwyMS42MCw0LjI4IEwyMy4xMiw0LjI4IEwyMy4xMiw0Ljk3IEwyMy4xNSw0Ljk3IEMyMy41Miw0LjQzIDI0LjAwLDQuMTQgMjQuNjksNC4xNCBaIE0zMy40Miw0Ljc2IEMzMi45OSw0LjM3IDMyLjQzLDQuMTQgMzEuNzIsNC4xNCBDMzAuMjAsNC4xNCAyOS4xNiw1LjI4IDI5LjE2LDYuNzcgQzI5LjE2LDguMjggMzAuMTcsOS40MiAzMS44MSw5LjQyIEMzMi40NCw5LjQyIDMyLjk1LDkuMjYgMzMuMzcsOC45NiBDMzMuODAsOC42NiAzNC4xMCw4LjIzIDM0LjIwLDcuNzggTDMyLjY2LDcuNzggQzMyLjUyLDguMTAgMzIuMjUsOC4yOCAzMS44Myw4LjI4IEMzMS4xOCw4LjI4IDMwLjgxLDcuODYgMzAuNzIsNy4xOSBMMzQuMjksNy4xOSBDMzQuMzAsNi4xOCAzNC4wMSw1LjMxIDMzLjQyLDQuNzYgTDMzLjQyLDQuNzYgWiBNNDEuNjYsNC43NiBDNDIuMjYsNS4zMSA0Mi41NSw2LjE4IDQyLjU0LDcuMTkgTDM4Ljk3LDcuMTkgQzM5LjA2LDcuODYgMzkuNDMsOC4yOCA0MC4wOCw4LjI4IEM0MC41MCw4LjI4IDQwLjc3LDguMTAgNDAuOTEsNy43OCBMNDIuNDUsNy43OCBDNDIuMzQsOC4yMyA0Mi4wNSw4LjY2IDQxLjYyLDguOTYgQzQxLjIwLDkuMjYgNDAuNjksOS40MiA0MC4wNiw5LjQyIEMzOC40Miw5LjQyIDM3LjQxLDguMjggMzcuNDEsNi43NyBDMzcuNDEsNS4yOCAzOC40NSw0LjE0IDM5Ljk3LDQuMTQgQzQwLjY3LDQuMTQgNDEuMjQsNC4zNyA0MS42Niw0Ljc2IFogTTMwLjczLDYuMjQgQzMwLjgzLDUuNjUgMzEuMTQsNS4yNyAzMS43NSw1LjI3IEMzMi4yNiw1LjI3IDMyLjYzLDUuNjUgMzIuNjksNi4yNCBMMzAuNzMsNi4yNCBaIE0zOC45OCw2LjI0IEw0MC45NCw2LjI0IEM0MC44OCw1LjY1IDQwLjUxLDUuMjcgNDAuMDAsNS4yNyBDMzkuMzksNS4yNyAzOS4wOCw1LjY1IDM4Ljk4LDYuMjQgWiBNMzcuNTQsNC4yMSBMMzcuNTQsNS42MCBDMzYuNjQsNS41MSAzNi4wNyw1Ljk5IDM2LjA3LDcuMDMgTDM2LjA3LDkuMjggTDM0LjQ4LDkuMjggTDM0LjQ4LDQuMjggTDM2LjAwLDQuMjggTDM2LjAwLDUuMDYgTDM2LjAzLDUuMDYgQzM2LjM4LDQuNDcgMzYuNzgsNC4yMSAzNy4zOSw0LjIxIEMzNy40NSw0LjIxIDM3LjUwLDQuMjEgMzcuNTQsNC4yMSBaIiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==)
+  50% 50% no-repeat;\n  background-size: contain;\n}\n span.PIN_1552922146176_embed_grid
+  .PIN_1552922146176_ft .PIN_1552922146176_button:hover { \n  box-shadow: inset 0
+  0 1px #000;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_noscroll .PIN_1552922146176_bd
+  { \n  overflow: hidden;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_board
+  .PIN_1552922146176_hd .PIN_1552922146176_pinner { \n  top: 10px;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_board
+  .PIN_1552922146176_hd .PIN_1552922146176_board { \n  white-space: nowrap;\n  overflow:
+  hidden;\n  text-overflow: ellipsis;\n  width: 75%;\n  position: absolute;\n  bottom:
+  10px;\n  left: 56px;\n  color: #363636;\n  font-size: 12px;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c2
+  { \n  max-width: 494px;\n  min-width: 140px;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c2
+  .PIN_1552922146176_bd .PIN_1552922146176_ct .PIN_1552922146176_col { \n  width:
+  50%;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c3 { \n  max-width:
+  731px;\n  min-width: 200px;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c3
+  .PIN_1552922146176_bd .PIN_1552922146176_ct .PIN_1552922146176_col { \n  width:
+  33.33%;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c4 { \n  max-width:
+  968px;\n  min-width: 260px;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c4
+  .PIN_1552922146176_bd .PIN_1552922146176_ct .PIN_1552922146176_col { \n  width:
+  25%;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c5 { \n  max-width:
+  1205px;\n  min-width: 320px;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c5
+  .PIN_1552922146176_bd .PIN_1552922146176_ct .PIN_1552922146176_col { \n  width:
+  20%;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c6 { \n  max-width:
+  1442px;\n  min-width: 380px;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c6
+  .PIN_1552922146176_bd .PIN_1552922146176_ct .PIN_1552922146176_col { \n  width:
+  16.66%;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c7 { \n  max-width:
+  1679px;\n  min-width: 440px;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c7
+  .PIN_1552922146176_bd .PIN_1552922146176_ct .PIN_1552922146176_col { \n  width:
+  14.28%;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c8 { \n  max-width:
+  1916px;\n  min-width: 500px;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c8
+  .PIN_1552922146176_bd .PIN_1552922146176_ct .PIN_1552922146176_col { \n  width:
+  12.5%;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c9 { \n  max-width:
+  2153px;\n  min-width: 560px;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c9
+  .PIN_1552922146176_bd .PIN_1552922146176_ct .PIN_1552922146176_col { \n  width:
+  11.11%;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c10 { \n  max-width:
+  2390px;\n  min-width: 620px;\n}\n span.PIN_1552922146176_embed_grid.PIN_1552922146176_c10
+  .PIN_1552922146176_bd .PIN_1552922146176_ct .PIN_1552922146176_col { \n  width:
+  10%;\n}\n span.PIN_1552922146176_embed_pin { \n  width: 100%;\n  min-width: 160px;\n
+  \ max-width: 236px;\n  display: inline-block;\n  box-sizing: border-box;\n  box-shadow:
+  inset 0 0 1px #000;\n  border-radius: 5px;\n  overflow: hidden;\n  font: 12px \"Helvetica
+  Neue\", Helvetica, arial, sans-serif;\n  color: #363636;\n  background: #fff;\n
+  \ cursor: pointer;\n  -webkit-font-smoothing: antialiased;\n}\n span.PIN_1552922146176_embed_pin
+  * { \n  display: block;\n  position: relative;\n  font: inherit;\n  cursor: inherit;\n
+  \ color: inherit;\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0;\n  text-align:
+  left;\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd { \n  border-bottom:
+  1px solid rgba(0, 0, 0, 0.09);\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd
+  .PIN_1552922146176_hd { \n  border-bottom: 1px solid rgba(0, 0, 0, 0.09);\n}\n span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_bd .PIN_1552922146176_hd .PIN_1552922146176_container { \n  width:
+  100%;\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd .PIN_1552922146176_hd
+  .PIN_1552922146176_container .PIN_1552922146176_img,  span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_bd .PIN_1552922146176_hd .PIN_1552922146176_container .PIN_1552922146176_iframe,
+  \ span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd .PIN_1552922146176_hd .PIN_1552922146176_container
+  .PIN_1552922146176_video { \n  width: 100%;\n  height: 100%;\n  position: absolute;\n
+  \ left: 0;\n  background: transparent url() 0 0 no-repeat;\n  background-size: cover;\n
+  \ border: none;\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd .PIN_1552922146176_hd
+  .PIN_1552922146176_container .PIN_1552922146176_native { \n  height: 64px;\n  width:
+  64px;\n  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNjNweCIgd2lkdGg9IjYzcHgiIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGc+PHBhdGggZD0iTSAzMiAzMiBtIC0zMiwgMCBhIDMxLCAzMSAwIDEsIDAgNjMsIDAgYSAzMSwgMzEgMCAxLDAgLTYzLCAwIHoiIGZpbGw9IiMwMDAiPjwvcGF0aD48cGF0aCBkPSJNIDI1IDE5IEwgNDggMzIgIEwgMjUgNDUgWiIgZmlsbD0iI2ZmZiI+PC9wYXRoPjwvZz48L3N2Zz4=)
+  0 0 no-repeat;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  margin-top:
+  -32px;\n  margin-left: -32px;\n  opacity: .75;\n}\n span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_bd .PIN_1552922146176_hd .PIN_1552922146176_container .PIN_1552922146176_control
+  { \n  width: 50px;\n  height: 24px;\n  position: absolute;\n  bottom: 12px;\n  left:
+  12px;\n  background: rgba(0, 0, 0, .4);\n  color: #fff;\n  box-shadow: 0 0 2px rgba(0,
+  0, 0, .2);\n  border: 2px solid rgba(255, 255, 255, .68);\n  border-radius: 13px;\n}\n
+  span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd .PIN_1552922146176_hd .PIN_1552922146176_container
+  .PIN_1552922146176_control.PIN_1552922146176_paused::after,  span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_bd .PIN_1552922146176_hd .PIN_1552922146176_container .PIN_1552922146176_control.PIN_1552922146176_playing::after
+  { \n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n
+  \ font-size: 10px;\n  line-height: 19px;\n  white-space: pre;\n  font-weight: bold;\n
+  \ font-style: normal;\n  text-align: center;\n}\n span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_bd .PIN_1552922146176_hd .PIN_1552922146176_container .PIN_1552922146176_control.PIN_1552922146176_paused::after
+  { \n  content: \"▶ GIF\";\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd
+  .PIN_1552922146176_hd .PIN_1552922146176_container .PIN_1552922146176_control.PIN_1552922146176_playing::after
+  { \n  content: \"❙ ❙ GIF\";\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd
+  .PIN_1552922146176_hd .PIN_1552922146176_repin { \n  position: absolute;\n  top:
+  10px;\n  left: 10px;\n  height: 28px;\n  width: auto;\n  color: #fff;\n  background:
+  #e60023 url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==)
+  5px 50% no-repeat;\n  background-size: 18px 18px;\n  text-indent: 28px;\n  font:
+  14px/28px \"Helvetica Neue\", Helvetica, Arial, \"sans-serif\";\n  font-weight:
+  bold;\n  border-radius: 4px;\n  padding: 0 6px 0 0;\n}\n span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_bd .PIN_1552922146176_hd .PIN_1552922146176_repin:hover { \n
+  \ background-color: #e60023;\n  box-shadow: none;\n}\n span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_bd .PIN_1552922146176_source { \n  height: 38px;\n  border-bottom:
+  1px solid rgba(0, 0, 0, 0.09);\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd
+  .PIN_1552922146176_source .PIN_1552922146176_img { \n  position: absolute;\n  top:
+  50%;\n  margin-top: -8px;\n  left: 10px;\n  height: 16px;\n  width: 16px;\n  background:
+  transparent url() 0 0 no-repeat;\n  background-size: 16px 16px;\n}\n span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_bd .PIN_1552922146176_source .PIN_1552922146176_domain { \n  line-height:
+  38px;\n  max-width: 75%;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow:
+  ellipsis;\n  font-weight: bold;\n  color: #b9b9b9;\n  position: absolute;\n  top:
+  0px;\n  left: 35px;\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd
+  .PIN_1552922146176_source.PIN_1552922146176_nofav .PIN_1552922146176_img { \n  display:
+  none;\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd .PIN_1552922146176_source.PIN_1552922146176_nofav
+  .PIN_1552922146176_domain { \n  max-width: 85%;\n  left: 10px;\n}\n span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_bd .PIN_1552922146176_source .PIN_1552922146176_menu { \n  height:
+  inherit;\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd .PIN_1552922146176_source
+  .PIN_1552922146176_menu .PIN_1552922146176_toggle { \n  position: absolute;\n  top:
+  0;\n  right: 5px;\n  height: inherit;\n  width: 30px;\n  border-bottom: 1px solid
+  rgba(0, 0, 0, 0.09);\n  background: #fff url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNXB4IiB3aWR0aD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDUiPjxnPjxwYXRoIGQ9Ik0xNy41LDUgQzE4Ljg4MSw1IDIwLDMuODgxIDIwLDIuNSBDMjAsMS4xMTkgMTguODgxLDAgMTcuNSwwIEMxNi4xMTksMCAxNSwxLjExOSAxNSwyLjUgQzE1LDMuODgxIDE2LjExOSw1IDE3LjUsNSBaIE0xMCw1IEMxMS4zOCw1IDEyLjUsMy44ODEgMTIuNSwyLjUgQzEyLjUsMS4xMTkgMTEuMzgsMCAxMCwwIEM4LjYyLDAgNy41LDEuMTE5IDcuNSwyLjUgQzcuNSwzLjg4MSA4LjYyLDUgMTAsNSBNMi41LDUgQzMuODgxLDUgNSwzLjg4MSA1LDIuNSBDNSwxLjExOSAzLjg4MSwwIDIuNSwwIEMxLjEyLDAgMCwxLjExOSAwLDIuNSBDMCwzLjg4MSAxLjEyIDUsMi41LDUgWiIgZmlsbD0iI2I1YjViNSI+PC9wYXRoPjwvZz48L3N2Zz4=)
+  50% 50% no-repeat;\n  background-size: fill;\n}\n span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_bd .PIN_1552922146176_source .PIN_1552922146176_menu .PIN_1552922146176_dropdown
+  { \n  display: none;\n  border-radius: 5px;\n  box-shadow: 0 1px 3px rgba(0, 0,
+  0, .33);\n  font-weight: bold;\n  font-size: 12px;\n  background: #fff;\n  text-align:
+  left;\n  padding: 10px;\n  position: absolute;\n  max-width: 195px;\n  right: 10px;\n
+  \ top: 39px;\n  z-index: 1;\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd
+  .PIN_1552922146176_source .PIN_1552922146176_menu .PIN_1552922146176_dropdown::after
+  { \n  content: \"\";\n  position: absolute;\n  top: -6px;\n  right: 1px;\n  border-bottom:
+  8px solid #fff;\n  border-right: 8px solid transparent;\n  border-left: 8px solid
+  transparent;\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd .PIN_1552922146176_source
+  .PIN_1552922146176_menu .PIN_1552922146176_dropdown::before { \n  content: \"\";\n
+  \ position: absolute;\n  top: -7px;\n  right: 2px;\n  border-bottom: 7px solid #e2e2e2;\n
+  \ border-right: 7px solid transparent;\n  border-left: 7px solid transparent;\n}\n
+  span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd .PIN_1552922146176_description
+  { \n  font-size: 14px;\n  line-height: 17px;\n  margin: 8px 12px;\n}\n span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_bd .PIN_1552922146176_attribution { \n  height: 22px;\n  margin-top:
+  5px;\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd .PIN_1552922146176_attribution
+  .PIN_1552922146176_img { \n  position: absolute;\n  top: 50%;\n  margin-top: -8px;\n
+  \ left: 10px;\n  height: 16px;\n  width: 16px;\n  background: transparent url()
+  0 0 no-repeat;\n  background-size: 16px 16px;\n}\n span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_bd .PIN_1552922146176_attribution .PIN_1552922146176_by { \n
+  \ line-height: 22px;\n  max-width: 75%;\n  white-space: nowrap;\n  overflow: hidden;\n
+  \ text-overflow: ellipsis;\n  font-size: 11px;\n  font-weight: bold;\n  color: #b9b9b9;\n
+  \ position: absolute;\n  top: 0px;\n  left: 35px;\n}\n span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_bd .PIN_1552922146176_stats { \n  height: 24px;\n  line-height:
+  24px;\n  margin: 0 0 0 10px;\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd
+  .PIN_1552922146176_stats .PIN_1552922146176_repins { \n  padding-left: 17px;\n  padding-right:
+  10px;\n  color: #a8a8a8;\n  font-size: 11px;\n  font-weight: bold;\n  display: inline-block;\n
+  \ background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTRweCIgd2lkdGg9IjE0cHgiIHZpZXdCb3g9IjAgMCAxNCAxNCI+PGc+PHBhdGggZD0iTTExLjk3OSw2Ljg1OSBMMTMuOTksNS4wMTEgTDExLjI0MSw1LjAxMSBMMTAuNDg2LDAgTDkuNzM5LDUuMDExIEw3LDUuMDExIEw4Ljk4Niw2Ljg1OCBMOC45ODYsMTEuMDE3IEM4LjUwNSwxMC45ODUgOC4xNDMsMTEuMDEyIDguMTQzLDExLjIxMyBDOC4xNDMsMTEuNjg3IDguNTAzLDEyLjAwMSA4Ljk4NiwxMi4wMDEgTDExLjk4MiwxMiBDMTIuNDY1LDEyIDEyLjg4OCwxMS42ODYgMTIuODg4LDExLjIxMyBDMTIuODg4LDExLjAxMSAxMi40NjUsMTAuOTg1IDExLjk4MiwxMS4wMTcgTDExLjk3OSw2Ljg1OSBaIE00Ljk3OSw3LjE0MiBMNi45OSw4Ljk5IEw0LjI0MSw4Ljk5IEwzLjQ4NiwxNC4wMDEgTDIuNzM5LDguOTkgTDAsOC45OSBMMS45ODYsNy4xNDMgTDEuOTg2LDIuOTg0IEMxLjUwNSwzLjAxNiAxLjE0MywyLjk4OSAxLjE0MywyLjc4OCBDMS4xNDMsMi4zMTUgMS41MDMsMiAxLjk4NiwyIEw0Ljk4MiwyLjAwMSBDNS40NjUsMi4wMDEgNS44ODgsMi4zMTUgNS44ODgsMi43ODkgQzUuODg4LDIuOTkgNS40NjUsMy4wMTcgNC45ODIsMi45ODQgTDQuOTc5LDcuMTQyIFoiIGZpbGw9IiNiNWI1YjUiPjwvcGF0aD48L2c+PC9zdmc+)
+  0 50% no-repeat;\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_bd .PIN_1552922146176_stats
+  .PIN_1552922146176_done { \n  padding-left: 15px;\n  padding-right: 10px;\n  color:
+  #a8a8a8;\n  font-size: 11px;\n  font-weight: bold;\n  display: inline-block;\n  background:
+  transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTJweCIgd2lkdGg9IjEycHgiIHZpZXdCb3g9IjAgMCAxMiAxMiI+PGc+PHBhdGggZD0iTTAsNiBMMiw0IEw1LDcgTDEwLDEgTDEyLDMgTDUsMTEgWiIgZmlsbD0iI2I1YjViNSI+PC9wYXRoPjwvZz48L3N2Zz4=)
+  0 50% no-repeat;\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_ft { \n
+  \ height: 50px;\n  margin-right: 10px;\n  overflow: hidden;\n}\n span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_ft:after { \n  content: '-------------------------------------------------------------------------------------';\n
+  \ display: block;\n  height: 1px;\n  line-height: 1px;\n  color: #fff;\n}\n span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_ft .PIN_1552922146176_img { \n  position: absolute;\n  left:
+  10px;\n  top: 10px;\n  height: 30px;\n  width: 30px;\n  border-radius: 30px;\n  background:
+  transparent url() 0 0 no-repeat;\n  background-size: 30px 30px;\n}\n span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_ft .PIN_1552922146176_pinner,  span.PIN_1552922146176_embed_pin
+  .PIN_1552922146176_ft  .PIN_1552922146176_board { \n  position: absolute;\n  left:
+  50px;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n
+  \ width: 75%;\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_ft .PIN_1552922146176_pinner
+  { \n  font-weight: bold;\n  top: 10px;\n}\n span.PIN_1552922146176_embed_pin .PIN_1552922146176_ft
+  .PIN_1552922146176_board { \n  bottom: 10px;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_ja
+  .PIN_1552922146176_bd .PIN_1552922146176_hd .PIN_1552922146176_repin { \n  background-image:
+  url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQxcHgiIHZpZXdCb3g9IjAgMCA0MSAxOCI+PGc+PHBhdGggZD0iTTE5LjgyMiw3LjE3MyBDMTkuODIyLDYuNTEgMTkuODM1LDYuMjc2IDE5Ljg4Nyw1Ljk2NCBMMTguMTQ1LDUuOTY0IEMxOC4xOTcsNi4yODkgMTguMTk3LDYuNDk3IDE4LjE5Nyw3LjE2IEwxOC4yMSwxMy4xOTIgQzE4LjIxLDEzLjk0NiAxOC4yMjMsMTQuMTY3IDE4LjI0OSwxNC4zODggQzE4LjMyNywxNS4wMjUgMTguNTIyLDE1LjQ0MSAxOC44ODYsMTUuNzE0IEMxOS4zOTMsMTYuMTA0IDIwLjI5LDE2LjI3MyAyMS45MjgsMTYuMjczIEMyMi43MjEsMTYuMjczIDI0LjM1OSwxNi4xOTUgMjUuMTI2LDE2LjExNyBDMjYuNTA0LDE1Ljk4NyAyNi41NjksMTUuOTc0IDI2Ljg0MiwxNS45NzQgTDI2Ljc2NCwxNC4yNDUgQzI2LjE5MiwxNC40MTQgMjUuOTA2LDE0LjQ3OSAyNS4yODIsMTQuNTU3IEMyNC4zMzMsMTQuNjg3IDIzLjEzNywxNC43NjUgMjIuMjY2LDE0Ljc2NSBDMjEuMDA1LDE0Ljc2NSAyMC4yNjQsMTQuNjQ4IDIwLjA0MywxNC40MjcgQzE5Ljg2MSwxNC4yNDUgMTkuODA5LDEzLjk1OSAxOS44MDksMTMuMjMxIEMxOS44MDksMTMuMTc5IDE5LjgwOSwxMy4xMDEgMTkuODIyLDEzLjAyMyBMMTkuODIyLDExLjMwNyBDMjEuOTkzLDEwLjkwNCAyNC4wMDgsMTAuMjI4IDI1LjkzMiw5LjI0IEwyNi4yNyw5LjA3MSBDMjYuMzc0LDkuMDE5IDI2LjQsOS4wMDYgMjYuNTQzLDguOTU0IEwyNS41MDMsNy40ODUgQzI0LjY1OCw4LjI3OCAyMS43ODUsOS40MzUgMTkuODIyLDkuNzk5IEwxOS44MjIsNy4xNzMgWiBNMjcuMzEsNC44NzIgQzI2LjQ5MSw0Ljg3MiAyNS44MTUsNS41NDggMjUuODE1LDYuMzY3IEMyNS44MTUsNy4xOTkgMjYuNDkxLDcuODc1IDI3LjMxLDcuODc1IEMyOC4xNDIsNy44NzUgMjguODE4LDcuMTk5IDI4LjgxOCw2LjM2NyBDMjguODE4LDUuNTQ4IDI4LjE0Miw0Ljg3MiAyNy4zMSw0Ljg3MiBMMjcuMzEsNC44NzIgWiBNMjcuMzEsNS41MjIgQzI3Ljc5MSw1LjUyMiAyOC4xNjgsNS44OTkgMjguMTY4LDYuMzY3IEMyOC4xNjgsNi44MzUgMjcuNzkxLDcuMjI1IDI3LjMxLDcuMjI1IEMyNi44NDIsNy4yMjUgMjYuNDY1LDYuODM1IDI2LjQ2NSw2LjM2NyBDMjYuNDY1LDUuODk5IDI2Ljg0Miw1LjUyMiAyNy4zMSw1LjUyMiBMMjcuMzEsNS41MjIgWiBNMzAuNTg2LDcuNjU0IEMzMS43OTUsOC4zMyAzMi44NjEsOS4xODggMzMuOTAxLDEwLjI5MyBMMzUuMDE5LDguODc2IEMzNC4wMTgsNy45MjcgMzMuMjEyLDcuMzI5IDMxLjY2NSw2LjM2NyBMMzAuNTg2LDcuNjU0IFogTTMxLjA0MSwxNi4yMzQgQzMxLjM0LDE2LjEzIDMxLjM3OSwxNi4xMTcgMzEuODk5LDE2LjAxMyBDMzMuOTE0LDE1LjU4NCAzNS41MjYsMTQuOTQ3IDM2Ljg1MiwxNC4wNjMgQzM4LjYzMywxMi44OCAzOS44NjgsMTEuMzQ2IDQwLjk3Myw4Ljk2NyBDNDAuMzEsOC40OTkgNDAuMTAyLDguMzA0IDM5LjU5NSw3LjY5MyBDMzkuMjA1LDguNzQ2IDM4Ljg0MSw5LjQ2MSAzOC4yNjksMTAuMjkzIEMzNy4yNDIsMTEuNzc1IDM2LjAzMywxMi43NzYgMzQuNDA4LDEzLjQ3OCBDMzMuMjI1LDEzLjk5OCAzMS42NzgsMTQuMzc1IDMwLjU2LDE0LjQ0IEwzMS4wNDEsMTYuMjM0IFogTTcuNDU4LDAgQzIuNSwwIDAsMy41MjIgMCw2LjQ1OSBDMCw4LjIzNyAwLjY4LDkuODE5IDIuMTM3LDEwLjQwOSBDMi4zNzYsMTAuNTA1IDIuNTksMTAuNDEyIDIuNjYsMTAuMTUgQzIuNzA4LDkuOTY5IDIuODIyLDkuNTExIDIuODczLDkuMzIgQzIuOTQzLDkuMDYxIDIuOTE2LDguOTcgMi43MjMsOC43NDQgQzIuMzAyLDguMjUzIDIuMDM0LDcuNjE3IDIuMDM0LDYuNzE2IEMyLjAzNCw0LjEwNCA0LjAwNywxLjc2NSA3LjE3MiwxLjc2NSBDOS45NzUsMS43NjUgMTEuNTE0LDMuNDYxIDExLjUxNCw1LjcyNiBDMTEuNTE0LDguNzA4IDEwLjE4MywxMS4xOCA4LjIwNiwxMS4xOCBDNy4xMTQsMTEuMTggNi4yOTcsMTAuMzI5IDYuNTU5LDkuMjMzIEM2Ljg3Miw3LjkyMiA3LjQ4LDYuNTA5IDcuNDgsNS41NjQgQzcuNDgsNC43MTcgNy4wMjIsNC4wMTEgNi4wNzIsNC4wMTEgQzQuOTU2LDQuMDExIDQuMDYsNS4xNTUgNC4wNiw2LjY4NyBDNC4wNiw3LjY2MyA0LjM5Myw4LjMyMyA0LjM5Myw4LjMyMyBDNC4zOTMsOC4zMjMgMy4yNTEsMTMuMTE3IDMuMDUxLDEzLjk1NyBDMi42NTIsMTUuNjI5IDIuOTkxLDE3LjY3OSAzLjAxOSwxNy44ODYgQzMuMDM2LDE4LjAwOSAzLjE5NSwxOC4wMzggMy4yNjcsMTcuOTQ2IEMzLjM3LDE3LjgxMiA0LjcsMTYuMTg3IDUuMTUxLDE0LjU2MiBDNS4yNzksMTQuMTAyIDUuODg1LDExLjcyIDUuODg1LDExLjcyIEM2LjI0OCwxMi40MDYgNy4zMDgsMTMuMDA5IDguNDM1LDEzLjAwOSBDMTEuNzksMTMuMDA5IDE0LjA2Niw5Ljk3OSAxNC4wNjYsNS45MjMgQzE0LjA2NiwyLjg1NyAxMS40NDQsMCA3LjQ1OCwwIFoiIGZpbGw9IiNmZmYiPjwvcGF0aD48L2c+PC9zdmc+);\n}\n
+  span.PIN_1552922146176_embed_pin.PIN_1552922146176_ja .PIN_1552922146176_bd .PIN_1552922146176_hd
+  .PIN_1552922146176_repin.PIN_1552922146176_save { \n  background: #e60023 url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==)
+  5px 50% no-repeat;\n  background-size: 16px 16px;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_medium
+  { \n  min-width: 237px;\n  max-width: 345px;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_large
+  { \n  min-width: 345px;\n  max-width: 600px;\n  padding: 30px 34px 10px;\n  font-size:
+  14px;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_large .PIN_1552922146176_bd
+  { \n  border-bottom: none;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_large
+  .PIN_1552922146176_bd .PIN_1552922146176_hd { \n  padding-top: 50px;\n  border-bottom:
+  none;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_large .PIN_1552922146176_bd
+  .PIN_1552922146176_hd .PIN_1552922146176_container .PIN_1552922146176_img,  span.PIN_1552922146176_embed_pin.PIN_1552922146176_large
+  .PIN_1552922146176_bd .PIN_1552922146176_hd .PIN_1552922146176_container .PIN_1552922146176_video
+  { \n  border-radius: 8px;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_large
+  .PIN_1552922146176_bd .PIN_1552922146176_hd .PIN_1552922146176_repin { \n  top:
+  0px;\n  left: 0px;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_large
+  .PIN_1552922146176_bd .PIN_1552922146176_source { \n  height: 50px;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_large
+  .PIN_1552922146176_bd .PIN_1552922146176_source .PIN_1552922146176_domain { \n  line-height:
+  50px;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_large .PIN_1552922146176_bd
+  .PIN_1552922146176_stats { \n  position: absolute;\n  top: 0;\n  right: 0;\n  text-align:
+  right;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_large .PIN_1552922146176_bd
+  .PIN_1552922146176_description { \n  font-size: 16px;\n  line-height: 20px;\n}\n
+  span.PIN_1552922146176_embed_pin.PIN_1552922146176_large .PIN_1552922146176_bd .PIN_1552922146176_menu
+  { \n  height: inherit;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_large
+  .PIN_1552922146176_bd .PIN_1552922146176_menu .PIN_1552922146176_dropdown { \n  top:
+  50px;\n  font-size: 14px;\n  padding: 10px;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_large
+  .PIN_1552922146176_ft { \n  height: 60px;\n  font-size: 16px;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_large
+  .PIN_1552922146176_ft .PIN_1552922146176_board,  span.PIN_1552922146176_embed_pin.PIN_1552922146176_large
+  .PIN_1552922146176_ft .PIN_1552922146176_pinner { \n  left: 60px;\n}\n span.PIN_1552922146176_embed_pin.PIN_1552922146176_large
+  .PIN_1552922146176_ft .PIN_1552922146176_img { \n  height: 40px;\n  width: 40px;\n
+  \ background-size: 40px 40px;\n  border-radius: 20px;\n}\n .PIN_1552922146176_button_follow
+  { \n  display: inline-block;\n  color: #363636;\n  box-sizing: border-box;\n  box-shadow:
+  inset 0 0 1px #888;\n  border-radius: 3px;\n  font: bold 11px/20px \"Helvetica Neue\",
+  Helvetica, arial, sans-serif !important;\n  cursor: pointer;\n  -webkit-font-smoothing:
+  antialiased;\n  height: 20px;\n  padding: 0 4px 0 20px;\n  background-color: #efefef;\n
+  \ position: relative;\n  white-space: nowrap;\n  vertical-align: baseline;\n}\n
+  .PIN_1552922146176_button_follow:hover { \n  box-shadow: inset 0 0 1px #000;\n}\n
+  .PIN_1552922146176_button_follow::after { \n  content: \"\";\n  position: absolute;\n
+  \ height: 14px;\n  width: 14px;\n  top: 3px;\n  left: 3px;\n  background: transparent
+  url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==)
+  0 0 no-repeat;\n  background-size: 14px 14px;\n}\n .PIN_1552922146176_button_follow.PIN_1552922146176_tall
+  { \n  height: 26px;\n  line-height: 26px;\n  font-size: 13px;\n  padding: 0 6px
+  0 25px;\n  border-radius: 3px;\n}\n .PIN_1552922146176_button_follow.PIN_1552922146176_tall::after
+  { \n  height: 18px;\n  width: 18px;\n  top: 4px;\n  left: 4px;\n  background-size:
+  18px 18px;\n}\n .PIN_1552922146176_button_pin { \n  cursor: pointer;\n  display:
+  inline-block;\n  box-sizing: border-box;\n  box-shadow: inset 0 0 1px #888;\n  border-radius:
+  3px;\n  height: 20px;\n  width: 40px;\n  -webkit-font-smoothing: antialiased;\n
+  \ background: #efefef url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQycHgiIHZpZXdCb3g9IjAgMCA0MiAxOCI+PGc+PHBhdGggZD0iTTE2Ljg1Myw2LjM0NSBDMTcuNjMyLDYuMzQ1IDE4LjM4LDUuNzAyIDE4LjUxLDQuOTA5IEMxOC42NjQsNC4xMzggMTguMTM1LDMuNDk0IDE3LjM1NywzLjQ5NCBDMTYuNTc4LDMuNDk0IDE1LjgzLDQuMTM4IDE1LjY5OCw0LjkwOSBDMTUuNTQ2LDUuNzAyIDE2LjA1Myw2LjM0NSAxNi44NTMsNi4zNDUgWiBNNy40NTgsMCBDMi41LDAgMCwzLjUyMiAwLDYuNDU5IEMwLDguMjM3IDAuNjgsOS44MTkgMi4xMzcsMTAuNDA5IEMyLjM3NiwxMC41MDUgMi41OSwxMC40MTIgMi42NiwxMC4xNSBDMi43MDgsOS45NjkgMi44MjIsOS41MTEgMi44NzMsOS4zMiBDMi45NDMsOS4wNjEgMi45MTYsOC45NyAyLjcyMyw4Ljc0NCBDMi4zMDIsOC4yNTMgMi4wMzQsNy42MTcgMi4wMzQsNi43MTYgQzIuMDM0LDQuMTA0IDQuMDA3LDEuNzY1IDcuMTcyLDEuNzY1IEM5Ljk3NSwxLjc2NSAxMS41MTQsMy40NjEgMTEuNTE0LDUuNzI2IEMxMS41MTQsOC43MDggMTAuMTgzLDExLjE4IDguMjA2LDExLjE4IEM3LjExNCwxMS4xOCA2LjI5NywxMC4zMjkgNi41NTksOS4yMzMgQzYuODcyLDcuOTIyIDcuNDgsNi41MDkgNy40OCw1LjU2NCBDNy40OCw0LjcxNyA3LjAyMiw0LjAxMSA2LjA3Miw0LjAxMSBDNC45NTYsNC4wMTEgNC4wNiw1LjE1NSA0LjA2LDYuNjg3IEM0LjA2LDcuNjYzIDQuMzkzLDguMzIzIDQuMzkzLDguMzIzIEM0LjM5Myw4LjMyMyAzLjI1MSwxMy4xMTcgMy4wNTEsMTMuOTU3IEMyLjY1MiwxNS42MjkgMi45OTEsMTcuNjc5IDMuMDE5LDE3Ljg4NiBDMy4wMzYsMTguMDA5IDMuMTk1LDE4LjAzOCAzLjI2NywxNy45NDYgQzMuMzcsMTcuODEyIDQuNywxNi4xODcgNS4xNTEsMTQuNTYyIEM1LjI3OSwxNC4xMDIgNS44ODUsMTEuNzIgNS44ODUsMTEuNzIgQzYuMjQ4LDEyLjQwNiA3LjMwOCwxMy4wMDkgOC40MzUsMTMuMDA5IEMxMS43OSwxMy4wMDkgMTQuMDY2LDkuOTc5IDE0LjA2Niw1LjkyMyBDMTQuMDY2LDIuODU3IDExLjQ0NCwwIDcuNDU4LDAgWiBNMjYuODk2LDE0LjE4OSBDMjYuMzQ4LDE0LjE4OSAyNi4xMTcsMTMuOTE1IDI2LjExNywxMy4zMjggQzI2LjExNywxMi40MDQgMjcuMDM1LDEwLjA5MSAyNy4wMzUsOS4wNDEgQzI3LjAzNSw3LjYzOCAyNi4yNzYsNi44MjYgMjQuNzIsNi44MjYgQzIzLjczOSw2LjgyNiAyMi43MjIsNy40NTMgMjIuMjkxLDguMDAzIEMyMi4yOTEsOC4wMDMgMjIuNDIyLDcuNTUzIDIyLjQ2Nyw3LjM4IEMyMi41MTUsNy4xOTYgMjIuNDE1LDYuODg0IDIyLjE3Myw2Ljg4NCBMMjAuNjUxLDYuODg0IEMyMC4zMjgsNi44ODQgMjAuMjM4LDcuMDU1IDIwLjE5MSw3LjI0NCBDMjAuMTcyLDcuMzIgMTkuNjI0LDkuNTg0IDE5LjA5OCwxMS42MzIgQzE4LjczOCwxMy4wMzQgMTcuODYzLDE0LjIwNSAxNi45MjgsMTQuMjA1IEMxNi40NDcsMTQuMjA1IDE2LjIzMywxMy45MDYgMTYuMjMzLDEzLjM5OSBDMTYuMjMzLDEyLjk1OSAxNi41MTksMTEuODc3IDE2Ljg2LDEwLjUzNCBDMTcuMjc2LDguODk4IDE3LjY0Miw3LjU1MSAxNy42ODEsNy4zOTQgQzE3LjczMiw3LjE5MiAxNy42NDIsNy4wMTcgMTcuMzc5LDcuMDE3IEwxNS44NDksNy4wMTcgQzE1LjU3Miw3LjAxNyAxNS40NzMsNy4xNjEgMTUuNDE0LDcuMzYxIEMxNS40MTQsNy4zNjEgMTQuOTgzLDguOTc3IDE0LjUyNywxMC43NzUgQzE0LjE5NiwxMi4wNzkgMTMuODMsMTMuNDA5IDEzLjgzLDE0LjAzNCBDMTMuODMsMTUuMTQ4IDE0LjMzNiwxNS45NDQgMTUuNzI0LDE1Ljk0NCBDMTYuNzk2LDE1Ljk0NCAxNy42NDQsMTUuNDUgMTguMjkyLDE0Ljc2NCBDMTguMTk3LDE1LjEzNSAxOC4xMzYsMTUuNDE0IDE4LjEzLDE1LjQzOSBDMTguMDc0LDE1LjY1IDE4LjE0MiwxNS44MzggMTguMzk0LDE1LjgzOCBMMTkuOTYxLDE1LjgzOCBDMjAuMjMzLDE1LjgzOCAyMC4zMzcsMTUuNzMgMjAuMzk0LDE1LjQ5NCBDMjAuNDQ5LDE1LjI2OSAyMS42MTksMTAuNjY3IDIxLjYxOSwxMC42NjcgQzIxLjkyOCw5LjQ0MyAyMi42OTIsOC42MzIgMjMuNzY4LDguNjMyIEMyNC4yNzksOC42MzIgMjQuNzIsOC45NjcgMjQuNjY5LDkuNjE4IEMyNC42MTIsMTAuMzMzIDIzLjc0MSwxMi45MDMgMjMuNzQxLDE0LjAzMSBDMjMuNzQxLDE0Ljg4NCAyNC4wNiwxNS45NDUgMjUuNjgzLDE1Ljk0NSBDMjYuNzg5LDE1Ljk0NSAyNy42MDMsMTUuNDY0IDI4LjE5NSwxNC43ODYgTDI3LjQ4OSwxMy45NDEgQzI3LjMxMSwxNC4wOTQgMjcuMTE0LDE0LjE4OSAyNi44OTYsMTQuMTg5IFogTTQxLjcwMSw2Ljg3MyBMNDAuMTM0LDYuODczIEM0MC4xMzQsNi44NzMgNDAuODU2LDQuMTA5IDQwLjg3Myw0LjAzNSBDNDAuOTQyLDMuNzQ1IDQwLjY5OCwzLjU3OCA0MC40NDEsMy42MzEgQzQwLjQ0MSwzLjYzMSAzOS4yMywzLjg2NiAzOS4wMDUsMy45MTMgQzM4Ljc3OSwzLjk1OCAzOC42MDQsNC4wODEgMzguNTIyLDQuNDAzIEMzOC41MTIsNC40NDUgMzcuODgsNi44NzMgMzcuODgsNi44NzMgTDM2LjYyMiw2Ljg3MyBDMzYuMzg1LDYuODczIDM2LjI0NSw2Ljk2OCAzNi4xOTIsNy4xODggQzM2LjExNSw3LjUwNCAzNS45NzUsOC4xNDUgMzUuOTM2LDguMjk3IEMzNS44ODUsOC40OTQgMzYsOC42NDQgMzYuMjIyLDguNjQ0IEwzNy40NTcsOC42NDQgQzM3LjQ0OCw4LjY3NyAzNy4wNjQsMTAuMTI1IDM2LjcyNSwxMS41MjEgTDM2LjcyNCwxMS41MTYgQzM2LjcyLDExLjUzMiAzNi43MTYsMTEuNTQ2IDM2LjcxMiwxMS41NjIgTDM2LjcxMiwxMS41NTYgQzM2LjcxMiwxMS41NTYgMzYuNzA4LDExLjU3MSAzNi43MDIsMTEuNTk4IEMzNi4zMjQsMTIuOTY4IDM1LjExOCwxNC4yMDkgMzQuMjAxLDE0LjIwOSBDMzMuNzIxLDE0LjIwOSAzMy41MDYsMTMuOTA5IDMzLjUwNiwxMy40MDIgQzMzLjUwNiwxMi45NjMgMzMuNzkyLDExLjg4IDM0LjEzNCwxMC41MzcgQzM0LjU0OSw4LjkwMSAzNC45MTUsNy41NTUgMzQuOTU1LDcuMzk3IEMzNS4wMDYsNy4xOTYgMzQuOTE1LDcuMDIgMzQuNjUyLDcuMDIgTDMzLjEyMiw3LjAyIEMzMi44NDUsNy4wMiAzMi43NDYsNy4xNjQgMzIuNjg3LDcuMzY0IEMzMi42ODcsNy4zNjQgMzIuMjU3LDguOTggMzEuOCwxMC43NzggQzMxLjQ2OSwxMi4wODMgMzEuMTAzLDEzLjQxMiAzMS4xMDMsMTQuMDM3IEMzMS4xMDMsMTUuMTUxIDMxLjYwOSwxNS45NDggMzIuOTk3LDE1Ljk0OCBDMzQuMDcsMTUuOTQ4IDM1LjEzNiwxNS40NTMgMzUuNzgzLDE0Ljc2NyBDMzUuNzgzLDE0Ljc2NyAzNi4wMTEsMTQuNTIxIDM2LjIzLDE0LjIyOSBDMzYuMjQxLDE0LjU4MSAzNi4zMjQsMTQuODM3IDM2LjQxMSwxNS4wMTggQzM2LjQ1OCwxNS4xMTkgMzYuNTE1LDE1LjIxNSAzNi41ODEsMTUuMzAzIEMzNi41ODIsMTUuMzA0IDM2LjU4MywxNS4zMDYgMzYuNTg1LDE1LjMwOCBMMzYuNTg1LDE1LjMwOCBDMzYuODkxLDE1LjcxMyAzNy4zOTgsMTUuOTYyIDM4LjE1MSwxNS45NjIgQzM5Ljg5NCwxNS45NjIgNDAuOTQ0LDE0LjkzOCA0MS41NjIsMTMuOTA5IEw0MC43MDQsMTMuMjM5IEM0MC4zMzMsMTMuNzc0IDM5LjgzOSwxNC4xNzUgMzkuMzI0LDE0LjE3NSBDMzguODQ2LDE0LjE3NSAzOC41NzksMTMuODc4IDM4LjU3OSwxMy4zNzIgQzM4LjU3OSwxMi45MzUgMzguODg5LDExLjg2OCAzOS4yMjksMTAuNTMgQzM5LjM0NCwxMC4wODMgMzkuNTE2LDkuNDAxIDM5LjcwOCw4LjY0NCBMNDEuMzAyLDguNjQ0IEM0MS41MzksOC42NDQgNDEuNjc4LDguNTQ5IDQxLjczMiw4LjMyOSBDNDEuODA4LDguMDEyIDQxLjk0OCw3LjM3MiA0MS45ODgsNy4yMjEgQzQyLjAzOSw3LjAyMyA0MS45MjMsNi44NzMgNDEuNzAxLDYuODczIFogTTM0LjEyNiw2LjM0OCBDMzQuOTA1LDYuMzQ4IDM1LjY1Myw1LjcwNiAzNS43ODMsNC45MTIgQzM1LjkzNyw0LjE0MSAzNS40MDksMy40OTggMzQuNjMsMy40OTggQzMzLjg1MSwzLjQ5OCAzMy4xMDMsNC4xNDEgMzIuOTcxLDQuOTEyIEMzMi44MTksNS43MDYgMzMuMzI2LDYuMzQ4IDM0LjEyNiw2LjM0OCBaIiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==)
+  50% 50% no-repeat;\n  background-size: 75%;\n  position: relative;\n  font: 12px
+  \"Helvetica Neue\", Helvetica, arial, sans-serif;\n  color: #555;\n  text-align:
+  center;\n  vertical-align: baseline;\n}\n .PIN_1552922146176_button_pin:hover {
+  \n  box-shadow: inset 0 0 1px #000;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_above
+  .PIN_1552922146176_count { \n  position: absolute;\n  top: -28px;\n  left: 0;\n
+  \ height: 28px;\n  width: inherit;\n  line-height: 24px;\n  background: transparent
+  url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNzZweCIgd2lkdGg9IjExNHB4IiB2aWV3Qm94PSIwIDAgMTE0IDc2Ij48Zz48cGF0aCBkPSJNOSAxQzQuNiAxIDEgNC42IDEgOXY0M2MwIDQuMyAzLjYgOCA4IDhoMjZsMTggMTVoNy41bDE2LTE1SDEwNWM0LjQgMCA4LTMuNyA4LThWOWMwLTQuNC0zLjYtOC04LThIOXoiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I1YjViNSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+PC9nPjwvc3ZnPg==)
+  0 0 no-repeat;\n  background-size: 40px 28px;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_above.PIN_1552922146176_padded
+  { \n  margin-top: 28px;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_beside
+  .PIN_1552922146176_count { \n  position: absolute;\n  right: -45px;\n  text-align:
+  center;\n  text-indent: 5px;\n  height: inherit;\n  width: 45px;\n  font-size: 11px;\n
+  \ line-height: 20px;\n  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNTZweCIgd2lkdGg9IjEyNnB4IiB2aWV3Qm94PSIyIDAgMTMwIDYwIj48Zz48cGF0aCBkPSJNMTE5LjYgMmM0LjUgMCA4IDMuNiA4IDh2NDBjMCA0LjQtMy41IDgtOCA4SDIzLjNMMS42IDMyLjR2LTQuNkwyMy4zIDJoOTYuM3oiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I1YjViNSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+PC9nPjwvc3ZnPg==);\n
+  \ background-size: cover;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_beside.PIN_1552922146176_padded
+  { \n  margin-right: 45px;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_ja
+  { \n  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQxcHgiIHZpZXdCb3g9IjAgMCA0MSAxOCI+PGc+PHBhdGggZD0iTTE5LjgyMiw3LjE3MyBDMTkuODIyLDYuNTEgMTkuODM1LDYuMjc2IDE5Ljg4Nyw1Ljk2NCBMMTguMTQ1LDUuOTY0IEMxOC4xOTcsNi4yODkgMTguMTk3LDYuNDk3IDE4LjE5Nyw3LjE2IEwxOC4yMSwxMy4xOTIgQzE4LjIxLDEzLjk0NiAxOC4yMjMsMTQuMTY3IDE4LjI0OSwxNC4zODggQzE4LjMyNywxNS4wMjUgMTguNTIyLDE1LjQ0MSAxOC44ODYsMTUuNzE0IEMxOS4zOTMsMTYuMTA0IDIwLjI5LDE2LjI3MyAyMS45MjgsMTYuMjczIEMyMi43MjEsMTYuMjczIDI0LjM1OSwxNi4xOTUgMjUuMTI2LDE2LjExNyBDMjYuNTA0LDE1Ljk4NyAyNi41NjksMTUuOTc0IDI2Ljg0MiwxNS45NzQgTDI2Ljc2NCwxNC4yNDUgQzI2LjE5MiwxNC40MTQgMjUuOTA2LDE0LjQ3OSAyNS4yODIsMTQuNTU3IEMyNC4zMzMsMTQuNjg3IDIzLjEzNywxNC43NjUgMjIuMjY2LDE0Ljc2NSBDMjEuMDA1LDE0Ljc2NSAyMC4yNjQsMTQuNjQ4IDIwLjA0MywxNC40MjcgQzE5Ljg2MSwxNC4yNDUgMTkuODA5LDEzLjk1OSAxOS44MDksMTMuMjMxIEMxOS44MDksMTMuMTc5IDE5LjgwOSwxMy4xMDEgMTkuODIyLDEzLjAyMyBMMTkuODIyLDExLjMwNyBDMjEuOTkzLDEwLjkwNCAyNC4wMDgsMTAuMjI4IDI1LjkzMiw5LjI0IEwyNi4yNyw5LjA3MSBDMjYuMzc0LDkuMDE5IDI2LjQsOS4wMDYgMjYuNTQzLDguOTU0IEwyNS41MDMsNy40ODUgQzI0LjY1OCw4LjI3OCAyMS43ODUsOS40MzUgMTkuODIyLDkuNzk5IEwxOS44MjIsNy4xNzMgWiBNMjcuMzEsNC44NzIgQzI2LjQ5MSw0Ljg3MiAyNS44MTUsNS41NDggMjUuODE1LDYuMzY3IEMyNS44MTUsNy4xOTkgMjYuNDkxLDcuODc1IDI3LjMxLDcuODc1IEMyOC4xNDIsNy44NzUgMjguODE4LDcuMTk5IDI4LjgxOCw2LjM2NyBDMjguODE4LDUuNTQ4IDI4LjE0Miw0Ljg3MiAyNy4zMSw0Ljg3MiBMMjcuMzEsNC44NzIgWiBNMjcuMzEsNS41MjIgQzI3Ljc5MSw1LjUyMiAyOC4xNjgsNS44OTkgMjguMTY4LDYuMzY3IEMyOC4xNjgsNi44MzUgMjcuNzkxLDcuMjI1IDI3LjMxLDcuMjI1IEMyNi44NDIsNy4yMjUgMjYuNDY1LDYuODM1IDI2LjQ2NSw2LjM2NyBDMjYuNDY1LDUuODk5IDI2Ljg0Miw1LjUyMiAyNy4zMSw1LjUyMiBMMjcuMzEsNS41MjIgWiBNMzAuNTg2LDcuNjU0IEMzMS43OTUsOC4zMyAzMi44NjEsOS4xODggMzMuOTAxLDEwLjI5MyBMMzUuMDE5LDguODc2IEMzNC4wMTgsNy45MjcgMzMuMjEyLDcuMzI5IDMxLjY2NSw2LjM2NyBMMzAuNTg2LDcuNjU0IFogTTMxLjA0MSwxNi4yMzQgQzMxLjM0LDE2LjEzIDMxLjM3OSwxNi4xMTcgMzEuODk5LDE2LjAxMyBDMzMuOTE0LDE1LjU4NCAzNS41MjYsMTQuOTQ3IDM2Ljg1MiwxNC4wNjMgQzM4LjYzMywxMi44OCAzOS44NjgsMTEuMzQ2IDQwLjk3Myw4Ljk2NyBDNDAuMzEsOC40OTkgNDAuMTAyLDguMzA0IDM5LjU5NSw3LjY5MyBDMzkuMjA1LDguNzQ2IDM4Ljg0MSw5LjQ2MSAzOC4yNjksMTAuMjkzIEMzNy4yNDIsMTEuNzc1IDM2LjAzMywxMi43NzYgMzQuNDA4LDEzLjQ3OCBDMzMuMjI1LDEzLjk5OCAzMS42NzgsMTQuMzc1IDMwLjU2LDE0LjQ0IEwzMS4wNDEsMTYuMjM0IFogTTcuNDU4LDAgQzIuNSwwIDAsMy41MjIgMCw2LjQ1OSBDMCw4LjIzNyAwLjY4LDkuODE5IDIuMTM3LDEwLjQwOSBDMi4zNzYsMTAuNTA1IDIuNTksMTAuNDEyIDIuNjYsMTAuMTUgQzIuNzA4LDkuOTY5IDIuODIyLDkuNTExIDIuODczLDkuMzIgQzIuOTQzLDkuMDYxIDIuOTE2LDguOTcgMi43MjMsOC43NDQgQzIuMzAyLDguMjUzIDIuMDM0LDcuNjE3IDIuMDM0LDYuNzE2IEMyLjAzNCw0LjEwNCA0LjAwNywxLjc2NSA3LjE3MiwxLjc2NSBDOS45NzUsMS43NjUgMTEuNTE0LDMuNDYxIDExLjUxNCw1LjcyNiBDMTEuNTE0LDguNzA4IDEwLjE4MywxMS4xOCA4LjIwNiwxMS4xOCBDNy4xMTQsMTEuMTggNi4yOTcsMTAuMzI5IDYuNTU5LDkuMjMzIEM2Ljg3Miw3LjkyMiA3LjQ4LDYuNTA5IDcuNDgsNS41NjQgQzcuNDgsNC43MTcgNy4wMjIsNC4wMTEgNi4wNzIsNC4wMTEgQzQuOTU2LDQuMDExIDQuMDYsNS4xNTUgNC4wNiw2LjY4NyBDNC4wNiw3LjY2MyA0LjM5Myw4LjMyMyA0LjM5Myw4LjMyMyBDNC4zOTMsOC4zMjMgMy4yNTEsMTMuMTE3IDMuMDUxLDEzLjk1NyBDMi42NTIsMTUuNjI5IDIuOTkxLDE3LjY3OSAzLjAxOSwxNy44ODYgQzMuMDM2LDE4LjAwOSAzLjE5NSwxOC4wMzggMy4yNjcsMTcuOTQ2IEMzLjM3LDE3LjgxMiA0LjcsMTYuMTg3IDUuMTUxLDE0LjU2MiBDNS4yNzksMTQuMTAyIDUuODg1LDExLjcyIDUuODg1LDExLjcyIEM2LjI0OCwxMi40MDYgNy4zMDgsMTMuMDA5IDguNDM1LDEzLjAwOSBDMTEuNzksMTMuMDA5IDE0LjA2Niw5Ljk3OSAxNC4wNjYsNS45MjMgQzE0LjA2NiwyLjg1NyAxMS40NDQsMCA3LjQ1OCwwIFoiIGZpbGw9IiNlNjAwMjMiPjwvcGF0aD48L2c+PC9zdmc+);\n
+  \ background-size: 72%;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_red
+  { \n  background-color: #e60023;\n  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQycHgiIHZpZXdCb3g9IjAgMCA0MiAxOCI+PGc+PHBhdGggZD0iTTE2Ljg1Myw2LjM0NSBDMTcuNjMyLDYuMzQ1IDE4LjM4LDUuNzAyIDE4LjUxLDQuOTA5IEMxOC42NjQsNC4xMzggMTguMTM1LDMuNDk0IDE3LjM1NywzLjQ5NCBDMTYuNTc4LDMuNDk0IDE1LjgzLDQuMTM4IDE1LjY5OCw0LjkwOSBDMTUuNTQ2LDUuNzAyIDE2LjA1Myw2LjM0NSAxNi44NTMsNi4zNDUgWiBNNy40NTgsMCBDMi41LDAgMCwzLjUyMiAwLDYuNDU5IEMwLDguMjM3IDAuNjgsOS44MTkgMi4xMzcsMTAuNDA5IEMyLjM3NiwxMC41MDUgMi41OSwxMC40MTIgMi42NiwxMC4xNSBDMi43MDgsOS45NjkgMi44MjIsOS41MTEgMi44NzMsOS4zMiBDMi45NDMsOS4wNjEgMi45MTYsOC45NyAyLjcyMyw4Ljc0NCBDMi4zMDIsOC4yNTMgMi4wMzQsNy42MTcgMi4wMzQsNi43MTYgQzIuMDM0LDQuMTA0IDQuMDA3LDEuNzY1IDcuMTcyLDEuNzY1IEM5Ljk3NSwxLjc2NSAxMS41MTQsMy40NjEgMTEuNTE0LDUuNzI2IEMxMS41MTQsOC43MDggMTAuMTgzLDExLjE4IDguMjA2LDExLjE4IEM3LjExNCwxMS4xOCA2LjI5NywxMC4zMjkgNi41NTksOS4yMzMgQzYuODcyLDcuOTIyIDcuNDgsNi41MDkgNy40OCw1LjU2NCBDNy40OCw0LjcxNyA3LjAyMiw0LjAxMSA2LjA3Miw0LjAxMSBDNC45NTYsNC4wMTEgNC4wNiw1LjE1NSA0LjA2LDYuNjg3IEM0LjA2LDcuNjYzIDQuMzkzLDguMzIzIDQuMzkzLDguMzIzIEM0LjM5Myw4LjMyMyAzLjI1MSwxMy4xMTcgMy4wNTEsMTMuOTU3IEMyLjY1MiwxNS42MjkgMi45OTEsMTcuNjc5IDMuMDE5LDE3Ljg4NiBDMy4wMzYsMTguMDA5IDMuMTk1LDE4LjAzOCAzLjI2NywxNy45NDYgQzMuMzcsMTcuODEyIDQuNywxNi4xODcgNS4xNTEsMTQuNTYyIEM1LjI3OSwxNC4xMDIgNS44ODUsMTEuNzIgNS44ODUsMTEuNzIgQzYuMjQ4LDEyLjQwNiA3LjMwOCwxMy4wMDkgOC40MzUsMTMuMDA5IEMxMS43OSwxMy4wMDkgMTQuMDY2LDkuOTc5IDE0LjA2Niw1LjkyMyBDMTQuMDY2LDIuODU3IDExLjQ0NCwwIDcuNDU4LDAgWiBNMjYuODk2LDE0LjE4OSBDMjYuMzQ4LDE0LjE4OSAyNi4xMTcsMTMuOTE1IDI2LjExNywxMy4zMjggQzI2LjExNywxMi40MDQgMjcuMDM1LDEwLjA5MSAyNy4wMzUsOS4wNDEgQzI3LjAzNSw3LjYzOCAyNi4yNzYsNi44MjYgMjQuNzIsNi44MjYgQzIzLjczOSw2LjgyNiAyMi43MjIsNy40NTMgMjIuMjkxLDguMDAzIEMyMi4yOTEsOC4wMDMgMjIuNDIyLDcuNTUzIDIyLjQ2Nyw3LjM4IEMyMi41MTUsNy4xOTYgMjIuNDE1LDYuODg0IDIyLjE3Myw2Ljg4NCBMMjAuNjUxLDYuODg0IEMyMC4zMjgsNi44ODQgMjAuMjM4LDcuMDU1IDIwLjE5MSw3LjI0NCBDMjAuMTcyLDcuMzIgMTkuNjI0LDkuNTg0IDE5LjA5OCwxMS42MzIgQzE4LjczOCwxMy4wMzQgMTcuODYzLDE0LjIwNSAxNi45MjgsMTQuMjA1IEMxNi40NDcsMTQuMjA1IDE2LjIzMywxMy45MDYgMTYuMjMzLDEzLjM5OSBDMTYuMjMzLDEyLjk1OSAxNi41MTksMTEuODc3IDE2Ljg2LDEwLjUzNCBDMTcuMjc2LDguODk4IDE3LjY0Miw3LjU1MSAxNy42ODEsNy4zOTQgQzE3LjczMiw3LjE5MiAxNy42NDIsNy4wMTcgMTcuMzc5LDcuMDE3IEwxNS44NDksNy4wMTcgQzE1LjU3Miw3LjAxNyAxNS40NzMsNy4xNjEgMTUuNDE0LDcuMzYxIEMxNS40MTQsNy4zNjEgMTQuOTgzLDguOTc3IDE0LjUyNywxMC43NzUgQzE0LjE5NiwxMi4wNzkgMTMuODMsMTMuNDA5IDEzLjgzLDE0LjAzNCBDMTMuODMsMTUuMTQ4IDE0LjMzNiwxNS45NDQgMTUuNzI0LDE1Ljk0NCBDMTYuNzk2LDE1Ljk0NCAxNy42NDQsMTUuNDUgMTguMjkyLDE0Ljc2NCBDMTguMTk3LDE1LjEzNSAxOC4xMzYsMTUuNDE0IDE4LjEzLDE1LjQzOSBDMTguMDc0LDE1LjY1IDE4LjE0MiwxNS44MzggMTguMzk0LDE1LjgzOCBMMTkuOTYxLDE1LjgzOCBDMjAuMjMzLDE1LjgzOCAyMC4zMzcsMTUuNzMgMjAuMzk0LDE1LjQ5NCBDMjAuNDQ5LDE1LjI2OSAyMS42MTksMTAuNjY3IDIxLjYxOSwxMC42NjcgQzIxLjkyOCw5LjQ0MyAyMi42OTIsOC42MzIgMjMuNzY4LDguNjMyIEMyNC4yNzksOC42MzIgMjQuNzIsOC45NjcgMjQuNjY5LDkuNjE4IEMyNC42MTIsMTAuMzMzIDIzLjc0MSwxMi45MDMgMjMuNzQxLDE0LjAzMSBDMjMuNzQxLDE0Ljg4NCAyNC4wNiwxNS45NDUgMjUuNjgzLDE1Ljk0NSBDMjYuNzg5LDE1Ljk0NSAyNy42MDMsMTUuNDY0IDI4LjE5NSwxNC43ODYgTDI3LjQ4OSwxMy45NDEgQzI3LjMxMSwxNC4wOTQgMjcuMTE0LDE0LjE4OSAyNi44OTYsMTQuMTg5IFogTTQxLjcwMSw2Ljg3MyBMNDAuMTM0LDYuODczIEM0MC4xMzQsNi44NzMgNDAuODU2LDQuMTA5IDQwLjg3Myw0LjAzNSBDNDAuOTQyLDMuNzQ1IDQwLjY5OCwzLjU3OCA0MC40NDEsMy42MzEgQzQwLjQ0MSwzLjYzMSAzOS4yMywzLjg2NiAzOS4wMDUsMy45MTMgQzM4Ljc3OSwzLjk1OCAzOC42MDQsNC4wODEgMzguNTIyLDQuNDAzIEMzOC41MTIsNC40NDUgMzcuODgsNi44NzMgMzcuODgsNi44NzMgTDM2LjYyMiw2Ljg3MyBDMzYuMzg1LDYuODczIDM2LjI0NSw2Ljk2OCAzNi4xOTIsNy4xODggQzM2LjExNSw3LjUwNCAzNS45NzUsOC4xNDUgMzUuOTM2LDguMjk3IEMzNS44ODUsOC40OTQgMzYsOC42NDQgMzYuMjIyLDguNjQ0IEwzNy40NTcsOC42NDQgQzM3LjQ0OCw4LjY3NyAzNy4wNjQsMTAuMTI1IDM2LjcyNSwxMS41MjEgTDM2LjcyNCwxMS41MTYgQzM2LjcyLDExLjUzMiAzNi43MTYsMTEuNTQ2IDM2LjcxMiwxMS41NjIgTDM2LjcxMiwxMS41NTYgQzM2LjcxMiwxMS41NTYgMzYuNzA4LDExLjU3MSAzNi43MDIsMTEuNTk4IEMzNi4zMjQsMTIuOTY4IDM1LjExOCwxNC4yMDkgMzQuMjAxLDE0LjIwOSBDMzMuNzIxLDE0LjIwOSAzMy41MDYsMTMuOTA5IDMzLjUwNiwxMy40MDIgQzMzLjUwNiwxMi45NjMgMzMuNzkyLDExLjg4IDM0LjEzNCwxMC41MzcgQzM0LjU0OSw4LjkwMSAzNC45MTUsNy41NTUgMzQuOTU1LDcuMzk3IEMzNS4wMDYsNy4xOTYgMzQuOTE1LDcuMDIgMzQuNjUyLDcuMDIgTDMzLjEyMiw3LjAyIEMzMi44NDUsNy4wMiAzMi43NDYsNy4xNjQgMzIuNjg3LDcuMzY0IEMzMi42ODcsNy4zNjQgMzIuMjU3LDguOTggMzEuOCwxMC43NzggQzMxLjQ2OSwxMi4wODMgMzEuMTAzLDEzLjQxMiAzMS4xMDMsMTQuMDM3IEMzMS4xMDMsMTUuMTUxIDMxLjYwOSwxNS45NDggMzIuOTk3LDE1Ljk0OCBDMzQuMDcsMTUuOTQ4IDM1LjEzNiwxNS40NTMgMzUuNzgzLDE0Ljc2NyBDMzUuNzgzLDE0Ljc2NyAzNi4wMTEsMTQuNTIxIDM2LjIzLDE0LjIyOSBDMzYuMjQxLDE0LjU4MSAzNi4zMjQsMTQuODM3IDM2LjQxMSwxNS4wMTggQzM2LjQ1OCwxNS4xMTkgMzYuNTE1LDE1LjIxNSAzNi41ODEsMTUuMzAzIEMzNi41ODIsMTUuMzA0IDM2LjU4MywxNS4zMDYgMzYuNTg1LDE1LjMwOCBMMzYuNTg1LDE1LjMwOCBDMzYuODkxLDE1LjcxMyAzNy4zOTgsMTUuOTYyIDM4LjE1MSwxNS45NjIgQzM5Ljg5NCwxNS45NjIgNDAuOTQ0LDE0LjkzOCA0MS41NjIsMTMuOTA5IEw0MC43MDQsMTMuMjM5IEM0MC4zMzMsMTMuNzc0IDM5LjgzOSwxNC4xNzUgMzkuMzI0LDE0LjE3NSBDMzguODQ2LDE0LjE3NSAzOC41NzksMTMuODc4IDM4LjU3OSwxMy4zNzIgQzM4LjU3OSwxMi45MzUgMzguODg5LDExLjg2OCAzOS4yMjksMTAuNTMgQzM5LjM0NCwxMC4wODMgMzkuNTE2LDkuNDAxIDM5LjcwOCw4LjY0NCBMNDEuMzAyLDguNjQ0IEM0MS41MzksOC42NDQgNDEuNjc4LDguNTQ5IDQxLjczMiw4LjMyOSBDNDEuODA4LDguMDEyIDQxLjk0OCw3LjM3MiA0MS45ODgsNy4yMjEgQzQyLjAzOSw3LjAyMyA0MS45MjMsNi44NzMgNDEuNzAxLDYuODczIFogTTM0LjEyNiw2LjM0OCBDMzQuOTA1LDYuMzQ4IDM1LjY1Myw1LjcwNiAzNS43ODMsNC45MTIgQzM1LjkzNyw0LjE0MSAzNS40MDksMy40OTggMzQuNjMsMy40OTggQzMzLjg1MSwzLjQ5OCAzMy4xMDMsNC4xNDEgMzIuOTcxLDQuOTEyIEMzMi44MTksNS43MDYgMzMuMzI2LDYuMzQ4IDM0LjEyNiw2LjM0OCBaIiBmaWxsPSIjZmZmIj48L3BhdGg+PC9nPjwvc3ZnPg==);\n}\n
+  .PIN_1552922146176_button_pin.PIN_1552922146176_red.PIN_1552922146176_ja { \n  background-image:
+  url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMThweCIgd2lkdGg9IjQxcHgiIHZpZXdCb3g9IjAgMCA0MSAxOCI+PGc+PHBhdGggZD0iTTE5LjgyMiw3LjE3MyBDMTkuODIyLDYuNTEgMTkuODM1LDYuMjc2IDE5Ljg4Nyw1Ljk2NCBMMTguMTQ1LDUuOTY0IEMxOC4xOTcsNi4yODkgMTguMTk3LDYuNDk3IDE4LjE5Nyw3LjE2IEwxOC4yMSwxMy4xOTIgQzE4LjIxLDEzLjk0NiAxOC4yMjMsMTQuMTY3IDE4LjI0OSwxNC4zODggQzE4LjMyNywxNS4wMjUgMTguNTIyLDE1LjQ0MSAxOC44ODYsMTUuNzE0IEMxOS4zOTMsMTYuMTA0IDIwLjI5LDE2LjI3MyAyMS45MjgsMTYuMjczIEMyMi43MjEsMTYuMjczIDI0LjM1OSwxNi4xOTUgMjUuMTI2LDE2LjExNyBDMjYuNTA0LDE1Ljk4NyAyNi41NjksMTUuOTc0IDI2Ljg0MiwxNS45NzQgTDI2Ljc2NCwxNC4yNDUgQzI2LjE5MiwxNC40MTQgMjUuOTA2LDE0LjQ3OSAyNS4yODIsMTQuNTU3IEMyNC4zMzMsMTQuNjg3IDIzLjEzNywxNC43NjUgMjIuMjY2LDE0Ljc2NSBDMjEuMDA1LDE0Ljc2NSAyMC4yNjQsMTQuNjQ4IDIwLjA0MywxNC40MjcgQzE5Ljg2MSwxNC4yNDUgMTkuODA5LDEzLjk1OSAxOS44MDksMTMuMjMxIEMxOS44MDksMTMuMTc5IDE5LjgwOSwxMy4xMDEgMTkuODIyLDEzLjAyMyBMMTkuODIyLDExLjMwNyBDMjEuOTkzLDEwLjkwNCAyNC4wMDgsMTAuMjI4IDI1LjkzMiw5LjI0IEwyNi4yNyw5LjA3MSBDMjYuMzc0LDkuMDE5IDI2LjQsOS4wMDYgMjYuNTQzLDguOTU0IEwyNS41MDMsNy40ODUgQzI0LjY1OCw4LjI3OCAyMS43ODUsOS40MzUgMTkuODIyLDkuNzk5IEwxOS44MjIsNy4xNzMgWiBNMjcuMzEsNC44NzIgQzI2LjQ5MSw0Ljg3MiAyNS44MTUsNS41NDggMjUuODE1LDYuMzY3IEMyNS44MTUsNy4xOTkgMjYuNDkxLDcuODc1IDI3LjMxLDcuODc1IEMyOC4xNDIsNy44NzUgMjguODE4LDcuMTk5IDI4LjgxOCw2LjM2NyBDMjguODE4LDUuNTQ4IDI4LjE0Miw0Ljg3MiAyNy4zMSw0Ljg3MiBMMjcuMzEsNC44NzIgWiBNMjcuMzEsNS41MjIgQzI3Ljc5MSw1LjUyMiAyOC4xNjgsNS44OTkgMjguMTY4LDYuMzY3IEMyOC4xNjgsNi44MzUgMjcuNzkxLDcuMjI1IDI3LjMxLDcuMjI1IEMyNi44NDIsNy4yMjUgMjYuNDY1LDYuODM1IDI2LjQ2NSw2LjM2NyBDMjYuNDY1LDUuODk5IDI2Ljg0Miw1LjUyMiAyNy4zMSw1LjUyMiBMMjcuMzEsNS41MjIgWiBNMzAuNTg2LDcuNjU0IEMzMS43OTUsOC4zMyAzMi44NjEsOS4xODggMzMuOTAxLDEwLjI5MyBMMzUuMDE5LDguODc2IEMzNC4wMTgsNy45MjcgMzMuMjEyLDcuMzI5IDMxLjY2NSw2LjM2NyBMMzAuNTg2LDcuNjU0IFogTTMxLjA0MSwxNi4yMzQgQzMxLjM0LDE2LjEzIDMxLjM3OSwxNi4xMTcgMzEuODk5LDE2LjAxMyBDMzMuOTE0LDE1LjU4NCAzNS41MjYsMTQuOTQ3IDM2Ljg1MiwxNC4wNjMgQzM4LjYzMywxMi44OCAzOS44NjgsMTEuMzQ2IDQwLjk3Myw4Ljk2NyBDNDAuMzEsOC40OTkgNDAuMTAyLDguMzA0IDM5LjU5NSw3LjY5MyBDMzkuMjA1LDguNzQ2IDM4Ljg0MSw5LjQ2MSAzOC4yNjksMTAuMjkzIEMzNy4yNDIsMTEuNzc1IDM2LjAzMywxMi43NzYgMzQuNDA4LDEzLjQ3OCBDMzMuMjI1LDEzLjk5OCAzMS42NzgsMTQuMzc1IDMwLjU2LDE0LjQ0IEwzMS4wNDEsMTYuMjM0IFogTTcuNDU4LDAgQzIuNSwwIDAsMy41MjIgMCw2LjQ1OSBDMCw4LjIzNyAwLjY4LDkuODE5IDIuMTM3LDEwLjQwOSBDMi4zNzYsMTAuNTA1IDIuNTksMTAuNDEyIDIuNjYsMTAuMTUgQzIuNzA4LDkuOTY5IDIuODIyLDkuNTExIDIuODczLDkuMzIgQzIuOTQzLDkuMDYxIDIuOTE2LDguOTcgMi43MjMsOC43NDQgQzIuMzAyLDguMjUzIDIuMDM0LDcuNjE3IDIuMDM0LDYuNzE2IEMyLjAzNCw0LjEwNCA0LjAwNywxLjc2NSA3LjE3MiwxLjc2NSBDOS45NzUsMS43NjUgMTEuNTE0LDMuNDYxIDExLjUxNCw1LjcyNiBDMTEuNTE0LDguNzA4IDEwLjE4MywxMS4xOCA4LjIwNiwxMS4xOCBDNy4xMTQsMTEuMTggNi4yOTcsMTAuMzI5IDYuNTU5LDkuMjMzIEM2Ljg3Miw3LjkyMiA3LjQ4LDYuNTA5IDcuNDgsNS41NjQgQzcuNDgsNC43MTcgNy4wMjIsNC4wMTEgNi4wNzIsNC4wMTEgQzQuOTU2LDQuMDExIDQuMDYsNS4xNTUgNC4wNiw2LjY4NyBDNC4wNiw3LjY2MyA0LjM5Myw4LjMyMyA0LjM5Myw4LjMyMyBDNC4zOTMsOC4zMjMgMy4yNTEsMTMuMTE3IDMuMDUxLDEzLjk1NyBDMi42NTIsMTUuNjI5IDIuOTkxLDE3LjY3OSAzLjAxOSwxNy44ODYgQzMuMDM2LDE4LjAwOSAzLjE5NSwxOC4wMzggMy4yNjcsMTcuOTQ2IEMzLjM3LDE3LjgxMiA0LjcsMTYuMTg3IDUuMTUxLDE0LjU2MiBDNS4yNzksMTQuMTAyIDUuODg1LDExLjcyIDUuODg1LDExLjcyIEM2LjI0OCwxMi40MDYgNy4zMDgsMTMuMDA5IDguNDM1LDEzLjAwOSBDMTEuNzksMTMuMDA5IDE0LjA2Niw5Ljk3OSAxNC4wNjYsNS45MjMgQzE0LjA2NiwyLjg1NyAxMS40NDQsMCA3LjQ1OCwwIFoiIGZpbGw9IiNmZmYiPjwvcGF0aD48L2c+PC9zdmc+);\n}\n
+  .PIN_1552922146176_button_pin.PIN_1552922146176_white { \n  background-color: #fff;\n}\n
+  .PIN_1552922146176_button_pin.PIN_1552922146176_save { \n  border-radius: 2px;\n
+  \ text-indent: 20px;\n  width: auto;\n  padding: 0 4px 0 0;\n  text-align: center;\n
+  \ text-decoration: none;\n  font: 11px/20px \"Helvetica Neue\", Helvetica, sans-serif;\n
+  \ font-weight: bold;\n  color: #fff!important;\n  background: #e60023 url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==)
+  3px 50% no-repeat;\n  background-size: 14px 14px;\n  -webkit-font-smoothing: antialiased;\n}\n
+  .PIN_1552922146176_button_pin.PIN_1552922146176_save:hover { \n  background-color:
+  #e60023;\n  box-shadow: none;\n  color: #fff!important;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_save
+  .PIN_1552922146176_count { \n  text-indent: 0;\n  position: absolute;\n  color:
+  #555;\n  background: #efefef;\n  border-radius: 2px;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_save
+  .PIN_1552922146176_count::before { \n  content: \"\";\n  position: absolute;\n}\n
+  .PIN_1552922146176_button_pin.PIN_1552922146176_save.PIN_1552922146176_beside .PIN_1552922146176_count
+  { \n  right: -46px;\n  height: 20px;\n  width: 40px;\n  font-size: 10px;\n  line-height:
+  20px;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_save.PIN_1552922146176_beside
+  .PIN_1552922146176_count::before { \n  top: 3px;\n  left: -4px;\n  border-right:
+  7px solid #efefef;\n  border-top: 7px solid transparent;\n  border-bottom: 7px solid
+  transparent;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_save.PIN_1552922146176_above
+  .PIN_1552922146176_count { \n  top: -36px;\n  width: 100%;\n  height: 30px;\n  font-size:
+  10px;\n  line-height: 30px;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_save.PIN_1552922146176_above
+  .PIN_1552922146176_count::before { \n  bottom: -4px;\n  left: 4px;\n  border-top:
+  7px solid #efefef;\n  border-right: 7px solid transparent;\n  border-left: 7px solid
+  transparent;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_save.PIN_1552922146176_above.PIN_1552922146176_padded
+  { \n  margin-top: 28px;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_tall
+  { \n  height: 28px;\n  width: 56px;\n  border-radius: 3px;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_tall.PIN_1552922146176_above
+  .PIN_1552922146176_count { \n  position: absolute;\n  height: 37px;\n  width: inherit;\n
+  \ top: -37px;\n  left: 0;\n  line-height: 30px;\n  font-size: 14px;\n  background:
+  transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNzZweCIgd2lkdGg9IjExNHB4IiB2aWV3Qm94PSIwIDAgMTE0IDc2Ij48Zz48cGF0aCBkPSJNOSAxQzQuNiAxIDEgNC42IDEgOXY0M2MwIDQuMyAzLjYgOCA4IDhoMjZsMTggMTVoNy41bDE2LTE1SDEwNWM0LjQgMCA4LTMuNyA4LThWOWMwLTQuNC0zLjYtOC04LThIOXoiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I1YjViNSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+PC9nPjwvc3ZnPg==);\n
+  \ background-size: cover;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_tall.PIN_1552922146176_above.PIN_1552922146176_padded
+  { \n  margin-top: 37px;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_tall.PIN_1552922146176_beside
+  .PIN_1552922146176_count { \n  text-indent: 5px;\n  position: absolute;\n  right:
+  -63px;\n  height: inherit;\n  width: 63px;\n  font-size: 14px;\n  line-height: 28px;\n
+  \ background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNTZweCIgd2lkdGg9IjEyNnB4IiB2aWV3Qm94PSIyIDAgMTMwIDYwIj48Zz48cGF0aCBkPSJNMTE5LjYgMmM0LjUgMCA4IDMuNiA4IDh2NDBjMCA0LjQtMy41IDgtOCA4SDIzLjNMMS42IDMyLjR2LTQuNkwyMy4zIDJoOTYuM3oiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2I1YjViNSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+PC9nPjwvc3ZnPg==);\n
+  \ background-size: cover;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_tall.PIN_1552922146176_beside.PIN_1552922146176_padded
+  { \n  margin-right: 63px;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_tall.PIN_1552922146176_save
+  { \n  border-radius: 4px;\n  width: auto;\n  background-position-x: 6px;\n  background-size:
+  18px 18px;\n  text-indent: 29px;\n  font: 14px/28px \"Helvetica Neue\", Helvetica,
+  Arial, \"sans-serif\";\n  font-weight: bold;\n  padding: 0 6px 0 0;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_tall.PIN_1552922146176_save
+  .PIN_1552922146176_count { \n  position: absolute;\n  color: #555;\n  font-size:
+  12px;\n  text-indent: 0;\n  background: #efefef;\n  border-radius: 4px;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_tall.PIN_1552922146176_save
+  .PIN_1552922146176_count::before { \n  content: \"\";\n  position: absolute;\n}\n
+  .PIN_1552922146176_button_pin.PIN_1552922146176_tall.PIN_1552922146176_save.PIN_1552922146176_above
+  .PIN_1552922146176_count { \n  font-size: 14px;\n  top: -50px;\n  width: 100%;\n
+  \ height: 44px;\n  line-height: 44px;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_tall.PIN_1552922146176_save.PIN_1552922146176_above
+  .PIN_1552922146176_count::before { \n  bottom: -4px;\n  left: 7px;\n  border-top:
+  7px solid #efefef;\n  border-right: 7px solid transparent;\n  border-left: 7px solid
+  transparent;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_tall.PIN_1552922146176_save.PIN_1552922146176_beside
+  .PIN_1552922146176_count { \n  font-size: 14px;\n  right: -63px;\n  width: 56px;\n
+  \ height: 28px;\n  line-height: 28px;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_tall.PIN_1552922146176_save.PIN_1552922146176_beside
+  .PIN_1552922146176_count::before { \n  top: 7px;\n  left: -4px;\n  border-right:
+  7px solid #efefef;\n  border-top: 7px solid transparent;\n  border-bottom: 7px solid
+  transparent;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_round { \n  height:
+  16px;\n  width: 16px;\n  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjZTYwMDIzIj48L3BhdGg+PC9nPjwvc3ZnPg==)
+  0 0 no-repeat;\n  background-size: 16px 16px;\n  box-shadow: none;\n}\n .PIN_1552922146176_button_pin.PIN_1552922146176_round.PIN_1552922146176_tall
+  { \n  height: 32px;\n  width: 32px;\n  background-size: 32px 32px;\n}\n</style><script
+  src=\"//rvw.disqus.com/count-data.js?1=%2Fcooking%2Ffeatures%2Fwhat-is-sous-vide-cooking\"></script><link
+  rel=\"preload\" as=\"style\" href=\"https://c.disquscdn.com/next/embed/styles/lounge.9974049bf7b0591e5d4f055cb67f3ee3.css\"><link
+  rel=\"preload\" as=\"script\" href=\"https://c.disquscdn.com/next/embed/common.bundle.880980e048a2432334f13013030456ac.js\"><link
+  rel=\"preload\" as=\"script\" href=\"https://c.disquscdn.com/next/embed/lounge.bundle.7ca5005d1897180d07d928e89d2628be.js\"><link
+  rel=\"preload\" as=\"script\" href=\"https://disqus.com/next/config.js\"><script
+  type=\"text/javascript\" async=\"\" charset=\"utf-8\" src=\"//tags.tiqcdn.com/utag/gci/reviewed.com/prod/utag.10.js?utv=ut4.39.201809251449\"
+  id=\"utag_gci.reviewed.com_10\"></script><script type=\"text/javascript\" async=\"\"
+  charset=\"utf-8\" src=\"//tags.tiqcdn.com/utag/gci/reviewed.com/prod/utag.23.js?utv=ut4.39.201903071726\"
+  id=\"utag_gci.reviewed.com_23\"></script></head>\n\n<body class=\"body-cooking ctrl-articles
+  method-show \" data-pin-hover=\"true\">      <!-- Google Tag Manager -->\n  <noscript><iframe
+  src=\"//www.googletagmanager.com/ns.html?id=GTM-KB4CSW\"\n  height=\"0\" width=\"0\"
+  style=\"display:none;visibility:hidden\"></iframe></noscript>\n  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n
+  \ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n
+  \ '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n
+  \ })(window,document,'script','dataLayer','GTM-KB4CSW');</script>\n  <!-- End Google
+  Tag Manager -->\n\n      <script src=\"https://login.gcion.com/resources/kit/js/jqnoconflict.common.min.js\"></script>\n
+  \ <script>\n\n    // Some stuff makes it to omniture via a window.utag_data object\n
+  \   // Some stuff comes through an object that window.stateManager.getActivePageInfo()
+  returns\n    window.utag_data = {};\n    var pageInfo = {};\n    window.stateManager
+  = {\n      getActivePageInfo: function() {\n        return pageInfo;\n      }\n
+  \   };\n\n    window.utag_data.page_domain = document.location.host;\n    window.utag_data.full_url
+  = document.location.href;\n    window.utag_data.device = window.innerWidth > 979
+  ? 'desktop' : (window.innerWidth > 767 ? 'tablet' : 'mobile');\n    window.utag_data[\"cp.marketName\"]
+  = \"reviewed.com\";\n\n    var cat = \"cooking\";\n\n    if (cat) {\n      window.utag_data.cst
+  = cat + \"/\" + cat + \"/\" + cat;\n      pageInfo.ssts = \"reviewed/cooking\";\n
+  \   }\n\n      window.utag_data.published_date = \"2019-03-04t22:14:21.215000000\"\n\n
+  \     window.utag_data.assetid = 22464;\n      window.utag_data.content_type = \"features\";\n
+  \     window.utag_data.author = \"Rachael Priore\";\n      window.utag_data.headline
+  = \"It&#39;s not as confusing as it sounds.\";\n\n      pageInfo.headline = \"It's
+  not as confusing as it sounds.\";\n      pageInfo.assetid = 22464;\n      pageInfo.contenttype
+  = \"how-to\";\n      pageInfo.byline = \"Rachael Priore\";\n        pageInfo.taxonomykeywords
+  = \"how-to,cooking\";\n\n\n\n    require(['gdp-usf/kit/js/user_factory_def', 'gdp-usf/ui/js/jquery'],
+  function(UserFactory, jQuery) {\n      var userFactory = new UserFactory(JSON.parse('{}')),\n
+  \         gupRootDomain = 'usatoday.com',\n          gupUAID = 'USAT-GUP-REVIEWED';\n\n
+  \     userFactory.fetch(gupRootDomain, gupUAID, function(user) {\n        window.utag_data
+  = (typeof window.utag_data === 'object') ? window.utag_data : {};\n        window.utag_data['gup_anonid']
+  = user.data.response.anonymousId;\n\n        if (user.data.response.insights) {\n
+  \           window.utag_data['gupInsights_doLookALike'] = user.data.response.insights.doLookALike
+  || '';\n            window.utag_data['gupInsights_benefitSegment'] = user.data.response.insights.benefitSegment
+  || '';\n        }\n        var envs = {development: \"dev\", staging: \"qa\", production:
+  \"prod\"};\n        jQuery.getScript('https://tags.tiqcdn.com/utag/gci/reviewed.com/'
+  + envs[js_vars.env] + '/utag.js');\n      });\n    });\n    window.require = undefined;\n
+  \   window.define = undefined;\n  </script>\n\n    <script async=\"async\" src=\"//cdn.adsafeprotected.com/iasPET.1.js\"></script>\n\n
+  \     <div id=\"background_1-lazy\" class=\"ad_background_1\" data-placement=\"background\"
+  data-gad-mobile=\"false\" data-gad-desktop=\"true\" data-gad-unit=\"true\" data-gad-sizes=\"[[1440,1000]]\"></div>\n\n\n
+  \ <link href=\"https://plus.google.com/+Reviewedcom/\" rel=\"publisher\">\n\n  <header>\n
+  \ <div class=\"navbar navbar-fixed-top admin\">\n    <div class=\"navbar-inner\">\n
+  \     <div id=\"admin_bar\"></div>\n    </div>\n  </div>\n\n  <div class=\"navbar
+  navbar-inverse navbar-fixed-top visible-desktop text-center\">\n      <a class=\"logo
+  visible-desktop\" href=\"https://www.reviewed.com\"><img width=\"141\" height=\"35\"
+  alt=\"Reviewed\" srcset=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--ukGE8ctt--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,q_auto/https://www.reviewed.com/assets/new-desktop-header-5c39426c3ba6b85833db9567e9baff39f7839dc92aa9b88a3cfaa1da6bec8f3f.png
+  1x, https://reviewed-com-res.cloudinary.com/image/fetch/s--MUWPthJi--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,q_auto/https://www.reviewed.com/assets/new-desktop-header-retina-2550effc8ad7cf8bfe63f6dd4c366fe4ff35e01886f290e91c3ac4f0a0032945.png
+  2x\" src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--ukGE8ctt--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,q_auto/https://www.reviewed.com/assets/new-desktop-header-5c39426c3ba6b85833db9567e9baff39f7839dc92aa9b88a3cfaa1da6bec8f3f.png\"></a>\n
+  \ </div>\n\n  <div class=\"navbar navbar-fixed-top primary\">\n    <div class=\"navbar-inner\">\n\n
+  \     <a class=\"btn btn-navbar hidden-desktop toggle-button\">\n        <span class=\"icon-bar\"></span>\n
+  \       <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n
+  \       Menu\n      </a>\n\n      <a class=\"logo hidden-desktop\" href=\"https://www.reviewed.com\"><img
+  width=\"131\" height=\"22\" alt=\"Reviewed\" srcset=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--GnRMPnDo--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,q_auto/https://www.reviewed.com/assets/mobile-header-131x22-9d06c91423c9d18833327e43c040ca02d48294f92c45b8ade49da43e04402360.png
+  1x, https://reviewed-com-res.cloudinary.com/image/fetch/s--t4MKRMmj--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,q_auto/https://www.reviewed.com/assets/mobile-header-retina-262x44-80c93351876410c03fd58b04218cf37f94c39c155fcad9ac8884038646ca9dc0.png
+  2x\" src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--GnRMPnDo--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,q_auto/https://www.reviewed.com/assets/mobile-header-131x22-9d06c91423c9d18833327e43c040ca02d48294f92c45b8ade49da43e04402360.png\"></a>\n\n
+  \     <ul class=\"inline visible-desktop\">\n        <li class=\"nav-grid-container\">\n
+  \         <span></span>\n            <ul class=\"unstyled nav-dropdown\">\n              <li
+  class=\"nav-dropbtn\">\n                <a href=\"/tech\">Tech</a>\n              </li>\n
+  \             <li class=\"nav-dropdown-content\">\n                  <a href=\"/headphones\">Headphones</a>\n
+  \                 <a href=\"/smartphones\">Smartphones</a>\n                  <a
+  href=\"/laptops\">Laptops</a>\n                  <a href=\"/tablets\">Tablets</a>\n
+  \                 <a href=\"/cameras\">Cameras</a>\n                  <a href=\"/lenses\">Lenses</a>\n
+  \                 <a href=\"/camcorders\">Camcorders</a>\n                <a class=\"col-head-nav\"
+  href=\"/tech\">\n                    All Tech\n</a>              </li>\n            </ul>\n
+  \           <ul class=\"unstyled nav-dropdown\">\n              <li class=\"nav-dropbtn\">\n
+  \               <a href=\"/cooking\">Kitchen &amp; Cooking</a>\n              </li>\n
+  \             <li class=\"nav-dropdown-content\">\n                  <a href=\"/dishwashers\">Dishwashers</a>\n
+  \                 <a href=\"/refrigerators\">Refrigerators</a>\n                  <a
+  href=\"/ovens\">Ovens</a>\n                  <a href=\"/microwaves\">Microwaves</a>\n
+  \                 <a href=\"/freezers\">Freezers</a>\n                  <a href=\"/luxuryhome\">Luxury
+  Appliances</a>\n                <a class=\"col-head-nav\" href=\"/cooking\">\n                    All
+  Kitchen &amp; Cooking\n</a>              </li>\n            </ul>\n            <ul
+  class=\"unstyled nav-dropdown\">\n              <li class=\"nav-dropbtn\">\n                <a
+  href=\"/laundry-cleaning\">Laundry &amp; Cleaning</a>\n              </li>\n              <li
+  class=\"nav-dropdown-content\">\n                  <a href=\"/laundry\">Laundry</a>\n
+  \                 <a href=\"/vacuums\">Vacuums</a>\n                  <a href=\"/robotvacuums\">Robot
+  Vacuums</a>\n                <a class=\"col-head-nav\" href=\"/laundry-cleaning\">\n
+  \                   All Laundry &amp; Cleaning\n</a>              </li>\n            </ul>\n
+  \           <ul class=\"unstyled nav-dropdown\">\n              <li class=\"nav-dropbtn\">\n
+  \               <a href=\"/home-outdoors\">Home &amp; Outdoors</a>\n              </li>\n
+  \             <li class=\"nav-dropdown-content\">\n                  <a href=\"/smarthome\">Smart
+  Home</a>\n                  <a href=\"/cars\">Cars</a>\n                <a class=\"col-head-nav\"
+  href=\"/home-outdoors\">\n                    All Home &amp; Outdoors\n</a>              </li>\n
+  \           </ul>\n            <ul class=\"unstyled nav-dropdown\">\n              <li
+  class=\"nav-dropbtn\">\n                <a href=\"/lifestyle\">Lifestyle</a>\n              </li>\n
+  \             <li class=\"nav-dropdown-content\">\n                  <a href=\"/beauty\">Beauty</a>\n
+  \                 <a href=\"/health\">Health</a>\n                  <a href=\"/sleep\">Sleep</a>\n
+  \                 <a href=\"/wearables\">Wearables</a>\n                <a class=\"col-head-nav\"
+  href=\"/lifestyle\">\n                    All Lifestyle\n</a>              </li>\n
+  \           </ul>\n            <ul class=\"unstyled nav-dropdown\">\n              <li
+  class=\"nav-dropbtn\">\n                <a href=\"/home-theater\">Home Theater</a>\n
+  \             </li>\n              <li class=\"nav-dropdown-content\">\n                  <a
+  href=\"/televisions\">Televisions</a>\n                <a class=\"col-head-nav\"
+  href=\"/home-theater\">\n                    All Home Theater\n</a>              </li>\n
+  \           </ul>\n            <ul class=\"unstyled nav-dropdown\">\n              <li
+  class=\"nav-dropbtn\">\n                <a href=\"/parenting\">Parenting</a>\n              </li>\n
+  \             <li class=\"nav-dropdown-content\">\n                <a class=\"col-head-nav\"
+  href=\"/parenting\">\n                    All Parenting\n</a>              </li>\n
+  \           </ul>\n\n          <ul class=\"unstyled nav-dropdown\" id=\"search-delay\">\n
+  \           <li>\n              <i class=\"fa fa-search search-icon nav-dropbtn\"></i>\n
+  \           </li>\n            <li class=\"nav-dropdown-content search-container\">\n
+  \             <div class=\"searchbox dropdown ng-scope\" id=\"search-top\">\n  <typeahead
+  placeholder=\"Search\" category=\"cooking\" algolia-app-id=\"M5OIGTW601\" algolia-search-key=\"a98afffe5a350b389f931e5ed811c546\"
+  algolia-env=\"production\"><div id=\"main-search\">\n  <form action=\"/search\"
+  method=\"GET\" class=\"ng-pristine ng-invalid ng-invalid-required\">\n    <span
+  class=\"twitter-typeahead\" style=\"position: relative; display: inline-block;\"><input
+  type=\"Search\" name=\"keywords\" ng-model=\"keywords\" id=\"search-field\" placeholder=\"Search\"
+  autocomplete=\"off\" required=\"true\" class=\"ng-pristine tt-input ng-invalid ng-invalid-required\"
+  spellcheck=\"false\" dir=\"auto\" style=\"position: relative; vertical-align: top;\"><pre
+  aria-hidden=\"true\" style=\"position: absolute; visibility: hidden; white-space:
+  nowrap; font-family: Arial; font-size: 13.3333px; font-style: normal; font-variant:
+  normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px;
+  text-rendering: auto; text-transform: none;\"></pre><span class=\"tt-dropdown-menu\"
+  style=\"position: absolute; top: 100%; left: 0px; z-index: 100; display: none;\"><div
+  class=\"tt-dataset-0\"></div></span></span>\n  </form>\n</div></typeahead></div>\n
+  \           </li>\n          </ul>\n        </li>\n      </ul>\n    </div>\n  </div>\n\n
+  \ <div class=\"slideout slideout-menu\">\n    <ul class=\"unstyled\">\n        <li
+  class=\"category\">\n          <a href=\"https://www.reviewed.com/tech\">\n            Tech\n</a>
+  \       </li>\n        <li class=\"categories\">\n            <a href=\"https://www.reviewed.com/headphones\">Headphones</a>\n
+  \           <a href=\"https://www.reviewed.com/smartphones\">Smartphones</a>\n            <a
+  href=\"https://www.reviewed.com/laptops\">Laptops</a>\n            <a href=\"https://www.reviewed.com/tablets\">Tablets</a>\n
+  \           <a href=\"https://www.reviewed.com/cameras\">Cameras</a>\n            <a
+  href=\"https://www.reviewed.com/lenses\">Lenses</a>\n            <a href=\"https://www.reviewed.com/camcorders\">Camcorders</a>\n
+  \       </li>\n        <li class=\"category\">\n          <a href=\"https://www.reviewed.com/cooking\">\n
+  \           Kitchen &amp; Cooking\n</a>        </li>\n        <li class=\"categories\">\n
+  \           <a href=\"https://www.reviewed.com/dishwashers\">Dishwashers</a>\n            <a
+  href=\"https://www.reviewed.com/refrigerators\">Refrigerators</a>\n            <a
+  href=\"https://www.reviewed.com/ovens\">Ovens</a>\n            <a href=\"https://www.reviewed.com/microwaves\">Microwaves</a>\n
+  \           <a href=\"https://www.reviewed.com/freezers\">Freezers</a>\n            <a
+  href=\"https://www.reviewed.com/luxuryhome\">Luxury Appliances</a>\n        </li>\n
+  \       <li class=\"category\">\n          <a href=\"https://www.reviewed.com/laundry-cleaning\">\n
+  \           Laundry &amp; Cleaning\n</a>        </li>\n        <li class=\"categories\">\n
+  \           <a href=\"https://www.reviewed.com/laundry\">Laundry</a>\n            <a
+  href=\"https://www.reviewed.com/vacuums\">Vacuums</a>\n            <a href=\"https://www.reviewed.com/robotvacuums\">Robot
+  Vacuums</a>\n        </li>\n        <li class=\"category\">\n          <a href=\"https://www.reviewed.com/home-outdoors\">\n
+  \           Home &amp; Outdoors\n</a>        </li>\n        <li class=\"categories\">\n
+  \           <a href=\"https://www.reviewed.com/smarthome\">Smart Home</a>\n            <a
+  href=\"https://www.reviewed.com/cars\">Cars</a>\n        </li>\n        <li class=\"category\">\n
+  \         <a href=\"https://www.reviewed.com/lifestyle\">\n            Lifestyle\n</a>
+  \       </li>\n        <li class=\"categories\">\n            <a href=\"https://www.reviewed.com/beauty\">Beauty</a>\n
+  \           <a href=\"https://www.reviewed.com/health\">Health</a>\n            <a
+  href=\"https://www.reviewed.com/sleep\">Sleep</a>\n            <a href=\"https://www.reviewed.com/wearables\">Wearables</a>\n
+  \       </li>\n        <li class=\"category\">\n          <a href=\"https://www.reviewed.com/home-theater\">\n
+  \           Home Theater\n</a>        </li>\n        <li class=\"categories\">\n
+  \           <a href=\"https://www.reviewed.com/televisions\">Televisions</a>\n        </li>\n
+  \       <li class=\"category\">\n          <a href=\"https://www.reviewed.com/parenting\">\n
+  \           Parenting\n</a>        </li>\n        <li class=\"categories\">\n        </li>\n
+  \   </ul>\n  </div>\n</header>\n\n\n  <div class=\"panel slideout-panel\">\n    <div
+  class=\"panel-mask\"></div>\n      <div id=\"ad_preheader\" class=\"hidden-phone
+  adwrap\" hidden=\"\" mr7v0nq=\"\">\n            <div id=\"leaderboard_1\" class=\"ad_leaderboard_1\"
+  data-placement=\"leaderboard\" data-gad-mobile=\"false\" data-gad-desktop=\"true\"
+  data-gad-unit=\"true\" data-gad-sizes=\"[[728,90],[970,250],[970,90],&quot;fluid&quot;]\"></div>\n\n
+  \     </div>\n    <div class=\"main container\">\n      <!--[if lte IE 9]>\n  <link
+  rel=\"stylesheet\" media=\"screen\" href=\"/assets/outdated-73342abf666b6e013aa23888de522834ac5746d10e41e54c3620711b63f2e153.css\"
+  />\n  <div class=\"alert IE9\"><strong></strong></div>\n<![endif]-->\n\n        \n<div
+  id=\"notifications\">\n</div>\n\n\n      <div class=\"row\">\n          <div class=\"span16\">\n
+  \           <div id=\"content\" class=\"articles show ng-scope\"><div class=\"adwrap
+  \ mobile\" hidden=\"\" mr7v0nq=\"\">\n  <div class=\"adlabel\">Advertisement<span
+  class=\"continue-reading\"> - Continue Reading Below</span></div>\n  <div class=\"placeholder\">\n
+  \       <div id=\"rectangle_1\" class=\"ad_rectangle_1\" data-placement=\"rectangle\"
+  data-gad-mobile=\"true\" data-gad-desktop=\"true\" data-gad-unit=\"true\" data-gad-sizes=\"[[300,250],[300,600],[336,280],[468,60],&quot;fluid&quot;]\"></div>\n\n
+  \ </div>\n</div>\n\n\n\n\n<span class=\"article how-to\" itemscope=\"itemscope\"
+  itemtype=\"https://schema.org/Article\">\n  <div class=\"header\">\n  \n  <h1 itemprop=\"name\">What
+  exactly is sous vide cooking, anyway?</h1>\n\n\n\n\n  <h2 itemprop=\"headline\">It's
+  not as confusing as it sounds.</h2>\n\n</div>\n\n<div class=\"social-header\">\n
+  \ <div class=\"social-icons\">\n    <span class=\"fa-stack facebook\">\n  <i class=\"fa
+  fa-circle fa-stack-2x\"></i>\n  <a class=\"addthis_button_facebook fa fa-facebook
+  fa-stack-1x fa-inverse\"><span></span></a>\n</span>\n<span class=\"fa-stack twitter\">\n
+  \ <i class=\"fa fa-circle fa-stack-2x\"></i>\n  <a class=\"addthis_button_twitter
+  fa fa-twitter fa-stack-1x fa-inverse\"><span></span></a>\n</span>\n<span class=\"fa-stack
+  pinterest\">\n  <i class=\"fa fa-circle fa-stack-2x\"></i>\n  <a class=\"addthis_button_pinterest_share
+  fa fa-pinterest-p fa-stack-1x fa-inverse\"><span></span></a>\n</span>\n<span class=\"fa-stack
+  email\">\n  <i class=\"fa fa-circle fa-stack-2x\"></i>\n  <a class=\"addthis_button_email
+  fa fa-envelope fa-stack-1x fa-inverse\"><span></span></a>\n</span>\n\n  </div>\n\n
+  \ <span class=\"article-comments\">\n    <i class=\"fa fa-comments\" aria-hidden=\"true\"></i>\n
+  \   <a data-disqus-identifier=\"/cooking/features/what-is-sous-vide-cooking\">0
+  Comments</a>\n  </span>\n</div>\n\n\n  <div class=\"flexrow\">\n    <div class=\"colContent
+  \">\n      <meta itemprop=\"datePublished\" content=\"March 04, 2019\">\n      <div
+  class=\"product_body\">\n        <div class=\"heropic\">\n  <img alt=\"\" class=\"
+  lazyloaded\" itemprop=\"image\" secure=\"true\" src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--cG7JE1FV--/b_white,c_fill,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_747/https://reviewed-production.s3.amazonaws.com/1551381840182/sous-vide-lead.jpg\"
+  data-src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--cG7JE1FV--/b_white,c_fill,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_747/https://reviewed-production.s3.amazonaws.com/1551381840182/sous-vide-lead.jpg\">\n\n
+  \   <div class=\"credit\">Credit: \n      <a href=\"https://anovaculinary.com/\"
+  target=\"_blank\">Anova Culinary</a>\n    </div>\n</div>\n\n\n\n\n        \n        \n<div
+  class=\"author\" itemprop=\"author\" itemscope=\"\" itemtype=\"https://schema.org/Person\">\n
+  \   <a itemprop=\"url\" class=\"author-photo\" href=\"/authors/rachael-priore\"><img
+  itemprop=\"image\" alt=\"Rachael Priore\" class=\" lazyloaded\" src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--RJGQbG6X--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,h_62,q_auto,w_62/https://reviewed-production.s3.amazonaws.com/1550688925451/Rachael.jpg\"
+  data-src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--RJGQbG6X--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,h_62,q_auto,w_62/https://reviewed-production.s3.amazonaws.com/1550688925451/Rachael.jpg\"></a>\n\n
+  \ <div class=\"author-byline-social stacked\">\n    \n<p class=\"author-byline \">\n
+  \ <strong itemprop=\"name\">\n     <a href=\"/authors/rachael-priore\">Rachael Priore</a>\n
+  \ </strong>\n</p>\n\n    March 04, 2019\n\n      <div class=\"social author-social\">\n
+  \   <a href=\"http://twitter.com/fitspiredtravlr\" target=\"_blank\">\n      <span
+  class=\"fa-stack twitter\">\n        <i class=\"fa fa-circle fa-stack-2x\"></i>\n
+  \       <i class=\"fa fa-twitter fa-stack-1x fa-inverse\"></i>\n      </span>\n
+  \     <span class=\"social-application-name\">Twitter</span>\n</a></div>\n\n  </div>\n</div>\n\n\n
+  \       <div class=\"disclaimer\">\n  Our editors review and recommend products
+  to help you buy the stuff you need. If you make a purchase by clicking one of our
+  links, we may earn a small share of the revenue. Our picks and opinions are independent
+  from any business incentives.\n</div>\n\n\n          <div class=\"read-more-external\"
+  itemprop=\"articleBody\">\n              <a name=\"section_untitled-section\"></a>\n<div
+  class=\"page_section\" id=\"section_106331\">\n  <p>If you’ve been to Starbucks
+  recently, you may have seen their popular Sous Vide Egg Bites, which look like mini
+  egg-muffins. However, they don’t get their name for being bite-sized. </p>\n\n<p>Sous
+  vide is actually a method of cooking—in French, it literally means “under vacuum.”
+  \ Essentially, sous vide is the process of boiling food within a sealed pouch, and
+  it's become trendy in the past few years thanks to an increase in the number of
+  affordable <a href=\"https://www.reviewed.com/home-outdoors/best-right-now/best-immersion-circulators\">immersion
+  circulators</a> on the market.</p>\n\n<p>If you're interested in sous vide cooking
+  but still have some lingering questions, here's what you need to know about this
+  unique cooking method. </p>\n\n<div class=\"related-article\">   <a href=\"https://www.reviewed.com/home-outdoors/best-right-now/best-immersion-circulators\">
+  \    <div class=\"related-article-widget-grid\">       <img class=\"lazyload\" src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--hM2-n1O2--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,h_70,q_1,w_70/https://reviewed-production.s3.amazonaws.com/1470075552000/Hero-3C7A9612.jpg\"
+  data-src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--_G7mPdbS--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,h_70,q_auto,w_70/https://reviewed-production.s3.amazonaws.com/1470075552000/Hero-3C7A9612.jpg\">
+  \      <div>         <p class=\"append-ad-to-parent\">Related</p>         <div>Best
+  Immersion Circulators of 2019</div>       </div>     </div><div class=\"adwrap  mobile\"
+  hidden=\"\" mr7v0nq=\"\">\n  <div class=\"adlabel\">Advertisement<span class=\"continue-reading\">
+  - Continue Reading Below</span></div>\n  <div class=\"placeholder\">\n        <div
+  id=\"rectangle_2-lazy\" class=\"ad_rectangle_2\" data-placement=\"rectangle\" data-gad-mobile=\"true\"
+  data-gad-desktop=\"true\" data-gad-unit=\"true\" data-gad-sizes=\"[[300,250],[300,600],[336,280],[468,60],&quot;fluid&quot;]\"></div>\n\n
+  \ </div>\n</div>   </a> </div> \n\n<h2>How does sous vide cooking work?</h2>\n\n<figure>
+  \ <div>    <img alt=\"Joule Sous Vide\" class=\"lazyload\" secure=\"true\" src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--ZWCX8GUc--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_1,w_642/https://reviewed-production.s3.amazonaws.com/attachment/46500bfc21364b7d/Joule-Stainless-Cooking-Steak_Cropped.jpg\"
+  data-src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--L4NAmZbY--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_642/https://reviewed-production.s3.amazonaws.com/attachment/46500bfc21364b7d/Joule-Stainless-Cooking-Steak_Cropped.jpg\">
+  \             <div class=\"credit\">Credit:                   <a href=\"https://www.chefsteps.com/joule\"
+  target=\"_blank\">ChefSteps</a>              </div>      </div>        <figcaption><p>Immersion
+  circulators heat the water to cook food precisely.</p></figcaption>  </figure>\n\n<p>Cooking
+  sous vide is actually quite easy if you have a sous vide cooker, aka an immersion
+  circulator. These devices are probe-like heating elements with a built-in thermometer
+  that can be placed within a heat-safe container—typically you mount it to the side
+  of a pot. More sophisticated sous vide cookers come as one unit, with the heating
+  element and container combined—these are called sous vide water ovens.</p>\n\n<p>How
+  does the process work, exactly? Once you select your food and season it to perfection,
+  you place it into a vacuum sealed bag. Alternatively, you can use a zip-top plastic
+  or reusable silicone bag. You'll need to clip the bag to the side of the pot to
+  prevent it from moving around too much. </p><div class=\"adwrap  mobile\" hidden=\"\"
+  mr7v0nq=\"\">\n  <div class=\"adlabel\">Advertisement<span class=\"continue-reading\">
+  - Continue Reading Below</span></div>\n  <div class=\"placeholder\">\n        <div
+  id=\"rectangle_3-lazy\" class=\"ad_rectangle_3\" data-placement=\"rectangle\" data-gad-mobile=\"true\"
+  data-gad-desktop=\"false\" data-gad-unit=\"true\" data-gad-sizes=\"[[300,250],[300,600],[336,280],[468,60],&quot;fluid&quot;]\"></div>\n\n
+  \ </div>\n</div>\n\n<p>From here, all that's left to do is attach your sous vide
+  cooker to the pot and choose the temperature and time indicated on your recipe—your
+  immersion circulator will take care of the rest! The device will maintain a precise
+  temperature, cooking your food more evenly than you could on the stovetop or in
+  the oven. And because it maintains such an exact temperature, you don't have to
+  worry about it overcooking.</p>\n\n<p>Once submerged, it’s best to leave your food
+  in the sous vide cooker until it’s completely done. Interrupting the water bath
+  can result in uneven cooking and prolong its cooking time. </p>\n\n<h2>What foods
+  can be cooked sous vide?</h2>\n\n<figure>  <div>    <img alt=\"What foods to cook
+  sous vide\" class=\"lazyload\" secure=\"true\" src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--SEkN4usI--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_1,w_642/https://reviewed-production.s3.amazonaws.com/attachment/8319d0c2ff474a15/what-to-cook-sous-vide_Cropped.jpg\"
+  data-src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--z3cX6Lvo--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_642/https://reviewed-production.s3.amazonaws.com/attachment/8319d0c2ff474a15/what-to-cook-sous-vide_Cropped.jpg\">
+  \             <div class=\"credit\">Credit:                   <a href=\"chefsteps.com\">ChefSteps</a>
+  \             </div>      </div>        <figcaption><p>Meat responds particularly
+  well to sous vide cooking.</p><div class=\"adwrap  mobile\" hidden=\"\" mr7v0nq=\"\">\n
+  \ <div class=\"adlabel\">Advertisement<span class=\"continue-reading\"> - Continue
+  Reading Below</span></div>\n  <div class=\"placeholder\">\n        <div id=\"rectangle_4-lazy\"
+  class=\"ad_rectangle_4\" data-placement=\"rectangle\" data-gad-mobile=\"true\" data-gad-desktop=\"false\"
+  data-gad-unit=\"true\" data-gad-sizes=\"[[300,250],[300,600],[336,280],[468,60],&quot;fluid&quot;]\"></div>\n\n
+  \ </div>\n</div></figcaption>  </figure>\n\n<p>Some of the most popular foods to
+  cook with an immersion circulator are tougher cuts of meat and fish. Sous vide is
+  perfect for cooking these entrees because the process breaks down the proteins that
+  make meat tough or chewy. Your steak will come out moist, juicy and tender, as its
+  been marinating in its own juices, and you can then finish it off by searing or
+  grilling it for a crispy exterior. </p>\n\n<p>Cooking eggs sous vide actually makes
+  a lot of sense, as well, as the process is fairly similar to hard boiling or poaching
+  them. Eggs respond well to the sous vide process and come out deliciously fluffy—go
+  try the Starbucks Sous Vide Egg Bites and you'll see what we mean. </p>\n\n<p>Finally,
+  sous vide cooking is also popular with crunchy vegetables such as carrots or green
+  beans. However, most recipes call for a pan-fried finish for added flavor and crunch.
+  \ </p><div class=\"adwrap  mobile\" hidden=\"\" mr7v0nq=\"\">\n  <div class=\"adlabel\">Advertisement<span
+  class=\"continue-reading\"> - Continue Reading Below</span></div>\n  <div class=\"placeholder\">\n
+  \       <div id=\"rectangle_5-lazy\" class=\"ad_rectangle_5\" data-placement=\"rectangle\"
+  data-gad-mobile=\"true\" data-gad-desktop=\"false\" data-gad-unit=\"true\" data-gad-sizes=\"[[300,250],[300,600],[336,280],[468,60],&quot;fluid&quot;]\"></div>\n\n
+  \ </div>\n</div>\n\n<p>Sous vide is <strong>not</strong> recommended for lean meat,
+  fruit, or soft vegetables, as foods that are already soft tend to turn out mushy.
+  Stay away from adding dairy to your sous vide pouch, as milk and cheese can curdle.
+  </p>\n\n<h2>Can you cook sous vide without an immersion circulator?</h2>\n\n<p>Technically,
+  yes. It's possible to use your stovetop or even a slow cooker in place of a sous
+  vide cooker. However, this will likely be a painfully slow, inefficient process
+  with a high margin for error. It will require constant monitoring and adjusting
+  to keep the water at the exact temperature, and we wouldn't recommend it for everyday
+  cooking. You're much better off buying an immersion circulator or just using traditional
+  cooking methods. </p>\n\n<h2>Pros and cons of sous vide</h2>\n\n<figure>  <div>
+  \   <img alt=\"Sous vide cooking\" class=\"lazyload\" secure=\"true\" src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--Ig_62ELa--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_1,w_642/https://reviewed-production.s3.amazonaws.com/attachment/23ee120dd2b6441b/sous-vide.jpg\"
+  data-src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--_sqJEEbf--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_642/https://reviewed-production.s3.amazonaws.com/attachment/23ee120dd2b6441b/sous-vide.jpg\">
+  \             <div class=\"credit\">Credit:                   <a href=\"https://www.nomiku.com/\"
+  target=\"_blank\">Nomiku</a>              </div>      </div>        <figcaption><p>Sous
+  vide might not be the fastest cooking method, but it yields precise results.</p><div
+  class=\"adwrap  mobile\" hidden=\"\" mr7v0nq=\"\">\n  <div class=\"adlabel\">Advertisement<span
+  class=\"continue-reading\"> - Continue Reading Below</span></div>\n  <div class=\"placeholder\">\n
+  \       <div id=\"rectangle_6-lazy\" class=\"ad_rectangle_6\" data-placement=\"rectangle\"
+  data-gad-mobile=\"true\" data-gad-desktop=\"false\" data-gad-unit=\"true\" data-gad-sizes=\"[[300,250],[300,600],[336,280],[468,60],&quot;fluid&quot;]\"></div>\n\n
+  \ </div>\n</div></figcaption>  </figure>\n\n<p>As with any cooking method, there
+  are benefits and drawbacks of cooking sous vide. You'll want to consider these pros
+  and cons as you decide whether an immersion circulator would be a worthwhile investment.
+  </p>\n\n<h3>Pros</h3>\n\n<ul>\n<li><strong>Precision:</strong> The main perk of
+  the sous vide method is you can control the exact doneness of the food. When you're
+  grilling, sauteing or baking, you end up using the guess-and-check method, which
+  can leave your food under- or overcooked if you leave it in for a minute too long.</li>\n<li><strong>Set
+  it and forget it:</strong> There's no need to constantly monitor your sous vide
+  cooker, allowing you to get other things done while your meal cooks.</li>\n<li><strong>Superior
+  taste:</strong> Many people think meats cooked sous vide retain more flavor and
+  juice, leading to a tastier end result.</li>\n</ul>\n\n<h3>Cons</h3>\n\n<ul>\n<li><strong>Time-consuming:</strong>
+  Sous vide is a slower process than other cooking methods. For example, a chicken
+  breast that takes 15 minutes to cook in the oven will take around an hour and a
+  half to cook with your immersion circulator. If you're in a rush, sous vide isn't
+  the way to go. </li>\n<li><strong>Limited to one item:</strong> Because sous vide
+  cooking requires precise temperature and time, you can really only cook one type
+  of food at a time. This can be challenging if you are hosting a large group and
+  need to cook several dishes.</li>\n<li><strong>Finishing process:</strong> Many
+  sous vide recipes call for meat and vegetables to be finished in a pan, creating
+  a crunchy exterior. This can prolong the cooking process even further. </li>\n</ul>\n\n<p>All
+  this considered, it's really no surprise sous vide cookers are one of the top kitchen
+  appliances right now—after all, who could say no to hands-off cooking process that
+  yields a moist, juicy steak?</p>\n\n<h2>Food safety and sous vide cooking</h2>\n\n<p>Done
+  properly, sous vide is a perfectly safe method of cooking. However, given the low
+  temperatures, there is an increased risk for things like bacterial growth and other
+  nasties. If you're looking for light bedroom reading, some foodie bureaucrats from
+  down under have an exhaustive <a href=\"http://www.foodauthority.nsw.gov.au/_Documents/scienceandtechnical/sous_vide_food_safey_precautions.pdf\"
+  target=\"_blank\">guide to safely cooking with sous vide</a> <em>(opens as PDF)</em>.
+  </p>\n\n<p>In summary, experts recommend that you know precisely how long and at
+  what temperature to cook each item. That shouldn't be a problem, though. Given sous
+  vide's newfound popularity, there's no shortage of great cooktops to help you get
+  started. </p>\n\n<div class=\"related-article\">   <a href=\"https://www.reviewed.com/home-outdoors/best-right-now/best-immersion-circulators\">
+  \    <div class=\"related-article-widget-grid\">       <img class=\"lazyload\" src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--hM2-n1O2--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,h_70,q_1,w_70/https://reviewed-production.s3.amazonaws.com/1470075552000/Hero-3C7A9612.jpg\"
+  data-src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--_G7mPdbS--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,h_70,q_auto,w_70/https://reviewed-production.s3.amazonaws.com/1470075552000/Hero-3C7A9612.jpg\">
+  \      <div>         <p class=\"append-ad-to-parent\">Related</p>         <div>Best
+  Immersion Circulators of 2019</div>       </div>     </div>   </a> </div> \n\n</div>\n\n\n
+  \           <div class=\"page_section disclaimer review-and-feature\"><div class=\"disclaimer\">\n
+  \ Our editors review and recommend products to help you buy the stuff you need.
+  If you make a purchase by clicking one of our links, we may earn a small share of
+  the revenue. Our picks and opinions are independent from any business incentives.\n</div>\n</div>\n\n
+  \           <div class=\"via-and-source\">\n\n</div>\n\n\n            \n          </div>\n
+  \       <div class=\"mailchimp\">\n  <div class=\"follow-social\">\n    <h3 class=\"follow-cta-title\">Follow
+  Us</h3>\n    <a target=\"_blank\" href=\"https://www.facebook.com/reviewed\" class=\"fa
+  fa-facebook\"><span></span></a>\n    <a target=\"_blank\" href=\"https://twitter.com/reviewed\"
+  class=\"fa fa-twitter\"><span></span></a>\n    <a target=\"_blank\" href=\"http://pinterest.com/revieweddotcom/\"
+  class=\"fa fa-pinterest-p\"><span></span></a>\n  </div>\n  <div class=\"follow-email\">\n
+  \   <h3 class=\"follow-cta-title\">Get Our Newsletter</h3>\n    <h5>Real advice
+  from real experts. Sign up for our newsletter</h5>\n    \n<form action=\"/subscribers/create\"
+  method=\"post\" class=\"ng-pristine ng-valid\">\n  <input type=\"hidden\" id=\"website_group_name\"
+  name=\"website_group_name\" value=\"cooking.reviewed.com\">\n  <input type=\"email\"
+  autocapitalize=\"off\" autocorrect=\"off\" name=\"email\" id=\"email\" placeholder=\"Your
+  email address\" size=\"25\">\n  <button class=\"btn btn-primary list-conversion\"
+  type=\"submit\">Sign Up</button>\n</form>\n\n\n    <p class=\"hide pull-left\">Thanks
+  for signing up!</p>\n  </div>\n</div>\n\n        \n  <div id=\"disqus_comments\"
+  class=\"article-footer\">\n\n    <span class=\"pull-right\">\n<div class=\"social-icons\">\n
+  \   <a class=\"addthis_counter\" style=\"display:none\"><span></span></a>\n    <span
+  class=\"visible-desktop\">Share:</span>\n\n  <span>\n    <span class=\"fa-stack
+  facebook\">\n  <i class=\"fa fa-circle fa-stack-2x\"></i>\n  <a class=\"addthis_button_facebook
+  fa fa-facebook fa-stack-1x fa-inverse\"><span></span></a>\n</span>\n<span class=\"fa-stack
+  twitter\">\n  <i class=\"fa fa-circle fa-stack-2x\"></i>\n  <a class=\"addthis_button_twitter
+  fa fa-twitter fa-stack-1x fa-inverse\"><span></span></a>\n</span>\n<span class=\"fa-stack
+  pinterest\">\n  <i class=\"fa fa-circle fa-stack-2x\"></i>\n  <a class=\"addthis_button_pinterest_share
+  fa fa-pinterest-p fa-stack-1x fa-inverse\"><span></span></a>\n</span>\n<span class=\"fa-stack
+  email\">\n  <i class=\"fa fa-circle fa-stack-2x\"></i>\n  <a class=\"addthis_button_email
+  fa fa-envelope fa-stack-1x fa-inverse\"><span></span></a>\n</span>\n\n  </span>\n</div>\n</span>\n
+  \ </div>\n\n    <div class=\"disqus-content\">\n        <h2>What's Your Take?</h2>\n\n
+  \   <div class=\"comments\">\n      <a name=\"comments\"></a>\n      <div data-disqus_url=\"https://www.reviewed.com/content/what-is-sous-vide-cooking\"
+  data-slug=\"/cooking/features/what-is-sous-vide-cooking\" id=\"disqus_thread\"><iframe
+  id=\"dsq-app7089\" name=\"dsq-app7089\" allowtransparency=\"true\" frameborder=\"0\"
+  scrolling=\"no\" tabindex=\"0\" title=\"Disqus\" width=\"100%\" src=\"https://disqus.com/embed/comments/?base=default&amp;f=rvw&amp;t_i=%2Fcooking%2Ffeatures%2Fwhat-is-sous-vide-cooking&amp;t_u=https%3A%2F%2Fwww.reviewed.com%2Fcontent%2Fwhat-is-sous-vide-cooking&amp;t_d=What%20is%20sous%20vide%20cooking%3F%20-%20Reviewed%20Cooking&amp;t_t=What%20is%20sous%20vide%20cooking%3F%20-%20Reviewed%20Cooking&amp;s_o=default&amp;d_m=0#version=884cf41099cd8dae8f67a05fd265c45a\"
+  style=\"width: 1px !important; min-width: 100% !important; border: none !important;
+  overflow: hidden !important; height: 1350px !important;\" horizontalscrolling=\"no\"
+  verticalscrolling=\"no\"></iframe></div>\n      <div class=\"show-comments\" id=\"show_comments\">\n
+  \       All Comments\n        <i class=\"fa fa-chevron-down\"></i>\n      </div>\n
+  \   </div>\n\n\n    </div>\n\n      </div>\n    </div>\n\n    <div class=\"colAd\">\n
+  \     \n\n      <div class=\"page_section disclaimer review-and-feature\"><div class=\"disclaimer\">\n
+  \ Our editors review and recommend products to help you buy the stuff you need.
+  If you make a purchase by clicking one of our links, we may earn a small share of
+  the revenue. Our picks and opinions are independent from any business incentives.\n</div>\n</div>\n
+  \     \n\n\n      <div class=\"article_sidebar\">\n          <div>\n    <h3>Most
+  Helpful How Tos</h3>\n\n      <div class=\"media\">\n\n        <a class=\"pull-left
+  widget-link\" data-gacategory=\"trending-now-widget-click\" data-gaaction=\"slot:
+  1\" data-galabel=\"https://www.reviewed.com/dishwashers/features/why-you-need-to-clean-the-filter-in-your-new-dishwasher\"
+  href=\"https://www.reviewed.com/dishwashers/features/why-you-need-to-clean-the-filter-in-your-new-dishwasher\"><img
+  class=\"lazyload\" src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--1-Ei5cRv--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_xy_center,h_100,q_1,w_100,x_1054,y_450/https://reviewed-production.s3.amazonaws.com/article/16674/Miele-G4225SCU-Hero.jpg\"
+  data-src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--ZfbmW_rZ--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_xy_center,h_100,q_auto,w_100,x_1054,y_450/https://reviewed-production.s3.amazonaws.com/article/16674/Miele-G4225SCU-Hero.jpg\"></a>\n\n
+  \       <div class=\"media-body\">\n          <h5 class=\"media-heading\"><strong><a
+  class=\"widget-link\" data-gacategory=\"trending-now-widget-click\" data-gaaction=\"slot:
+  1\" data-galabel=\"https://www.reviewed.com/dishwashers/features/why-you-need-to-clean-the-filter-in-your-new-dishwasher\"
+  href=\"https://www.reviewed.com/dishwashers/features/why-you-need-to-clean-the-filter-in-your-new-dishwasher\">Why
+  You Need to Clean Your Dishwasher Filter</a></strong></h5>\n          That grit
+  on your \"clean\" dishes has little to do with cleaning power.\n        </div>\n
+  \     </div>\n      <div class=\"media\">\n\n        <a class=\"pull-left widget-link\"
+  data-gacategory=\"trending-now-widget-click\" data-gaaction=\"slot: 2\" data-galabel=\"https://www.reviewed.com/smartphones/features/how-to-make-your-smartphone-battery-last-longer\"
+  href=\"https://www.reviewed.com/smartphones/features/how-to-make-your-smartphone-battery-last-longer\"><img
+  class=\"lazyload\" src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--PEVbrXGV--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_xy_center,h_100,q_1,w_100,x_2017,y_1106/https://reviewed-production.s3.amazonaws.com/1435867291000/iphone-battery-hero.jpg\"
+  data-src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--Ecemw_eu--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_xy_center,h_100,q_auto,w_100,x_2017,y_1106/https://reviewed-production.s3.amazonaws.com/1435867291000/iphone-battery-hero.jpg\"></a>\n\n
+  \       <div class=\"media-body\">\n          <h5 class=\"media-heading\"><strong><a
+  class=\"widget-link\" data-gacategory=\"trending-now-widget-click\" data-gaaction=\"slot:
+  2\" data-galabel=\"https://www.reviewed.com/smartphones/features/how-to-make-your-smartphone-battery-last-longer\"
+  href=\"https://www.reviewed.com/smartphones/features/how-to-make-your-smartphone-battery-last-longer\">How
+  to make your phone battery last longer</a></strong></h5>\n          Here's how to
+  extend the charge and lifespan of your phone battery.\n        </div>\n      </div>\n
+  \     <div class=\"media\">\n\n        <a class=\"pull-left widget-link\" data-gacategory=\"trending-now-widget-click\"
+  data-gaaction=\"slot: 3\" data-galabel=\"https://www.reviewed.com/laundry/features/why-your-washing-machine-smells-and-how-to-clean-it\"
+  href=\"https://www.reviewed.com/laundry/features/why-your-washing-machine-smells-and-how-to-clean-it\"><img
+  class=\"lazyload\" src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--0BHBn-Do--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_xy_center,h_100,q_1,w_100,x_2833,y_1256/https://reviewed-production.s3.amazonaws.com/1489777171000/Why-Your-Washing-Machine-Smells%2C-and-How-to-Clean-It.jpg\"
+  data-src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--kwnbjqGq--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_xy_center,h_100,q_auto,w_100,x_2833,y_1256/https://reviewed-production.s3.amazonaws.com/1489777171000/Why-Your-Washing-Machine-Smells%2C-and-How-to-Clean-It.jpg\"></a>\n\n
+  \       <div class=\"media-body\">\n          <h5 class=\"media-heading\"><strong><a
+  class=\"widget-link\" data-gacategory=\"trending-now-widget-click\" data-gaaction=\"slot:
+  3\" data-galabel=\"https://www.reviewed.com/laundry/features/why-your-washing-machine-smells-and-how-to-clean-it\"
+  href=\"https://www.reviewed.com/laundry/features/why-your-washing-machine-smells-and-how-to-clean-it\">Why
+  your washing machine smells—and how to clean it</a></strong></h5>\n          Your
+  washer stinks, but it doesn't have to.\n        </div>\n      </div>\n  </div>\n\n\n
+  \     </div>\n      <div class=\"sticky-rail-ad\">\n        \n\n\n      </div>\n
+  \     \n\n\n\n\n\n\n\n\n\n\n\n\n    </div>\n  </div>\n\n</span>\n<a class=\"scrollToTop
+  hide\" href=\"#\">\n  <i class=\"fa fa-chevron-up visible-desktop\"></i>\n</a>\n\n</div>\n
+  \         </div>\n      </div>\n    </div>\n\n    <footer>\n  <div class=\"row\">\n
+  \   <div class=\"span4\">\n      <p><strong>Copyright</strong></p>\n\n      <p><strong>Copyright
+  © 2019 Reviewed.</strong> All rights reserved. All trademarks and product names
+  are the property of their respective owners. We make no guarantees regarding any
+  of the advice offered on this web site or by its staff or users. User comments and
+  postings are not the responsibility of Reviewed. </p>\n\n      <div class=\"disclaimer\">\n
+  \ Our editors review and recommend products to help you buy the stuff you need.
+  If you make a purchase by clicking one of our links, we may earn a small share of
+  the revenue. Our picks and opinions are independent from any business incentives.\n</div>\n\n
+  \   </div>\n\n    <div class=\"span7\">\n      <div class=\"row\">\n        <div
+  class=\"span2\">\n          <ul class=\"unstyled footer_nav_padding\">\n            <li><a
+  href=\"/best-right-now\">Best Right Now</a></li>\n            <li><a href=\"/awards/editors-choice\">Award
+  Winners</a></li>\n            <li><a href=\"/how-to\">How Tos</a></li>\n            <li
+  class=\"space_below\"><a href=\"/video\">Video</a></li>\n            <li><a href=\"/about\">About
+  Us</a></li>\n            <li><a href=\"/jobs\">Jobs</a></li>\n            <li><a
+  href=\"/advertising\">Advertising</a></li>\n            <li><a href=\"/how_we_test\">How
+  We Test</a></li>\n            <li><a href=\"/how_we_score\">How We Score</a></li>\n
+  \           <li><a href=\"/how_we_award\">How We Award</a></li>\n            <li><a
+  href=\"/ethics\">Ethics</a></li>\n            <li><a href=\"/science\">Science Blog</a></li>\n
+  \           <li><a href=\"http://static.usatoday.com/terms/\" target=\"_blank\">Terms
+  of Service</a></li>\n            <li><a href=\"http://static.usatoday.com/privacy/\"
+  target=\"_blank\">Privacy Policy</a></li>\n            <li><a href=\"http://static.usatoday.com/privacy/#adchoices\"
+  target=\"_blank\">Ad Choices</a></li>\n            <li><a href=\"/sitemap\">Sitemap</a></li>\n
+  \           <li><a href=\"/cooking/send_feedback\">Send Feedback</a></li>\n          </ul>\n
+  \       </div>\n\n        <div class=\"span5\">\n          <p><strong>Our Sites</strong></p>\n
+  \           <div class=\"row\">\n                <div class=\"span2\">\n                  <p><a
+  class=\"col-head\" href=\"https://www.reviewed.com/tech\">Tech</a></p>\n                  <ul
+  class=\"unstyled\">\n                      <li><a href=\"https://www.reviewed.com/headphones\">Headphones</a></li>\n
+  \                     <li><a href=\"https://www.reviewed.com/smartphones\">Smartphones</a></li>\n
+  \                     <li><a href=\"https://www.reviewed.com/laptops\">Laptops</a></li>\n
+  \                     <li><a href=\"https://www.reviewed.com/tablets\">Tablets</a></li>\n
+  \                     <li><a href=\"https://www.reviewed.com/cameras\">Cameras</a></li>\n
+  \                     <li><a href=\"https://www.reviewed.com/lenses\">Lenses</a></li>\n
+  \                     <li><a href=\"https://www.reviewed.com/camcorders\">Camcorders</a></li>\n
+  \                 </ul>\n                </div>\n                <div class=\"span2\">\n
+  \                 <p><a class=\"col-head\" href=\"https://www.reviewed.com/cooking\">Kitchen
+  &amp; Cooking</a></p>\n                  <ul class=\"unstyled\">\n                      <li><a
+  href=\"https://www.reviewed.com/dishwashers\">Dishwashers</a></li>\n                      <li><a
+  href=\"https://www.reviewed.com/refrigerators\">Refrigerators</a></li>\n                      <li><a
+  href=\"https://www.reviewed.com/ovens\">Ovens</a></li>\n                      <li><a
+  href=\"https://www.reviewed.com/microwaves\">Microwaves</a></li>\n                      <li><a
+  href=\"https://www.reviewed.com/freezers\">Freezers</a></li>\n                      <li><a
+  href=\"https://www.reviewed.com/luxuryhome\">Luxury Appliances</a></li>\n                  </ul>\n
+  \               </div>\n            </div>\n            <div class=\"row\">\n                <div
+  class=\"span2\">\n                  <p><a class=\"col-head\" href=\"https://www.reviewed.com/laundry-cleaning\">Laundry
+  &amp; Cleaning</a></p>\n                  <ul class=\"unstyled\">\n                      <li><a
+  href=\"https://www.reviewed.com/laundry\">Laundry</a></li>\n                      <li><a
+  href=\"https://www.reviewed.com/vacuums\">Vacuums</a></li>\n                      <li><a
+  href=\"https://www.reviewed.com/robotvacuums\">Robot Vacuums</a></li>\n                  </ul>\n
+  \               </div>\n                <div class=\"span2\">\n                  <p><a
+  class=\"col-head\" href=\"https://www.reviewed.com/home-outdoors\">Home &amp; Outdoors</a></p>\n
+  \                 <ul class=\"unstyled\">\n                      <li><a href=\"https://www.reviewed.com/smarthome\">Smart
+  Home</a></li>\n                      <li><a href=\"https://www.reviewed.com/cars\">Cars</a></li>\n
+  \                 </ul>\n                </div>\n            </div>\n            <div
+  class=\"row\">\n                <div class=\"span2\">\n                  <p><a class=\"col-head\"
+  href=\"https://www.reviewed.com/lifestyle\">Lifestyle</a></p>\n                  <ul
+  class=\"unstyled\">\n                      <li><a href=\"https://www.reviewed.com/beauty\">Beauty</a></li>\n
+  \                     <li><a href=\"https://www.reviewed.com/health\">Health</a></li>\n
+  \                     <li><a href=\"https://www.reviewed.com/sleep\">Sleep</a></li>\n
+  \                     <li><a href=\"https://www.reviewed.com/wearables\">Wearables</a></li>\n
+  \                 </ul>\n                </div>\n                <div class=\"span2\">\n
+  \                 <p><a class=\"col-head\" href=\"https://www.reviewed.com/home-theater\">Home
+  Theater</a></p>\n                  <ul class=\"unstyled\">\n                      <li><a
+  href=\"https://www.reviewed.com/televisions\">Televisions</a></li>\n                  </ul>\n
+  \               </div>\n            </div>\n            <div class=\"row\">\n                <div
+  class=\"span2\">\n                  <p><a class=\"col-head\" href=\"https://www.reviewed.com/parenting\">Parenting</a></p>\n
+  \                 <ul class=\"unstyled\">\n                  </ul>\n                </div>\n
+  \           </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"span5
+  mailchimp\">\n        <p><strong>Real advice from real experts. Sign up for our
+  newsletter</strong></p>\n        \n<form action=\"/subscribers/create\" method=\"post\">\n
+  \ <input type=\"hidden\" id=\"website_group_name\" name=\"website_group_name\" value=\"cooking.reviewed.com\">\n
+  \ <input type=\"email\" autocapitalize=\"off\" autocorrect=\"off\" name=\"email\"
+  id=\"email\" placeholder=\"Your email address\" size=\"25\">\n  <button class=\"btn
+  btn-primary list-conversion\" type=\"submit\">Sign Up</button>\n</form>\n\n        <p
+  class=\"hide pull-left\">Thanks for signing up!</p>\n\n      \n<div class=\"social-icons\">\n
+  \ <span class=\"fa-stack fa-lg\">\n    <i class=\"fa fa-circle fa-stack-2x\"></i>\n
+  \   <a class=\"fa fa-facebook fa-stack-1x fa-inverse\" href=\"https://www.facebook.com/reviewed\"
+  target=\"_blank\"></a>\n  </span>\n  <span class=\"fa-stack fa-lg\">\n    <i class=\"fa
+  fa-circle fa-stack-2x\"></i>\n    <a class=\"fa fa-twitter fa-stack-1x fa-inverse\"
+  href=\"https://twitter.com/reviewed\" target=\"_blank\"></a>\n  </span>\n  <span
+  class=\"fa-stack fa-lg\">\n    <i class=\"fa fa-circle fa-stack-2x\"></i>\n    <a
+  class=\"fa fa-youtube fa-stack-1x fa-inverse\" href=\"http://www.youtube.com/revieweddotcom\"
+  target=\"_blank\"></a>\n  </span>\n  <span class=\"fa-stack fa-lg\">\n    <i class=\"fa
+  fa-circle fa-stack-2x\"></i>\n    <a class=\"fa fa-google-plus fa-stack-1x fa-inverse\"
+  href=\"https://plus.google.com/+Reviewedcom/\" target=\"_blank\"></a>\n  </span>\n
+  \ <span class=\"fa-stack fa-lg\">\n    <i class=\"fa fa-circle fa-stack-2x\"></i>\n
+  \   <a class=\"fa fa-pinterest fa-stack-1x fa-inverse\" href=\"http://pinterest.com/revieweddotcom/\"
+  target=\"_blank\"></a>\n  </span>\n</div>\n    </div>\n  </div>\n\n  <div class=\"footer-grid\">\n
+  \   <p>\n      <a href=\"https://www.reviewed.com\">\n        <img width=\"142\"
+  height=\"24\" id=\"reviewed_footer_image\" srcset=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--NIgx2l3N--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,q_auto/https://www.reviewed.com/assets/categories/reviewed/footer-114x19-2083326d6c55779a26d42e9f3394828da925941ab594c1a8cd313079d56d7517.png
+  1x, https://reviewed-com-res.cloudinary.com/image/fetch/s--AUG1-XtP--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,q_auto/https://www.reviewed.com/assets/categories/reviewed/footer-retina-228x38-4c71f2317d3bd8a944b4328509f49e7ba799536f97d543bb6014d4170c7f9975.png
+  2x\" src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--NIgx2l3N--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,q_auto/https://www.reviewed.com/assets/categories/reviewed/footer-114x19-2083326d6c55779a26d42e9f3394828da925941ab594c1a8cd313079d56d7517.png\"
+  alt=\"Footer 114x19 2083326d6c55779a26d42e9f3394828da925941ab594c1a8cd313079d56d7517\">\n
+  \     </a>\n    </p>\n    <p>\n      <a href=\"http://www.usatoday.com/\" target=\"_blank\">\n
+  \       <img width=\"142\" height=\"38\" srcset=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--gjsYyQDe--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,q_auto/https://www.reviewed.com/assets/logo-usat-9226ac3ea2a0ee617e78ee862dfd0b270e1d68167824bbdd3e254b836c9e0e36.png
+  1x, https://reviewed-com-res.cloudinary.com/image/fetch/s--tAMTFDbK--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,q_auto/https://www.reviewed.com/assets/logo-usat-retina-a0178713dd4e1cf11c0c180898af50da474c1e0612e0cc674d254da3118310d9.png
+  2x\" src=\"https://reviewed-com-res.cloudinary.com/image/fetch/s--gjsYyQDe--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,q_auto/https://www.reviewed.com/assets/logo-usat-9226ac3ea2a0ee617e78ee862dfd0b270e1d68167824bbdd3e254b836c9e0e36.png\"
+  alt=\"Logo usat 9226ac3ea2a0ee617e78ee862dfd0b270e1d68167824bbdd3e254b836c9e0e36\">\n
+  \     </a>\n    </p>\n  </div>\n</footer>\n\n  </div>\n\n  \n\n  <script>\n//<![CDATA[\n\n
+  \   window.phoneBreakpoint = function() { return document.documentElement.clientWidth
+  < 767 }\n    window.tabletBreakpoint = function() { return document.documentElement.clientWidth
+  < 979 }\n    window.desktopBreakpoint = function() { return document.documentElement.clientWidth
+  >= 979 }\n\n//]]>\n</script>\n  <div class=\"modal hide fade email-modal\"><div>\n
+  \ <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">×</button>\n\n
+  \ <div class=\"modal-body\">\n      <p class=\"primary\">Get the Best Deals on the
+  Best Stuff</p>\n      <p class=\"secondary\">Subscribe to our Newsletter</p>\n\n
+  \   \n<form action=\"/subscribers/create\" method=\"post\">\n  <input type=\"hidden\"
+  id=\"website_group_name\" name=\"website_group_name\" value=\"cooking.reviewed.com\">\n
+  \ <input type=\"email\" autocapitalize=\"off\" autocorrect=\"off\" name=\"email\"
+  id=\"email\" placeholder=\"your email\" size=\"25\">\n  <button class=\"btn btn-primary
+  list-conversion\" type=\"submit\"><strong>Yes</strong> I want to be in the know!</button>\n</form>\n\n
+  \   <p data-dismiss=\"modal\">No, I don't need to know</p>\n  </div>\n\n  <div class=\"fade
+  hide thank-you clearfix\">\n    <i class=\"fa fa-check-circle\" aria-hidden=\"true\"></i>\n
+  \   <p>Thank you for signing up!</p>\n    <p>Look for the latest news &amp; reviews<br>
+  in your inbox soon.</p>\n    <button type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\"
+  aria-hidden=\"true\">Close</button>\n  </div>\n</div></div>\n\n\n  <script src=\"/assets/vendored-58f2756ab63b20aec5bdec5c147438bc818374451235add5669fd4af8d7edfb8.js\"></script>\n
+  \ <script src=\"/assets/application-5fb3bf55f0f46e6d9e9eaab0e5208580ba3fdb1f05133a9cc24a0df4102afd3f.js\"></script>\n
+  \ \n  <script src=\"/assets/articles-abca20ee17687877e5c5ae54f14a367d8bcd74cecc3936c609866c357fd0cd00.js\"></script>\n
+  \     \n\n\n<script id=\"PIN_1552922146176.f.callback[0]\" type=\"text/javascript\"
+  charset=\"utf-8\" src=\"https://log.pinterest.com/?guid=Sf5_fqAoh9zs&amp;tv=2019031201&amp;type=pidget&amp;sub=www&amp;button_count=1&amp;follow_count=0&amp;pin_count=0&amp;button_hover=1&amp;profile_count=0&amp;board_count=0&amp;section_count=0&amp;lang=en&amp;nvl=en-US&amp;via=https%3A%2F%2Fwww.reviewed.com%2Fcooking%2Ffeatures%2Fwhat-is-sous-vide-cooking&amp;callback=PIN_1552922146176.f.callback[0]\"></script><iframe
+  style=\"display: none;\"></iframe><div id=\"main_ad\" style=\"height:1px; width:1px;
+  overflow:auto;position: absolute;left: -999em;\" hidden=\"\" mr7v0nq=\"\"><!--AD
+  UNIT 4--></div></body></html>"

@@ -2,25 +2,28 @@ require 'pismo/parsers/base'
 
 module Pismo
   module Parsers
-    class Jsonld < Parsers::Base
+    class Jsonld < Base
       def call
         json_ld_meta
       end
 
       def json_ld_meta
-        return {} unless json_ld_script
-        {
-          author:         author,
-          person:         person,
-          publisher:      publisher,
-          type:           type,
-          url:            url,
-          headline:       headline,
-          description:    description,
-          featured_image: featured_image,
-          keywords:       keywords,
-          published_date: published_date
-        }
+        @json_ld_meta ||= begin
+          return {} unless json_ld_script
+          {
+            author:         author,
+            person:         person,
+            publisher:      publisher,
+            type:           type,
+            url:            url,
+            headline:       headline,
+            description:    description,
+            featured_image: featured_image,
+            keywords:       keywords,
+            published_date: published_date,
+            raw_data:       json_ld
+          }
+        end
       end
 
       def json_ld
@@ -79,7 +82,11 @@ module Pismo
       end
 
       def keywords
-        @keywords ||= json_ld.dig('keywords').to_s.downcase.split(',').map(&:strip)
+        @keywords ||= json_ld.dig('keywords').to_s
+                             .downcase.split(',')
+                             .map do |keyword|
+          keyword.gsub(/\W+/, ' ').squeeze(' ').strip
+        end
       end
 
       def published_date
@@ -88,16 +95,22 @@ module Pismo
 
       def person_parser(key)
         hsh = {}
-        hsh[:name] = json_ld.dig(key, 'name')
-        return {} if hsh[:name].nil?
-        hsh[:source] = 'jsonld'
-        hsh[:title] = json_ld.dig(key, 'jobTitle')
-        %w[url email telephone].each do |sub_key|
-          hsh[sub_key.to_sym] = json_ld.dig(key, sub_key)
+        if json_ld[key].is_a?(String)
+          hsh[:name] = json_ld[key]
+        elsif json_ld.is_a?(Hash)
+          hsh[:name] = json_ld.dig(key, 'name')
+          unless hsh[:name].nil?
+            hsh[:from] = 'jsonld'
+            hsh[:title] = json_ld.dig(key, 'jobTitle')
+            %w[url email telephone gender image].each do |sub_key|
+              hsh[sub_key.to_sym] = json_ld.dig(key, sub_key)
+            end
+            hsh[:image] = json_ld.dig(key, 'image', 'url') if hsh[:image].is_a?(Hash)
+            hsh = hsh.delete_if { |k, v| v.nil? }
+            hsh = add_identifier(hsh)
+            hsh[:type] = 'site/author' if hsh[:type] && hsh[:type] == 'web/page'
+          end
         end
-        hsh = hsh.delete_if { |k, v| v.nil? }
-        hsh = add_identifier(hsh)
-        hsh[:type] = 'author/profile' if hsh[:type] && hsh[:type] == 'web/page'
         hsh
       end
 
@@ -105,14 +118,16 @@ module Pismo
         hsh = {}
         hsh[:name] = json_ld.dig(key, 'name')
         return {} if hsh[:name].nil?
-        hsh[:source] = 'jsonld'
-        hsh[:logo_image] = json_ld.dig(key, 'logo', 'url')
+        hsh[:from] = 'jsonld'
+        hsh[:image] = json_ld.dig(key, 'logo')
+        hsh[:image] = json_ld.dig(key, 'logo', 'url') if hsh[:image].is_a?(Hash)
         %w[url description].each do |sub_key|
           hsh[sub_key.to_sym] = json_ld.dig(key, sub_key)
         end
         hsh = hsh.delete_if { |k, v| v.nil? }
         hsh = add_identifier(hsh)
         hsh[:type] = 'company/profile' if hsh[:type] && hsh[:type] == 'web/page'
+        hsh[:identifier] = hsh[:type]
         hsh
       end
 

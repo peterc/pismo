@@ -1,0 +1,1386 @@
+---
+:url: https://techreport.com/forums/viewtopic.php?f=1&t=121855
+:body: "<!DOCTYPE html><html class=\"slickthemes  no-pinchZoom js flexbox no-touch
+  borderradius boxshadow cssanimations csscolumns csstransforms csstransforms3d csscalc
+  cssfilters csspositionsticky cssremunit cssvhunit stickyheader-enabled\" dir=\"ltr\"
+  lang=\"en-gb\"><head>\n\n\t<meta charset=\"UTF-8\">\n\t<meta http-equiv=\"X-UA-Compatible\"
+  content=\"IE=Edge\">\n\n\t\t<meta name=\"viewport\" content=\"width=device-width,
+  initial-scale=1, maximum-scale=1, user-scalable=no\">\n\t\n\n\t<title>2 TILs about
+  our pal Jeff Kampman - TR Forums</title>\n\n\t\n\t\t\t<link rel=\"canonical\" href=\"https://techreport.com/forums/viewtopic.php?t=121855\">\n\t\n\t\t<style
+  type=\"text/css\">\n\t\thtml.slickthemes {\n\t\t\toverflow-y: scroll;\n\t\t\tbackground-attachment:
+  fixed;\n\t\t}\n\t\thtml.slickthemes, #st-bgimg {\n\t\t\tbackground-color: rgb(33,
+  54, 102);\n\n\t\t\t\n\t\t\t\t\t\t\tbackground-position: 0 0;\n\t\t\t\n\t\t\t\t\t\t\tbackground-size:
+  cover;\n\t\t\t\t\t}\n\t\t\t</style>\n\t\n\t\t\t<link href=\"./styles/canvas/theme/css/main.min.css?assets_version=25\"
+  rel=\"stylesheet\" type=\"text/css\" media=\"screen\">\n\t<link href=\"./styles/canvas/theme/print.css?assets_version=25\"
+  rel=\"stylesheet\" type=\"text/css\" media=\"print\" title=\"printonly\">\n\n\t\n\t\n
+  \   <!-- DFP code - section 1/2 -->\n    <script src=\"https://secure.quantserve.com/quant.js\"
+  async=\"\" type=\"text/javascript\"></script><script async=\"\" src=\"https://sb.scorecardresearch.com/beacon.js\"></script><script
+  type=\"text/javascript\" async=\"\" src=\"https://ssl.google-analytics.com/ga.js\"></script><script
+  async=\"\" type=\"text/javascript\" src=\"https://www.googletagservices.com/tag/js/gpt.js\"></script><script
+  type=\"text/javascript\">\n\n        \n            // Desktop\n            var googletag
+  = googletag || {};\n            googletag.cmd = googletag.cmd || [];\n\n            (function()
+  {\n                var gads = document.createElement(\"script\");\n\n                gads.async
+  = true;\n                gads.type = \"text/javascript\";\n\n                var
+  useSSL = \"https:\" == document.location.protocol;\n\n                gads.src =
+  (useSSL ? \"https:\" : \"http:\") + \"//www.googletagservices.com/tag/js/gpt.js\";\n\n
+  \               var node =document.getElementsByTagName(\"script\")[0];\n                node.parentNode.insertBefore(gads,
+  node);\n            })();\n            </script>\n    <!-- DFP code - end of section
+  1/2 -->\n\n    <!-- DFP code - section 2/2 -->\n    <script>\n\n        googletag.cmd.push(function()
+  {\n\n            \n                // Desktop\n                googletag.defineSlot(\"/1073898/TR_forums_top_leaderboard\",
+  [728, 90], \"ad_728_top\" ).addService( googletag.pubads() );\n                googletag.defineSlot(\"/1073898/TR_forums_middle_728x90\",
+  [728, 90], \"ad_728_mid\" ).addService( googletag.pubads() );\n                googletag.defineSlot(\"/1073898/TR_forums_bottom_728x90\",
+  [728, 90], \"ad_728_bottom\").addService( googletag.pubads() );\n\n            \n
+  \                                                                                                           \n
+  \                                               \n                                                                        \n
+  \            \tgoogletag.pubads().setTargeting(\"tr_tag\", [\"f_back_porch\"] );\t
+  \                                                           \n            googletag.pubads().enableSingleRequest();\n\n
+  \           googletag.enableServices();\n        });\n    </script>\n    <!-- DFP
+  code - end of section 2/2 -->\n\n    <!-- Google analytics -->\n    <script type=\"text/javascript\">\n\n
+  \       var _gaq = _gaq || [];\n        _gaq.push(['_setAccount', 'UA-297721-1']);\n
+  \       _gaq.push(['_trackPageview']);\n\n        (function() {\n            var
+  ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n
+  \           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
+  + '.google-analytics.com/ga.js';\n            var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(ga, s);\n        })();\n\n    </script>\n    <!-- end
+  Google analytics -->\n\n\n\t\n\n\t\t<style type=\"text/css\" id=\"st_userconfig_CSS\">\n
+  \ /* slickpanel overrides. please do not eat */\n  \n  /* Typography */\n    body
+  {\n\tfont-family: 'Source Sans Pro', 'Trebuchet MS', sans-serif;\n  }\n    \n    \n
+  \   .navigation > li > a {\n\tfont-family: 'Source Sans Pro', 'Trebuchet MS', sans-serif;\n
+  \ }\n    \n  .postbody .content {\n\t\tfont-family: 'Source Sans Pro', 'Trebuchet
+  MS', sans-serif;\n\t\t\tfont-size: 13px;\n\t  }\n  \n  /* text logo */\n  .logo
+  h1 {\n\t\tcolor: rgb(255, 255, 255);\n\t\t  }\n  \n  /* image logo */\n  .logo h1
+  img {\n\tmax-width: 150px;\n  }\n  \n  /* colors */\n    .itemlist__item--colbar,.cp-main
+  h3, #tabs, .st-section__header,.btn-primary, .thead, .category-header, .section-header
+  {\n\tbackground-color: rgb(33, 54, 102)\n  }\n  .forum-icon {\n\tcolor: rgb(33,
+  54, 102)\n  } \n   {\n\tborder-color: rgb(33, 54, 102)\n  }\n  \n  /* header */\n
+  \ .main-header {\n\tbackground-color: rgb(63, 81, 145);\n\t\n\t\t\n\t\t\n\tbackground-position:
+  ;\n\t\n\t  }\n  \n  /* Search */\n  .quicksearch fieldset {\n\tbackground-color:
+  rgb(255, 255, 255);\n\tcolor: rgb(51, 51, 51);\n  }\n  .quicksearch__placeholder
+  {\n\tcolor: rgba(0, 0, 0, 0.5);\n  }\n  .quicksearch .quicksearch--focus {\n\tbackground-color:
+  rgb(255, 255, 255);\n  }\n  \n  /* footer */\n  #page-footer {\n\tbackground-color:
+  rgb(33, 54, 102);\n\t\n\t\t\n\tbackground-position: ;\n\t\n\t  }\n\n  /* Post Author
+  Label */\n  .topic-author-label .label {\n  \tbackground-color: rgb(0, 0, 0);\n
+  \ }\n  \n</style>\n\t\n\t<!-- Start Tech Report ad formatting -->\n<style>\n\n#ad_728_mid
+  {\nmargin: 16px auto 0;\nwidth: 728px; height:90px;\n}\n\n.googlead {\nposition:
+  relative;\nmargin: 0 10px 0 216px;\ntext-align: center;\n}\n\n.googleadbottom {\n\n
+  \   margin: 0 auto 16px auto;\n    clear: both;\n    width: 728px;\n    height:
+  90px;\n}\n\n#ad_728_mid ins, .googleadbottom ins { display: block !important; }\n\n.googlead
+  ins { display: block !important; }\n.googlead div { width: 728px; margin: 0 auto;
+  }\n\n</style>\n<!-- end Tech Report ad formatting -->\n\n<!-- TR: Forum sponsorships
+  CSS -->\n<style>\n    \n    /* Canvas theme - make sure thread container is full-width
+  so the sponsorship logos can go there */\n    div.page-header-inner > h2.page-title
+  {\n\n        width:100%\n    }\n\n    </style>\n<!-- end TR: Forum sponsorships
+  CSS -->\n<!-- Tech Report CSS start -->\n\n    <!-- Main overrides for both themes
+  -->\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"ext/tr/forumstyling/styles/all/theme/css/overrides.20160817.css\">\n\n\n\n\n
+  \   <!-- Tech Report Canvas theme fixes -->\n    <link rel=\"stylesheet\" type=\"text/css\"
+  href=\"ext/tr/forumstyling/styles/all/theme/css/fixes.canvas.20160817.css\">\n\n\n\n
+  \   <!-- Desktop-specific TR formatting -->\n    <link rel=\"stylesheet\" type=\"text/css\"
+  href=\"ext/tr/forumstyling/styles/all/theme/css/desktop.20160720.css\">\n\n\n<!--
+  Tech Report CSS end -->\n\n\t\n\t<style type=\"text/css\">\n\t/* Put your custom
+  CSS here */\t</style>\n\n\t<style id=\"elementState_restore\" type=\"text/css\"></style>\n\t<script
+  type=\"text/javascript\">\n\t\twindow._st = window._st || {};\n\t\t_st.onloadfunctions
+  = _st.onloadfunctions || [];\n\t\t_st.utils = {};\n\t</script>\n\n<style></style></head>\n<body
+  id=\"phpbb\" class=\"section-viewtopic ltr  postAuthorAlign-left layout-boxed h-nb\">\n\n\n\t<link
+  href=\"./styles/canvas/theme/css/mdi.css?assets_version=25\" rel=\"stylesheet\"
+  type=\"text/css\">\n\n<div id=\"st-bgimg\"></div>\n<!-- skip to content -->\n<a
+  href=\"#start__content\" class=\"skiplink\" style=\"display: none\">Skip to content</a>\n\n<!--
+  Begin comScore Tag -->\n<script>\n    var _comscore = _comscore || [];\n    _comscore.push({
+  c1: \"2\", c2: \"18382384\" });\n    (function() {\n        var s = document.createElement(\"script\"),
+  el = document.getElementsByTagName(\"script\")[0]; s.async = true;\n        s.src
+  = (document.location.protocol == \"https:\" ? \"https://sb\" : \"http://b\") + \".scorecardresearch.com/beacon.js\";\n
+  \       el.parentNode.insertBefore(s, el);\n    })();\n</script>\n<noscript>\n    <img
+  src=\"http://b.scorecardresearch.com/p?c1=2&c2=18382384&cv=2.0&cj=1\" />\n</noscript>\n<!--
+  End comScore Tag -->\n    <!-- TR site header - desktop -->\n    <div id=\"tr-min-width\">\n
+  \   <div id=\"tr-container\" style=\"background-color:#213666\">\n\n        <div
+  id=\"tr-header\">\n\n            <a href=\"http://techreport.com/\" id=\"tr-logo\"><img
+  src=\"/img/blank.gif\" alt=\"The Tech Report\"></a>\n\n            <!-- TR: top
+  ad -->\n\n\n<!-- Desktop -->\n\n<div class=\"googlead\" id=\"ad_728_top\" hidden=\"\"
+  zvr3vto=\"\">\n    <script type=\"text/javascript\">\n        googletag.cmd.push(function()
+  {\n\n            googletag.display(\"ad_728_top\");\n        });\n    </script>\n</div>\n\n<!--
+  end TR: top ad -->\n            <div id=\"tr-navbar\">\n                <div id=\"tr-linklist\">\n
+  \                   <a href=\"http://techreport.com/cpu/\"><span class=\"tr-firstchar\">CPU</span>s</a>\n
+  \                   <a href=\"http://techreport.com/graphics/\"><span class=\"tr-firstchar\">G</span>RAPHICS</a>\n
+  \                   <a href=\"http://techreport.com/motherboards/\"><span class=\"tr-firstchar\">M</span>OTHERBOARDS</a>\n
+  \                   <a href=\"http://techreport.com/case+power/\"><span class=\"tr-firstchar\">C</span>ASES
+  &amp; POWER</a>\n                    <a href=\"http://techreport.com/storage/\"><span
+  class=\"tr-firstchar\">S</span>TORAGE</a>\n                    <a href=\"http://techreport.com/mobile/\"><span
+  class=\"tr-firstchar\">M</span>OBILE</a>\n                    <a href=\"http://techreport.com/gaming/\"><span
+  class=\"tr-firstchar\">G</span>AMING</a>\n                    <a href=\"https://techreport.com/forums/\"
+  class=\"tr-highlighted\"><span class=\"tr-firstchar\">F</span>ORUMS</a>\n                    <a
+  href=\"http://jobs.techreport.com/\"><span class=\"tr-firstchar\">J</span>OBS</a>\n
+  \                   <div id=\"tr-more\">\n                        <a href=\"#\"><span
+  class=\"tr-firstchar\">M</span>ORE...</a>\n                        <ul>\n                            <li><a
+  href=\"http://techreport.com/news.x\"><span class=\"tr-firstchar\">N</span>EWS</a></li>\n
+  \                           <li><a href=\"http://techreport.com/breadbox.x\"><span
+  class=\"tr-firstchar\">B</span>READBOX</a></li>\n                            <li><a
+  href=\"http://techreport.com/archive.x?tags=Podcast\"><span class=\"tr-firstchar\">P</span>ODCASTS</a></li>\n
+  \                           <li><a href=\"http://techreport.com/blogs.x\"><span
+  class=\"tr-firstchar\">B</span>LOGS</a></li>\n                            <li><a
+  href=\"http://techreport.com/system/\"><span class=\"tr-firstchar\">S</span>YSTEMS</a></li>\n
+  \                           <li><a href=\"http://techreport.com/multimedia/\"><span
+  class=\"tr-firstchar\">M</span>ULTIMEDIA</a></li>\n                            <li><a
+  href=\"http://techreport.com/misc/\"><span class=\"tr-firstchar\">M</span>ISCELLANY</a></li>\n
+  \                           <li><a href=\"http://techreport.com/archive.x\"><span
+  class=\"tr-firstchar\">A</span>RCHIVE</a></li>\n                            <li
+  id=\"tr-menulast\"><a href=\"http://techreport.com/aboutus.x\"><span class=\"tr-firstchar\">A</span>BOUT
+  US</a></li>\n                        </ul>\n                    </div>\n                    <div
+  class=\"tr-social\">\n                        <a href=\"http://techreport.com/feeds.x\"
+  class=\"tr-rss\"></a>\n                        <a href=\"//twitter.com/thetechreport\"
+  class=\"tr-twit\"></a>\n                        <a href=\"//www.facebook.com/pages/The-Tech-Report/60933942920\"
+  class=\"tr-face\"></a>\n                    </div>\n                </div>\n\n                                    <!--
+  Tech Report: Canvas theme quick search box -->\n                      <div id=\"search-box\"
+  class=\"quicksearch\">\n\t<form action=\"./search.php?sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  method=\"get\" id=\"search\">\n\t  <fieldset>\n\t\t<div class=\"quicksearch__placeholder\">Search…</div>\n\t\t<input
+  name=\"keywords\" id=\"keywords\" type=\"search\" maxlength=\"128\" title=\"Search
+  for keywords\" class=\"form-control\" size=\"20\" value=\"\">\n\t\t<button class=\"btn
+  btn-default quicksearch-go hidden\" type=\"submit\" title=\"Search\">Search</button>\n\t\t<a
+  href=\"./search.php?sid=2f7456d3ae2b67baa613ff4ca233a396\" class=\"btn btn-link
+  quicksearch-advanced hidden\" title=\"Advanced search\"><i class=\"glyphicon glyphicon-cog\"></i></a>\n\t\t<input
+  type=\"hidden\" name=\"sid\" value=\"2f7456d3ae2b67baa613ff4ca233a396\">\n\n\t  </fieldset>\n\t</form>\n
+  \ </div>\n                    <!-- end Tech Report: Canvas theme quick search box
+  -->\n                            </div>\n\n        </div>\n    </div>\n    </div>\n<!--
+  end TR site header -->\n<div class=\"offcanvas-wrapper\">\n<div class=\"offcanvas-content\">\n\t<a
+  href=\"javascript:void(0)\" class=\"offcanvas-toggle offcanvas-backlink\">\n\t\t<i
+  class=\"fi fi-arrow-left\"></i>\n\t</a>\n\t\t  <div id=\"search-box\" class=\"quicksearch\">\n\t<form
+  action=\"./search.php?sid=2f7456d3ae2b67baa613ff4ca233a396\" method=\"get\" id=\"search\">\n\t
+  \ <fieldset>\n\t\t<div class=\"quicksearch__placeholder\">Search…</div>\n\t\t<input
+  name=\"keywords\" id=\"keywords\" type=\"search\" maxlength=\"128\" title=\"Search
+  for keywords\" class=\"form-control\" size=\"20\" value=\"\">\n\t\t<button class=\"btn
+  btn-default quicksearch-go hidden\" type=\"submit\" title=\"Search\">Search</button>\n\t\t<a
+  href=\"./search.php?sid=2f7456d3ae2b67baa613ff4ca233a396\" class=\"btn btn-link
+  quicksearch-advanced hidden\" title=\"Advanced search\"><i class=\"glyphicon glyphicon-cog\"></i></a>\n\t\t<input
+  type=\"hidden\" name=\"sid\" value=\"2f7456d3ae2b67baa613ff4ca233a396\">\n\n\t  </fieldset>\n\t</form>\n
+  \ </div>\n\t<a href=\"javascript:void(0)\" class=\"offcanvas-toggle offcanvas-navigation-toggle\">\n
+  \   <span class=\"icon-menu-bars\"><span class=\"bar-1\"></span><span class=\"bar-2\"></span><span
+  class=\"bar-3\"></span></span>\n</a>\n\n<ul class=\"navigation top-nav list-unstyled\">\n\n
+  \   <li class=\"nav-item quick-links dd-container\">\n\t\t<a href=\"javascript:void(0)\"
+  id=\"quickLinksdrop\" title=\"Quick links\" class=\"quick-links-dropdown-trigger\"
+  data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n            <span
+  class=\"icon-menu-bars\"><span class=\"bar-1\"></span><span class=\"bar-2\"></span><span
+  class=\"bar-3\"></span></span>\n\t\t\t<span class=\"quick-links-label\">Quick links</span>\n
+  \       </a>\n        <ul class=\"quick-links-dropdown dropdown-menu\" role=\"menu\"
+  aria-labelledby=\"quickLinksdrop\">\n            \n                            \n
+  \               \n                \t\t\t\t<li role=\"presentation\"><a href=\"./search.php?search_id=unanswered&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\">Unanswered topics</a></li>\n\t\t\t\t<li role=\"presentation\"><a
+  href=\"./search.php?search_id=active_topics&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\">Active topics</a></li>\n                <li role=\"presentation\"
+  class=\"divider\"></li>\n\t\t\t\t<li role=\"presentation\"><a href=\"./search.php?sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\">Search</a></li>\n\t\t\t\n            <!--<li role=\"presentation\"><a
+  href=\"./faq.php?sid=2f7456d3ae2b67baa613ff4ca233a396\" rel=\"help\" title=\"Frequently
+  Asked Questions\" role=\"menuitem\" tabindex=\"-1\">FAQ</a></li>-->\n\n            \t\t\t\t\t\t\t\t<li
+  role=\"presentation\"><a tabindex=\"-1\" href=\"./memberlist.php?mode=team&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\">The team</a></li>\t\t\t\n                    </ul>\n\t</li>\n\n
+  \       <!-- Forum Index -->\n<li class=\"nav-item nav-forum\">\n    <a href=\"./index.php?sid=2f7456d3ae2b67baa613ff4ca233a396\">Forum</a>\n</li>\n\n<!--
+  FAQ -->\n<li class=\"nav-item\">\n    <a href=\"./faq.php?sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  rel=\"help\" title=\"Frequently Asked Questions\">FAQ</a>\n</li>\t<!-- Tech Report:
+  new topics -->\n<li class=\"nav-item\">\n    <a href=\"./search.php?search_id=newposts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"New posts\">New posts</a>\n</li>\n\n<!-- Tech Report: unread topics -->\n<li
+  class=\"nav-item\">\n    <a href=\"./search.php?search_id=unreadposts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"Unread posts\">Unread posts</a>\n</li>\n\n<!-- Tech Report: active topics
+  -->\n<li>\n    <a href=\"./search.php?search_id=active_topics&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"Active topics\">Active topics</a>\n</li></ul>\n\t</div>\n\n<div class=\"oncanvas-content\">\n<div
+  id=\"wrap\">\n\t<a id=\"top\" class=\"anchor\" accesskey=\"t\"></a>\n\n\t\n\t\n\n\t\t<div
+  class=\"stickyContainer\"><div class=\"utility-bar navbar-dark clearfix\" role=\"menubar\">\n\t\t<div
+  class=\"container\">\n\t\t\t<a href=\"javascript:void(0)\" class=\"offcanvas-toggle
+  offcanvas-navigation-toggle\">\n    <span class=\"icon-menu-bars\"><span class=\"bar-1\"></span><span
+  class=\"bar-2\"></span><span class=\"bar-3\"></span></span>\n</a>\n\n<ul class=\"navigation
+  top-nav list-unstyled\">\n\n    <li class=\"nav-item quick-links dd-container\">\n\t\t<a
+  href=\"javascript:void(0)\" id=\"quickLinksdrop\" title=\"Quick links\" class=\"quick-links-dropdown-trigger\"
+  data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n            <span
+  class=\"icon-menu-bars\"><span class=\"bar-1\"></span><span class=\"bar-2\"></span><span
+  class=\"bar-3\"></span></span>\n\t\t\t<span class=\"quick-links-label\">Quick links</span>\n
+  \       </a>\n        <ul class=\"quick-links-dropdown dropdown-menu\" role=\"menu\"
+  aria-labelledby=\"quickLinksdrop\">\n            \n                            \n
+  \               \n                \t\t\t\t<li role=\"presentation\"><a href=\"./search.php?search_id=unanswered&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\">Unanswered topics</a></li>\n\t\t\t\t<li role=\"presentation\"><a
+  href=\"./search.php?search_id=active_topics&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\">Active topics</a></li>\n                <li role=\"presentation\"
+  class=\"divider\"></li>\n\t\t\t\t<li role=\"presentation\"><a href=\"./search.php?sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\">Search</a></li>\n\t\t\t\n            <!--<li role=\"presentation\"><a
+  href=\"./faq.php?sid=2f7456d3ae2b67baa613ff4ca233a396\" rel=\"help\" title=\"Frequently
+  Asked Questions\" role=\"menuitem\" tabindex=\"-1\">FAQ</a></li>-->\n\n            \t\t\t\t\t\t\t\t<li
+  role=\"presentation\"><a tabindex=\"-1\" href=\"./memberlist.php?mode=team&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\">The team</a></li>\t\t\t\n                    </ul>\n\t</li>\n\n
+  \       <!-- Forum Index -->\n<li class=\"nav-item nav-forum\">\n    <a href=\"./index.php?sid=2f7456d3ae2b67baa613ff4ca233a396\">Forum</a>\n</li>\n\n<!--
+  FAQ -->\n<li class=\"nav-item\">\n    <a href=\"./faq.php?sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  rel=\"help\" title=\"Frequently Asked Questions\">FAQ</a>\n</li>\t<!-- Tech Report:
+  new topics -->\n<li class=\"nav-item\">\n    <a href=\"./search.php?search_id=newposts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"New posts\">New posts</a>\n</li>\n\n<!-- Tech Report: unread topics -->\n<li
+  class=\"nav-item\">\n    <a href=\"./search.php?search_id=unreadposts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"Unread posts\">Unread posts</a>\n</li>\n\n<!-- Tech Report: active topics
+  -->\n<li>\n    <a href=\"./search.php?search_id=active_topics&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"Active topics\">Active topics</a>\n</li></ul>\n\t\t\t<div class=\"user-area\">\n
+  \   <ul class=\"guest-view list-unstyled has-register\">\n\t\n\t\n\t\t<li class=\"guest-register\"><a
+  class=\"btn btn-link\" href=\"./ucp.php?mode=register&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\">Register</a></li>\t\n\t\t<li class=\"guest-login quicklogin dd-container\">\n\t
+  \ <a class=\"btn btn-link\" href=\"./ucp.php?mode=login&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  data-toggle=\"dropdown\" title=\"Login\" accesskey=\"x\" role=\"menuitem\">Login</a>\n\t
+  \ <div class=\"quicklogin-dropdown dropdown-menu\" role=\"menu\">\n\t\t<form method=\"post\"
+  action=\"./ucp.php?mode=login&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\" class=\"quicklogin-form\">\n\n
+  \   \n  <div class=\"input-group\">\n\t<span class=\"input-group-addon\"><i class=\"fi
+  fi-account\"></i></span>\n\t<input type=\"text\" name=\"username\" id=\"QL_username\"
+  class=\"quicklogin__username-input form-control\">\n  </div>\n\t\n  <div class=\"input-group\">\n\t<span
+  class=\"input-group-addon\"><i class=\"fi fi-key\"></i></span>\n\t<input type=\"password\"
+  name=\"password\" id=\"QL_password\" class=\"quicklogin__password-input form-control\">\n
+  \ </div>\n  \n    <div class=\"checkbox\">\n    <label class=\"fancyInput_label\">\n
+  \     <span class=\"fancyInput fancyInput--checkbox\"><input type=\"checkbox\" name=\"autologin\"><span
+  class=\"fancyInput__base\"></span><span class=\"fancyInput__check\"></span></span>
+  Remember me\n    </label>\n  </div>\n    \n  <input type=\"submit\" name=\"login\"
+  value=\"Login\" class=\"quicklogin__login-btn btn btn-success\">\n  \n    \n  <input
+  type=\"hidden\" name=\"redirect\" value=\"./viewtopic.php?f=1&amp;t=121855&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">\n\n
+  \ \n</form>\t  </div>\n\t</li>\n\t\t\n\t  </ul>\n  </div>\t\t</div>\n\t</div></div>\n\t\n\t<!--
+  TR: middle ad -->\n\n    \n        <!-- Desktop -->\n        <div id=\"ad_728_mid\"
+  style=\"margin-bottom: 15px\">\n\n            <script type=\"text/javascript\">\n\n
+  \               googletag.cmd.push(function() {\n\n                    googletag.display(\"ad_728_mid\");\n
+  \               });\n            </script>\n\n        </div>\n    \n<!-- end TR:
+  middle ad -->\n<!-- Tech Report hack: actually remove the header from the DOM so
+  there can be no confusion about its or its children's IDs -->\n<script>\n\n    var
+  theme= 'canvas';\n\n    var header;\n\n    if ( theme=='canvas' ) {\n\n        //
+  Canvas theme...\n        header= document.getElementsByTagName('header')[0];\n    }
+  else {\n\n        // ... other themes\n        header= document.getElementsByClassName('headerbar')[0];\n
+  \   }\n\n    if ( header )\n        header.parentNode.removeChild( header );\n\n</script>\n<!--
+  end Tech Report hack -->\n\n\t<div id=\"page-body\">\n\n\t\t\t\t<div class=\"breadcrumbs-bar
+  breadcrumbs-bar--top \">\n    <ol class=\"nav-breadcrumbs\">\n    \n  \t<li class=\"quick-nav-link
+  dd-container jumpbox\">\n\t\t<a href=\"javascript:void(0)\" data-toggle=\"dropdown\"
+  title=\"Jump to\">\n\t\t\t<i class=\"fi fi-open-in-new\"></i>\n\t\t</a>\n\n\t\t<ul
+  class=\"dropdown-menu jumpbox-dropdown\" role=\"menu\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=38&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\" role=\"menuitem\"
+  tabindex=\"-1\"><span>Administration</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=32&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Announcements</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=39&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\" role=\"menuitem\"
+  tabindex=\"-1\"><span>Hardware</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=29&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>General Hardware</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=2&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Processors</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=3&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Graphics</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=16&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Cases and Power Supplies</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=36&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Motherboards, Chipsets, &amp; RAM</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=4&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Overclocking, Tweaking, &amp; Cooling</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=22&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>SFF Station</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=5&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Storage</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=33&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>System Builders Anonymous</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=40&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\" role=\"menuitem\"
+  tabindex=\"-1\"><span>Software</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=30&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>General Software</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=7&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Linux, Unix, and Assorted Madness</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=6&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Windows</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=20&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Developer's Den</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=41&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\" role=\"menuitem\"
+  tabindex=\"-1\"><span>Technology</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=15&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Apple Sanctuary</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=28&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Echo Vale</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=12&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Gaming</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=13&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Mobile Tech</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=14&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Networking</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=37&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Visual Haven</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=42&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\" role=\"menuitem\"
+  tabindex=\"-1\"><span>General discussion</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=1&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>The Back Porch</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=11&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>The Bargain Basement</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=34&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Hot Deals</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=9&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>TR Distributed Computing Effort</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=31&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>TR Sports</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=17&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>The Smoky Back Room</span></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t</li>\n\t\n
+  \ \n  \n  \n  <li class=\"crumb crumb--home\" itemtype=\"http://data-vocabulary.org/Breadcrumb\"
+  itemscope=\"\">\n\t<a href=\"./index.php?sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  itemprop=\"url\" accesskey=\"h\" data-navbar-reference=\"index\" title=\"Board index\"><span
+  itemprop=\"title\">Board index</span></a>\n  </li>\n\n  \t\t<li class=\"crumb\"
+  itemtype=\"http://data-vocabulary.org/Breadcrumb\" itemscope=\"\" data-forum-id=\"42\">\n\t
+  \ <a href=\"./viewforum.php?f=42&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\" itemprop=\"url\"
+  title=\"General discussion\"><span itemprop=\"title\">General discussion</span></a>\n\t</li>\n\t
+  \ \t\t<li class=\"crumb crumb--previous\" itemtype=\"http://data-vocabulary.org/Breadcrumb\"
+  itemscope=\"\" data-forum-id=\"1\">\n\t  <a href=\"./viewforum.php?f=1&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  itemprop=\"url\" title=\"The Back Porch\"><span itemprop=\"title\">The Back Porch</span></a>\n\t</li>\n\t
+  \   </ol>\n</div>\n\n\t\t<div class=\"container\">\n\n\t\t\t\t\t\t\t\n\t\t\n\t\t<a
+  id=\"start__content\" class=\"anchor\"></a>\n\t\t\n\t\t<!-- Global Alerts -->\n\t\t<!--
+  REMOVE THIS LINE TO ENABLE\n\n<div class=\"alert alert-info alert-dismissible fade
+  in\" role=\"alert\" id=\"globalAlertExample1\">\n  <a href=\"javascript:void(0)\"
+  class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n\n
+  \ This alert shows on all pages. Feel free to edit this text\n\n</div>\n\nREMOVE
+  THIS LINE TO ENABLE -->\n<div class=\"big-grid\">\n<div class=\"col-maincontent\">\n<div
+  class=\"page-header\">\n\t<div class=\"page-header-inner\">\n\t\t<h2 class=\"page-title\"><!--
+  The Tech Report - Forum sponsorships start -->\n\n        \n<!-- The Tech Report
+  - Forum sponsorships END  -->\n<a href=\"./viewtopic.php?f=1&amp;t=121855&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">2
+  TILs about our pal Jeff Kampman</a></h2>\n\t</div>\n\t<!--<div class=\"action-bar\">-->\n\t\n\t<!--</div>-->\n</div>\n\n<p>\n\t<strong>Moderators:</strong>
+  <a href=\"./memberlist.php?mode=viewprofile&amp;u=236&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  style=\"color: #00CC00;\" class=\"username-coloured\">Captain Ned</a>, <a href=\"./memberlist.php?mode=viewprofile&amp;u=4124&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  style=\"color: #56a602;\" class=\"username-coloured\">emkubed</a>\n</p>\n\n\n<div
+  class=\"action-bar top\">\n\n\t<div class=\"buttons\">\n\t\t\n\t\t\t\t\t\t\t\t<a
+  href=\"./posting.php?mode=reply&amp;f=1&amp;t=121855&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"btn btn-success btn-createnew\" title=\"Post a reply\">\n\t\t\t\t<i class=\"fi
+  fi-plus\"></i> Post Reply\n\t\t\t</a>\n\t\t\t\t\t\t\t\n\t\t\t<div class=\"dd-container
+  topic-tools\">\n\t\t<span title=\"Topic tools\" data-toggle=\"dropdown\" class=\"btn
+  btn-default\"><i class=\"fi fi-settings\"></i></span>\n\t\t<ul class=\"dropdown-menu\"
+  role=\"menu\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li class=\"small-icon icon-print\"><a
+  href=\"./viewtopic.php?f=1&amp;t=121855&amp;sid=2f7456d3ae2b67baa613ff4ca233a396&amp;view=print\"
+  title=\"Print view\" accesskey=\"p\"><i class=\"fi fi-printer\"></i> Print view</a></li>\t\t\t\t\t</ul>\n\t</div>\n\n\t\t\t</div>\n\n\t\n\t\t\t<div
+  class=\"search-box\">\n\t\t\t<form method=\"get\" id=\"topic-search\" action=\"./search.php?sid=2f7456d3ae2b67baa613ff4ca233a396\">\n\t\t\t<div
+  class=\"input-group\">\n\t\t\t\t<input class=\"search form-control\" type=\"search\"
+  name=\"keywords\" id=\"search_keywords\" size=\"20\" placeholder=\"Search this topic…\">\n\t\t\t\t<span
+  class=\"input-group-btn\">\n\t\t\t\t<button class=\"btn btn-default\" type=\"submit\"
+  title=\"Search\"><i class=\"fi fi-arrow-right\"></i></button>\n\t\t\t\t<a href=\"./search.php?sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"btn btn-default\" title=\"Advanced search\"><i class=\"fi fi-settings\"></i></a>\n\t\t\t\t</span>\n\t\t\t</div>\n\t\t\t<input
+  type=\"hidden\" name=\"t\" value=\"121855\">\n<input type=\"hidden\" name=\"sf\"
+  value=\"msgonly\">\n<input type=\"hidden\" name=\"sid\" value=\"2f7456d3ae2b67baa613ff4ca233a396\">\n\n\t\t\t</form>\n\t\t</div>\n\t\n\t\t\t<div
+  class=\"right-side\">\n\t\t\t\t\t\t<!--21 posts-->\n\t\t\t\t\t</div>\n\t\t</div>\n\n<div
+  class=\"postlist\">\n\t\t<div class=\"post has-profile\">\n\t\t<a class=\"st-anchor\"
+  id=\"p1401955\">&nbsp;</a>\n\t\t\t\t<div class=\"inner\">\n\n\t\t<dl class=\"postprofile\"
+  id=\"profile1401955\">\n\t\t\t\n\t\t\t<dt class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a
+  href=\"./memberlist.php?mode=viewprofile&amp;u=18424&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=18424&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">chuckula</a><span class=\"has-tooltip user-status-indicator\"
+  title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\n    <!-- Tech Report
+  - start subscriber badge -->\n    <div><a href=\"/subscriptions.x\"><img src=\"/imgnew/subs/gold-98.png\"
+  width=\"80\" height=\"80\"></a></div>\n    <div class=\"profile-main\">Gold subscriber</div>\n
+  \   <!-- end Tech Report subscriber badge -->\n\n\t\t\t\t\n\t\t\t\t<div class=\"profile-rank\">Minister
+  of Gerbil Affairs</div>\t\t\t</dt>\n\n\t\t\t\t\t\t\t<div class=\"topic-author-label\"><span
+  class=\"label label-info\">Topic Author</span></div>\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=18424&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">2011</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Wed
+  Jan 23, 2008 9:18 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd class=\"profile-custom-field
+  profile-phpbb_location\"><strong>Location:</strong> Probably where I don't belong.</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1401955\">\n\n\t\t\t<h3 class=\"first\"><a
+  href=\"#p1401955\">2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1401955&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1401955\"
+  title=\"\" data-original-title=\"Post #1\">#1</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1401955&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1401955\"
+  title=\"Post #1\">#1</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Tue Mar 12, 2019 10:09 am</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\">So two interesting tidbits from listening to chirping birds:<br><br>1.
+  Our pal Jeff is going to be doing a podcast with Ashraf Eassa, who is a well-known
+  industry analyst. That should be fun and I'd like to know more details.<br><br>2.
+  Jeff has taken the plunge into sous vide cooking!  AWESOME!</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig1401955\" class=\"signature\">4770K @ 4.7 GHz; 32GB DDR3-2133; <strong>Officially
+  RX-560... that's right AMD you shills!</strong>; 512GB 840 Pro (2x); Fractal Define
+  XL-R2; NZXT Kraken-X60<br>    --Many thanks to the TR Forum for advice in getting
+  it built.</div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div class=\"back2top\"><a
+  href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile online\">\n\t\t<a class=\"st-anchor\" id=\"p1401962\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1401962\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=1482&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=1482&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  style=\"color: #e53336;\" class=\"username-coloured\">just brew it!</a><span class=\"has-tooltip
+  user-status-indicator\" title=\"\" data-original-title=\"Online\"></span>\n\t\t\t\t\n
+  \   <!-- Tech Report - start subscriber badge -->\n    <div><a href=\"/subscriptions.x\"><img
+  src=\"/imgnew/subs/gold-98.png\" width=\"80\" height=\"80\"></a></div>\n    <div
+  class=\"profile-main\">Gold subscriber</div>\n    <!-- end Tech Report subscriber
+  badge -->\n\n\t\t\t\t\n\t\t\t\t<div class=\"profile-rank\">Administrator</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd
+  class=\"profile-posts\"><strong>Posts:</strong> <a href=\"./search.php?author_id=1482&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">52429</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Tue
+  Aug 20, 2002 10:51 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd class=\"profile-custom-field
+  profile-phpbb_location\"><strong>Location:</strong> Somewhere, having a beer</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1401962\">\n\n\t\t\t<h3><a
+  href=\"#p1401962\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1401962&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1401962\"
+  title=\"\" data-original-title=\"Post #2\">#2</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1401962&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1401962\"
+  title=\"Post #2\">#2</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Tue Mar 12, 2019 10:52 am</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\"><blockquote><cite>chuckula wrote:</cite><div class=\"blockquote__inner\">2.
+  Jeff has taken the plunge into sous vide cooking!  AWESOME!</div></blockquote><br>Is
+  it wrong that I've used my sous vide as much for beer fermenting (with newly discovered
+  <a href=\"https://draftmag.com/kveik-the-hottest-new-centuries-old-beer-yeast-youve-never-heard-of/\"
+  class=\"postlink\">high temperature yeast strains</a>) as I have for cooking food?
+  <img class=\"smilies\" src=\"./images/smilies/icon_lol.gif\" alt=\":lol:\" title=\"\"></div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig1401962\" class=\"signature\"><span style=\"font-size: 90%; line-height:
+  normal\">Nostalgia isn't what it used to be.</span></div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1401964\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1401964\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=36606&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=36606&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">Concupiscence</a><span class=\"has-tooltip user-status-indicator\"
+  title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\n    <!-- Tech Report
+  - start subscriber badge -->\n    <div><a href=\"/subscriptions.x\"><img src=\"/imgnew/subs/silver-98.png\"
+  width=\"80\" height=\"80\"></a></div>\n    <div class=\"profile-main\">Silver subscriber</div>\n
+  \   <!-- end Tech Report subscriber badge -->\n\n\t\t\t\t\n\t\t\t\t<div class=\"profile-rank\">Gerbil
+  Elite</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=36606&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">613</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Tue
+  Sep 25, 2012 7:58 am</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd class=\"profile-custom-field
+  profile-phpbb_location\"><strong>Location:</strong> Dallas area, Texas, USA</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1401964\">\n\n\t\t\t<h3><a
+  href=\"#p1401964\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1401964&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1401964\"
+  title=\"\" data-original-title=\"Post #3\">#3</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1401964&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1401964\"
+  title=\"Post #3\">#3</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Tue Mar 12, 2019 11:09 am</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\"><blockquote><cite>just brew it! wrote:</cite><div class=\"blockquote__inner\"><blockquote><cite>chuckula
+  wrote:</cite><div class=\"blockquote__inner\">2. Jeff has taken the plunge into
+  sous vide cooking!  AWESOME!</div></blockquote><br>Is it wrong that I've used my
+  sous vide as much for beer fermenting (with newly discovered <a href=\"https://draftmag.com/kveik-the-hottest-new-centuries-old-beer-yeast-youve-never-heard-of/\"
+  class=\"postlink\">high temperature yeast strains</a>) as I have for cooking food?
+  <img class=\"smilies\" src=\"./images/smilies/icon_lol.gif\" alt=\":lol:\" title=\"\"></div></blockquote><br><br>Wrong?
+  Brew, that is *brilliant.*</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig1401964\" class=\"signature\">Work: Core i9 7940x, 32 gigs RAM, Geforce
+  GTX Titan Xm, Windows 10 Pro<br>Play: Ryzen 7 1700, 16 gigs RAM, Arez Vega 56, Xubuntu
+  18.04<br>WTF: AMD FX 6300, 8 gigs RAM, Matrox M9120 LP PCIe x16, Windows 10 Pro</div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1401965\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1401965\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=18424&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=18424&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">chuckula</a><span class=\"has-tooltip user-status-indicator\"
+  title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\n    <!-- Tech Report
+  - start subscriber badge -->\n    <div><a href=\"/subscriptions.x\"><img src=\"/imgnew/subs/gold-98.png\"
+  width=\"80\" height=\"80\"></a></div>\n    <div class=\"profile-main\">Gold subscriber</div>\n
+  \   <!-- end Tech Report subscriber badge -->\n\n\t\t\t\t\n\t\t\t\t<div class=\"profile-rank\">Minister
+  of Gerbil Affairs</div>\t\t\t</dt>\n\n\t\t\t\t\t\t\t<div class=\"topic-author-label\"><span
+  class=\"label label-info\">Topic Author</span></div>\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=18424&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">2011</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Wed
+  Jan 23, 2008 9:18 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd class=\"profile-custom-field
+  profile-phpbb_location\"><strong>Location:</strong> Probably where I don't belong.</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1401965\">\n\n\t\t\t<h3><a
+  href=\"#p1401965\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1401965&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1401965\"
+  title=\"\" data-original-title=\"Post #4\">#4</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1401965&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1401965\"
+  title=\"Post #4\">#4</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Tue Mar 12, 2019 11:13 am</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\"><blockquote><cite>just brew it! wrote:</cite><div class=\"blockquote__inner\"><blockquote><cite>chuckula
+  wrote:</cite><div class=\"blockquote__inner\">2. Jeff has taken the plunge into
+  sous vide cooking!  AWESOME!</div></blockquote><br>Is it wrong that I've used my
+  sous vide as much for beer fermenting (with newly discovered <a href=\"https://draftmag.com/kveik-the-hottest-new-centuries-old-beer-yeast-youve-never-heard-of/\"
+  class=\"postlink\">high temperature yeast strains</a>) as I have for cooking food?
+  <img class=\"smilies\" src=\"./images/smilies/icon_lol.gif\" alt=\":lol:\" title=\"\"></div></blockquote><br><br>Normally
+  I'd say yes. But when your handle is Just Brew It! then I would expect nothing less!</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig1401965\" class=\"signature\">4770K @ 4.7 GHz; 32GB DDR3-2133; <strong>Officially
+  RX-560... that's right AMD you shills!</strong>; 512GB 840 Pro (2x); Fractal Define
+  XL-R2; NZXT Kraken-X60<br>    --Many thanks to the TR Forum for advice in getting
+  it built.</div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div class=\"back2top\"><a
+  href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1401974\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1401974\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=26204&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=26204&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">anotherengineer</a><span class=\"has-tooltip user-status-indicator\"
+  title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t<div
+  class=\"profile-rank\">Gerbil Jedi</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=26204&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">1601</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Fri
+  Sep 25, 2009 1:53 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd class=\"profile-custom-field
+  profile-phpbb_location\"><strong>Location:</strong> Northern, ON Canada, Yes I know,
+  Up in the sticks</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div class=\"postbody\">\n\t\t\t\t\t\t<div
+  id=\"post_content1401974\">\n\n\t\t\t<h3><a href=\"#p1401974\">Re: 2 TILs about
+  our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1401974&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1401974\"
+  title=\"\" data-original-title=\"Post #5\">#5</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1401974&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1401974\"
+  title=\"Post #5\">#5</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Tue Mar 12, 2019 12:20 pm</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\">Sous vide as a hobby or as a career??</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig1401974\" class=\"signature\">Life doesn't change after marriage, it changes
+  after children!</div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div class=\"back2top\"><a
+  href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402069\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402069\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=2459&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=2459&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">derFunkenstein</a><span class=\"has-tooltip user-status-indicator\"
+  title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\n    <!-- Tech Report
+  - start subscriber badge -->\n    <div><a href=\"/subscriptions.x\"><img src=\"/imgnew/subs/gold-98.png\"
+  width=\"80\" height=\"80\"></a></div>\n    <div class=\"profile-main\">Gold subscriber</div>\n
+  \   <!-- end Tech Report subscriber badge -->\n\n\t\t\t\t\n\t\t\t\t<div class=\"profile-rank\">Gerbil
+  God</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=2459&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">24924</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Fri
+  Feb 21, 2003 9:13 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd class=\"profile-custom-field
+  profile-phpbb_location\"><strong>Location:</strong> Comin' to you directly from
+  the Mothership</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div class=\"postbody\">\n\t\t\t\t\t\t<div
+  id=\"post_content1402069\">\n\n\t\t\t<h3><a href=\"#p1402069\">Re: 2 TILs about
+  our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402069&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402069\"
+  title=\"\" data-original-title=\"Post #6\">#6</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402069&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402069\"
+  title=\"Post #6\">#6</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 9:08 am</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\"><blockquote><cite>anotherengineer wrote:</cite><div class=\"blockquote__inner\">Sous
+  vide as a hobby or as a career??</div></blockquote><br>why not both?</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig1402069\" class=\"signature\">I do not understand what I do. For what I
+  want to do I do not do, but what I hate I do.<br>Twittering away the day at <a href=\"https://twitter.com/TVsBen\"
+  class=\"postlink\">@TVsBen</a></div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402070\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402070\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=2306&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=2306&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">drfish</a><span class=\"has-tooltip user-status-indicator\" title=\"\"
+  data-original-title=\"Offline\"></span>\n\t\t\t\t\n    <!-- Tech Report - start
+  subscriber badge -->\n    <div><a href=\"/subscriptions.x\"><img src=\"/imgnew/subs/gold-98.png\"
+  width=\"80\" height=\"80\"></a></div>\n    <div class=\"profile-main\">Gold subscriber</div>\n
+  \   <!-- end Tech Report subscriber badge -->\n\n\t\t\t\t\n\t\t\t\t<div class=\"profile-rank\">Gerbil
+  Elder</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=2306&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">5300</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Wed
+  Jan 22, 2003 7:53 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd class=\"profile-custom-field
+  profile-phpbb_location\"><strong>Location:</strong> Zeeland, MI</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1402070\">\n\n\t\t\t<h3><a
+  href=\"#p1402070\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402070&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402070\"
+  title=\"\" data-original-title=\"Post #7\">#7</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402070&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402070\"
+  title=\"Post #7\">#7</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 9:17 am</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\"><blockquote><cite>just brew it! wrote:</cite><div class=\"blockquote__inner\"><blockquote><cite>chuckula
+  wrote:</cite><div class=\"blockquote__inner\">2. Jeff has taken the plunge into
+  sous vide cooking!  AWESOME!</div></blockquote><br>Is it wrong that I've used my
+  sous vide as much for beer fermenting (with newly discovered <a href=\"https://draftmag.com/kveik-the-hottest-new-centuries-old-beer-yeast-youve-never-heard-of/\"
+  class=\"postlink\">high temperature yeast strains</a>) as I have for cooking food?
+  <img class=\"smilies\" src=\"./images/smilies/icon_lol.gif\" alt=\":lol:\" title=\"\"></div></blockquote><br><br>Amazing,
+  and here I've been using mine to test heat sinks like a fool!</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig1402070\" class=\"signature\"><span style=\"font-size: 85%; line-height:
+  normal\"><a href=\"https://techreport.com/forums/viewtopic.php?f=1&amp;t=120507\"
+  class=\"postlink\">TR BBQ XV</a> is over.</span></div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402078\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402078\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=8362&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=8362&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">Rand</a><span class=\"has-tooltip user-status-indicator\" title=\"\"
+  data-original-title=\"Offline\"></span>\n\t\t\t\t\n    <!-- Tech Report - start
+  subscriber badge -->\n    <div><a href=\"/subscriptions.x\"><img src=\"/imgnew/subs/silver-98.png\"
+  width=\"80\" height=\"80\"></a></div>\n    <div class=\"profile-main\">Silver subscriber</div>\n
+  \   <!-- end Tech Report subscriber badge -->\n\n\t\t\t\t\n\t\t\t\t<div class=\"profile-rank\">Gerbil</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd
+  class=\"profile-posts\"><strong>Posts:</strong> <a href=\"./search.php?author_id=8362&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">60</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Mon
+  Dec 27, 2004 2:34 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1402078\">\n\n\t\t\t<h3><a
+  href=\"#p1402078\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402078&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402078\"
+  title=\"\" data-original-title=\"Post #8\">#8</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402078&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402078\"
+  title=\"Post #8\">#8</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 11:12 am</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\">I'm not usually one for podcasts but Ashraf Eassa has always come
+  across as very intelligent and well informed, so seeing him do one with Jeff Kampman
+  could be interesting.</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402080\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402080\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=19842&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=19842&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">shaq_mobile</a><span class=\"has-tooltip user-status-indicator\"
+  title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t<div
+  class=\"profile-rank\">Gerbil Elite</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=19842&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">627</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Wed
+  Jul 16, 2008 2:33 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1402080\">\n\n\t\t\t<h3><a
+  href=\"#p1402080\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402080&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402080\"
+  title=\"\" data-original-title=\"Post #9\">#9</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402080&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402080\"
+  title=\"Post #9\">#9</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 11:16 am</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\"><blockquote><cite>derFunkenstein wrote:</cite><div class=\"blockquote__inner\"><blockquote><cite>anotherengineer
+  wrote:</cite><div class=\"blockquote__inner\">Sous vide as a hobby or as a career??</div></blockquote><br>why
+  not both?</div></blockquote><br><br>I believe there is some 6 michelin tire chef
+  in vegas somewhere that sous vides steaks in butter then throws them on a grill
+  to finish. Not sure if it has any merit to it. I think cooking has a massive amount
+  of anecdotal \"knowledge\" in it. Though, it certainly can't be that bad!!!</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402086\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402086\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=32362&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=32362&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">Arvald</a><span class=\"has-tooltip user-status-indicator\" title=\"\"
+  data-original-title=\"Offline\"></span>\n\t\t\t\t\n    <!-- Tech Report - start
+  subscriber badge -->\n    <div><a href=\"/subscriptions.x\"><img src=\"/imgnew/subs/silver-98.png\"
+  width=\"80\" height=\"80\"></a></div>\n    <div class=\"profile-main\">Silver subscriber</div>\n
+  \   <!-- end Tech Report subscriber badge -->\n\n\t\t\t\t\n\t\t\t\t<div class=\"profile-rank\">Gerbil
+  Elite</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=32362&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">742</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Tue
+  Sep 27, 2011 12:14 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd class=\"profile-custom-field
+  profile-phpbb_location\"><strong>Location:</strong> Gerbil-land, Canada</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1402086\">\n\n\t\t\t<h3><a
+  href=\"#p1402086\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402086&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402086\"
+  title=\"\" data-original-title=\"Post #10\">#10</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402086&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402086\"
+  title=\"Post #10\">#10</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 11:40 am</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\"><blockquote><cite>just brew it! wrote:</cite><div class=\"blockquote__inner\"><blockquote><cite>chuckula
+  wrote:</cite><div class=\"blockquote__inner\">2. Jeff has taken the plunge into
+  sous vide cooking!  AWESOME!</div></blockquote><br>Is it wrong that I've used my
+  sous vide as much for beer fermenting (with newly discovered <a href=\"https://draftmag.com/kveik-the-hottest-new-centuries-old-beer-yeast-youve-never-heard-of/\"
+  class=\"postlink\">high temperature yeast strains</a>) as I have for cooking food?
+  <img class=\"smilies\" src=\"./images/smilies/icon_lol.gif\" alt=\":lol:\" title=\"\"></div></blockquote><br>Interested
+  in hearing your views.<br>I did a root beer porter with Hornindale Kveik (from Escarpment
+  Labs) and it is just finished carbonating.  Fermented out in under 2 days  <img
+  class=\"smilies\" src=\"./images/smilies/icon_eek.gif\" alt=\":o\" title=\"\"></div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402088\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402088\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=18424&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=18424&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">chuckula</a><span class=\"has-tooltip user-status-indicator\"
+  title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\n    <!-- Tech Report
+  - start subscriber badge -->\n    <div><a href=\"/subscriptions.x\"><img src=\"/imgnew/subs/gold-98.png\"
+  width=\"80\" height=\"80\"></a></div>\n    <div class=\"profile-main\">Gold subscriber</div>\n
+  \   <!-- end Tech Report subscriber badge -->\n\n\t\t\t\t\n\t\t\t\t<div class=\"profile-rank\">Minister
+  of Gerbil Affairs</div>\t\t\t</dt>\n\n\t\t\t\t\t\t\t<div class=\"topic-author-label\"><span
+  class=\"label label-info\">Topic Author</span></div>\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=18424&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">2011</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Wed
+  Jan 23, 2008 9:18 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd class=\"profile-custom-field
+  profile-phpbb_location\"><strong>Location:</strong> Probably where I don't belong.</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1402088\">\n\n\t\t\t<h3><a
+  href=\"#p1402088\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402088&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402088\"
+  title=\"\" data-original-title=\"Post #11\">#11</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402088&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402088\"
+  title=\"Post #11\">#11</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 11:42 am</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\"><blockquote><cite>shaq_mobile wrote:</cite><div class=\"blockquote__inner\"><blockquote><cite>derFunkenstein
+  wrote:</cite><div class=\"blockquote__inner\"><blockquote><cite>anotherengineer
+  wrote:</cite><div class=\"blockquote__inner\">Sous vide as a hobby or as a career??</div></blockquote><br>why
+  not both?</div></blockquote><br><br>I believe there is some 6 michelin tire chef
+  in vegas somewhere that sous vides steaks in butter then throws them on a grill
+  to finish. Not sure if it has any merit to it. I think cooking has a massive amount
+  of anecdotal \"knowledge\" in it. Though, it certainly can't be that bad!!!</div></blockquote><br><br>Look
+  up the \"sous vide everything\" channel on YouTube. Not a Michelin star chef, but
+  very entertaining and he makes some awesome looking food.</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig1402088\" class=\"signature\">4770K @ 4.7 GHz; 32GB DDR3-2133; <strong>Officially
+  RX-560... that's right AMD you shills!</strong>; 512GB 840 Pro (2x); Fractal Define
+  XL-R2; NZXT Kraken-X60<br>    --Many thanks to the TR Forum for advice in getting
+  it built.</div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div class=\"back2top\"><a
+  href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402089\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402089\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=2306&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=2306&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">drfish</a><span class=\"has-tooltip user-status-indicator\" title=\"\"
+  data-original-title=\"Offline\"></span>\n\t\t\t\t\n    <!-- Tech Report - start
+  subscriber badge -->\n    <div><a href=\"/subscriptions.x\"><img src=\"/imgnew/subs/gold-98.png\"
+  width=\"80\" height=\"80\"></a></div>\n    <div class=\"profile-main\">Gold subscriber</div>\n
+  \   <!-- end Tech Report subscriber badge -->\n\n\t\t\t\t\n\t\t\t\t<div class=\"profile-rank\">Gerbil
+  Elder</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=2306&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">5300</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Wed
+  Jan 22, 2003 7:53 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd class=\"profile-custom-field
+  profile-phpbb_location\"><strong>Location:</strong> Zeeland, MI</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1402089\">\n\n\t\t\t<h3><a
+  href=\"#p1402089\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402089&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402089\"
+  title=\"\" data-original-title=\"Post #12\">#12</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402089&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402089\"
+  title=\"Post #12\">#12</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 11:45 am</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\"><blockquote><cite>shaq_mobile wrote:</cite><div class=\"blockquote__inner\"><blockquote><cite>derFunkenstein
+  wrote:</cite><div class=\"blockquote__inner\"><blockquote><cite>anotherengineer
+  wrote:</cite><div class=\"blockquote__inner\">Sous vide as a hobby or as a career??</div></blockquote><br>why
+  not both?</div></blockquote><br><br>I believe there is some 6 michelin tire chef
+  in vegas somewhere that sous vides steaks in butter then throws them on a grill
+  to finish. Not sure if it has any merit to it. I think cooking has a massive amount
+  of anecdotal \"knowledge\" in it. Though, it certainly can't be that bad!!!</div></blockquote><br><br>I
+  haven't tried it, but I've wondered about sous vide confit, bag of oil and food
+  being warmed by circulating water. Seems like a good idea.</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig1402089\" class=\"signature\"><span style=\"font-size: 85%; line-height:
+  normal\"><a href=\"https://techreport.com/forums/viewtopic.php?f=1&amp;t=120507\"
+  class=\"postlink\">TR BBQ XV</a> is over.</span></div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402091\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402091\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=19842&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=19842&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">shaq_mobile</a><span class=\"has-tooltip user-status-indicator\"
+  title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t<div
+  class=\"profile-rank\">Gerbil Elite</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=19842&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">627</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Wed
+  Jul 16, 2008 2:33 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1402091\">\n\n\t\t\t<h3><a
+  href=\"#p1402091\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402091&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402091\"
+  title=\"\" data-original-title=\"Post #13\">#13</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402091&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402091\"
+  title=\"Post #13\">#13</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 12:02 pm</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\">yeah i guess my main concern would be the fat bonding with any
+  flavor in the meat. ive seen a few youtube channels try sous vide in butter, and
+  they said it came out tasting less like the original meat. but if you took a lean,
+  cheap cut, then overseasoned the butter, i'm sure itd be fine. i think sous vide'ing
+  steaks is not exactly the purpose, right? dry steaks arent usually an issue if you
+  are doing a good enough job.<br><br>i guess you could try and make a brown sauce
+  with the leftover butter and try to reincorporate the flavor. i mean as long as
+  you arent par boiling, there's always a solution. <img class=\"smilies\" src=\"./images/smilies/icon_wink.gif\"
+  alt=\";)\" title=\"\"></div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402092\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402092\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=18424&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=18424&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">chuckula</a><span class=\"has-tooltip user-status-indicator\"
+  title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\n    <!-- Tech Report
+  - start subscriber badge -->\n    <div><a href=\"/subscriptions.x\"><img src=\"/imgnew/subs/gold-98.png\"
+  width=\"80\" height=\"80\"></a></div>\n    <div class=\"profile-main\">Gold subscriber</div>\n
+  \   <!-- end Tech Report subscriber badge -->\n\n\t\t\t\t\n\t\t\t\t<div class=\"profile-rank\">Minister
+  of Gerbil Affairs</div>\t\t\t</dt>\n\n\t\t\t\t\t\t\t<div class=\"topic-author-label\"><span
+  class=\"label label-info\">Topic Author</span></div>\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=18424&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">2011</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Wed
+  Jan 23, 2008 9:18 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd class=\"profile-custom-field
+  profile-phpbb_location\"><strong>Location:</strong> Probably where I don't belong.</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1402092\">\n\n\t\t\t<h3><a
+  href=\"#p1402092\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402092&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402092\"
+  title=\"\" data-original-title=\"Post #14\">#14</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402092&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402092\"
+  title=\"Post #14\">#14</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 12:08 pm</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\"><blockquote><cite>shaq_mobile wrote:</cite><div class=\"blockquote__inner\">yeah
+  i guess my main concern would be the fat bonding with any flavor in the meat. ive
+  seen a few youtube channels try sous vide in butter, and they said it came out tasting
+  less like the original meat. but if you took a lean, cheap cut, then overseasoned
+  the butter, i'm sure itd be fine. i think sous vide'ing steaks is not exactly the
+  purpose, right? dry steaks arent usually an issue if you are doing a good enough
+  job.<br><br>i guess you could try and make a brown sauce with the leftover butter
+  and try to reincorporate the flavor. i mean as long as you arent par boiling, there's
+  always a solution. <img class=\"smilies\" src=\"./images/smilies/icon_wink.gif\"
+  alt=\";)\" title=\"\"></div></blockquote><br><br>I've heard similar things. Part
+  of it might be that the relatively short cook times for a steak done conventionally
+  only allows the butter to brown on the exterior, but the protracted sous vide process
+  allows for too much interaction between the butter and the meat.<br><br>Another
+  point that the experts know when it comes to meat: It will come out of the sous
+  vide cooked but looking pretty awful. The post sous vide browning process is critical
+  to giving the meat the look &amp; external texture you want.</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig1402092\" class=\"signature\">4770K @ 4.7 GHz; 32GB DDR3-2133; <strong>Officially
+  RX-560... that's right AMD you shills!</strong>; 512GB 840 Pro (2x); Fractal Define
+  XL-R2; NZXT Kraken-X60<br>    --Many thanks to the TR Forum for advice in getting
+  it built.</div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div class=\"back2top\"><a
+  href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402095\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402095\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=25235&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=25235&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">superjawes</a><span class=\"has-tooltip user-status-indicator\"
+  title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t<div
+  class=\"profile-rank\">Minister of Gerbil Affairs</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd
+  class=\"profile-posts\"><strong>Posts:</strong> <a href=\"./search.php?author_id=25235&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">2132</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Thu
+  May 28, 2009 9:49 am</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1402095\">\n\n\t\t\t<h3><a
+  href=\"#p1402095\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402095&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402095\"
+  title=\"\" data-original-title=\"Post #15\">#15</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402095&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402095\"
+  title=\"Post #15\">#15</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 12:20 pm</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\">I've also seen the \"add butter with steak in sous vide\" resulting
+  in \"worse\" flavor, and that's because your greatest boost to a steak's flavor
+  comes from the salt. Heck, that's basically all a good steakhouse does, keep the
+  meat in a salty, dry environment for many days. It's basically a process to decrease
+  the moisture content of the meat, resulting in higher relative concentrations of
+  salt, fat, and protein.<br><br>With sous vide, adding butter (or any fat) to the
+  bag means that your salt is diffusing into the meat AND the fat, meaning less salt
+  content in the steak's interior, resulting in less tenderization and flavor. On
+  top of that, you generally want the added fat content to brown up (oh, sweet maillard),
+  which can't happen in the cooler, watery sous vide.</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig1402095\" class=\"signature\">On second thought, let's not go to TechReport.
+  \ Tis a silly place.</div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div class=\"back2top\"><a
+  href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402096\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402096\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=20101&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=20101&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">sweatshopking</a><span class=\"has-tooltip user-status-indicator\"
+  title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t<div
+  class=\"profile-rank\">Graphmaster Gerbil</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=20101&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">1405</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Fri
+  Aug 15, 2008 10:37 am</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1402096\">\n\n\t\t\t<h3><a
+  href=\"#p1402096\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402096&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402096\"
+  title=\"\" data-original-title=\"Post #16\">#16</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402096&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402096\"
+  title=\"Post #16\">#16</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 12:25 pm</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\">Since the heat is relatively low I'm LESS concerned about eating
+  from heated plastic, though it still wouldn't be my favorite thing. Glass jars more
+  my angle</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402104\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402104\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=294&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=294&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  style=\"color: #56a602;\" class=\"username-coloured\">JustAnEngineer</a><span class=\"has-tooltip
+  user-status-indicator\" title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\n
+  \   <!-- Tech Report - start subscriber badge -->\n    <div><a href=\"/subscriptions.x\"><img
+  src=\"/imgnew/subs/gold-98.png\" width=\"80\" height=\"80\"></a></div>\n    <div
+  class=\"profile-main\">Gold subscriber</div>\n    <!-- end Tech Report subscriber
+  badge -->\n\n\t\t\t\t\n\t\t\t\t<div class=\"profile-rank\">Gerbil God</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd
+  class=\"profile-posts\"><strong>Posts:</strong> <a href=\"./search.php?author_id=294&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">18492</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Sat
+  Jan 26, 2002 7:00 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd class=\"profile-custom-field
+  profile-phpbb_location\"><strong>Location:</strong> The Heart of Dixie</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1402104\">\n\n\t\t\t<h3><a
+  href=\"#p1402104\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402104&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402104\"
+  title=\"\" data-original-title=\"Post #17\">#17</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402104&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402104\"
+  title=\"Post #17\">#17</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 3:21 pm</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\"><blockquote><cite>shaq_mobile wrote:</cite><div class=\"blockquote__inner\">
+  Not sure if it has any merit to it. I think cooking has a massive amount of anecdotal
+  \"knowledge\" in it. </div></blockquote> Savory dishes are art.  Pastry is science.
+  \ Watch Alton Brown on Good Eats If you’re craving more of the science that explains
+  why chefs do what they do.</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig1402104\" class=\"signature\"><span style=\"font-size: 70%; line-height:
+  normal\">i7-9700K, H100i v2, Z390M Pro4, 32 GiB, RX Vega64, Define Mini-C, SSR-850PX,
+  C32HG70, RK-9000BR, MX518</span></div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402114\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402114\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=114&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  style=\"color: #56a602;\" class=\"username-coloured\">SecretSquirrel</a><span class=\"has-tooltip
+  user-status-indicator\" title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t<div
+  class=\"profile-rank\">Minister of Gerbil Affairs</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd
+  class=\"profile-posts\"><strong>Posts:</strong> <a href=\"./search.php?author_id=114&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">2537</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Tue
+  Jan 01, 2002 7:00 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<dd
+  class=\"profile-custom-field profile-phpbb_location\"><strong>Location:</strong>
+  North DFW suburb...</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<dd class=\"profile-contact\">\n\t\t\t\t<strong>Contact:</strong>\n\t\t\t\t<div
+  class=\"dropdown-container dropdown-left\">\n\t\t\t\t\t<a href=\"#\" class=\"dropdown-trigger
+  dropdown-toggle\"><span class=\"imageset icon_contact\" title=\"Contact SecretSquirrel\">Contact
+  SecretSquirrel</span></a>\n\t\t\t\t\t<div class=\"dropdown hidden\">\n\t\t\t\t\t\t<div
+  class=\"pointer\"><div class=\"pointer-inner\"></div></div>\n\t\t\t\t\t\t<div class=\"dropdown-contents
+  contact-icons\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a
+  href=\"https://www.icq.com/people/55446663/\" title=\"ICQ\" class=\"last-cell\">\n\t\t\t\t\t\t\t\t\t\t<span
+  class=\"contact-icon phpbb_icq-icon\">ICQ</span>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</dd>\n\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1402114\">\n\n\t\t\t<h3><a
+  href=\"#p1402114\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402114&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402114\"
+  title=\"\" data-original-title=\"Post #18\">#18</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402114&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402114\"
+  title=\"Post #18\">#18</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 7:14 pm</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\">The main reasoning for cooking a steak sous vide is you can easily
+  get the entire steak to the level of perfect doneness, whatever you consider perfect.
+  \ No having to worry about rare in the middle and well done around the edge.  The
+  down side, as mentioned is that they come out looking less than appetizing.  Some
+  time ago, I saw an Adam Savage video, testing different methods for searing a steak
+  that had been cooked sous vide.<br><br><!-- m --><a class=\"postlink\" href=\"https://www.youtube.com/watch?v=JB1x0O-bhrw\">https://www.youtube.com/watch?v=JB1x0O-bhrw</a><!--
+  m --><br><br>--SS</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402118\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402118\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=26204&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=26204&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">anotherengineer</a><span class=\"has-tooltip user-status-indicator\"
+  title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t<div
+  class=\"profile-rank\">Gerbil Jedi</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=26204&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">1601</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Fri
+  Sep 25, 2009 1:53 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd class=\"profile-custom-field
+  profile-phpbb_location\"><strong>Location:</strong> Northern, ON Canada, Yes I know,
+  Up in the sticks</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div class=\"postbody\">\n\t\t\t\t\t\t<div
+  id=\"post_content1402118\">\n\n\t\t\t<h3><a href=\"#p1402118\">Re: 2 TILs about
+  our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402118&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402118\"
+  title=\"\" data-original-title=\"Post #19\">#19</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402118&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402118\"
+  title=\"Post #19\">#19</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 8:54 pm</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\"><blockquote><cite>JustAnEngineer wrote:</cite><div class=\"blockquote__inner\"><blockquote><cite>shaq_mobile
+  wrote:</cite><div class=\"blockquote__inner\"> Not sure if it has any merit to it.
+  I think cooking has a massive amount of anecdotal \"knowledge\" in it. </div></blockquote>
+  Savory dishes are art.  Pastry is science.  Watch Alton Brown on Good Eats If you’re
+  craving more of the science that explains why chefs do what they do.</div></blockquote><br><br>If
+  you've been places I've been and eaten things I've eaten, chicken strips and salad
+  with no dressing is kingly!!</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig1402118\" class=\"signature\">Life doesn't change after marriage, it changes
+  after children!</div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div class=\"back2top\"><a
+  href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402119\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402119\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=236&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=236&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  style=\"color: #00CC00;\" class=\"username-coloured\">Captain Ned</a><span class=\"has-tooltip
+  user-status-indicator\" title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\n
+  \   <!-- Tech Report - start subscriber badge -->\n    <div><a href=\"/subscriptions.x\"><img
+  src=\"/imgnew/subs/gold-98.png\" width=\"80\" height=\"80\"></a></div>\n    <div
+  class=\"profile-main\">Gold subscriber</div>\n    <!-- end Tech Report subscriber
+  badge -->\n\n\t\t\t\t\n\t\t\t\t<div class=\"profile-rank\">Global Moderator</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd
+  class=\"profile-posts\"><strong>Posts:</strong> <a href=\"./search.php?author_id=236&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">27555</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Wed
+  Jan 16, 2002 7:00 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t<dd class=\"profile-custom-field
+  profile-phpbb_location\"><strong>Location:</strong> Vermont, USA</dd>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1402119\">\n\n\t\t\t<h3><a
+  href=\"#p1402119\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402119&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402119\"
+  title=\"\" data-original-title=\"Post #20\">#20</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402119&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402119\"
+  title=\"Post #20\">#20</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Wed Mar 13, 2019 9:07 pm</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\"><blockquote><cite>JustAnEngineer wrote:</cite><div class=\"blockquote__inner\">Pastry
+  is science.</div></blockquote><br>And Bravetart is a worthy teacher.</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div
+  id=\"sig1402119\" class=\"signature\">Humans sleep soundly in their beds because
+  rough cats stand ready in the night to visit violence on those who would do us harm.</div>\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t\t\t<div
+  class=\"post has-profile\">\n\t\t<a class=\"st-anchor\" id=\"p1402180\">&nbsp;</a>\n\t\t\t\t<div
+  class=\"inner\">\n\n\t\t<dl class=\"postprofile\" id=\"profile1402180\">\n\t\t\t\n\t\t\t<dt
+  class=\"avatar-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=19842&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"avatar\"><img src=\"./styles/canvas/theme/images/no_avatar.jpg\" alt=\"\"></a>\t\t\t\t\t\t\t\t\t\t\t</dt>\n\t\t\t\n\t\t\t<dt
+  class=\"profile-main has-profile-rank\">\n\t\t\t\t\t\t\t\t<a href=\"./memberlist.php?mode=viewprofile&amp;u=19842&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"username\">shaq_mobile</a><span class=\"has-tooltip user-status-indicator\"
+  title=\"\" data-original-title=\"Offline\"></span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t<div
+  class=\"profile-rank\">Gerbil Elite</div>\t\t\t</dt>\n\n\t\t\t\n\t\t<dd class=\"profile-posts\"><strong>Posts:</strong>
+  <a href=\"./search.php?author_id=19842&amp;sr=posts&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">627</a></dd>\t\t<dd
+  class=\"profile-joined\"><strong>Joined:</strong> <span class=\"timestamp\">Wed
+  Jul 16, 2008 2:33 pm</span></dd>\t\t\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t</dl>\n\n\t\t<div
+  class=\"postbody\">\n\t\t\t\t\t\t<div id=\"post_content1402180\">\n\n\t\t\t<h3><a
+  href=\"#p1402180\">Re: 2 TILs about our pal Jeff Kampman</a></h3>\n\n\t\t\t\t\t\t\t<ul
+  class=\"post-buttons compact\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402180&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"button has-tooltip icon-button quote-icon\" data-original-title=\"Reply
+  with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"hidden\">\n\t\t\t\t\t<a class=\"icon_post_target has-tooltip\" href=\"#p1402180\"
+  title=\"\" data-original-title=\"Post #21\">#21</a>\n\t\t\t\t</li>\n\t\t\t<li class=\"responsive-menu
+  dropdown-container\"><a href=\"javascript:void(0);\" class=\"responsive-menu-link
+  dropdown-toggle button icon-button has-tooltip\" data-original-title=\"\" title=\"\"><span></span>&nbsp;</a><div
+  class=\"dropdown hidden\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><ul
+  class=\"dropdown-contents\"><li class=\"clone clone-first\">\n\t\t\t\t\t\t<a href=\"./posting.php?mode=quote&amp;f=1&amp;p=1402180&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  title=\"\" class=\"has-tooltip quote-icon\" data-original-title=\"Reply with quote\"><span>Quote</span></a>\n\t\t\t\t\t</li><li
+  class=\"clone clone-first\">\n\t\t\t\t\t<a class=\"icon_post_target\" href=\"#p1402180\"
+  title=\"Post #21\">#21</a>\n\t\t\t\t</li></ul></div></li></ul>\n\t\t\t\t\n\t\t\t\t\t\t<p
+  class=\"author\"><span class=\"timestamp\">Thu Mar 14, 2019 6:09 pm</span></p>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div
+  class=\"content\"><blockquote><cite>JustAnEngineer wrote:</cite><div class=\"blockquote__inner\"><blockquote><cite>shaq_mobile
+  wrote:</cite><div class=\"blockquote__inner\"> Not sure if it has any merit to it.
+  I think cooking has a massive amount of anecdotal \"knowledge\" in it. </div></blockquote>
+  Savory dishes are art.  Pastry is science.  Watch Alton Brown on Good Eats If you’re
+  craving more of the science that explains why chefs do what they do.</div></blockquote><br><br>Yeah
+  I have years of cooks illustrated and Alton Brown is great. I was mostly referring
+  to how often I hear wildly conflicting information.</div>\n\n\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t</div>\n\n\t\t<div
+  class=\"back2top\"><a href=\"#top\" class=\"top\" title=\"Top\">Top</a></div>\n\n\t\t</div>\n\t</div>\n\t\n\t</div>\n\n\n\t<form
+  id=\"viewtopic\" method=\"post\" action=\"./viewtopic.php?f=1&amp;t=121855&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\">\n\t<fieldset
+  class=\"display-options\" style=\"margin-top: 0; \">\n\t\t\t\t<label>Display posts
+  from previous: <span class=\"fancyInput fancyInput--select\"><select name=\"st\"
+  id=\"st\"><option value=\"0\" selected=\"selected\">All posts</option><option value=\"1\">1
+  day</option><option value=\"7\">7 days</option><option value=\"14\">2 weeks</option><option
+  value=\"30\">1 month</option><option value=\"90\">3 months</option><option value=\"180\">6
+  months</option><option value=\"365\">1 year</option></select><span class=\"fancyInput__text\">All
+  posts</span><span class=\"fancyInput__icon\"></span></span></label>\n\t\t<label>Sort
+  by <span class=\"fancyInput fancyInput--select\"><select name=\"sk\" id=\"sk\"><option
+  value=\"a\">Author</option><option value=\"t\" selected=\"selected\">Post time</option><option
+  value=\"s\">Subject</option></select><span class=\"fancyInput__text\">Post time</span><span
+  class=\"fancyInput__icon\"></span></span></label> <label><span class=\"fancyInput
+  fancyInput--select\"><select name=\"sd\" id=\"sd\"><option value=\"a\" selected=\"selected\">Ascending</option><option
+  value=\"d\">Descending</option></select><span class=\"fancyInput__text\">Ascending</span><span
+  class=\"fancyInput__icon\"></span></span></label>\n\t\t<button type=\"submit\" name=\"sort\"
+  value=\"Go\" class=\"btn btn-link\"><i class=\"fi fi-arrow-right\"></i></button>\n\t\t\t</fieldset>\n\t</form>\n\n<div
+  class=\"action-bar bottom\">\n\t<div class=\"buttons\">\n\t\t\t\n\t\t\t\t\t\t\t\t<a
+  href=\"./posting.php?mode=reply&amp;f=1&amp;t=121855&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  class=\"btn btn-success btn-createnew\" title=\"Post a reply\">\n\t\t\t\t<i class=\"fi
+  fi-plus\"></i> Post Reply\n\t\t\t</a>\n\t\t\t\t\t\n\t\t\t<div class=\"dd-container
+  topic-tools\">\n\t\t<span title=\"Topic tools\" data-toggle=\"dropdown\" class=\"btn
+  btn-default\"><i class=\"fi fi-settings\"></i></span>\n\t\t<ul class=\"dropdown-menu\"
+  role=\"menu\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li class=\"small-icon icon-print\"><a
+  href=\"./viewtopic.php?f=1&amp;t=121855&amp;sid=2f7456d3ae2b67baa613ff4ca233a396&amp;view=print\"
+  title=\"Print view\" accesskey=\"p\"><i class=\"fi fi-printer\"></i> Print view</a></li>\t\t\t\t\t</ul>\n\t</div>\n\n\t\t\t\t\n\t\t\t</div>\n\n\t\t\t<div
+  class=\"right-side\">\n\t\t\t\t\t</div>\n\t</div>\n\n\n<div class=\"hoverbox online-list\">\n\t<h3
+  class=\"block-header\"><i class=\"fi fi-earth\"></i> Who is online</h3>\n\t<div
+  class=\"block-content\">Users browsing this forum: No registered users and 2 guests</div>\n</div>\n</div>\n</div>\n\n\n\t<!--
+  TR: bottom ad -->\n\n    \n        <!-- Desktop -->\n        <div class=\"googleadbottom\"
+  id=\"ad_728_bottom\" hidden=\"\" zvr3vto=\"\">\n\n            <script type=\"text/javascript\">\n
+  \               googletag.cmd.push(function() {\n\n                    googletag.display(\"ad_728_bottom\");\n
+  \               });\n            </script>\n\n        </div>\n\n    \n<!-- end TR:
+  bottom ad -->\n\t</div><!-- .container END -->\n\n\t\t<div class=\"breadcrumbs-bar
+  breadcrumbs-bar--bottom \">\n    <ol class=\"nav-breadcrumbs\">\n    \n  \t<li class=\"quick-nav-link
+  dd-container jumpbox\">\n\t\t<a href=\"javascript:void(0)\" data-toggle=\"dropdown\"
+  title=\"Jump to\">\n\t\t\t<i class=\"fi fi-open-in-new\"></i>\n\t\t</a>\n\n\t\t<ul
+  class=\"dropdown-menu jumpbox-dropdown\" role=\"menu\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=38&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\" role=\"menuitem\"
+  tabindex=\"-1\"><span>Administration</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=32&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Announcements</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=39&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\" role=\"menuitem\"
+  tabindex=\"-1\"><span>Hardware</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=29&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>General Hardware</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=2&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Processors</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=3&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Graphics</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=16&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Cases and Power Supplies</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=36&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Motherboards, Chipsets, &amp; RAM</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=4&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Overclocking, Tweaking, &amp; Cooling</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=22&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>SFF Station</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=5&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Storage</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=33&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>System Builders Anonymous</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=40&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\" role=\"menuitem\"
+  tabindex=\"-1\"><span>Software</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=30&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>General Software</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=7&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Linux, Unix, and Assorted Madness</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=6&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Windows</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=20&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Developer's Den</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=41&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\" role=\"menuitem\"
+  tabindex=\"-1\"><span>Technology</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=15&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Apple Sanctuary</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=28&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Echo Vale</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=12&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Gaming</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=13&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Mobile Tech</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=14&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Networking</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=37&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Visual Haven</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a
+  href=\"./viewforum.php?f=42&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\" role=\"menuitem\"
+  tabindex=\"-1\"><span>General discussion</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=1&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>The Back Porch</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=11&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>The Bargain Basement</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=34&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>Hot Deals</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=9&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>TR Distributed Computing Effort</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=31&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>TR Sports</span></a></li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li
+  class=\"jumpbox-subforum\"><a href=\"./viewforum.php?f=17&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\" tabindex=\"-1\"><span>The Smoky Back Room</span></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t</li>\n\t\n
+  \ \n  \n  \n  <li class=\"crumb crumb--home\" itemtype=\"http://data-vocabulary.org/Breadcrumb\"
+  itemscope=\"\">\n\t<a href=\"./index.php?sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  itemprop=\"url\" accesskey=\"h\" data-navbar-reference=\"index\" title=\"Board index\"><span
+  itemprop=\"title\">Board index</span></a>\n  </li>\n\n  \t\t<li class=\"crumb\"
+  itemtype=\"http://data-vocabulary.org/Breadcrumb\" itemscope=\"\" data-forum-id=\"42\">\n\t
+  \ <a href=\"./viewforum.php?f=42&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\" itemprop=\"url\"
+  title=\"General discussion\"><span itemprop=\"title\">General discussion</span></a>\n\t</li>\n\t
+  \ \t\t<li class=\"crumb crumb--previous\" itemtype=\"http://data-vocabulary.org/Breadcrumb\"
+  itemscope=\"\" data-forum-id=\"1\">\n\t  <a href=\"./viewforum.php?f=1&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  itemprop=\"url\" title=\"The Back Porch\"><span itemprop=\"title\">The Back Porch</span></a>\n\t</li>\n\t
+  \   </ol>\n</div>\n\n</div><!-- #page-body END -->\n\n\n\t\t<footer id=\"page-footer\"
+  class=\"page-footer page-footer--basic\">\n\t\t<div class=\"page-footer__before\">\n\t<div
+  class=\"container\">\n    <div class=\"dropup footer-links-dropdown\">\n        <a
+  href=\"javascript:void(0)\" data-toggle=\"dropdown\">\n            <span class=\"icon-menu-bars\"><span
+  class=\"bar-1\"></span><span class=\"bar-2\"></span><span class=\"bar-3\"></span></span>\n
+  \       </a>\n        <ul class=\"dropdown-menu\" role=\"menu\">\n            \n
+  \                           <li><a href=\"./ucp.php?mode=delete_cookies&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  data-ajax=\"slickthemes.resetStorage\" data-refresh=\"true\" role=\"menuitem\"><i
+  class=\"fi fi-close\"></i> Delete all board cookies</a></li>\n                                        \n
+  \                       <li><a href=\"./memberlist.php?mode=team&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\">The team</a></li>                        <li><a href=\"./memberlist.php?mode=contactadmin&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\">Contact us</a></li>        </ul>\n    </div>\n    \n    <ul class=\"footer-links\"
+  role=\"menu\">\n\n                    <li><a href=\"./ucp.php?mode=delete_cookies&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  data-ajax=\"slickthemes.resetStorage\" data-refresh=\"true\" role=\"menuitem\"><i
+  class=\"fi fi-close\"></i> Delete all board cookies</a></li>\n                            \n
+  \       \t\t<li><a href=\"./memberlist.php?mode=team&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\">The team</a></li>\t\t\t\t<li><a href=\"./memberlist.php?mode=contactadmin&amp;sid=2f7456d3ae2b67baa613ff4ca233a396\"
+  role=\"menuitem\">Contact us</a></li>    </ul>\n    \n\t<span class=\"socialicons\">\n\t
+  \ \t  \t  \t  \t</span>\n\t</div>\n</div>\n\t\n\t\t<div class=\"copyright\">\n\t\t\t<div
+  class=\"container\">\n\n\t\t\t<div class=\"pull-left\">\n\t\t\t\t\t\tPowered by
+  <a href=\"https://www.phpbb.com/\">phpBB</a>® Forum Software © phpBB Limited\n\t\t\t\t\t\t\t\t\t</div>\n\n\t\t\t<div
+  class=\"slickthemes-footerlink\">\n\t\t\t\t<a href=\"http://slickthemes.co\">\n\t\t\t\t\tDesign
+  by SlickThemes\n\t\t\t\t</a>\n\t\t\t</div>\n\n\t\t\t</div>\n\t\t</div>\n\t\t\t</footer>\n\n\t</div><!--
+  #wrap END -->\n</div><!-- .oncanvas-content END -->\n</div><!-- .offcanvas-wrapper
+  END -->\n\n<div class=\"hidden\">\n\t<a id=\"bottom\" class=\"anchor\" accesskey=\"z\"></a>\n\t</div>\n\n<div
+  id=\"darkenwrapper\" data-ajax-error-title=\"AJAX error\" data-ajax-error-text=\"Something
+  went wrong when processing your request.\" data-ajax-error-text-abort=\"User aborted
+  request.\" data-ajax-error-text-timeout=\"Your request timed out; please try again.\"
+  data-ajax-error-text-parsererror=\"Something went wrong with the request and the
+  server returned an invalid reply.\">\n\t\t<div id=\"darken\">&nbsp;</div>\n</div>\n\n<div
+  id=\"phpbb_alert\" class=\"phpbb_alert\" data-l-err=\"Error\" data-l-timeout-processing-req=\"Request
+  timed out.\">\n\t\t<a href=\"#\" class=\"alert_close\"></a>\n\t\t<h3 class=\"alert_title\">&nbsp;</h3><p
+  class=\"alert_text\"></p>\n</div>\n\n<div id=\"phpbb_confirm\" class=\"phpbb_alert\">\n\t\t<a
+  href=\"javascript:void(0)\" class=\"alert_close close\" data-dismiss=\"alert\" aria-label=\"Close\"><span
+  aria-hidden=\"true\">×</span></a>\n\t\t<div class=\"alert_text\"></div>\n</div>\n\n\n<script
+  type=\"text/javascript\" src=\"./styles/canvas/theme/js/modernizr.custom.js?assets_version=25\"></script>\n\n<script
+  type=\"text/javascript\" src=\"./styles/canvas/theme/bower_components/jquery/dist/jquery.min.js?assets_version=25\"></script>\n\n\n<script
+  type=\"text/javascript\" src=\"./assets/javascript/core.js?assets_version=25\"></script>\n\n\n\n<script
+  src=\"./styles/canvas/theme/js/main.min.js?assets_version=25\"></script>\n\n\n<script>\n(function(){\n\tvar
+  styleTag = document.getElementById('elementState_restore');\n\n\t//restore alert
+  states\n\tfor (var key in localStorage) {\n\t\tif (key.indexOf('st_canvas_Alert_')
+  == 0) {\n\n\t\t\tvar hidden \t= (localStorage[key]) ? true:false,\n\t\t\t\t\telm
+  \t\t= document.getElementById(key.replace('st_canvas_Alert_',''));\n\n\t\t\tif (elm
+  && hidden) {\n\t\t\t\telm.style.display = 'none'\n\t\t\t\t$(elm).data('hidden',
+  true);\n\t\t\t}\n\n\t\t}\n\t}\n\t$('#page-body > .container > .alert').each(function(){\n\t\tif
+  (!$(this).data('hidden')) {\n\t\t\t$(this).show();\n\t\t}\n\t})\n\n\tif ($('body').hasClass('section-index'))
+  {\n\t\tvar\n\t\tcatHead \t= $('.category-header'),\n\t\tdelay \t\t= parseFloat(catHead.css('transition-duration'))
+  * 1000;\n\n\t\t//animation-less collapse\n\t\tcatHead.css('transition','0s');\n\t\tsetTimeout(function(){\n\t\t\tcatHead.css('transition','')\n\t\t},delay+100);\n\n\t\tfor(var
+  key in localStorage){\n\t\t\tif (key.indexOf('st_canvas_collapsible_') == 0) {\n\t\t\t\tvar
+  $this = $('#'+key.replace('st_canvas_collapsible_', ''));\n\n\t\t\t\tif (localStorage[key]
+  == 'hidden') {\n\t\t\t\t\t$this.removeClass('in').parent().addClass('collapsed');\n\t\t\t\t}\n\t\t\t\telse
+  if (localStorage[key] == 'visible') {\n\t\t\t\t\t$this.addClass('in').parent().removeClass('collapsed')\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t}\n\n\t//import
+  phpbb template variables ===========\n\tphpbb.SCRIPT_NAME \t\t\t\t= \"viewtopic\".split('/')[0];\n\t$('body').addClass('section-'+phpbb.SCRIPT_NAME)\n\tphpbb.PER_PAGE
+  \t\t\t\t\t\t= \"30\";\n\tphpbb.ON_PAGE \t\t\t\t\t\t= \"\";\n\tphpbb.PAGE_NUMBER
+  \t\t\t\t= \"Page <strong>1</strong> of <strong>1</strong>\";\n\t_st.themePath \t\t\t\t\t\t=
+  \"./styles/canvas/theme\";\n\t_st.THEMEPANEL_INSTALLED \t= true;\n\t_st.THEMEPANEL_LINK
+  \t\t\t= \"/forums/app.php/slickpanel?sid=2f7456d3ae2b67baa613ff4ca233a396\";\n\t_st.THEMEPANEL_PAGE_LINK
+  \t= \"/forums/app.php/slickpanel/page?sid=2f7456d3ae2b67baa613ff4ca233a396\";\n\t_st.TOPIC_SOLVED_STYLE
+  = '';\n\t_st.TOPIC_SOLVED_TITLE = \"\";\n\n\t//import language strings\n\t_st.lang
+  = {\n\t\ttopic: 'Topic',\n\t\ttopics: 'Topics',\n\t\ttopic_solved: 'TOPIC_SOLVED'\n\t};\n\t_st.fpermissions
+  = {\n\t\tRULES_ATTACH_CAN: 'You <strong>can</strong> post attachments in this forum',\n\t\tRULES_DELETE_CAN:
+  'You <strong>can</strong> delete your posts in this forum',\n\t\tRULES_DOWNLOAD_CAN:
+  'You <strong>can</strong> download attachments in this forum',\n\t\tRULES_EDIT_CAN:
+  'You <strong>can</strong> edit your posts in this forum',\n\t\tRULES_LOCK_CAN: 'You
+  <strong>can</strong> lock your topics in this forum',\n\t\tRULES_POST_CAN: 'You
+  <strong>can</strong> post new topics in this forum',\n\t\tRULES_REPLY_CAN: 'You
+  <strong>can</strong> reply to topics in this forum',\n\t\tRULES_VOTE_CAN: 'You <strong>can</strong>
+  vote in polls in this forum'\n\t}\n\t$(document).on('ready', function(){\n\t\t_st.init({\n\t\t\tstickyheader:
+  \"1\",\n\t\t\ttimestamps: \"0\",\n\t\t\tfastclick: \"1\",\n\t\t\twysiwyg: \"0\",\n\t\t\tquickscroll:
+  \"0\"\n\t\t});\n\t})\n\n})();\n</script>\n\n<script type=\"text/javascript\" src=\"./styles/canvas/template/forum_fn.js?assets_version=25\"></script>\n\n<script
+  type=\"text/javascript\" src=\"./styles/canvas/template/ajax.js?assets_version=25\"></script>\n\n\n\n<script
+  type=\"text/javascript\">\n/* Google webfont loader */\nWebFontConfig = {\n  google:
+  { families: [ 'Roboto:400,500,400italic,300,700:latin' ] }\n};\n(function() {\n
+  \ var wf = document.createElement('script');\n  wf.src = ('https:' == document.location.protocol
+  ? 'https' : 'http') +\n    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';\n
+  \ wf.type = 'text/javascript';\n  wf.async = 'true';\n  var s = document.getElementsByTagName('script')[0];\n
+  \ //s.parentNode.insertBefore(wf, s);\n})();\n\n//Put your custom javascript here\n//This
+  is executed after other scripts\n</script>\n\n\n\n\n\n<!-- Quantcast Tag -->\n<script
+  type=\"text/javascript\">\n    var _qevents = _qevents || [];\n\n\n    (function()
+  {\n        var elem = document.createElement('script');\n        elem.src = (document.location.protocol
+  == \"https:\" ? \"https://secure\" : \"http://edge\") + \".quantserve.com/quant.js\";\n
+  \       elem.async = true;\n        elem.type = \"text/javascript\";\n        var
+  scpt = document.getElementsByTagName('script')[0];\n        scpt.parentNode.insertBefore(elem,
+  scpt);\n    })();\n\n\n    _qevents.push({\n        qacct:\"p-13T7aoFs20jms\"\n
+  \   });\n</script>\n\n\n<noscript>\n    <div style=\"display:none;\">\n        <img
+  src=\"//pixel.quantserve.com/pixel/p-13T7aoFs20jms.gif\" border=\"0\" height=\"1\"
+  width=\"1\" alt=\"Quantcast\"/>\n    </div>\n</noscript>\n<!-- End Quantcast tag
+  -->\n\n\n\t<script type=\"text/javascript\" src=\"/javascript/tr_auto_affiliate.min.20180515.js\"></script>\n\n\t<script>$(document).ready(
+  function() { tr_auto_affiliate(); } );</script>\n\n    <!-- Amazon OneLink -->\n
+  \   <script src=\"//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&amp;adInstanceId=9f39d0e0-fbf2-48b9-b3c6-4f227519659e\"></script>\n\n\n
+  \   <div id=\"footer\">\n        <p>\n            Copyright ©1999-2019 The Tech
+  Report. All rights reserved.<br>\n            <a href=\"http://techreport.com/aboutus.x\">About
+  us</a> |\n            <a href=\"http://techreport.com/privacypolicy.x\">Privacy
+  policy</a> |\n            <a href=\"http://techreport.com/subscribe.x\">Mailing
+  list</a> |\n            <a href=\"http://techreport.com/switch_view.x?view=mobile&amp;redirect=https%3A%2F%2Ftechreport.com%2Fforums%2Fviewtopic.php%3Ff%3D1%26t%3D121855\">Mobile</a>\n
+  \       </p>\n    </div>\n\n\n\n\n\n\n</body></html>"

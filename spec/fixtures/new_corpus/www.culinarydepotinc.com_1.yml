@@ -1,0 +1,806 @@
+---
+:url: https://www.culinarydepotinc.com/blog/what-is-sous-vide-cooking
+:body: "<!DOCTYPE html><html class=\"fa-events-icons-failed\" style=\"height: 100%;\"><head>\n<title>What
+  is Sous Vide Cooking? - Culinary Depot</title>\n<meta http-equiv=\"Content-type\"
+  content=\"text/html;charset=UTF-8\">\n<meta name=\"description\" content=\"This
+  post delves into sous vide cooking, explaining what it is and offering tips and
+  tricks on how to get the most out of your set-up.\">\n<meta name=\"keywords\" content=\"\">\n<meta
+  name=\"generator\" content=\"nopCommerce\">\n<meta name=\"viewport\" content=\"width=device-width,
+  initial-scale=1, user-scalable=no\">\n\n<script src=\"https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.-MMu-2qpHGU.O/m=ratingbadge/rt=j/sv=1/d=1/ed=1/am=wQ/rs=AGLTcCNSjN7dw0eNDjgYhqJQsZ4rqaBh2w/cb=gapi.loaded_0\"
+  async=\"\"></script><script src=\"//bat.bing.com/bat.js\" async=\"\"></script><script
+  async=\"\" src=\"https://chimpstatic.com/mcjs-connected/js/users/28c2487382f01b4e6ed1d45a8/2b072c840816d71f6ee0539f8.js\"></script><script
+  async=\"\" src=\"https://connect.facebook.net/en_US/fbevents.js\"></script><script
+  type=\"text/javascript\" async=\"\" id=\"inspsync\" src=\"https://cdn.inspectlet.com/inspectlet.js?wid=1414263398&amp;r=431367\"></script><script
+  async=\"\" src=\"https://www.googletagmanager.com/gtm.js?id=GTM-PZQ9NF\"></script><script
+  async=\"\" src=\"//www.google-analytics.com/analytics.js\"></script><script>\n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+  Date();a=s.createElement(o),\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n})(window,document,'script','//www.google-analytics.com/analytics.js','ga');\nga('create',
+  'UA-9999394-1', 'auto');\nga('send', 'pageview');\n\n</script>\n<link href=\"/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css\"
+  rel=\"stylesheet\" type=\"text/css\">\n<link href=\"/Themes/CulinaryDepot/Content/css/styles.css\"
+  rel=\"stylesheet\" type=\"text/css\">\n<link href=\"/Themes/CulinaryDepot/Content/css/neocheckout.css\"
+  rel=\"stylesheet\" type=\"text/css\">\n<link href=\"/Themes/CulinaryDepot/Content/css/owl.transitions.css\"
+  rel=\"stylesheet\" type=\"text/css\">\n<link href=\"/Themes/CulinaryDepot/Content/css/owl.theme.css\"
+  rel=\"stylesheet\" type=\"text/css\">\n<link href=\"/Themes/CulinaryDepot/Content/css/owl.carousel.css\"
+  rel=\"stylesheet\" type=\"text/css\">\n<link href=\"/Themes/CulinaryDepot/Content/css/GoogleFontOpenSans.css\"
+  rel=\"stylesheet\" type=\"text/css\">\n<script src=\"/Scripts/jquery-1.11.1.min.js\"
+  type=\"text/javascript\"></script><style></style>\n<script src=\"/Scripts/jquery.validate.min.js\"
+  type=\"text/javascript\"></script>\n<script src=\"/Scripts/jquery.creditCardValidator.js\"
+  type=\"text/javascript\"></script>\n<script src=\"/Scripts/jquery.validate.unobtrusive.min.js\"
+  type=\"text/javascript\"></script>\n<script src=\"/Scripts/jquery-ui-1.10.3.custom.min.js\"
+  type=\"text/javascript\"></script>\n<script src=\"/Scripts/jquery-migrate-1.2.1.min.js\"
+  type=\"text/javascript\"></script>\n<script src=\"/Scripts/public.common.js\" type=\"text/javascript\"></script>\n<script
+  src=\"/Scripts/public.ajaxcart.js\" type=\"text/javascript\"></script>\n<script
+  src=\"/Scripts/culinary/owl.carousel.min.js\" type=\"text/javascript\"></script>\n<script
+  src=\"/Scripts/polyfillMatchMedia.js\" type=\"text/javascript\"></script>\n<script
+  src=\"/Scripts/polyfillMatchMediaAddListener.js\" type=\"text/javascript\"></script>\n<script
+  src=\"/Scripts/jquery.countdown.min.js\" type=\"text/javascript\"></script>\n<link
+  rel=\"canonical\" href=\"https://www.culinarydepotinc.com/blog/what-is-sous-vide-cooking\">\n<link
+  rel=\"shortcut icon\" href=\"https://www.culinarydepotinc.com/favicon.ico\">\n\n\n<script>\n
+  \       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n        new
+  Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n
+  \       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n
+  \       })(window,document,'script','dataLayer','GTM-PZQ9NF');</script>\n\n<script
+  type=\"text/javascript\" id=\"inspectletjs\">\n        //7-12-18 TG replaced old
+  inspectlet script with script that enables A/B testing\n        (function() {\n
+  \           var insp_ab_loader = true; // set to false to disable A/B optimized
+  loader\n            window.__insp = window.__insp || [];\n            __insp.push(['wid',
+  1414263398]);\n            var ldinsp = function(){\n                if(typeof window.__inspld
+  != \"undefined\") return; window.__inspld = 1; var insp = document.createElement('script');
+  insp.type = 'text/javascript'; insp.async = true; insp.id = \"inspsync\"; insp.src
+  = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1414263398&r='
+  + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0];
+  x.parentNode.insertBefore(insp, x);if(typeof insp_ab_loader != \"undefined\" &&
+  insp_ab_loader){ var adlt = function(){ var e = document.getElementById('insp_abl');
+  if(e){ e.parentNode.removeChild(e); __insp.push(['ab_timeout']); }}; var adlc =
+  \"body{ visibility: hidden !important; }\"; var adln = typeof insp_ab_loader_t !=
+  \"undefined\" ? insp_ab_loader_t : 1200; insp.onerror = adlt; var abti = setTimeout(adlt,
+  adln); window.__insp_abt = abti; var abl = document.createElement('style'); abl.id
+  = \"insp_abl\"; abl.type = \"text/css\"; if(abl.styleSheet) abl.styleSheet.cssText
+  = adlc; else abl.appendChild(document.createTextNode(adlc)); document.head.appendChild(abl);
+  } };\n            setTimeout(ldinsp, 0);\n        })();\n        //window.__insp
+  = window.__insp || [];\n        //__insp.push(['wid', 1414263398]);\n        //(function
+  () {\n        //    function ldinsp() { if (typeof window.__inspld != \"undefined\")
+  return; window.__inspld = 1; var insp = document.createElement('script'); insp.type
+  = 'text/javascript'; insp.async = true; insp.id = \"inspsync\"; insp.src = ('https:'
+  == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js';
+  var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp,
+  x); };\n        //    setTimeout(ldinsp, 500); document.readyState != \"complete\"
+  ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load',
+  ldinsp, false)) : ldinsp();\n        //})();\n\n        function callConfirmDialog(mensagem,
+  callback) {\n            var el = {\n                button_back: function(){\n
+  \                   return $('#confirmdialog_back');\n                },\n                button_confirm:
+  function(){\n                    return $('#confirmdialog_confirm');\n                }\n
+  \           };\n\n            var button_back_text = \"<button id='confirmdialog_back'
+  class='btn'> Close </button>\";\n            var button_confirm_text = \"<button
+  id='confirmdialog_confirm' class='btn'> Confirm </button>\";\n            var message
+  = \"<p>\" + (mensagem ? mensagem : \"Are you sure?\") + \"</p>\";\n\n            displayPopupNotification(message
+  + button_back_text + button_confirm_text, \"success\", true);\n\n            el.button_back().click(function
+  () {\n                $('.ui-dialog-titlebar-close').trigger('click');\n            });\n\n
+  \           el.button_confirm().click(function () {\n                callback();\n
+  \               $('.ui-dialog-titlebar-close').trigger('click');\n            });\n
+  \       }\n\n        //Plugin check checkbox of line click\n        $.fn.activateChecked
+  = function (findSelector, options) {\n            if (!findSelector) return Error('Find
+  selector is required');\n            options = options ? options : {};\n\n            if
+  (typeof options.onload == \"function\") options.onload();\n            else if (!!options.onload)
+  Error('OnLoad callback is not a function');\n\n            this.css('cursor', !!options.cursor
+  ? options.cursor : 'pointer');\n            this.click(function (e) {\n                var
+  currentTarget = $(e.currentTarget);\n                if (typeof options.onstart
+  == \"function\") options.onstart(currentTarget);\n                else if (!!options.onstart)
+  Error('OnStart callback is not a function');\n                currentTarget.find(findSelector).attr('checked',
+  true).trigger('change');\n                if (typeof options.onfinish == \"function\")
+  options.onfinish(currentTarget);\n                else if (!!options.onfinish) Error('OnFinish
+  callback is not a function');\n            });\n        }\n\n        //methos numbers
+  only\n        function onlyNumbers(evt) {\n            var charCode = (evt.which)
+  ? evt.which : event.keyCode;\n            if (charCode > 31 && (charCode < 48 ||
+  charCode > 57))\n                return false;\n\n            return true;\n        }\n\n
+  \       //Plugin of Number\n        $.fn.extend({\n            number: function()
+  {\n                var self = $(this);\n\n                self.keypress(onlyNumbers);\n
+  \           }\n        });\n\n        //Plugin of Money\n        $.fn.extend({\n
+  \           money: function(options) {\n                var self = $(this);\n\n
+  \               if (self.prop('tagName') != \"INPUT\") return console.log(\"Money
+  mask: element must be a input\");\n\n                var el = $(\"<div class='money-input'></div>\");\n
+  \               if(options) el.css(options);\n\n                el.insertBefore(self);\n
+  \               el.append(self);\n\n                if(!self.val().length || !self.val().match(/[^0]/g))
+  self.val(\"0.00\");\n                self.keypress(function() {\n                    self.val(self.val());\n
+  \               });\n                self.keyup(function(e) {\n                    var
+  value = self.val().replace(/\\D/g, '');\n                    value = value.substr(0,
+  value.length - 2) + '.' + value.substr(value.length - 2, 2);\n                    value
+  = value.replace(/^0{1,}/g, '').replace(/^\\.{1}/g, '0.');\n                    self.val(value);\n
+  \               });\n                return self;\n            }\n        });\n\n
+  \       //Plugin of Percentage\n        $.fn.extend({\n            percentage: function(options)
+  {\n                var self = $(this);\n\n                if (self.prop('tagName')
+  != \"INPUT\") return console.log(\"Percentage mask: element must be a input\");\n\n
+  \               var el = $(\"<div class='percent-input'></div>\");\n                if(options)
+  el.css(options);\n\n                el.insertBefore(self);\n                el.append(self);\n\n
+  \               if(!self.val().length || !self.val().match(/[^0]/g)) self.val(\"0.00\");\n
+  \               self.keypress(function() {\n                    self.val(self.val());\n
+  \               });\n                self.keyup(function(e) {\n                    var
+  value = self.val().replace(/\\D/g, '');\n                    value = value.substr(0,
+  value.length - 2) + '.' + value.substr(value.length - 2, 2);\n                    value
+  = value.replace(/^0{1,}/g, '').replace(/^\\.{1}/g, '0.');\n                    self.val(value);\n
+  \               });\n                return self;\n            }\n        });\n\n
+  \       //Validator Email\n        $.fn.extend({\n            maskEmail: function
+  () {\n                var obj = this;\n                obj.keyup(function (event)
+  {\n                    if (event.target.value.length >= 10) {\n                        event.target.classList.remove(\"emailprocess\");\n
+  \                       var regEx = /^[\\w || \\. ||\\-]{3,}@[\\w ||\\-]{3,}\\.[a-z]{2,3}(\\.[a-z]{2,3})?$/;\n
+  \                       if (event.target.value.match(regEx)) {\n                            event.target.classList.add(\"emailvalid\");\n
+  \                           event.target.classList.remove(\"emailinvalid\");\n                        }
+  else {\n                            event.target.classList.remove(\"emailvalid\");\n
+  \                           event.target.classList.add(\"emailinvalid\");\n                        }\n
+  \                   } else {\n                        event.target.classList.add(\"emailprocess\");\n
+  \                       event.target.classList.remove(\"emailvalid\");\n                        event.target.classList.remove(\"emailinvalid\");\n
+  \                   }\n                });\n            }\n        });\n\n    </script>\n<script
+  src=\"https://use.fontawesome.com/2ca7a82a30.js\"></script><link href=\"https://use.fontawesome.com/2ca7a82a30.css\"
+  media=\"all\" rel=\"stylesheet\"> \n<script>\n\n        $.fn.extend({\n            cardNumber:
+  function () {\n                this.keyup(function () {\n                    var
+  val = this.value.replace(/\\D/g, '');\n                    val = val.match(/\\d{0,4}/g);\n
+  \                   val = val.join('.');\n                    val = val.slice(0,
+  val.length - 1);\n                    this.value = val.substr(0, 19);\n                });\n
+  \               return this;\n            }\n        });\n        $(function ()
+  {\n            //mobile\n            if ($(window).width() < 600) {\n                $(\".accordion-desc-category
+  h1\").siblings(\".category-description\").hide();\n            }\n\n            var
+  spanArrow = $(\"<span id='arrow'>&laquo;</span>\");\n\n            //BREADCRUMB
+  FOR MOBILE\n            function BreadCrumbForMobile() {\n\n                var
+  mq = window.matchMedia(\"(max-width: 1000px)\");\n\n                if (mq.matches)
+  {\n                    $(\".breadcrumb li\").last().prev().addClass(\"penultimo\");\n
+  \                   $(\".breadcrumb li\").not(\".penultimo\").hide();\n                    $(\".penultimo\").find(\".delimiter\").hide();\n
+  \                   $(\".penultimo a\").find(\"span\").prepend(spanArrow);\n                    $(\".breadcrumb\").show();\n
+  \               } else {\n                    $(\".breadcrumb li\").show();\n                    $(\".penultimo\").find(\".delimiter\").css(\"display\",
+  \"inline-block\");\n                    $(\".penultimo\").find('#arrow').remove();\n
+  \               }\n            }\n\n            $(window).resize(function () {\n
+  \               BreadCrumbForMobile();\n            });\n\n            BreadCrumbForMobile();\n\n
+  \       });\n    </script>\n<script type=\"text/javascript\" src=\"//cdn.nextopia.net/v1.5.1/4ec380fec121e66a8a54d772cf86f871.js\"
+  async=\"\"></script>\n<script src=\"https://bp-cdn-rec.azureedge.net/files/loader.min.js\"
+  biggy-key=\"culinarydepot\"></script>\n\n<script>\n        !function (f, b, e, v,
+  n, t, s) {\n            if (f.fbq) return;\n            n = f.fbq = function ()
+  { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) };\n
+  \           if (!f._fbq) f._fbq = n;\n\n            n.push = n;\n            n.loaded
+  = !0;\n            n.version = '2.0';\n            n.queue = [];\n            t
+  = b.createElement(e);\n            t.async = !0;\n\n            t.src = v;\n            s
+  = b.getElementsByTagName(e)[0];\n            s.parentNode.insertBefore(t, s)\n        }(window,\n
+  \           document,\n            'script',\n            'https://connect.facebook.net/en_US/fbevents.js');\n\n
+  \       fbq('init', '1847285052169014'); // Insert your pixel ID here.\n\n        fbq('track',
+  'PageView');\n    </script>\n<noscript>\n        <img height=\"1\" width=\"1\" style=\"display:none\"\n
+  \            src=\"https://www.facebook.com/tr?id=1847285052169014&ev=PageView&noscript=1\"
+  />\n    </noscript>\n\n\n<script type=\"text/javascript\" src=\"https://vendor1.quickspark.com/one-liner.js?vc=3n35ey4\"
+  id=\"quickspark-api\"></script><script src=\"https://vendor1.quickspark.com/integration-vendors.js\"></script>\n<script
+  id=\"mcjs\">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0],
+  m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, \"script\",
+  \"https://chimpstatic.com/mcjs-connected/js/users/28c2487382f01b4e6ed1d45a8/2b072c840816d71f6ee0539f8.js\");</script>\n<script
+  async=\"\" type=\"text/javascript\" src=\"//static.klaviyo.com/onsite/js/klaviyo.js?company_id=QJ2F3z\"></script>\n\n<link
+  type=\"text/css\" rel=\"stylesheet\" charset=\"UTF-8\" href=\"https://translate.googleapis.com/translate_static/css/translateelement.css\"><script
+  type=\"text/javascript\" charset=\"UTF-8\" src=\"https://translate.googleapis.com/translate_static/js/element/main.js\"></script><script
+  src=\"//www.shopperapproved.com/seals/certificate.js\" type=\"text/javascript\"></script><script
+  async=\"\" type=\"text/javascript\" src=\"//trackcmp.net/visit?actid=89287054&amp;e=&amp;r=&amp;u=https%3A%2F%2Fwww.culinarydepotinc.com%2Fblog%2Fwhat-is-sous-vide-cooking\"></script><script
+  id=\"omapi-script\" src=\"//a.optnmstr.com/app/js/api.min.js\" async=\"\"></script><link
+  rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.nextopia.net/v1.5.1/4ec380fec121e66a8a54d772cf86f871.css\"><script
+  type=\"text/javascript\" async=\"\" src=\"https://fast.a.klaviyo.com/media/js/analytics/klaviyo_analytics.js\"></script><script
+  type=\"text/javascript\" charset=\"UTF-8\" src=\"https://translate.googleapis.com/element/TE_20181015_01/e/js/element/element_main.js\"></script></head>\n<body
+  style=\"position: relative; min-height: 100%; top: 0px;\">\n\n<noscript>\n        <iframe
+  src=\"https://www.googletagmanager.com/ns.html?id=GTM-PZQ9NF\"\n                height=\"0\"
+  width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n    </noscript>\n\n<div
+  class=\"ajax-loading-block-window\" style=\"display: none\">\n</div>\n<div id=\"dialog-notifications-success\"
+  title=\"Notification\" style=\"display:none;\">\n</div>\n<div id=\"dialog-notifications-error\"
+  title=\"Error\" style=\"display:none;\">\n</div>\n<div id=\"bar-notification\" class=\"bar-notification\">\n<span
+  class=\"close\" title=\"Close\">&nbsp;</span>\n</div>\n<!--[if lte IE 7]>\n    <div
+  style=\"clear:both;height:59px;text-align:center;position:relative;\">\n        <a
+  href=\"http://www.microsoft.com/windows/internet-explorer/default.aspx\" target=\"_blank\">\n
+  \           <img src=\"/Themes/CulinaryDepot/Content/images/ie_warning.jpg\" height=\"42\"
+  width=\"820\" alt=\"You are using an outdated browser. For a faster, safer browsing
+  experience, upgrade for free today.\" />\n        </a>\n    </div>\n<![endif]-->\n<div
+  class=\"master-wrapper-page\">\n<div class=\"header-upper\">\n<div class=\"container\">\n<div
+  class=\"header-selectors-wrapper\">\n<div class=\"menu-toggle menu-toggle-mobile\">&nbsp;</div>\n<div
+  class=\"header-logo-mobile sprite sprite-logo-mobile\">\n<a href=\"/\">\nCulinary
+  Depot\n</a>\n</div>\n<div class=\"container-top-header-mobile\">\n<li class=\"header-links\">\n<ul>\n<li
+  class=\"list-float-account border-none display-none-important sprite sprite-user-header-icon\">\n</li>\n<li
+  class=\"text-register border-none\">\n<a href=\"/register\">\nRegister\n</a>\n</li>\n<li
+  class=\"text-login margin-none padding-sides-7\">\n<a href=\"/login\">\nLog in\n</a>\n</li>\n<li
+  class=\"list-phone-header sprite sprite-phone\">\n<a href=\"tel:(888) 845-8200\">\n</a>\n</li>\n<li
+  class=\"margin-none login-mobile sprite sprite-user-header-icon\">\n<a href=\"/login\">\n</a>\n</li>\n<li
+  class=\"ico-wishlist sprite sprite-wishlist-header\">\n<div class=\"\">\n<a href=\"/wishlist\">\n<span
+  class=\"wishlist-qty\">0</span>\n</a>\n</div>\n</li>\n<li id=\"topcartlink\">\n<div
+  class=\"link-cart-mobile sprite sprite-header-shopping-cart\">\n<a href=\"/cart\">\n<div
+  class=\"header-icon-red-mobile\">\n<span class=\"cart-qty\">0</span>\n</div>\n</a>\n</div>\n<div
+  class=\"sublist-cart-topmenu display-none-important sprite sprite-header-shopping-cart\">\n<a
+  href=\"/cart\" class=\"\">\n<span class=\"cart-qty\">0</span>\n</a>\n</div>\n<div
+  id=\"flyout-cart\" class=\"flyout-cart\">\n<div class=\"mini-shopping-cart\">\n<div
+  class=\"count\">\n<div class=\"align-center\">\nYou have no items in your shopping
+  cart.\n</div>\n</div>\n</div>\n</div>\n</li>\n</ul>\n<script type=\"text/javascript\">\n
+  \           $(document).ready(function () {\n                $('#topcartlink').on('mouseenter',
+  function () {\n                    $('#flyout-cart').addClass('active');\n                });\n
+  \               $('#topcartlink').on('mouseleave', function () {\n                    $('#flyout-cart').removeClass('active');\n
+  \               });\n                $('#topcartlink').on('mouseenter', function
+  () {\n                    $('#flyout-cart').addClass('active');\n                });\n
+  \               $('#topcartlink').on('mouseleave', function () {\n                    $('#flyout-cart').removeClass('active');\n
+  \               });\n\n            });\n        </script>\n<script>\n        $(function
+  () {\n\n            // media query event handler\n            if (matchMedia) {\n
+  \               var mq = window.matchMedia(\"(max-width: 768px)\");\n                mq.addListener(WidthChange);\n
+  \               WidthChange(mq);\n            }\n\n            // media query change\n
+  \           function WidthChange(mq) {\n\n                $(\".header-links ul li:not(#topcartlink)\").off();\n
+  \               $(\"#topcartlink\").off();\n\n                if (mq.matches) {\n
+  \                   $(\".header-links ul li:not(#topcartlink)\").click(function
+  () {\n                        $(\".sublist-cart-topmenu\").hide();\n                        $(this).find(\".sublist-topmenu\").slideToggle();\n
+  \                   });\n                } else {\n                    $('#topcartlink').on('mouseenter',
+  function () {\n                        $('#flyout-cart').addClass('active');\n                    });\n
+  \                   $('#topcartlink').on('mouseleave', function () {\n                        $('#flyout-cart').removeClass('active');\n
+  \                   });\n                    $('#topcartlink').on('mouseenter',
+  function () {\n                        $('#flyout-cart').addClass('active');\n                    });\n
+  \                   $('#topcartlink').on('mouseleave', function () {\n                        $('#flyout-cart').removeClass('active');\n
+  \                   });\n                }\n\n            }\n\n        });\n    </script>\n</li><li
+  id=\"google_translate_element\"><div class=\"skiptranslate goog-te-gadget\" dir=\"ltr\"
+  style=\"\"><div id=\":0.targetLanguage\" class=\"goog-te-gadget-simple\" style=\"white-space:
+  nowrap;\"><img src=\"https://www.google.com/images/cleardot.gif\" class=\"goog-te-gadget-icon\"
+  alt=\"\" style=\"background-image: url(&quot;https://translate.googleapis.com/translate_static/img/te_ctrl3.gif&quot;);
+  background-position: -65px 0px;\"><span style=\"vertical-align: middle;\"><a aria-haspopup=\"true\"
+  class=\"goog-te-menu-value\" href=\"javascript:void(0)\"><span>Select Language</span><img
+  src=\"https://www.google.com/images/cleardot.gif\" alt=\"\" width=\"1\" height=\"1\"><span
+  style=\"border-left: 1px solid rgb(187, 187, 187);\">​</span><img src=\"https://www.google.com/images/cleardot.gif\"
+  alt=\"\" width=\"1\" height=\"1\"><span aria-hidden=\"true\" style=\"color: rgb(118,
+  118, 118);\">▼</span></a></span></div></div></li>\n</div>\n</div>\n</div>\n</div>\n<div
+  class=\"header\">\n<div class=\"container\">\n<div class=\"header-lower\">\n<div
+  class=\"header-logo sprite sprite-logo\">\n<a href=\"/\">\nCulinary Depot\n</a>\n</div>\n<div
+  class=\"phone-header\">\n<a href=\"/contactus\">\n<div class=\"phone-header-message
+  phoneswap\"><font color=\"004f91\">(888) 845-8200</font></div>\n<div class=\"sprite
+  sprite-phone\"></div>\n<div class=\"phone-header-message\">CALL US</div>\n</a>\n</div>\n<div
+  class=\"search-box\">\n<form action=\"/search\" id=\"small-search-box-form\" method=\"get\"
+  novalidate=\"novalidate\"> <input type=\"text\" class=\"search-box-text\" id=\"small-searchterms\"
+  autocomplete=\"off\" name=\"q\" placeholder=\"Search Store\">\n<input type=\"submit\"
+  value=\"\" class=\"search-header-button\">\n<script type=\"text/javascript\">\n
+  \           $(\"#small-search-box-form\").submit(function(event) {\n                if
+  ($(\"#small-searchterms\").val() == \"\") {\n                    alert('Please enter
+  some search keyword');\n                    $(\"#small-searchterms\").focus();\n
+  \                   event.preventDefault();\n                }\n            });\n
+  \       </script>\n</form>\n</div>\n</div>\n</div>\n</div><div class=\"topic-block
+  clone\">\n<div class=\"topic-block-body\">\n<div class=\"container\" style=\"margin-top:
+  4px;\"><a href=\"returns-price-match-free-shipping\"><img id=\"valueProp\" src=\"/Content/Images/uploaded/Value
+  Prop for Desktop (3).png\" alt=\"\" width=\"100%\"></a></div>\n<div class=\"container\"
+  style=\"margin-top: 4px;\"></div>\n</div>\n</div>\n<script type=\"text/javascript\">\nfunction
+  googleTranslateElementInit() {\n  new google.translate.TranslateElement({pageLanguage:
+  'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');\n}\n</script>\n<script
+  type=\"text/javascript\" src=\"//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit\"></script>\n<script
+  type=\"text/javascript\">\n        AjaxCart.init(true, '.header-links .cart-qty',
+  '.header-links .wishlist-qty', '#flyout-cart');\n    </script>\n<div class=\"header-menu\">\n<div
+  id=\"top-menu-header\" class=\"container position-relative\">\n<ul class=\"top-menu\">\n<li
+  class=\"\">\n<a href=\"/restaurant-equipment\">\nRestaurant Equipment\n</a>\n<ul
+  class=\"sublist first-level\">\n<li class=\"featureds\">\n<div class=\"featured-item-box\">\n<a
+  href=\"/refrigeration-equipment\">\n<img alt=\"Refrigeration Equipment\" title=\"Refrigeration
+  Equipment\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394838_refrigeration-equipment.png\">\n</a>\n<a
+  href=\"/refrigeration-equipment\">\nRefrigeration Equipment\n</a>\n</div>\n<div
+  class=\"featured-item-box\">\n<a href=\"/commercial-ice-equipment-and-supplies\">\n<img
+  alt=\"Commercial Ice Equipment and Supplies\" title=\"Commercial Ice Equipment and
+  Supplies\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0392643_commercial-ice-equipment-and-supplies.jpg\">\n</a>\n<a
+  href=\"/commercial-ice-equipment-and-supplies\">\nCommercial Ice Equipment and Supplies\n</a>\n</div>\n<div
+  class=\"featured-item-box\">\n<a href=\"/commercial-cooking-equipment\">\n<img alt=\"Commercial
+  Cooking Equipment\" title=\"Commercial Cooking Equipment\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0392658_commercial-cooking-equipment.jpg\">\n</a>\n<a
+  href=\"/commercial-cooking-equipment\">\nCommercial Cooking Equipment\n</a>\n</div>\n<div
+  class=\"featured-item-box\">\n<a href=\"/commercial-ovens\">\n<img alt=\"Commercial
+  Ovens\" title=\"Commercial Ovens\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0392725_commercial-ovens.jpg\">\n</a>\n<a
+  href=\"/commercial-ovens\">\nCommercial Ovens\n</a>\n</div>\n<div class=\"featured-item-box\">\n<a
+  href=\"/food-preparation\">\n<img alt=\"Food Preparation\" title=\"Food Preparation\"
+  src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0392742_food-preparation.jpg\">\n</a>\n<a
+  href=\"/food-preparation\">\nFood Preparation\n</a>\n</div>\n</li>\n<li class=\"sub-title\">\n<span>\nAlso
+  in Restaurant Equipment\n<a href=\"/restaurant-equipment\"> See All »</a>\n</span>\n</li>\n<li
+  class=\"\">\n<a href=\"/commercial-work-tables-and-stations\">\nCommercial Work
+  Tables and Stations\n</a>\n</li>\n<li class=\"\">\n<a href=\"/beverage-equipment\">\nBeverage
+  Equipment\n</a>\n</li>\n<li class=\"\">\n<a href=\"/food-display-and-merchandising\">\nFood
+  Display and Merchandising\n</a>\n</li>\n<li class=\"\">\n<a href=\"/restaurant-shelving\">\nRestaurant
+  Shelving\n</a>\n</li>\n<li class=\"\">\n<a href=\"/carts\">\nCarts\n</a>\n</li>\n<li
+  class=\"\">\n<a href=\"/storage-racks\">\nStorage Racks\n</a>\n</li>\n<li class=\"\">\n<a
+  href=\"/trucks-and-dollies\">\nTrucks and Dollies\n</a>\n</li>\n</ul>\n</li>\n<li
+  class=\"\">\n<a href=\"/warewashing-plumbing-faucets\">\nWarewashing, Plumbing &amp;
+  Faucets\n</a>\n<ul class=\"sublist first-level\">\n<li class=\"featureds\">\n<div
+  class=\"featured-item-box\">\n<a href=\"/faucets-and-plumbing\">\n<img alt=\"Faucets
+  and Plumbing\" title=\"Faucets and Plumbing\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0393864_faucets-and-plumbing.jpg\">\n</a>\n<a
+  href=\"/faucets-and-plumbing\">\nFaucets and Plumbing\n</a>\n</div>\n<div class=\"featured-item-box\">\n<a
+  href=\"/dish-washing-equipment-and-accessories\">\n<img alt=\"Dish Washing Equipment
+  and Accessories\" title=\"Dish Washing Equipment and Accessories\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394529_dish-washing-equipment-and-accessories.jpg\">\n</a>\n<a
+  href=\"/dish-washing-equipment-and-accessories\">\nDish Washing Equipment and Accessories\n</a>\n</div>\n<div
+  class=\"featured-item-box\">\n<a href=\"/commercial-sinks-and-accessories\">\n<img
+  alt=\"Commercial Sinks and Accessories\" title=\"Commercial Sinks and Accessories\"
+  src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0393892_commercial-sinks-and-accessories.jpg\">\n</a>\n<a
+  href=\"/commercial-sinks-and-accessories\">\nCommercial Sinks and Accessories\n</a>\n</div>\n<div
+  class=\"featured-item-box\">\n<a href=\"/dish-room-accessories\">\n<img alt=\"Dish
+  Room Accessories\" title=\"Dish Room Accessories\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0393905_dish-room-accessories.jpg\">\n</a>\n<a
+  href=\"/dish-room-accessories\">\nDish Room Accessories\n</a>\n</div>\n</li>\n</ul>\n</li>\n<li
+  class=\"align-middle\">\n<a href=\"/smallwares\">\nSmallwares\n</a>\n<ul class=\"sublist
+  first-level\">\n<li class=\"featureds\">\n<div class=\"featured-item-box\">\n<a
+  href=\"/kitchen-hand-tools\">\n<img alt=\"Kitchen Hand Tools\" title=\"Kitchen Hand
+  Tools\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394135_kitchen-hand-tools.jpg\">\n</a>\n<a
+  href=\"/kitchen-hand-tools\">\nKitchen Hand Tools\n</a>\n</div>\n<div class=\"featured-item-box\">\n<a
+  href=\"/cookware\">\n<img alt=\"Cookware\" title=\"Cookware\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394136_cookware.jpg\">\n</a>\n<a
+  href=\"/cookware\">\nCookware\n</a>\n</div>\n<div class=\"featured-item-box\">\n<a
+  href=\"/kitchen-cutlery\">\n<img alt=\"Kitchen Cutlery\" title=\"Kitchen Cutlery\"
+  src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394137_kitchen-cutlery.jpg\">\n</a>\n<a
+  href=\"/kitchen-cutlery\">\nKitchen Cutlery\n</a>\n</div>\n<div class=\"featured-item-box\">\n<a
+  href=\"/beverage-service-supplies\">\n<img alt=\"Beverage Service Supplies\" title=\"Beverage
+  Service Supplies\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0393309_beverage-service-supplies.jpg\">\n</a>\n<a
+  href=\"/beverage-service-supplies\">\nBeverage Service Supplies\n</a>\n</div>\n<div
+  class=\"featured-item-box\">\n<a href=\"/signs-easels\">\n<img alt=\"Signs &amp;
+  Easels\" title=\"Signs &amp; Easels\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394141_signs-easels.jpg\">\n</a>\n<a
+  href=\"/signs-easels\">\nSigns &amp; Easels\n</a>\n</div>\n</li>\n<li class=\"sub-title\">\n<span>\nAlso
+  in Smallwares\n<a href=\"/smallwares\"> See All »</a>\n</span>\n</li>\n<li class=\"\">\n<a
+  href=\"/pizza-smallwares-and-bakeware\">\nPizza Smallwares and Bakeware\n</a>\n</li>\n<li
+  class=\"\">\n<a href=\"/bartending-supplies\">\nBartending Supplies\n</a>\n</li>\n<li
+  class=\"\">\n<a href=\"/restaurant-food-storage\">\nRestaurant Food Storage\n</a>\n</li>\n<li
+  class=\"\">\n<a href=\"/baking-smallwares\">\nBaking Smallwares\n</a>\n</li>\n<li
+  class=\"\">\n<a href=\"/commercial-kitchen-supplies\">\nCommercial Kitchen Supplies\n</a>\n</li>\n<li
+  class=\"\">\n<a href=\"/salad-bar-items\">\nSalad Bar Items\n</a>\n</li>\n<li class=\"\">\n<a
+  href=\"/hotel-room-supplies\">\nHotel Room Supplies\n</a>\n</li>\n<li class=\"\">\n<a
+  href=\"/healthcare-meal-delivery-systems\">\nHealthcare Meal Delivery Systems\n</a>\n</li>\n</ul>\n</li>\n<li
+  class=\"\">\n<a href=\"/storage-transport\">\nStorage &amp; Transport\n</a>\n<ul
+  class=\"sublist first-level\">\n<li class=\"featureds\">\n<div class=\"featured-item-box\">\n<a
+  href=\"/ice-transport-buckets-and-mobile-ice-bins\">\n<img alt=\"Ice Transport Buckets
+  and Mobile Ice Bins\" title=\"Ice Transport Buckets and Mobile Ice Bins\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394478_ice-transport-buckets-and-mobile-ice-bins.jpg\">\n</a>\n<a
+  href=\"/ice-transport-buckets-and-mobile-ice-bins\">\nIce Transport Buckets and
+  Mobile Ice Bins\n</a>\n</div>\n<div class=\"featured-item-box\">\n<a href=\"/insulated-food-carriers-and-beverage-carriers\">\n<img
+  alt=\"Insulated Food Carriers and Beverage Carriers\" title=\"Insulated Food Carriers
+  and Beverage Carriers\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394485_insulated-food-carriers-and-beverage-carriers.jpg\">\n</a>\n<a
+  href=\"/insulated-food-carriers-and-beverage-carriers\">\nInsulated Food Carriers
+  and Beverage Carriers\n</a>\n</div>\n<div class=\"featured-item-box\">\n<a href=\"/lug-tote-boxes\">\n<img
+  alt=\"Lug / Tote Boxes\" title=\"Lug / Tote Boxes\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394484_lug-tote-boxes.jpg\">\n</a>\n<a
+  href=\"/lug-tote-boxes\">\nLug / Tote Boxes\n</a>\n</div>\n<div class=\"featured-item-box\">\n<a
+  href=\"/dinnerware-storage-and-transport\">\n<img alt=\"Dinnerware Storage and Transport\"
+  title=\"Dinnerware Storage and Transport\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394483_dinnerware-storage-and-transport.jpg\">\n</a>\n<a
+  href=\"/dinnerware-storage-and-transport\">\nDinnerware Storage and Transport\n</a>\n</div>\n<div
+  class=\"featured-item-box\">\n<a href=\"/industrial-storage-and-transport\">\n<img
+  alt=\"Industrial Storage and Transport\" title=\"Industrial Storage and Transport\"
+  src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394493_industrial-storage-and-transport.jpg\">\n</a>\n<a
+  href=\"/industrial-storage-and-transport\">\nIndustrial Storage and Transport\n</a>\n</div>\n</li>\n<li
+  class=\"sub-title\">\n<span>\nAlso in Storage &amp; Transport\n<a href=\"/storage-transport\">
+  See All »</a>\n</span>\n</li>\n<li class=\"\">\n<a href=\"/banquet-cabinets-accessories\">\nBanquet
+  Cabinets &amp; Accessories\n</a>\n</li>\n</ul>\n</li>\n<li class=\"align-middle\">\n<a
+  href=\"/tabletop\">\nTabletop\n</a>\n<ul class=\"sublist first-level\">\n<li class=\"featureds\">\n<div
+  class=\"featured-item-box\">\n<a href=\"/dinnerware\">\n<img alt=\"Dinnerware\"
+  title=\"Dinnerware\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394631_dinnerware.png\">\n</a>\n<a
+  href=\"/dinnerware\">\nDinnerware\n</a>\n</div>\n<div class=\"featured-item-box\">\n<a
+  href=\"/flatware\">\n<img alt=\"Flatware\" title=\"Flatware\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394553_flatware.png\">\n</a>\n<a
+  href=\"/flatware\">\nFlatware\n </a>\n</div>\n<div class=\"featured-item-box\">\n<a
+  href=\"/beverageware\">\n<img alt=\"Beverageware\" title=\"Beverageware\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394539_beverageware.png\">\n</a>\n<a
+  href=\"/beverageware\">\nBeverageware\n</a>\n</div>\n<div class=\"featured-item-box\">\n<a
+  href=\"/serving-and-display-ware\">\n<img alt=\"Serving and Display Ware\" title=\"Serving
+  and Display Ware\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394537_serving-and-display-ware.png\">\n</a>\n<a
+  href=\"/serving-and-display-ware\">\nServing and Display Ware\n</a>\n</div>\n<div
+  class=\"featured-item-box\">\n<a href=\"/mexican-restaurant-tabletop-supplies\">\n<img
+  alt=\"Mexican Restaurant Tabletop Supplies\" title=\"Mexican Restaurant Tabletop
+  Supplies\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394496_mexican-restaurant-tabletop-supplies.png\">\n</a>\n<a
+  href=\"/mexican-restaurant-tabletop-supplies\">\nMexican Restaurant Tabletop Supplies\n</a>\n</div>\n</li>\n<li
+  class=\"sub-title\">\n<span>\nAlso in Tabletop\n<a href=\"/tabletop\"> See All »</a>\n</span>\n</li>\n<li
+  class=\"\">\n<a href=\"/linens-table-covers\">\nLinens &amp; Table Covers\n</a>\n</li>\n<li
+  class=\"\">\n<a href=\"/tabletop-beverage-service\">\nTabletop Beverage Service\n</a>\n</li>\n<li
+  class=\"\">\n<a href=\"/tabletop-display-and-decor\">\nTabletop Display and Decor\n</a>\n</li>\n<li
+  class=\"\">\n<a href=\"/condiment-holders-and-dispensers\">\nCondiment Holders and
+  Dispensers\n</a>\n</li>\n<li class=\"\">\n<a href=\"/menu-holders-and-guest-check-presenters\">\nMenu
+  Holders and Guest Check Presenters\n</a>\n</li>\n<li class=\"\">\n<a href=\"/asian-restaurant-tabletop-supplies\">\nAsian
+  Restaurant Tabletop Supplies\n</a>\n</li>\n<li class=\"\">\n<a href=\"/tabletop-accessories\">\nTabletop
+  Accessories\n</a>\n</li>\n</ul>\n</li>\n<li class=\"align-middle\">\n<a href=\"/disposables\">\nDisposables\n</a>\n<ul
+  class=\"sublist first-level\">\n<li class=\"featureds\">\n<div class=\"featured-item-box\">\n<a
+  href=\"/all-purpose-disposables\">\n<img alt=\"All-Purpose Disposables\" title=\"All-Purpose
+  Disposables\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394369_all-purpose-disposables.png\">\n</a>\n<a
+  href=\"/all-purpose-disposables\">\nAll-Purpose Disposables\n</a>\n </div>\n<div
+  class=\"featured-item-box\">\n<a href=\"/disposable-bakery-supplies\">\n<img alt=\"Disposable
+  Bakery Supplies\" title=\"Disposable Bakery Supplies\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394372_disposable-bakery-supplies.png\">\n</a>\n<a
+  href=\"/disposable-bakery-supplies\">\nDisposable Bakery Supplies\n</a>\n</div>\n<div
+  class=\"featured-item-box\">\n<a href=\"/catering-disposables\">\n<img alt=\"Catering
+  Disposables\" title=\"Catering Disposables\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394371_catering-disposables.png\">\n</a>\n<a
+  href=\"/catering-disposables\">\nCatering Disposables\n</a>\n</div>\n<div class=\"featured-item-box\">\n<a
+  href=\"/disposable-food-packaging-supplies\">\n<img alt=\"Disposable Food Packaging
+  Supplies\" title=\"Disposable Food Packaging Supplies\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394373_disposable-food-packaging-supplies.png\">\n</a>\n<a
+  href=\"/disposable-food-packaging-supplies\">\nDisposable Food Packaging Supplies\n</a>\n</div>\n<div
+  class=\"featured-item-box\">\n<a href=\"/food-safety-disposables\">\n<img alt=\"Food
+  Safety Disposables\" title=\"Food Safety Disposables\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394374_food-safety-disposables.png\">\n</a>\n<a
+  href=\"/food-safety-disposables\">\nFood Safety Disposables\n</a>\n</div>\n</li>\n<li
+  class=\"sub-title\">\n<span>\nAlso in Disposables\n<a href=\"/disposables\"> See
+  All »</a>\n</span>\n</li>\n<li class=\"\">\n<a href=\"/disposable-take-out-containers\">\nDisposable
+  Take Out Containers\n</a>\n</li>\n<li class=\"\">\n<a href=\"/janitorial-disposables\">\nJanitorial
+  Disposables\n</a>\n</li>\n</ul>\n</li>\n<li class=\"\">\n<a href=\"/janitorial-supplies\">\nJanitorial
+  Supplies\n</a>\n<ul class=\"sublist first-level\">\n<li class=\"featureds\">\n<div
+  class=\"featured-item-box\">\n<a href=\"/hand-soap-dispensers\">\n<img alt=\"Hand
+  Soap Dispensers\" title=\"Hand Soap Dispensers\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394366_hand-soap-dispensers.png\">\n</a>\n<a
+  href=\"/hand-soap-dispensers\">\nHand Soap Dispensers\n</a>\n</div>\n<div class=\"featured-item-box\">\n
+  <a href=\"/restroom-supplies\">\n<img alt=\"Restroom Supplies\" title=\"Restroom
+  Supplies\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394367_restroom-supplies.png\">\n</a>\n<a
+  href=\"/restroom-supplies\">\nRestroom Supplies\n</a>\n</div>\n<div class=\"featured-item-box\">\n<a
+  href=\"/safety-and-security-products\">\n<img alt=\"Safety and Security Products\"
+  title=\"Safety and Security Products\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394368_safety-and-security-products.png\">\n</a>\n<a
+  href=\"/safety-and-security-products\">\nSafety and Security Products\n</a>\n</div>\n<div
+  class=\"featured-item-box\">\n<a href=\"/trash-cans-and-recycling-bins\">\n<img
+  alt=\"Trash Cans and Recycling Bins\" title=\"Trash Cans and Recycling Bins\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394542_trash-cans-and-recycling-bins.png\">\n</a>\n<a
+  href=\"/trash-cans-and-recycling-bins\">\nTrash Cans and Recycling Bins\n</a>\n</div>\n<div
+  class=\"featured-item-box\">\n<a href=\"/cleaning-carts-and-tools\">\n<img alt=\"Cleaning
+  Carts and Tools\" title=\"Cleaning Carts and Tools\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394361_cleaning-carts-and-tools.png\">\n</a>\n<a
+  href=\"/cleaning-carts-and-tools\">\nCleaning Carts and Tools\n</a>\n</div>\n</li>\n<li
+  class=\"sub-title\">\n<span>\nAlso in Janitorial Supplies\n<a href=\"/janitorial-supplies\">
+  See All »</a>\n</span>\n</li>\n<li class=\"\">\n<a href=\"/cleaning-chemicals\">\nCleaning
+  Chemicals\n</a>\n</li>\n<li class=\"\">\n<a href=\"/commercial-floor-mats\">\nCommercial
+  Floor Mats\n</a>\n</li>\n<li class=\"\">\n<a href=\"/facility-sanitation-and-maintenance\">\nFacility
+  Sanitation and Maintenance\n</a>\n</li>\n<li class=\"\">\n<a href=\"/floor-care-supplies\">\nFloor
+  Care Supplies\n</a>\n</li>\n</ul>\n</li>\n<li class=\"\">\n<a href=\"/restaurant-furniture\">\nRestaurant
+  Furniture\n</a>\n<ul class=\"sublist first-level\">\n<li class=\"featureds\">\n<div
+  class=\"featured-item-box\">\n<a href=\"/boat-racks\">\n<img alt=\"Boat Racks\"
+  title=\"Boat Racks\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394548_boat-racks.png\">\n</a>\n<a
+  href=\"/boat-racks\">\nBoat Racks\n</a>\n </div>\n<div class=\"featured-item-box\">\n<a
+  href=\"/waitress-stations\">\n<img alt=\"Waitress Stations\" title=\"Waitress Stations\"
+  src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0393790_waitress-stations.jpg\">\n</a>\n<a
+  href=\"/waitress-stations\">\nWaitress Stations\n</a>\n</div>\n<div class=\"featured-item-box\">\n<a
+  href=\"/folding-restaurant-tables\">\n<img alt=\"Folding Restaurant Tables\" title=\"Folding
+  Restaurant Tables\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0458782_folding-restaurant-tables.png\">\n</a>\n<a
+  href=\"/folding-restaurant-tables\">\nFolding Restaurant Tables\n</a>\n</div>\n<div
+  class=\"featured-item-box\">\n<a href=\"/presentation-equipment\">\n<img alt=\"Presentation
+  Equipment\" title=\"Presentation Equipment\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394547_presentation-equipment.png\">\n</a>\n<a
+  href=\"/presentation-equipment\">\nPresentation Equipment\n</a>\n</div>\n<div class=\"featured-item-box\">\n<a
+  href=\"/restaurant-seating\">\n<img alt=\"Restaurant Seating\" title=\"Restaurant
+  Seating\" src=\"https://www.culinarydepotinc.com/content/images/thumbs/images130x130/0394546_restaurant-seating.png\">\n</a>\n<a
+  href=\"/restaurant-seating\">\nRestaurant Seating\n</a>\n</div>\n</li>\n<li class=\"sub-title\">\n<span>\nAlso
+  in Restaurant Furniture\n<a href=\"/restaurant-furniture\"> See All »</a>\n</span>\n</li>\n<li
+  class=\"\">\n<a href=\"/restaurant-tables\">\nRestaurant Tables\n</a>\n</li>\n</ul>\n</li>\n<li
+  class=\"\">\n<a href=\"/brands/all\">Shop by Brand</a>\n</li>\n<li class=\"clearance\">\n<a
+  href=\"/Clearance\">\nClearance\n</a>\n</li>\n</ul>\n<ul class=\"top-menu mobile\">\n<li
+  class=\"\">\n<a href=\"/restaurant-equipment\">\nRestaurant Equipment\n</a>\n</li>\n<li
+  class=\"\">\n<a href=\"/warewashing-plumbing-faucets\">\nWarewashing, Plumbing &amp;
+  Faucets\n</a>\n</li>\n<li class=\"align-middle\">\n<a href=\"/smallwares\">\nSmallwares\n</a>\n</li>\n<li
+  class=\"\">\n<a href=\"/storage-transport\">\nStorage &amp; Transport\n</a>\n</li>\n<li
+  class=\"align-middle\">\n<a href=\"/tabletop\">\nTabletop\n</a>\n</li>\n<li class=\"align-middle\">\n<a
+  href=\"/disposables\">\nDisposables\n</a>\n</li>\n<li class=\"\">\n<a href=\"/janitorial-supplies\">\nJanitorial
+  Supplies\n</a>\n</li>\n<li class=\"\">\n<a href=\"/restaurant-furniture\">\nRestaurant
+  Furniture\n</a>\n</li>\n<li class=\"clearance\">\n<a href=\"/clearance\">\nClearance\n</a>\n</li>\n</ul>\n<script
+  type=\"text/javascript\">\n        $(document).ready(function () {\n\n            //effect
+  show/hide mobile menu\n            $('.menu-toggle').click(function () {\n                $('.top-menu.mobile').slideToggle('slow');\n
+  \           });\n            $('.top-menu.mobile .sublist-toggle').click(function
+  () {\n                $(this).siblings('.sublist').slideToggle('slow');\n            });\n\n
+  \           //show opened only on home page\n            if (location.pathname ==
+  '/') {\n                $('.top-menu.mobile').show();\n                $('.menu-toggle').hide();\n
+  \           }\n\n            //hover control in main menu\n            $(window).resize(function
+  () {\n                HoverMenuDesktopOnly();\n            });\n\n            HoverMenuDesktopOnly();\n\n
+  \           function HoverMenuDesktopOnly() {\n\n                var mq = window.matchMedia(\"(min-width:
+  1000px)\");\n                if (mq.matches) {\n\n                    $('.top-menu
+  > li').mouseenter(function () {\n                        $(this).attr('data-hover',
+  'true');\n\n                        var selected = $(this);\n                        setTimeout(function
+  () {\n                            if (selected.attr('data-hover') == 'true') {\n
+  \                               selected.find('.sublist').fadeIn(\"fast\");\n                            }\n
+  \                       }, 350);\n                    });\n\n                    $('.top-menu
+  > li').mouseleave(function () {\n\n                        $(this).attr('data-hover',
+  'false');\n\n                        var selected = $(this);\n                        setTimeout(function
+  () { //delay para esconder submenu de categoria (mesma lógica do mouseenter)\n                            if
+  (selected.attr('data-hover') == 'false') {\n                                selected.find('.sublist').fadeOut(\"fast\");\n
+  \                           }\n                        }, 0);\n                    });\n
+  \               }\n            }\n        });\n    </script>\n</div>\n<div class=\"topic-block
+  display-none\">\n<div class=\"topic-block-body\">\n<div class=\"container\" style=\"margin-top:
+  4px;\"><a href=\"returns-price-match-free-shipping\"><img id=\"valueProp\" src=\"/Content/Images/uploaded/Value
+  Prop for Desktop (3).png\" alt=\"\" width=\"100%\"></a></div>\n<div class=\"container\"
+  style=\"margin-top: 4px;\"></div>\n</div>\n</div>\n</div>\n<div class=\"master-wrapper-content\">\n<div
+  class=\"master-column-wrapper\">\n<div class=\"side-2\">\n<div class=\"block block-blog-archive\">\n<div
+  class=\"title\">\n<strong>Blog archive</strong>\n</div>\n<div class=\"listbox\">\n<ul
+  class=\"list\" id=\"blog-month-list\">\n<li class=\"year\">\n<strong class=\"number\">2019</strong>\n<ul
+  class=\"sublist\" id=\"blog-year-2019\">\n<li class=\"month\">\n<a href=\"/blog/month/2019-1\">January\n(4)</a>\n</li>\n<li
+  class=\"month\">\n<a href=\"/blog/month/2019-2\">February\n(3)</a>\n</li>\n<li class=\"month\">\n<a
+  href=\"/blog/month/2019-3\">March\n(3)</a>\n</li>\n</ul>\n</li>\n<li class=\"year\">\n<strong
+  class=\"number\">2018</strong>\n<ul class=\"sublist\" id=\"blog-year-2018\">\n<li
+  class=\"month\">\n<a href=\"/blog/month/2018-1\">January\n(6)</a>\n</li>\n<li class=\"month\">\n<a
+  href=\"/blog/month/2018-2\">February\n(4)</a>\n</li>\n<li class=\"month\">\n<a href=\"/blog/month/2018-3\">March\n(3)</a>\n</li>\n<li
+  class=\"month\">\n<a href=\"/blog/month/2018-4\">April\n(3)</a>\n</li>\n<li class=\"month\">\n<a
+  href=\"/blog/month/2018-5\">May\n(3)</a>\n</li>\n<li class=\"month\">\n<a href=\"/blog/month/2018-6\">June\n(5)</a>\n</li>\n<li
+  class=\"month\">\n<a href=\"/blog/month/2018-7\">July\n(5)</a>\n</li>\n<li class=\"month\">\n<a
+  href=\"/blog/month/2018-8\">August\n(7)</a>\n</li>\n<li class=\"month\">\n<a href=\"/blog/month/2018-9\">September\n(3)</a>\n</li>\n<li
+  class=\"month\">\n<a href=\"/blog/month/2018-10\">October\n(5)</a>\n</li>\n<li class=\"month\">\n<a
+  href=\"/blog/month/2018-11\">November\n(5)</a>\n</li>\n<li class=\"month\">\n<a
+  href=\"/blog/month/2018-12\">December\n(4)</a>\n</li>\n</ul>\n</li>\n<li class=\"year\">\n<strong
+  class=\"number\">2017</strong>\n<ul class=\"sublist\" id=\"blog-year-2017\">\n<li
+  class=\"month\">\n<a href=\"/blog/month/2017-2\">February\n(4)</a>\n</li>\n<li class=\"month\">\n<a
+  href=\"/blog/month/2017-3\">March\n(5)</a>\n</li>\n<li class=\"month\">\n<a href=\"/blog/month/2017-4\">April\n(3)</a>\n</li>\n<li
+  class=\"month\">\n<a href=\"/blog/month/2017-5\">May\n(4)</a>\n</li>\n<li class=\"month\">\n<a
+  href=\"/blog/month/2017-6\">June\n(7)</a>\n</li>\n<li class=\"month\">\n<a href=\"/blog/month/2017-7\">July\n(5)</a>\n</li>\n<li
+  class=\"month\">\n<a href=\"/blog/month/2017-8\">August\n(5)</a>\n</li>\n<li class=\"month\">\n<a
+  href=\"/blog/month/2017-9\">September\n(6)</a>\n</li>\n<li class=\"month\">\n<a
+  href=\"/blog/month/2017-10\">October\n(2)</a>\n</li>\n<li class=\"month\">\n<a href=\"/blog/month/2017-11\">November\n(3)</a>\n</li>\n<li
+  class=\"month\">\n<a href=\"/blog/month/2017-12\">December\n(4)</a>\n</li>\n</ul>\n</li>\n<li
+  class=\"year\">\n<strong class=\"number\">2016</strong>\n<ul class=\"sublist\" id=\"blog-year-2016\">\n<li
+  class=\"month\">\n<a href=\"/blog/month/2016-6\">June\n(88)</a>\n</li>\n<li class=\"month\">\n<a
+  href=\"/blog/month/2016-9\">September\n(1)</a>\n</li>\n<li class=\"month\">\n<a
+  href=\"/blog/month/2016-10\">October\n(1)</a>\n</li>\n<li class=\"month\">\n<a href=\"/blog/month/2016-11\">November\n(1)</a>\n</li>\n</ul>\n</li>\n</ul>\n</div>\n</div>\n<div
+  class=\"block block-popular-blogtags\">\n<div class=\"title\">\n<strong>Popular
+  blog tags</strong>\n</div>\n<div class=\"listbox\">\n<ul class=\"tags\">\n<li><a
+  href=\"/blog/tag/Restuarant\" style=\"font-size:90%;\">Restuarant</a>\n</li>\n<li><a
+  href=\"/blog/tag/Serving\" style=\"font-size:90%;\">Serving</a>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<div
+  class=\"center-2\">\n<div class=\"page blogpost-page\">\n<div class=\"page-title\">\n<h1>What
+  is Sous Vide Cooking?</h1>\n</div>\n<div class=\"page-body\">\n<div class=\"post-date\">\nFriday,
+  May 4, 2018\n</div>\n<div class=\"post-body\">\n<p><strong>Written by: J. Vigotsky</strong></p>\n<p>&nbsp;</p>\n<p><img
+  style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"/Content/Images/uploaded/sous
+  vide vs. traditional.jpg\" alt=\"sous vide vs. traditional steak\" width=\"519\"
+  height=\"236\"></p>\n<p>&nbsp;</p>\n<p>Great chefs do everything in their power
+  to create delicious meals. Whether it’s using new ingredients, changing cooking
+  temperatures, or exploring alternate cooking methods, there are nearly infinite
+  ways for chefs to subtly alter the taste of a dish. One way in particular that chefs
+  are pushing culinary boundaries is by using&nbsp;<span style=\"text-decoration:
+  underline;\"><a href=\"https://www.culinarydepotinc.com/sous-vide-immersion-circulators\">sous
+  vide cooking</a></span> methods. French for “under vacuum,” sous vide cooking consistently
+  churn outs entrées that are tender and succulent. The method is commonly utilized
+  when cooking chicken, steak, beef, lamb, pork, seafood, and even vegetables.</p>\n<p>&nbsp;</p>\n<h3
+  style=\"text-align: left;\">What Is It?</h3>\n<p>&nbsp;</p>\n<p><img src=\"/Content/Images/uploaded/sous
+  vide cooking.jpg\" alt=\"sous vide cooking\" width=\"296\" height=\"197\"></p>\n<p>&nbsp;</p>\n<p>Traditional
+  sous vide cooking entails first placing food in a vacuum-sealed bag. The bag is
+  then placed in a temperature-controlled water bath, which uses an <a href=\"https://www.culinarydepotinc.com/sous-vide-immersion-circulators\">immersion
+  circulator</a> to ensure its water temperature is exactly what it needs to be. Drawing
+  water in from the tub, heating it, and then releasing it back into circulation,
+  an immersion circulator is essential to sous vide cooking. &nbsp;</p>\n<p>You might
+  be wondering what you need to make a water bath, and the answer’s likely simpler
+  than you think. Plastic <a href=\"https://www.culinarydepotinc.com/food-storage-containers\">food
+  storage containers</a> excel at the job so long as they’re large enough to hold
+  all the water, and plastic is a great insulator of heat. Ideal size of the storage
+  container will depend on how much food you want to cook. The more food you’re planning
+  to make, the larger the bath will need to be.</p>\n<p>&nbsp;</p>\n<h3 style=\"text-align:
+  left;\">The Finishing Touches</h3>\n<p>&nbsp;</p>\n<p>Using sous vide cooking helps
+  ensure meat will be thoroughly cooked from end to end according to your precise
+  preferences. But while the distinct texture and tenderness of meat cooked sous vide
+  is undeniable, some diners might find the dish lacks a certain X-factor. Consequently,
+  it’s common chef practice for cooked meat to be seared atop a <a href=\"https://www.culinarydepotinc.com/cast-iron-skillets-and-pots\">cast-iron
+  skillet</a> prior to serving. The process takes very little time and helps add more
+  crusted flavor to your meat.</p>\n<p>&nbsp;</p>\n<h3 style=\"text-align: left;\">Sink
+  to the Bottom</h3>\n<p>&nbsp;</p>\n<p><img src=\"/Content/Images/uploaded/sous vide
+  cooking bottom of bath.jpg\" alt=\"sous vide cooking bottom of the bath\" width=\"322\"
+  height=\"242\"></p>\n<p>&nbsp;</p>\n<p>When it comes to the actual cooking process,
+  there are several important things to keep in mind. The vacuum-sealed bag with food
+  in it should always be at the bottom of your water bath. One way to ensure this
+  is by clamping a binder clip to the bottom of your bag then putting an item that
+  will weigh down the bag in-between the bag and clip. This is highly advised because
+  floating bags can potentially lead to improperly cooked food that poses a safety
+  risk.</p>\n<p>&nbsp;</p>\n<h3 style=\"text-align: left;\">Patience is a Virtue</h3>\n<p>&nbsp;</p>\n<p>Also
+  keep in mind that cooking sous vide can take significantly longer than alternate
+  methods. For example, a slab of meat that takes 8 hours to cook on an outdoor smoker
+  can take a whole day when cooked sous vide. On the bright side, sous vide cooking
+  is an almost entirely hands-off endeavor, which frees up kitchen staff to focus
+  on other important tasks. And since the food takes so long to cook, it’s nearly
+  impossible to accidentally undercook or overcook a dish.</p>\n<p>&nbsp;</p>\n<h3
+  style=\"text-align: left;\">Evaporation is the Enemy</h3>\n<p>&nbsp;</p>\n<p><img
+  src=\"/Content/Images/uploaded/sous vide ping pong balls.jpg\" alt=\"sous vide ping
+  pong balls\" width=\"346\" height=\"195\"></p>\n<p>&nbsp;</p>\n<p>Over the several
+  hours or even days it takes to cook sous vide, it’s possible for the bath’s water
+  to evaporate. Luckily, there are measurements you can take to prevent such an inconvenience.
+  Ping-pong balls are the gold standard for ensuring steam always drips back down
+  into the water bath. Simply make a pile of balls atop the water and let them do
+  their work. If you don’t do this, there’s a chance you’ll need to refill your water
+  bath during the cooking process.</p>\n<p>&nbsp;</p>\n<h3 style=\"text-align: left;\">Season
+  with Caution</h3>\n<p>&nbsp;</p>\n<p>Seasoning meats is a bit of an art when it
+  comes to sous vide cooking. Since the dishes take so long to cook, herbs and spices
+  infuse especially strong flavors when they’re inside your vacuum-sealed bag. As
+  a result, seasoning meats after sous vide cooking has finished but before searing
+  is an easier and less risky proposition. If you insist on cooking with the seasoning,
+  do a bit of experimenting to see exactly how much is necessary.</p>\n</div>\n<div
+  class=\"fieldset new-comment\">\n<div class=\"title\">\n<strong>Leave your comment</strong>\n</div>\n<div
+  class=\"notifications\">\n</div>\n<form action=\"/blog/what-is-sous-vide-cooking\"
+  method=\"post\" novalidate=\"novalidate\"> <div class=\"form-fields\">\n<div class=\"inputs\">\n<label
+  for=\"AddNewComment_CommentText\">Comment:</label>\n<textarea class=\"enter-comment-text\"
+  cols=\"20\" id=\"AddNewComment_CommentText\" name=\"AddNewComment.CommentText\"
+  rows=\"2\"></textarea>\n<span class=\"field-validation-valid\" data-valmsg-for=\"AddNewComment.CommentText\"
+  data-valmsg-replace=\"true\"></span>\n</div>\n</div>\n<div class=\"buttons\">\n<input
+  type=\"submit\" name=\"add-comment\" class=\"button-1 blog-post-add-comment-button\"
+  value=\"New comment\">\n</div>\n</form> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div
+  biggy-area=\"five\" id=\"biggy-five\" style=\"margin-top:20px;padding:0 10px;\"></div>\n<div
+  class=\"footer\">\n<div class=\"newsletter-media-socials\">\n<div class=\"footer-upper\">\n<div
+  class=\"social\">\n<ul class=\"networks\">\n<li class=\"sprite sprite-facebook\"><a
+  href=\"https://www.facebook.com/CulinaryDepot/\" target=\"_blank\"></a></li>\n<li
+  class=\"sprite sprite-instagram\"><a href=\"https://www.instagram.com/culinarydepot/\"
+  target=\"_blank\"></a></li>\n<li class=\"sprite sprite-twitter\"><a href=\"https://twitter.com/culinarydepot\"
+  target=\"_blank\"></a></li>\n<li class=\"sprite sprite-googleplus\"><a href=\"https://plus.google.com/111630302905294868939\"
+  target=\"_blank\"></a></li>\n<li class=\"sprite sprite-linkedin\"><a href=\"https://www.linkedin.com/company/culinarydepot\"
+  target=\"_blank\"></a></li>\n<li class=\"sprite sprite-pinterest\"><a href=\"https://www.pinterest.com/culinarydepot/\"
+  target=\"_blank\"></a></li>\n<li class=\"sprite sprite-rss\"><a href=\"/blog\" target=\"_blank\"></a></li>\n</ul>\n</div>\n<div
+  class=\"newsletter\">\n<div class=\"newsletter-main\">\n<div class=\"title\">\nSign
+  up for news and special offers\n</div>\n<div class=\"newsletter-subscribe\" id=\"newsletter-subscribe-block\">\n<div
+  class=\"newsletter-email\">\n<input class=\"newsletter-subscribe-text\" id=\"newsletter-email\"
+  name=\"NewsletterEmail\" placeholder=\"Enter your email here...\" type=\"email\"
+  value=\"\">\n<input type=\"button\" value=\"Subscribe\" id=\"newsletter-subscribe-button\"
+  class=\"button-1 newsletter-subscribe-button\">\n</div>\n<div class=\"newsletter-validation\">\n<span
+  class=\"field-validation-valid\" data-valmsg-for=\"NewsletterEmail\" data-valmsg-replace=\"true\"></span>\n</div>\n</div>\n<div
+  class=\"newsletter-result\" id=\"newsletter-result-block\"></div>\n</div>\n</div>\n<script
+  type=\"text/javascript\">\n        function newsletter_subscribe(subscribe) {\n
+  \           var email = $(\"#newsletter-email\").val();\n            var subscribeProgress
+  = $(\"#subscribe-loading-progress\");\n            subscribeProgress.show();\n            $.ajax({\n
+  \               cache: false,\n                type: \"POST\",\n                url:
+  \"/subscribenewsletter\",\n                data: { \"subscribe\": subscribe, \"email\":
+  email },\n                success: function(data) {\n                    subscribeProgress.hide();\n
+  \                   $(\"#newsletter-result-block\").html(data.Result);\n                    if
+  (data.Success) {\n                        try {\n                            fbq('track',
+  'CompleteRegistration');\n                        } catch(err){}\n                        $('#newsletter-result-block').fadeIn(\"slow\").delay(3500).fadeOut(\"slow\");\n
+  \                   } else {\n                        $('#newsletter-result-block').fadeIn(\"slow\").delay(2000).fadeOut(\"slow\");\n
+  \                   }\n                },\n                error: function(xhr,
+  ajaxOptions, thrownError) {\n                    alert('Failed to subscribe.');\n
+  \                   subscribeProgress.hide();\n                }\n            });\n
+  \       }\n\n        $(document).ready(function () {\n            $('#newsletter-subscribe-button').click(function
+  () {\n                    newsletter_subscribe('true');\n            });\n            $(\"#newsletter-email\").keydown(function
+  (event) {\n                if (event.keyCode == 13) {\n                    $(\"#newsletter-subscribe-button\").click();\n
+  \                   return false;\n                }\n            });\n        });\n</script>\n</div>\n</div>\n<div
+  class=\"footer-upper\">\n<div class=\"footer-block\">\n<ul class=\"list\">\n<li>\n<div
+  class=\"footer-logo-image sprite sprite-chamber-nyc\"></div>\n<div class=\"footer-logo-image
+  sprite sprite-logo-footer\"></div>\n</li>\n<li class=\"shoppers-footer\">\n<a href=\"http://www.shopperapproved.com/reviews/culinarydepotinc.com/\"
+  class=\"shopperlink\"><img src=\"//www.shopperapproved.com/seals/11985-m.gif\" style=\"border:
+  0\" alt=\"Customer Reviews\" oncontextmenu=\"var d = new Date(); alert('Copying
+  Prohibited by Law - This image and all included logos are copyrighted by Shopper
+  Approved \\251 '+d.getFullYear()+'.'); return false;\"></a>\n<script type=\"text/javascript\">\n
+  \                       (function () {\n                            var js = window.document.createElement(\"script\");\n
+  \                           js.src = '//www.shopperapproved.com/seals/certificate.js';\n
+  \                           js.type = \"text/javascript\";\n                            document.getElementsByTagName(\"head\")[0].appendChild(js);\n
+  \                       })();\n                    </script>\n<a target=\"_blank\"
+  title=\"Click for the Business Review of Culinary Depot Inc., a Restaurant Equipment
+  &amp; Supplies in Monsey NY\" href=\"https://www.bbb.org/new-jersey/business-reviews/restaurant-equipment-and-supplies/culinary-depot-inc-in-monsey-ny-90153769#sealclick\"><img
+  alt=\"Click for the BBB Business Review of this Restaurant Equipment &amp; Supplies
+  in Monsey NY\" style=\"border: 0;\" src=\"https://seal-newjersey.bbb.org/seals/blue-seal-120-61-culinarydepotinc-90153769.png\"></a>\n<div
+  class=\"clr\"></div>\n</li>\n<li>\nCulinary Depot\n</li>\n<li>\n2 Melnick Dr. Monsey,
+  NY 10952\n</li>\n<li class=\"phoneswap\">\n(888) 845-8200\n</li>\n<li class=\"payment-method-icons\">\n<span
+  class=\"pm-sprite sprite-a-visa-curved-32px\"></span>\n<span class=\"pm-sprite sprite-b-mastercard-curved-32px\"></span>\n<span
+  class=\"pm-sprite sprite-c-american-express-curved-32px\"></span>\n<span class=\"pm-sprite
+  sprite-discover-curved-32px\"></span>\n<span class=\"pm-sprite sprite-paypal-curved-32px\"></span>\n</li></ul>\n</div>\n<div
+  class=\"footer-block information\">\n<div class=\"title\">\n<strong>Corporate Info</strong>\n</div>\n<ul
+  class=\"list\">\n<li><a href=\"/about-culinary-depot\">About Us</a></li>\n<li><a
+  href=\"/digital-catalog\">View Our Online Digital Catalog</a></li>\n<li><a href=\"/financing\">Financing</a></li>\n<li><a
+  href=\"/commercial-kitchen-design\">Commercial Kitchen Design</a></li>\n<li><a href=\"/executive-chef-sholem-potash\">Executive
+  Chef</a></li>\n<li><a href=\"/recent-projects-and-awards\">Recent Projects and Awards</a></li>\n<li><a
+  href=\"/contractor\">Contract Sales</a></li>\n<li><a href=\"/buying-guides\">Buying
+  Guides</a></li>\n<li><a href=\"/careers\">Careers</a></li>\n<li><a href=\"/reviews\">Reviews</a></li>\n<li><a
+  href=\"/blog\">Blog</a></li>\n<li><a href=\"/sitemap\">Site Map</a></li>\n </ul>\n</div>\n<div
+  class=\"footer-block customer-service\">\n<div class=\"title\">\n<strong>Customer
+  Service</strong>\n</div>\n<ul class=\"list\">\n<li><a href=\"/contactus\">Contact
+  Us</a></li>\n<li><a href=\"/commercial-kitchen-equipment-leasing\">Commercial Kitchen
+  Equipment Leasing</a></li>\n<li><a href=\"/returns-exchanges\">Returns &amp; Exchanges</a></li>\n<li><a
+  href=\"/privacy-policy\">Privacy Policy</a></li>\n<li><a href=\"/credit-application-form\">Credit
+  Application Form</a></li>\n<li><a href=\"/shipping-information\">Shipping Information</a></li>\n</ul>\n</div>\n<div
+  class=\"footer-block my-account\">\n<div class=\"title\">\n<strong>Account</strong>\n</div>\n<ul
+  class=\"list\">\n<li><a href=\"/customer/info\" class=\"account\">My Account</a></li>\n<li><a
+  href=\"/order/history\">Orders</a></li>\n<li><a href=\"/customer/addresses\" class=\"\">Addresses</a></li>\n<li><a
+  href=\"/cart\" class=\"ico-cart\">Shopping Cart</a></li>\n<li><a href=\"/wishlist\"
+  class=\"ico-wishlist\">Wishlist</a></li>\n<li><a href=\"/compareproducts\">Compare
+  Products List</a></li>\n</ul>\n</div>\n</div>\n<div class=\"footer-lower\">\n<div
+  class=\"footer-info\">\n<span class=\"footer-disclaimer\">Copyright © 2019 Culinary
+  Depot. All rights reserved.</span>\n</div>\n<div class=\"footer-customer-id\">\n<span>Customer
+  ID:</span>\n<span id=\"nf_customer_code\">081-228-829</span>\n</div>\n<div class=\"footer-powered-by\">\nPowered
+  by <a href=\"http://www.nopcommerce.com/\" target=\"_blank\">nopCommerce</a>\n|
+  Developed by Culinary Depot\n</div>\n</div>\n</div>\n<script type=\"text/javascript\">\n
+  \   $(document).ready(function () {\n        $('.footer-block .title').click(function
+  () {\n            var e = window, a = 'inner';\n            if (!('innerWidth' in
+  window)) {\n                a = 'client';\n                e = document.documentElement
+  || document.body;\n            }\n\n            var result = { width: e[a + 'Width'],
+  height: e[a + 'Height'] };\n\n            if (result.width < 769) {\n                $(this).siblings('.list').slideToggle('slow');\n
+  \           }\n        });\n    });\n</script>\n<script type=\"text/javascript\">\n
+  \   $(document).ready(function () {\n        $('.block .title').click(function ()
+  {\n            var e = window, a = 'inner';\n            if (!('innerWidth' in window))
+  {\n                a = 'client';\n                e = document.documentElement ||
+  document.body;\n            }\n\n            var result = { width: e[a + 'Width'],
+  height: e[a + 'Height'] };\n\n            if (result.width < 1001) {\n                $(this).siblings('.listbox').slideToggle('slow');\n
+  \           }\n        });\n    });\n</script>\n</div>\n<script type=\"text/javascript\">\n\tvar
+  trackcmp_email = '';\n\tvar trackcmp = document.createElement(\"script\");\n\ttrackcmp.async
+  = true;\n\ttrackcmp.type = 'text/javascript';\n\ttrackcmp.src = '//trackcmp.net/visit?actid=89287054&e='+encodeURIComponent(trackcmp_email)+'&r='+encodeURIComponent(document.referrer)+'&u='+encodeURIComponent(window.location.href);\n\tvar
+  trackcmp_s = document.getElementsByTagName(\"script\");\n\tif (trackcmp_s.length)
+  {\n\t\ttrackcmp_s[0].parentNode.appendChild(trackcmp);\n\t} else {\n\t\tvar trackcmp_h
+  = document.getElementsByTagName(\"head\");\n\t\ttrackcmp_h.length && trackcmp_h[0].appendChild(trackcmp);\n\t}\n</script>\n<script
+  type=\"application/ld+json\">\n                       {\n                               \"@context\"
+  : \"http://schema.org\",\n                               \"@type\" : \"WebSite\",\n
+  \                              \"name\" : \"Culinary Depot\",\n                               \"url\"
+  : \"https://www.culinarydepotinc.com/\",\n                               \"potentialAction\"
+  :\n                               {\n                                      \"@type\"
+  : \"SearchAction\",\n                                      \"target\" : \"https://www.culinarydepotinc.com/search?q={search_term}\",\n
+  \                                     \"query-input\" : \"required name=search_term\"\n
+  \                              }\n                       }\n                       </script>\n<script
+  type=\"application/ld+json\">\n                       {\n                               \"@context\"
+  : \"http://schema.org\",\n                               \"@type\" : \"Organization\",\n
+  \                              \"legalName\" : \"Culinary Depot\",\n                               \"url\"
+  : \"https://www.culinarydepotinc.com/\",\n                               \"logo\"
+  : \"        https://www.culinarydepotinc.com/themes/culinarydepot/content/images/logo.png\",\n
+  \                              \"sameAs\" :\n                               [\n
+  \                                     \"https://www.facebook.com/CulinaryDepot\",\n
+  \                                     \"https://twitter.com/culinarydepot\",\n                                      \"https://plus.google.com/111630302905294868939\",\n
+  \                                     \"https://www.youtube.com/CulinaryDepot\",\n
+  \                                     \"https://www.pinterest.com/culinarydepot/\",\n
+  \                                     \"https://www.instagram.com/Culinarydepot/\",\n
+  \                                      \"https://www.linkedin.com/company/culinarydepot\"\n
+  \                              ]\n                       }\n                       </script>\n<script
+  type=\"application/ld+json\">\n\t{\n  \t\"@context\": \"http://schema.org\",\n  \t\"@type\":
+  \"LocalBusiness\",\n\t\"url\": \"https://www.culinarydepotinc.com/\",\n\t\"logo\":
+  \"https://www.culinarydepotinc.com/themes/culinarydepot/content/images/logo.png\",\n
+  \       \"image\": \"https://www.culinarydepotinc.com/content/images/thumbs/0443612.jpeg\",\n\t\"hasMap\":
+  \"https://goo.gl/sbftTF\",\n  \t\"address\": {\n    \"@type\": \"PostalAddress\",\n
+  \   \"addressLocality\": \"Monsey\",\n    \"addressRegion\": \"NY\",\n    \"postalCode\":\"10952\",\n
+  \   \"streetAddress\": \"2 Melnick Drive\"\n  \t},\n    \"description\": \"Culinary
+  Depot is an Internationally Acclaimed Distributor, Wholesaler and Retailer for Commercial
+  Kitchen Food-Service Equipment & Supplies. \n\t\t\t\t\tWe are a BBB Accredited Business,
+  a certified Women's Business Enterprise, and one of the fastest growing food-service
+  equipment companies in America. \n\t\t\t\t\tCulinary Depot® is a world leader in
+  the commercial restaurant & food-service equipment industry, offering hundreds of
+  thousands of products for restaurants, bakeries, bars, cafeterias and kitchen supplies
+  online and at our locations at wholesale prices, many available for next-day delivery.
+  \n\n\t\t\t\t\tCulinary Depot is a supplier of all the commercial kitchen equipment
+  you need to build and expand your commercial kitchen and has been a trusted name
+  in wholesale commercial kitchen food-service supplies since 1999. We provide you
+  high quality equipment from A through Z. One on one expert advice from Layout Design,
+  Product Choice To Installation. At the intersection of food service and innovation,
+  you will find Culinary Depot diligently working to service our customers' best interest
+  and provide unsurpassed knowledge, experience, and dedication.\n\n\t\t\t\t\tServicing
+  Food & Beverage Equipment & Supplies for Hospitality & Travel, Restaurants and Bars,
+  Caterers, Healthcare, Correctional Facilities, Educational Facilities, Business
+  and Industry, Supermarkets, Casinos and Gaming, General Contractors, Cruises, Hotels,
+  Bakeries, Food Trucks, Schools & Cafeterias.\",\n    \"name\": \"Culinary Depot\",\n
+  \   \"telephone\": \"888-845-8200\",\n    \"openingHours\": \"Mo, Tu, We, Th :09:00-18:00
+  Fr 09:00-13:00 Su 11:00-15:00\",\n    \"geo\": {\n    \"@type\": \"GeoCoordinates\",\n
+  \   \"latitude\": \"41.11\",\n    \"longitude\": \"-74.06\"\n \t\t}, \t\t\t\n    \"sameAs\"
+  : [ \"https://www.facebook.com/CulinaryDepot\",\n                 \"https://twitter.com/culinarydepot\",\n
+  \                \"https://plus.google.com/111630302905294868939\",\n                 \"https://www.youtube.com/CulinaryDepot\",\n
+  \                \"https://www.pinterest.com/culinarydepot/\",\n                 \"https://www.instagram.com/Culinarydepot/\",\n
+  \                \"https://www.linkedin.com/company/culinarydepot\"],\n    \"priceRange\":
+  \".01-1,000,000\"\n    }\n</script>\n<script>var om58c0574921e5f,om58c0574921e5f_poll=function(){var
+  r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){om58c0574921e5f_poll(function(){if(window['om_loaded']){if(!om58c0574921e5f){om58c0574921e5f=new
+  OptinMonsterApp();return om58c0574921e5f.init({\"s\":\"29429.58c0574921e5f\",\"staging\":0,\"dev\":0,\"beta\":0});}}},25);return;}var
+  d=false,o=e.createElement(t);o.id=n,o.src=\"//a.optnmstr.com/app/js/api.min.js\",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState===\"loaded\"||this.readyState===\"complete\"){try{d=om_loaded=true;om58c0574921e5f=new
+  OptinMonsterApp();om58c0574921e5f.init({\"s\":\"29429.58c0574921e5f\",\"staging\":0,\"dev\":0,\"beta\":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName(\"head\")[0]||document.documentElement).appendChild(o)}(document,\"script\",\"omapi-script\");</script>\n<script>(function(w,d,t,r,u){var
+  f,n,i;w[u]=w[u]||[],f=function(){var o={ti:\"5038539\"};o.q=w[u],w[u]=new UET(o),w[u].push(\"pageLoad\")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var
+  s=this.readyState;s&&s!==\"loaded\"&&s!==\"complete\"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,\"script\",\"//bat.bing.com/bat.js\",\"uetq\");</script><noscript><img
+  src=\"//bat.bing.com/action/0?ti=5038539&Ver=2\" height=\"0\" width=\"0\" style=\"display:none;
+  visibility: hidden;\" /></noscript>\n<script>function GetRevenueValue(){return 6;}</script>\n<script>window.uetq
+  = window.uetq || [];\nwindow.uetq.push({ 'gv': GetRevenueValue(), 'gc': 'CURRENCY_CODE_HERE'});
+  \n</script>\n<script>var om496_29429,om496_29429_poll=function(){var r=0;return
+  function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){om496_29429_poll(function(){if(window['om_loaded']){if(!om496_29429){om496_29429=new
+  OptinMonsterApp();return om496_29429.init({\"a\":29429,\"staging\":0,\"dev\":0,\"beta\":0});}}},25);return;}var
+  d=false,o=e.createElement(t);o.id=n,o.src=\"https://a.optmstr.com/app/js/api.min.js\",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState===\"loaded\"||this.readyState===\"complete\"){try{d=om_loaded=true;om496_29429=new
+  OptinMonsterApp();om496_29429.init({\"a\":29429,\"staging\":0,\"dev\":0,\"beta\":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName(\"head\")[0]||document.documentElement).appendChild(o)}(document,\"script\",\"omapi-script\");</script>\n<script
+  src=\"https://apis.google.com/js/platform.js?onload=renderBadge\" async=\"\" defer=\"\"
+  gapi_processed=\"true\"></script>\n<script>\n  window.renderBadge = function() {\n
+  \   var ratingBadgeContainer = document.createElement(\"div\");\n    document.body.appendChild(ratingBadgeContainer);\n
+  \   window.gapi.load('ratingbadge', function() {\n      window.gapi.ratingbadge.render(ratingBadgeContainer,
+  {\"merchant_id\": 6405597,\"position\": \"BOTTOM_LEFT\"});\n    });\n  }\n</script>\n<script>\n
+  \           function changePropositionDiv() {\n                var width = $(window).width();\n
+  \               var proposition = $(\".header-menu .topic-block\");\n                var
+  clone = $(\".clone\");\n\n                if (width <= 900) {\n                    var
+  cloneCreated = proposition.clone();\n                    proposition.addClass(\"display-none\");\n
+  \                   if (clone.length === 0) {\n                        cloneCreated.addClass(\"clone\");\n
+  \                       $(cloneCreated).insertAfter($(\".header\"));\n                    }
+  else {\n                        clone.removeClass(\"display-none\");\n                    }\n\n
+  \               } else {\n                    proposition.removeClass(\"display-none\");\n
+  \                   if (clone.length !== 0) {\n                        clone.addClass(\"display-none\");\n
+  \                   }\n                }\n            }\n\n            $(document).ready(function()
+  {\n                changePropositionDiv();\n            });\n\n            $(window).on(\"resize\",
+  function () {\n                changePropositionDiv();\n            });\n        </script>\n<script>\n
+  \       $(function () {\n\n            // media query with js\n            var mq
+  = window.matchMedia(\"(max-width: 1000px)\");\n\n            // media socials icons
+  only\n            function removeMediaSocialIconsForMobile() {\n                if
+  (mq.matches) {\n                    var urlCurrent, cart, checkout, pdp;\n\n                    urlCurrent
+  = window.location.pathname;\n                    cart = \"/cart\",\n                        checkout
+  = \"/onepagecheckout\",\n                        pdp = $(\".product-details-page\").length;\n\n
+  \                   if (urlCurrent == cart || urlCurrent == checkout || pdp) {\n
+  \                       $(\"#script-media-social\").remove();\n                    }\n
+  \               }\n            }\n            $(window).resize(function () {\n                removeMediaSocialIconsForMobile();\n
+  \           });\n            removeMediaSocialIconsForMobile();\n\n            $('.money').money();\n
+  \           $('.percentage').percentage();\n\n        });\n    </script>\n<script
+  type=\"text/javascript\" src=\"//cdn.callrail.com/companies/236881610/a51db93739007f5305c0/12/swap.js\"
+  defer=\"\"></script>\n<script type=\"text/javascript\">\n        adroll_adv_id =
+  \"ZFTBZWL2TZCMHM4CKTAIC5\";\n        adroll_pix_id = \"UWAV5EDDBRF2NF6FHKZGLT\";\n
+  \       /* OPTIONAL: provide email to improve user identification */\n        adroll_email
+  = \"username@example.com\";\n        (function () {\n            var _onload = function
+  () {\n                if (document.readyState && !/loaded|complete/.test(document.readyState))
+  { setTimeout(_onload, 10); return }\n                if (!window.__adroll_loaded)
+  { __adroll_loaded = true; setTimeout(_onload, 50); return }\n                var
+  scr = document.createElement(\"script\");\n                var host = ((\"https:\"
+  == document.location.protocol) ? \"https://s.adroll.com\" : \"http://a.adroll.com\");\n
+  \               scr.setAttribute('async', 'true');\n                scr.type = \"text/javascript\";\n
+  \               scr.src = host + \"/j/roundtrip.js\";\n                ((document.getElementsByTagName('head')
+  || [null])[0] ||\n                    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);\n
+  \           };\n            if (window.addEventListener) { window.addEventListener('load',
+  _onload, false); }\n            else { window.attachEvent('onload', _onload) }\n
+  \       }());\n    </script>\n\n\n<div class=\"nxt-ac-main\" style=\"z-index: 1;
+  display: none;\"></div><div id=\"goog-gt-tt\" class=\"skiptranslate\" dir=\"ltr\"><div
+  style=\"padding: 8px;\"><div><div class=\"logo\"><img src=\"https://www.gstatic.com/images/branding/product/1x/translate_24dp.png\"
+  width=\"20\" height=\"20\" alt=\"Google Translate\"></div></div></div><div class=\"top\"
+  style=\"padding: 8px; float: left; width: 100%;\"><h1 class=\"title gray\">Original
+  text</h1></div><div class=\"middle\" style=\"padding: 8px;\"><div class=\"original-text\"></div></div><div
+  class=\"bottom\" style=\"padding: 8px;\"><div class=\"activity-links\"><span class=\"activity-link\">Contribute
+  a better translation</span><span class=\"activity-link\"></span></div><div class=\"started-activity-container\"><hr
+  style=\"color: #CCC; background-color: #CCC; height: 1px; border: none;\"><div class=\"activity-root\"></div></div></div><div
+  class=\"status-message\" style=\"display: none;\"></div></div><div id=\"___ratingbadge_0\"
+  style=\"border: 1px solid rgb(245, 245, 245); z-index: 2147483647; position: fixed;
+  left: 0px; bottom: 0px; box-shadow: rgb(162, 162, 162) 1px 1px 3px;\"><iframe ng-non-bindable=\"\"
+  frameborder=\"0\" hspace=\"0\" marginheight=\"0\" marginwidth=\"0\" scrolling=\"no\"
+  style=\"position: absolute; top: -10000px; width: 450px; margin: 0px; border-style:
+  none; display: block;\" tabindex=\"0\" vspace=\"0\" width=\"100%\" id=\"I0_1552922732351\"
+  name=\"I0_1552922732351\" src=\"https://www.google.com/shopping/customerreviews/badge?usegapi=1&amp;merchant_id=6405597&amp;position=BOTTOM_LEFT&amp;origin=https%3A%2F%2Fwww.culinarydepotinc.com&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.-MMu-2qpHGU.O%2Fam%3DwQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCNSjN7dw0eNDjgYhqJQsZ4rqaBh2w%2Fm%3D__features__#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I0_1552922732351&amp;_gfid=I0_1552922732351&amp;parent=https%3A%2F%2Fwww.culinarydepotinc.com&amp;pfname=&amp;rpctoken=21646371\"
+  data-gapiattached=\"true\"></iframe></div><div class=\"goog-te-spinner-pos\"><div
+  class=\"goog-te-spinner-animation\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"goog-te-spinner\"
+  width=\"96px\" height=\"96px\" viewBox=\"0 0 66 66\"><circle class=\"goog-te-spinner-path\"
+  fill=\"none\" stroke-width=\"6\" stroke-linecap=\"round\" cx=\"33\" cy=\"33\" r=\"30\"></circle></svg></div></div><iframe
+  frameborder=\"0\" class=\"goog-te-menu-frame skiptranslate\" title=\"Language Translate
+  Widget\" style=\"visibility: visible; box-sizing: content-box; width: 1036px; height:
+  198px; display: none;\"></iframe></body></html>"

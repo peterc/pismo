@@ -1,0 +1,697 @@
+---
+:url: http://www.ok.org/kosherspirit/fall-2018/sous-vide/
+:body: "<!DOCTYPE html><html class=\" js flexbox canvas canvastext webgl no-touch
+  geolocation postmessage websqldatabase indexeddb hashchange history draganddrop
+  websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow
+  textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms
+  csstransforms3d csstransitions fontface generatedcontent video audio localstorage
+  sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths\" lang=\"en\"
+  prefix=\"og: http://ogp.me/ns#\" style=\"\"><!--<![endif]--><head>\n  <meta charset=\"utf-8\">\n
+  \ <title>Sous Vide: Sink or Swim? - Kosher Spirit</title>\n\n<link rel=\"stylesheet\"
+  href=\"http://www.ok.org/wp-content/plugins/sitepress-multilingual-cms-master/res/css/language-selector.css?v=3.4.1\"
+  type=\"text/css\" media=\"all\">\n  <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n
+  \ <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link
+  rel=\"shortcut icon\" href=\"/wp-content/themes/okkosher/favicon.ico\">\n  <link
+  rel=\"icon\" href=\"/wp-content/themes/okkosher/favicon.ico\" type=\"image/x-icon\">\n
+  \ <script src=\"//www.google-analytics.com/analytics.js\"></script><script src=\"/wp-content/themes/okkosher/assets/js/vendor/modernizr-2.6.2.min.js\"></script><style></style>\n\n
+  \ <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>\n
+  \ <script>window.jQuery || document.write('<script src=\"/wp-content/themes/okkosher/assets/js/vendor/jquery-1.9.1.min.js\"><\\/script>')</script>\n\n
+  \ \n<!-- This site is optimized with the Yoast SEO plugin v4.9 - https://yoast.com/wordpress/plugins/seo/
+  -->\n<link rel=\"canonical\" href=\"http://www.ok.org/kosherspirit/fall-2018/sous-vide/\">\n<meta
+  property=\"og:locale\" content=\"en_US\">\n<meta property=\"og:type\" content=\"article\">\n<meta
+  property=\"og:title\" content=\"Sous Vide: Sink or Swim? - Kosher Spirit\">\n<meta
+  property=\"og:description\" content=\"The sous vide has taken the cooking world
+  by storm, but as observant Jews we have to look beyond the culinary aspect of the
+  trend and delve into the potential halachic concerns for this unique kitchen appliance.\">\n<meta
+  property=\"og:url\" content=\"http://www.ok.org/kosherspirit/fall-2018/sous-vide/\">\n<meta
+  property=\"og:site_name\" content=\"OK Kosher Certification\">\n<meta property=\"article:publisher\"
+  content=\"https://www.facebook.com/OKKosher/\">\n<meta property=\"og:image\" content=\"http://www.ok.org/assets/Kosher-Spirit-Tishrei-5779-Header-Sous-Vide.jpg\">\n<meta
+  property=\"og:image:width\" content=\"1140\">\n<meta property=\"og:image:height\"
+  content=\"432\">\n<meta name=\"twitter:card\" content=\"summary\">\n<meta name=\"twitter:description\"
+  content=\"The sous vide has taken the cooking world by storm, but as observant Jews
+  we have to look beyond the culinary aspect of the trend and delve into the potential
+  halachic concerns for this unique kitchen appliance.\">\n<meta name=\"twitter:title\"
+  content=\"Sous Vide: Sink or Swim? - Kosher Spirit\">\n<meta name=\"twitter:site\"
+  content=\"@OKKosher\">\n<meta name=\"twitter:image\" content=\"http://www.ok.org/assets/Kosher-Spirit-Tishrei-5779-Header-Sous-Vide.jpg\">\n<meta
+  name=\"twitter:creator\" content=\"@OKKosher\">\n<!-- / Yoast SEO plugin. -->\n\n<link
+  rel=\"dns-prefetch\" href=\"//scripts.iconnode.com\">\n<link rel=\"dns-prefetch\"
+  href=\"//maxcdn.bootstrapcdn.com\">\n<link rel=\"dns-prefetch\" href=\"//s.w.org\">\n\t\t<script
+  type=\"text/javascript\">\n\t\t\twindow._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/11\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/11\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=4.9.10\"}};\n\t\t\t!function(a,b,c){function
+  d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var
+  d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var
+  e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline=\"top\",l.font=\"600
+  32px Arial\",a){case\"flag\":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case\"emoji\":return
+  b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function
+  f(a){var c=b.createElement(\"script\");c.src=a,c.defer=c.type=\"text/javascript\",b.getElementsByTagName(\"head\")[0].appendChild(c)}var
+  g,h,i,j,k=b.createElement(\"canvas\"),l=k.getContext&&k.getContext(\"2d\");for(j=Array(\"flag\",\"emoji\"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],\"flag\"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener(\"DOMContentLoaded\",h,!1),a.addEventListener(\"load\",h,!1)):(a.attachEvent(\"onload\",h),b.attachEvent(\"onreadystatechange\",function(){\"complete\"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);\n\t\t</script><script
+  src=\"/wp-includes/js/wp-emoji-release.min.js?ver=4.9.10\" type=\"text/javascript\"
+  defer=\"\"></script>\n\t\t<style type=\"text/css\">\nimg.wp-smiley,\nimg.emoji {\n\tdisplay:
+  inline !important;\n\tborder: none !important;\n\tbox-shadow: none !important;\n\theight:
+  1em !important;\n\twidth: 1em !important;\n\tmargin: 0 .07em !important;\n\tvertical-align:
+  -0.1em !important;\n\tbackground: none !important;\n\tpadding: 0 !important;\n}\n</style>\n<link
+  rel=\"stylesheet\" href=\"/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.2\">\n<link
+  rel=\"stylesheet\" href=\"/wp-content/plugins/spot-krg/public/css/spot-krg-public.css?ver=1.0.0\">\n<link
+  rel=\"stylesheet\" href=\"/wp-content/plugins/issuem/css/flexslider.css?ver=2.7.1\">\n<link
+  rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n<link
+  rel=\"stylesheet\" href=\"/wp-content/themes/okkosher/assets/css/font-awesome.css\">\n<link
+  rel=\"stylesheet\" href=\"/wp-content/themes/okkosher/assets/css/app.css?ver=3.45\">\n<link
+  rel=\"stylesheet\" href=\"/wp-content/themes/okkosher/assets/css/custom.css?ver=0.1\">\n<link
+  rel=\"stylesheet\" href=\"/wp-content/themes/okkosher/assets/css/owl.carousel.min.css?ver=0.1\">\n<link
+  rel=\"stylesheet\" href=\"/wp-content/themes/okkosher/assets/css/owl.theme.default.min.css?ver=0.1\">\n<script
+  type=\"text/javascript\" src=\"/wp-content/plugins/spot-krg/public/js/spot-krg-public.js?ver=1.0.0\"></script>\n<script
+  type=\"text/javascript\" src=\"/wp-content/plugins/issuem/js/jquery.flexslider-min.js?ver=2.7.1\"></script>\n<script
+  type=\"text/javascript\" src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>\n<script
+  type=\"text/javascript\" src=\"/wp-content/themes/okkosher/assets/js/main.js?ver=0.3\"></script>\n<script
+  type=\"text/javascript\" src=\"/wp-content/themes/okkosher/assets/js/owl.carousel.min.js?ver=4.9.10\"></script>\n<script
+  type=\"text/javascript\" src=\"/wp-content/themes/okkosher/assets/js/jquery.sharrre-1.3.4.min.js?ver=1.3.4\"></script>\n<script
+  type=\"text/javascript\" src=\"/wp-content/plugins/sitepress-multilingual-cms-master/res/js/jquery.cookie.js?ver=3.4.1\"></script>\n<script
+  type=\"text/javascript\">\n/* <![CDATA[ */\nvar wpml_browser_redirect_params = {\"pageLanguage\":\"en\",\"languageUrls\":[],\"cookie\":{\"name\":\"_icl_visitor_lang_js\",\"domain\":\"www.ok.org\",\"path\":\"\\/\",\"expiration\":24}};\n/*
+  ]]> */\n</script>\n<script type=\"text/javascript\" src=\"/wp-content/plugins/sitepress-multilingual-cms-master/res/js/browser-redirect.js?ver=3.4.1\"></script>\n<link
+  rel=\"https://api.w.org/\" href=\"http://www.ok.org/wp-json/\">\n<link rel=\"alternate\"
+  type=\"application/json+oembed\" href=\"http://www.ok.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.ok.org%2Fkosherspirit%2Ffall-2018%2Fsous-vide%2F\">\n<link
+  rel=\"alternate\" type=\"text/xml+oembed\" href=\"http://www.ok.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.ok.org%2Fkosherspirit%2Ffall-2018%2Fsous-vide%2F&amp;format=xml\">\n<meta
+  name=\"generator\" content=\"WPML ver:3.4.1 stt:61,1,28,2,29,44;\">\n\n<style type=\"text/css\">#lang_sel
+  a, #lang_sel a.lang_sel_sel{color:#ffffff;}#lang_sel a:hover, #lang_sel a.lang_sel_sel:hover{color:#f2f0ed;}#lang_sel
+  a.lang_sel_sel, #lang_sel a.lang_sel_sel:visited{background-color:#478a5d;}#lang_sel
+  a.lang_sel_sel:hover{background-color:#005236;}#lang_sel li ul a, #lang_sel li ul
+  a:visited{color:#00291b;}#lang_sel li ul a:hover{color:#ffffff;}#lang_sel li ul
+  a, #lang_sel li ul a:link, #lang_sel li ul a:visited{background-color:#ffffff;}#lang_sel
+  li ul a:hover{background-color:#478a5d;}#lang_sel a, #lang_sel a:visited{border-color:#cdcdcd;}
+  #lang_sel ul ul{border-top:1px solid #cdcdcd;}</style>\n\n    <link rel=\"alternate\"
+  type=\"application/rss+xml\" title=\"OK Kosher Certification Feed\" href=\"http://www.ok.org/feed/\">\n
+  \ <script src=\"https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.4/js.cookie.min.js\"></script>\n</head>\n
+  \ \t    <body class=\"article-template-default single single-article postid-9814
+  single-format-standard lang-en top-navbar sous-vide section-kosherspirit\">\n\n
+  \   \n    <!--[if lt IE 7]><div class=\"alert\">Your browser is <em>ancient!</em>
+  <a href=\"http://browsehappy.com/\">Upgrade to a different browser</a> or <a href=\"http://www.google.com/chromeframe/?redirect=true\">install
+  Google Chrome Frame</a> to experience this site.</div><![endif]-->\n    \n    \n\n<header
+  class=\"navbar navbar-default navbar-static-top\" role=\"banner\">\n  <div class=\"container\">\n
+  \     <div class=\"navbar-header\">\n        <a class=\"navbar-brand\" href=\"http://www.ok.org\">\n
+  \         <i class=\"icon-OK\">OK </i>Kosher Certification\n        </a>\n        <a
+  href=\"http://www.ok.org/companies/the-ok-kosher-difference/\" class=\"ribbon\"></a>\n
+  \       <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\"
+  data-target=\".navbar-collapse\" aria-expanded=\"false\">\n          <span class=\"sr-only\">Toggle
+  navigation</span>\n          <span class=\"icon-bar\"></span>\n          <span class=\"icon-bar\"></span>\n
+  \         <span class=\"icon-bar\"></span>\n        </button>\n      </div>\n      <div
+  class=\"collapse navbar-collapse\">\n        <div class=\"header-toolbar navbar-right\">\n
+  \         <div class=\"flags\">\n                      </div>\n          <a href=\"#modal-language\"
+  class=\"btn btn-link lang hide\" data-toggle=\"modal\" data-backdrop=\"true\"><i
+  class=\"icon_globe\"></i> English</a>\n          <a href=\"#modal-login\" class=\"btn
+  btn-link login\" data-toggle=\"modal\" data-backdrop=\"true\"><i class=\"icon_lock\"></i>
+  Login</a>\n        </div>\n        \n        <nav class=\"navbar-right\" role=\"navigation\">\n
+  \         <ul id=\"menu-primary-navigation\" class=\"nav navbar-nav\"><li id=\"menu-item-21\"
+  class=\"menu-companies\"><a href=\"/companies/\"><span class=\"divider-vertical\"></span>Companies<br><span
+  class=\"sub\">kosher compliance</span></a></li>\n<li id=\"menu-item-20\" class=\"menu-consumers\"><a
+  href=\"/consumers/\"><span class=\"divider-vertical\"></span>Consumers<br><span
+  class=\"sub\">keeping kosher</span></a></li>\n<li id=\"menu-item-19\" class=\"menu-about-ok\"><a
+  href=\"/about/\"><span class=\"divider-vertical\"></span>About <i class=\"icon-OK\">OK</i><br><span
+  class=\"sub\">our ongoing story</span></a></li>\n</ul>        </nav>\n      </div>\n
+  \     \n      <div class=\"overlay\" id=\"modal-language\">\n        <div class=\"language-overlay\">\n
+  \         <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">×</button>\n
+  \         <div class=\"lang-option\">\n            <p class=\"section-title lang-title\"><i
+  class=\"icon-globe\"></i> Select Language</p>\n              <img src=\"http://www.ok.org/assets/lang_map.png\"
+  alt=\"\" border=\"0\" usemap=\"#languages\" class=\"lang-map\">\n              <map
+  name=\"languages\" id=\"languages\">\n                  <area shape=\"rect\" coords=\"0,0,115,67\"
+  href=\"http://www.ok.org/about/global-offices\" alt=\"Headquarters\">\n                  <area
+  shape=\"rect\" coords=\"35,67,108,135\" href=\"http://www.okkosher.com/Spanish/\"
+  alt=\"Latin America\">\n                  <area shape=\"rect\" coords=\"113,-1,144,50\"
+  href=\"http://www.ok.org/about/global-offices\" alt=\"Europe\">\n                  <area
+  shape=\"rect\" coords=\"210,7,240,33\" href=\"http://www.okkosher.co.kr/\" alt=\"Korea\">\n
+  \                 <area shape=\"rect\" coords=\"213,80,267,128\" href=\"http://www.ok.org/about/global-offices\"
+  alt=\"Australia\">\n                  <area shape=\"rect\" coords=\"144,23,176,71\"
+  href=\"http://www.ok.org/about/global-offices\" alt=\"Israel\">\n                <area
+  shape=\"rect\" coords=\"175,33,206,67\" href=\"http://www.ok.org/about/global-offices\"
+  alt=\"India\">\n                <area shape=\"rect\" coords=\"206,33,237,68\" href=\"http://www.okkosher.com.cn\"
+  alt=\"China\">\n              </map>\n                        </div>\n        </div>\n
+  \     </div>\n      <div class=\"overlay\" id=\"modal-login\">\n        <div class=\"language-overlay\">\n
+  \         <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">×</button>\n
+  \         <div class=\"sign-up\">\n            <p class=\"section-title signup-title\"><i
+  class=\"icon-lock\"></i> Login\n            <img src=\"http://www.ok.org/assets/K-ID-logo.png\"
+  alt=\"\" class=\"k-ID-logo\"></p>\n            \n            <form role=\"dk-login\"
+  name=\"dk-login\" class=\"dk-login form-inline\" method=\"post\" action=\"https://digitalkosher.com/oskm/index.jsp?kidRequest=\"
+  target=\"_blank\">\n              <input type=\"hidden\" value=\"from_form\" name=\"from_form\">\n
+  \             <!--input id=\"submitted\" type=\"hidden\" value=\"No\"-->\n              <input
+  type=\"hidden\" name=\"logging in\" value=\"true\">\n              <div class=\"form-group\">\n
+  \               <input type=\"text\" name=\"username\" class=\"username form-control\"
+  placeholder=\"username\">\n              </div>\n              <div class=\"form-group\">\n
+  \               <input type=\"password\" name=\"password\" class=\"password form-control\"
+  placeholder=\"password\">\n              </div>\n              <div class=\"form-group\">\n
+  \               <input type=\"submit\" id=\"loginsubmit\" value=\"Login\" class=\"btn
+  btn-default\">\n              </div>\n    \n              <div class=\"clear\"></div>\n
+  \             <a href=\"https://digitalkosher.com/oskm/forgotPassword.jsp\" target=\"_blank\"
+  class=\"login-link\">forgot password</a>\n              <span class=\"login-link
+  apply-link\">Not yet OK Certified? <a href=\"http://www.ok.org/companies/get-certified\"
+  class=\"login-link\">Click here to apply</a></span>\n            </form>\n          </div>\n
+  \       </div>\n      </div>\n  </div></header>\n\n  \n<div class=\"sub-head head-search\">\n
+  \ <div class=\"container\">\n  <div class=\"inner\">\n  \t<div class=\"row\">\n
+  \                 <h2 class=\"col-sm-8\"><a class=\"section\" href=\"http://www.ok.org/kosherspirit/\">Kosher
+  Spirit</a></h2>\n                <div class=\"col-sm-4 pull-right\">\n          <form
+  role=\"search\" method=\"get\" id=\"headsearchform\" class=\"form-search\" action=\"http://www.ok.org/\"
+  data-provide=\"typeahead\" autocomplete=\"off\">\n            <label class=\"sr-only\"
+  for=\"s\">Search for:</label>\n            <div class=\"input-group addon-inner\">\n
+  \             <i class=\"icon-search\"></i>\n              <input type=\"text\"
+  value=\"\" name=\"s\" id=\"s\" class=\"search-query form-control \" placeholder=\"Search
+  OK\">\n            </div>\n          </form>\n        </div>\n    </div>\n  </div>\n
+  \ </div>\n</div>\n\n\n    \n      <div class=\"wrap container\" role=\"document\">\n
+  \       <div class=\"content\">\n          <div class=\"row\">\n            <div
+  class=\"main col-sm-8 col-md-9\" role=\"main\" id=\"printable\">\n\t\t\t\t\t\t\t<ul
+  class=\"breadcrumb\"><li><span xmlns:v=\"http://rdf.data-vocabulary.org/#\"><span
+  typeof=\"v:Breadcrumb\"><a href=\"http://www.ok.org/\" rel=\"v:url\" property=\"v:title\">Home</a>
+  &nbsp;&gt;&nbsp; <span rel=\"v:child\" typeof=\"v:Breadcrumb\"><a href=\"http://www.ok.org/kosherspirit/\"
+  rel=\"v:url\" property=\"v:title\">Kosher Spirit</a> &nbsp;&gt;&nbsp; <span rel=\"v:child\"
+  typeof=\"v:Breadcrumb\"><a href=\"http://www.ok.org/kosherspirit/fall-2018/\" rel=\"v:url\"
+  property=\"v:title\">Fall 2018</a> &nbsp;&gt;&nbsp; <strong class=\"breadcrumb_last\">Sous
+  Vide: Sink or Swim?</strong></span></span></span></span></li></ul>              \t
+  \ <article class=\"span8 post-9814 article type-article status-publish format-standard
+  has-post-thumbnail hentry issuem_issue-fall-2018\">\n    <header class=\"page-header\">\n
+  \     <h1 class=\"entry-title\">Sous Vide: Sink or Swim?</h1>\n\t\t\t      <p class=\"byline
+  author vcard\">Written by <a href=\"http://www.ok.org/author/levischapiro/\" rel=\"author\"
+  class=\"fn\">Rabbi Levi Schapiro</a></p>\n      \t\t\t      <div class=\"post-image\">\n\t\t\t\t<img
+  width=\"1140\" height=\"432\" src=\"http://www.ok.org/assets/Kosher-Spirit-Tishrei-5779-Header-Sous-Vide.jpg\"
+  class=\"img-responsive wp-post-image\" alt=\"\" srcset=\"http://www.ok.org/assets/Kosher-Spirit-Tishrei-5779-Header-Sous-Vide.jpg
+  1140w, http://www.ok.org/assets/Kosher-Spirit-Tishrei-5779-Header-Sous-Vide-400x152.jpg
+  400w, http://www.ok.org/assets/Kosher-Spirit-Tishrei-5779-Header-Sous-Vide-768x291.jpg
+  768w, http://www.ok.org/assets/Kosher-Spirit-Tishrei-5779-Header-Sous-Vide-800x303.jpg
+  800w\" sizes=\"(max-width: 1140px) 100vw, 1140px\">      </div>\n    </header>\n
+  \   <div class=\"entry-content\">\n      <h4>The month of Tishrei is filled with
+  Yomim Tovim, and all of these, even Erev and Motzei Yom Kippur, include the mitzvah
+  of seudas Yom Tov with basar v’dagim. While the primary focus of Yom Tov is our
+  Divine service and unique mitzvos associated with each day, the seuda holds an important
+  place, as well. With more than twenty special meals to prepare over the course of
+  the month, and oven space at a premium, many look toward the sous vide as a way
+  to innovate their menu and multi-task in a busy household.</h4>\n<h4>The sous vide
+  has taken the cooking world by storm, but as observant Jews we have to look beyond
+  the culinary aspect of the trend and delve into the potential halachic concerns
+  for this unique kitchen appliance.</h4>\n<h3><strong>WHAT IS SOUS VIDE?</strong></h3>\n<p>Sous
+  vide (pronounced suːˈviːd), which means “under vacuum” in French, refers to the
+  process of vacuum-sealing food in a bag, then cooking it to a very precise temperature
+  in a water bath. This technique produces results that are impossible to achieve
+  through any other cooking method.<a href=\"#_ftn1\" name=\"_ftnref1\"><sup>[1]</sup></a></p>\n<p>Cooking
+  via sous vide is accomplished by filling a pot of water and inserting a sealed bag
+  with the food that one wishes to cook. A device called a precision cooker (essentially
+  a heat element) is inserted in the water and it circulates the water while heating
+  it evenly and precisely. Often the food can remain in the pot for an extended period
+  without being “overcooked”, and the food will be cooked evenly all around.</p>\n<h5><strong>Different
+  brands/models</strong></h5>\n<p>As with all new fads, there are many companies manufacturing
+  sous vide precision cookers with a variety of features and precision levels. Members
+  of our <i class=\"icon-OK\">OK</i> Kosher rabbinic team and other staff have reviewed
+  a few of these brands to get a better understanding of how sous vide cooking works
+  and suggest where there may be some halachic impact <em>(see side bar).</em></p>\n<p>The
+  following is related only to the sous vide device that is attached to a pot or container;
+  sous vide cookers that are built-in to a pot and cover may have different halachic
+  applications.</p>\n<h4><strong>Halachic Ramifications</strong></h4>\n<h5><strong>Kashrus</strong></h5>\n<p>Because
+  this immersion device is heated, all considerations regarding kosher cooking would
+  be applicable.</p>\n<p>According to Halacha, anything that is cooked in the same
+  water at the same time is considered one entity and the “tastes” of all of the ingredients
+  are considered blended throughout the pot. In addition, any “taste” that can penetrate
+  from one food to another can also penetrate non-food material if heated together.<a
+  href=\"#_ftn2\" name=\"_ftnref2\"><sup>[2]</sup></a> Therefore, although the food
+  is in a sealed bag, the “taste” of the food will travel to the water and throughout
+  the pot.</p>\n<h5><strong>Milk and meat</strong></h5>\n<p>One may certainly not
+  cook meat and dairy simultaneously in the pot, even if they are in separate bags,
+  nor may one use the same device for both meat and dairy. Anything cooked using a
+  sous vide device that was used for meat will have the same Halacha as if it was
+  cooked in a fleishig pot. If a mistake occurred, and a fleishig sous vide device
+  was used with dairy, or vice versa, the device must be kashered.</p>\n[Nevertheless,
+  because the meat or dairy foods are never in direct contact with the water and pot,
+  <em>bidieved</em> there may be some leniencies and a Rav should be consulted.]\n<h5><strong>Fish</strong></h5>\n<p>There
+  is a rabbinic prohibition against cooking/mixing meat and fish together (for health
+  considerations)<a href=\"#_ftn3\" name=\"_ftnref3\"><sup>[3]</sup></a>; therefore,
+  one may not cook meat and fish simultaneously with a sous vide device. According
+  to most Poskim, however, one need not have a separate sous vide cooker and pot for
+  meat and fish.<a href=\"#_ftn4\" name=\"_ftnref4\"><sup>[4]</sup></a></p>\n<h4><strong>Pesach</strong></h4>\n<h5><strong>KFP</strong></h5>\n<p>A
+  sous vide device that was used all year for chometz may not be used on Pesach. In
+  addition, some models contain plastic and should not be kashered for use on Pesach.</p>\n<h4><strong>Shabbos</strong></h4>\n<h5><strong>Shehiya</strong></h5>\n<p>The
+  next important area of halachic relevance is Shabbos and Yom Tov. Certainly, one
+  may not cook on Shabbos and, therefore, even if the device was turned on before
+  Shabbos, one would not be permitted to add any food to the vessel on Shabbos.</p>\n<p>May
+  one turn on a sous vide cooker and place food inside before Shabbos, with the intention
+  to serve the food at the Shabbos meal?</p>\n<p>The Torah only prohibits a <em>melacha</em>
+  that is done on Shabbos, but doing a <em>melacha</em> before Shabbos, even if the
+  <em>melacha</em> will continue working on Shabbos is permitted. For example: one
+  may not light a candle on Shabbos, but we all light candles before Shabbos that
+  remain burning on Shabbos. Chazal, however, have imposed a few exceptions, including
+  cooking. Chazal do not allow one to leave food on the fire to cook on Shabbos out
+  of fear that one will stoke the flames on Shabbos to quicken the cooking process.
+  Stoking the flames includes two prohibitions: kindling and extinguishing.</p>\n<p>To
+  avoid violating these prohibitions, there are a number of permissible options. The
+  first option is to have the food cooked before Shabbos, thereby avoiding the necessity
+  of adjusting the fire.</p>\n<p>The degree to which the food must be cooked is the
+  subject of a debate amongst the Rishonim. According to most Poskim, as long as the
+  food is half cooked it can be left on the fire over Shabbos.<a href=\"#_ftn5\" name=\"_ftnref5\"><sup>[5]</sup></a>
+  This would seem to be a viable option because sous vide technology allows the food
+  to remain heated, without “over-cooking”, even after it has been cooked completely.</p>\n<p>According
+  to those that accept a stricter view, and do not allow food to be left on the fire
+  unless it is completely cooked to the degree that any further cooking is detrimental
+  to the food, the sous vide can be used only if the food is already fully cooked
+  before Shabbos.<a href=\"#_ftn6\" name=\"_ftnref6\"><sup>[6]</sup></a></p>\n<h5><strong>Gerufah
+  uKetuma</strong></h5>\n<p>If the food is only minimally cooked (or, according to
+  some, as long as it’s not over-cooked), Chazal give other options to allow it to
+  continue to cook on Shabbos: <em>Gerufah</em> – Removing the coals from the oven,
+  or <em>Ketumah</em> – covering the flame.</p>\n<p>Both options prevent the person
+  from stoking the flames, but there is an important difference. <em>Gerufah</em>
+  makes it impossible to stoke the fire because there are no coals, but with <em>Ketumah</em>,
+  one can technically remove the cover and stoke the flames. Nevertheless, Chazal
+  allow <em>Ketumah</em> because the cover acts as a reminder and we are not concerned
+  that someone will go out of his way to remove the cover and raise the temperature.</p>\n<p>Today
+  most people avail themselves of the <em>Ketumah</em> option by placing a “blech”,
+  a metal sheet, over the fire. In the case of sous vide because covering the heat
+  element is not possible this option is not applicable.</p>\n<p>&nbsp;</p>\n[It is
+  important to note that the ovens and stoves that were used in Chazal’s times differ
+  from our modern-day gas and electric stoves. The possibility of stoking the flames
+  is not possible on our stoves, but one can increase the fire to hasten the cooking
+  process by turning the knobs. This has led to a debate among the Poskim whether
+  the method of covering the fire alone is sufficient, or if one must also cover the
+  knobs.<a href=\"#_ftn7\" name=\"_ftnref7\"><sup>[7]</sup></a> R’ Moshe Feinstein
+  is of the opinion that, in addition to covering the fire, one must cover the knobs<a
+  href=\"#_ftn8\" name=\"_ftnref8\"><sup>[8]</sup></a>. It has become common practice
+  that the blech is bent to cover the knobs on the front of the stove.]\n<h5><strong>Basar
+  Chai</strong></h5>\n<p>There is yet a third option. Raw meat may be left on the
+  fire from the beginning of Shabbos. Chazal were not concerned in this case that
+  one will increase the fire on Shabbos, because even an increased fire would not
+  prepare the food for the Friday night meal. For the Shabbos day meal, where significant
+  extra time is available, increasing the fire is not necessary.</p>\n<p>One would
+  therefore be permitted to place completely raw meat – right before candle lighting
+  – in the sous vide cooker. If it is placed earlier, then it would have cooked somewhat
+  before Shabbos and not fall within these guidelines.</p>\n<h5><strong>Hatmana</strong></h5>\n<p>All
+  the above is only if the food is on a regular fire where the food will most likely
+  be eaten on Friday night. If the food is “insulated” (<em>Hatmana</em>) where it
+  can maintain heat till tomorrow, Chazal were stricter and do not allow even if the
+  above requirements are met.</p>\n<p>The basic guidelines for Hatmana<a href=\"#_ftn9\"
+  name=\"_ftnref9\"><sup>[9]</sup></a> is that the food be completely covered, and
+  the cover hugs the pot. If the pot is partially uncovered, or in an oven (where
+  the “cover” is not directly on the pot), then it would not be considered <em>Hatmana</em>.</p>\n<p>Shulchan
+  Oruch<a href=\"#_ftn10\" name=\"_ftnref10\"><sup>[10]</sup></a> (brought from the
+  Gemara) states that pulling a pipe/tube of cold water through a bath of hot springs
+  <em>(Chamei Teverya)</em> is considered <em>Hatmana</em>. In addition, Acharonim<a
+  href=\"#_ftn11\" name=\"_ftnref11\"><sup>[11]</sup></a> clearly state that placing
+  a vessel that contains food and immersing it in water would be considered <em>Hatmana</em>.</p>\n<p>There
+  is a discussion amongst the Poskim about whether food wrapped in a plastic bag is
+  included in the prohibition of <em>Hatmana</em>.<a href=\"#_ftn12\" name=\"_ftnref12\"><sup>[12]</sup></a>
+  Sous vide may not be included in the above prohibition for the following reasons:</p>\n<ol>\n<li>The
+  food is not placed in a heated pot; the water and food are being cooked simultaneously.</li>\n<li>The
+  bag is meant to protect the food from crumbling, but is not intended to insulate.</li>\n<li>The
+  food is visible through the water and bag.<a href=\"#_ftn13\" name=\"_ftnref13\"><sup>[13]</sup></a></li>\n<li>There
+  is no lid on the pot.</li>\n</ol>\n<h5><strong>Hagasa</strong></h5>\n<p>When a pot
+  that remains on the blech for Shabbos, one may not remove the food while it is on
+  the fire, because removing the food will result in stirring the contents and it
+  is considered aiding in the cooking process.<a href=\"#_ftn14\" name=\"_ftnref14\"><sup>[14]</sup></a>&nbsp;
+  Sous vide does not fall into this category, however, and the food can be removed
+  from the pot on Shabbos. There is no issue of stirring, because the top of the bag
+  is sticking out of the water and there is no need to insert a spoon in to the water.
+  In addition, the motor constantly circulates the water and the insertion of a spoon
+  would add nothing to the stirring process.</p>\n<h5><strong>Yom Tov</strong></h5>\n<p>On
+  Yom Tov one is permitted to cook; therefore, one may use the sous vide device on
+  Yom Tov without the above concerns. In addition, one may even be permitted to add
+  food on Yom Tov into a sous vide cooker.</p>\n<p>A few notes are in order:</p>\n<p>It
+  is permissible to cook with the sous vide, but one cannot turn on, adjust or manipulate
+  the settings of an electronic device. Therefore, the device must be turned on from
+  before Yom Tov, or set on a timer, before Yom Tov, to turn on at the desired time.
+  Our research has found that putting in cold food into the pot, will not directly
+  trigger the device to “adjust” the temperature and can be considered merely a <em>grama</em>
+  (indirect method), which is permitted.</p>\n<p>Only cooking for that day is permitted
+  on Yom Tov; therefore, one may not place food in a sous vide if one intends to eat
+  it the next day. One may place meat in the sous vide bath at night for the following
+  afternoon. When an Eruv Tavshilin is made, one may cook on Friday for Shabbos; however,
+  all guidelines for Shabbos and Eruv Tavshilin (i.e. the meat needs to be edible
+  before Shabbos) must be followed.</p>\n<h4><strong>Yom Kippur</strong></h4>\n<p>There
+  is a discussion amongst the Geonim whether one may insulate <em>(Hatmanah)</em>
+  food on Erev Yom Kippur for after Yom Kippur. Although the Halacha is that it is
+  permitted, some Ashkenazic Jews have the custom to avoid this.<a href=\"#_ftn15\"
+  name=\"_ftnref15\"><sup>[15]</sup></a></p>\n<h4><strong>Tevilas Keilim</strong></h4>\n<p>All
+  food contact utensils require Tevilas Keilim; however, if the food is only used
+  while it is placed inside a bag without ever touching the keili, it does not need
+  to be toiveled.<a href=\"#_ftn16\" name=\"_ftnref16\"><sup>[16]</sup></a> A sous
+  vide device is meant to be used without direct contact with the food and would therefore
+  not require tevila.</p>\n<h4><strong>Conclusion</strong></h4>\n<p>One must have
+  separate sous vide devices for meat, dairy and Pesach.</p>\n<p>On Yom Tov one may
+  leave the sous vide cooking and one may add food to it on Yom Tov if it will be
+  eaten that day.</p>\n<p>There is a discussion amongst the Poskim whether sous vide
+  would be violate the prohibition of <em>Hatmana</em> and if it may be used on Shabbos.</p>\n<blockquote><p>We
+  tested the following brands of sous vide cookers in the office and found them to
+  be acceptable for use following the guidelines in the article.</p>\n<p><a href=\"https://www.chefsteps.com/\"
+  target=\"_blank\" rel=\"noopener\"><strong>Joule</strong> by ChefSteps</a><br>\n$179-199,
+  controlled via smartphone app.<br>\nThe Joule featured the most sensitive temperature
+  accuracy as well as sleekest, lightest design.</p>\n<p><a href=\"https://sansaire.com/\"
+  target=\"_blank\" rel=\"noopener\"><strong>Sansaire</strong> </a><br>\n$199<br>\nWhile
+  it was rather bulky, it performed well and had great temperature accuracy.</p>\n<p><a
+  href=\"http://www.nomiku.com/\" target=\"_blank\" rel=\"noopener\"><strong>Nomiku</strong></a><br>\n$175<br>\nWorks
+  with Wi-Fi. Good temperature accuracy.</p>\n<p><a href=\"https://www.kitchengizmousa.com/\"
+  target=\"_blank\" rel=\"noopener\"><strong>Kitchen Gizmo</strong></a><br>\n$99.99<br>\nThe
+  most budget friendly of our testers, with good temperature accuracy.</p>\n<p><a
+  href=\"https://www.chefmansousvide.com/\" target=\"_blank\" rel=\"noopener\"><strong>Chefman
+  Sous Vide</strong></a><br>\n$199.99<br>\nPerformed well, good temperature accuracy.</p></blockquote>\n<h4><strong>Disclaimer</strong></h4>\n<p>As
+  with all matters of Halacha one should speak to their Rav for a personal psak.</p>\n<p><i
+  class=\"icon-OK\">OK</i> Kosher and Kosher Spirit would like to thank Rav Dov Schochet,
+  a Rav at the Shul of Bar Harbour in Surfside, Florida, for his thorough review of
+  this article.</p>\n<hr>\n<p><sup><a href=\"#_ftnref1\" name=\"_ftn1\">[1]</a>&nbsp;
+  &nbsp;&nbsp;</sup><a href=\"https://anovaculinary.com/\" target=\"_blank\" rel=\"noopener\">anovaculinary.com</a></p>\n<p><sup><a
+  href=\"#_ftnref2\" name=\"_ftn2\">[2]</a>&nbsp; &nbsp;&nbsp;</sup>’ראה שו”ע יו”ד
+  סי’ צ”ב סעיף ה</p>\n<p><a href=\"#_ftnref3\" name=\"_ftn3\"><sup>[3] &nbsp;&nbsp;&nbsp;</sup></a>’שו”ע
+  יו”ד סי’ קט”ז סעיף ב</p>\n<p><a href=\"#_ftnref4\" name=\"_ftn4\"><sup>[4] &nbsp;&nbsp;&nbsp;</sup></a>’ראה
+  ט”ז יו”ד סי’ צ”ה סק ג</p>\n<p><sup><a href=\"#_ftnref5\" name=\"_ftn5\">[5]</a>&nbsp;
+  &nbsp;&nbsp;</sup>ראה שו”ע או”ח סי’ רנ”ג סעיף א’ וברמ”א</p>\n<p><sup><a href=\"#_ftnref6\"
+  name=\"_ftn6\">[6]</a>&nbsp; &nbsp;&nbsp;</sup>Although the sous vide does not overcook
+  the food when left at the prescribed temperature, the food can still be ruined if
+  a person were to change the temperature on the sous vide. When left at the prescribed
+  temperature, it does not further the cooking process, it just maintains the warmth
+  of the food.</p>\n<p><sup><a href=\"#_ftnref7\" name=\"_ftn7\">[7]</a>&nbsp; &nbsp;&nbsp;</sup>עיין
+  שש”כ פרק א’ הערה קפ”ו</p>\n<p><a href=\"#_ftnref8\" name=\"_ftn8\"><sup>[8]&nbsp;
+  &nbsp;</sup></a>אג”מ או”ח ח”א סי’ צ”ג</p>\n<p><a href=\"#_ftnref9\" name=\"_ftn9\"><sup>[9]&nbsp;
+  &nbsp;</sup></a>(ראה שו”ע או”ח סי’ רנ”ז (בסופו</p>\n<p><a href=\"#_ftnref10\" name=\"_ftn10\"><sup>[10]</sup></a><sup>&nbsp;
+  &nbsp;</sup>(ברה ע”ושבו) ’ג ףיעס ו”כש ’יס ח”וא ע”וש</p>\n<p><a href=\"#_ftnref11\"
+  name=\"_ftn11\"><sup>[11]</sup></a><sup>&nbsp; &nbsp;</sup>(שו”ע או”ח סי’ שכ”ו סעיף
+  ג’ (ובשו”ע הרב</p>\n<p><a href=\"#_ftnref12\" name=\"_ftn12\"><sup>[12]</sup></a><span
+  style=\"font-size: 11.6667px;\">&nbsp; &nbsp;&nbsp;</span>ראה בכ”ז בספר שבת כהלכה
+  )להגר”י פרקש שליט”א( ח”ב פרק י”א סעיף ט”ו ובההערות</p>\n<p><a href=\"#_ftnref13\"
+  name=\"_ftn13\"><sup>[13]</sup></a><sup>&nbsp; &nbsp;</sup>ע”פ שו”ע הרב מהדו”ב לסי’
+  רנ”ט קטע המתחיל על כן</p>\n<p><a href=\"#_ftnref14\" name=\"_ftn14\"><sup>[14]</sup></a><sup>&nbsp;
+  &nbsp;</sup>שו”ע או”ח סי’ שי”ח סעיף י”ח</p>\n<p><a href=\"#_ftnref15\" name=\"_ftn15\"><sup>[15]</sup></a><sup>&nbsp;
+  &nbsp;</sup>(בשו”ע או”ח סי’ תר”ט (ובשו”ע הרב</p>\n<p><a href=\"#_ftnref16\" name=\"_ftn16\"><sup>[16]</sup></a><sup>&nbsp;
+  &nbsp;</sup>’ספר טבילת כלים להרה”ג צבי כהן שליט”א פרק א’ סעיף ד</p>\n    </div>\n
+  \   <footer>\n    \t      \n      <hr>\n      <div class=\"article-links text-center
+  well\">\n        <div class=\"row\">\n          <div class=\"col-sm-6\">Previous<br><a
+  href=\"http://www.ok.org/kosherspirit/fall-2018/consumer-questions-23/\" rel=\"prev\">Consumer
+  Questions</a></div>\n          <div class=\"col-sm-6\">Next<br><a href=\"http://www.ok.org/kosherspirit/fall-2018/lokshin-cabbage-apples-honey/\"
+  rel=\"next\">Lokshin and Cabbage with Apples &amp; Honey</a></div>\n        </div>\n
+  \     </div>\n      \n      \n                </footer>\n      </article>\n \n            </div><!--
+  /.main -->\n                            <aside class=\"sidebar col-sm-4 col-md-3\"
+  role=\"complementary\" style=\"min-height: 5000px;\">\n                  \n<div
+  class=\"inner\">\n\t<section>\n\t\t\t<ul class=\"sidebar-menu \">\n\t\t\t\t\t<li
+  class=\"nav-header\"><a href=\"http://www.ok.org/kosherspirit/\" class=\"nav-header\">Kosher
+  Spirit</a></li>\n\t\t\t\t\t<li class=\"page_item page-item-8515\"><a href=\"/kosherspirit/subscribe-mailing-list/\">Subscribe
+  to our Mailing List</a></li>\n<li class=\"page_item page-item-5023\"><a href=\"/kosherspirit/past-issues/\">Past
+  Issues</a></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t</section>\n\t<section class=\"widget-1
+  widget-first widget-odd widget-1 widget-first widget gform_widget-2 gform_widget\"><div
+  class=\"widget-1 widget-first widget-odd widget-inner\"><h3>Subscribe</h3><link
+  rel=\"stylesheet\" href=\"/wp-content/plugins/gravityforms/css/formreset.min.css?ver=2.2.5\">\n<link
+  rel=\"stylesheet\" href=\"/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=2.2.5\">\n<link
+  rel=\"stylesheet\" href=\"/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=2.2.5\">\n<link
+  rel=\"stylesheet\" href=\"/wp-content/plugins/gravityforms/css/browsers.min.css?ver=2.2.5\">\n\n
+  \               <div class=\"gf_browser_gecko gform_wrapper\" id=\"gform_wrapper_13\"><form
+  method=\"post\" enctype=\"multipart/form-data\" id=\"gform_13\" action=\"/kosherspirit/fall-2018/sous-vide/\">\n
+  \                       <div class=\"gform_body\"><ul id=\"gform_fields_13\" class=\"gform_fields
+  top_label form_sublabel_below description_below\"><li id=\"field_13_4\" class=\"gfield
+  gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible\"><label
+  class=\"gfield_label\" for=\"input_13_4\">Email<span class=\"gfield_required\">*</span></label><div
+  class=\"ginput_container ginput_container_email\">\n                            <input
+  name=\"input_4\" id=\"input_13_4\" type=\"email\" value=\"\" class=\"large\" tabindex=\"1\"
+  aria-required=\"true\" aria-invalid=\"false\">\n                        </div></li><li
+  id=\"field_13_5\" class=\"gfield field_sublabel_below field_description_below gfield_visibility_\"><label
+  class=\"gfield_label gfield_label_before_complex\" for=\"input_13_5_3\">Name</label><div
+  class=\"ginput_complex ginput_container no_prefix has_first_name no_middle_name
+  has_last_name no_suffix gf_name_has_2 ginput_container_name gfield_trigger_change\"
+  id=\"input_13_5\">\n                            \n                            <span
+  id=\"input_13_5_3_container\" class=\"name_first\">\n                                                    <input
+  type=\"text\" name=\"input_5.3\" id=\"input_13_5_3\" value=\"\" aria-label=\"First
+  name\" tabindex=\"3\" aria-invalid=\"false\">\n                                                    <label
+  for=\"input_13_5_3\">First</label>\n                                                </span>\n
+  \                           \n                            <span id=\"input_13_5_6_container\"
+  class=\"name_last\">\n                                                    <input
+  type=\"text\" name=\"input_5.6\" id=\"input_13_5_6\" value=\"\" aria-label=\"Last
+  name\" tabindex=\"5\" aria-invalid=\"false\">\n                                                    <label
+  for=\"input_13_5_6\">Last</label>\n                                                </span>\n
+  \                           \n                        </div></li>\n                            </ul></div>\n
+  \       <div class=\"gform_footer top_label\"> <input type=\"submit\" id=\"gform_submit_button_13\"
+  class=\"gform_button button\" value=\"Submit\" tabindex=\"7\" onclick=\"if(window[&quot;gf_submitting_13&quot;]){return
+  false;}  if( !jQuery(&quot;#gform_13&quot;)[0].checkValidity || jQuery(&quot;#gform_13&quot;)[0].checkValidity()){window[&quot;gf_submitting_13&quot;]=true;}
+  \ \" onkeypress=\"if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_13&quot;]){return
+  false;} if( !jQuery(&quot;#gform_13&quot;)[0].checkValidity || jQuery(&quot;#gform_13&quot;)[0].checkValidity()){window[&quot;gf_submitting_13&quot;]=true;}
+  \ jQuery(&quot;#gform_13&quot;).trigger(&quot;submit&quot;,[true]); }\"> \n            <input
+  type=\"hidden\" class=\"gform_hidden\" name=\"is_submit_13\" value=\"1\">\n            <input
+  type=\"hidden\" class=\"gform_hidden\" name=\"gform_submit\" value=\"13\">\n            \n
+  \           <input type=\"hidden\" class=\"gform_hidden\" name=\"gform_unique_id\"
+  value=\"\">\n            <input type=\"hidden\" class=\"gform_hidden\" name=\"state_13\"
+  value=\"WyJbXSIsIjZkMmJlZGNlZGQ2Y2I2YTk5MzM1MzRiMWYzY2RhYjMzIl0=\">\n            <input
+  type=\"hidden\" class=\"gform_hidden\" name=\"gform_target_page_number_13\" id=\"gform_target_page_number_13\"
+  value=\"0\">\n            <input type=\"hidden\" class=\"gform_hidden\" name=\"gform_source_page_number_13\"
+  id=\"gform_source_page_number_13\" value=\"1\">\n            <input type=\"hidden\"
+  name=\"gform_field_values\" value=\"\">\n            \n        </div>\n                        </form>\n
+  \                       </div><script type=\"text/javascript\"> jQuery(document).bind('gform_post_render',
+  function(event, formId, currentPage){if(formId == 13) {} } );jQuery(document).bind('gform_post_conditional_logic',
+  function(event, formId, fields, isInit){} );</script><script type=\"text/javascript\">
+  jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render',
+  [13, 1]) } ); </script></div></section><section class=\"widget-2 widget-even widget-2
+  widget issuem_active_issue-2 issuem_active_issue\"><div class=\"widget-2 widget-even
+  widget-inner\"><div class=\"issuem_active_list_widget\"><p class=\"issuem_widget_issue_name\"><a
+  href=\"http://www.ok.org/kosherspirit/fall-2018/\">Fall 2018</a></p><p class=\"issuem_widget_issue_cover_image\"><a
+  href=\"http://www.ok.org/kosherspirit/fall-2018/\"><img width=\"200\" height=\"268\"
+  src=\"http://www.ok.org/assets/Kosher-Spirit-Tishrei-5779-Cover-200x268.jpg\" class=\"attachment-issuem-cover-image
+  size-issuem-cover-image\" alt=\"\" srcset=\"http://www.ok.org/assets/Kosher-Spirit-Tishrei-5779-Cover-200x268.jpg
+  200w, http://www.ok.org/assets/Kosher-Spirit-Tishrei-5779-Cover-149x200.jpg 149w,
+  http://www.ok.org/assets/Kosher-Spirit-Tishrei-5779-Cover-299x400.jpg 299w, http://www.ok.org/assets/Kosher-Spirit-Tishrei-5779-Cover.jpg
+  585w\" sizes=\"(max-width: 200px) 100vw, 200px\"></a></p><p><a class=\"issuem_widget_issue_pdf_link\"
+  target=\"_blank\" href=\"http://www.ok.org/assets/Kosher-Spirit-Tishrei-5779.pdf\">Download
+  PDF</a></p></div></div></section><section class=\"widget-3 widget-last widget-odd
+  widget-3 widget-last widget issuem_article_list-2 issuem_article_list\"><div class=\"widget-3
+  widget-last widget-odd widget-inner\"><div class=\"issuem_article_list_widget\"><div
+  class=\"article_list\">\n\n<p><a class=\"issuem_widget_link\" href=\"http://www.ok.org/kosherspirit/fall-2018/dear-reader-40/\">Dear
+  Reader</a></p></div><div class=\"article_list\">\n\n<p><a class=\"issuem_widget_link\"
+  href=\"http://www.ok.org/kosherspirit/fall-2018/share-your-spirit-28/\">Share Your
+  Spirit</a></p></div><div class=\"article_list\">\n\n<p><a class=\"issuem_widget_link\"
+  href=\"http://www.ok.org/kosherspirit/fall-2018/healthy-spirit-13/\">Healthy Spirit</a></p></div><div
+  class=\"article_list\">\n\n<p><a class=\"issuem_widget_link\" href=\"http://www.ok.org/kosherspirit/fall-2018/consumer-questions-23/\">Consumer
+  Questions</a></p></div><div class=\"article_list\">\n\n<div id=\"current_article\"><p><a
+  class=\"issuem_widget_link\" href=\"http://www.ok.org/kosherspirit/fall-2018/sous-vide/\">Sous
+  Vide: Sink or Swim?</a></p></div></div><div class=\"article_list\">\n\n<p><a class=\"issuem_widget_link\"
+  href=\"http://www.ok.org/kosherspirit/fall-2018/lokshin-cabbage-apples-honey/\">Lokshin
+  and Cabbage with Apples &amp; Honey</a></p></div><div class=\"article_list\">\n\n<p><a
+  class=\"issuem_widget_link\" href=\"http://www.ok.org/kosherspirit/fall-2018/kosher-investigator/\">Kosher
+  Investigator</a></p></div><div class=\"article_list\">\n\n<p><a class=\"issuem_widget_link\"
+  href=\"http://www.ok.org/kosherspirit/fall-2018/high-fructose-corn-syrup/\">High
+  Fructose Corn Syrup (HFCS)</a></p></div><div class=\"article_list\">\n\n<p><a class=\"issuem_widget_link\"
+  href=\"http://www.ok.org/kosherspirit/fall-2018/kashrus-wine-manufacturing/\">Kashrus
+  in Wine Manufacturing</a></p></div><div class=\"article_list\">\n\n<p><a class=\"issuem_widget_link\"
+  href=\"http://www.ok.org/kosherspirit/fall-2018/interview-rabbi-ouriel-allouche/\">Interview
+  with Rabbi Ouriel Allouche</a></p></div><div class=\"article_list\">\n\n<p><a class=\"issuem_widget_link\"
+  href=\"http://www.ok.org/kosherspirit/fall-2018/the-shape-of-the-shofar-2/\">The
+  Shape of the Shofar</a></p></div><div class=\"article_list\">\n\n<p><a class=\"issuem_widget_link\"
+  href=\"http://www.ok.org/kosherspirit/fall-2018/soul-nutrition-15/\">Soul Nutrition</a></p></div></div></div></section></div>\n\n<div
+  id=\"phoneModal\" class=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"phoneModalLabel\"
+  aria-hidden=\"true\">\n\t<div class=\"modal-dialog\">\n  \t<div class=\"modal-content\">\n
+  \     <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\"
+  data-dismiss=\"modal\" aria-hidden=\"true\">×</button>\n          <h3 id=\"myModalLabel\"
+  class=\"modal-title\">Talk to OK Kosher</h3>\n      </div>\n      <div class=\"modal-body\">\n
+  \             </div>\n      <div class=\"modal-footer\">\n      <!--<button class=\"btn\"
+  data-dismiss=\"modal\" aria-hidden=\"true\">Close</button>\n      -->\n          <a
+  class=\"btn\" href=\"http://www.ok.org/about/global-offices/\">Global Offices</a>\n
+  \     </div>\n    </div>\n  </div>\n</div>\n                </aside><!-- /.sidebar
+  -->\n                        </div><!-- /.content -->\n        </div><!-- /.content
+  -->\n      </div><!-- /.wrap -->\n    \n      <footer class=\"content-info\" role=\"contentinfo\">\n
+  \ <div class=\"container\">\n  <div class=\"inner\">\n  \t<div class=\"row\">\n
+  \   \t<div class=\"col-sm-2\">\n        <h5>Companies</h5>\n        <ul id=\"menu-companies-menu\"
+  class=\"menu\"><li class=\"menu-what-is-kosher\"><a href=\"/companies/what-is-kosher/\">What
+  is Kosher?</a></li>\n<li class=\"menu-why-choose-ok-kosher\"><a href=\"/companies/the-ok-kosher-difference/\">Why
+  CHOOSE <i class=\"icon-OK\"><i class=\"icon-OK\">OK</i></i> Kosher?</a></li>\n<li
+  class=\"menu-get-certified\"><a href=\"/companies/get-certified/\">Get Certified</a></li>\n<li
+  class=\"menu-confidentiality-security\"><a href=\"/companies/confidentiality-and-security/\">Confidentiality
+  &amp; Security</a></li>\n<li class=\"menu-featured-brands\"><a href=\"/companies/featured-brands\">Featured
+  Brands</a></li>\n</ul>      </div>\n    \t<div class=\"col-sm-2\">\n        <h5>Consumers</h5>\n
+  \       <ul id=\"menu-consumers-menu\" class=\"menu\"><li class=\"menu-product-search\"><a
+  href=\"/consumers/kosher-food-guide/\">Product Search</a></li>\n<li class=\"menu-insight-inspiration\"><a
+  href=\"/consumers/insight-inspiration/\">Insight &amp; Inspiration</a></li>\n<li
+  class=\"menu-kosher-video\"><a href=\"/consumers/insight-inspiration/kosher-video/\">Kosher
+  Video</a></li>\n<li class=\"menu-your-kosher-kitchen\"><a href=\"/consumers/your-kosher-kitchen/\">Your
+  Kosher Kitchen</a></li>\n<li class=\"menu-ok-certified-restaurants\"><a href=\"/consumers/ok-certified-restaurants/\"><i
+  class=\"icon-OK\"><i class=\"icon-OK\">OK</i></i> Certified Restaurants</a></li>\n</ul>
+  \     </div>\n    \t<div class=\"col-sm-2\">\n        <h5>About Us</h5>\n        <ul
+  id=\"menu-about-menu\" class=\"menu\"><li class=\"menu-values-mission\"><a href=\"/about/mission/\">Values
+  &amp; Mission</a></li>\n<li class=\"menu-our-ongoing-story\"><a href=\"/about/our-ongoing-story/\">Our
+  Ongoing Story</a></li>\n<li class=\"menu-timeline-of-kosher\"><a href=\"/about/our-ongoing-story/a-timeline-of-kosher/\">Timeline
+  of Kosher</a></li>\n<li class=\"menu-global-offices\"><a href=\"/about/global-offices/\">Global
+  Offices</a></li>\n<li class=\"menu-our-leadership-team\"><a href=\"/about/staff/\">Our
+  Leadership Team</a></li>\n<li class=\"menu-privacy-policy\"><a href=\"/home/privacy-policy/\">Privacy
+  Policy</a></li>\n<li class=\"menu-terms-of-use\"><a href=\"/home/terms-of-use/\">Terms
+  of Use</a></li>\n<li class=\"menu-careers\"><a href=\"/about/careers/\">Careers</a></li>\n</ul>
+  \     </div>\n      <div class=\"col-sm-3 col-sm-offset-3\">\n        <p>OK Kosher
+  Certification<br>\n        391 Troy Avenue<br>\n        Brooklyn, NY 11213 USA</p>\n
+  \       <p><a href=\"#modal-contact\" data-toggle=\"modal\">Contact Us</a></p>\n
+  \           \n        <p style=\"margin-top:20px;\">Follow us for updates and alerts</p>\n
+  \       <ul id=\"menu-social-menu\" class=\"social\"><li class=\"icon_facebook menu-connect-with-facebook\"><a
+  target=\"_blank\" href=\"http://www.facebook.com/okkosher\"><span>Connect with Facebook</span></a></li>\n<li
+  class=\"icon_twitter hidden menu-get-kosher-alerts-on-twitter\"><a target=\"_blank\"
+  href=\"http://www.twitter.com/kosheralerts\"><span>Get Kosher Alerts on Twitter</span></a></li>\n<li
+  class=\"icon_twitter menu-follow-on-twitter\"><a target=\"_blank\" href=\"http://www.twitter.com/okkosher\"><span>Follow
+  on Twitter</span></a></li>\n<li class=\"icon_youtube-sign menu-youtube\"><a target=\"_blank\"
+  href=\"http://www.youtube.com/okkoshercert\"><span>YouTube</span></a></li>\n<li
+  class=\"icon_linkedin menu-linkedin\"><a target=\"_blank\" href=\"http://www.linkedin.com/company/ok-kosher-certification\"><span>LinkedIn</span></a></li>\n<li
+  class=\"icon_pinterest menu-pinterest\"><a target=\"_blank\" href=\"http://www.pinterest.com/ocertification\"><span>Pinterest</span></a></li>\n<li
+  class=\"icon_instagram menu-instagram\"><a target=\"_blank\" href=\"https://www.instagram.com/okkosher/\"><span>Instagram</span></a></li>\n</ul>
+  \     </div>\n    </div>\n        <div class=\"row\">\n      <div class=\"col-sm-6
+  small text-left\">OK Kosher Certification founded in 1935. © 2019 All rights reserved.</div>\n
+  \     <div class=\"col-sm-6 text-right\"><a href=\"http://www.spotlightdesign.com\"
+  target=\"_blank\" title=\"designed and hosted by Spotlight Design\" class=\"spotlight_logo\">Spotlight</a></div>\n
+  \   </div>\n  </div>\n  </div>\n</footer>\n\n\n<div id=\"modal-contact\" class=\"modal
+  fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"modal-contact-label\" aria-hidden=\"true\">\n\t<div
+  class=\"modal-dialog\" role=\"document\">\n  \t<div class=\"modal-content\">\n      <div
+  class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\"
+  aria-label=\"Close\"><span aria-hidden=\"true\">×</span></button>\n        <h3 id=\"modal-contact-label\"
+  class=\"modal-title\">Contact Us</h3>\n      </div>\n      <div class=\"modal-body\">\n
+  \     \t\n<div class=\"row \">\n\t\n\n<div class=\"col-sm-6 \">\n\t\n\n                <div
+  class=\"gf_browser_gecko gform_wrapper\" id=\"gform_wrapper_9\" style=\"\"><a id=\"gf_9\"
+  class=\"gform_anchor\"></a><form method=\"post\" enctype=\"multipart/form-data\"
+  target=\"gform_ajax_frame_9\" id=\"gform_9\" action=\"/kosherspirit/fall-2018/sous-vide/#gf_9\">\n
+  \                       <div class=\"gform_body\"><ul id=\"gform_fields_9\" class=\"gform_fields
+  top_label form_sublabel_below description_below\"><li id=\"field_9_1\" class=\"gfield
+  gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible\"><label
+  class=\"gfield_label\" for=\"input_9_1\">Attention<span class=\"gfield_required\">*</span></label><div
+  class=\"ginput_container ginput_container_select\"><select name=\"input_1\" id=\"input_9_1\"
+  class=\"medium gfield_select\" tabindex=\"1\" aria-required=\"true\" aria-invalid=\"false\"><option
+  value=\"General\">General</option><option value=\"Applications\">Applications</option><option
+  value=\"Kosher\">Kosher</option><option value=\"Rabbi\">Rabbi</option><option value=\"Webmaster\">Webmaster</option></select></div></li><li
+  id=\"field_9_2\" class=\"gfield gfield_contains_required field_sublabel_below field_description_below
+  gfield_visibility_visible\"><label class=\"gfield_label gfield_label_before_complex\"
+  for=\"input_9_2_3\">Your Name<span class=\"gfield_required\">*</span></label><div
+  class=\"ginput_complex ginput_container no_prefix has_first_name no_middle_name
+  has_last_name no_suffix gf_name_has_2 ginput_container_name gfield_trigger_change\"
+  id=\"input_9_2\">\n                            \n                            <span
+  id=\"input_9_2_3_container\" class=\"name_first\">\n                                                    <input
+  type=\"text\" name=\"input_2.3\" id=\"input_9_2_3\" value=\"\" aria-label=\"First
+  name\" tabindex=\"3\" aria-required=\"true\" aria-invalid=\"false\">\n                                                    <label
+  for=\"input_9_2_3\">First</label>\n                                                </span>\n
+  \                           \n                            <span id=\"input_9_2_6_container\"
+  class=\"name_last\">\n                                                    <input
+  type=\"text\" name=\"input_2.6\" id=\"input_9_2_6\" value=\"\" aria-label=\"Last
+  name\" tabindex=\"5\" aria-required=\"true\" aria-invalid=\"false\">\n                                                    <label
+  for=\"input_9_2_6\">Last</label>\n                                                </span>\n
+  \                           \n                        </div></li><li id=\"field_9_3\"
+  class=\"gfield field_sublabel_below field_description_below gfield_visibility_visible\"><label
+  class=\"gfield_label\" for=\"input_9_3\">Your Company Name</label><div class=\"ginput_container
+  ginput_container_text\"><input name=\"input_3\" id=\"input_9_3\" type=\"text\" value=\"\"
+  class=\"large\" tabindex=\"7\" aria-invalid=\"false\"></div></li><li id=\"field_9_4\"
+  class=\"gfield gf_left_half gfield_contains_required field_sublabel_below field_description_below
+  gfield_visibility_visible\"><label class=\"gfield_label\" for=\"input_9_4\">Your
+  Email<span class=\"gfield_required\">*</span></label><div class=\"ginput_container
+  ginput_container_email\">\n                            <input name=\"input_4\" id=\"input_9_4\"
+  type=\"email\" value=\"\" class=\"medium\" tabindex=\"8\" aria-required=\"true\"
+  aria-invalid=\"false\">\n                        </div></li><li id=\"field_9_5\"
+  class=\"gfield gf_right_half gfield_contains_required field_sublabel_below field_description_below
+  gfield_visibility_visible\"><label class=\"gfield_label\" for=\"input_9_5\">Your
+  Phone<span class=\"gfield_required\">*</span></label><div class=\"ginput_container
+  ginput_container_phone\"><input name=\"input_5\" id=\"input_9_5\" type=\"tel\" value=\"\"
+  class=\"medium\" tabindex=\"9\" aria-required=\"true\" aria-invalid=\"false\"></div></li><li
+  id=\"field_9_6\" class=\"gfield gfield_contains_required field_sublabel_below field_description_below
+  gfield_visibility_visible\"><label class=\"gfield_label\" for=\"input_9_6\">Subject<span
+  class=\"gfield_required\">*</span></label><div class=\"ginput_container ginput_container_text\"><input
+  name=\"input_6\" id=\"input_9_6\" type=\"text\" value=\"\" class=\"large\" tabindex=\"10\"
+  placeholder=\"Inquiry Regarding\" aria-required=\"true\" aria-invalid=\"false\"></div></li><li
+  id=\"field_9_7\" class=\"gfield gfield_contains_required field_sublabel_below field_description_below
+  gfield_visibility_visible\"><label class=\"gfield_label\" for=\"input_9_7\">Your
+  Message<span class=\"gfield_required\">*</span></label><div class=\"ginput_container
+  ginput_container_textarea\"><textarea name=\"input_7\" id=\"input_9_7\" class=\"textarea
+  medium\" tabindex=\"11\" aria-required=\"true\" aria-invalid=\"false\" rows=\"10\"
+  cols=\"50\"></textarea></div></li><li id=\"field_9_8\" class=\"gfield gf_list_inline
+  field_sublabel_below field_description_below gfield_visibility_visible\"><label
+  class=\"gfield_label\">Picture Attached</label><div class=\"ginput_container ginput_container_radio\"><ul
+  class=\"gfield_radio\" id=\"input_9_8\"><li class=\"gchoice_9_8_0\"><input name=\"input_8\"
+  type=\"radio\" value=\"Yes\" id=\"choice_9_8_0\" tabindex=\"12\" onclick=\"gf_apply_rules(9,[9]);\"
+  onkeypress=\"gf_apply_rules(9,[9]);\"><label for=\"choice_9_8_0\" id=\"label_9_8_0\">Yes</label></li><li
+  class=\"gchoice_9_8_1\"><input name=\"input_8\" type=\"radio\" value=\"No\" id=\"choice_9_8_1\"
+  tabindex=\"13\" onclick=\"gf_apply_rules(9,[9]);\" onkeypress=\"gf_apply_rules(9,[9]);\"><label
+  for=\"choice_9_8_1\" id=\"label_9_8_1\">No</label></li></ul></div><div class=\"gfield_description\">Attaching
+  a picture of the product label will expedite your inquiry.</div></li><li id=\"field_9_9\"
+  class=\"gfield field_sublabel_below field_description_below gfield_visibility_visible\"
+  style=\"display: none;\"><label class=\"gfield_label\">File</label><div class=\"ginput_container
+  ginput_container_fileupload\"><div id=\"gform_multifile_upload_9_9\" data-settings=\"{&quot;runtimes&quot;:&quot;html5,flash,html4&quot;,&quot;browse_button&quot;:&quot;gform_browse_button_9_9&quot;,&quot;container&quot;:&quot;gform_multifile_upload_9_9&quot;,&quot;drop_element&quot;:&quot;gform_drag_drop_area_9_9&quot;,&quot;filelist&quot;:&quot;gform_preview_9_9&quot;,&quot;unique_names&quot;:true,&quot;file_data_name&quot;:&quot;file&quot;,&quot;url&quot;:&quot;http:\\/\\/www.ok.org\\/?gf_page=85e2c8dddd8ac74&quot;,&quot;flash_swf_url&quot;:&quot;http:\\/\\/www.ok.org\\/wp-includes\\/js\\/plupload\\/plupload.flash.swf&quot;,&quot;silverlight_xap_url&quot;:&quot;http:\\/\\/www.ok.org\\/wp-includes\\/js\\/plupload\\/plupload.silverlight.xap&quot;,&quot;filters&quot;:{&quot;mime_types&quot;:[{&quot;title&quot;:&quot;Allowed
+  Files&quot;,&quot;extensions&quot;:&quot;*&quot;}],&quot;max_file_size&quot;:&quot;104857600b&quot;},&quot;multipart&quot;:true,&quot;urlstream_upload&quot;:false,&quot;multipart_params&quot;:{&quot;form_id&quot;:9,&quot;field_id&quot;:9},&quot;gf_vars&quot;:{&quot;max_files&quot;:0,&quot;message_id&quot;:&quot;gform_multifile_messages_9_9&quot;,&quot;disallowed_extensions&quot;:[&quot;php&quot;,&quot;asp&quot;,&quot;aspx&quot;,&quot;cmd&quot;,&quot;csh&quot;,&quot;bat&quot;,&quot;html&quot;,&quot;htm&quot;,&quot;hta&quot;,&quot;jar&quot;,&quot;exe&quot;,&quot;com&quot;,&quot;js&quot;,&quot;lnk&quot;,&quot;htaccess&quot;,&quot;phtml&quot;,&quot;ps1&quot;,&quot;ps2&quot;,&quot;php3&quot;,&quot;php4&quot;,&quot;php5&quot;,&quot;php6&quot;,&quot;py&quot;,&quot;rb&quot;,&quot;tmp&quot;]}}\"
+  class=\"gform_fileupload_multifile\" style=\"position: relative;\">\n\t\t\t\t\t\t\t\t\t\t<div
+  id=\"gform_drag_drop_area_9_9\" class=\"gform_drop_area\" style=\"position: relative;\">\n\t\t\t\t\t\t\t\t\t\t\t<span
+  class=\"gform_drop_instructions\">Drop files here or </span>\n\t\t\t\t\t\t\t\t\t\t\t<input
+  id=\"gform_browse_button_9_9\" type=\"button\" value=\"Select files\" class=\"button
+  gform_button_select_files\" aria-describedby=\"extensions_message_9_9\" tabindex=\"14\"
+  style=\"position: relative; z-index: 1;\">\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div
+  id=\"html5_1d68mf2km13sb2h31gj2177518en3_container\" class=\"moxie-shim moxie-shim-html5\"
+  style=\"position: absolute; top: 0px; left: 0px; width: 0px; height: 0px; overflow:
+  hidden; z-index: 0;\"><input id=\"html5_1d68mf2km13sb2h31gj2177518en3\" type=\"file\"
+  style=\"font-size: 999px; opacity: 0; position: absolute; top: 0px; left: 0px; width:
+  100%; height: 100%;\" multiple=\"\" accept=\"\"></div></div><span id=\"extensions_message_9_9\"
+  class=\"screen-reader-text\"></span><div class=\"validation_message\">\n\t\t\t\t\t\t\t\t<ul
+  id=\"gform_multifile_messages_9_9\">\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div></div><div
+  id=\"gform_preview_9_9\"></div></li>\n                            </ul></div>\n
+  \       <div class=\"gform_footer top_label\"> <input type=\"submit\" id=\"gform_submit_button_9\"
+  class=\"gform_button button\" value=\"Submit\" tabindex=\"15\" onclick=\"if(window[&quot;gf_submitting_9&quot;]){return
+  false;}  if( !jQuery(&quot;#gform_9&quot;)[0].checkValidity || jQuery(&quot;#gform_9&quot;)[0].checkValidity()){window[&quot;gf_submitting_9&quot;]=true;}
+  \ \" onkeypress=\"if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_9&quot;]){return
+  false;} if( !jQuery(&quot;#gform_9&quot;)[0].checkValidity || jQuery(&quot;#gform_9&quot;)[0].checkValidity()){window[&quot;gf_submitting_9&quot;]=true;}
+  \ jQuery(&quot;#gform_9&quot;).trigger(&quot;submit&quot;,[true]); }\"> <input type=\"hidden\"
+  name=\"gform_ajax\" value=\"form_id=9&amp;title=&amp;description=&amp;tabindex=1\">\n
+  \           <input type=\"hidden\" class=\"gform_hidden\" name=\"is_submit_9\" value=\"1\">\n
+  \           <input type=\"hidden\" class=\"gform_hidden\" name=\"gform_submit\"
+  value=\"9\">\n            \n            <input type=\"hidden\" class=\"gform_hidden\"
+  name=\"gform_unique_id\" value=\"\">\n            <input type=\"hidden\" class=\"gform_hidden\"
+  name=\"state_9\" value=\"WyJbXSIsIjZkMmJlZGNlZGQ2Y2I2YTk5MzM1MzRiMWYzY2RhYjMzIl0=\">\n
+  \           <input type=\"hidden\" class=\"gform_hidden\" name=\"gform_target_page_number_9\"
+  id=\"gform_target_page_number_9\" value=\"0\">\n            <input type=\"hidden\"
+  class=\"gform_hidden\" name=\"gform_source_page_number_9\" id=\"gform_source_page_number_9\"
+  value=\"1\">\n            <input type=\"hidden\" name=\"gform_field_values\" value=\"\">\n
+  \           <input type=\"hidden\" name=\"gform_uploaded_files\" id=\"gform_uploaded_files_9\"
+  value=\"\">\n        </div>\n                        </form>\n                        </div>\n
+  \               <iframe style=\"display:none;width:0px;height:0px;\" src=\"about:blank\"
+  name=\"gform_ajax_frame_9\" id=\"gform_ajax_frame_9\" title=\"Ajax Frame\">This
+  iframe contains the logic required to handle Ajax powered Gravity Forms.</iframe>\n
+  \               <script type=\"text/javascript\">jQuery(document).ready(function($){gformInitSpinner(
+  9, '/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery('#gform_ajax_frame_9').load(
+  function(){var contents = jQuery(this).contents().find('*').html();var is_postback
+  = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content
+  = jQuery(this).contents().find('#gform_wrapper_9');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_9').length
+  > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length
+  > 0 && ! is_redirect && ! is_confirmation;if(is_form){jQuery('#gform_wrapper_9').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_9').addClass('gform_validation_error');}
+  else {jQuery('#gform_wrapper_9').removeClass('gform_validation_error');}setTimeout(
+  function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_9').offset().top);
+  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields'])
+  {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_9').val();gformInitSpinner(
+  9, '/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery(document).trigger('gform_page_loaded',
+  [9, current_page]);window['gf_submitting_9'] = false;}else if(!is_redirect){var
+  confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content
+  = contents;}setTimeout(function(){jQuery('#gform_wrapper_9').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_9').offset().top);jQuery(document).trigger('gform_confirmation_loaded',
+  [9]);window['gf_submitting_9'] = false;}, 50);}else{jQuery('#gform_9').append(contents);if(window['gformRedirect'])
+  {gformRedirect();}}jQuery(document).trigger('gform_post_render', [9, current_page]);}
+  );} );</script><script type=\"text/javascript\"> if(typeof gf_global == 'undefined')
+  var gf_global = {\"gf_currency_config\":{\"name\":\"U.S. Dollar\",\"symbol_left\":\"$\",\"symbol_right\":\"\",\"symbol_padding\":\"\",\"thousand_separator\":\",\",\"decimal_separator\":\".\",\"decimals\":2},\"base_url\":\"\\/wp-content\\/plugins\\/gravityforms\",\"number_formats\":[],\"spinnerUrl\":\"\\/wp-content\\/plugins\\/gravityforms\\/images\\/spinner.gif\"};jQuery(document).bind('gform_post_render',
+  function(event, formId, currentPage){if(formId == 9) {gf_global[\"number_formats\"][9]
+  = {\"1\":{\"price\":false,\"value\":false},\"2\":{\"price\":false,\"value\":false},\"3\":{\"price\":false,\"value\":false},\"4\":{\"price\":false,\"value\":false},\"5\":{\"price\":false,\"value\":false},\"6\":{\"price\":false,\"value\":false},\"7\":{\"price\":false,\"value\":false},\"8\":{\"price\":false,\"value\":false},\"9\":{\"price\":false,\"value\":false}};if(window['jQuery']){if(!window['gf_form_conditional_logic'])window['gf_form_conditional_logic']
+  = new Array();window['gf_form_conditional_logic'][9] = { logic: { 9: {\"field\":{\"actionType\":\"show\",\"logicType\":\"all\",\"rules\":[{\"fieldId\":\"8\",\"operator\":\"is\",\"value\":\"Yes\"}]},\"nextButton\":null,\"section\":null}
+  }, dependents: { 9: [9] }, animation: 0, defaults: {\"2\":{\"2.2\":\"\",\"2.3\":\"\",\"2.4\":\"\",\"2.6\":\"\",\"2.8\":\"\"}},
+  fields: {\"1\":[],\"2\":[],\"3\":[],\"4\":[],\"5\":[],\"6\":[],\"7\":[],\"8\":[9],\"9\":[]}
+  }; if(!window['gf_number_format'])window['gf_number_format'] = 'decimal_dot';jQuery(document).ready(function(){gf_apply_rules(9,
+  [9], true);jQuery('#gform_wrapper_9').show();jQuery(document).trigger('gform_post_conditional_logic',
+  [9, null, true]);} );} if(typeof Placeholders != 'undefined'){\n                        Placeholders.enable();\n
+  \                   }if(!/(android)/i.test(navigator.userAgent)){jQuery('#input_9_5').mask('(999)
+  999-9999').bind('keypress', function(e){if(e.which == 13){jQuery(this).blur();}
+  } );}} } );jQuery(document).bind('gform_post_conditional_logic', function(event,
+  formId, fields, isInit){} );</script><script type=\"text/javascript\"> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render',
+  [9, 1]) } ); </script>\n\n</div>\n\n\n<div class=\"col-sm-6 \">\n\t\n<h3>General
+  Inquiries:</h3>\n<p>718-756-7500<br>\n<a href=\"mailto:service@ok.org\">service@ok.org</a></p>\n<h3>Consumer
+  Hotline:</h3>\n<p>718-907-9525<br>\n<a href=\"mailto:info@ok.org\">info@ok.org</a></p>\n<h3>New
+  Company Information:</h3>\n<p>718-907-9558<br>\n<a href=\"mailto:nad@ok.org\">nad@ok.org</a></p>\n<h3>Restaurant
+  Information:</h3>\n<p>718-907-9574<br>\n<a href=\"mailto:restaurants@ok.org\">restaurants@ok.org</a></p>\n\n</div>\n\n\n</div>\n\n
+  \     </div>\n    </div>\n  </div>\n</div>\n\n<link rel=\"stylesheet\" href=\"/wp-content/plugins/gravityformsmailchimp/css/form_settings.css?ver=4.2\">\n<script
+  type=\"text/javascript\">\n/* <![CDATA[ */\nvar wpcf7 = {\"apiSettings\":{\"root\":\"http:\\/\\/www.ok.org\\/wp-json\\/contact-form-7\\/v1\",\"namespace\":\"contact-form-7\\/v1\"},\"recaptcha\":{\"messages\":{\"empty\":\"Please
+  verify that you are not a robot.\"}}};\n/* ]]> */\n</script>\n<script type=\"text/javascript\"
+  src=\"/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.2\"></script>\n<script
+  type=\"text/javascript\" src=\"//scripts.iconnode.com/59717.js?ver=4.9.10\"></script>\n<script
+  type=\"text/javascript\" src=\"/wp-includes/js/wp-embed.min.js?ver=4.9.10\"></script>\n<script
+  type=\"text/javascript\">\n/* <![CDATA[ */\nvar icl_vars = {\"current_language\":\"en\",\"icl_home\":\"http:\\/\\/www.ok.org\\/\",\"ajax_url\":\"http:\\/\\/www.ok.org\\/wp-admin\\/admin-ajax.php\",\"url_type\":\"1\"};\n/*
+  ]]> */\n</script>\n<script type=\"text/javascript\" src=\"/wp-content/plugins/sitepress-multilingual-cms-master/res/js/sitepress.js?ver=4.9.10\"></script>\n<script
+  type=\"text/javascript\" src=\"/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.2.5\"></script>\n<script
+  type=\"text/javascript\">\n/* <![CDATA[ */\nvar gform_gravityforms = {\"strings\":{\"invalid_file_extension\":\"This
+  type of file is not allowed. Must be one of the following: \",\"delete_file\":\"Delete
+  this file\",\"in_progress\":\"in progress\",\"file_exceeds_limit\":\"File exceeds
+  size limit\",\"illegal_extension\":\"This type of file is not allowed.\",\"max_reached\":\"Maximum
+  number of files reached\",\"unknown_error\":\"There was a problem while saving the
+  file on the server\",\"currently_uploading\":\"Please wait for the uploading to
+  complete\",\"cancel\":\"Cancel\",\"cancel_upload\":\"Cancel this upload\",\"cancelled\":\"Cancelled\"},\"vars\":{\"images_url\":\"\\/wp-content\\/plugins\\/gravityforms\\/images\"}};\n/*
+  ]]> */\n</script>\n<script type=\"text/javascript\" src=\"/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.2.5\"></script>\n<script
+  type=\"text/javascript\" src=\"/wp-content/plugins/gravityforms/js/conditional_logic.min.js?ver=2.2.5\"></script>\n<script
+  type=\"text/javascript\" src=\"/wp-includes/js/plupload/moxie.min.js?ver=1.3.5\"></script>\n<script
+  type=\"text/javascript\" src=\"/wp-includes/js/plupload/plupload.min.js?ver=2.1.9\"></script>\n<script
+  type=\"text/javascript\" src=\"/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.2.5\"></script>\n<script
+  type=\"text/javascript\" src=\"/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.2.5\"></script>\n<script>\n
+  \ (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=\n  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new
+  Date;\n  e=o.createElement(i);r=o.getElementsByTagName(i)[0];\n  e.src='//www.google-analytics.com/analytics.js';\n
+  \ r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));\n  ga('create','UA-4287777-2');ga('send','pageview');\n</script>\n\n\n<script
+  type=\"text/javascript\">\nif (window.location.href.indexOf('gclid') > -1) { Cookies.set('mf_record_user',
+  '1'); }\n\nif (Cookies.get('mf_record_user')) {\n\twindow._mfq = window._mfq ||
+  [];\n\t(function() {\n\t\tvar mf = document.createElement(\"script\");\n\t\tmf.type
+  = \"text/javascript\"; mf.async = true;\n\t\tmf.src = \"//cdn.mouseflow.com/projects/8362b696-6fd9-4f65-ae3f-ea78e35b58a9.js\";\n\t\tdocument.getElementsByTagName(\"head\")[0].appendChild(mf);\n\t})();\n}\n</script>\n\n
+  \     \n    \n    \n    \n</body></html>"

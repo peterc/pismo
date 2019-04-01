@@ -1,0 +1,117 @@
+AllCops:
+    DisplayCopNames: true
+    DisplayStyleGuide: true
+    TargetRubyVersion: 2.3
+
+Rails:
+    Enabled: false
+
+# インデントをgofmtっぽくそろえる
+Style/AlignHash:
+    EnforcedHashRocketStyle: table
+    EnforcedColonStyle: table
+
+# 日本語でコメント書くこともある
+Style/AsciiComments:
+    Enabled: false
+
+# chainするなら{...}しないならdo...end
+Style/BlockDelimiters:
+    EnforcedStyle: braces_for_chaining
+
+# Hashの{}つけるつけないをよしなに
+Style/BracesAroundHashParameters:
+    EnforcedStyle: context_dependent
+
+# インデント調整
+Style/CaseIndentation:
+    EnforcedStyle: end
+
+# kind_of?でもis_a?でもどっちでもいい
+Style/ClassCheck:
+    Enabled: false
+
+# コメントをインデントずらしたい時もある
+Style/CommentIndentation:
+    Enabled: false
+
+# わざと空elseにすることで
+# このパターン忘れてるわけではないですよアピールをすることもある
+Style/EmptyElse:
+    Enabled: false
+
+# String#%を使わない理由が不明
+Style/FormatString:
+    Enabled: false
+
+# ありえないぐらい邪魔
+Style/FrozenStringLiteralComment:
+    Enabled: false
+
+# ifかunlessかは場合によって選びたい
+Style/IfUnlessModifier:
+    Enabled: false
+
+# いい感じindent
+Style/IndentArray:
+    EnforcedStyle: consistent
+Style/IndentHash:
+    EnforcedStyle: consistent
+
+Style/LambdaCall:
+    Enabled: false
+
+Metrics/ClassLength:
+    Enabled: false
+
+# constをクラス変数のように使うこともある
+Style/MutableConstant:
+    Enabled: false
+
+# if!とunlessは別物
+Style/NegatedIf:
+    Enabled: false
+
+# 意味が変わってしまうときがあるのでバグがある気がする
+Style/Next:
+    Enabled: false
+
+# if a == nilとしたいときもある
+Style/NilComparison:
+    Enabled: false
+
+# if err != nilって書きたい時もある
+Style/NonNilCheck:
+    Enabled: false
+
+Style/Proc:
+    Enabled: false
+
+# すきにしたらいい
+Style/StringLiterals:
+    Enabled: false
+
+# rescue Exceptionしたいときもある
+Style/SignalException:
+    Enabled: false
+
+# blockで書きたい時もある
+Style/SymbolProc:
+    Enabled: false
+
+# gofmtっぽくしたい
+Style/TrailingCommaInArguments:
+    EnforcedStyleForMultiline: comma
+
+# gofmtっぽくしたい
+Style/TrailingCommaInLiteral:
+    EnforcedStyleForMultiline: comma
+
+Metrics/LineLength:
+    Max: 120
+
+Lint/AssignmentInCondition:
+    Enabled: false
+
+Lint/EndAlignment:
+    EnforcedStyleAlignWith: variable

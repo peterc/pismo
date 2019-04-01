@@ -1,0 +1,1119 @@
+---
+:url: https://www.homebrewtalk.com/forum/threads/brew-boss-sous-vide.663471/
+:body: "<!DOCTYPE html><html id=\"XenForo\" lang=\"en-US\" dir=\"LTR\" class=\"Public
+  GalleryLazyLoader LoggedOut Sidebar   Responsive hasJs NoTouch HasDragDrop\" xmlns:fb=\"http://www.facebook.com/2008/fbml\"><head>\n<!--\n<link
+  rel=\"stylesheet\" href=\"css.php?css=wp_imported_style&amp;style=2&amp;dir=LTR&amp;d=1552919379\"
+  />\n-->\n\n<base href=\"https://www.homebrewtalk.com/forum/\">\n\n\n\n<meta http-equiv=\"X-UA-Compatible\"
+  content=\"IE=edge\">\n\n\n\n<script src=\"https://connect.facebook.net/en_US/all.js?hash=fa38613ce47d3c5b52d3d33453ec3684&amp;ua=modern_es6\"
+  async=\"\" crossorigin=\"anonymous\"></script><script src=\"https://apis.google.com/js/platform.js\"
+  async=\"\" gapi_processed=\"true\"></script><script src=\"//connect.facebook.net/en_US/all.js#xfbml=1\"
+  async=\"\" id=\"facebook-jssdk\"></script><script src=\"//platform.twitter.com/widgets.js\"
+  async=\"\"></script><script async=\"\" src=\"//www.googletagmanager.com/gtm.js?id=GTM-K76VV6\"></script><script
+  src=\"//bat.bing.com/bat.js\" async=\"\"></script><script>(function(w,d,t,r,u){var
+  f,n,i;w[u]=w[u]||[],f=function(){var o={ti:\"5164512\"};o.q=w[u],w[u]=new UET(o),w[u].push(\"pageLoad\")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var
+  s=this.readyState;s&&s!==\"loaded\"&&s!==\"complete\"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,\"script\",\"//bat.bing.com/bat.js\",\"uetq\");</script>\n\n\n<script
+  type=\"text/javascript\">\n<!--\n    var adblock = true;\n//-->\n</script>\n\n\n<script
+  type=\"text/javascript\" src=\"/advertisement.js\"></script>\n\n\n\n\n\n<style type=\"text/css\">\n.header
+  * {\n    font-family: 'Open Sans', sans-serif !important;\n}\nBODY HEADER A:link
+  {\n    text-decoration: none;\n}\n#main-content {\n    min-height: 1630px;\n}\n#outer-footer
+  {\n    display: none;\n}\n\ndl.hbt-club-detail-list\n{\n    display: inline-block;\n}\n\ndl.hbt-club-detail-list
+  dt,\ndl.hbt-club-detail-list dd\n{\n    float: left;\n    font-size: 0.9em;\n    margin-bottom:
+  0.2em;\n}\n\ndl.hbt-club-detail-list dt\n{\n    clear: left;\n    margin-right:
+  1em;\n}\n\ndl.hbt-club-detail-list dd\n{\n    clear: right;\n}\n\n.hbt-controls-logged
+  #usera button img\n{\n    max-height: 36px;\n}\n\n.header #inner-header #forum-links
+  #controls.hbt-controls-logged .notificationmenu ul\n{\n    float: right;\n}\n\n.header
+  #inner-header #forum-links #controls.hbt-controls-logged .notificationmenu ul:first-child\n{\n
+  \   float: left;\n}\n\n.header #inner-header #forum-links #controls.hbt-controls-logged
+  .notificationmenu ul .notificationlink,\n.header #inner-header #forum-links #controls.hbt-controls-logged
+  .notificationmenu ul .notificationcount\n{\n    margin: 5px 0;\n    display: block;\n
+  \   float: none;\n}\n\nA {\n    color: #cdb062;\n}\n\n\n\n\n\n\n</style>\n\n\n\n\t\n\n\t\n\t\n\t<meta
+  charset=\"utf-8\">\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge,chrome=1\">\n\t\n\t\t<meta
+  name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t\n\t\n\t\t<base
+  href=\"https://www.homebrewtalk.com/forum/\">\n\t\t<script>\n\t\t\tvar _b = document.getElementsByTagName('base')[0],
+  _bH = \"https://www.homebrewtalk.com/forum/\";\n\t\t\tif (_b && _b.href != _bH)
+  _b.href = _bH;\n\t\t</script>\n\t\n\n\t<title>Brew Boss Sous Vide | HomeBrewTalk.com
+  - Beer, Wine, Mead, &amp; Cider Brewing Discussion Community.</title>\n\t\n\t\n\t\n\n\t<link
+  rel=\"stylesheet\" href=\"/forum/css.php?css=xenforo,form,public&amp;style=2&amp;dir=LTR&amp;d=1552919379\">\n\t<link
+  rel=\"stylesheet\" href=\"css.php?css=bb_code,likes_summary,login_bar,message,message_user_info,notices,panel_scroller,share_page,thread_view,wf_default,xcfw_copyright,xengallery_tab_links&amp;style=2&amp;dir=LTR&amp;d=1552919379\">\n\t\n\t\n\t<link
+  href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\"
+  rel=\"stylesheet\">\n\n\n\n\t\n\t\t<script src=\"https://cdn.homebrewtalk.com/forum/js/jquery/jquery-1.11.0.min.js\"></script><style></style>\t\n\t\t\n\t<script
+  src=\"https://cdn.homebrewtalk.com/forum/js/xenforo/xenforo.js?_v=da9e6ffd\"></script>\n\t<link
+  href=\"//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css\" rel=\"stylesheet\">\n\n\n\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew
+  Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+  j.async=true;j.src=\n'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-K76VV6');</script>\n\n<script>\n
+  \ (function(doc, script) {\n    var js,\n        fjs = doc.getElementsByTagName(script)[0],\n
+  \       frag = doc.createDocumentFragment(),\n        add = function(url, id) {\n
+  \           if (doc.getElementById(id)) {return;}\n            js = doc.createElement(script);\n
+  \           js.src = url;\n            js.async = true;\n            id && (js.id
+  = id);\n            frag.appendChild( js );\n        };\n    // Google+ button\n
+  \   add('https://apis.google.com/js/platform.js');\n    // Facebook SDK\n    add('//connect.facebook.net/en_US/all.js#xfbml=1',
+  'facebook-jssdk');\n    // Twitter SDK\n    add('//platform.twitter.com/widgets.js');\n
+  \   fjs.parentNode.insertBefore(frag, fjs);\n  }(document, 'script'));\n</script>\n\n\n\t<link
+  href=\"//fonts.googleapis.com/css?family=Roboto:400,500,500italic,700&amp;subset=latin,vietnamese\"
+  rel=\"stylesheet\" type=\"text/css\">\n\t<link rel=\"apple-touch-icon\" href=\"/wp-content/themes/hbt/library/css/images/hbt-logo-s.png\">\n\t<link
+  rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS feed for HomeBrewTalk.com
+  - Beer, Wine, Mead, &amp; Cider Brewing Discussion Community.\" href=\"forums/-/index.rss\">\n\t\n\t\n\t<link
+  rel=\"canonical\" href=\"https://www.homebrewtalk.com/forum/threads/brew-boss-sous-vide.663471/\">\n\t<meta
+  name=\"description\" content=\"So last week I made some sous vide ribeye using my
+  brew boss system.  Tonight I'm going all out with filet mignon.  Just figured I'd
+  report in that if...\">\t<meta property=\"og:site_name\" content=\"HomeBrewTalk.com
+  - Beer, Wine, Mead, &amp; Cider Brewing Discussion Community.\">\n\t<meta property=\"og:image\"
+  content=\"https://cdn.homebrewtalk.com/forum/styles/brivium/Boron/xenforo/avatars/avatar_m.png\">\n\t<meta
+  property=\"og:image\" content=\"https://www.homebrewtalk.com/wp-content/themes/hbt/library/css/images/hbt-logo-s.png\">\n\t<meta
+  property=\"og:type\" content=\"article\">\n\t<meta property=\"og:url\" content=\"https://www.homebrewtalk.com/forum/threads/brew-boss-sous-vide.663471/\">\n\t<meta
+  property=\"og:title\" content=\"Brew Boss Sous Vide\">\n\t<meta property=\"og:description\"
+  content=\"So last week I made some sous vide ribeye using my brew boss system.  Tonight
+  I'm going all out with filet mignon.  Just figured I'd report in that if...\">\n\t\n\t\n\t\n\n
+  \       <!-- App Indexing for Google Search -->\n        <link href=\"android-app://com.gcspublishing.homebrewtalk/ttbyo-84231/www.homebrewtalk.com/forum?location=topic&amp;tid=663471&amp;page=1&amp;perpage=40&amp;channel=google-indexing\"
+  rel=\"alternate\">\n        <link href=\"ios-app://413382638/ttbyo-84231/www.homebrewtalk.com/forum?location=topic&amp;tid=663471&amp;page=1&amp;perpage=40&amp;channel=google-indexing\"
+  rel=\"alternate\">\n        \n\t<link rel=\"shortcut icon\" href=\"/favicon.ico\">\n\t\n\t<link
+  rel=\"stylesheet\" href=\"/wp-content/themes/hbt/xf_wp_styles/styles.css?ver=0.0.090\"
+  type=\"text/css\" media=\"screen\">\n\t\n\t\n\t\n\t<meta name=\"keywords\" content=\"beer,
+  homebrew, home brewing, beer forum, wine making, beer reviews, ale, keg, lager,
+  microbrew, bottle, beer news, beer food, beer articles, german beer, brewling, porter,
+  stout, alcohol, cerveza, beer events, beer travel\">\n\n<script type=\"text/javascript\"
+  src=\"https://cdn.adligature.com/hbt/prod/rules.js\"></script>\n\n<script src=\"https://connect.facebook.net/en_US/sdk.js\"
+  async=\"\"></script><script async=\"\" src=\"https://platform.twitter.com/widgets.js\"></script><script
+  charset=\"utf-8\" src=\"https://platform.twitter.com/js/button.dd024c345fc26f7c7a8d9938b67e5d3d.js\"></script></head>\n\n<body
+  class=\"node14 node10 SelectQuotable\" style=\"\">\n\n\n\n\t\n\n<div id=\"loginBar\">\n\t<div
+  class=\"pageWidth\">\n\t\t<div class=\"pageContent\">\t\n\t\t\t<h3 id=\"loginBarHandle\">\n\t\t\t\t<label
+  for=\"LoginControl\"><a href=\"login/\" class=\"concealed noOutline\"></a></label>\n\t\t\t</h3>\n\t\t\t\n\t\t\t<span
+  class=\"helper\"></span>\n\n\t\t\t\n\t\t\t\n\t\t<form action=\"login/login\" method=\"post\"
+  class=\"xenForm \" id=\"login\" style=\"display:none\">\n\n\t\n<div class=\"border\">\n\t<div
+  class=\"topBorder\"></div>\n\t<div class=\"contentBorder\">OR</div>\n\t<div class=\"bottomBorder\"></div>\n</div>\n\t<div
+  class=\"ctrlWrapper\">\n\t\t<dl class=\"ctrlUnit\">\n\t\t\t<dt><label for=\"LoginControl\">Your
+  name or email address:</label></dt>\n\t\t\t<dd><input type=\"text\" name=\"login\"
+  id=\"LoginControl\" class=\"textCtrl\" tabindex=\"101\"></dd>\n\t\t</dl>\n\t\n\t\n\t\t<dl
+  class=\"ctrlUnit\">\n\t\t\t<dt>\n\t\t\t\t<label for=\"ctrl_password\">Do you already
+  have an account?</label>\n\t\t\t</dt>\n\t\t\t<dd>\n\t\t\t\t<ul>\n\t\t\t\t\t<li><label
+  for=\"ctrl_not_registered\"><input type=\"radio\" name=\"register\" value=\"1\"
+  id=\"ctrl_not_registered\" tabindex=\"105\">\n\t\t\t\t\t\tNo, create an account
+  now.</label></li>\n\t\t\t\t\t<li><label for=\"ctrl_registered\"><input type=\"radio\"
+  name=\"register\" value=\"0\" id=\"ctrl_registered\" tabindex=\"105\" checked=\"checked\"
+  class=\"Disabler\">\n\t\t\t\t\t\tYes, my password is:</label></li>\n\t\t\t\t\t<li
+  id=\"ctrl_registered_Disabler\">\n\t\t\t\t\t\t<input type=\"password\" name=\"password\"
+  class=\"textCtrl\" id=\"ctrl_password\" tabindex=\"102\">\n\t\t\t\t\t\t<div class=\"lostPassword\"><a
+  href=\"lost-password/\" class=\"OverlayTrigger OverlayCloser\" tabindex=\"106\">Forgot
+  your password?</a></div>\n\t\t\t\t\t</li>\n\t\t\t\t</ul>\n\t\t\t</dd>\n\t\t</dl>\n\t\n\t\t\n\t\t<dl
+  class=\"ctrlUnit submitUnit\">\n\t\t\t<dt></dt>\n\t\t\t<dd>\n\t\t\t\t<input type=\"submit\"
+  class=\"button primary\" value=\"Log in\" tabindex=\"104\" data-loginphrase=\"Log
+  in\" data-signupphrase=\"Sign up\">\n\t\t\t\t<label for=\"ctrl_remember\" class=\"rememberPassword\"><input
+  type=\"checkbox\" name=\"remember\" value=\"1\" id=\"ctrl_remember\" tabindex=\"103\">
+  Stay logged in</label>\n\t\t\t</dd>\n\t\t</dl>\n\t</div>\n\n\t<input type=\"hidden\"
+  name=\"cookie_check\" value=\"1\">\n\t<input type=\"hidden\" name=\"redirect\" value=\"/forum/threads/brew-boss-sous-vide.663471/\">\n\t<input
+  type=\"hidden\" name=\"_xfToken\" value=\"\">\n\n</form></div>\n\t</div>\n</div>\n\n\n\n<div
+  id=\"headerMover\">\n\t<div id=\"headerProxy\"></div>\n\n\t<div class=\"pageWidth\">\n\t\t\n\n\t\t\t\t\t\t\n\t\t\n\t\t<div
+  class=\"breadBoxTop\">\n\t\t\t\n\n<nav>\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n\n\t<fieldset
+  class=\"breadcrumb\" style=\"\">\n\t\t<a href=\"misc/quick-navigation-menu?selected=node-14\"
+  class=\"OverlayTrigger jumpMenuTrigger\" data-cacheoverlay=\"true\" title=\"Open
+  quick navigation\"><!--Jump to...--></a>\n\t\t\t\n\t\t<div class=\"boardTitle\"><strong>HomeBrewTalk.com
+  - Beer, Wine, Mead, &amp; Cider Brewing Discussion Community.</strong></div>\n\t\t\n\t\t<span
+  class=\"crumbs\">\n\t\t\t\n\t\t\t\t<span class=\"crust homeCrumb\" itemscope=\"itemscope\"
+  itemtype=\"http://data-vocabulary.org/Breadcrumb\">\n\t\t\t\t\t<a href=\"https://www.homebrewtalk.com\"
+  class=\"crumb\" rel=\"up\" itemprop=\"url\"><span itemprop=\"title\">Home</span></a>\n\t\t\t\t\t<span
+  class=\"arrow\"><span></span></span>\n\t\t\t\t</span>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t<span
+  class=\"crust selectedTabCrumb\" itemscope=\"itemscope\" itemtype=\"http://data-vocabulary.org/Breadcrumb\">\n\t\t\t\t\t<a
+  href=\"https://www.homebrewtalk.com/forum/\" class=\"crumb\" rel=\"up\" itemprop=\"url\"><span
+  itemprop=\"title\">Forums</span></a>\n\t\t\t\t\t<span class=\"arrow\"><span></span></span>\n\t\t\t\t</span>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<span
+  class=\"crust\" itemscope=\"itemscope\" itemtype=\"http://data-vocabulary.org/Breadcrumb\">\n\t\t\t\t\t\t<a
+  href=\"https://www.homebrewtalk.com/forum/#home-brewing-beer.10\" class=\"crumb\"
+  rel=\"up\" itemprop=\"url\"><span itemprop=\"title\">Home Brewing Beer</span></a>\n\t\t\t\t\t\t<span
+  class=\"arrow\"><span></span></span>\n\t\t\t\t\t</span>\n\t\t\t\t\n\t\t\t\t\t<span
+  class=\"crust\" itemscope=\"itemscope\" itemtype=\"http://data-vocabulary.org/Breadcrumb\">\n\t\t\t\t\t\t<a
+  href=\"https://www.homebrewtalk.com/forum/forums/general-homebrew-discussion.14/\"
+  class=\"crumb\" rel=\"up\" itemprop=\"url\"><span itemprop=\"title\">General Homebrew
+  Discussion</span></a>\n\t\t\t\t\t\t<span class=\"arrow\"><span></span></span>\n\t\t\t\t\t</span>\n\t\t\t\t\n\t\t\t\n\t\t</span>\n\t</fieldset>\n\t\n\t\n</nav>\n\t\t\n\t\t</div>\n\t\t\n\n\t\t\n\t</div>\n\n\t<style
+  type=\"text/css\">\n#XenForo body .ad_above_content-wrapper { display: block; width:
+  auto !important; }\n</style>\n\n\n\t\t\t\t\t\t\n\n<div id=\"content\" class=\"thread_view\">\n\n<!--
+  CUT HEADER HERE -->\n\n\t<div class=\"pageWidth\">\n\t\t<div class=\"pageContent\">\n\t\t\t<!--
+  main content area -->\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t<div class=\"mainContainer\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<div
+  class=\"gb-donate_wrapper\" align=\"center\">\n\t\t\t\t\t\t\t<img src=\"/wp-content/themes/hbt/library/css/images/homebrewtalk_logo.svg\"
+  alt=\"Homebrew Talk\">\n\t\t\t\t\t\t\t<h3>Help Support Homebrew Talk by donating:</h3>\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t<form
+  action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\">\n\t\t\t\t\t\t\t\t\t<input
+  type=\"hidden\" name=\"cmd\" value=\"_s-xclick\">\n\t\t\t\t\t\t\t\t\t<input type=\"hidden\"
+  name=\"hosted_button_id\" value=\"TTVV7C9M4RSQY\">\n\t\t\t\t\t\t\t\t\t<input type=\"submit\"
+  value=\"Donate\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\"
+  class=\"gb-donate-button\">\n\t\t\t\t\t\t\t\t\t<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\"
+  width=\"1\" height=\"1\" hidden=\"\" style=\"display: none !important;\">\n\t\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n\n\n\n\n<div
+  class=\"PanelScroller Notices\" data-vertical=\"0\" data-speed=\"400\" data-interval=\"4000\">\n\t<div
+  class=\"scrollContainer\">\n\t\t<div class=\"PanelContainer\">\n\t\t\t<ol class=\"Panels\"
+  style=\"position: static;\">\n\t\t\t\t\n\t\t\t\t\t<li class=\"panel Notice DismissParent
+  notice_7 \" data-notice=\"7\">\n\t\n\t<div class=\"baseHtml noticeContent\">We have
+  a new forum and it needs your help! <a href=\"https://www.homebrewtalk.com/forum/forums/homebrewing-deals.284/\"><b>Homebrewing
+  Deals</b></a> is a forum to post whatever deals and specials you find that other
+  homebrewers might value! Includes coupon layering,  Craigslist finds, eBay finds,
+  Amazon specials, etc.</div>\n\t\n\t\n\t\t<a href=\"account/dismiss-notice?notice_id=7\"
+  class=\"DismissCtrl Tooltip\" data-offsetx=\"7\" data-tipclass=\"flipped\">Dismiss
+  Notice</a>\n</li>\n\t\t\t\t\n\t\t\t</ol>\n\t\t</div>\n\t</div>\n\t\n\t\n</div>\n\n\n\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<div
+  class=\"adpage_wrapper\" align=\"center\">\n\t\t\t\t\t\t<div class=\"adpage adpage_top
+  adpage_wide\">\n\t\t\t\t\t\t\t<div class=\"AdvallyTag\" data-autosize=\"728x90,320x50\"></div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div
+  id=\"adabove_narrow_wrapper\">\n\t\t\t\t\t\t\t<div id=\"adabove_narrow_fixed\">\n\t\t\t\t\t\t\t\t<div
+  class=\"adpage adpage_top adpage_narrow\">\n\t\t\t\t\t\t\t\t\t<script type=\"text/javascript\"><!--
+  \ google_ad_client = \"ca-pub-6333675645708644\"; /* Cultured 320x50 Header */ google_ad_slot
+  = \"2656419960\"; google_ad_width = 320; google_ad_height = 50; //--></script><script
+  type=\"text/javascript\" src=\"//pagead2.googlesyndication.com/pagead/show_ads.js\"></script>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t\t<div
+  class=\"mainContent\">\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t<!--[if lt IE 8]>\n\t\t\t\t\t\t\t<p
+  class=\"importantMessage\">You are using an out of date browser. It  may not display
+  this or other websites correctly.<br />You should upgrade or use an <a href=\"https://www.google.com/chrome/browser/\"
+  target=\"_blank\">alternative browser</a>.</p>\n\t\t\t\t\t\t<![endif]-->\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div
+  class=\"conv_options\">\n\t\t\t\t\t\t\t<ul class=\"secondaryContent blockLinksList\">\n\t\t\t\t\t\t\t\t<li><a
+  href=\"conversations/\">Conversations</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"conversations/starred\">Starred
+  Conversations</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"conversations/yours\">Conversations
+  You Started</a></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t<!--
+  h1 title, description -->\n\t\t\t\t\t\t\t<div class=\"titleBar\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<h1>Brew
+  Boss Sous Vide</h1>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<p id=\"pageDescription\"
+  class=\"muted \">\n\tDiscussion in '<a href=\"forums/general-homebrew-discussion.14/\">General
+  Homebrew Discussion</a>' started by <a href=\"members/jtvann.242726/\" class=\"username\"
+  dir=\"auto\">Jtvann</a>, <a href=\"threads/brew-boss-sous-vide.663471/\"><span class=\"DateTime\"
+  title=\"Mar 9, 2019 at 12:46 AM\">Mar 9, 2019</span></a>.\n</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<!--
+  main template -->\n\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\n\n\n\n<div
+  class=\"pageNavLinkGroup\">\n\t<div class=\"linkGroup SelectionCountContainer\">\n\t\t\n\t\t\n\t</div>\n\n\t\n</div>\n\n\n\n\n\n<form
+  action=\"inline-mod/post/switch\" method=\"post\" class=\"InlineModForm section\"
+  data-cookiename=\"posts\" data-controls=\"#InlineModControls\" data-imodoptions=\"#ModerationSelect
+  option\">\n\n\t<div class=\"sectionHeaders\">\n\t\t<h3 class=\"nodeTitle\">&nbsp;</h3>\n\t</div>\n\t<ol
+  class=\"messageList\" id=\"messageList\">\n\t\t\n\t\t\t\n\t\t\t\t\n\n\n<li id=\"post-8542799\"
+  class=\"message   \" data-author=\"Jtvann\">\n\n\t\n\t<div style=\"height: 36px;
+  line-height: 36px; width:100%; background-color: #F3F3F3\">\n\t\t<div style=\"float:
+  right; padding-right: 10px\">\n\t\t\t<a href=\"threads/brew-boss-sous-vide.663471/\"
+  title=\"Permalink\" class=\"item muted postNumber hashPermalink OverlayTrigger\"
+  data-href=\"posts/8542799/permalink\">#1</a>\n\t\t</div>\n\t\t<!--<div style=\"color:
+  #FA5415; font-size: 1.3em; padding: 0 5px\"><a href=\"members/jtvann.242726/\" class=\"username\"
+  dir=\"auto\" itemprop=\"name\">Jtvann</a></div>-->\n\t</div>\n\t\n\n\t\n\n<div class=\"messageUserInfo\"
+  itemscope=\"itemscope\" itemtype=\"http://data-vocabulary.org/Person\">\t\n\n<div
+  class=\"message_user_info-name\">\n    <a href=\"members/jtvann.242726/\" class=\"username
+  username\" dir=\"auto\">Jtvann</a>\n</div>\n\n<!-- thread starter -->\n\n\t<div
+  class=\"message_user_info-thread_starter\"><span>Thread Starter</span></div>\n\n<!--
+  / thread starter -->\n\n<div class=\"messageUserBlock \">\n\t\n\t\t<div class=\"avatarHolder\">\n\t\t\t<span
+  class=\"helper\"></span>\n\t\t\t\n\t\t\t<a href=\"members/jtvann.242726/\" class=\"avatar
+  Av242726l\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/styles/brivium/Boron/xenforo/avatars/avatar_l.png\"
+  width=\"192\" height=\"192\" alt=\"Jtvann\"></a>\n\t\t\t\n\t\t\t<!-- slot: message_user_info_avatar
+  -->\n\t\t</div>\n\t\n\n\n\t\n\t\t<h3 class=\"userText\">\n\t\t\t\n\t\t\t<em class=\"userTitle\"
+  itemprop=\"title\">Well-Known Member</em>\n\t\t\t<span><a href=\"https://www.homebrewtalk.com/forum/account/upgrades\"></a></span>\n\t\t\t<!--
+  slot: message_user_info_text -->\n\t\t</h3>\n\t\n\t\t\n\t\n\t\t<div class=\"extraUserInfo\">\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-joined\">\n\t\t\t\t\t\t<dt><span></span><!--Joined:--></dt>\n\t\t\t\t\t\t<dd>Jun
+  5, 2017</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl class=\"pairsJustified
+  message_user_info-messages\">\n\t\t\t\t\t\t<dt><span></span><!--Messages:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"search/member?user_id=242726\" class=\"concealed\" rel=\"nofollow\">337</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\n\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-likes\">\n\t\t\t\t\t\t<dt><span></span><!--Likes
+  Received:--></dt>\n\t\t\t\t\t\t<dd>69</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\n\t\t\n\n\n\t<span
+  class=\"arrow\"><span></span></span>\n</div>\n</div>\n\n\t<div class=\"messageInfo\">\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<div
+  class=\"messageContent\">\n\t\t\t<div style=\"margin-bottom: 7px; color: #aaa\">Posted
+  <span class=\"DateTime\" title=\"Mar 9, 2019 at 12:46 AM\">Mar 9, 2019</span></div>\n\t\t\t<article>\n\t\t\t\t<blockquote
+  class=\"messageText SelectQuoteContainer ugc baseHtml\">\n\t\t\t\t\t\n\t\t\t\t\tSo
+  last week I made some sous vide ribeye using my brew boss system.  Tonight I'm going
+  all out with filet mignon.  Just figured I'd report in that if SWMBO needs another
+  reason to support your money sink of a hobby... you can't go wrong with these cooking
+  perfect steak.<br>\n<br>\nI imagine anybody who has a decent temp controlled recirculation
+  system could pull it off.\n\t\t\t\t\t<div class=\"messageTextEndMarker\">&nbsp;</div>\n\t\t\t\t</blockquote>\n\t\t\t</article>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t<div
+  class=\"messageMeta ToggleTriggerAnchor\">\n\t\t\t\n\t\t\t<div class=\"privateControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t\t<div
+  class=\"publicControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\n\t\t\n\t\t<div
+  id=\"likes-post-8542799\">\n\t\n\t<div class=\"likesSummary secondaryContent\">\n\t\t<span
+  class=\"LikeText\">\n\t\t\t<a href=\"members/staticsouls.223102/\" class=\"username\"
+  dir=\"auto\">Staticsouls</a> and <a href=\"members/moonbrewer.158516/\" class=\"username\"
+  dir=\"auto\">MoonBrewer</a> like this.\n\t\t</span>\n\t</div>\n</div>\n\t\t\n\t\t\n\t</div>\n\n\t\n\t\n\t\n\t\n</li>\n\t\t\t\t\n\n<div
+  class=\"gadblock gadblock_admsg\">\n<div class=\"AdvallyTag\" data-autosize=\"728x90,320x50\"></div>\n</div>\n\n\n\n\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\n\n<li
+  id=\"post-8542987\" class=\"message   \" data-author=\"Brooothru\">\n\n\t\n\t<div
+  style=\"height: 36px; line-height: 36px; width:100%; background-color: #F3F3F3\">\n\t\t<div
+  style=\"float: right; padding-right: 10px\">\n\t\t\t<a href=\"threads/brew-boss-sous-vide.663471/#post-8542987\"
+  title=\"Permalink\" class=\"item muted postNumber hashPermalink OverlayTrigger\"
+  data-href=\"posts/8542987/permalink\">#2</a>\n\t\t</div>\n\t\t<!--<div style=\"color:
+  #FA5415; font-size: 1.3em; padding: 0 5px\"><a href=\"members/brooothru.109730/\"
+  class=\"username\" dir=\"auto\" itemprop=\"name\">Brooothru</a></div>-->\n\t</div>\n\t\n\n\t\n\n<div
+  class=\"messageUserInfo\" itemscope=\"itemscope\" itemtype=\"http://data-vocabulary.org/Person\">\t\n\n<div
+  class=\"message_user_info-name\">\n    <a href=\"members/brooothru.109730/\" class=\"username
+  username\" dir=\"auto\">Brooothru</a>\n</div>\n\n<!-- thread starter -->\n\n<!--
+  / thread starter -->\n\n<div class=\"messageUserBlock \">\n\t\n\t\t<div class=\"avatarHolder\">\n\t\t\t<span
+  class=\"helper\"></span>\n\t\t\t\n\t\t\t<a href=\"members/brooothru.109730/\" class=\"avatar
+  Av109730l\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/styles/brivium/Boron/xenforo/avatars/avatar_l.png\"
+  width=\"192\" height=\"192\" alt=\"Brooothru\"></a>\n\t\t\t\n\t\t\t<!-- slot: message_user_info_avatar
+  -->\n\t\t</div>\n\t\n\n\n\t\n\t\t<h3 class=\"userText\">\n\t\t\t\n\t\t\t<em class=\"userTitle\"
+  itemprop=\"title\">Well-Known Member</em>\n\t\t\t<span><a href=\"https://www.homebrewtalk.com/forum/account/upgrades\"></a></span>\n\t\t\t<!--
+  slot: message_user_info_text -->\n\t\t</h3>\n\t\n\t\t\n\t\n\t\t<div class=\"extraUserInfo\">\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-joined\">\n\t\t\t\t\t\t<dt><span></span><!--Joined:--></dt>\n\t\t\t\t\t\t<dd>Feb
+  16, 2012</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl class=\"pairsJustified
+  message_user_info-messages\">\n\t\t\t\t\t\t<dt><span></span><!--Messages:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"search/member?user_id=109730\" class=\"concealed\" rel=\"nofollow\">48</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\n\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-likes\">\n\t\t\t\t\t\t<dt><span></span><!--Likes
+  Received:--></dt>\n\t\t\t\t\t\t<dd>19</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\n\t\t\n\n\n\t<span
+  class=\"arrow\"><span></span></span>\n</div>\n</div>\n\n\t<div class=\"messageInfo\">\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<div
+  class=\"messageContent\">\n\t\t\t<div style=\"margin-bottom: 7px; color: #aaa\">Posted
+  <span class=\"DateTime\" title=\"Mar 9, 2019 at 3:55 AM\">Mar 9, 2019</span></div>\n\t\t\t<article>\n\t\t\t\t<blockquote
+  class=\"messageText SelectQuoteContainer ugc baseHtml\">\n\t\t\t\t\t\n\t\t\t\t\t<div
+  class=\"bbCodeBlock bbCodeQuote\" data-author=\"Jtvann\">\n\t<aside>\n\t\t\n\t\t\t<div
+  class=\"attribution type\">Jtvann said:\n\t\t\t\t\n\t\t\t\t\t<a href=\"goto/post?id=8542799#post-8542799\"
+  class=\"AttributionLink\">↑</a>\n\t\t\t\t\n\t\t\t</div>\n\t\t\n\t\t<blockquote class=\"quoteContainer\"><div
+  class=\"quote\">So last week I made some sous vide ribeye using my brew boss system.
+  \ Tonight I'm going all out with filet mignon.  Just figured I'd report in that
+  if SWMBO needs another reason to support your money sink of a hobby... you can't
+  go wrong with these cooking perfect steak.<br>\n<br>\nI imagine anybody who has
+  a decent temp controlled recirculation system could pull it off.</div><div class=\"quoteExpand\">Click
+  to expand...</div></blockquote>\n\t</aside>\n</div><br>\nQuite a fan of sous vide
+  myself.  Just dined on a rack of baby back ribs tonight, after 20 hours in the water
+  bath. Never had any more tender than these bad boys. <br>\n But I've gone in the
+  other direction, from cooking in my Braumeister to getting a dedicated system for
+  the kitchen . There's nothing like Ike a sous vide steak, unless it's a whole tenderloin.
+  \ Planning a butterfly leget of lamb for Easter.<br>\n<br>\nBrooo Brother\n\t\t\t\t\t<div
+  class=\"messageTextEndMarker\">&nbsp;</div>\n\t\t\t\t</blockquote>\n\t\t\t</article>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t<div
+  class=\"messageMeta ToggleTriggerAnchor\">\n\t\t\t\n\t\t\t<div class=\"privateControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t\t<div
+  class=\"publicControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\n\t\t\n\t\t<div
+  id=\"likes-post-8542987\">\n\t\n\t<div class=\"likesSummary secondaryContent\">\n\t\t<span
+  class=\"LikeText\">\n\t\t\t<a href=\"members/staticsouls.223102/\" class=\"username\"
+  dir=\"auto\">Staticsouls</a> likes this.\n\t\t</span>\n\t</div>\n</div>\n\t\t\n\t\t\n\t</div>\n\n\t\n\t\n\t\n\t\n</li>\n\t\t\t\t\n\n\n<div
+  class=\"gadblock gadblock_admsg\">\n<div class=\"AdvallyTag\" data-autosize=\"728x90,320x50\"></div>\n</div>\n\n\n\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\n\n<li
+  id=\"post-8543015\" class=\"message   \" data-author=\"November\">\n\n\t\n\t<div
+  style=\"height: 36px; line-height: 36px; width:100%; background-color: #F3F3F3\">\n\t\t<div
+  style=\"float: right; padding-right: 10px\">\n\t\t\t<a href=\"threads/brew-boss-sous-vide.663471/#post-8543015\"
+  title=\"Permalink\" class=\"item muted postNumber hashPermalink OverlayTrigger\"
+  data-href=\"posts/8543015/permalink\">#3</a>\n\t\t</div>\n\t\t<!--<div style=\"color:
+  #FA5415; font-size: 1.3em; padding: 0 5px\"><a href=\"members/november.42194/\"
+  class=\"username\" dir=\"auto\" itemprop=\"name\">November</a></div>-->\n\t</div>\n\t\n\n\t\n\n<div
+  class=\"messageUserInfo\" itemscope=\"itemscope\" itemtype=\"http://data-vocabulary.org/Person\">\t\n\n<div
+  class=\"message_user_info-name\">\n    <a href=\"members/november.42194/\" class=\"username
+  username\" dir=\"auto\">November</a>\n</div>\n\n<!-- thread starter -->\n\n<!--
+  / thread starter -->\n\n<div class=\"messageUserBlock \">\n\t\n\t\t<div class=\"avatarHolder\">\n\t\t\t<span
+  class=\"helper\"></span>\n\t\t\t\n\t\t\t<a href=\"members/november.42194/\" class=\"avatar
+  Av42194l\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/l/42/42194.jpg?1329013885\"
+  width=\"192\" height=\"192\" alt=\"November\"></a>\n\t\t\t\n\t\t\t<!-- slot: message_user_info_avatar
+  -->\n\t\t</div>\n\t\n\n\n\t\n\t\t<h3 class=\"userText\">\n\t\t\t\n\t\t\t<em class=\"userTitle\"
+  itemprop=\"title\">...relax...</em>\n\t\t\t<span><a href=\"https://www.homebrewtalk.com/forum/account/upgrades\"><em
+  class=\"badge-lifetime-supporter wrapped\" itemprop=\"title\"><span class=\"before\"></span><strong>&nbsp;</strong><span
+  class=\"after\"></span></em></a></span>\n\t\t\t<!-- slot: message_user_info_text
+  -->\n\t\t</h3>\n\t\n\t\t\n\t\n\t\t<div class=\"extraUserInfo\">\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-joined\">\n\t\t\t\t\t\t<dt><span></span><!--Joined:--></dt>\n\t\t\t\t\t\t<dd>Aug
+  14, 2009</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl class=\"pairsJustified
+  message_user_info-messages\">\n\t\t\t\t\t\t<dt><span></span><!--Messages:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"search/member?user_id=42194\" class=\"concealed\" rel=\"nofollow\">795</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\n\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-likes\">\n\t\t\t\t\t\t<dt><span></span><!--Likes
+  Received:--></dt>\n\t\t\t\t\t\t<dd>287</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-location\">\n\t\t\t\t\t\t<dt><span></span><!--Location:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"misc/location-info?location=Southern+AZ\" target=\"_blank\" rel=\"nofollow\"
+  itemprop=\"address\" class=\"concealed\">Southern AZ</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\n\t\t\n\n\n\t<span
+  class=\"arrow\"><span></span></span>\n</div>\n</div>\n\n\t<div class=\"messageInfo\">\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<div
+  class=\"messageContent\">\n\t\t\t<div style=\"margin-bottom: 7px; color: #aaa\">Posted
+  <span class=\"DateTime\" title=\"Mar 9, 2019 at 4:26 AM\">Mar 9, 2019</span></div>\n\t\t\t<article>\n\t\t\t\t<blockquote
+  class=\"messageText SelectQuoteContainer ugc baseHtml\">\n\t\t\t\t\t\n\t\t\t\t\tI've
+  got a cross rib roast going right now. I'll pull it tomorrow when it hits 24 hours.\n\t\t\t\t\t<div
+  class=\"messageTextEndMarker\">&nbsp;</div>\n\t\t\t\t</blockquote>\n\t\t\t</article>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t<div
+  class=\"messageMeta ToggleTriggerAnchor\">\n\t\t\t\n\t\t\t<div class=\"privateControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t\t<div
+  class=\"publicControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\n\t\t\n\t\t<div
+  id=\"likes-post-8543015\">\n\t\n\t<div class=\"likesSummary secondaryContent\">\n\t\t<span
+  class=\"LikeText\">\n\t\t\t<a href=\"members/staticsouls.223102/\" class=\"username\"
+  dir=\"auto\">Staticsouls</a> likes this.\n\t\t</span>\n\t</div>\n</div>\n\t\t\n\t\t\n\t</div>\n\n\t\n\t\n\t\n\t\n</li>\n\t\t\t\t\n\n\n\n\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\n\n<li
+  id=\"post-8543022\" class=\"message   \" data-author=\"verboten\">\n\n\t\n\t<div
+  style=\"height: 36px; line-height: 36px; width:100%; background-color: #F3F3F3\">\n\t\t<div
+  style=\"float: right; padding-right: 10px\">\n\t\t\t<a href=\"threads/brew-boss-sous-vide.663471/#post-8543022\"
+  title=\"Permalink\" class=\"item muted postNumber hashPermalink OverlayTrigger\"
+  data-href=\"posts/8543022/permalink\">#4</a>\n\t\t</div>\n\t\t<!--<div style=\"color:
+  #FA5415; font-size: 1.3em; padding: 0 5px\"><a href=\"members/verboten.85516/\"
+  class=\"username\" dir=\"auto\" itemprop=\"name\">verboten</a></div>-->\n\t</div>\n\t\n\n\t\n\n<div
+  class=\"messageUserInfo\" itemscope=\"itemscope\" itemtype=\"http://data-vocabulary.org/Person\">\t\n\n<div
+  class=\"message_user_info-name\">\n    <a href=\"members/verboten.85516/\" class=\"username
+  username\" dir=\"auto\">verboten</a>\n</div>\n\n<!-- thread starter -->\n\n<!--
+  / thread starter -->\n\n<div class=\"messageUserBlock online\">\n\t\n\t\t<div class=\"avatarHolder\">\n\t\t\t<span
+  class=\"helper\"></span>\n\t\t\t\n\t\t\t<a href=\"members/verboten.85516/\" class=\"avatar
+  Av85516l\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/l/85/85516.jpg?1550256656\"
+  width=\"192\" height=\"192\" alt=\"verboten\"></a>\n\t\t\t<span class=\"Tooltip
+  onlineMarker\" data-offsetx=\"-22\" data-offsety=\"-8\"></span>\n\t\t\t<!-- slot:
+  message_user_info_avatar -->\n\t\t</div>\n\t\n\n\n\t\n\t\t<h3 class=\"userText\">\n\t\t\t\n\t\t\t<em
+  class=\"userTitle\" itemprop=\"title\">With Low Expectations, you're rarely disappointed</em>\n\t\t\t<span><a
+  href=\"https://www.homebrewtalk.com/forum/account/upgrades\"></a></span>\n\t\t\t<!--
+  slot: message_user_info_text -->\n\t\t</h3>\n\t\n\t\t\n\t\n\t\t<div class=\"extraUserInfo\">\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-joined\">\n\t\t\t\t\t\t<dt><span></span><!--Joined:--></dt>\n\t\t\t\t\t\t<dd>Jul
+  21, 2011</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl class=\"pairsJustified
+  message_user_info-messages\">\n\t\t\t\t\t\t<dt><span></span><!--Messages:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"search/member?user_id=85516\" class=\"concealed\" rel=\"nofollow\">100</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\n\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-likes\">\n\t\t\t\t\t\t<dt><span></span><!--Likes
+  Received:--></dt>\n\t\t\t\t\t\t<dd>46</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-location\">\n\t\t\t\t\t\t<dt><span></span><!--Location:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"misc/location-info?location=Monroe%2C+MI\" target=\"_blank\" rel=\"nofollow\"
+  itemprop=\"address\" class=\"concealed\">Monroe, MI</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\n\t\t\n\n\n\t<span
+  class=\"arrow\"><span></span></span>\n</div>\n</div>\n\n\t<div class=\"messageInfo\">\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<div
+  class=\"messageContent\">\n\t\t\t<div style=\"margin-bottom: 7px; color: #aaa\">Posted
+  <span class=\"DateTime\" title=\"Mar 9, 2019 at 4:34 AM\">Mar 9, 2019</span></div>\n\t\t\t<article>\n\t\t\t\t<blockquote
+  class=\"messageText SelectQuoteContainer ugc baseHtml\">\n\t\t\t\t\t\n\t\t\t\t\tI’ve
+  been thinking about using the robobrew for a nice cut of meat. I just got my vacuum
+  sealer last week.\n\t\t\t\t\t<div class=\"messageTextEndMarker\">&nbsp;</div>\n\t\t\t\t</blockquote>\n\t\t\t</article>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t<div
+  class=\"messageMeta ToggleTriggerAnchor\">\n\t\t\t\n\t\t\t<div class=\"privateControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t\t<div
+  class=\"publicControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\n\t\t\n\t\t<div
+  id=\"likes-post-8543022\">\n\t\n\t<div class=\"likesSummary secondaryContent\">\n\t\t<span
+  class=\"LikeText\">\n\t\t\t<a href=\"members/staticsouls.223102/\" class=\"username\"
+  dir=\"auto\">Staticsouls</a> likes this.\n\t\t</span>\n\t</div>\n</div>\n\t\t\n\t\t\n\t</div>\n\n\t\n\t\n\t\n\t\n</li>\n\t\t\t\t\n\n\n\n\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\n\n<li
+  id=\"post-8543026\" class=\"message   \" data-author=\"Staticsouls\">\n\n\t\n\t<div
+  style=\"height: 36px; line-height: 36px; width:100%; background-color: #F3F3F3\">\n\t\t<div
+  style=\"float: right; padding-right: 10px\">\n\t\t\t<a href=\"threads/brew-boss-sous-vide.663471/#post-8543026\"
+  title=\"Permalink\" class=\"item muted postNumber hashPermalink OverlayTrigger\"
+  data-href=\"posts/8543026/permalink\">#5</a>\n\t\t</div>\n\t\t<!--<div style=\"color:
+  #FA5415; font-size: 1.3em; padding: 0 5px\"><a href=\"members/staticsouls.223102/\"
+  class=\"username\" dir=\"auto\" itemprop=\"name\">Staticsouls</a></div>-->\n\t</div>\n\t\n\n\t\n\n<div
+  class=\"messageUserInfo\" itemscope=\"itemscope\" itemtype=\"http://data-vocabulary.org/Person\">\t\n\n<div
+  class=\"message_user_info-name\">\n    <a href=\"members/staticsouls.223102/\" class=\"username
+  username\" dir=\"auto\">Staticsouls</a>\n</div>\n\n<!-- thread starter -->\n\n<!--
+  / thread starter -->\n\n<div class=\"messageUserBlock \">\n\t\n\t\t<div class=\"avatarHolder\">\n\t\t\t<span
+  class=\"helper\"></span>\n\t\t\t\n\t\t\t<a href=\"members/staticsouls.223102/\"
+  class=\"avatar Av223102l\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/l/223/223102.jpg?1549728360\"
+  width=\"192\" height=\"192\" alt=\"Staticsouls\"></a>\n\t\t\t\n\t\t\t<!-- slot:
+  message_user_info_avatar -->\n\t\t</div>\n\t\n\n\n\t\n\t\t<h3 class=\"userText\">\n\t\t\t\n\t\t\t<em
+  class=\"userTitle\" itemprop=\"title\">Well-Known Member</em>\n\t\t\t<span><a href=\"https://www.homebrewtalk.com/forum/account/upgrades\"></a></span>\n\t\t\t<!--
+  slot: message_user_info_text -->\n\t\t</h3>\n\t\n\t\t\n\t\n\t\t<div class=\"extraUserInfo\">\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-joined\">\n\t\t\t\t\t\t<dt><span></span><!--Joined:--></dt>\n\t\t\t\t\t\t<dd>Mar
+  31, 2016</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl class=\"pairsJustified
+  message_user_info-messages\">\n\t\t\t\t\t\t<dt><span></span><!--Messages:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"search/member?user_id=223102\" class=\"concealed\" rel=\"nofollow\">279</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\n\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-likes\">\n\t\t\t\t\t\t<dt><span></span><!--Likes
+  Received:--></dt>\n\t\t\t\t\t\t<dd>109</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-location\">\n\t\t\t\t\t\t<dt><span></span><!--Location:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"misc/location-info?location=Rancho+Santa+Margarita\" target=\"_blank\" rel=\"nofollow\"
+  itemprop=\"address\" class=\"concealed\">Rancho Santa Margarita</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\n\t\t\n\n\n\t<span
+  class=\"arrow\"><span></span></span>\n</div>\n</div>\n\n\t<div class=\"messageInfo\">\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<div
+  class=\"messageContent\">\n\t\t\t<div style=\"margin-bottom: 7px; color: #aaa\">Posted
+  <span class=\"DateTime\" title=\"Mar 9, 2019 at 4:40 AM\">Mar 9, 2019</span></div>\n\t\t\t<article>\n\t\t\t\t<blockquote
+  class=\"messageText SelectQuoteContainer ugc baseHtml\">\n\t\t\t\t\t\n\t\t\t\t\tI
+  wondered if anyone had considered this. Nice to know!\n\t\t\t\t\t<div class=\"messageTextEndMarker\">&nbsp;</div>\n\t\t\t\t</blockquote>\n\t\t\t</article>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t<div
+  class=\"messageMeta ToggleTriggerAnchor\">\n\t\t\t\n\t\t\t<div class=\"privateControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t\t<div
+  class=\"publicControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\n\t\t\n\t\t<div
+  id=\"likes-post-8543026\"></div>\n\t\t\n\t\t\n\t</div>\n\n\t\n\t\n\t\n\t\n</li>\n\t\t\t\t\n\n\n\n\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\n\n<li
+  id=\"post-8543078\" class=\"message   \" data-author=\"ebbelwoi\">\n\n\t\n\t<div
+  style=\"height: 36px; line-height: 36px; width:100%; background-color: #F3F3F3\">\n\t\t<div
+  style=\"float: right; padding-right: 10px\">\n\t\t\t<a href=\"threads/brew-boss-sous-vide.663471/#post-8543078\"
+  title=\"Permalink\" class=\"item muted postNumber hashPermalink OverlayTrigger\"
+  data-href=\"posts/8543078/permalink\">#6</a>\n\t\t</div>\n\t\t<!--<div style=\"color:
+  #FA5415; font-size: 1.3em; padding: 0 5px\"><a href=\"members/ebbelwoi.255581/\"
+  class=\"username\" dir=\"auto\" itemprop=\"name\">ebbelwoi</a></div>-->\n\t</div>\n\t\n\n\t\n\n<div
+  class=\"messageUserInfo\" itemscope=\"itemscope\" itemtype=\"http://data-vocabulary.org/Person\">\t\n\n<div
+  class=\"message_user_info-name\">\n    <a href=\"members/ebbelwoi.255581/\" class=\"username
+  username\" dir=\"auto\">ebbelwoi</a>\n</div>\n\n<!-- thread starter -->\n\n<!--
+  / thread starter -->\n\n<div class=\"messageUserBlock \">\n\t\n\t\t<div class=\"avatarHolder\">\n\t\t\t<span
+  class=\"helper\"></span>\n\t\t\t\n\t\t\t<a href=\"members/ebbelwoi.255581/\" class=\"avatar
+  Av255581l\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/l/255/255581.jpg?1549353955\"
+  width=\"192\" height=\"192\" alt=\"ebbelwoi\"></a>\n\t\t\t\n\t\t\t<!-- slot: message_user_info_avatar
+  -->\n\t\t</div>\n\t\n\n\n\t\n\t\t<h3 class=\"userText\">\n\t\t\t\n\t\t\t<em class=\"userTitle\"
+  itemprop=\"title\">Well-Known Member</em>\n\t\t\t<span><a href=\"https://www.homebrewtalk.com/forum/account/upgrades\"></a></span>\n\t\t\t<!--
+  slot: message_user_info_text -->\n\t\t</h3>\n\t\n\t\t\n\t\n\t\t<div class=\"extraUserInfo\">\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-joined\">\n\t\t\t\t\t\t<dt><span></span><!--Joined:--></dt>\n\t\t\t\t\t\t<dd>May
+  29, 2018</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl class=\"pairsJustified
+  message_user_info-messages\">\n\t\t\t\t\t\t<dt><span></span><!--Messages:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"search/member?user_id=255581\" class=\"concealed\" rel=\"nofollow\">206</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\n\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-likes\">\n\t\t\t\t\t\t<dt><span></span><!--Likes
+  Received:--></dt>\n\t\t\t\t\t\t<dd>61</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-location\">\n\t\t\t\t\t\t<dt><span></span><!--Location:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"misc/location-info?location=Japan\" target=\"_blank\" rel=\"nofollow\" itemprop=\"address\"
+  class=\"concealed\">Japan</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\n\t\t\n\n\n\t<span
+  class=\"arrow\"><span></span></span>\n</div>\n</div>\n\n\t<div class=\"messageInfo\">\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<div
+  class=\"messageContent\">\n\t\t\t<div style=\"margin-bottom: 7px; color: #aaa\">Posted
+  <span class=\"DateTime\" title=\"Mar 9, 2019 at 7:47 AM\">Mar 9, 2019</span></div>\n\t\t\t<article>\n\t\t\t\t<blockquote
+  class=\"messageText SelectQuoteContainer ugc baseHtml\">\n\t\t\t\t\t\n\t\t\t\t\tI
+  go the other way and use my sous vide setup for BIAB. Holds mash temp very well,
+  makes step mashes a breeze.\n\t\t\t\t\t<div class=\"messageTextEndMarker\">&nbsp;</div>\n\t\t\t\t</blockquote>\n\t\t\t</article>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t<div
+  class=\"messageMeta ToggleTriggerAnchor\">\n\t\t\t\n\t\t\t<div class=\"privateControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t\t<div
+  class=\"publicControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\n\t\t\n\t\t<div
+  id=\"likes-post-8543078\">\n\t\n\t<div class=\"likesSummary secondaryContent\">\n\t\t<span
+  class=\"LikeText\">\n\t\t\t<a href=\"members/riceral.187000/\" class=\"username\"
+  dir=\"auto\">riceral</a> likes this.\n\t\t</span>\n\t</div>\n</div>\n\t\t\n\t\t\n\t</div>\n\n\t\n\t\n\t\n\t\n</li>\n\t\t\t\t\n\n\n\n\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\n\n<li
+  id=\"post-8543408\" class=\"message   \" data-author=\"November\">\n\n\t\n\t<div
+  style=\"height: 36px; line-height: 36px; width:100%; background-color: #F3F3F3\">\n\t\t<div
+  style=\"float: right; padding-right: 10px\">\n\t\t\t<a href=\"threads/brew-boss-sous-vide.663471/#post-8543408\"
+  title=\"Permalink\" class=\"item muted postNumber hashPermalink OverlayTrigger\"
+  data-href=\"posts/8543408/permalink\">#7</a>\n\t\t</div>\n\t\t<!--<div style=\"color:
+  #FA5415; font-size: 1.3em; padding: 0 5px\"><a href=\"members/november.42194/\"
+  class=\"username\" dir=\"auto\" itemprop=\"name\">November</a></div>-->\n\t</div>\n\t\n\n\t\n\n<div
+  class=\"messageUserInfo\" itemscope=\"itemscope\" itemtype=\"http://data-vocabulary.org/Person\">\t\n\n<div
+  class=\"message_user_info-name\">\n    <a href=\"members/november.42194/\" class=\"username
+  username\" dir=\"auto\">November</a>\n</div>\n\n<!-- thread starter -->\n\n<!--
+  / thread starter -->\n\n<div class=\"messageUserBlock \">\n\t\n\t\t<div class=\"avatarHolder\">\n\t\t\t<span
+  class=\"helper\"></span>\n\t\t\t\n\t\t\t<a href=\"members/november.42194/\" class=\"avatar
+  Av42194l\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/l/42/42194.jpg?1329013885\"
+  width=\"192\" height=\"192\" alt=\"November\"></a>\n\t\t\t\n\t\t\t<!-- slot: message_user_info_avatar
+  -->\n\t\t</div>\n\t\n\n\n\t\n\t\t<h3 class=\"userText\">\n\t\t\t\n\t\t\t<em class=\"userTitle\"
+  itemprop=\"title\">...relax...</em>\n\t\t\t<span><a href=\"https://www.homebrewtalk.com/forum/account/upgrades\"><em
+  class=\"badge-lifetime-supporter wrapped\" itemprop=\"title\"><span class=\"before\"></span><strong>&nbsp;</strong><span
+  class=\"after\"></span></em></a></span>\n\t\t\t<!-- slot: message_user_info_text
+  -->\n\t\t</h3>\n\t\n\t\t\n\t\n\t\t<div class=\"extraUserInfo\">\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-joined\">\n\t\t\t\t\t\t<dt><span></span><!--Joined:--></dt>\n\t\t\t\t\t\t<dd>Aug
+  14, 2009</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl class=\"pairsJustified
+  message_user_info-messages\">\n\t\t\t\t\t\t<dt><span></span><!--Messages:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"search/member?user_id=42194\" class=\"concealed\" rel=\"nofollow\">795</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\n\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-likes\">\n\t\t\t\t\t\t<dt><span></span><!--Likes
+  Received:--></dt>\n\t\t\t\t\t\t<dd>287</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-location\">\n\t\t\t\t\t\t<dt><span></span><!--Location:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"misc/location-info?location=Southern+AZ\" target=\"_blank\" rel=\"nofollow\"
+  itemprop=\"address\" class=\"concealed\">Southern AZ</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\n\t\t\n\n\n\t<span
+  class=\"arrow\"><span></span></span>\n</div>\n</div>\n\n\t<div class=\"messageInfo\">\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<div
+  class=\"messageContent\">\n\t\t\t<div style=\"margin-bottom: 7px; color: #aaa\">Posted
+  <span class=\"DateTime\" title=\"Mar 9, 2019 at 8:21 PM\">Mar 9, 2019</span></div>\n\t\t\t<article>\n\t\t\t\t<blockquote
+  class=\"messageText SelectQuoteContainer ugc baseHtml\">\n\t\t\t\t\t\n\t\t\t\t\t<div
+  class=\"bbCodeBlock bbCodeQuote\" data-author=\"ebbelwoi\">\n\t<aside>\n\t\t\n\t\t\t<div
+  class=\"attribution type\">ebbelwoi said:\n\t\t\t\t\n\t\t\t\t\t<a href=\"goto/post?id=8543078#post-8543078\"
+  class=\"AttributionLink\">↑</a>\n\t\t\t\t\n\t\t\t</div>\n\t\t\n\t\t<blockquote class=\"quoteContainer\"><div
+  class=\"quote\">I go the other way and use my sous vide setup for BIAB. Holds mash
+  temp very well, makes step mashes a breeze.</div><div class=\"quoteExpand\">Click
+  to expand...</div></blockquote>\n\t</aside>\n</div>Which sous vide system do you
+  have? I was thinking about getting one for small biab batches when I don't want
+  to fire up my 20 gal system\n\t\t\t\t\t<div class=\"messageTextEndMarker\">&nbsp;</div>\n\t\t\t\t</blockquote>\n\t\t\t</article>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t<div
+  class=\"messageMeta ToggleTriggerAnchor\">\n\t\t\t\n\t\t\t<div class=\"privateControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t\t<div
+  class=\"publicControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\n\t\t\n\t\t<div
+  id=\"likes-post-8543408\"></div>\n\t\t\n\t\t\n\t</div>\n\n\t\n\t\n\t\n\t\n</li>\n\t\t\t\t\n\n\n\n\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\n\n<li
+  id=\"post-8543702\" class=\"message   \" data-author=\"Brooothru\">\n\n\t\n\t<div
+  style=\"height: 36px; line-height: 36px; width:100%; background-color: #F3F3F3\">\n\t\t<div
+  style=\"float: right; padding-right: 10px\">\n\t\t\t<a href=\"threads/brew-boss-sous-vide.663471/#post-8543702\"
+  title=\"Permalink\" class=\"item muted postNumber hashPermalink OverlayTrigger\"
+  data-href=\"posts/8543702/permalink\">#8</a>\n\t\t</div>\n\t\t<!--<div style=\"color:
+  #FA5415; font-size: 1.3em; padding: 0 5px\"><a href=\"members/brooothru.109730/\"
+  class=\"username\" dir=\"auto\" itemprop=\"name\">Brooothru</a></div>-->\n\t</div>\n\t\n\n\t\n\n<div
+  class=\"messageUserInfo\" itemscope=\"itemscope\" itemtype=\"http://data-vocabulary.org/Person\">\t\n\n<div
+  class=\"message_user_info-name\">\n    <a href=\"members/brooothru.109730/\" class=\"username
+  username\" dir=\"auto\">Brooothru</a>\n</div>\n\n<!-- thread starter -->\n\n<!--
+  / thread starter -->\n\n<div class=\"messageUserBlock \">\n\t\n\t\t<div class=\"avatarHolder\">\n\t\t\t<span
+  class=\"helper\"></span>\n\t\t\t\n\t\t\t<a href=\"members/brooothru.109730/\" class=\"avatar
+  Av109730l\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/styles/brivium/Boron/xenforo/avatars/avatar_l.png\"
+  width=\"192\" height=\"192\" alt=\"Brooothru\"></a>\n\t\t\t\n\t\t\t<!-- slot: message_user_info_avatar
+  -->\n\t\t</div>\n\t\n\n\n\t\n\t\t<h3 class=\"userText\">\n\t\t\t\n\t\t\t<em class=\"userTitle\"
+  itemprop=\"title\">Well-Known Member</em>\n\t\t\t<span><a href=\"https://www.homebrewtalk.com/forum/account/upgrades\"></a></span>\n\t\t\t<!--
+  slot: message_user_info_text -->\n\t\t</h3>\n\t\n\t\t\n\t\n\t\t<div class=\"extraUserInfo\">\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-joined\">\n\t\t\t\t\t\t<dt><span></span><!--Joined:--></dt>\n\t\t\t\t\t\t<dd>Feb
+  16, 2012</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl class=\"pairsJustified
+  message_user_info-messages\">\n\t\t\t\t\t\t<dt><span></span><!--Messages:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"search/member?user_id=109730\" class=\"concealed\" rel=\"nofollow\">48</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\n\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-likes\">\n\t\t\t\t\t\t<dt><span></span><!--Likes
+  Received:--></dt>\n\t\t\t\t\t\t<dd>19</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\n\t\t\n\n\n\t<span
+  class=\"arrow\"><span></span></span>\n</div>\n</div>\n\n\t<div class=\"messageInfo\">\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<div
+  class=\"messageContent\">\n\t\t\t<div style=\"margin-bottom: 7px; color: #aaa\">Posted
+  <span class=\"DateTime\" title=\"Mar 10, 2019 at 2:23 AM\">Mar 10, 2019</span></div>\n\t\t\t<article>\n\t\t\t\t<blockquote
+  class=\"messageText SelectQuoteContainer ugc baseHtml\">\n\t\t\t\t\t\n\t\t\t\t\t<div
+  class=\"bbCodeBlock bbCodeQuote\" data-author=\"ebbelwoi\">\n\t<aside>\n\t\t\n\t\t\t<div
+  class=\"attribution type\">ebbelwoi said:\n\t\t\t\t\n\t\t\t\t\t<a href=\"goto/post?id=8543078#post-8543078\"
+  class=\"AttributionLink\">↑</a>\n\t\t\t\t\n\t\t\t</div>\n\t\t\n\t\t<blockquote class=\"quoteContainer\"><div
+  class=\"quote\">I go the other way and use my sous vide setup for BIAB. Holds mash
+  temp very well, makes step mashes a breeze.</div><div class=\"quoteExpand\">Click
+  to expand...</div></blockquote>\n\t</aside>\n</div>I use mine to heat up the sparge
+  water in a 3 gallon boil pot. Keeps it within half a degree F.  Fast and efficient,
+  and no harsh tannins from too hot water.<br>\n<br>\nBrooo Brother\n\t\t\t\t\t<div
+  class=\"messageTextEndMarker\">&nbsp;</div>\n\t\t\t\t</blockquote>\n\t\t\t</article>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t<div
+  class=\"messageMeta ToggleTriggerAnchor\">\n\t\t\t\n\t\t\t<div class=\"privateControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t\t<div
+  class=\"publicControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\n\t\t\n\t\t<div
+  id=\"likes-post-8543702\"></div>\n\t\t\n\t\t\n\t</div>\n\n\t\n\t\n\t\n\t\n</li>\n\t\t\t\t\n\n\n\n\n\t\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\n\n<li
+  id=\"post-8543722\" class=\"message   \" data-author=\"ebbelwoi\">\n\n\t\n\t<div
+  style=\"height: 36px; line-height: 36px; width:100%; background-color: #F3F3F3\">\n\t\t<div
+  style=\"float: right; padding-right: 10px\">\n\t\t\t<a href=\"threads/brew-boss-sous-vide.663471/#post-8543722\"
+  title=\"Permalink\" class=\"item muted postNumber hashPermalink OverlayTrigger\"
+  data-href=\"posts/8543722/permalink\">#9</a>\n\t\t</div>\n\t\t<!--<div style=\"color:
+  #FA5415; font-size: 1.3em; padding: 0 5px\"><a href=\"members/ebbelwoi.255581/\"
+  class=\"username\" dir=\"auto\" itemprop=\"name\">ebbelwoi</a></div>-->\n\t</div>\n\t\n\n\t\n\n<div
+  class=\"messageUserInfo\" itemscope=\"itemscope\" itemtype=\"http://data-vocabulary.org/Person\">\t\n\n<div
+  class=\"message_user_info-name\">\n    <a href=\"members/ebbelwoi.255581/\" class=\"username
+  username\" dir=\"auto\">ebbelwoi</a>\n</div>\n\n<!-- thread starter -->\n\n<!--
+  / thread starter -->\n\n<div class=\"messageUserBlock \">\n\t\n\t\t<div class=\"avatarHolder\">\n\t\t\t<span
+  class=\"helper\"></span>\n\t\t\t\n\t\t\t<a href=\"members/ebbelwoi.255581/\" class=\"avatar
+  Av255581l\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/l/255/255581.jpg?1549353955\"
+  width=\"192\" height=\"192\" alt=\"ebbelwoi\"></a>\n\t\t\t\n\t\t\t<!-- slot: message_user_info_avatar
+  -->\n\t\t</div>\n\t\n\n\n\t\n\t\t<h3 class=\"userText\">\n\t\t\t\n\t\t\t<em class=\"userTitle\"
+  itemprop=\"title\">Well-Known Member</em>\n\t\t\t<span><a href=\"https://www.homebrewtalk.com/forum/account/upgrades\"></a></span>\n\t\t\t<!--
+  slot: message_user_info_text -->\n\t\t</h3>\n\t\n\t\t\n\t\n\t\t<div class=\"extraUserInfo\">\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-joined\">\n\t\t\t\t\t\t<dt><span></span><!--Joined:--></dt>\n\t\t\t\t\t\t<dd>May
+  29, 2018</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl class=\"pairsJustified
+  message_user_info-messages\">\n\t\t\t\t\t\t<dt><span></span><!--Messages:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"search/member?user_id=255581\" class=\"concealed\" rel=\"nofollow\">206</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\n\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-likes\">\n\t\t\t\t\t\t<dt><span></span><!--Likes
+  Received:--></dt>\n\t\t\t\t\t\t<dd>61</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"pairsJustified message_user_info-location\">\n\t\t\t\t\t\t<dt><span></span><!--Location:--></dt>\n\t\t\t\t\t\t<dd><a
+  href=\"misc/location-info?location=Japan\" target=\"_blank\" rel=\"nofollow\" itemprop=\"address\"
+  class=\"concealed\">Japan</a></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\n\t\t\n\n\n\t<span
+  class=\"arrow\"><span></span></span>\n</div>\n</div>\n\n\t<div class=\"messageInfo\">\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<div
+  class=\"messageContent\">\n\t\t\t<div style=\"margin-bottom: 7px; color: #aaa\">Posted
+  <span class=\"DateTime\" title=\"Mar 10, 2019 at 2:55 AM\">Mar 10, 2019</span></div>\n\t\t\t<article>\n\t\t\t\t<blockquote
+  class=\"messageText SelectQuoteContainer ugc baseHtml\">\n\t\t\t\t\t\n\t\t\t\t\t<div
+  class=\"bbCodeBlock bbCodeQuote\" data-author=\"November\">\n\t<aside>\n\t\t\n\t\t\t<div
+  class=\"attribution type\">November said:\n\t\t\t\t\n\t\t\t\t\t<a href=\"goto/post?id=8543408#post-8543408\"
+  class=\"AttributionLink\">↑</a>\n\t\t\t\t\n\t\t\t</div>\n\t\t\n\t\t<blockquote class=\"quoteContainer\"><div
+  class=\"quote\">Which sous vide system do you have? I was thinking about getting
+  one for small biab batches when I don't want to fire up my 20 gal system</div><div
+  class=\"quoteExpand\">Click to expand...</div></blockquote>\n\t</aside>\n</div>I
+  have the standard Anova unit, with an 11L kettle. To start out with, I heat the
+  water on my gas stove, then use the Anova to maintain temps and bump them up for
+  step mashes. I usually go with 6L batches, which is nice for trying out new recipes.\n\t\t\t\t\t<div
+  class=\"messageTextEndMarker\">&nbsp;</div>\n\t\t\t\t</blockquote>\n\t\t\t</article>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t<div
+  class=\"messageMeta ToggleTriggerAnchor\">\n\t\t\t\n\t\t\t<div class=\"privateControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t\t<div
+  class=\"publicControls\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\n\t\t\n\t\t<div
+  id=\"likes-post-8543722\"></div>\n\t\t\n\t\t\n\t</div>\n\n\t\n\t\n\t\n\t\n</li>\n\t\t\t\t\n\n\n\n<div
+  class=\"gadblock gadblock_admsg\">\n<div class=\"AdvallyTag\" data-autosize=\"728x90,320x50\"></div>\n</div>\n\n\n\t\t\t\n\t\t\n\t\t\n\t</ol>\n\n\t\n\n\t<input
+  type=\"hidden\" name=\"_xfToken\" value=\"\">\n\n</form>\n\n\t<div class=\"pageNavLinkGroup\">\n\t\t\t\n\t\t\t\t<div
+  class=\"linkGroup\">\n\t\t\t\t\t\n\t\t\t\t\t\t<label for=\"LoginControl\"><a href=\"login/\"
+  class=\"concealed element\">(You must log in or sign up to reply here.)</a></label>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t\t<div
+  class=\"linkGroup\" style=\"display: none\"><a href=\"javascript:\" class=\"muted
+  JsOnly DisplayIgnoredContent Tooltip\">Show Ignored Content</a></div>\n\n\t\t\t\n\t</div>\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\n\n\n\t\n\n\t<div
+  class=\"sharePage\">\n\t\t<h3 class=\"textHeading larger\">Share This Page</h3>\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t<div
+  class=\"tweet shareControl\">\n\t\t\t\t\t<iframe id=\"twitter-widget-0\" scrolling=\"no\"
+  frameborder=\"0\" allowtransparency=\"true\" class=\"twitter-share-button twitter-share-button-rendered
+  twitter-tweet-button\" style=\"position: static; visibility: visible; width: 60px;
+  height: 20px;\" title=\"Twitter Tweet Button\" src=\"https://platform.twitter.com/widgets/tweet_button.2e9f365dae390394eb8d923cba8c5b11.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=https%3A%2F%2Fwww.homebrewtalk.com%2Fforum%2Fthreads%2Fbrew-boss-sous-vide.663471%2F&amp;size=m&amp;text=Brew%20Boss%20Sous%20Vide&amp;time=1552925773468&amp;type=share&amp;url=https%3A%2F%2Fwww.homebrewtalk.com%2Fforum%2Fthreads%2Fbrew-boss-sous-vide.663471%2F\"
+  data-url=\"https://www.homebrewtalk.com/forum/threads/brew-boss-sous-vide.663471/\"></iframe>\n\t\t\t\t</div>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t<div
+  class=\"facebookLike shareControl\">\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"fb-like
+  fb_iframe_widget\" data-href=\"https://www.homebrewtalk.com/forum/threads/brew-boss-sous-vide.663471/\"
+  data-width=\"400\" data-layout=\"standard\" data-action=\"recommend\" data-show-faces=\"true\"
+  data-colorscheme=\"light\" fb-xfbml-state=\"parsed\" fb-iframe-plugin-query=\"action=recommend&amp;app_id=&amp;color_scheme=light&amp;container_width=769&amp;href=https%3A%2F%2Fwww.homebrewtalk.com%2Fforum%2Fthreads%2Fbrew-boss-sous-vide.663471%2F&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;show_faces=true&amp;width=400\"><span
+  style=\"vertical-align: top; width: 0px; height: 0px; overflow: hidden;\"><iframe
+  name=\"f19c930f7651b\" width=\"400px\" height=\"1000px\" frameborder=\"0\" allowtransparency=\"true\"
+  allowfullscreen=\"true\" scrolling=\"no\" allow=\"encrypted-media\" title=\"fb:like
+  Facebook Social Plugin\" src=\"https://www.facebook.com/plugins/like.php?action=recommend&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fd_vbiawPdxB.js%3Fversion%3D44%23cb%3Df1d517f7c2feb44%26domain%3Dwww.homebrewtalk.com%26origin%3Dhttps%253A%252F%252Fwww.homebrewtalk.com%252Ff13ffa246798904%26relation%3Dparent.parent&amp;color_scheme=light&amp;container_width=769&amp;href=https%3A%2F%2Fwww.homebrewtalk.com%2Fforum%2Fthreads%2Fbrew-boss-sous-vide.663471%2F&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;show_faces=true&amp;width=400\"
+  style=\"border: none; visibility: hidden;\"></iframe></span></div>\n\t\t\t\t</div>\n\t\t\t\n\t\t\t\n\t\t\n\t</div>\n\n\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+  class=\"adpage_wrapper\">\n\t<div class=\"adpage adpage_bottom\">\n\t\t<div class=\"AdvallyTag\"
+  data-autosize=\"728x90,300x250\"></div><script async=\"\" src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script><ins
+  class=\"adsbygoogle\" style=\"display:block\" data-ad-format=\"autorelaxed\" data-ad-client=\"ca-pub-3927874040083090\"
+  data-ad-slot=\"3625587619\" hidden=\"\" yrbuqqs=\"\"></ins><script>(adsbygoogle
+  = window.adsbygoogle || []).push({});</script>\n\t</div>\n</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<!--
+  login form, to be moved to the upper drop-down -->\n\t\t\t\t\t\t\t<!-- XF BEGIN
+  LOGINBAR -->\n\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t<!-- XF END LOGINBAR
+  -->\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<!--
+  sidebar -->\n\t\t\t\t<!-- XF BEGIN SIDEBAR -->\n\t\t\t\t<aside>\n\t\t\t\t\t<div
+  class=\"sidebar\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div class=\"banner banner-gads\"
+  style=\"margin-left: auto; margin-right: auto; margin-bottom: 10px;\">\n<div class=\"AdvallyTag\"
+  data-size=\"300x250\"></div>\n</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\n\n\n\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div
+  class=\"section widget-group-threadgroup widget-container widget-tabs\">\n\t\t\t<div
+  class=\"primaryContent\">\n\t\t\t\t<ul class=\"tabs Tabs\" data-panes=\"#widget-tabs-threadgroup-9dbcc
+  > li\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li class=\"active\">\n\t\t\t\t\t\t\t\t<a
+  href=\"/forum/threads/brew-boss-sous-vide.663471/#widget-tab-20\" class=\"active\">\n\t\t\t\t\t\t\t\t\tNew
+  Threads\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a
+  href=\"/forum/threads/brew-boss-sous-vide.663471/#widget-tab-21\">\n\t\t\t\t\t\t\t\t\tMost
+  Viewed Threads\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t\t<div
+  class=\"secondaryContent widget-panes\">\n\t\t\t\t<ul id=\"widget-tabs-threadgroup-9dbcc\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"widget WidgetFramework_WidgetRenderer_Threads\" id=\"widget-tab-20\" style=\"display:
+  list-item;\">\n\t\t\t\t\t\t\t\t<div class=\"avatarList\">\n\t\t\t<ul>\n\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663845 thread-node-14\">\n\t<a href=\"members/njohnsoncs.239863/\"
+  class=\"avatar Av239863s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/styles/brivium/Boron/xenforo/avatars/avatar_s.png\"
+  width=\"48\" height=\"48\" alt=\"njohnsoncs\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"posts/8550971/\">\n\t\tDoes this Kolsch water profile...\n\t</a>\n\n\t<div
+  class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a href=\"members/njohnsoncs.239863/\">njohnsoncs</a>
+  replied <abbr class=\"DateTime\" data-time=\"1552925647\" data-diff=\"64\" data-datestring=\"Mar
+  18, 2019\" data-timestring=\"4:14 PM\" title=\"Mar 18, 2019 at 4:14 PM\">2 minutes
+  ago</abbr>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663840 thread-node-163\">\n\t<a href=\"members/shoreman.107115/\"
+  class=\"avatar Av107115s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/styles/brivium/Boron/xenforo/avatars/avatar_s.png\"
+  width=\"48\" height=\"48\" alt=\"shoreman\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"posts/8550970/\">\n\t\tRingwood ale, the greatest...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/shoreman.107115/\">shoreman</a> replied <abbr class=\"DateTime\"
+  data-time=\"1552925567\" data-diff=\"144\" data-datestring=\"Mar 18, 2019\" data-timestring=\"4:12
+  PM\" title=\"Mar 18, 2019 at 4:12 PM\">3 minutes ago</abbr>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-655173 thread-node-170\">\n\t<a href=\"members/newjersey.134700/\"
+  class=\"avatar Av134700s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/134/134700.jpg?1546462323\"
+  width=\"48\" height=\"48\" alt=\"NewJersey\"></a>\n\n\t\n\n\t<a href=\"posts/8550969/\">\n\t\tANOTHER
+  Basement Brewery Build\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/newjersey.134700/\">NewJersey</a> replied <abbr class=\"DateTime\"
+  data-time=\"1552925505\" data-diff=\"206\" data-datestring=\"Mar 18, 2019\" data-timestring=\"4:11
+  PM\" title=\"Mar 18, 2019 at 4:11 PM\">4 minutes ago</abbr>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663829 thread-node-14\">\n\t<a href=\"members/lump42.191261/\" class=\"avatar
+  Av191261s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/191/191261.jpg?1549380687\"
+  width=\"48\" height=\"48\" alt=\"lump42\"></a>\n\n\t\n\n\t<a href=\"posts/8550968/\">\n\t\tChiller
+  Recommendations\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a href=\"members/lump42.191261/\">lump42</a>
+  replied <abbr class=\"DateTime\" data-time=\"1552925489\" data-diff=\"222\" data-datestring=\"Mar
+  18, 2019\" data-timestring=\"4:11 PM\" title=\"Mar 18, 2019 at 4:11 PM\">4 minutes
+  ago</abbr>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-435844 thread-node-56\">\n\t<a href=\"members/passedpawn.37183/\"
+  class=\"avatar Av37183s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/37/37183.jpg?1385561774\"
+  width=\"48\" height=\"48\" alt=\"passedpawn\"></a>\n\n\t\n\n\t<a href=\"posts/8550967/\">\n\t\tWhat
+  did I cook this weekend.....\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/passedpawn.37183/\">passedpawn</a> replied <abbr class=\"DateTime\"
+  data-time=\"1552925358\" data-diff=\"353\" data-datestring=\"Mar 18, 2019\" data-timestring=\"4:09
+  PM\" title=\"Mar 18, 2019 at 4:09 PM\">6 minutes ago</abbr>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663844 thread-node-36\">\n\t<a href=\"members/rdavidw.93284/\" class=\"avatar
+  Av93284s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/styles/brivium/Boron/xenforo/avatars/avatar_s.png\"
+  width=\"48\" height=\"48\" alt=\"rdavidw\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"posts/8550966/\">\n\t\tWell, that ain't good.  Anyone...\n\t</a>\n\n\t<div
+  class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a href=\"members/rdavidw.93284/\">rdavidw</a>
+  replied <abbr class=\"DateTime\" data-time=\"1552925355\" data-diff=\"356\" data-datestring=\"Mar
+  18, 2019\" data-timestring=\"4:09 PM\" title=\"Mar 18, 2019 at 4:09 PM\">6 minutes
+  ago</abbr>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663821 thread-node-14\">\n\t<a href=\"members/kevin58.246742/\" class=\"avatar
+  Av246742s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/246/246742.jpg?1505334030\"
+  width=\"48\" height=\"48\" alt=\"kevin58\"></a>\n\n\t\n\n\t<a href=\"posts/8550965/\">\n\t\tSS
+  garage sink for homebrew\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/kevin58.246742/\">kevin58</a> replied <abbr class=\"DateTime\" data-time=\"1552925234\"
+  data-diff=\"477\" data-datestring=\"Mar 18, 2019\" data-timestring=\"4:07 PM\" title=\"Mar
+  18, 2019 at 4:07 PM\">8 minutes ago</abbr>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663580 thread-node-128\">\n\t<a href=\"members/rainy.252939/\" class=\"avatar
+  Av252939s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/styles/brivium/Boron/xenforo/avatars/avatar_s.png\"
+  width=\"48\" height=\"48\" alt=\"Rainy\"></a>\n\n\t\n\n\t<a href=\"posts/8550963/\">\n\t\tGeraniol/Linalool
+  in UK hops?\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a href=\"members/rainy.252939/\">Rainy</a>
+  replied <abbr class=\"DateTime\" data-time=\"1552925116\" data-diff=\"595\" data-datestring=\"Mar
+  18, 2019\" data-timestring=\"4:05 PM\" title=\"Mar 18, 2019 at 4:05 PM\">10 minutes
+  ago</abbr>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663837 thread-node-163\">\n\t<a href=\"members/lump42.191261/\" class=\"avatar
+  Av191261s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/191/191261.jpg?1549380687\"
+  width=\"48\" height=\"48\" alt=\"lump42\"></a>\n\n\t\n\n\t<a class=\"Tooltip\" href=\"posts/8550962/\">\n\t\tLooking
+  for suggestions for an...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/lump42.191261/\">lump42</a> replied <abbr class=\"DateTime\" data-time=\"1552925105\"
+  data-diff=\"606\" data-datestring=\"Mar 18, 2019\" data-timestring=\"4:05 PM\" title=\"Mar
+  18, 2019 at 4:05 PM\">11 minutes ago</abbr>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663734 thread-node-14\">\n\t<a href=\"members/kevin58.246742/\" class=\"avatar
+  Av246742s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/246/246742.jpg?1505334030\"
+  width=\"48\" height=\"48\" alt=\"kevin58\"></a>\n\n\t\n\n\t<a href=\"posts/8550959/\">\n\t\tI'm
+  done sweating the small stuff.\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/kevin58.246742/\">kevin58</a> replied <abbr class=\"DateTime\" data-time=\"1552924868\"
+  data-diff=\"843\" data-datestring=\"Mar 18, 2019\" data-timestring=\"4:01 PM\" title=\"Mar
+  18, 2019 at 4:01 PM\">15 minutes ago</abbr>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div
+  style=\"margin-top:5px; text-align: right;\">\n\t\t\t\t\t\t    <a href=\"find-new/posts\"><b>View
+  more</b></a>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t\n\t\t\t\n\t\t</div>\n\n\t\t<div
+  id=\"PreviewTooltip\">\n\t<span class=\"arrow\"><span></span></span>\n\t\n\t<div
+  class=\"section\">\n\t\t<div class=\"primaryContent previewContent\">\n\t\t\t<span
+  class=\"PreviewContents\">Loading...</span>\n\t\t</div>\n\t</div>\n</div>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"widget WidgetFramework_WidgetRenderer_Threads\" id=\"widget-tab-21\" style=\"display:
+  none;\">\n\t\t\t\t\t\t\t\t<div class=\"avatarList\">\n\t\t\t<ul>\n\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-662635 thread-node-14\">\n\t<a href=\"members/newjersey.134700/\"
+  class=\"avatar Av134700s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/134/134700.jpg?1546462323\"
+  width=\"48\" height=\"48\" alt=\"NewJersey\"></a>\n\n\t\n\n\t<a href=\"threads/why-are-homebrew-people-so-cheap.662635/\">\n\t\tWhy
+  are homebrew people SO cheap??\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/newjersey.134700/\">NewJersey</a> posted <span class=\"DateTime\"
+  title=\"Feb 16, 2019 at 4:59 PM\">Feb 16, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-661888 thread-node-14\">\n\t<a href=\"members/listerh.262726/\" class=\"avatar
+  Av262726s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/styles/brivium/Boron/xenforo/avatars/avatar_male_s.png\"
+  width=\"48\" height=\"48\" alt=\"ListerH\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/most-embarrassing-homebrewing-mistakes.661888/\">\n\t\tMost embarrassing
+  homebrewing...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a href=\"members/listerh.262726/\">ListerH</a>
+  posted <span class=\"DateTime\" title=\"Jan 30, 2019 at 2:36 AM\">Jan 30, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-662058 thread-node-14\">\n\t<a href=\"members/swampbrewcrew.229052/\"
+  class=\"avatar Av229052s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/229/229052.jpg?1475793468\"
+  width=\"48\" height=\"48\" alt=\"swampbrewcrew\"></a>\n\n\t\n\n\t<a href=\"threads/the-craft-beer-bubble-is-busting.662058/\">\n\t\tThe
+  craft beer bubble is busting.\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/swampbrewcrew.229052/\">swampbrewcrew</a> posted <span class=\"DateTime\"
+  title=\"Feb 3, 2019 at 5:29 AM\">Feb 3, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-661665 thread-node-170\">\n\t<a href=\"members/brewman.6524/\" class=\"avatar
+  Av6524s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/styles/brivium/Boron/xenforo/avatars/avatar_s.png\"
+  width=\"48\" height=\"48\" alt=\"brewman !\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/meet-thing-1-a-5kw-induction-all-in-one.661665/\">\n\t\tMeet Thing
+  1.  A 5Kw Induction...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/brewman.6524/\">brewman !</a> posted <span class=\"DateTime\" title=\"Jan
+  25, 2019 at 1:17 AM\">Jan 25, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-662248 thread-node-11\">\n\t<a href=\"members/jonnyrotten.47109/\"
+  class=\"avatar Av47109s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/styles/brivium/Boron/xenforo/avatars/avatar_s.png\"
+  width=\"48\" height=\"48\" alt=\"JONNYROTTEN\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/oxiclean-two-years-and-no-infections.662248/\">\n\t\tOxiclean...two
+  years and no...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a href=\"members/jonnyrotten.47109/\">JONNYROTTEN</a>
+  posted <span class=\"DateTime\" title=\"Feb 7, 2019 at 6:06 PM\">Feb 7, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-661566 thread-node-170\">\n\t<a href=\"members/nick-sekerak.260723/\"
+  class=\"avatar Av260723s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/styles/brivium/Boron/xenforo/avatars/avatar_male_s.png\"
+  width=\"48\" height=\"48\" alt=\"nick sekerak\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/how-to-keep-trub-out-of-the-fermenter.661566/\">\n\t\tHow to keep
+  Trub out of the...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/nick-sekerak.260723/\">nick sekerak</a> posted <span class=\"DateTime\"
+  title=\"Jan 23, 2019 at 4:16 PM\">Jan 23, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-662832 thread-node-163\">\n\t<a href=\"members/jcpomp.263340/\" class=\"avatar
+  Av263340s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/263/263340.jpg?1550500698\"
+  width=\"48\" height=\"48\" alt=\"Jcpomp\"></a>\n\n\t\n\n\t<a class=\"Tooltip\" href=\"threads/what-kind-of-fermentor-are-you-using.662832/\">\n\t\tWhat
+  kind of fermentor are you...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/jcpomp.263340/\">Jcpomp</a> posted <span class=\"DateTime\" title=\"Feb
+  21, 2019 at 12:28 AM\">Feb 21, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-662771 thread-node-170\">\n\t<a href=\"members/johnwpowell.231673/\"
+  class=\"avatar Av231673s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/styles/brivium/Boron/xenforo/avatars/avatar_s.png\"
+  width=\"48\" height=\"48\" alt=\"johnwpowell\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/please-help-wife-made-me-do-powerpoint-for-electric-brewery-budget-approval.662771/\">\n\t\tPlease
+  help.  Wife made me do...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/johnwpowell.231673/\">johnwpowell</a> posted <span class=\"DateTime\"
+  title=\"Feb 20, 2019 at 12:12 AM\">Feb 20, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-661874 thread-node-14\">\n\t<a href=\"members/bigjoebrew.158581/\"
+  class=\"avatar Av158581s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/158/158581.jpg?1512578728\"
+  width=\"48\" height=\"48\" alt=\"BigJoeBrew\"></a>\n\n\t\n\n\t<a href=\"threads/not-sure-what-i-just-ordered.661874/\">\n\t\tNot
+  sure what I just ordered?\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/bigjoebrew.158581/\">BigJoeBrew</a> posted <span class=\"DateTime\"
+  title=\"Jan 29, 2019 at 9:12 PM\">Jan 29, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-662718 thread-node-41\">\n\t<a href=\"members/brewersfriend.202829/\"
+  class=\"avatar Av202829s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/202/202829.jpg?1422331801\"
+  width=\"48\" height=\"48\" alt=\"BrewersFriend\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/free-win-a-free-brewers-friend-t-shirt.662718/\">\n\t\tFREE!   Win
+  a Free Brewer's...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/brewersfriend.202829/\">BrewersFriend</a> posted <span class=\"DateTime\"
+  title=\"Feb 18, 2019 at 6:30 PM\">Feb 18, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t\n\t\t\t\n\t\t</div>\n\n\t\t<div
+  id=\"PreviewTooltip\">\n\t<span class=\"arrow\"><span></span></span>\n\t\n\t<div
+  class=\"section\">\n\t\t<div class=\"primaryContent previewContent\">\n\t\t\t<span
+  class=\"PreviewContents\">Loading...</span>\n\t\t</div>\n\t</div>\n</div>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\n\n\t\n\n\n\n\t\n\t\n\n\n\n\n\t\n\t<div
+  class=\"section widget-group-no-name widget-container\">\n\t\t\n\t\t\t<div class=\"secondaryContent
+  widget WidgetFramework_WidgetRenderer_Threads\" id=\"widget-25\">\n\t\t\t\t\n\t\t\t\t\t<h3>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tSponsor
+  Threads\n\t\t\t\t\t\t\n\t\t\t\t\t</h3>\n\t\t\t\t\t<div class=\"avatarList\">\n\t\t\t<ul>\n\t\t\t\t\n\t\t\t\t\t\n\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663729 thread-node-41\">\n\t<a href=\"members/brewersfriend.202829/\"
+  class=\"avatar Av202829s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/202/202829.jpg?1422331801\"
+  width=\"48\" height=\"48\" alt=\"BrewersFriend\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/big-news-with-updates-and-new-features-for-brewers-friend.663729/\">\n\t\tBig
+  News with Updates and New...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/brewersfriend.202829/\">BrewersFriend</a> posted <abbr class=\"DateTime\"
+  data-time=\"1552672471\" data-diff=\"253224\" data-datestring=\"Mar 15, 2019\" data-timestring=\"5:54
+  PM\" title=\"Mar 15, 2019 at 5:54 PM\">Friday at 5:54 PM</abbr>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663693 thread-node-41\">\n\t<a href=\"members/inkbird.199101/\" class=\"avatar
+  Av199101s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/199/199101.jpg?1455773908\"
+  width=\"48\" height=\"48\" alt=\"inkbird\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/amazon-flash-lighting-deal-for-inkbird-digital-meat-thermometer-with-c-f-degreeswitch-9-59.663693/\">\n\t\tAmazon
+  Flash/lighting deal for...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/inkbird.199101/\">inkbird</a> posted <abbr class=\"DateTime\" data-time=\"1552598552\"
+  data-diff=\"327143\" data-datestring=\"Mar 14, 2019\" data-timestring=\"9:22 PM\"
+  title=\"Mar 14, 2019 at 9:22 PM\">Thursday at 9:22 PM</abbr>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663623 thread-node-41\">\n\t<a href=\"members/jaybird.4595/\" class=\"avatar
+  Av4595s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/4/4595.jpg?1537043353\"
+  width=\"48\" height=\"48\" alt=\"Jaybird\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/40-off-all-hops-at-nor-cal-brewing-solutions.663623/\">\n\t\t40%
+  off all hops at Nor Cal...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/jaybird.4595/\">Jaybird</a> posted <abbr class=\"DateTime\" data-time=\"1552434429\"
+  data-diff=\"491266\" data-datestring=\"Mar 12, 2019\" data-timestring=\"11:47 PM\"
+  title=\"Mar 12, 2019 at 11:47 PM\">Tuesday at 11:47 PM</abbr>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663615 thread-node-41\">\n\t<a href=\"members/fermentinginpa.117704/\"
+  class=\"avatar Av117704s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/117/117704.jpg?1511445618\"
+  width=\"48\" height=\"48\" alt=\"fermentinginpa\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/win-a-free-ss-brewtech-brew-bucket-brewmaster-edition.663615/\">\n\t\tWin
+  a Free Ss Brewtech Brew...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/fermentinginpa.117704/\">fermentinginpa</a> posted <abbr class=\"DateTime\"
+  data-time=\"1552418596\" data-diff=\"507099\" data-datestring=\"Mar 12, 2019\" data-timestring=\"7:23
+  PM\" title=\"Mar 12, 2019 at 7:23 PM\">Tuesday at 7:23 PM</abbr>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663308 thread-node-41\">\n\t<a href=\"members/fermentinginpa.117704/\"
+  class=\"avatar Av117704s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/117/117704.jpg?1511445618\"
+  width=\"48\" height=\"48\" alt=\"fermentinginpa\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/brand-new-line-of-brewing-aprons-available-today.663308/\">\n\t\tBrand
+  New Line of Brewing...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/fermentinginpa.117704/\">fermentinginpa</a> posted <span class=\"DateTime\"
+  title=\"Mar 4, 2019 at 8:34 PM\">Mar 4, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663124 thread-node-41\">\n\t<a href=\"members/spikebrewing.84321/\"
+  class=\"avatar Av84321s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/84/84321.jpg?1439937837\"
+  width=\"48\" height=\"48\" alt=\"SpikeBrewing\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/spike-spring-cleaning-up-to-25-off-kettles-conicals-and-systems.663124/\">\n\t\tSpike
+  Spring Cleaning! Up to...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/spikebrewing.84321/\">SpikeBrewing</a> posted <span class=\"DateTime\"
+  title=\"Feb 28, 2019 at 5:43 AM\">Feb 28, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-663026 thread-node-41\">\n\t<a href=\"members/inkbird.199101/\" class=\"avatar
+  Av199101s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/199/199101.jpg?1455773908\"
+  width=\"48\" height=\"48\" alt=\"inkbird\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/inkbird-15-30-coupon-for-temp-controller-bbq-thermometer.663026/\">\n\t\tInkbird
+  15%-30% Coupon for Temp...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/inkbird.199101/\">inkbird</a> posted <span class=\"DateTime\" title=\"Feb
+  25, 2019 at 3:17 PM\">Feb 25, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-662900 thread-node-41\">\n\t<a href=\"members/fermentinginpa.117704/\"
+  class=\"avatar Av117704s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/117/117704.jpg?1511445618\"
+  width=\"48\" height=\"48\" alt=\"fermentinginpa\"></a>\n\n\t\n\n\t<a href=\"threads/new-bottle-openers.662900/\">\n\t\tNew
+  Bottle Openers\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a href=\"members/fermentinginpa.117704/\">fermentinginpa</a>
+  posted <span class=\"DateTime\" title=\"Feb 22, 2019 at 7:27 PM\">Feb 22, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-662729 thread-node-41\">\n\t<a href=\"members/wilserbrewer.9949/\"
+  class=\"avatar Av9949s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/9/9949.jpg?1410523463\"
+  width=\"48\" height=\"48\" alt=\"wilserbrewer\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/wilserbrewer-biab-bags-10-off-any-purchase-w-venmo.662729/\">\n\t\twilserbrewer
+  BIAB Bags 10% off...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/wilserbrewer.9949/\">wilserbrewer</a> posted <span class=\"DateTime\"
+  title=\"Feb 18, 2019 at 9:17 PM\">Feb 18, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li
+  class=\"thread-662718 thread-node-41\">\n\t<a href=\"members/brewersfriend.202829/\"
+  class=\"avatar Av202829s\" data-avatarhtml=\"true\"><img src=\"https://cdn.homebrewtalk.com/forum/data/avatars/s/202/202829.jpg?1422331801\"
+  width=\"48\" height=\"48\" alt=\"BrewersFriend\"></a>\n\n\t\n\n\t<a class=\"Tooltip\"
+  href=\"threads/free-win-a-free-brewers-friend-t-shirt.662718/\">\n\t\tFREE!   Win
+  a Free Brewer's...\n\t</a>\n\n\t<div class=\"userTitle\">\n\t\t\t\t\t\t\t\t\t<a
+  href=\"members/brewersfriend.202829/\">BrewersFriend</a> posted <span class=\"DateTime\"
+  title=\"Feb 18, 2019 at 6:30 PM\">Feb 18, 2019</span>\n\t\t\t\t\t\t\t\t</div>\n\t\n\t\n</li>\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</ul>\n\t\t\t\n\t\t\t\n\t\t</div>\n\n\t\t<div
+  id=\"PreviewTooltip\">\n\t<span class=\"arrow\"><span></span></span>\n\t\n\t<div
+  class=\"section\">\n\t\t<div class=\"primaryContent previewContent\">\n\t\t\t<span
+  class=\"PreviewContents\">Loading...</span>\n\t\t</div>\n\t</div>\n</div>\n\t\t\t\t\n\t\t\t</div>\n\t\t\n\t</div>\n\t\t\t\t\t\t\n\n<div
+  class=\"sidebar-newsletter\">\n    <h5>Newsletter</h5>\n    <p>Subscribe for free
+  and get the latest updates.</p>\n    <form action=\"https://homebrewtalk.us12.list-manage.com/subscribe/post?u=83d4ba1ee283549a420eb4637&amp;id=b40bf8ee0d\"
+  method=\"post\" id=\"mc-embedded-subscribe-form-1\" name=\"mc-embedded-subscribe-form\"
+  class=\"validate\" target=\"_blank\" novalidate=\"\">\n        <input type=\"text\"
+  value=\"\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\" placeholder=\"name@email.com\">\n
+  \       <a href=\"#\" class=\"button expand\" onclick=\"document.getElementById('mc-embedded-subscribe-form-1').submit();
+  return false;\">Subscribe</a>\n        <div id=\"mce-responses\" class=\"clear\">\n
+  \           <div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>\n
+  \           <div class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div>\n
+  \       </div>    <!-- real people should not fill this in and expect good things
+  - do not remove this or risk form bot signups-->\n        <div style=\"position:
+  absolute; left: -5000px;\" aria-hidden=\"true\">\n            <input type=\"text\"
+  name=\"b_83d4ba1ee283549a420eb4637_b40bf8ee0d\" tabindex=\"-1\" value=\"\">\n        </div>\n
+  \   </form>\n</div>\n\n<div id=\"banner-gads_pre\"></div>\n\n<div class=\"banner
+  banner-gads gadblock gadblock_sidebar\" style=\"margin-left: auto; margin-right:
+  auto;\">\n<div class=\"AdvallyTag\" data-size=\"300x250\"></div>\n</div>\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</aside>\n\t\t\t\t<!--
+  XF END SIDEBAR -->\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t<div class=\"breadBoxBottom\">\n\n<nav>\n\t\n\n\t<fieldset
+  class=\"breadcrumb\" style=\"\">\n\t\t<a href=\"misc/quick-navigation-menu?selected=node-14\"
+  class=\"OverlayTrigger jumpMenuTrigger\" data-cacheoverlay=\"true\" title=\"Open
+  quick navigation\"><!--Jump to...--></a>\n\t\t\t\n\t\t<div class=\"boardTitle\"><strong>HomeBrewTalk.com
+  - Beer, Wine, Mead, &amp; Cider Brewing Discussion Community.</strong></div>\n\t\t\n\t\t<span
+  class=\"crumbs\">\n\t\t\t\n\t\t\t\t<span class=\"crust homeCrumb\">\n\t\t\t\t\t<a
+  href=\"https://www.homebrewtalk.com\" class=\"crumb\"><span>Home</span></a>\n\t\t\t\t\t<span
+  class=\"arrow\"><span></span></span>\n\t\t\t\t</span>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t<span
+  class=\"crust selectedTabCrumb\">\n\t\t\t\t\t<a href=\"https://www.homebrewtalk.com/forum/\"
+  class=\"crumb\"><span>Forums</span></a>\n\t\t\t\t\t<span class=\"arrow\"><span></span></span>\n\t\t\t\t</span>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<span
+  class=\"crust\">\n\t\t\t\t\t\t<a href=\"https://www.homebrewtalk.com/forum/#home-brewing-beer.10\"
+  class=\"crumb\"><span>Home Brewing Beer</span></a>\n\t\t\t\t\t\t<span class=\"arrow\"><span></span></span>\n\t\t\t\t\t</span>\n\t\t\t\t\n\t\t\t\t\t<span
+  class=\"crust\">\n\t\t\t\t\t\t<a href=\"https://www.homebrewtalk.com/forum/forums/general-homebrew-discussion.14/\"
+  class=\"crumb\"><span>General Homebrew Discussion</span></a>\n\t\t\t\t\t\t<span
+  class=\"arrow\"><span></span></span>\n\t\t\t\t\t</span>\n\t\t\t\t\n\t\t\t\n\t\t</span>\n\t</fieldset>\n\t\n\t\n</nav></div>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<!--
+  end main content area -->\t\t\t\n\t\t</div>\n\t</div>\n\t\n\t<!-- CUT FOOTER HERE
+  -->\n</div>\n\n<header>\n\t\n\n\n<div id=\"header\">\n\t<div id=\"logoBlock\">\n\t<div
+  class=\"pageWidth\">\n\t\t<div class=\"pageContent\">\n\t\t\t<div style=\"float:
+  right; margin: 5px 5px 0 0\"></div>\n\t\t\t\n\t\t\t<div id=\"logo\"><a href=\"https://www.homebrewtalk.com/forum/index.php\">\n\t\t\t\t<span></span>\n\t\t\t\t<img
+  src=\"/wp-content/themes/hbt/library/css/images/homebrewtalk_logo.svg\" alt=\"HomeBrewTalk.com
+  - Beer, Wine, Mead, &amp; Cider Brewing Discussion Community.\">\n\t\t\t</a></div>\n\t\t\t\n\t\t\t<span
+  class=\"helper\"></span>\n\t\t</div>\n\t</div>\n</div>\n\n\t\n\n<div id=\"searchBar\"
+  class=\"pageWidth\">\n\t\n\t<span id=\"QuickSearchPlaceholder\" title=\"Search\">Search</span>\n\t<fieldset
+  id=\"QuickSearch\">\n\t\t<form action=\"search/search\" method=\"post\" class=\"formPopup\">\n\t\t\t\n\t\t\t<div
+  class=\"primaryControls\">\n\t\t\t\t<!-- block: primaryControls -->\n\t\t\t\t<input
+  type=\"search\" name=\"keywords\" value=\"\" class=\"textCtrl\" placeholder=\"Search...\"
+  title=\"Enter your search and hit enter\" id=\"QuickSearchQuery\">\t\t\t\t\n\t\t\t\t<!--
+  end block: primaryControls -->\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"secondaryControls\">\n\t\t\t\t<div
+  class=\"controlsWrapper\">\n\t\t\t\t\n\t\t\t\t\t<!-- block: secondaryControls -->\n\t\t\t\t\t<dl
+  class=\"ctrlUnit\">\n\t\t\t\t\t\t<dt></dt>\n\t\t\t\t\t\t<dd><ul>\n\t\t\t\t\t\t\t<li><label><input
+  type=\"checkbox\" name=\"title_only\" value=\"1\" id=\"search_bar_title_only\" class=\"AutoChecker\"
+  data-uncheck=\"#search_bar_thread\"> Search titles only</label></li>\n\t\t\t\t\t\t</ul></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"ctrlUnit\">\n\t\t\t\t\t\t<dt><label for=\"searchBar_users\">Posted by Member:</label></dt>\n\t\t\t\t\t\t<dd>\n\t\t\t\t\t\t\t<input
+  type=\"text\" name=\"users\" value=\"\" class=\"textCtrl AutoComplete\" id=\"searchBar_users\"
+  autocomplete=\"off\">\n\t\t\t\t\t\t\t<p class=\"explain\">Separate names with a
+  comma.</p>\n\t\t\t\t\t\t</dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t\t\t<dl class=\"ctrlUnit\">\n\t\t\t\t\t\t<dt><label
+  for=\"searchBar_date\">Newer Than:</label></dt>\n\t\t\t\t\t\t<dd><input type=\"text\"
+  data-orig-type=\"date\" name=\"date\" value=\"\" class=\"textCtrl date\" id=\"searchBar_date\"></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<dl
+  class=\"ctrlUnit\">\n\t\t\t\t\t\t<dt></dt>\n\t\t\t\t\t\t<dd><ul>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><label
+  title=\"Search only Brew Boss Sous Vide\"><input type=\"checkbox\" name=\"type[post][thread_id]\"
+  value=\"663471\" id=\"search_bar_thread\" class=\"AutoChecker\" data-uncheck=\"#search_bar_title_only,
+  #search_bar_nodes\"> Search this thread only</label></li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><label
+  title=\"Search only General Homebrew Discussion\"><input type=\"checkbox\" name=\"nodes[]\"
+  value=\"14\" id=\"search_bar_nodes\" class=\"Disabler AutoChecker\" checked=\"checked\"
+  data-uncheck=\"#search_bar_thread\"> Search this forum only</label>\n\t<ul id=\"search_bar_nodes_Disabler\">\n\t\t<li><label><input
+  type=\"checkbox\" name=\"type[post][group_discussion]\" value=\"1\" id=\"search_bar_group_discussion\"
+  class=\"AutoChecker\" data-uncheck=\"#search_bar_thread\"> Display results as threads</label></li>\n\t</ul></li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</ul></dd>\n\t\t\t\t\t</dl>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<!--
+  end block: secondaryControls -->\n\t\t\t\t\n\t\t\t\t<dl class=\"ctrlUnit submitUnit\">\n\t\t\t\t\t<dt></dt>\n\t\t\t\t\t<dd>\n\t\t\t\t\t\t<input
+  type=\"submit\" value=\"Search\" class=\"button primary Tooltip\">\n\t\t\t\t\t\t<div
+  class=\"Popup\" id=\"commonSearches\">\n\t\t\t\t\t\t\t<a rel=\"Menu\" class=\"button
+  NoPopupGadget Tooltip PopupControl\" data-tipclass=\"flipped\"><span class=\"arrowWidget\"></span></a>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<a
+  href=\"search/\" class=\"button moreOptions Tooltip\">More...</a>\n\t\t\t\t\t</dd>\n\t\t\t\t</dl>\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t\t<input
+  type=\"hidden\" name=\"_xfToken\" value=\"\">\n\t\t</form>\t\t\n\t</fieldset>\n\t\n</div>\n\t\n\n<div
+  id=\"navigation\">\n<div class=\"pageWidth\">\n\t<div class=\"pageContent\">\n\t\t<nav>\n\n<div
+  class=\"navTabs\">\n\t<ul class=\"publicTabs\">\n\t\n\t\t<!-- home -->\n\t\t\n\t\t\t<li
+  class=\"navTab home PopupClosed\"><a href=\"https://www.homebrewtalk.com\" class=\"navLink\">Home</a></li>\n\t\t\n\t\t\n\t\t\n\t\t<!--
+  extra tabs: home -->\n\t\t\n\n\t\t\n\t\t\n\t\t<!-- forums -->\n\t\t\n\t\t\t<li class=\"navTab
+  forums selected\">\n\t\t\t\n\t\t\t\t<a href=\"https://www.homebrewtalk.com/forum/\"
+  class=\"navLink\">Forums</a>\n\t\t\t\t<a href=\"https://www.homebrewtalk.com/forum/\"
+  class=\"SplitCtrl\" rel=\"Menu\"></a>\n\t\t\t\t\n\t\t\t\t<div class=\"tabLinks forumsTabLinks\">\n\t\t\t\t\t<div
+  class=\"primaryContent menuHeader\">\n\t\t\t\t\t\t<h3>Forums</h3>\n\t\t\t\t\t\t<div
+  class=\"muted\">Quick Links</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<ul class=\"secondaryContent
+  blockLinksList\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<li><a href=\"find-new/posts\"
+  rel=\"nofollow\">Recent Posts</a></li>\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t</li>\n\t\t\n\n\t\t\t<li
+  class=\"navTab PopupClosed\">\n\t\t\t\t<a href=\"categories/54/\" class=\"navLink\">Recipes</a>\n\t\t\t</li>\t\t\n\t\t\n\t\t<!--
+  extra tabs: middle -->\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t<li class=\"navTab xengallery
+  Popup PopupControl PopupClosed PopupContainerControl\">\n\t\t\t\n\t\t\t\t<a href=\"https://www.homebrewtalk.com/forum/media/\"
+  class=\"navLink\">Media</a>\n\t\t\t\t<a href=\"https://www.homebrewtalk.com/forum/media/\"
+  class=\"SplitCtrl\" rel=\"Menu\"></a>\n\t\t\t\t\n\t\t\t\t\n\t\t\t</li>\n\t\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t<!--
+  members -->\n\t\t<!--\n\t\t\t<li class=\"navTab members Popup PopupControl PopupClosed\">\n\t\t\t\n\t\t\t\t<a
+  href=\"https://www.homebrewtalk.com/forum/members/\" class=\"navLink\">Members</a>\n\t\t\t\t<a
+  href=\"https://www.homebrewtalk.com/forum/members/\" class=\"SplitCtrl\" rel=\"Menu\"></a>\n\t\t\t\t\n\t\t\t\t<div
+  class=\"Menu JsOnly tabMenu membersTabLinks\">\n\t\t\t\t\t<div class=\"primaryContent
+  menuHeader\">\n\t\t\t\t\t\t<h3>Members</h3>\n\t\t\t\t\t\t<div class=\"muted\">Quick
+  Links</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<ul class=\"secondaryContent blockLinksList\">\n\t\t\t\t\t\n\t\t\t\t\t\t<li><a
+  href=\"members/\">Notable Members</a></li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<li><a href=\"online/\">Current
+  Visitors</a></li>\n\t\t\t\t\t\t<li><a href=\"recent-activity/\">Recent Activity</a></li>\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t</li>\n\t\t-->\t\t\t\t\n\t\t\n\t\t<!--
+  extra tabs: end -->\n\t\t\n\t\t\n\t\t<li class=\"navTab PopupClosed\">\n\t\t\t\t<a
+  href=\"/official-homebrew-talk-sponsors.html\" class=\"navLink\">Sponsors</a>\n\t\t\t</li>\n\t\t\n\t\t<li
+  class=\"navTab PopupClosed\">\n\t\t\t\t<a href=\"/topics/articles/brew-rigs\" class=\"navLink\">Brew
+  Rigs</a>\n\t\t\t</li>\n\t\t\t\n\t\t<li class=\"navTab PopupClosed\"><a href=\"https://www.brewersfriend.com/#a_aid=596d85b5a5115\"
+  rel=\"nofollow\" class=\"navLink\">Brewing Software</a></li>\n\n\t\t<!-- responsive
+  popup -->\n\t\t<li class=\"navTab navigationHiddenTabs Popup PopupControl PopupClosed
+  PopupContainerControl\" style=\"display: none;\">\t\n\t\t\t\t\t\t\n\t\t\t<a rel=\"Menu\"
+  class=\"navLink NoPopupGadget\"><span class=\"menuIcon\">Menu</span></a>\n\t\t\t\n\t\t\t\n\t\t</li>\n\t\t\t\n\t\t\n\t\t<!--
+  no selection -->\n\t\t\n\t\t\n\t\t\n\t</ul>\n\t\n\t\n</div>\n\n<span class=\"helper\"></span>\n\t\t\t\n\t\t</nav>\t\n\t</div>\n\t\n\t</div>\n\t\n</div>\n</div>\n\n\t\n\t\n</header>\n\n</div>\n\n<footer>\n\t\n\n\n<div
+  class=\"footer\">\n\t<div class=\"pageWidth\">\n\t\t<div class=\"pageContent\">\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t<ul
+  class=\"footerLinks\">\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<a href=\"misc/contact\"
+  class=\"OverlayTrigger\" data-overlayoptions=\"{&quot;fixed&quot;:false}\">Contact
+  Us</a>\n\t\t\t\t\n\t\t\t\t<li><a href=\"https://www.homebrewtalk.com\" class=\"homeLink\">Home</a></li>\n\t\t\t\t<li><a
+  href=\"help/\">Help</a></li>\n\t\t\t\t<li><a href=\"https://www.homebrewtalk.com/tos/\">Terms
+  and Rules</a></li>\n\t\t\t\t\n\t\t\t\t<li><a href=\"/forum/threads/brew-boss-sous-vide.663471/#navigation\"
+  class=\"topLink\">Top</a></li>\n\t\t\t\t\n\t\t\t\t<li><a href=\"forums/-/index.rss\"
+  rel=\"alternate\" class=\"globalFeed\" target=\"_blank\" title=\"RSS feed for HomeBrewTalk.com
+  - Beer, Wine, Mead, &amp; Cider Brewing Discussion Community.\">RSS</a></li>\n\t\t\t\n\t\t\t</ul>\n\t\t\t\n\t\t\t\n\t\t\t<span
+  class=\"helper\"></span>\n\t\t</div>\n\t</div>\n</div>\n\n<div class=\"footerLegal\">\n\t<div
+  class=\"pageWidth\">\n\t\t<div class=\"pageContent\">\n\t\t\n\t\t\t<div id=\"copyright\">\n\t\t\t\t<a
+  href=\"https://xenforo.com\" class=\"concealed\">Forum software by XenForo™ <span>©2010-2017
+  XenForo Ltd.</span></a> \n\t\t\t\t<a href=\"http://brivium.com/xenforo-add-ons\"
+  title=\"Brivium XenForo Add-ons\">XenForo Add-ons</a> &amp; <a href=\"http://brivium.com/xenforo-styles\"
+  title=\"Brivium XenForo Style\">XenForo Styles</a> ™ © 2012-2016 Brivium LLC.\n\t\t\t</div>\n\t\t\t\n<div
+  class=\"xcfw_copyright\"><a href=\"http://xencentral.com\" target=\"_blank\">Feedback
+  System by XenCentral.com</a></div>\n\t\t\t\t\n\t\t\n\t\t\t<ul id=\"legal\">\n\t\t\t\n\t\t\t\n\t\t\t\t<li><a
+  href=\"https://www.homebrewtalk.com/tos/\">Terms and Rules</a></li>\n\t\t\t\t\n\t\t\t\n\t\t\t<li>\n\t\t\t\t<ul
+  class=\"footerLinks\">\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<li><a href=\"misc/contact\"
+  class=\"OverlayTrigger\" data-overlayoptions=\"{&quot;fixed&quot;:false}\">Contact
+  Us</a></li>\n\t\t\t\t\n\t\t\t\t<li><a href=\"help/\">Help</a></li>\n\t\t\t\t<li><a
+  href=\"https://www.homebrewtalk.com\" class=\"homeLink\">Home</a></li>\n\t\t\t\t<li><a
+  href=\"/forum/threads/brew-boss-sous-vide.663471/#navigation\" class=\"topLink\">Top</a></li>\n\t\t\t\t<li><a
+  href=\"forums/-/index.rss\" rel=\"alternate\" class=\"globalFeed\" target=\"_blank\"
+  title=\"RSS feed for HomeBrewTalk.com - Beer, Wine, Mead, &amp; Cider Brewing Discussion
+  Community.\">RSS</a></li>\n\t\t\t\n\t\t\t</ul>\n\t\t\t</li>\n\t\t\t</ul>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<span
+  class=\"helper\"></span>\n\t\t</div>\n\t</div>\t\n</div>\n\n\n<script type=\"text/javascript\">\n\n\t\t\twindow.hbt_xf_prefix_data
+  = {\"States\":{\"1\":\"Alabama\",\"3\":\"Alaska\",\"4\":\"Arizona\",\"5\":\"Arkansas\",\"6\":\"California\",\"7\":\"Colorado\",\"8\":\"Connecticut\",\"9\":\"Delaware\",\"10\":\"District
+  of Columbia\",\"12\":\"Florida\",\"16\":\"Georgia\",\"17\":\"Hawaii\",\"18\":\"Idaho\",\"19\":\"Illinois\",\"20\":\"Indiana\",\"21\":\"Iowa\",\"22\":\"Kansas\",\"23\":\"Kentucky\",\"24\":\"Louisiana\",\"26\":\"Maine\",\"30\":\"Maryland\",\"31\":\"Massachusetts\",\"32\":\"Michigan\",\"33\":\"Minnesota\",\"34\":\"Mississippi\",\"35\":\"Missouri\",\"36\":\"Montana\",\"37\":\"Nebraska\",\"38\":\"Nevada\",\"41\":\"New
+  Hampshire\",\"45\":\"New Jersey\",\"46\":\"New Mexico\",\"47\":\"New York\",\"48\":\"North
+  Carolina\",\"49\":\"North Dakota\",\"50\":\"Ohio\",\"51\":\"Oklahoma\",\"52\":\"Oregon\",\"53\":\"Pennsylvania\",\"55\":\"Rhode
+  Island\",\"59\":\"South Carolina\",\"60\":\"South Dakota\",\"61\":\"Tennessee\",\"62\":\"Texas\",\"63\":\"Utah\",\"64\":\"Vermont\",\"65\":\"Virginia\",\"66\":\"Washington\",\"67\":\"West
+  Virginia\",\"69\":\"Wisconsin\",\"73\":\"Wyoming\",\"74\":\"Canada\",\"75\":\"Other\"},\"Ale
+  Style\":{\"2\":\"Altbier\",\"13\":\"American Amber Ale\",\"27\":\"American Barleywine\",\"42\":\"American
+  Brown Ale\",\"56\":\"American IPA\",\"70\":\"American Pale Ale\",\"77\":\"American
+  Porter\",\"81\":\"American Stout\",\"85\":\"American Strong Ale\",\"90\":\"American
+  Wheat Beer\",\"93\":\"Australian Sparkling Ale\",\"96\":\"Baltic Porter\",\"99\":\"Belgian
+  Blond Ale\",\"102\":\"Belgian Dark Strong Ale\",\"105\":\"Belgian Dubbel\",\"111\":\"Belgian
+  Golden Strong Ale\",\"114\":\"Belgian Pale Ale\",\"118\":\"Belgian Tripel\",\"120\":\"Best
+  Bitter\",\"121\":\"Bi\\u00e8re de Garde\",\"123\":\"Blonde Ale\",\"126\":\"British
+  Brown Ale\",\"128\":\"British Golden Ale\",\"129\":\"British Strong Ale\",\"130\":\"California
+  Common\",\"131\":\"Cream Ale\",\"132\":\"Dark Mild\",\"133\":\"Double IPA\",\"134\":\"Dunkles
+  Weissbier\",\"135\":\"English Barleywine\",\"136\":\"English IPA\",\"138\":\"English
+  Porter\",\"140\":\"Foreign Extra Stout\",\"142\":\"Imperial Stout\",\"143\":\"Irish
+  Extra Stout\",\"144\":\"Irish Red Ale\",\"145\":\"Irish Stout\",\"146\":\"K\\u00f6lsch\",\"147\":\"Oatmeal
+  Stout\",\"148\":\"Old Ale\",\"149\":\"Ordinary Bitter\",\"151\":\"Saison\",\"152\":\"Scottish
+  Export\",\"153\":\"Scottish Heavy\",\"154\":\"Scottish Light\",\"155\":\"Specialty
+  IPA: Belgian IPA\",\"156\":\"Specialty IPA: Black IPA\",\"157\":\"Specialty IPA:
+  Brown IPA\",\"158\":\"Specialty IPA: Red IPA\",\"159\":\"Specialty IPA: Rye IPA\",\"160\":\"Specialty
+  IPA: White IPA\",\"162\":\"Strong Bitter\",\"163\":\"Sweet Stout\",\"164\":\"Trappist
+  Single\",\"165\":\"Tropical Stout\",\"166\":\"Wee Heavy\",\"167\":\"Weissbier\",\"168\":\"Weizenbock\",\"169\":\"Wheatwine\",\"171\":\"Witbier\"},\"Lager
+  Style\":{\"11\":\"American Lager\",\"25\":\"American Light Lager\",\"40\":\"Czech
+  Amber Lager\",\"54\":\"Czech Dark Lager\",\"68\":\"Czech Pale Lager\",\"76\":\"Czech
+  Premium Pale Lager\",\"80\":\"Doppelbock\",\"84\":\"Dunkles Bock\",\"89\":\"Eisbock\",\"92\":\"Festbier\",\"95\":\"German
+  Helles Exportbier\",\"98\":\"German Leichtbier\",\"101\":\"German Pils\",\"104\":\"Helles
+  Bock\",\"107\":\"International Amber Lager\",\"108\":\"International Dark Lager\",\"109\":\"International
+  Pale Lager\",\"110\":\"Kellerbier\",\"113\":\"M\\u00e4rzen\",\"116\":\"Munich Dunkel\",\"117\":\"Munich
+  Helles\",\"122\":\"Rauchbier\",\"125\":\"Schwarzbier\",\"127\":\"Vienna Lager\"},\"Sour
+  Style\":{\"14\":\"Berliner Weisse\",\"28\":\"Brett Beer\",\"39\":\"Flanders Red
+  Ale\",\"43\":\"Fruit Lambic\",\"57\":\"Gueuze\",\"71\":\"Lambic\",\"78\":\"Mixed-Fermentation
+  Sour Beer\",\"82\":\"Oud Bruin\",\"86\":\"Wild Specialty Beer\"},\"Specialty, Fruit,
+  Historical & Other\":{\"15\":\"Alternative Grain Beer\",\"29\":\"Alternative Sugar
+  Beer\",\"44\":\"Autumn Seasonal Beer\",\"58\":\"Classic Style Smoked Beer\",\"72\":\"Clone
+  Beer\",\"79\":\"Experimental Beer\",\"83\":\"Fruit and Spice Beer\",\"87\":\"Fruit
+  Beer\",\"88\":\"Historical Beers\",\"91\":\"Historical Beer: Gose\",\"94\":\"Historical
+  Beer: Kentucky Common\",\"97\":\"Historical Beer: Lichtenhainer\",\"100\":\"Historical
+  Beer: London Brown Ale\",\"103\":\"Historical Beer: Piwo Grodziskie\",\"106\":\"Historical
+  Beer: Pre-Prohibition Lager\",\"112\":\"Historical Beer: Pre-Prohibition Porter\",\"115\":\"Historical
+  Beer: Roggenbier\",\"119\":\"Historical Beer: Sahti\",\"124\":\"Mixed-Style Beer\",\"137\":\"Specialty
+  Fruit Beer\",\"139\":\"Specialty Smoked Beer\",\"141\":\"Specialty Wood-Aged Beer\",\"150\":\"Spice,
+  Herb, or Vegetable Beer\",\"161\":\"Winter Seasonal Beer\",\"170\":\"Wood-Aged Beer\"}};\n\t\t\twindow.hbt_xf_selected_prefix
+  = -1\n\n\t\t\tif ( $( '.hbt_xf_prefix_dropdown' ).length > 0 ) {\n\n\t\t\t\tprefix_group
+  = $( '.hbt_xf_prefix_dropdown' ).data('prefix-group');\n\n\t\t\t\tcontainer = $(
+  '<div class=\"prefix_filter_container\" style=\"display: inline-block;padding: 6px
+  12px;\">Filter by style: </div>' );\n\t\t\t\tselect = $( '<select class=\"prefix_filter_select\"></select>'
+  );\n\n\t\t\t\tselect.append( '<option value=\"\">--</option>' );\n\n\t\t\t\t$.each(
+  window.hbt_xf_prefix_data[prefix_group], function ( index, value ) {\n\n\t\t\t\t\tselect.append(
+  '<option value=\"' + index + '\">' + value + '</option>' );\n\n\t\t\t\t});\n\n\t\t\t\tcontainer.append(
+  select );\n\n\t\t\t\t$( '.pageNavLinkGroup' ).append( container );\n\n\t\t\t\t$(
+  '.prefix_filter_select' ).val( window.hbt_xf_selected_prefix );\n\n\t\t\t\t$( '.prefix_filter_select'
+  ).change( function() {\n\n\t\t\t\t\tprefix_id = $( '.prefix_filter_select' ).val();\n\n\t\t\t\t\tif
+  ( prefix_id != '' ) {\n\t\t\t\t\t\tdocument.location = document.location.href.replace(
+  /\\?.*/g, '' ) + '?prefix_id=' + prefix_id;\n\t\t\t\t\t}\n\t\t\t\t\telse {\n\t\t\t\t\t\tdocument.location
+  = document.location.href.replace( /\\?.*/g, '' );\n\t\t\t\t\t}\n\n\t\t\t\t});\n\n\t\t
+  \ }\n\n</script>\n\n\n\n\n</footer>\n\n<div id=\"gb_adb\" style=\"display: none;\">\n\t<div>\n\t\t<h2>Support
+  Homebrew Talk</h2>\n\t\t<p>Thank you for visiting Homebrew Talk. Ads help to support
+  this site and we would appreciate if you would turn off AdBlocker for Homebrew Talk.
+  To do that, click on the AdBlock icon and disable it for Homebrew Talk.</p>\n\t\t<p>Hate
+  ads? Become a supporting member instead. Supporting members have ability to turn
+  off most advertisements among other benefits, such as Supporting Member moniker,
+  access to private forums, unlimited attachment and private message space.</p>\n\t\t<p
+  class=\"gb_adb-buttons\">\n\t\t\t<a id=\"gb_adb-supporting\" href=\"https://www.homebrewtalk.com/forum/account/upgrades\">Become
+  a Supporting Member</a>\n\t\t\t<a id=\"gb_adb-turn_off\" href=\"/\">AdBlocker Turned
+  Off for HBT</a>\n\t\t</p>\n\t\t<p><a id=\"gb_adb-no\" href=\"/\">Continue without
+  supporting Homebrew Talk</a></p>\n\t</div>\n</div>\n\n<div id=\"join_hbt_pop_up\"
+  style=\"display: none;\">\n\t<div class=\"join_hbt-border\">\n\t\t<div class=\"join_hbt-inner\">\n\t\t\t<div
+  class=\"join_hbt-inner-logo\"></div>\n\t\t\t<i class=\"spu-icon spu-icon-close\"></i>\n\t\t\t<a
+  class=\"button join_hbt-inner-button\" href=\"/forum/login/login\" title=\"Sign
+  Up Now\">Sign Up Now</a>\n\t\t</div>\n\t</div>\n</div>\n\n<div id=\"subscribe_hbt_pop_up\"
+  style=\"display: none;\">\n\t<div class=\"subscribe_hbt-border\">\n\t\n\t\t<form
+  style=\"height: 100%; width: 100%; max-width: 700px; margin: 0px; text-align: center;
+  padding-bottom: 0px;\" action=\"https://homebrewtalk.us12.list-manage.com/subscribe/post?u=83d4ba1ee283549a420eb4637&amp;id=b40bf8ee0d\"
+  method=\"post\" id=\"mc-embedded-subscribe-form-2\" name=\"mc-embedded-subscribe-form\"
+  class=\"validate spu-disable-ajax\" target=\"_blank\" novalidate=\"\">\n\t\t\t\n\t\t\t<div
+  class=\"subscribe_hbt-inner\">\n\t\t\t\t<i class=\"spu-icon spu-icon-subscribe-close\"></i>\n\t\t\t\t<h5
+  class=\"subscribe_hbt-title\">Subscribe to get the latest articles directly to your
+  inbox!</h5>\n\t\t\t\t<div class=\"subscribe_hbt-img\"><img class=\"newsletter_popup_envelope\"
+  src=\"/wp-content/themes/hbt/library/css/images/newsletter-icon.png\" alt=\"\"></div>\n\t\t\t\t<div
+  class=\"subscribe_hbt-it\" style=\"text-align: left; vertical-align: middle;\"><span
+  class=\"newsletter_label\">Enter your email: </span><input id=\"newsletter_popup_email_input\"
+  type=\"text\" value=\"\" name=\"EMAIL\" class=\"required email\" placeholder=\"name@email.com\"></div>\n\t\t\t\t<div
+  class=\"subscribe_hbt-st\"><input id=\"newsletter_popup_button_updated\" type=\"submit\"
+  value=\"Subscribe\" onclick=\"document.getElementById('mc-embedded-subscribe-form-2').submit();
+  return false;\"></div>\n\t\t\t\t<div style=\"position: absolute; left: -5000px;\"
+  aria-hidden=\"true\">\n\t                <input type=\"text\" name=\"b_83d4ba1ee283549a420eb4637_b40bf8ee0d\"
+  tabindex=\"-1\" value=\"\">\n\t            </div>\n\t\t\t</div>\n\t\t</form>\n\t</div>\n</div>\n\n<script>\n\n\njQuery.extend(true,
+  XenForo,\n{\n\tvisitor: { user_id: 0 },\n\tserverTimeInfo:\n\t{\n\t\tnow: 1552925771,\n\t\ttoday:
+  1552867200,\n\t\ttodayDow: 1\n\t},\n\t_lightBoxUniversal: \"0\",\n\t_enableOverlays:
+  \"1\",\n\t_animationSpeedMultiplier: \"1\",\n\t_overlayConfig:\n\t{\n\t\ttop: \"10%\",\n\t\tspeed:
+  200,\n\t\tcloseSpeed: 100,\n\t\tmask:\n\t\t{\n\t\t\tcolor: \"rgb(255, 255, 255)\",\n\t\t\topacity:
+  \"0.6\",\n\t\t\tloadSpeed: 200,\n\t\t\tcloseSpeed: 100\n\t\t}\n\t},\n\t_ignoredUsers:
+  [],\n\t_loadedScripts: {\"bb_code\":true,\"thread_view\":true,\"message\":true,\"message_user_info\":true,\"likes_summary\":true,\"share_page\":true,\"wf_default\":true,\"login_bar\":true,\"notices\":true,\"panel_scroller\":true,\"xengallery_tab_links\":true,\"xcfw_copyright\":true},\n\t_cookieConfig:
+  { path: \"/\", domain: \"\", prefix: \"xf_\"},\n\t_csrfToken: \"\",\n\t_csrfRefreshUrl:
+  \"login/csrf-token-refresh\",\n\t_jsVersion: \"da9e6ffd\",\n\t_noRtnProtect: false,\n\t_noSocialLogin:
+  false\n});\njQuery.extend(XenForo.phrases,\n{\n\txengallery_lightbox_loading:\t\"Loading...\",\n\txengallery_lightbox_close:\t\"Close
+  (Esc)\",\n\txengallery_lightbox_previous:\t\"Previous (Left arrow key)\",\n\txengallery_lightbox_next:\t\"Next
+  (Right arrow key)\",\n\txengallery_lightbox_counter:\t\"%curr% of %total%\",\n\txengallery_lightbox_error:\t\"The
+  <a href=\\\"%url%\\\">media<\\/a> could not be loaded.\",\n\txengallery_touch_error:\t\t\"This
+  operation will not work from a touch enabled device.\",\n\tcancel: \"Cancel\",\n\n\ta_moment_ago:
+  \   \"A moment ago\",\n\tone_minute_ago:  \"1 minute ago\",\n\tx_minutes_ago:   \"%minutes%
+  minutes ago\",\n\ttoday_at_x:      \"Today at %time%\",\n\tyesterday_at_x:  \"Yesterday
+  at %time%\",\n\tday_x_at_time_y: \"%day% at %time%\",\n\n\tday0: \"Sunday\",\n\tday1:
+  \"Monday\",\n\tday2: \"Tuesday\",\n\tday3: \"Wednesday\",\n\tday4: \"Thursday\",\n\tday5:
+  \"Friday\",\n\tday6: \"Saturday\",\n\n\t_months: \"January,February,March,April,May,June,July,August,September,October,November,December\",\n\t_daysShort:
+  \"Sun,Mon,Tue,Wed,Thu,Fri,Sat\",\n\n\tfollowing_error_occurred: \"The following
+  error occurred\",\n\tserver_did_not_respond_in_time_try_again: \"The server did
+  not respond in time. Please try again.\",\n\tlogging_in: \"Logging in\",\n\tclick_image_show_full_size_version:
+  \"Click this image to show the full-size version.\",\n\tshow_hidden_content_by_x:
+  \"Show hidden content by {names}\"\n});\n\n// Facebook Javascript SDK\nXenForo.Facebook.appId
+  = \"\";\nXenForo.Facebook.forceInit = true;\n\n\n</script>\n\n<script type=\"text/javascript\"
+  src=\"//s.skimresources.com/js/82483X1534110.skimlinks.js\"></script>\n\n<script>\n\t$(window).scroll(function
+  () {\n\n\t        if( $(window).scrollTop() > $('#content').offset().top && !($('.sidebar').hasClass('sticky')))
+  {\n\t            $('.sidebar').addClass('fixed');\n\t        } else {\n\t            $('.sidebar').removeClass('fixed');\n\t
+  \       }\n\n\t});\n\t\n\t$(window).scroll(function () {\n\n\t        if( $(window).scrollTop()
+  > $('#banner-gads_pre').offset().top && !($('.banner-gads').hasClass('sticky')))
+  {\n\t            $('.banner-gads').addClass('fixed');\n\t        } else {\n\t            $('.banner-gads').removeClass('fixed');\n\t
+  \       }\n\n\t});\n</script>\n\n<script>\n\tif( $('html').hasClass(\"xf_disable_ads\")
+  ) {\n\t\t$( \".adpage_wrapper\" ).remove();\n\t} else if( $('html').hasClass(\"xf_disable_sidebar\")
+  ) {\n\t\t$( \".sidebar .banner-gads\" ).remove();\n\t}\n</script>\n\n<script>\n\t$(window).scroll(function
+  () {\n\n\t        if( $(window).scrollTop() > $('#adabove_narrow_wrapper').offset().top
+  && !($('#adabove_narrow_fixed').hasClass('sticky')) && !($('.redactor_box').hasClass('focused'))
+  ) {\n\t            $('#adabove_narrow_fixed').addClass('sticky');\n\t            $('#adabove_narrow_wrapper').addClass('sticky');\n\t
+  \       } else if ( $(window).scrollTop() <= $('#adabove_narrow_wrapper').offset().top
+  && $('#adabove_narrow_fixed').hasClass('sticky') ) {\n\t            $('#adabove_narrow_fixed').removeClass('sticky');\n\t
+  \           $('#adabove_narrow_wrapper').removeClass('sticky');\n\t        } else
+  if ( $(window).height() < 400 && $(\".redactor_box\").hasClass('focused') ) {\n\t
+  \           $('#adabove_narrow_fixed').removeClass('sticky');\n\t            $('#adabove_narrow_wrapper').removeClass('sticky');\n\t
+  \       }\n\n\t});\n\n</script>\n\n<script>\n\n\t\n\n</script>\n\n<!-- Start of
+  the join HBT pop-up -->\n\n\n\n\t<script type=\"text/javascript\">\n\t\n\t\tif (
+  $( \"#main\" ).length ) {\n\t\t\n\t\t\tfunction createCookie(name,value,days) {\n\t\t\t
+  \   if (days) {\n\t\t\t        var date = new Date();\n\t\t\t        date.setTime(date.getTime()+(days*24*60*60*1000));\n\t\t\t
+  \       var expires = \"; expires=\"+date.toGMTString();\n\t\t\t    }\n\t\t\t    else
+  var expires = \"\";\n\t\t\t    document.cookie = name+\"=\"+value+expires+\"; path=/\";\n\t\t\t}\n\t\t\n\t\t\tfunction
+  readCookie(name) {\n\t\t\t    var nameEQ = name + \"=\";\n\t\t\t    var ca = document.cookie.split(';');\n\t\t\t
+  \   for(var i=0;i < ca.length;i++) {\n\t\t\t        var c = ca[i];\n\t\t\t        while
+  (c.charAt(0)==' ') c = c.substring(1,c.length);\n\t\t\t        if (c.indexOf(nameEQ)
+  == 0) return c.substring(nameEQ.length,c.length);\n\t\t\t    }\n\t\t\t    return
+  null;\n\t\t\t}\n\t\t\n\t\t\t// Show the pop up if the user is not logged in and
+  the pop up was not closed before\n\t\t\tvar subscribe_hbt_pop_up = readCookie('subscribe_hbt_pop_up');\n\t\t\tif
+  (subscribe_hbt_pop_up != \"closed\") {\n\t\t\t\t$(\"#subscribe_hbt_pop_up\").delay(15000).fadeIn(700);\n\t\t\t}\n\t\t\n\t\t\t$(
+  \".spu-icon-subscribe-close\" ).mouseup(function() {\n\t\t\t\tcreateCookie('subscribe_hbt_pop_up',
+  \"closed\", 14);\n\t\t\t\t$(\"#subscribe_hbt_pop_up\").hide();\n\t\t\t});\n\t\t\t\n\t\t\t$(
+  \"#newsletter_popup_button_updated\" ).mouseup(function() {\n\t\t\t\tcreateCookie('subscribe_hbt_pop_up',
+  \"closed\", 360);\n\t\t\t\t$(\"#subscribe_hbt_pop_up\").hide();\n\t\t\t});\n\t\t\n\t\t}
+  else {\n\t\n\t\t\tfunction createCookie(name,value,days) {\n\t\t\t    if (days)
+  {\n\t\t\t        var date = new Date();\n\t\t\t        date.setTime(date.getTime()+(days*24*60*60*1000));\n\t\t\t
+  \       var expires = \"; expires=\"+date.toGMTString();\n\t\t\t    }\n\t\t\t    else
+  var expires = \"\";\n\t\t\t    document.cookie = name+\"=\"+value+expires+\"; path=/\";\n\t\t\t}\n\t\t\n\t\t\tfunction
+  readCookie(name) {\n\t\t\t    var nameEQ = name + \"=\";\n\t\t\t    var ca = document.cookie.split(';');\n\t\t\t
+  \   for(var i=0;i < ca.length;i++) {\n\t\t\t        var c = ca[i];\n\t\t\t        while
+  (c.charAt(0)==' ') c = c.substring(1,c.length);\n\t\t\t        if (c.indexOf(nameEQ)
+  == 0) return c.substring(nameEQ.length,c.length);\n\t\t\t    }\n\t\t\t    return
+  null;\n\t\t\t}\n\t\t\n\t\t\t// Show the pop up if the user is not logged in and
+  the pop up was not closed before\n\t\t\tvar join_hbt_pop_up = readCookie('join_hbt_pop_up');\n\t\t\tif
+  (join_hbt_pop_up != \"closed\") {\n\t\t\t\t$(\"#join_hbt_pop_up\").delay(15000).fadeIn(700);\n\t\t\t}\n\t\t\n\t\t\t$(
+  \".spu-icon-close\" ).mouseup(function() {\n\t\t\t\tcreateCookie('join_hbt_pop_up',
+  \"closed\", 14);\n\t\t\t\t$(\"#join_hbt_pop_up\").hide();\n\t\t\t});\n\t\t\t\n\t\t\t$(
+  \".join_hbt-inner-button\" ).mouseup(function() {\n\t\t\t\tcreateCookie('join_hbt_pop_up',
+  \"closed\", 14);\n\t\t\t\t$(\"#join_hbt_pop_up\").hide();\n\t\t\t});\n\t\t}\n\t\n\t</script>\n\n\n\n<!--
+  End of the join HBT pop-up -->\n<script>\n$(document).ready(function()\n{\n\t$(\"#BRCopyright\").remove();\n});\n</script>\n\n\n\n\n\n<div
+  id=\"calroot\" style=\"display: none; position: absolute;\"><div id=\"calhead\"><a
+  id=\"calprev\">←</a><div id=\"caltitle\"></div><a id=\"calnext\">→</a></div><div
+  id=\"calbody\"><div id=\"caldays\"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div><div
+  id=\"calweeks\"></div></div></div><div class=\"Menu\" id=\"XenForoUniq0\">\n\t\t\t\t\t\t\t\t<div
+  class=\"primaryContent menuHeader\">\n\t\t\t\t\t\t\t\t\t<h3>Useful Searches</h3>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<ul
+  class=\"secondaryContent blockLinksList\">\n\t\t\t\t\t\t\t\t\t<!-- block: useful_searches
+  -->\n\t\t\t\t\t\t\t\t\t<li><a href=\"find-new/posts?recent=1\" rel=\"nofollow\">Recent
+  Posts</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<!-- end block: useful_searches
+  -->\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div><div class=\"Menu JsOnly tabMenu
+  xengalleryTabLinks\" id=\"XenForoUniq1\">\n\t\t\t\t\t<div class=\"primaryContent
+  menuHeader\">\n\t\t\t\t\t\t<h3>Media</h3>\n\t\t\t\t\t\t<div class=\"muted\">Quick
+  Links</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\n<ul class=\"secondaryContent blockLinksList
+  xengallery\">\n\t\n\t\n\t\t<li><a href=\"search/?type=xengallery_media\">Search
+  Media</a></li>\n\t\n\t\n\t\n\t\t\n\t\t\n\t\n\t<li><a href=\"find-new/media\" rel=\"nofollow\">New
+  Media</a></li>\n</ul>\n\t\t\t\t</div><div class=\"Menu JsOnly blockLinksList primaryContent\"
+  id=\"NavigationHiddenMenu\"></div><iframe scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\"
+  src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=https%3A%2F%2Fwww.homebrewtalk.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
+  title=\"Twitter settings iframe\" style=\"display: none;\"></iframe><div id=\"fb-root\"
+  class=\" fb_reset\"><div style=\"position: absolute; top: -10000px; width: 0px;
+  height: 0px;\"><div><iframe name=\"fb_xdm_frame_https\" frameborder=\"0\" allowtransparency=\"true\"
+  allowfullscreen=\"true\" scrolling=\"no\" allow=\"encrypted-media\" id=\"fb_xdm_frame_https\"
+  aria-hidden=\"true\" title=\"Facebook Cross Domain Communication Frame\" tabindex=\"-1\"
+  src=\"https://staticxx.facebook.com/connect/xd_arbiter/r/d_vbiawPdxB.js?version=44#channel=f13ffa246798904&amp;origin=https%3A%2F%2Fwww.homebrewtalk.com\"
+  style=\"border: none;\"></iframe></div></div></div><div id=\"fb-root\"></div></body></html>"

@@ -1,0 +1,680 @@
+---
+:url: https://www.npr.org/sections/thesalt/2018/05/09/608308624/the-colonel-in-the-kitchen-a-surprising-history-of-sous-vide
+:body: "<!DOCTYPE html><html class=\" js no-touch csstransforms3d video audio\" lang=\"en\"
+  style=\"\"><head><script>\n   try {var _sf_startpt=(new Date()).getTime();} catch(e){}\n</script>\n<meta
+  itemscope=\"\" itemtype=\"https://schema.org/SpeakableSpecification\" itemref=\"speakable\"><title>Sous-Vide
+  Cooking Has Many Fathers, Including A Retired Army Colonel : The Salt : NPR</title><meta
+  id=\"speakable\" itemprop=\"cssSelector\" content=\"[data-is-speakable]\"><meta
+  id=\"google-site-verification\" name=\"google-site-verification\" content=\"1VqzbDm4ukeFVHOoq5LjIKA2fVKZD-EYv8cXZhKXSfU\"><meta
+  charset=\"utf-8\"><meta name=\"robots\" content=\"noarchive,index,follow\"><meta
+  name=\"Rating\" content=\"General\"><meta name=\"viewport\" content=\"width=device-width,
+  initial-scale=1, shrink-to-fit=no\"><meta name=\"npr-pjax\"><meta name=\"date\"
+  content=\"2018-05-09\"><style></style><link rel=\"canonical\" href=\"https://www.npr.org/sections/thesalt/2018/05/09/608308624/the-colonel-in-the-kitchen-a-surprising-history-of-sous-vide\"><meta
+  name=\"description\" content=\"Cooking food in a vacuum-sealed bag in a hot water
+  bath is the height of haute cuisine. But an ex-Army colonel testing tastier hospital
+  food seems to have had a lot to do with developing sous vide.\"><link rel=\"alternate\"
+  type=\"application/rss+xml\" title=\"Food\" href=\"/rss/rss.php?id=1053\"><link
+  rel=\"alternate\" type=\"application/rss+xml\" title=\"The Salt\" href=\"/rss/rss.php?id=139941248\"><link
+  rel=\"alternate\" type=\"application/json\" title=\"Food\" href=\"https://www.npr.org/feeds/1053/feed.json\"><link
+  rel=\"alternate\" type=\"application/json\" title=\"The Salt\" href=\"https://www.npr.org/feeds/139941248/feed.json\"><link
+  rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"https://media.npr.org/templates/favicon/favicon-180x180.png\"><link
+  rel=\"icon\" sizes=\"96x96\" href=\"https://media.npr.org/templates/favicon/favicon-96x96.png\"><link
+  rel=\"icon\" sizes=\"32x32\" href=\"https://media.npr.org/templates/favicon/favicon-32x32.png\"><link
+  rel=\"icon\" sizes=\"16x16\" href=\"https://media.npr.org/templates/favicon/favicon-16x16.png\"><meta
+  property=\"og:title\" content=\"The Colonel In The Kitchen: A Surprising History
+  Of Sous Vide\"><meta property=\"og:url\" content=\"https://www.npr.org/sections/thesalt/2018/05/09/608308624/the-colonel-in-the-kitchen-a-surprising-history-of-sous-vide\"><meta
+  property=\"og:type\" content=\"article\"><meta property=\"og:description\" content=\"Cooking
+  food in a vacuum-sealed bag in a hot water bath is the height of haute cuisine.
+  But an ex-Army colonel testing tastier hospital food seems to have had a lot to
+  do with developing sous vide.\"><meta property=\"og:image\" content=\"https://media.npr.org/assets/img/2018/05/08/-a.g.s.-system_wide-888e803d2d4dbd3359e44fdad2f2ae01b1b35f45.jpg?s=1400\"><meta
+  property=\"og:site_name\" content=\"NPR.org\"><meta property=\"fb:app_id\" content=\"138837436154588\"><meta
+  property=\"fb:pages\" content=\"10643211755\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta
+  name=\"twitter:site\" content=\"@NPR\"><meta name=\"twitter:domain\" content=\"npr.org\"><meta
+  name=\"twitter:image:src\" content=\"https://media.npr.org/assets/img/2018/05/08/-a.g.s.-system_wide-888e803d2d4dbd3359e44fdad2f2ae01b1b35f45.jpg?s=1400\"><script
+  id=\"npr-vars\">\n   window.NPR = window.NPR || {};\nNPR.ServerConstants = {\"cbHost\":\"npr.org\",\"webHost\":\"https:\\/\\/www.npr.org\",\"embedHost\":\"https:\\/\\/www.npr.org\",\"webHostSecure\":\"https:\\/\\/secure.npr.org\",\"apiHost\":\"https:\\/\\/api.npr.org\",\"staticAssetHost\":\"https:\\/\\/s.npr.org\",\"serverMediaCache\":\"https:\\/\\/media.npr.org\",\"googleAnalyticsAccount\":\"UA-5828686-4\",\"nielsenSFCode\":\"dcr\",\"nielsenAPN\":\"NPR-dcr\",\"shouldShowHPLocalContent\":false};\nNPR.serverVars
+  = {\"storyId\":\"608308624\",\"facebookAppId\":\"138837436154588\",\"webpackPublicPath\":\"https:\\/\\/s.npr.org\\/templates\\/javascript\\/dist\\/bundles\\/\",\"persistenceVersion\":\"06019b233efc4ed1e3b5f10c8f17c389\",\"isBuildOut\":true,\"topicIds\":[\"P1053\",\"1002\",\"1003\",\"1007\",\"1019\"],\"primaryTopic\":\"Food\",\"topics\":[\"Food\",\"Home
+  Page Top Stories\",\"National\",\"Science\",\"Technology\"],\"blog\":\"The Salt\",\"theme\":\"139941248\",\"aggIds\":[\"1002\",\"1003\",\"1007\",\"1019\",\"1053\",\"126924306\",\"139941248\",\"152358408\",\"161357400\",\"333591135\",\"434975886\",\"609097209\",\"609097211\"],\"tagIds\":[\"South
+  Carolina\",\"cornell university\",\"cryovac\",\"hospital food\",\"sous vide\"],\"byline\":[\"Alice
+  Popovici\"],\"pubDate\":\"2018050914\",\"pageTypeId\":\"1\",\"title\":\"The Colonel
+  In The Kitchen: A Surprising History Of Sous Vide\",\"publisherOrgId\":\"1\",\"rocketfuelCode\":20501671};\n</script>\n<script
+  type=\"text/javascript\" src=\"https://cdn.optimizely.com/js/11107397707.js\">\n
+  \  </script>\n<script type=\"text/javascript\" src=\"https://s.npr.org/templates/javascript/lib/modernizr/modernizr.custom.js\">\n
+  \  </script>\n<script>\n   !function(e){function a(c){if(f[c])return f[c].exports;var
+  b=f[c]={exports:{},id:c,loaded:!1};return e[c].call(b.exports,b,b.exports,a),b.loaded=!0,b.exports}var
+  c=window.webpackJsonp;window.webpackJsonp=function(d,t){for(var n,r,o=0,i=[];o<d.length;o++)r=d[o],b[r]&&i.push.apply(i,b[r]),b[r]=0;for(n
+  in t){var s=t[n];switch(typeof s){case\"object\":e[n]=function(a){var c=a.slice(1),f=a[0];return
+  function(a,b,d){e[f].apply(this,[a,b,d].concat(c))}}(s);break;case\"function\":e[n]=s;break;default:e[n]=e[s]}}for(c&&c(d,t);i.length;)i.shift().call(null,a);if(t[0])return
+  f[0]=0,a(0)};var f={},b={26:0};a.e=function(e,c){if(0===b[e])return c.call(null,a);if(void
+  0!==b[e])b[e].push(c);else{b[e]=[c];var f=document.getElementsByTagName(\"head\")[0],d=document.createElement(\"script\");d.type=\"text/javascript\",d.charset=\"utf-8\",d.async=!0,d.src=a.p+\"\"+e+\".\"+{0:\"e7e3ff3b199cd1ac5df0\",1:\"0e1176d413990fcdbb88\",2:\"10b69c92522494a8b1f4\",3:\"10b3c609601c7eea0e70\",4:\"ab42c7f36b70f37d6bee\",5:\"180955a2fd18eab968c1\",6:\"e09c9605d310ad7a6133\",7:\"5c52d322e35f7079d36f\",8:\"b2ecb87834ef47d69662\",9:\"8364f096580585d73dce\",10:\"a6001988ed5ecb23b348\",11:\"0436388afbe17537811b\",12:\"007681a711f81dde3bfe\",13:\"f56dde14bb849ad340d4\",14:\"76267447aa0c198102a5\",15:\"7bb4fdc1bd5786173bb4\",16:\"477b768c6aabb5b3ce38\",17:\"e0a6ea2473f62cf308cd\",18:\"afc518746b19f242a2da\",19:\"fa26b0eb98c6a419dbb7\",20:\"044ec808247026891081\",21:\"fa273e9ad73ecbba1801\",22:\"3abe6455e82dfb22a280\",23:\"d45abdac15a04cf08a3f\",24:\"518906fb6395d1d1497b\",25:\"a98cbafe6e4378271f99\",27:\"a0a2410dbb8aa63d826b\",28:\"7038a150b2165c4688ef\",29:\"2332abd5ace2a04fa6ae\",30:\"2cf3a2d508403a427c28\",31:\"275420311ffe7d07f9d7\",32:\"8d877ad9b55e2b2dc25d\",33:\"143f450af09f71fd4e6c\",34:\"66b2b2a1e7fee063c6aa\",35:\"243caac93f1421cb3d94\",36:\"e216f75f665a539f4a88\",37:\"3c76bb8586b560b4b1dd\",38:\"4990bfa2afc8e09b864e\",39:\"6cea372f9962e143b5ed\",40:\"f12c6f21f40448885897\",41:\"7186ada44af37debfe5a\",42:\"d73cb2d6b0d15aacfeef\",43:\"7167f5ab1089cf4dfb85\",44:\"ccf4ca5fa914f5153328\",45:\"d0d658585ed64bd8e5a4\",46:\"09e5431d24c2fe063a48\",47:\"e184475618ab6f6cb5dc\",48:\"553dafeb06869c9f23b6\",49:\"bb52732be326e31e5ee6\",50:\"a31e06b72ec2e986f699\",51:\"727740d4d76f9cba14f7\",52:\"2f51b5c237e07f487260\",53:\"e8b4d72c1de82299ccf9\",54:\"d6d5e473deee1ac2842e\",55:\"6973698b78801460ea31\",56:\"0c851566969aca3f54c6\",57:\"7da99ba7a454500d3d29\",58:\"4863e0f9df930402ea80\",59:\"95d78391a53b1ef04cf6\",60:\"b403204e3c783626b6fa\",61:\"0a9aa1f2f90c73ef9c1f\",62:\"054e5e3510f13d31a11e\",63:\"419584d544383cc3530e\",64:\"89f07b6e2e3103d168eb\",65:\"fba919af15377095aca6\",66:\"9a40a8be0cc6bcf1a9c6\",67:\"eca273eb39d5b42dbf12\",68:\"feecc463376c1b661aa9\",69:\"63726b9354751452744f\",70:\"ef41d2dc15dbf3a2049a\",71:\"47d05ea6332fa150577f\",72:\"de1ccf199276d590f3ab\",73:\"b3d5c081e759e7acd587\",74:\"0b7058659894ce534f08\",75:\"a1eef5bb8463e6315f8c\",76:\"48ff64beb0ba562d65bc\",77:\"ba58ec657fe89b9f76e3\",78:\"9bf4e9130ddd3c511222\",79:\"fb1389248d16a65611c1\",80:\"60d3b0339e323ddc9e76\",81:\"8bc350970a8121d35054\",82:\"4660d33583c0c114e4e3\",83:\"6b377a72348b3e485825\",84:\"de1c31385a032436b4b9\",85:\"0e41a86c61ac9cd5ba15\",86:\"f428060f31dec8f51eb6\",87:\"428f075ea552db4d077c\"}[e]+\".chunk.js\",f.appendChild(d)}},a.m=e,a.c=f,a.p=\"/templates/javascript/dist/bundles/\"}(function(e){for(var
+  a in e)if(Object.prototype.hasOwnProperty.call(e,a))switch(typeof e[a]){case\"function\":break;case\"object\":e[a]=function(a){var
+  c=a.slice(1),f=e[a[0]];return function(e,a,b){f.apply(this,[e,a,b].concat(c))}}(e[a]);break;default:e[a]=e[e[a]]}return
+  e}([]));\n</script>\n<script type=\"text/javascript\" src=\"https://s.npr.org/templates/javascript/dist/bundles/globalNavigationDropdowns-7038a150b2165c4688ef.js\">\n
+  \  </script>\n<link rel=\"stylesheet\" data-persist=\"true\" media=\"screen, print\"
+  href=\"https://s.npr.org/templates/javascript/dist/bundles/persistent-css-59f55d125ec457521003.css\"><link
+  rel=\"stylesheet\" media=\"screen, print\" href=\"https://s.npr.org/templates/javascript/dist/bundles/newsStory-css-59f55d125ec457521003.css\"><link
+  rel=\"stylesheet\" media=\"screen\" href=\"https://s.npr.org/branding/sections/thesalt/branding.css\"><script
+  type=\"text/javascript\">\n   document.domain=\"npr.org\";\n</script>\n</head><body
+  id=\"news\" class=\"news tmplBlogNewsStory  story-layout is-buildout no-transcript
+  \ blog catId161357400 id608308624 \" data-pjax-modules=\"util/env images/lazy-load
+  chartbeat comscore metrics nielsen nielsenDCR rocketfuel copyright auto-refresh
+  navigation/global-navigation fitvids dfp globalfooter persistent-audio player/more-options
+  what-input metrics/doubleclickFloodlight metrics/facebookTracking story/replace-centerstage
+  ecommerce recommendations/end-of-story-recommendations-callout jw social/share slideshow
+  images/enlargement swfbuilder contentfooter story/sticky-header story/date-tooltip
+  callout/end-of-story-callout social/sharepop podcast-cards\" data-nav-overlay-menu-system=\"true\"><div
+  class=\"skip-links\">\n      <span>Accessibility links</span>   <ul>\n            <li><a
+  href=\"#mainContent\" class=\"skiplink\">Skip to main content</a></li>\n      <li><a
+  href=\"https://help.npr.org/customer/en/portal/articles/2535181-what-are-the-keyboard-shortcuts-for-using-the-npr-org-audio-player-\"
+  class=\"skiplink\">Keyboard shortcuts for audio player</a></li>\n   </ul>\n</div>\n<header
+  class=\"npr-header\" id=\"globalheader\" aria-label=\"NPR header\"><nav class=\"navigation\"
+  aria-label=\"main navigation\">\n    <div class=\"navigation__top-level-wrap\" data-metrics-all=\"\"
+  data-metrics-category=\"global navigation\">\n        <ul class=\"navigation__top-level\">\n
+  \           <li class=\"navigation__home\">\n                <a href=\"/\" data-metrics-action=\"click
+  npr logo\">\n                    <img src=\"https://media.npr.org/chrome_svg/npr-logo.svg\"
+  alt=\"NPR logo\">\n                </a>\n            </li>\n\n            <li id=\"navigation__station-mount\"></li>\n\n
+  \           <li id=\"user-account-dropdown-mount\" class=\"navigation__account\"></li>\n\n
+  \           <li class=\"navigation__shop\">\n                <a href=\"https://shop.npr.org\"
+  data-metrics-action=\"click npr shop\">Shop</a>\n            </li>\n\n            <li
+  id=\"navigation__station-donate-mount\"></li>\n\n            <li class=\"navigation__toggle-wrap\">\n
+  \               <button id=\"navigation__toggle--open\" class=\"navigation__toggle
+  navigation__toggle--open\" aria-haspopup=\"true\" aria-expanded=\"false\" data-metrics-action=\"open
+  navigation menu\">\n                    Open Navigation Menu\n                </button>\n
+  \           </li>\n        </ul>\n    </div>\n    <section id=\"main-menu\" class=\"menu
+  menu--main\" data-metrics-all=\"\" data-metrics-category=\"global navigation\">\n
+  \       <div class=\"menu__inner\">\n            <header class=\"menu__header\">\n
+  \               <button id=\"navigation__toggle--close\" class=\"navigation__toggle
+  navigation__toggle--close\" aria-haspopup=\"true\" aria-expanded=\"true\" data-metrics-action=\"close
+  navigation menu\">\n                    Close <span>Navigation Menu</span>\n                </button>\n
+  \           </header>\n            <ul class=\"menu__list\">\n                <li
+  class=\"menu__item menu__item--home\">\n                    <div class=\"menu__item-inner\"><a
+  href=\"/\" data-metrics-action=\"click npr logo\">Home</a></div>\n                </li>\n
+  \               <li class=\"menu__item menu__item--news menu__item--has-submenu\"
+  data-metrics-hover=\"toggle news drawer\">\n                    <div class=\"menu__item-inner\">\n
+  \                       <a href=\"/sections/news/\" data-metrics-action=\"click
+  news\">News</a>\n                        <button class=\"menu__toggle-submenu\"
+  data-metrics-action=\"toggle news drawer\" aria-haspopup=\"true\" aria-expanded=\"false\">Expand/collapse
+  submenu for News</button>\n                    </div>\n\n                    <ul
+  class=\"submenu submenu--news\">\n                        <li class=\"submenu__item\"><a
+  href=\"/sections/national/\" data-metrics-action=\"click national\">National</a></li>\n
+  \                       <li class=\"submenu__item\"><a href=\"/sections/world/\"
+  data-metrics-action=\"click world\">World</a></li>\n                        <li
+  class=\"submenu__item\"><a href=\"/sections/politics/\" data-metrics-action=\"click
+  politics\">Politics</a></li>\n                        <li class=\"submenu__item\"><a
+  href=\"/sections/business/\" data-metrics-action=\"click business\">Business</a></li>\n
+  \                       <li class=\"submenu__item\"><a href=\"/sections/health/\"
+  data-metrics-action=\"click health\">Health</a></li>\n                        <li
+  class=\"submenu__item\"><a href=\"/sections/science/\" data-metrics-action=\"click
+  science\">Science</a></li>\n                        <li class=\"submenu__item\"><a
+  href=\"/sections/technology/\" data-metrics-action=\"click technology\">Technology</a></li>\n
+  \                       <li class=\"submenu__item\"><a href=\"/sections/codeswitch/\"
+  data-metrics-action=\"click race &amp; culture\">Race &amp; Culture</a></li>\n                    </ul>\n
+  \               </li>\n                <li class=\"menu__item menu__item--arts-life
+  menu__item--has-submenu\" data-metrics-hover=\"toggle arts drawer\">\n                    <div
+  class=\"menu__item-inner\">\n                        <a href=\"/sections/arts/\"
+  data-metrics-action=\"click arts &amp; life\">Arts &amp; Life</a>\n                        <button
+  class=\"menu__toggle-submenu\" data-metrics-action=\"toggle arts drawer\" aria-haspopup=\"true\"
+  aria-expanded=\"false\">Expand/collapse submenu for Arts &amp; Life</button>\n                    </div>\n\n
+  \                   <ul class=\"submenu submenu--arts-life\">\n                        <li
+  class=\"submenu__item\"><a href=\"/books/\" data-metrics-action=\"click books\">Books</a></li>\n
+  \                       <li class=\"submenu__item\"><a href=\"/sections/movies/\"
+  data-metrics-action=\"click movies\">Movies</a></li>\n                        <li
+  class=\"submenu__item\"><a href=\"/sections/television/\" data-metrics-action=\"click
+  television\">Television</a></li>\n                        <li class=\"submenu__item\"><a
+  href=\"/sections/pop-culture/\" data-metrics-action=\"click pop culture\">Pop Culture</a></li>\n
+  \                       <li class=\"submenu__item\"><a href=\"/sections/food/\"
+  data-metrics-action=\"click food\">Food</a></li>\n                        <li class=\"submenu__item\"><a
+  href=\"/sections/art-design/\" data-metrics-action=\"click art &amp; design\">Art
+  &amp; Design</a> </li>\n                        <li class=\"submenu__item\"><a href=\"/sections/performing-arts/\"
+  data-metrics-action=\"click performing arts\">Performing Arts</a></li>\n                    </ul>\n
+  \               </li>\n                <li class=\"menu__item menu__item--music
+  menu__item--has-submenu\" data-metrics-hover=\"toggle music drawer\">\n                    <div
+  class=\"menu__item-inner\">\n                        <a href=\"/music/\" data-metrics-action=\"click
+  music\">Music</a>\n                        <button class=\"menu__toggle-submenu\"
+  data-metrics-action=\"toggle music drawer\" aria-haspopup=\"true\" aria-expanded=\"false\">Expand/collapse
+  submenu for Music</button>\n                    </div>\n\n                    <ul
+  class=\"submenu submenu--music\"><li class=\"submenu__item\">\n    <a href=\"https://www.npr.org/series/tiny-desk-concerts/\"
+  data-metrics-action=\"click tiny desk\">\n        Tiny Desk\n    </a>\n</li><li
+  class=\"submenu__item\">\n    <a href=\"https://www.npr.org/sections/allsongs/\"
+  data-metrics-action=\"click all songs considered\">\n        All Songs Considered\n
+  \   </a>\n</li><li class=\"submenu__item\">\n    <a href=\"https://www.npr.org/sections/music-news/\"
+  data-metrics-action=\"click music news\">\n        Music News\n    </a>\n</li><li
+  class=\"submenu__item\">\n    <a href=\"https://www.npr.org/sections/music-features\"
+  data-metrics-action=\"click music features\">\n        Music Features\n    </a>\n</li><li
+  class=\"submenu__item\">\n    <a href=\"https://www.npr.org/sections/new-music/\"
+  data-metrics-action=\"click new music\">\n        New Music\n    </a>\n</li><li
+  class=\"submenu__item\">\n    <a href=\"https://www.npr.org/series/534681404/best-music-of-2018\"
+  data-metrics-action=\"click best music of 2018\">\n        Best Music Of 2018\n
+  \   </a>\n</li></ul>\n\n                </li>\n                <li class=\"menu__item
+  menu__item--shows-podcasts menu__item--has-submenu\" data-metrics-hover=\"toggle
+  programs &amp; podcasts drawer\">\n                    <div class=\"menu__item-inner\">\n
+  \                       <a href=\"/programs/\" data-metrics-action=\"click shows
+  &amp; podcasts\">Shows &amp; Podcasts</a>\n                        <button class=\"menu__toggle-submenu\"
+  data-metrics-action=\"toggle programs &amp; podcasts drawer\" aria-haspopup=\"true\"
+  aria-expanded=\"false\">Expand/collapse submenu for Shows &amp; Podcasts</button>\n
+  \                   </div>\n\n                    <div class=\"submenu submenu--shows-podcasts\">\n
+  \                       <span class=\"submenu__category submenu__category--daily\">Daily</span>\n
+  \                       <ul class=\"submenu__list submenu__list--daily\">\n                            <li
+  class=\"submenu__item submenu__item--timed submenu__item--weekday\">\n                                <a
+  href=\"/programs/morning-edition/\" data-metrics-action=\"click morning edition\">\n
+  \                                   <img src=\"https://media.npr.org/chrome/programs/logos/morning-edition.jpg\"
+  alt=\"\">\n                                    Morning Edition\n                                </a>\n
+  \                           </li>\n                            <li class=\"submenu__item
+  submenu__item--timed submenu__item--saturday hidden\">\n                                <a
+  href=\"/programs/weekend-edition-saturday/\" data-metrics-action=\"click weekend
+  edition saturday\">\n                                    <img src=\"https://media.npr.org/assets/img/2019/02/26/we_otherentitiestemplatesat_sq-cbde87a2fa31b01047441e6f34d2769b0287bcd4-s100-c85.png\"
+  alt=\"\">\n                                    Weekend Edition Saturday\n                                </a>\n
+  \                           </li>\n                            <li class=\"submenu__item
+  submenu__item--timed submenu__item--sunday hidden\">\n                                <a
+  href=\"/programs/weekend-edition-sunday/\" data-metrics-action=\"click weekend edition
+  sunday\">\n                                    <img src=\"https://media.npr.org/assets/img/2019/02/26/we_otherentitiestemplatesun_sq-4a03b35e7e5adfa446aec374523a578d54dc9bf5-s100-c85.png\"
+  alt=\"\">\n                                    Weekend Edition Sunday\n                                </a>\n
+  \                           </li>  \n                            <li class=\"submenu__item\">\n
+  \                               <a href=\"/programs/all-things-considered/\" data-metrics-action=\"click
+  all things considered\">\n                                    <img src=\"https://media.npr.org/chrome/programs/logos/all-things-considered.png\"
+  alt=\"\">\n                                    All Things Considered\n                                </a>\n
+  \                           </li>\n                            <li class=\"submenu__item\">\n
+  \                               <a href=\"/programs/fresh-air/\" data-metrics-action=\"click
+  fresh air\">\n                                    <img src=\"https://media.npr.org/chrome/programs/logos/fresh-air.png\"
+  alt=\"\">\n                                    Fresh Air\n                                </a>\n
+  \                           </li>\n                            <li class=\"submenu__item\">\n
+  \                               <a href=\"/podcasts/510318/up-first\" data-metrics-action=\"click
+  up first\">\n                                    <img src=\"https://media.npr.org/chrome/programs/logos/up-first.jpg\"
+  alt=\"\">\n                                    Up First\n                                </a>\n
+  \                           </li>\n                        </ul>\n                        <span
+  class=\"submenu__category submenu__category--featured\">Featured</span>\n\n                        <ul
+  class=\"submenu__list submenu__list--featured\"><li class=\"submenu__item\">\n    <a
+  href=\"https://www.npr.org/podcasts/510313/how-i-built-this\" data-metrics-action=\"click
+  how i built this with guy raz\">\n        <img src=\"https://media.npr.org/assets/img/2018/08/03/npr_hibt_podcasttile_sq-98320b282169a8cea04a406530e6e7b957665b3f.jpg?s=100\"
+  alt=\"\">\n        How I Built This with Guy Raz\n    </a>\n</li><li class=\"submenu__item\">\n
+  \   <a href=\"https://www.npr.org/podcasts/344098539/wait-wait-don-t-tell-me\" data-metrics-action=\"click
+  wait wait...don't tell me!\">\n        <img src=\"https://media.npr.org/assets/img/2018/08/06/npr_wwdtm_podcasttile_sq-1e9edf5dfb49a3fff3703764e39442173ba8558a.jpg?s=100\"
+  alt=\"\">\n        Wait Wait...Don't Tell Me!\n    </a>\n</li><li class=\"submenu__item\">\n
+  \   <a href=\"https://www.npr.org/podcasts/510289/planet-money\" data-metrics-action=\"click
+  planet money\">\n        <img src=\"https://media.npr.org/assets/img/2018/08/02/npr_planetmoney_podcasttile_sq-7b7fab0b52fd72826936c3dbe51cff94889797a0.jpg?s=100\"
+  alt=\"\">\n        Planet Money\n    </a>\n</li><li class=\"submenu__item\">\n    <a
+  href=\"https://www.npr.org/podcasts/510307/invisibilia\" data-metrics-action=\"click
+  invisibilia\">\n        <img src=\"https://media.npr.org/assets/img/2018/08/03/npr_invisibilia_podcasttile_sq-1c4d3c46584f71f04dc5b913c3cb8c08c0209f66.jpg?s=100\"
+  alt=\"\">\n        Invisibilia\n    </a>\n</li></ul>\n\n                        <ul
+  class=\"submenu__list submenu__list--directories\">\n                            <li
+  class=\"submenu__item\"><a href=\"/programs/\" data-metrics-action=\"click all programs\">More
+  Shows &amp; Podcasts</a></li>\n                        </ul>\n                    </div>\n
+  \               </li>\n                <li class=\"menu__item menu__item--search\">\n
+  \                   <div class=\"menu__item-inner\">\n                        <a
+  href=\"/search\" data-metrics-action=\"click search\">Search</a>\n                    </div>\n
+  \               </li>\n                <li id=\"user-account-dropdown-mount-two\"
+  class=\"menu__item menu__item--account\"></li>\n                <li class=\"menu__item
+  menu__item--shop\">\n                    <div class=\"menu__item-inner\">\n                        <a
+  href=\"https://shop.npr.org\" data-metrics-action=\"click npr shop\">Shop</a>\n
+  \                   </div>\n                </li>\n            </ul>\n        </div>\n
+  \   </section>\n    <section class=\"menu menu--music\" data-metrics-all=\"\" data-metrics-category=\"music
+  ecosystem navigation\">\n        <div class=\"menu__list-wrap\">\n            <ul
+  class=\"menu__list menu__list--ecosystem menu__list--music\">\n                <li
+  class=\"menu__item menu__item--music-home\">\n                    <a href=\"/music/\"
+  data-metrics-action=\"click npr music logo\">\n                        <img src=\"https://media.npr.org/chrome_svg/music-logo-dark.svg\"
+  class=\"music-logo\" alt=\"NPR Music\">\n                        <img src=\"https://media.npr.org/chrome_svg/music-logo-light.svg\"
+  class=\"music-logo-alt\" alt=\"NPR Music\">\n                    </a>\n                </li>\n
+  \               <li class=\"menu__item\"><a href=\"/series/tiny-desk-concerts/\"
+  data-metrics-action=\"click tiny desk\">Tiny Desk</a></li>\n                <li
+  class=\"menu__item\"><a href=\"/sections/allsongs/\" data-metrics-action=\"click
+  all songs\">All Songs Considered</a></li>\n                <li class=\"menu__item\"><a
+  href=\"/sections/music-news/\" data-metrics-action=\"click music news\">Music News</a></li>\n
+  \               <li class=\"menu__item\"><a href=\"/sections/music-features/\" data-metrics-action=\"click
+  features\">Features</a></li>\n                <!--<li class=\"menu__item\"><a href=\"/sections/new-music/\"
+  data-metrics-action=\"click new music\">New Music</a></li>-->\n                <li
+  class=\"menu__item\"><a href=\"https://tinydeskcontest.npr.org/2019/open\" data-metrics-action=\"click
+  Tiny Desk Contest\">Tiny Desk Contest</a></li>\n            </ul>\n        </div>\n
+  \   </section>\n    <section class=\"menu menu--about\" data-metrics-all=\"\" data-metrics-category=\"about
+  ecosystem navigation\">\n        <div class=\"menu__list-wrap\">\n            <ul
+  class=\"menu__list menu__list--ecosystem menu__list--about\">\n                <li
+  class=\"menu__item menu__item--about-home\"><a href=\"/about/aboutnpr/\" data-metrics-action=\"click
+  about npr\">About NPR</a></li>\n                <li class=\"menu__item menu__item--about-overview\"><a
+  href=\"/about-npr/689087449/this-is-npr\" data-metrics-action=\"click overview\">Overview</a></li>\n
+  \               <li class=\"menu__item menu__item--about-support\"><a href=\"/about-npr/685114062/your-support-makes-a-difference\"
+  data-metrics-action=\"click support\">Support</a></li>\n                <li class=\"menu__item
+  menu__item--about-careers\"><a href=\"/about-npr/179008081/careers\" data-metrics-action=\"click
+  careers\">Careers</a></li>\n                <li class=\"menu__item menu__item--about-connect\"><a
+  href=\"/about-npr/685180639/stay-connected\" data-metrics-action=\"click connect\">Connect</a></li>\n
+  \               <li class=\"menu__item menu__item--about-press\"><a href=\"/about-npr/690265854/all-the-latest-news-about-npr\"
+  data-metrics-action=\"click press\">Press</a></li>\n                <li class=\"menu__item
+  menu__item--about-ethics\"><a href=\"/about-npr/688875732/these-are-the-standards-of-our-journalism\"
+  data-metrics-action=\"click ethics\">Ethics</a></li>\n            </ul>\n        </div>\n
+  \   </section>\n</nav></header><main aria-label=\"main content\"><div class=\"speakable\">\n
+  \     <b data-is-speakable=\"\">Sous-Vide Cooking Has Many Fathers, Including A
+  Retired Army Colonel : The Salt</b>   <b data-is-speakable=\"\">Cooking food in
+  a vacuum-sealed bag in a hot water bath is the height of haute cuisine. But an ex-Army
+  colonel testing tastier hospital food seems to have had a lot to do with developing
+  sous vide.</b>\n</div>\n<div id=\"wrapper\">\n      <header class=\"contentheader
+  contentheader--one\" data-metrics=\"{&quot;category&quot;:&quot;The Salt&quot;}\"><div
+  class=\"branding branding--custom\">\n      <a href=\"https://www.npr.org/sections/thesalt/\"
+  data-metrics=\"{&quot;action&quot;:&quot;click branding&quot;}\"><img src=\"https://media.npr.org/branding/sections/thesalt/branding_icon-d76e52abc19240eb928674dd91b71404f1945e2a.png\"
+  class=\"branding__image-icon\" alt=\"The Salt\"><div class=\"branding__inner\">\n
+  \     <h2 class=\"branding__title branding__title--custom-text\">The <b>Salt</b></h2>\n
+  \  <b class=\"branding__mini-teaser\">What's On Your Plate</b>\n</div>\n\n<!-- END
+  CLASS=\"BRANDING__INNER\" -->\n</a>\n</div>\n\n<!-- END CLASS=\"BRANDING BRANDING--CUSTOM\"
+  -->\n<div class=\"subnav-tools-wrap\">\n      <div id=\"subNavigation\" class=\"agglocation
+  linkLocation\" role=\"navigation\" aria-label=\"sub-navigation\">\n            <div
+  id=\"res341873279\" class=\"bucketwrap statichtml\">\n                  <div class=\"subtopics\">\n
+  \ <ul class=\"animated fadeInRight\">\n    <li><a href=\"/sections/thesalt/161357410/eating-and-health\">Eating
+  And Health</a></li>\n    <li><a href=\"/sections/thesalt/161357400/foodways\">Foodways</a></li>\n
+  \   <li><a href=\"/sections/thesalt/161357402/producers\">Producers</a></li>\n    <li><a
+  href=\"/sections/thesalt/161357412/food-for-thought\">Food For Thought</a></li>\n
+  \   <li><a href=\"/sections/thesalt/161357398/for-foodies\">For Foodies</a></li>\n
+  \ </ul>\n</div>\n\n<div class=\"roller-overlay\"></div>\n\n<ul class=\"subscribe\">\n
+  \ <li class=\"twitter\"><a href=\"https://twitter.com/NPRFood\" data-metrics=\"{&quot;action&quot;:&quot;Click
+  Twitter&quot;}\">Twitter</a></li>\n</ul>\n      </div>\n      \n<!-- END ID=\"RES341873279\"
+  CLASS=\"BUCKETWRAP STATICHTML\" -->\n   </div>\n</div>\n</header>   <div class=\"story-sticky-header\">\n
+  \   <div class=\"story-sticky-header-inner\">\n        <a href=\"/\" class=\"nprhome
+  nprhome-news\" data-metrics=\"{&quot;category&quot;:&quot;global navigation&quot;,&quot;action&quot;:&quot;click
+  npr logo&quot;,&quot;label&quot;:&quot;\\/&quot;}\">\n            <img src=\"https://media.npr.org/chrome_svg/npr-logo.svg\"
+  alt=\"NPR logo\">\n        </a>\n\n        \n\n        <a href=\"#\" class=\"title\">\n
+  \         <b>The Colonel In The Kitchen: A Surprising History Of Sous Vide</b>\n
+  \         \n        </a>\n    </div>\n</div>   <section id=\"main-section\"><article
+  class=\"story story-blogpost\"><a id=\"mainContent\"></a><div class=\"slug-wrap\">\n\n
+  \   <h3 class=\"slug\">\n        <a href=\"https://www.npr.org/sections/thesalt/161357400/foodways\">Food
+  History &amp; Culture</a>\n    </h3>\n</div>\n<div class=\"storytitle\">\n      <h1>The
+  Colonel In The Kitchen: A Surprising History Of Sous Vide</h1>\n   <input type=\"hidden\"
+  id=\"title608308624\" value=\"The Colonel In The Kitchen: A Surprising History Of
+  Sous Vide\">\n   <input type=\"hidden\" id=\"shortTitle608308624\" value=\"The Colonel
+  In The Kitchen: A Surprising History Of Sous Vide\">\n   <input type=\"hidden\"
+  id=\"modelShortUrl608308624\" value=\"https://n.pr/2HMCdT9\">\n   <input type=\"hidden\"
+  id=\"modelFullUrl608308624\" value=\"https://www.npr.org/sections/thesalt/2018/05/09/608308624/the-colonel-in-the-kitchen-a-surprising-history-of-sous-vide\">\n</div>\n\n<!--
+  END CLASS=\"STORYTITLE\" -->\n<div class=\"story-tools\">\n      <div class=\"share-tools
+  share-tools--primary\" aria-label=\"Share tools\">\n            <ul>\n                  <li
+  class=\"share-tools__service share-tools__service--facebook\"><button class=\"fbStory608308624\"
+  data-share-facebook=\"{&quot;storyId&quot;: 608308624 }\" data-metrics=\"{&quot;action&quot;:&quot;Click
+  Facebook&quot;,&quot;category&quot;:&quot;Share Tools&quot;,&quot;label&quot;:&quot;https:\\/\\/www.npr.org\\/sections\\/thesalt\\/2018\\/05\\/09\\/608308624\\/the-colonel-in-the-kitchen-a-surprising-history-of-sous-vide&quot;}\"><b
+  class=\"share-tools__service-name\">Facebook</b></button></li>\n         <li class=\"share-tools__service
+  share-tools__service--twitter\"><button class=\"story608308624\" data-share-twitter=\"{&quot;storyId&quot;:
+  608308624 }\" data-metrics=\"{&quot;action&quot;:&quot;Click Twitter&quot;,&quot;category&quot;:&quot;Share
+  Tools&quot;,&quot;label&quot;:&quot;https:\\/\\/www.npr.org\\/sections\\/thesalt\\/2018\\/05\\/09\\/608308624\\/the-colonel-in-the-kitchen-a-surprising-history-of-sous-vide&quot;}\"><b
+  class=\"share-tools__service-name\">Twitter</b></button></li>\n         <li class=\"share-tools__service
+  share-tools__service--flipboard\"><button class=\"story608308624\" data-share-flipboard=\"{&quot;storyId&quot;:
+  608308624 }\" data-metrics=\"{&quot;action&quot;:&quot;Click Flipboard&quot;,&quot;category&quot;:&quot;Share
+  Tools&quot;,&quot;label&quot;:&quot;https:\\/\\/www.npr.org\\/sections\\/thesalt\\/2018\\/05\\/09\\/608308624\\/the-colonel-in-the-kitchen-a-surprising-history-of-sous-vide&quot;}\"><b
+  class=\"share-tools__service-name\">Flipboard</b></button></li>\n         <li class=\"share-tools__service
+  share-tools__service--email\"><button class=\"share-tools__email-link\" data-story-id=\"608308624\"
+  data-metrics=\"{&quot;action&quot;:&quot;Click Email a Friend&quot;,&quot;category&quot;:&quot;Share
+  Tools&quot;,&quot;label&quot;:&quot;https:\\/\\/www.npr.org\\/sections\\/thesalt\\/2018\\/05\\/09\\/608308624\\/the-colonel-in-the-kitchen-a-surprising-history-of-sous-vide&quot;}\"><b
+  class=\"share-tools__service-name\">Email</b></button></li>\n      </ul>\n   </div>\n
+  \  \n<!-- END CLASS=\"SHARE-TOOLS SHARE-TOOLS--PRIMARY\" ARIA-LABEL=\"SHARE TOOLS\"
+  -->\n</div>\n\n<!-- END CLASS=\"STORY-TOOLS\" -->\n<div id=\"story-meta\" class=\"story-meta
+  has-byline\">\n      <div class=\"story-meta__one\">\n            <div class=\"dateblock\">\n
+  \   <time datetime=\"2018-05-09T14:22:00-04:00\">\n            <span class=\"date\">May
+  9, 2018</span><span class=\"time\">2:22 PM ET</span>\n    </time>\n</div>\n   </div>\n
+  \  \n<!-- END CLASS=\"STORY-META__ONE\" -->\n   <div class=\"story-meta__two\">\n
+  \           <div id=\"storybyline\" class=\"storybyline-wrap linkLocation\">\n                  <div
+  class=\"bucketwrap byline\" id=\"res608308627\" previewtitle=\"bylines\">\n                        <div
+  class=\"byline-container--block\">\n                              <div class=\"byline
+  byline--block\" aria-label=\"Byline\">\n\n  <p class=\"byline__name byline__name--block\">\n
+  \   \n      Alice Popovici\n    \n  </p>\n\n</div>\n            </div>\n         </div>\n
+  \        \n<!-- END CLASS=\"BUCKETWRAP BYLINE\" ID=\"RES608308627\" PREVIEWTITLE=\"BYLINES\"
+  -->\n      </div>\n   </div>\n   \n<!-- END CLASS=\"STORY-META__TWO\" -->\n</div>\n\n<!--
+  END ID=\"STORY-META\" CLASS=\"STORY-META HAS-BYLINE\" -->\n<div id=\"storytext\"
+  class=\"storytext storylocation linkLocation\">\n      <div id=\"res609099479\"
+  class=\"bucketwrap image large\">\n            <div class=\"imagewrap\" data-crop-type=\"\">\n
+  \   <img src=\"https://media.npr.org/assets/img/2018/05/07/mcguckianphoto1_vert-a697b1b8a24dcc0863a867ba611f8d010a120777-s1100-c15.jpg\"
+  data-original=\"https://media.npr.org/assets/img/2018/05/07/mcguckianphoto1_vert-a697b1b8a24dcc0863a867ba611f8d010a120777-s1100.jpg\"
+  class=\"img lazyOnLoad\" alt=\"\">\n        <div class=\"enlarge-options\">\n            <a
+  class=\"enlargelink\" href=\"https://media.npr.org/assets/img/2018/05/07/mcguckianphoto1_vert-a697b1b8a24dcc0863a867ba611f8d010a120777-s1400.jpg\">Enlarge
+  this image</a>\n        </div>\n</div>\n<div class=\"credit-caption\">\n    <div
+  class=\"caption-wrap\">\n        <div class=\"caption\" aria-label=\"Image caption\">\n
+  \           <p>\n                Col. Ambrose McGuckian was tapped by food giant
+  W.R. Grace to develop better food for a chain of hospitals in South Carolina after
+  he retired from the Army in 1964.\n                \n                <b class=\"credit\"
+  aria-label=\"Image credit\">\n                    \n                    courtesy
+  McGuckian family\n                    \n                </b>\n                <b
+  class=\"hide-caption\"><b>hide caption</b></b>\n            </p>\n        </div>\n\n\n
+  \           <b class=\"toggle-caption\"><b>toggle caption</b></b>\n    </div>\n\n
+  \   <span class=\"credit\" aria-label=\"Image credit\">\n        \n        courtesy
+  McGuckian family\n        \n    </span>\n</div>\n<div class=\"enlarge_measure\">\n
+  \   <div class=\"img_wrap\">\n        <img data-original=\"https://media.npr.org/assets/img/2018/05/07/mcguckianphoto1_vert-a697b1b8a24dcc0863a867ba611f8d010a120777-s1400.jpg\"
+  alt=\"\">\n    </div>\n</div>\n<div class=\"enlarge_html\">\n    <div class=\"image_data\">\n
+  \       <p class=\"caption\">Col. Ambrose McGuckian was tapped by food giant W.R.
+  Grace to develop better food for a chain of hospitals in South Carolina after he
+  retired from the Army in 1964.</p>\n        <span class=\"credit\" aria-label=\"Image
+  credit\">\n            \n            courtesy McGuckian family\n            \n        </span>\n
+  \   </div>\n</div>\n   </div>\n   <p><strong></strong>Long before sous vide became
+  a culinary sensation celebrated by top chefs around the world a retired Army colonel
+  started cooking meat and vegetables in sealed plastic pouches immersed in a water
+  bath to liven up the flavor of hospital food. But you'd be hard pressed to find
+  his name associated with it.</p>   <p>Ambrose McGuckian wasn't looking for accolades
+  from food critics and gourmands. He wanted to impress hospital patients at the Greenville
+  Hospital System in South Carolina who'd been complaining about the \"institutional
+  dullness\" of their food.</p>   <p>McGuckian was my step-grandfather and everyone
+  called him \"Mac.\" In 1968, he was the project manager of a regional study to overhaul
+  hospital food service. He'd been instructed to improve the quality of food while
+  keeping costs down. So he studied existing food service programs and methods of
+  food preparation until he found a formula that boosted taste and extended shelf
+  life.</p>   <p>\"Traditional methods of hospital food service have locked operations
+  into a spiral of ever-increasing costs in food, wages, equipment and supplies,\"
+  Mac, then president of a company called A.G.S. Food System, Inc., <a href=\"http://journals.sagepub.com/doi/abs/10.1177/001088046901000124\">wrote</a>
+  in the May 1969 issue of <em>Cornell Hotel &amp; Restaurant Administration Quarterly</em>.
+  But \"water bath cooking, in which the food product is first vacuum packaged in
+  a plastic pouch and then immersed for a specified time in water heated to and maintained
+  at a designated temperature,\" locked in flavor and streamlined food service, he
+  wrote.</p>   <div id=\"res609473670\" class=\"bucketwrap image large\">\n            <div
+  class=\"imagewrap\" data-crop-type=\"\">\n    <img src=\"https://media.npr.org/assets/img/2018/05/08/-a.g.s.-system_custom-cce71e8421dca4fc8ed096b69db5a79b0e15c16a-s1100-c15.jpg\"
+  data-original=\"https://media.npr.org/assets/img/2018/05/08/-a.g.s.-system_custom-cce71e8421dca4fc8ed096b69db5a79b0e15c16a-s1100.jpg\"
+  class=\"img lazyOnLoad\" alt=\"\">\n        <div class=\"enlarge-options\">\n            <a
+  class=\"enlargelink\" href=\"https://media.npr.org/assets/img/2018/05/08/-a.g.s.-system_custom-cce71e8421dca4fc8ed096b69db5a79b0e15c16a-s1200.jpg\">Enlarge
+  this image</a>\n        </div>\n</div>\n<div class=\"credit-caption\">\n    <div
+  class=\"caption-wrap\">\n        <div class=\"caption\" aria-label=\"Image caption\">\n
+  \           <p>\n                Illustrations of how the A.G.S. system portioned
+  and cooked food, featured in the May 1969 issue of <em>Cornell Hospital &amp; Restaurant
+  Administration Quarterly </em>magazine. Col. Ambrose McGuckian, the author's step-grandfather,
+  wrote in the magazine about the \"water bath cooking\" technique he'd developed
+  â\x80\x94 which sounds an awful lot like what we now know as sous vide.\n                \n
+  \               <b class=\"credit\" aria-label=\"Image credit\">\n                    \n
+  \                    \n                    \n                </b>\n                <b
+  class=\"hide-caption\"><b>hide caption</b></b>\n            </p>\n        </div>\n\n\n
+  \           <b class=\"toggle-caption\"><b>toggle caption</b></b>\n    </div>\n\n
+  \   <span class=\"credit\" aria-label=\"Image credit\">\n        \n         \n        \n
+  \   </span>\n</div>\n<div class=\"enlarge_measure\">\n    <div class=\"img_wrap\">\n
+  \       <img data-original=\"https://media.npr.org/assets/img/2018/05/08/-a.g.s.-system_custom-cce71e8421dca4fc8ed096b69db5a79b0e15c16a-s1200.jpg\"
+  alt=\"\">\n    </div>\n</div>\n<div class=\"enlarge_html\">\n    <div class=\"image_data\">\n
+  \       <p class=\"caption\">Illustrations of how the A.G.S. system portioned and
+  cooked food, featured in the May 1969 issue of <em>Cornell Hospital &amp; Restaurant
+  Administration Quarterly </em>magazine. Col. Ambrose McGuckian, the author's step-grandfather,
+  wrote in the magazine about the \"water bath cooking\" technique he'd developed
+  â\x80\x94 which sounds an awful lot like what we now know as sous vide.</p>\n        <span
+  class=\"credit\" aria-label=\"Image credit\">\n            \n             \n            \n
+  \       </span>\n    </div>\n</div>\n   </div>\n   <p>Once cooked, the food could
+  be safely refrigerated for at least 60 days, then zapped in the microwave (yes,
+  they had them in the foodservice industry back then) and served. No more dull, frozen-and-reheated
+  meals, no more over-production and waste, no more pots to scrape—and the patients
+  were happy, according to Mac's article.</p>   <aside id=\"ad-backstage-wrap\" aria-label=\"advertisement\">\n
+  \   \n\n    <div id=\"ad-backstage-Arts___Life_Food\" class=\"ad-backstage\" data-ad-config=\"{&quot;network&quot;:&quot;\\/6735\\/n6735&quot;,&quot;site&quot;:{&quot;default&quot;:&quot;NPR&quot;,&quot;mobile&quot;:&quot;NPRMOBILE&quot;},&quot;zone&quot;:&quot;Arts___Life_Food&quot;,&quot;targets&quot;:{&quot;testserver&quot;:&quot;false&quot;,&quot;storyId&quot;:&quot;608308624&quot;,&quot;agg&quot;:[&quot;434975886&quot;,&quot;139941248&quot;],&quot;blog&quot;:&quot;139941248&quot;},&quot;location&quot;:&quot;backstage&quot;,&quot;deferred&quot;:false,&quot;isBetweenContent&quot;:true,&quot;isAggSponsorship&quot;:false,&quot;borderClass&quot;:&quot;&quot;}\"></div>\n\n</aside>
+  \  <p>\"I think it was just like, 'Bingo, this is something that is going to change
+  the way America eats,' \" says Peter McGuckian. He's Mac's son and my step-uncle,
+  and he remembers how excited Mac was about the project.</p>   <p>Fast-forward 50
+  years, and cooking \"under vacuum\" — also known as sous vide — has revolutionized
+  the industry, helped along by Michelin-starred chefs like Thomas Keller.</p>   <div
+  id=\"res609141342\" class=\"bucketwrap video youtube-video large\">\n    <div class=\"video-wrap\">\n
+  \       <iframe src=\"https://www.youtube.com/embed/lAeDR2fE0jA?rel=0\" width=\"100%\"
+  height=\"100%\" frameborder=\"0\" allowfullscreen=\"\"></iframe>\n    </div>\n        <div
+  class=\"credit-caption externalasset\">\n            \n\n                <b class=\"credit\">\n
+  \                   \n                    <b class=\"source\">YouTube</b>\n                </b>\n
+  \       </div>\n</div>\n   <p>Now, thanks to a new generation of tools, even home
+  cooks can sous vide anything from roast beef to egg whites in their own kitchens.</p>
+  \  <p>But aside from a couple of references buried in food science textbooks, no
+  one seems to remember my step-grandfather's contribution.</p>   <p><strong>Chefs,
+  scientists and plastics</strong></p>   <p>Most sources credit two French chefs —
+  Bruno Goussault and George Pralus — with independently developing sous vide, then
+  working together to refine it.</p>   <p>When Goussault, who's known as the \"father
+  of sous vide,\" <a href=\"http://www.cuisinesolutions.com/about/meet-our-chief-scientist/\">developed
+  the technique</a> in 1971, he was looking for a way to improve the tenderness of
+  roast beef. Pralus, who's also been called the \"father of sous vide,\" discovered
+  in 1974 that <a href=\"https://www.nytimes.com/2005/08/14/magazine/under-pressure.html\">wrapping
+  foie gras in plastic</a> prevented the fatty liver from shrinking as it cooked.
+  A few years later, the two chefs teamed up with Cryovac, a plastic manufacturer,
+  to fine-tune the method.</p>   <p>By 1991, when Goussault opened the <a href=\"http://www.lecrea.com/en/about/academy/\">Culinary
+  Research and Education Academy</a> in Paris, as a training center that promised
+  to take the technique \"from boil-in-bag to haute cuisine,\" sous vide was on its
+  way.</p>   <p>Goussault leads sous vide seminars for the culinary school, which
+  trains chefs throughout the world, and is chief scientist at <a href=\"https://www.cuisinesolutions.com/\">Cuisine
+  Solutions</a>, a large-scale sous vide supplier based in Virginia. I recently asked
+  him whether he'd heard of my step-grandfather's work. He said he hadn't, but that
+  he was familiar with the Nacka System, which was developed in Swedish hospitals
+  in the 1960s, according to a Canadian <a href=\"https://books.google.com/books?id=CWkH8YHiYsEC&amp;pg=PA255&amp;dq=nacka+system+mcguckian&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwiXqamfzOPaAhUkwFkKHZX9D1oQ6AEILzAB%23v=onepage&amp;q=nacka%2520system%2520mcguckian&amp;f=false\">research
+  book</a> on the principles of sous vide.</p>   <p>In this system — which Mac tested
+  during his project — items were fully cooked, then vacuum-sealed, refrigerated and
+  boiled before serving. But those who sampled the results said the food had a \"tired\"
+  taste, likely as a result of overcooking.</p>   <p>Even before Nacka, there was
+  interest in how the new soft plastics being developed could be used in the kitchen,
+  but not necessarily for cooking.</p>   <p>In the 1960s, as people started buying
+  more prepared foods, there was a push to develop lightweight containers, says <a
+  href=\"https://foodscience.cals.cornell.edu/people/julie-goddard-0\">Julie Goddard</a>,
+  an associate professor at Cornell University who studies the intersection of food
+  and materials science.</p>   <p>Food scientist and culinary anthropologist Carl
+  Rietz describes cooking in plastic in his <a href=\"https://catalog.hathitrust.org/Record/001046644\">1961
+  book</a> on culinary techniques, and warned against vapor pressure causing the plastic
+  to rip.</p>   <p>Sous vide has come a long way since then.</p>   <div id=\"res609098722\"
+  class=\"bucketwrap image medium\">\n            <div class=\"imagewrap\" data-crop-type=\"\">\n
+  \   <img src=\"https://media.npr.org/assets/img/2018/05/07/mcguckianflowchart_vert-5d12aeb311888e3303ed949105d5a85b6839f7ba-s800-c15.jpg\"
+  data-original=\"https://media.npr.org/assets/img/2018/05/07/mcguckianflowchart_vert-5d12aeb311888e3303ed949105d5a85b6839f7ba-s800.jpg\"
+  class=\"img lazyOnLoad\" alt=\"\">\n        <div class=\"enlarge-options\">\n            <a
+  class=\"enlargelink\" href=\"https://media.npr.org/assets/img/2018/05/07/mcguckianflowchart_vert-5d12aeb311888e3303ed949105d5a85b6839f7ba-s1400.jpg\">Enlarge
+  this image</a>\n        </div>\n</div>\n<div class=\"credit-caption\">\n    <div
+  class=\"caption-wrap\">\n        <div class=\"caption\" aria-label=\"Image caption\">\n
+  \           <p>\n                Ambrose McGuckian created a flowchart to illustrate
+  the sequence of hospital food service from storage to preparation to patient for
+  his patent.\n                \n                <b class=\"credit\" aria-label=\"Image
+  credit\">\n                    \n                    courtesy McGuckian family\n
+  \                   \n                </b>\n                <b class=\"hide-caption\"><b>hide
+  caption</b></b>\n            </p>\n        </div>\n\n\n            <b class=\"toggle-caption\"><b>toggle
+  caption</b></b>\n    </div>\n\n    <span class=\"credit\" aria-label=\"Image credit\">\n
+  \       \n        courtesy McGuckian family\n        \n    </span>\n</div>\n<div
+  class=\"enlarge_measure\">\n    <div class=\"img_wrap\">\n        <img data-original=\"https://media.npr.org/assets/img/2018/05/07/mcguckianflowchart_vert-5d12aeb311888e3303ed949105d5a85b6839f7ba-s1400.jpg\"
+  alt=\"\">\n    </div>\n</div>\n<div class=\"enlarge_html\">\n    <div class=\"image_data\">\n
+  \       <p class=\"caption\">Ambrose McGuckian created a flowchart to illustrate
+  the sequence of hospital food service from storage to preparation to patient for
+  his patent.</p>\n        <span class=\"credit\" aria-label=\"Image credit\">\n            \n
+  \           courtesy McGuckian family\n            \n        </span>\n    </div>\n</div>\n
+  \  </div>\n   <p>These days, chefs have temperature controllers that can help \"dial
+  in texture,\" says <a href=\"https://foodscience.cals.cornell.edu/people/christopher-loss-phd\">Chris
+  Loss,</a> a professor of food science at Cornell University. \"You definitely can
+  change the sensory properties of foods by trapping in those aromas and juices.\"</p>
+  \  <p><strong>The Cryovac system</strong></p>   <p>Mac, who died in 2000, spent
+  his career in the Army's Quartermaster Corps, in charge of organizing military food
+  supplies during and after World War II. After retiring in 1964 as a colonel, he
+  started a personnel firm placing Army veterans in food service jobs. Then he was
+  hired by chemicals giant W.R. Grace as a consultant on the South Carolina hospital
+  study.</p>   <p>Around the same time, his son Peter remembers coming home from college
+  to find various sealed plastic packages in his parents' refrigerator. Sometimes,
+  Mac would ask him to open up a pouch and taste what was inside.</p>   <p>\"One time,
+  I said, 'Hey Dad, that's been in there for a little while,' \" Peter remembers.
+  \"Go ahead, try it,\" Mac insisted, and Peter did. \"You've got to trust your dad,
+  right?\"</p>   <p>Mac called his technique \"the A.G.S. System,\" named for the
+  company formed to produce food and distribute it to the three hospitals in Anderson,
+  Greenville, and Spartanburg, S.C. But it's more commonly known as \"the Cryovac
+  system,\" for the manufacturer of plastic packaging and water bath cookers used
+  in the project. Cryovac was a division of W.R. Grace.</p>   <p>Mac patented the
+  technique in the U.S. and a few other countries, but Cryovac claimed ownership of
+  the technique because Mac was one of its contractors when he developed it. They
+  went back and forth over the rights for years, based on documents and correspondence
+  Mac saved. Sometime in the early '70s they reached a cross-licensing arrangement,
+  with A.G.S. as the formal assignee for Mac's patent.</p>   <div id=\"res609098972\"
+  class=\"bucketwrap image medium\">\n            <div class=\"imagewrap\" data-crop-type=\"\">\n
+  \   <img src=\"https://media.npr.org/assets/img/2018/05/07/mcguckianpatent-4ebad028fb33490dfb44f687c0c67c4a01821872-s800-c15.jpg\"
+  data-original=\"https://media.npr.org/assets/img/2018/05/07/mcguckianpatent-4ebad028fb33490dfb44f687c0c67c4a01821872-s800.jpg\"
+  class=\"img lazyOnLoad\" alt=\"\">\n        <div class=\"enlarge-options\">\n            <a
+  class=\"enlargelink\" href=\"https://media.npr.org/assets/img/2018/05/07/mcguckianpatent-4ebad028fb33490dfb44f687c0c67c4a01821872-s1200.jpg\">Enlarge
+  this image</a>\n        </div>\n</div>\n<div class=\"credit-caption\">\n    <div
+  class=\"caption-wrap\">\n        <div class=\"caption\" aria-label=\"Image caption\">\n
+  \           <p>\n                Ambrose McGuckian's method of cooking and storing
+  food in flexible bags, known as the 'A.G.S. Food System,' was an early form of sous-vide.\n
+  \               \n                <b class=\"credit\" aria-label=\"Image credit\">\n
+  \                   \n                    courtesy McGuckian family\n                    \n
+  \               </b>\n                <b class=\"hide-caption\"><b>hide caption</b></b>\n
+  \           </p>\n        </div>\n\n\n            <b class=\"toggle-caption\"><b>toggle
+  caption</b></b>\n    </div>\n\n    <span class=\"credit\" aria-label=\"Image credit\">\n
+  \       \n        courtesy McGuckian family\n        \n    </span>\n</div>\n<div
+  class=\"enlarge_measure\">\n    <div class=\"img_wrap\">\n        <img data-original=\"https://media.npr.org/assets/img/2018/05/07/mcguckianpatent-4ebad028fb33490dfb44f687c0c67c4a01821872-s1200.jpg\"
+  alt=\"\">\n    </div>\n</div>\n<div class=\"enlarge_html\">\n    <div class=\"image_data\">\n
+  \       <p class=\"caption\">Ambrose McGuckian's method of cooking and storing food
+  in flexible bags, known as the 'A.G.S. Food System,' was an early form of sous-vide.</p>\n
+  \       <span class=\"credit\" aria-label=\"Image credit\">\n            \n            courtesy
+  McGuckian family\n            \n        </span>\n    </div>\n</div>\n   </div>\n
+  \  <p>But in 1978, Mac writes in a letter to A.G.S. that Cryovac lawyers told him
+  the patent wasn't worth \"really anything.\" Mac writes that he decided \"ownership
+  of the patent, worthless as it may be, would mean more to me than ownership of 4,000
+  shares of AGS stock.\" He asked for an exchange.</p>   <p>\"[The patent] was important
+  to my father because it was his baby and it was a significant development in the
+  food industry at the time,\" remembers Peter's brother, Paul McGuckian, who is my
+  stepfather. Paul, a retired judge, served as his father's attorney during negotiations
+  with Cryovac and W.R. Grace in the 1970s. \"He hoped he could make some money from
+  it.\"</p>   <p>As far as we know, he never did. Eventually the patent faded from
+  everyone's memory.</p>   <p>Now Cryovac is owned by Sealed Air. Asked for a comment
+  on this story, a company representative emailed a statement describing \"a long
+  line of contributions to the advancement of food safety and food packaging.\"</p>\n</div>\n<div
+  class=\"tags\">\n      <ul>\n            <li><a class=\"tag tag--story\" data-metrics=\"{&quot;category&quot;:&quot;story
+  actions&quot;,&quot;action&quot;:&quot;click tag&quot;}\" href=\"https://www.npr.org/tags/609097211/cornell-university\">cornell
+  university</a></li>\n      <li><a class=\"tag tag--story\" data-metrics=\"{&quot;category&quot;:&quot;story
+  actions&quot;,&quot;action&quot;:&quot;click tag&quot;}\" href=\"https://www.npr.org/tags/609097209/cryovac\">cryovac</a></li>\n
+  \     <li><a class=\"tag tag--story\" data-metrics=\"{&quot;category&quot;:&quot;story
+  actions&quot;,&quot;action&quot;:&quot;click tag&quot;}\" href=\"https://www.npr.org/tags/333591135/sous-vide\">sous
+  vide</a></li>\n      <li><a class=\"tag tag--story\" data-metrics=\"{&quot;category&quot;:&quot;story
+  actions&quot;,&quot;action&quot;:&quot;click tag&quot;}\" href=\"https://www.npr.org/tags/152358408/hospital-food\">hospital
+  food</a></li>\n      <li><a class=\"tag tag--story\" data-metrics=\"{&quot;category&quot;:&quot;story
+  actions&quot;,&quot;action&quot;:&quot;click tag&quot;}\" href=\"https://www.npr.org/tags/126924306/south-carolina\">South
+  Carolina</a></li>\n   </ul>\n</div>\n\n<!-- END CLASS=\"TAGS\" -->\n<div class=\"share-tools
+  share-tools--secondary\" aria-label=\"Share tools\">\n      <ul>\n            <li
+  class=\"share-tools__service share-tools__service--facebook\"><button class=\"fbStory608308624\"
+  data-share-facebook=\"{&quot;storyId&quot;: 608308624 }\" data-metrics=\"{&quot;action&quot;:&quot;Click
+  Facebook&quot;,&quot;category&quot;:&quot;Share Tools&quot;,&quot;label&quot;:&quot;https:\\/\\/www.npr.org\\/sections\\/thesalt\\/2018\\/05\\/09\\/608308624\\/the-colonel-in-the-kitchen-a-surprising-history-of-sous-vide&quot;}\"><b
+  class=\"share-tools__service-name\">Facebook</b></button></li>\n      <li class=\"share-tools__service
+  share-tools__service--twitter\"><button class=\"story608308624\" data-share-twitter=\"{&quot;storyId&quot;:
+  608308624 }\" data-metrics=\"{&quot;action&quot;:&quot;Click Twitter&quot;,&quot;category&quot;:&quot;Share
+  Tools&quot;,&quot;label&quot;:&quot;https:\\/\\/www.npr.org\\/sections\\/thesalt\\/2018\\/05\\/09\\/608308624\\/the-colonel-in-the-kitchen-a-surprising-history-of-sous-vide&quot;}\"><b
+  class=\"share-tools__service-name\">Twitter</b></button></li>\n      <li class=\"share-tools__service
+  share-tools__service--flipboard\"><button class=\"story608308624\" data-share-flipboard=\"{&quot;storyId&quot;:
+  608308624 }\" data-metrics=\"{&quot;action&quot;:&quot;Click Flipboard&quot;,&quot;category&quot;:&quot;Share
+  Tools&quot;,&quot;label&quot;:&quot;https:\\/\\/www.npr.org\\/sections\\/thesalt\\/2018\\/05\\/09\\/608308624\\/the-colonel-in-the-kitchen-a-surprising-history-of-sous-vide&quot;}\"><b
+  class=\"share-tools__service-name\">Flipboard</b></button></li>\n      <li class=\"share-tools__service
+  share-tools__service--email\"><button class=\"share-tools__email-link\" data-story-id=\"608308624\"
+  data-metrics=\"{&quot;action&quot;:&quot;Click Email a Friend&quot;,&quot;category&quot;:&quot;Share
+  Tools&quot;,&quot;label&quot;:&quot;https:\\/\\/www.npr.org\\/sections\\/thesalt\\/2018\\/05\\/09\\/608308624\\/the-colonel-in-the-kitchen-a-surprising-history-of-sous-vide&quot;}\"><b
+  class=\"share-tools__service-name\">Email</b></button></li>\n   </ul>\n</div>\n\n<!--
+  END CLASS=\"SHARE-TOOLS SHARE-TOOLS--SECONDARY\" ARIA-LABEL=\"SHARE TOOLS\" -->\n<div
+  id=\"newsletter-acquisition-callout-data\" data-newsletter=\"{&quot;newsletterId&quot;:&quot;news&quot;,&quot;title&quot;:&quot;Daily
+  News&quot;,&quot;marketingHeader&quot;:&quot;Sign Up For The NPR Daily Newsletter&quot;,&quot;frequency&quot;:&quot;each
+  weekday&quot;,&quot;shortDescription&quot;:&quot;Catch up on the latest headlines
+  and unique NPR stories, sent every weekday.&quot;,&quot;contentImage&quot;:&quot;https:\\/\\/media.npr.org\\/assets\\/img\\/2018\\/07\\/18\\/dailynews-june27-screencap-cropped-small_custom.png&quot;,&quot;staticMarkupDir&quot;:&quot;\\/buckets\\/topics\\/header1001.html&quot;,&quot;brandingDir&quot;:&quot;\\/branding\\/sections\\/news\\/&quot;,&quot;brandingLink&quot;:&quot;https:\\/\\/www.npr.org\\/sections\\/news\\/&quot;,&quot;organizationId&quot;:1}\">\n
+  \  </div>\n\n<!-- END ID=\"NEWSLETTER-ACQUISITION-CALLOUT-DATA\" DATA-NEWSLETTER=\"{&QUOT;NEWSLETTERID&QUOT;:&QUOT;NEWS&QUOT;,&QUOT;TITLE&QUOT;:&QUOT;DAILY
+  NEWS&QUOT;,&QUOT;MARKETINGHEADER&QUOT;:&QUOT;SIGN UP FOR THE NPR DAILY NEWSLETTER&QUOT;,&QUOT;FREQUENCY&QUOT;:&QUOT;EACH
+  WEEKDAY&QUOT;,&QUOT;SHORTDESCRIPTION&QUOT;:&QUOT;CATCH UP ON THE LATEST HEADLINES
+  AND UNIQUE NPR STORIES, SENT EVERY WEEKDAY.&QUOT;,&QUOT;CONTENTIMAGE&QUOT;:&QUOT;HTTPS:\\/\\/MEDIA.NPR.ORG\\/ASSETS\\/IMG\\/2018\\/07\\/18\\/DAILYNEWS-JUNE27-SCREENCAP-CROPPED-SMALL_CUSTOM.PNG&QUOT;,&QUOT;STATICMARKUPDIR&QUOT;:&QUOT;\\/BUCKETS\\/TOPICS\\/HEADER1001.HTML&QUOT;,&QUOT;BRANDINGDIR&QUOT;:&QUOT;\\/BRANDING\\/SECTIONS\\/NEWS\\/&QUOT;,&QUOT;BRANDINGLINK&QUOT;:&QUOT;HTTPS:\\/\\/WWW.NPR.ORG\\/SECTIONS\\/NEWS\\/&QUOT;,&QUOT;ORGANIZATIONID&QUOT;:1}\"
+  -->\n<div id=\"callout-end-of-story-mount\">\n   </div>\n\n<!-- END ID=\"CALLOUT-END-OF-STORY-MOUNT\"
+  -->\n<aside id=\"end-of-story-recommendations-mount\" class=\"recommended-stories\"
+  aria-label=\"recommended stories\"></aside>\n<!-- END ID=\"END-OF-STORY-RECOMMENDATIONS-MOUNT\"
+  CLASS=\"RECOMMENDED-STORIES\" ARIA-LABEL=\"RECOMMENDED STORIES\" -->\n</article><header
+  class=\"contentheader contentheader--two\" data-metrics=\"{&quot;category&quot;:&quot;The
+  Salt&quot;}\"><div class=\"branding branding--custom\">\n      <a href=\"https://www.npr.org/sections/thesalt/\"
+  data-metrics=\"{&quot;action&quot;:&quot;click branding&quot;}\"><img src=\"https://media.npr.org/branding/sections/thesalt/branding_icon-d76e52abc19240eb928674dd91b71404f1945e2a.png\"
+  class=\"branding__image-icon\" alt=\"The Salt\"><div class=\"branding__inner\">\n
+  \     <h2 class=\"branding__title branding__title--custom-text\">The <b>Salt</b></h2>\n
+  \  <b class=\"branding__mini-teaser\">What's On Your Plate</b>\n</div>\n\n<!-- END
+  CLASS=\"BRANDING__INNER\" -->\n</a>\n</div>\n\n<!-- END CLASS=\"BRANDING BRANDING--CUSTOM\"
+  -->\n</header><div id=\"contentfooterwrap\">\n      <footer id=\"contentfooter\"
+  data-metrics-category=\"The Salt\"><div class=\"branding branding--custom\">\n      <div
+  class=\"branding__outer\">\n            <img src=\"https://media.npr.org/branding/sections/thesalt/branding_icon-d76e52abc19240eb928674dd91b71404f1945e2a.png\"
+  class=\"branding__image-icon\" alt=\"The Salt\">      <div class=\"branding__inner\">\n
+  \                 <h2 class=\"branding__title branding__title--custom-text\">The
+  <b>Salt</b></h2>\n         <b class=\"branding__mini-teaser\">What's On Your Plate</b>\n
+  \     </div>\n      \n<!-- END CLASS=\"BRANDING__INNER\" -->\n   </div>\n   \n<!--
+  END CLASS=\"BRANDING__OUTER\" -->\n</div>\n\n<!-- END CLASS=\"BRANDING BRANDING--CUSTOM\"
+  -->\n<div class=\"modules\">\n      <div class=\"module first\">\n            <h3><a
+  href=\"#\" data-metrics=\"{&quot;action&quot;:&quot;Toggle Footer Dropdown&quot;,&quot;label&quot;:&quot;About&quot;,&quot;category&quot;:&quot;The
+  Salt&quot;}\">About</a></h3>\n      <div id=\"footer_module\" class=\"agglocation
+  linkLocation\">\n                  <div id=\"res163939792\" class=\"bucketwrap listtext\">\n
+  \                       <div class=\"bucket\">\n                              <p>With
+  a pinch of skepticism and a dash of fun, <em>The Salt </em>covers food news from
+  the farm to the plate and beyond. <strong>You can connect with senior editor and
+  host Maria Godoy <a href=\"http://help.npr.org/customer/portal/emails/new?i=1&amp;s=The%20Salt\">via
+  our contact form</a> or directly by <a href=\"https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=thesalt@npr.org\">email</a>.</strong>
+  You can also reach correspondent Allison Aubrey via <a href=\"mailto:aaubrey@npr.org\">email.</a></p>\n
+  \           </div>\n            \n<!-- END CLASS=\"BUCKET\" -->\n         </div>\n
+  \        \n<!-- END ID=\"RES163939792\" CLASS=\"BUCKETWRAP LISTTEXT\" -->\n      </div>\n
+  \  </div>\n   \n<!-- END CLASS=\"MODULE FIRST\" -->\n   <div class=\"module second\">\n
+  \   <h3><a href=\"#\" data-metrics=\"{&quot;action&quot;:&quot;Toggle Footer Dropdown&quot;,&quot;label&quot;:&quot;Subscribe&quot;}\">Subscribe</a></h3>\n\n
+  \   <div>\n        <ul class=\"subscribe\">\n            <li class=\"rss\"><a href=\"feed://www.npr.org/rss/rss.php?id=139941248\"
+  data-metrics=\"{&quot;action&quot;:&quot;Click RSS&quot;}\">RSS</a></li>\n            <li
+  class=\"twitter\"><a href=\"https://twitter.com/NPRFood\" data-metrics=\"{&quot;action&quot;:&quot;Click
+  Twitter&quot;}\">@NPRFood</a></li>\n            <li class=\"twitter\"><a href=\"https://twitter.com/AubreyNPRFood\"
+  data-metrics=\"{&quot;action&quot;:&quot;Click Twitter&quot;}\">@AubreyNPRFood</a></li>\n
+  \           <li class=\"twitter\"><a href=\"https://twitter.com/mgodoyh\" data-metrics=\"{&quot;action&quot;:&quot;Click
+  Twitter&quot;}\">@mgodoyh</a></li>\n            <li class=\"twitter\"><a href=\"https://twitter.com/nprDanCharles\"
+  data-metrics=\"{&quot;action&quot;:&quot;Click Twitter&quot;}\">@nprDanCharles</a></li>\n
+  \       </ul>\n    </div>\n</div>\n<!-- end class=\"module second\" -->\n\n<div
+  class=\"module third\">\n    <h3><a href=\"#\" data-metrics=\"{&quot;action&quot;:&quot;Toggle
+  Footer Dropdown&quot;,&quot;label&quot;:&quot;NPR Food Twitter&quot;}\">NPR Food
+  Twitter</a></h3>\n\n    <div class=\"promo-bucket twitter-promo\" data-metrics-all=\"\"
+  data-metrics=\"{&quot;action&quot;:&quot;Click Footer Promo&quot;}\">\n        <a
+  href=\"https://twitter.com/NPRFood\" title=\"Follow @NPRFood\">\n            <img
+  class=\"twitter-bird\" src=\"//media.npr.org/images/twitter-bird-light-bgs.png\">\n
+  \           <h4>Follow <b>@NPRFood</b></h4>\n        </a>\n    </div>\n</div>\n<!--
+  end class=\"module third\" -->\n</div>\n\n<!-- END CLASS=\"MODULES\" -->\n</footer>\n</div>\n\n<!--
+  END ID=\"CONTENTFOOTERWRAP\" -->\n<footer id=\"npr-footer\" class=\"npr-footer\"
+  role=\"contentinfo\" aria-label=\"NPR footer\"><div class=\"npr-footer__content\"
+  data-metrics-category=\"Global Footer\" data-metrics-label=\"Footer\">\n    <div
+  class=\"npr-footer__module-group\">\n        <div class=\"npr-footer__module\">\n
+  \           <h6 class=\"npr-footer__header\">Read &amp; Listen</h6>\n\n            <ul>\n
+  \               <li class=\"npr-footer__item\"><a href=\"/\" data-metrics-action=\"Click
+  Homepage\">Home</a></li>\n                <li class=\"npr-footer__item\"><a href=\"/sections/news/\"
+  data-metrics-action=\"Click News\">News</a></li>\n                <li class=\"npr-footer__item\"><a
+  href=\"/sections/arts/\" data-metrics-action=\"Click Arts &amp; Life\">Arts &amp;
+  Life</a></li>\n                <li class=\"npr-footer__item\"><a href=\"/music/\"
+  data-metrics-action=\"Click Music\">Music</a></li>\n                <li class=\"npr-footer__item\"><a
+  href=\"/podcasts/\" data-metrics-action=\"Click Podcasts\">Podcasts</a></li>\n                <li
+  class=\"npr-footer__item\"><a href=\"/programs/\" data-metrics-action=\"Click Programs\">Programs</a></li>\n
+  \           </ul>\n        </div>\n\n        <div class=\"npr-footer__module\">\n
+  \           <h6 class=\"npr-footer__header\">Connect</h6>\n\n            <ul>\n
+  \               <li class=\"npr-footer__item\"><a href=\"/newsletters\" data-metrics-action=\"Click
+  Newsletters\">Newsletters</a></li>\n                <li class=\"npr-footer__item\"><a
+  href=\"https://www.facebook.com/NPR/\" data-metrics-action=\"Click Facebook\">Facebook</a></li>\n
+  \               <li class=\"npr-footer__item\"><a href=\"https://twitter.com/NPR\"
+  data-metrics-action=\"Click Twitter\">Twitter</a></li>\n                <li class=\"npr-footer__item\"><a
+  href=\"https://www.instagram.com/npr/\" data-metrics-action=\"Click Instagram\">Instagram</a></li>\n
+  \               <li class=\"npr-footer__item\"><a href=\"https://www.npr.org/contact\"
+  data-metrics-action=\"Click Contact\">Contact</a></li>\n                <li class=\"npr-footer__item\"><a
+  href=\"https://help.npr.org\" data-metrics-action=\"Click Help\">Help</a></li>\n
+  \           </ul>\n        </div>\n\n        <div class=\"npr-footer__module\">\n
+  \           <h6 class=\"npr-footer__header\">About NPR</h6>\n\n            <ul>\n
+  \               <li class=\"npr-footer__item\"><a href=\"/about/\" data-metrics-action=\"Click
+  Overview\">Overview</a></li>\n                <li class=\"npr-footer__item\"><a
+  href=\"/about-npr/178660742/public-radio-finances\" data-metrics-action=\"Click
+  Finances\">Finances</a></li>\n                <li class=\"npr-footer__item\"><a
+  href=\"/about-npr/179803822/people-at-npr\" data-metrics-action=\"Click People\">People</a></li>\n
+  \               <li class=\"npr-footer__item\"><a href=\"/series/750003/press-room/\"
+  data-metrics-action=\"Click Press\">Press</a></li>\n                <li class=\"npr-footer__item\"><a
+  href=\"/sections/publiceditor/\" data-metrics-action=\"Click Public Editor\">Public
+  Editor</a></li>\n                <li class=\"npr-footer__item\"><a href=\"/corrections/\"
+  data-metrics-action=\"Click Corrections\">Corrections</a></li>\n            </ul>\n
+  \       </div>\n\n        <div class=\"npr-footer__module\">\n            <h6 class=\"npr-footer__header\">Get
+  Involved</h6>\n\n            <ul>\n                <li class=\"npr-footer__item\"><a
+  href=\"/series/750002/support-public-radio\" data-metrics-action=\"Click Support
+  Public Radio\">Support Public Radio</a></li>\n                <li class=\"npr-footer__item\"><a
+  href=\"/about-npr/186948703/corporate-sponsorship\" data-metrics-action=\"Click
+  Sponsor NPR\">Sponsor NPR</a></li>\n                <li class=\"npr-footer__item\"><a
+  href=\"/careers/\" data-metrics-action=\"Click NPR Careers\">NPR Careers</a></li>\n
+  \               <li class=\"npr-footer__item\"><a href=\"https://shop.npr.org/\"
+  data-metrics-action=\"Click NPR Shop\">NPR Shop</a></li>\n                <li class=\"npr-footer__item\"><a
+  href=\"https://www.nprpresents.org\" data-metrics-action=\"Click NPR Events\">NPR
+  Events</a></li>\n                <li class=\"npr-footer__item\"><a href=\"/about-npr/177066727/visit-npr\"
+  data-metrics-action=\"Click Visit NPR\">Visit NPR</a></li>\n            </ul>\n
+  \       </div>\n    </div>\n\n    <div class=\"npr-footer__module npr-footer__module--secondary\">\n
+  \       <ul>\n            <li class=\"npr-footer__item\"><a href=\"/about-npr/179876898/terms-of-use\"
+  data-metrics-action=\"Click Terms of Use\">Terms of Use</a></li>\n            <li
+  class=\"npr-footer__item\"><a href=\"/about-npr/179878450/privacy-policy\" data-metrics-action=\"Click
+  Privacy\">Privacy</a></li>\n            <li class=\"npr-footer__item\"><a href=\"/about-npr/179878450/privacy-policy#yourchoices\"
+  data-metrics-action=\"Click Your Privacy Choices\">Your Privacy Choices</a></li>\n
+  \           <li class=\"npr-footer__item\"><a href=\"https://text.npr.org/\" data-metrics-action=\"Click
+  Text Only\">Text Only</a></li>\n            <li class=\"npr-footer__item\"><span
+  class=\"copy-year\"></span></li>\n        </ul>\n    </div>\n</div></footer></section>
+  \  <div id=\"main-sidebar\">\n            <aside id=\"ad-standard-wrap\" aria-label=\"advertisement\"
+  hidden=\"\" ln6owlz=\"\">\n    \n\n    <div id=\"ad-standard-Arts___Life_Food\"
+  class=\"ad-standard\" data-ad-config=\"{&quot;network&quot;:&quot;\\/6735\\/n6735&quot;,&quot;site&quot;:{&quot;default&quot;:&quot;NPR&quot;,&quot;mobile&quot;:&quot;NPRMOBILE&quot;},&quot;zone&quot;:&quot;Arts___Life_Food&quot;,&quot;targets&quot;:{&quot;testserver&quot;:&quot;false&quot;,&quot;storyId&quot;:&quot;608308624&quot;,&quot;agg&quot;:[&quot;434975886&quot;,&quot;139941248&quot;],&quot;blog&quot;:&quot;139941248&quot;},&quot;location&quot;:&quot;standard&quot;,&quot;deferred&quot;:false,&quot;isBetweenContent&quot;:false,&quot;isAggSponsorship&quot;:false,&quot;borderClass&quot;:&quot;&quot;}\"></div>\n
+  \   <p class=\"left\">NPR thanks our sponsors</p><p class=\"right\"><a href=\"/about-npr/186948703/corporate-sponsorship\">Become
+  an NPR sponsor</a></p>\n\n</aside>\n   </div>\n   \n<!-- END ID=\"MAIN-SIDEBAR\"
+  -->\n</div>\n\n<!-- END ID=\"WRAPPER\" -->\n<script type=\"text/javascript\">\n
+  \  (function () {\n    var loadPageJs = function () { webpackJsonp([84,26],{0:function(n,t,c){n.exports=c(1761)},1761:function(n,t,c){\"use
+  strict\";c.p=NPR.serverVars.webpackPublicPath,function(){var n=2,t=function(){--n<1&&function(n){c(38),c(2180),c(351),c(448),c(254),c(759),c(388),c(2185),c(387),c(2184),c(2183),c(1363),c(567),c(2177)}(c)}.bind(this);c.e(0,t),c.e(3,t)}.call(this)}});
+  };\n    if (document.readyState === 'complete') {\n        loadPageJs();\n    }
+  else {\n        window.addEventListener('load', function load() {\n            window.removeEventListener('load',
+  load, false);\n            loadPageJs();\n        });\n    }\n})();\n</script>\n</main><noscript><iframe
+  style=\"display:none;padding:0;margin:0;\" width=\"0\" height=\"0\" src=\"//20655831p.rfihub.com/ca.html?rb=3035&ca=20501671&ra=gtmcb\"></iframe></noscript><noscript><iframe><img
+  height=\"1\" width=\"1\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=1621557368158968&ev=PageView&noscript=1\"
+  /></iframe></noscript><script type=\"text/javascript\">\n    var _sf_async_config
+  = _sf_async_config || {};\n    /** CONFIGURATION START **/\n    _sf_async_config.uid
+  = '18888';\n    _sf_async_config.domain = NPR.ServerConstants.cbHost;\n    _sf_async_config.useCanonical
+  = true;\n\n    /** CONFIGURATION END **/\n    (function() {\n        function loadChartbeat()
+  {\n            // Wait until the metric for chartbeat have been setup\n            //
+  in templates/javascript/metrics/chartbeat.js\n            if( !!NPR.ChartbeatLoaded)
+  {\n                var e = document.createElement('script');\n                e.setAttribute('language',
+  'javascript');\n                e.setAttribute('type', 'text/javascript');\n                e.setAttribute('src',
+  'https://static.chartbeat.com/js/chartbeat.js');\n                document.body.appendChild(e);\n
+  \           } else {\n                setTimeout(loadChartbeat, 1000);\n            }\n
+  \       }\n\n        var oldonload = window.onload;\n        window.onload = (typeof
+  window.onload != 'function') ?\n                loadChartbeat : function() {\n            oldonload();\n
+  \           window._sf_endpt = (new Date()).getTime();\n            loadChartbeat();\n
+  \       };\n    })();\n</script></body></html>"

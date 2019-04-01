@@ -1,0 +1,615 @@
+---
+:url: http://wboi.org/post/colonial-williamsburg-serves-past-so-you-can-try-taste-history
+:body: "<!DOCTYPE html><html lang=\"en\" class=\"js js  js no-touch opacity cssanimations
+  cssgradients csstransforms3d csstransitions fontface svg live\" style=\"\"><head>\n
+  \   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><script
+  src=\"https://js-agent.newrelic.com/nr-1118.min.js\"></script><script type=\"text/javascript\"
+  async=\"\" src=\"//stream.publicbroadcasting.net/analytics/aalu.js\"></script><script
+  type=\"text/javascript\">(window.NREUM||(NREUM={})).loader_config={xpid:\"VgYHV1dVGwIBVFlVBQU=\"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function
+  r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return
+  r(o||n)},o,o.exports)}return n[e].exports}if(\"function\"==typeof __nr_require)return
+  __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function
+  r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t(\"ee\"),a=t(16),s={};try{o=localStorage.getItem(\"__nr_flags\").split(\",\"),console&&\"function\"==typeof
+  console.log&&(s.console=!0,o.indexOf(\"dev\")!==-1&&(s.dev=!0),o.indexOf(\"nr_dev\")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on(\"internal-error\",function(t){r(t.stack)}),s.dev&&i.on(\"fn-err\",function(t,n,e){r(e.stack)}),s.dev&&(r(\"NR
+  AGENT IN DEVELOPMENT MODE\"),r(\"flags: \"+a(s,function(t,n){return t}).join(\",
+  \")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i(\"ierr\",[f,c.now(),!0])}catch(d){}}return\"function\"==typeof
+  u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||\"Uncaught
+  error with no additional information\",this.sourceURL=n,this.line=e}function o(t,n){var
+  e=n?null:c.now();i(\"err\",[t,e])}var i=t(\"handle\"),a=t(17),s=t(\"ee\"),c=t(\"loader\"),f=t(\"gos\"),u=window.onerror,d=!1,l=\"nr@seenError\",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw
+  new Error}catch(h){\"stack\"in h&&(t(8),t(7),\"addEventListener\"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on(\"fn-start\",function(t,n,e){d&&(p+=1)}),s.on(\"fn-err\",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on(\"fn-end\",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on(\"internal-error\",function(t){i(\"ierr\",[t,c.now(),!0])})},{}],3:[function(t,n,e){t(\"loader\").features.ins=!0},{}],4:[function(t,n,e){function
+  r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var
+  o=t(\"ee\"),i=t(\"handle\"),a=t(8),s=t(7),c=\"learResourceTimings\",f=\"addEventListener\",u=\"resourcetimingbufferfull\",d=\"bstResource\",l=\"resource\",p=\"-start\",h=\"-end\",m=\"fn\"+p,v=\"fn\"+h,w=\"bstTimer\",y=\"pushState\",g=t(\"loader\");g.features.stn=!0,t(6);var
+  b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var
+  e=t[0];e instanceof b&&i(\"bst\",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),\"requestAnimationFrame\"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i(\"bstHist\",[location.pathname+location.hash,this.startPath,this.time])}),f
+  in window.performance&&(window.performance[\"c\"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance[\"c\"+c]()},!1):window.performance[f](\"webkit\"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance[\"webkitC\"+c]()},!1)),document[f](\"scroll\",r,{passive:!0}),document[f](\"keypress\",r,!1),document[f](\"click\",r,!1)}},{}],5:[function(t,n,e){function
+  r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function
+  o(t){s.inPlace(t,[u,d],\"-\",i)}function i(t,n){return t[1]}var a=t(\"ee\").get(\"events\"),s=t(19)(a,!0),c=t(\"gos\"),f=XMLHttpRequest,u=\"addEventListener\",d=\"removeEventListener\";n.exports=a,\"getPrototypeOf\"in
+  Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+\"-start\",function(t,n){var
+  e=t[1],r=c(e,\"nr@wrapped\",function(){function t(){if(\"function\"==typeof e.handleEvent)return
+  e.handleEvent.apply(e,arguments)}var n={object:t,\"function\":e}[typeof e];return
+  n?s(n,\"fn-\",null,n.name||\"anonymous\"):e});this.wrapped=t[1]=r}),a.on(d+\"-start\",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var
+  r=t(\"ee\").get(\"history\"),o=t(19)(r);n.exports=r,o.inPlace(window.history,[\"pushState\",\"replaceState\"],\"-\")},{}],7:[function(t,n,e){var
+  r=t(\"ee\").get(\"raf\"),o=t(19)(r),i=\"equestAnimationFrame\";n.exports=r,o.inPlace(window,[\"r\"+i,\"mozR\"+i,\"webkitR\"+i,\"msR\"+i],\"raf-\"),r.on(\"raf-start\",function(t){t[0]=o(t[0],\"fn-\")})},{}],8:[function(t,n,e){function
+  r(t,n,e){t[0]=a(t[0],\"fn-\",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],\"fn-\",this,e)}var
+  i=t(\"ee\").get(\"timer\"),a=t(19)(i),s=\"setTimeout\",c=\"setInterval\",f=\"clearTimeout\",u=\"-start\",d=\"-\";n.exports=i,a.inPlace(window,[s,\"setImmediate\"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,\"clearImmediate\"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function
+  r(t,n){d.inPlace(n,[\"onreadystatechange\"],\"fn-\",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit(\"xhr-resolved\",[],t)),d.inPlace(t,y,\"fn-\",s)}function
+  i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function
+  s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t(\"ee\"),u=f.get(\"xhr\"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w=\"readystatechange\",y=[\"onload\",\"onerror\",\"onabort\",\"onloadstart\",\"onloadend\",\"onprogress\",\"ontimeout\"],g=[];n.exports=u;var
+  b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit(\"new-xhr\",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit(\"internal-error\",[e])}catch(r){}}return
+  n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,[\"open\",\"send\"],\"-xhr-\",s),u.on(\"send-xhr-start\",function(t,n){r(t,n),i(n)}),u.on(\"open-xhr-start\",r),h){var
+  x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else
+  f.on(\"fn-end\",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function
+  r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var
+  i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader(\"X-NewRelic-App-Data\");c&&(n.cat=c.split(\",
+  \").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit(\"xhr-done\",[t],t),s(\"xhr\",[n,e,this.startTime])}}}function
+  o(t,n){var e=t.responseType;if(\"json\"===e&&null!==n)return n;var r=\"arraybuffer\"===e||\"blob\"===e||\"json\"===e?t.response:t.responseText;return
+  h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+\":\"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var
+  a=t(\"loader\");if(a.xhrWrappable){var s=t(\"handle\"),c=t(11),f=t(\"ee\"),u=[\"load\",\"error\",\"abort\",\"timeout\"],d=u.length,l=t(\"id\"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on(\"new-xhr\",function(t){var
+  n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener(\"progress\",function(t){n.lastSize=t.loaded},!1)}),f.on(\"open-xhr-start\",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on(\"open-xhr-end\",function(t,n){\"loader_config\"in
+  NREUM&&\"xpid\"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader(\"X-NewRelic-ID\",NREUM.loader_config.xpid)}),f.on(\"send-xhr-start\",function(t,n){var
+  e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{\"abort\"===t.type&&(o.params.aborted=!0),(\"load\"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||\"function\"!=typeof
+  n.onload))&&o.end(n)}catch(e){try{f.emit(\"internal-error\",[e])}catch(r){}}};for(var
+  s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on(\"xhr-cb-time\",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&\"function\"==typeof
+  e.onload||this.end(e)}),f.on(\"xhr-load-added\",function(t,n){var e=\"\"+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on(\"xhr-load-removed\",function(t,n){var
+  e=\"\"+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on(\"addEventListener-end\",function(t,n){n
+  instanceof m&&\"load\"===t[0]&&f.emit(\"xhr-load-added\",[t[1],t[2]],n)}),f.on(\"removeEventListener-end\",function(t,n){n
+  instanceof m&&\"load\"===t[0]&&f.emit(\"xhr-load-removed\",[t[1],t[2]],n)}),f.on(\"fn-start\",function(t,n,e){n
+  instanceof m&&(\"onload\"===e&&(this.onload=!0),(\"load\"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on(\"fn-end\",function(t,n){this.xhrCbStart&&f.emit(\"xhr-cb-time\",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var
+  n=document.createElement(\"a\"),e=window.location,r={};n.href=t,r.port=n.port;var
+  o=n.href.split(\"://\");!r.port&&o[1]&&(r.port=o[1].split(\"/\")[0].split(\"@\").pop().split(\":\")[1]),r.port&&\"0\"!==r.port||(r.port=\"https\"===o[0]?\"443\":\"80\"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],\"/\"!==r.pathname.charAt(0)&&(r.pathname=\"/\"+r.pathname);var
+  i=!n.protocol||\":\"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return
+  r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function
+  o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void
+  0:this}}var i=t(\"handle\"),a=t(16),s=t(17),c=t(\"ee\").get(\"tracer\"),f=t(\"loader\"),u=NREUM;\"undefined\"==typeof
+  window.newrelic&&(newrelic=u);var d=[\"setPageViewName\",\"setCustomAttribute\",\"setErrorHandler\",\"finished\",\"addToTrace\",\"inlineHit\",\"addRelease\"],l=\"api-\",p=l+\"ixn-\";a(d,function(t,n){u[n]=o(l+n,!0,\"api\")}),u.addPageAction=o(l+\"addPageAction\",!0),u.setCurrentRouteName=o(l+\"routeName\",!0),n.exports=newrelic,u.interaction=function(){return(new
+  r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o=\"function\"==typeof
+  n;return i(p+\"tracer\",[f.now(),t,e],r),function(){if(c.emit((o?\"\":\"no-\")+\"fn-start\",[f.now(),r,o],e),o)try{return
+  n.apply(this,arguments)}catch(t){throw c.emit(\"fn-err\",[arguments,this,t],e),t}finally{c.emit(\"fn-end\",[f.now()],e)}}}};a(\"actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get\".split(\",\"),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){\"string\"==typeof
+  t&&(t=new Error(t)),i(\"err\",[t,f.now(),!1,n])}},{}],13:[function(t,n,e){n.exports=function(t){if(\"string\"==typeof
+  t&&t.length)return t.length;if(\"object\"==typeof t){if(\"undefined\"!=typeof ArrayBuffer&&t
+  instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if(\"undefined\"!=typeof
+  Blob&&t instanceof Blob&&t.size)return t.size;if(!(\"undefined\"!=typeof FormData&&t
+  instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var
+  r=0,o=navigator.userAgent.match(/Firefox[\\/\\s](\\d+\\.\\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function
+  r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split(\".\"),r=n.split(\".\"),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var
+  o=null,i=null,a=/Version\\/(\\S+)\\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf(\"Chrome\")===-1&&s.indexOf(\"Chromium\")===-1&&(o=\"Safari\",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function
+  r(t,n){var e=[],r=\"\",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return
+  e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function
+  r(t,n,e){n||(n=0),\"undefined\"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return
+  i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:\"undefined\"!=typeof window.performance&&window.performance.timing&&\"undefined\"!=typeof
+  window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t
+  instanceof Function&&t.apply&&!t[a])}var o=t(\"ee\"),i=t(17),a=\"nr@original\",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function
+  e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s=\"function\"==typeof
+  e?e(r,a):e||{}}catch(f){l([f,\"\",[r,a,o],s])}u(n+\"start\",[r,a,o],s);try{return
+  c=t.apply(a,r)}catch(d){throw u(n+\"err\",[r,a,d],s),d}finally{u(n+\"end\",[r,a,c],s)}}return
+  r(t)?t:(n||(n=\"\"),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o=\"\");var
+  a,s,c,f=\"-\"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function
+  u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function
+  d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return
+  t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return
+  n}function l(n){try{t.emit(\"internal-error\",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function
+  r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function
+  e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var
+  d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function
+  h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function
+  m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||\"feature\",g[e]=n,n
+  in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return
+  b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var
+  s=\"nr@context\",c=t(\"gos\"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function
+  r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return
+  Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return
+  t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function
+  r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t(\"ee\").get(\"handle\");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function
+  r(t){var n=typeof t;return!t||\"object\"!==n&&\"function\"!==n?-1:t===window?0:a(t,i,function(){return
+  o++})}var o=1,i=\"nr@id\",a=t(\"gos\");n.exports=r},{}],loader:[function(t,n,e){function
+  r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName(\"script\")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return
+  u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c(\"mark\",[\"onload\",a()+x.offset],null,\"api\");var
+  e=p.createElement(\"script\");e.src=\"https://\"+t.agent,n.parentNode.insertBefore(e,n)}}function
+  o(){\"complete\"===p.readyState&&i()}function i(){c(\"mark\",[\"domContent\",a()+x.offset],null,\"api\")}function
+  a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new
+  Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t(\"handle\"),f=t(16),u=t(\"ee\"),d=t(15),l=window,p=l.document,h=\"addEventListener\",m=\"attachEvent\",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var
+  y=\"\"+location,g={beacon:\"bam.nr-data.net\",errorBeacon:\"bam.nr-data.net\",agent:\"js-agent.newrelic.com/nr-1118.min.js\"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h](\"DOMContentLoaded\",i,!1),l[h](\"load\",r,!1)):(p[m](\"onreadystatechange\",o),l[m](\"onload\",r)),c(\"mark\",[\"firstbyte\",s],null,\"api\");var
+  E=0,O=t(18)},{}]},{},[\"loader\",2,10,4,3]);</script>\n<meta property=\"og:url\"
+  content=\"https://www.wboi.org/post/colonial-williamsburg-serves-past-so-you-can-try-taste-history\">\n<meta
+  property=\"og:description\" content=\"Just a few blocks past a college bookstore,
+  modern restaurants with beer flights and big-screen TVs, and gift shops selling
+  the same trinkets you&amp;#039;d\">\n<meta property=\"og:type\" content=\"article\">\n<meta
+  property=\"og:title\" content=\"Colonial Williamsburg Serves Up The Past So You
+  Can Try A Taste Of History\">\n<link href=\"http://mediad.publicbroadcasting.net/p/shared/npr/201902/693560799.jpg\"
+  rel=\"image_src\">\n<meta property=\"og:image\" content=\"http://mediad.publicbroadcasting.net/p/shared/npr/styles/medium/nprshared/201902/693560799.jpg\">\n<meta
+  property=\"og:image:height\" content=\"992\">\n<meta content=\"Colonial Williamsburg
+  Serves Up The Past So You Can Try A Taste Of History\" about=\"/post/colonial-williamsburg-serves-past-so-you-can-try-taste-history\"
+  property=\"dc:title\">\n<link rel=\"shortcut icon\" href=\"//www.wboi.org/sites/wbni/files/201508/favicon_fid.ico\"
+  type=\"image/vnd.microsoft.icon\">\n<meta property=\"twitter:site\" content=\"@WBOI\">\n<meta
+  property=\"twitter:card\" content=\"summary\">\n<meta property=\"og:image:width\"
+  content=\"1764\">\n<meta name=\"description\" content=\"Just a few blocks past a
+  college bookstore, modern restaurants with beer flights and big-screen TVs, and
+  gift shops selling the same trinkets you&amp;#039;d\">\n<meta name=\"datePublished\"
+  content=\"2019-02-17\">\n<meta name=\"has_audio\" content=\"0\">\n<meta name=\"programs\"
+  content=\"none\">\n<link rel=\"shortlink\" href=\"/node/99838\">\n<link rel=\"canonical\"
+  href=\"/post/colonial-williamsburg-serves-past-so-you-can-try-taste-history\">\n<meta
+  name=\"Generator\" content=\"Drupal 7 (http://drupal.org)\">\n<meta name=\"category\"
+  content=\"none\">\n<meta name=\"nid\" content=\"99838\">\n<meta name=\"wordCount\"
+  content=\"1236\">\n<meta name=\"keywords\" content=\"\">\n<meta name=\"org_id\"
+  content=\"1\">\n<meta name=\"author\" content=\"Tove Danovich\">\n<meta name=\"story_id\"
+  content=\"693507713\">\n    <title>Colonial Williamsburg Serves Up The Past So You
+  Can Try A Taste Of History | Northeast Indiana Public Radio</title>\n    <link type=\"text/css\"
+  rel=\"stylesheet\" href=\"https://www.wboi.org/sites/wboi.org/files/css/css_YVfvJFuJy4FChYntv5DMnwylhTnce_RvvCv1-0PB6wo.css\"
+  media=\"all\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.wboi.org/sites/wboi.org/files/css/css_ZFlaYqkiQzTmlBPX4mQeT33IFQX3nR-zpGlyqFhtTNM.css\"
+  media=\"all\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.wboi.org/sites/wboi.org/files/css/css_PV0HBDBtTWS7oiEnFpozcEeThn_X5umpjVSdbNSQIRI.css\"
+  media=\"all\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.wboi.org/sites/wboi.org/files/css/css_L8WxrDC08Ir_eMogmXkh2RqlJe1shU8XROZ99c68PUU.css\"
+  media=\"all\">\n<style type=\"text/css\" media=\"all\">\n<!--/*--><![CDATA[/*><!--*/\n.header-region-outer{background-color:#9FC0DF;}@media
+  screen and (min-width:1024px){.header-region-outer{background-image:url(//www.wboi.org/sites/wbni/files/201508/background_fid.jpg);background-position:center
+  bottom;background-size:cover;background-repeat:no-repeat;}}.branding .tagline{color:#ffffff;}.branding
+  .listen-live-toggle > a,.branding .header-utility > a,.branding .header-utility
+  > a.trigger-nav{color:#DEDEDE;}@media screen and (min-width:641px){.branding .trigger-nav{background:#777777;}}@media
+  screen and (max-width:640px){.branding .header-utility > a.trigger-nav,.active-menu
+  .branding .header-utility > a.trigger-nav{color:#777777;}}#listen-live .listen-live-toggle{background-color:#246da8;}#listen-live
+  .listen-live-btn{background-color:transparent;color:#DEDEDE;}@media screen and (min-width:640px){#listen-live
+  .listen-live-btn{background-color:#246da8;}}.branding .give{background:#A32B19;}\n\n/*]]>*/-->\n</style>\n<link
+  type=\"text/css\" rel=\"stylesheet\" href=\"//fonts.googleapis.com/css?family=Lato:300,700,700italic,900,italic,regular&amp;subset=latin\"
+  media=\"all\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.wboi.org/sites/wboi.org/files/css/css_uh0x2LzyAY48tlCljhNptecgFIMSq7HNBnEOcLwdY5s.css\"
+  media=\"all\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.wboi.org/sites/wboi.org/files/css/css_HNGX9NR_SJlDbd18PONcfA20r6VYVpSQUGlsDQAcTJg.css\"
+  media=\"all\">\n    <script type=\"text/javascript\" src=\"//www.wboi.org/sites/wbni/files/js/js_xSpMA4ArVcBKOZ43sPqNRk0gxQZdDVifw27pIUCzWU0.js\"></script><style></style>\n<script
+  type=\"text/javascript\" src=\"//www.wboi.org/sites/wbni/files/js/js_P9u0bgloveAIlc2kutVCUB_xMaRV3YHWhSVHD3IN5tM.js\"></script><meta
+  class=\"foundation-mq-small\"><meta class=\"foundation-mq-medium\"><meta class=\"foundation-mq-large\"><meta
+  class=\"foundation-mq-xlarge\"><meta class=\"foundation-mq-xxlarge\"><style></style>\n<script
+  type=\"text/javascript\" src=\"//www.wboi.org/sites/wbni/files/js/js_f_6-OzlFXjayKlsU5sJKLwjz7LFQvdIZDm-Mt6jKwyM.js\"></script>\n<script
+  type=\"text/javascript\" src=\"//www.wboi.org/sites/wbni/files/js/js_kSw5sgU6xb3CxVHQ3BNve1rqLkHjpj8ScYkBtSqvOnY.js\"></script>\n<script
+  type=\"text/javascript\" src=\"//www.googletagservices.com/tag/js/gpt.js\"></script>\n<script
+  type=\"text/javascript\" src=\"//www.wboi.org/sites/wbni/files/js/js_lI8epUZWKiLXGEU-DwZKita3o7TWFDYzW3wigxWwCI8.js\"></script>\n<script
+  type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\n(function() {var ga = document.createElement(\"script\");ga.type
+  = \"text/javascript\";ga.async = true;ga.src=\"//stream.publicbroadcasting.net/analytics/aalu.js\";var
+  s = document.getElementsByTagName(\"script\")[0];s.parentNode.insertBefore(ga, s);})();\n//--><!]]>\n</script>\n<script
+  type=\"text/javascript\" src=\"//www.wboi.org/sites/wbni/files/js/js_I59XKJ_kHbj_0dAhWYE6uEMAO_RV8yJmEktex28UmFs.js\"></script>\n<script
+  type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\njQuery.extend(Drupal.settings,
+  {\"basePath\":\"\\/\",\"pathPrefix\":\"\",\"ajaxPageState\":{\"theme\":\"responso\",\"theme_token\":\"deaIxN5QVSBZOfk5zCrWPE0BNDCO7QyjtGKvDZ05SEg\",\"js\":{\"0\":1,\"sites\\/all\\/modules\\/contrib\\/jquery_update\\/replace\\/jquery\\/1.8\\/jquery.min.js\":1,\"misc\\/jquery.once.js\":1,\"misc\\/drupal.js\":1,\"sites\\/all\\/libraries\\/magnific-popup\\/jquery.magnific-popup.min.js\":1,\"sites\\/all\\/modules\\/custom\\/responsive_utilities\\/js\\/vendor\\/foundation\\/foundation.js\":1,\"sites\\/all\\/modules\\/custom\\/responsive_utilities\\/js\\/vendor\\/foundation\\/foundation.topbar.js\":1,\"sites\\/all\\/modules\\/contrib\\/google_cse\\/google_cse.js\":1,\"sites\\/all\\/modules\\/custom\\/pi_hull\\/pi_outrigger\\/js\\/shared-cache-roundtrip.js\":1,\"sites\\/all\\/modules\\/custom\\/pi_media_types\\/pi_audio\\/js\\/pi-audio.js\":1,\"sites\\/all\\/modules\\/custom\\/pi_hull\\/js\\/pi-hull.js\":1,\"sites\\/all\\/modules\\/custom\\/pi_hull\\/js\\/jquery.innerfade.js\":1,\"sites\\/all\\/modules\\/custom\\/pi_hull\\/jplayer\\/js\\/jquery.jplayer.min.js\":1,\"sites\\/all\\/modules\\/custom\\/pi_hull\\/jplayer\\/js\\/main.js\":1,\"sites\\/all\\/modules\\/custom\\/shhh\\/shhh.js\":1,\"\\/\\/www.googletagservices.com\\/tag\\/js\\/gpt.js\":1,\"sites\\/all\\/modules\\/custom\\/responsive_ads\\/js\\/main.js\":1,\"sites\\/all\\/modules\\/custom\\/pi_ndest\\/pi_sitewide_alert\\/sitewide-alert.js\":1,\"sites\\/all\\/modules\\/custom\\/pi_ajax_links_api\\/nprogress\\/nprogress.js\":1,\"sites\\/all\\/modules\\/custom\\/pi_ajax_links_api\\/pi_ajax_links_api.js\":1,\"sites\\/all\\/modules\\/custom\\/npr_river\\/assets\\/npr-river.js\":1,\"sites\\/all\\/modules\\/custom\\/npr_entities\\/npr_fields\\/npr_image_gallery\\/js\\/npr-image-gallery.js\":1,\"sites\\/all\\/modules\\/custom\\/pi_guide\\/js\\/pi_guide_schedule_selector.js\":1,\"sites\\/all\\/modules\\/custom\\/pi_assets\\/plugins\\/images\\/js\\/popup.js\":1,\"sites\\/all\\/modules\\/custom\\/responsive_utilities\\/js\\/vendor\\/modernizr.js\":1,\"sites\\/all\\/modules\\/custom\\/responsive_utilities\\/js\\/vendor\\/media.match.min.js\":1,\"sites\\/all\\/modules\\/custom\\/responsive_utilities\\/js\\/vendor\\/matchMedia.addListener.js\":1,\"sites\\/all\\/modules\\/custom\\/responsive_utilities\\/js\\/vendor\\/enquire.min.js\":1,\"sites\\/all\\/modules\\/custom\\/responsive_utilities\\/js\\/vendor\\/fastclick.js\":1,\"1\":1,\"sites\\/all\\/modules\\/custom\\/pi_content_types\\/pi_program\\/treatments\\/program-promo\\/program-promo.js\":1,\"sites\\/all\\/modules\\/custom\\/responsive_utilities\\/js\\/responsive-utilities.mediaqueries.js\":1,\"sites\\/all\\/modules\\/custom\\/responsive_utilities\\/js\\/responsive-utilities.scripts.js\":1,\"sites\\/all\\/modules\\/custom\\/responsive_utilities\\/js\\/responsive-utilities.responsiveimages.js\":1,\"sites\\/all\\/modules\\/custom\\/responsive_utilities\\/js\\/responsive-utilities.js\":1,\"sites\\/all\\/modules\\/custom\\/responsive_utilities\\/js\\/responsive-utilities.tag.js\":1,\"sites\\/all\\/modules\\/custom\\/audity\\/audity\\/dsplayer.min.js\":1},\"css\":{\"modules\\/system\\/system.base.css\":1,\"modules\\/system\\/system.menus.css\":1,\"modules\\/system\\/system.messages.css\":1,\"sites\\/all\\/libraries\\/magnific-popup\\/magnific-popup.css\":1,\"sites\\/all\\/modules\\/contrib\\/date\\/date_api\\/date.css\":1,\"sites\\/all\\/modules\\/contrib\\/date\\/date_popup\\/themes\\/datepicker.1.7.css\":1,\"modules\\/field\\/theme\\/field.css\":1,\"sites\\/all\\/modules\\/contrib\\/google_cse\\/google_cse.css\":1,\"modules\\/node\\/node.css\":1,\"sites\\/all\\/modules\\/custom\\/pi_hull\\/pi_outrigger\\/css\\/pi_outrigger.css\":1,\"modules\\/search\\/search.css\":1,\"modules\\/user\\/user.css\":1,\"sites\\/all\\/modules\\/contrib\\/views\\/css\\/views.css\":1,\"sites\\/all\\/modules\\/contrib\\/ctools\\/css\\/ctools.css\":1,\"sites\\/all\\/modules\\/custom\\/pi_guide\\/css\\/pi_guide.css\":1,\"sites\\/all\\/modules\\/custom\\/pi_hull\\/jplayer\\/css\\/jplayer.npr.css\":1,\"sites\\/all\\/modules\\/custom\\/pi_npr_story\\/css\\/pi_npr_story.css\":1,\"sites\\/all\\/modules\\/custom\\/pi_views\\/pi_reports_views\\/css\\/pi_reports.css\":1,\"sites\\/all\\/modules\\/custom\\/pi_menus\\/css\\/flexiMenu.css\":1,\"sites\\/all\\/modules\\/custom\\/responsive_footer\\/responsive-footer.admin.css\":1,\"0\":1,\"\\/\\/fonts.googleapis.com\\/css?family=Lato:300,700,700italic,900,italic,regular\\u0026subset=latin\":1,\"sites\\/all\\/modules\\/custom\\/audity\\/audity\\/css\\/audity.css\":1,\"sites\\/all\\/modules\\/custom\\/pi_ajax_links_api\\/pi_ajax_links_api.css\":1,\"sites\\/all\\/modules\\/custom\\/pi_ajax_links_api\\/nprogress\\/nprogress.css\":1,\"sites\\/all\\/modules\\/custom\\/pi_content_types\\/pi_program\\/treatments\\/program-promo\\/program-promo.css\":1,\"sites\\/all\\/modules\\/custom\\/npr_entities\\/npr_fields\\/npr_image_gallery\\/css\\/npr-image-gallery.css\":1,\"sites\\/all\\/themes\\/responso\\/css\\/icon-fonts.css\":1,\"sites\\/all\\/themes\\/responso\\/css\\/screen.css\":1}},\"googleCSE\":{\"cx\":\"010251366440257945544:pbhojuduywy\",\"language\":\"\",\"resultsWidth\":600,\"domain\":\"www.google.com\",\"showWaterMark\":true},\"audityConfig\":{\"station\":{\"listenLabel\":\"Listen
+  Live\"},\"streams\":[{\"desc\":\"WBOI NPR News and Diverse Music\",\"name\":0,\"url\":\"https:\\/\\/securestreams2.autopo.st:1069\\/WBOI.mp3\",\"data\":{\"type\":\"composer2\",\"ucs\":\"5187ef66e1c8531f1575b731\"}},{\"desc\":\"Classical
+  WBNI\",\"name\":1,\"url\":\"https:\\/\\/securestreams2.autopo.st:1069\\/WBNI.mp3\",\"data\":{\"type\":\"composer2\",\"ucs\":\"5187ef76e1c854044920bc7d\"}}],\"analytics\":{\"acct\":\"aalu\"},\"ads\":{\"network\":\"16386532\",\"units\":{\"audio\":\"wbni_player_audio\",\"display\":\"wbni_player_display\",\"leavebehind\":\"wbni_player_leavebehind\"}}},\"responsive_ads\":{\"networkCode\":\"16386532\",\"prefix\":\"wbni\",\"adUnitTypes\":{\"leaderboard\":{\"note\":\"Only
+  shows above 1024; shows 970x90 or 728x90.\",\"sizes\":[{\"viewportSize\":[0,0],\"slotSize\":[]},{\"viewportSize\":[1024,200],\"slotSize\":[[970,90],[970,50],[728,90]]}]},\"medium\":{\"note\":\"Won't
+  be served on screens smaller than 640x480.\",\"sizes\":[{\"viewportSize\":[0,0],\"slotSize\":[]},{\"viewportSize\":[640,200],\"slotSize\":[300,250]}]},\"tablet\":{\"note\":\"Won't
+  be served on screens smaller than 640x480 or larger than 1024x768\",\"sizes\":[{\"viewportSize\":[0,0],\"slotSize\":[]},{\"viewportSize\":[640,200],\"slotSize\":[728,90]},{\"viewportSize\":[1024,200],\"slotSize\":[]}]},\"mobile\":{\"note\":\"Won't
+  be served on screens larger than 640x480.\",\"sizes\":[{\"viewportSize\":[0,0],\"slotSize\":[320,50]},{\"viewportSize\":[640,200],\"slotSize\":[]}]}},\"adUnits\":[{\"name\":\"leaderboard_1\",\"type\":\"leaderboard\",\"width\":728,\"height\":90},{\"name\":\"player_display\",\"type\":\"leaderboard\",\"width\":728,\"height\":90},{\"name\":\"medium_1\",\"type\":\"medium\",\"width\":300,\"height\":250},{\"name\":\"medium_2\",\"type\":\"medium\",\"width\":300,\"height\":250},{\"name\":\"medium_3\",\"type\":\"medium\",\"width\":300,\"height\":250},{\"name\":\"tablet_1\",\"type\":\"tablet\",\"width\":728,\"height\":90},{\"name\":\"mobile_1\",\"type\":\"mobile\",\"width\":320,\"height\":50}],\"placements\":{\"leaderboard_1\":\"main#content\",\"medium_1\":\".node
+  .post-body .field-name-body\",\"medium_2\":\".node .post-body p:nth-of-type(3)\",\"medium_3\":\".node
+  .post-body p:nth-of-type(3)\",\"tablet_1\":\"main#content\",\"mobile_1\":\"#block-pi-responsive-ads-mobile-1
+  .content\"},\"persistentPlacements\":[],\"targeting\":{\"id\":\"99838\",\"type\":\"post\",\"tags\":[],\"category\":\"\",\"programs\":[]}},\"tms_meta\":{\"has_audio\":\"0\",\"programs\":\"none\",\"category\":\"none\",\"nid\":99838,\"author\":\"Tove
+  Danovich\",\"org_id\":\"1\",\"keywords\":\"\",\"wordCount\":1236,\"story_id\":\"693507713\",\"datePublished\":\"2019-02-17\"},\"responsive_utilities\":{\"body_classes\":\"html
+  not-front not-logged-in no-sidebars page-node page-node- page-node-99838 node-type-post\",\"custom_vars\":{\"nid\":{\"name\":\"nid\",\"slot\":8,\"scope_id\":3},\"pop\":{\"name\":\"pop\",\"slot\":9,\"scope_id\":3},\"author\":{\"name\":\"author\",\"slot\":11,\"scope_id\":3},\"keywords\":{\"name\":\"tags\",\"slot\":12,\"scope_id\":3},\"org_id\":{\"name\":\"org_id\",\"slot\":13,\"scope_id\":3},\"brand\":{\"name\":\"CP_Station\",\"slot\":14,\"scope_id\":2},\"has_audio\":{\"name\":\"Has_Inline_Audio\",\"slot\":15,\"scope_id\":3},\"programs\":{\"name\":\"Program\",\"slot\":16,\"scope_id\":3},\"category\":{\"name\":\"Category\",\"slot\":10,\"scope_id\":3},\"datePublished\":{\"name\":\"PublishedDate\",\"slot\":17,\"scope_id\":3},\"wordCount\":{\"name\":\"WordCount\",\"slot\":18,\"scope_id\":3},\"story_id\":{\"name\":\"API_Story_Id\",\"slot\":19,\"scope_id\":3},\"pmp_guid\":{\"name\":\"pmp_guid\",\"slot\":20,\"scope_id\":3}},\"pagetype_vars\":[{\"page_type\":\"Content\\/About\",\"regex_pattern\":\"\\/about(-us)?\\/?$\",\"pattern_name\":\"Core
+  Publisher About Page\"},{\"page_type\":\"Events\",\"regex_pattern\":\"\\/events(\\/|$)\",\"pattern_name\":\"Core
+  Publisher Events Page\"},{\"page_type\":\"People\",\"regex_pattern\":\"\\/people(\\/|$)\",\"pattern_name\":\"Core
+  Publisher People Page\"},{\"page_type\":\"Playlist\",\"regex_pattern\":\"\\/search_playlists\\/?$\",\"pattern_name\":\"Core
+  Publisher Playlist Page\"},{\"page_type\":\"Program\",\"regex_pattern\":\"\\/programs(\\/|$)\",\"pattern_name\":\"Core
+  Publisher Program Page\"},{\"page_type\":\"Schedule\",\"regex_pattern\":\"\\/schedule(\\/|$)\",\"pattern_name\":\"Core
+  Publisher Schedule Page\"},{\"page_type\":\"Search\",\"regex_pattern\":\"\\/search\\/google\\/?\",\"pattern_name\":\"Core
+  Publisher Search GSA Page\"},{\"page_type\":\"Story\",\"regex_pattern\":\"\\/post\\/|\\/webclip\\/\",\"pattern_name\":\"Core
+  Publisher Story Page\"},{\"page_type\":\"Streaming\",\"regex_pattern\":\"\\/listen(-live)?\\/?(#|$)\",\"pattern_name\":\"Core
+  Publisher Listen Live Page\"}],\"media_queries\":{\"mobile\":\"all and (max-width:
+  40em)\",\"tablet\":\"screen and (min-width: 40.063em) and (max-width: 64em)\",\"desktop\":\"screen
+  and (min-width: 64.063em)\"}},\"pi_ajax_links_api\":{\"selector\":\"#page-document\",\"trigger\":\"a.ajax-link,#page-wrapper
+  a,a.logo,a.mobile-teaser-link,.dropdown a\",\"negative_triggers\":\".dropdown .back
+  a,.mobile .not-click \\u003e a,#toolbar a,a.lightbox,.jp-interface a,.header .not-click
+  \\u003e a,.page-admin a,.page-block-factory a,a.give,.social-share a,#change-station,#rss-tablequeue
+  a,a[href^=\\\"mailto:\\\"],.popup,a[href^=\\\"#\\\"],a:not([href]),ul.tabs\\u003eli\\u003ea,ul.contextual-links
+  a,#table-queue-fleximenu a[target=\\\"_blank\\\"],.delete-button,a[href$='.pdf'],a[href^='http:']\",\"scripts_included\":0,\"html5\":1,\"vpager\":1}});\n//--><!]]>\n</script>\n
+  \   <meta name=\"viewport\" content=\"width=device-width\">\n  <meta class=\"foundation-mq-topbar\"><script
+  type=\"text/javascript\" charset=\"utf-8\" async=\"\" data-requirecontext=\"_\"
+  data-requiremodule=\"//www.googletagservices.com/tag/js/gpt.js\" src=\"//www.googletagservices.com/tag/js/gpt.js\"></script><script
+  type=\"text/javascript\" charset=\"utf-8\" async=\"\" data-requirecontext=\"_\"
+  data-requiremodule=\"moment\" src=\"http://composer.nprstations.org/widgets/js/moment.js\"></script></head>\n\n
+  \ <body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-99838
+  node-type-post\">\n    <header role=\"banner\" class=\"header\">\n  <div class=\"skiptocontent\"><a
+  href=\"#main-content\">skip to main content</a></div>\n    <div class=\"region region-header\">\n
+  \   <div id=\"block-baby-bear-baby-bear-header\" class=\"block block-baby-bear\">\n\n
+  \   \n  <div class=\"content\">\n    \n<div class=\"header-region-outer\">\n  <section
+  class=\"header-region-inner row\">\n    <div class=\"branding large-12 columns\">\n
+  \     <div class=\"brand-inner-wrapper\">\n        <a href=\"/\" rel=\"home\" class=\"logo\"
+  title=\"Northeast Indiana Public Radio Home\"><img typeof=\"foaf:Image\" src=\"//www.wboi.org/sites/wbni/files/201508/logo_fid.png\"
+  alt=\"Northeast Indiana Public Radio logo\" title=\"Northeast Indiana Public Radio
+  Home\"></a>         <div class=\"tagline\">\n                  </div>\n      </div>\n
+  \     <div class=\"header-utility\">\n        <a class=\"trigger-nav\" href=\"#\">\n
+  \         <span class=\"icon-list\"></span>\n          <span class=\"menu-text\">Site
+  Menu</span>\n        </a>\n        <a class=\"give\" href=\"http://wboi.org/choose-single-or-monthly-gift\">\n
+  \ Donate</a>\n      </div>\n    </div>\n  </section>\n</div>\n  </div>\n</div>\n
+  \ </div>\n</header>\n    <div class=\"nav-wrapper mobile\">\n      <nav>\n        <div
+  class=\"top-bar contain-to-grid\" data-topbar=\"\">\n          <ul class=\"title-area\">\n
+  \           <li class=\"toggle-topbar menu-icon\">\n              <a href=\"#\">Menu</a>\n
+  \           </li>\n          </ul>\n          \n        <section class=\"top-bar-section\">\n
+  \           <div class=\"table-queue\" id=\"table-queue-fleximenu\">\n  <ul class=\"menu\">\n<li>\n<a
+  href=\"/\">Home</a>\n</li>\n<li>\n<a href=\"/news\">News</a>\n</li>\n<li class=\"dd
+  has-dropdown not-click\">\n<a href=\"/schedule/niprfm\">Schedule</a>\n<ul class=\"dropdown\"><li
+  class=\"title back js-generated\"><h5><a href=\"javascript:void(0)\">back</a></h5></li><li><a
+  class=\"parent-link js-generated\" href=\"/schedule/niprfm\">Schedule</a></li>\n<li
+  class=\"left\">\n<a href=\"/schedule/niprfm\">89.1 WBOI Schedule</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"/schedule/niprfm2\">Classical 94.1 Schedule</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"/programs\">Programs A-Z</a>\n</li>\n</ul>\n</li>\n<li
+  class=\"dd has-dropdown not-click\">\n<a href=\"/about-us\">About</a>\n<ul class=\"dropdown\"><li
+  class=\"title back js-generated\"><h5><a href=\"javascript:void(0)\">back</a></h5></li><li><a
+  class=\"parent-link js-generated\" href=\"/about-us\">About</a></li>\n<li class=\"left\">\n<a
+  href=\"/contact-us\">Contact Us</a>\n</li>\n<li class=\"left\">\n<a href=\"/staff\">Staff</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"/people/capacity/hosts\">Hosts</a>\n</li>\n<li class=\"left\">\n<a
+  href=\"/career-opportunities\">Career Opportunities</a>\n</li>\n<li class=\"left\">\n<a
+  href=\"/list-npr-stations\">List of NPR Stations</a>\n</li>\n<li class=\"left\">\n<a
+  href=\"https://www.soundfuture.net/\" target=\"_blank\">Building a Sound Future
+  Campaign</a>\n</li>\n<li class=\"left\">\n<a href=\"/reports\">Reports</a>\n</li>\n</ul>\n</li>\n<li
+  class=\"dd has-dropdown not-click\">\n<a href=\"https://4agc.com/commerce_pages/76e911f8-f8d0-464e-be9c-d8da27c2c6a5\"
+  target=\"_blank\">Events</a>\n<ul class=\"dropdown\"><li class=\"title back js-generated\"><h5><a
+  href=\"javascript:void(0)\">back</a></h5></li><li><a class=\"parent-link js-generated\"
+  href=\"https://4agc.com/commerce_pages/76e911f8-f8d0-464e-be9c-d8da27c2c6a5\">Events</a></li>\n<li
+  class=\"left\">\n<a href=\"https://4agc.com/commerce_pages/76e911f8-f8d0-464e-be9c-d8da27c2c6a5\"
+  target=\"_blank\">2019 Wine Pairing Dinner - Reservations </a>\n</li>\n<li class=\"left\">\n<a
+  href=\"http://www.wboiwine.org/\" target=\"_blank\"> Wine Pairing Dinner Information</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"https://www.wboi.org/robert-siegel-comes-fort-wayne-may-28#stream/0\">NPR
+  Speaker - Robert Siegel</a>\n</li>\n<li class=\"left\">\n<a href=\"/meet-music-live-broadcast\">Meet
+  the Music LIVE</a>\n</li>\n<li class=\"left\">\n<a href=\"/issues-ales\">Issues
+  &amp; Ales</a>\n</li>\n<li class=\"left\">\n<a href=\"/891-wboi-trivia-night\">Trivia
+  Night </a>\n</li>\n<li class=\"left\">\n<a href=\"/community-calendar\">Community
+  Calendar</a>\n</li>\n<li class=\"left\">\n<a href=\"http://www.currentfortwayne.com/\"
+  target=\"_blank\">Current Fort Wayne</a>\n</li>\n<li class=\"left\">\n<a href=\"/node/100257\"
+  target=\"_blank\">WBOI Travel Club</a>\n</li>\n</ul>\n</li>\n<li class=\"dd has-dropdown
+  not-click\">\n<a href=\"/business-and-corporate-underwriters\">Underwriting</a>\n<ul
+  class=\"dropdown\"><li class=\"title back js-generated\"><h5><a href=\"javascript:void(0)\">back</a></h5></li><li><a
+  class=\"parent-link js-generated\" href=\"/business-and-corporate-underwriters\">Underwriting</a></li>\n<li
+  class=\"left\">\n<a href=\"/business-and-corporate-underwriters\">On-Air Business
+  and Corporate Support</a>\n</li>\n</ul>\n</li>\n<li class=\"dd has-dropdown not-click\">\n<a
+  href=\"/choose-single-or-monthly-gift\">Support</a>\n<ul class=\"dropdown\"><li
+  class=\"title back js-generated\"><h5><a href=\"javascript:void(0)\">back</a></h5></li><li><a
+  class=\"parent-link js-generated\" href=\"/choose-single-or-monthly-gift\">Support</a></li>\n<li
+  class=\"left\">\n<a href=\"/choose-single-or-monthly-gift\">Donate or Pledge Online</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"/891-wboi-sustaining-memberships\">Sustaining Membership</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"/giving-clubs\">Visionary Society &amp; Lifelong Learner's
+  Club</a>\n</li>\n<li class=\"left\">\n<a href=\"/nipr-membercard\">WBOI MemberCard</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"https://www.cardonationwizard.com/northeast-indiana-public-radio/info/car-donation-fort-wayne-in.html\"
+  target=\"_blank\">Vehicle Donations</a>\n</li>\n<li class=\"left\">\n<a href=\"/matching-your-gift-891-wboi-or-941-wbni\">Employer
+  Charitable Gift Matching Programs</a>\n</li>\n<li class=\"left\">\n<a href=\"/legacy\">Bequests
+  and Legacy Giving</a>\n</li>\n<li class=\"left\">\n<a href=\"/volunteer\">Volunteer</a>\n</li>\n</ul>\n</li>\n<li>\n<a
+  href=\"/search/google\">Search</a>\n</li>\n<li class=\"dd has-dropdown not-click\">\n<a
+  href=\"http://www.facebook.com/891WBOI\" target=\"_blank\">Social</a>\n<ul class=\"dropdown\"><li
+  class=\"title back js-generated\"><h5><a href=\"javascript:void(0)\">back</a></h5></li><li><a
+  class=\"parent-link js-generated\" href=\"http://www.facebook.com/891WBOI\">Social</a></li>\n<li
+  class=\"left\">\n<a href=\"http://www.facebook.com/891WBOI\" target=\"_blank\">Facebook</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"http://twitter.com/WBOI\" target=\"_blank\">Twitter</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"http://www.instagram.com/89.1_wboi/\" target=\"_blank\">Instagram</a>\n</li>\n</ul>\n</li>\n</ul>\n</div>\n
+  \         </section></div>\n      </nav>\n    </div>\n      <div class=\"region
+  region-persistent\">\n    <div id=\"block-audity-audity\" class=\"block block-audity\"
+  style=\"opacity: 1;\"><div><div id=\"audity-outer-container\">\n  <div id=\"jquery_jplayer_1\"
+  style=\"width: 0px; height: 0px;\"><img id=\"jp_poster_0\" style=\"width: 0px; height:
+  0px; display: none;\"><audio id=\"jp_audio_0\" preload=\"none\" src=\"https://securestreams2.autopo.st:1069/WBOI.mp3\"></audio></div>\n
+  \ <div id=\"jp_container_1\">\n    <div id=\"audity-wrapper\">\n      <div id=\"player-bar-wrapper\"
+  class=\"player-bar-wrapper\">\n        <div id=\"player-bar\" class=\"player-bar\"><div
+  id=\"audity\" class=\"audity-controls\"><div class=\"start-stop\">\n  <div class=\"jp-play
+  player-btn\" role=\"button\" title=\"play\" aria-label=\"Play\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\"
+  width=\"40\" height=\"40\" preserveAspectRatio=\"xMinYMin\" class=\"btn-play\">\n
+  \     <circle cx=\"20\" cy=\"20\" r=\"18\" stroke=\"#7F95A4\" stroke-width=\"3\"
+  class=\"btn-fill\"></circle>\n      <path d=\"m30.50001,20.6l0,0l-16.5,8.3c-0.1,0.1
+  -0.2,0.1 -0.3,0.2l0,0l0,0c-0.1,0 -0.3,0.1 -0.4,0.1c-0.7,0 -1.3,-0.5 -1.3,-1.2v-16.8c0,-0.7
+  0.6,-1.2 1.3,-1.2c0.2,0 0.4,0 0.6,0.1l0,0l16.7,8.5l0,0c0.4,0.2 0.6,0.6 0.6,1c-0.1,0.4
+  -0.3,0.8 -0.7,1z\" fill=\"#FFFFFF\" id=\"btn-object\"></path>\n    </svg>\n  </div>\n
+  \ <div class=\"jp-stop player-btn\" role=\"button\" title=\"stop\" aria-label=\"Stop\">\n
+  \   <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" preserveAspectRatio=\"xMinYMin\"
+  class=\"btn-stop\">\n      <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"#7F95A4\"
+  stroke=\"#7F95A4\" stroke-width=\"3\" class=\"btn-fill\"></circle>\n      <path
+  d=\"M20 0 A20 20 0 0 1 38 20 L38 20 A16 16 0 0 0 20 4z\" class=\"btn-load\" transform=\"rotate(210.035
+  20 20)\">\n        <animateTransform attributeName=\"transform\" type=\"rotate\"
+  from=\"360 20 20\" to=\"0 20 20\" dur=\"0.8s\" repeatCount=\"indefinite\"></animateTransform>\n
+  \     </path>\n      <rect x=\"10.5\" y=\"10.75\" rx=\"3\" ry=\"3\" width=\"18.5\"
+  height=\"18.5\" fill=\"#FFFFFF\" class=\"btn-object\"></rect>\n    </svg>\n  </div>\n</div>\n</div><div
+  class=\"now-playing\" tabindex=\"0\">\n<div class=\"stream-label\">\n  <span class=\"player-title-text\">Listen
+  Live</span>\n  WBOI NPR News and Diverse Music\n</div>\n<div class=\"program-name\">\n
+  \  Here &amp; Now\n</div>\n\n<div class=\"program-next\"><span>NEXT:</span> 2:00pm
+  Fresh Air</div>\n\n</div>\n          <div class=\"change-volume\">\n            <div
+  class=\"volume-container\">\n              <div class=\"volume-buttons\">\n                <div
+  class=\"jp-mute\">\n                  <svg xmlns=\"http://www.w3.org/2000/svg\"
+  width=\"20\" height=\"18\" viewBox=\"0 0 20 18\" preserveAspectRatio=\"xMinYMin\">\n
+  \                   <path fill=\"#7F95A4\" d=\"M10.6 0C10.4 0 10.1 0 10 0.2L5 5.3H5
+  1.3C0.6 5.3 0 5.9 0 6.6v4.8c0 0.7 0.6 1.4 1.3 1.4H5c0 0 0 0 0.1 0l4.9 5c0.1 0.1
+  0.2 0.2 0.4 0.2 0.3 0 0.5-0.3 0.5-0.6V0.6C10.9 0.3 10.7 0.1 10.6 0L10.6 0z\"></path>\n
+  \                   <path fill=\"#7F95A4\" d=\"M12.2 6.5c1.3 1.4 1.3 3.5 0 5l1.6
+  1.6c2.2-2.3 2.2-6 0-8.2L12.2 6.5z\"></path>\n                    <path fill=\"#7F95A4\"
+  d=\"M15.4 3.2c3.1 3.2 3.1 8.4 0 11.6l1.6 1.7c4-4.1 4-10.8 0-14.9L15.4 3.2z\"></path>\n
+  \                 </svg>\n                </div>\n                <div class=\"jp-unmute\"
+  style=\"display: none;\">\n                  <svg xmlns=\"http://www.w3.org/2000/svg\"
+  width=\"20\" height=\"18\" viewBox=\"0 0 20 18\" preserveAspectRatio=\"xMinYMin\">\n
+  \                   <path fill=\"#7F95A4\" d=\"M10.6 0C10.4 0 10.1 0 10 0.2L5 5.3H5
+  1.3C0.6 5.3 0 5.9 0 6.6v4.8c0 0.7 0.6 1.4 1.3 1.4H5c0 0 0 0 0.1 0l4.9 5c0.1 0.1
+  0.2 0.2 0.4 0.2 0.3 0 0.5-0.3 0.5-0.6V0.6C10.9 0.3 10.7 0.1 10.6 0L10.6 0z\"></path>\n
+  \                   <path fill=\"#7F95A4\" d=\"M19.8 11v1.5h-1.5l-2-2 -2 2h-1.5V11l2-2
+  -2-2V5.5h1.5l2 2 2-2h1.5V7l-2 2L19.8 11z\"></path>\n                  </svg>\n                </div>\n
+  \             </div>\n              <div class=\"jp-volume-bar\">\n                <div
+  class=\"jp-volume-bar-value-bg\"></div>\n                <div class=\"jp-volume-bar-value\"
+  style=\"height: 80%;\"></div>\n              </div>\n            </div>\n          </div>\n
+  \         <div class=\"more-toggle\">\n            <div class=\"player-btn\" role=\"button\"
+  aria-label=\"Expand/Collapse\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\"
+  id=\"btn-open\" class=\"toggle-arrow open\" width=\"20px\" height=\"11.7px\" viewBox=\"0
+  0 20 11.7\" preserveAspectRatio=\"xMinYMin\">\n                <path fill=\"#7F95A4\"
+  d=\"M19.5,3.4c-0.7,0.7-8.1,7.8-8.1,7.8c-0.4,0.4-0.9,0.6-1.4,0.6c-0.5,0-1-0.2-1.4-0.6c0,0-7.4-7-8.1-7.8\n
+  \         c-0.7-0.7-0.8-2,0-2.8c0.8-0.8,1.8-0.8,2.7,0L10,7.1l6.7-6.5c0.9-0.8,2-0.8,2.7,0C20.2,1.4,20.2,2.7,19.5,3.4z\"></path>\n
+  \             </svg>\n            </div>\n          </div>\n        </div>\n      </div>\n
+  \     <div class=\"expanded-player-outer-wrapper\">\n        <div class=\"expanded-player-wrapper\">\n
+  \         <div id=\"player-inner-container\" class=\"player-header\">\n            <div
+  id=\"metadata-container\" class=\"current-content\"><div class=\"stream-meta-view\"><div
+  class=\"stream-program-meta-view\"><div class=\"current stream\">WBOI NPR News and
+  Diverse Music</div>\n<div class=\"current program\" id=\"stream-title\">Here &amp;
+  Now</div>\n</div><div class=\"stream-song-meta-view\">\n</div></div></div>\n            <div
+  id=\"player-extras\" class=\"player-extras\"><div class=\"streams-view btn-group\"><ul
+  id=\"streams-wrapper\" class=\"streams-list\"><li id=\"stream-0\" class=\"single-stream
+  current\"><a class=\"stream\" href=\"https://securestreams2.autopo.st:1069/WBOI.mp3\">\n\t<div
+  class=\"stream-indicator\">\n\t\t<div class=\"stream-inactive\" title=\"not-playing\"></div>\n\t\t<div
+  class=\"stream-active\" title=\"playing\">\n\t    <span class=\"stream-activebar\"></span>\n\t
+  \   <span class=\"stream-activebar\"></span>\n\t    <span class=\"stream-activebar\"></span>\n\t
+  \   <span class=\"stream-activebar\"></span>\n\t\t</div>\n\t</div>\n\t<div class=\"stream-name\">\n
+  \   <div class=\"stream-label\">WBOI NPR News and Diverse Music</div>\n    <div
+  class=\"program-name\">Here &amp; Now</div>\n  </div>\n</a>\n</li><li id=\"stream-1\"
+  class=\"single-stream benched\"><a class=\"stream\" href=\"https://securestreams2.autopo.st:1069/WBNI.mp3\">\n\t<div
+  class=\"stream-indicator\">\n\t\t<div class=\"stream-inactive\" title=\"not-playing\"></div>\n\t\t<div
+  class=\"stream-active\" title=\"playing\">\n\t    <span class=\"stream-activebar\"></span>\n\t
+  \   <span class=\"stream-activebar\"></span>\n\t    <span class=\"stream-activebar\"></span>\n\t
+  \   <span class=\"stream-activebar\"></span>\n\t\t</div>\n\t</div>\n\t<div class=\"stream-name\">\n
+  \   <div class=\"stream-label\">Classical WBNI</div>\n    <div class=\"program-name\">Matinee</div>\n
+  \ </div>\n</a>\n</li></ul>\n</div><div class=\"ad-view\">\n\n  <div id=\"div-gpt-ad-63950169735036-0\"
+  class=\"ad-wrapper audio-ad\" hidden=\"\" en93psp=\"\">\n  </div>\n\n\n  <div id=\"div-gpt-ad-63950169735036-1\"
+  class=\"ad-wrapper display-ad\" hidden=\"\" en93psp=\"\">\n  </div>\n\n\n  <div
+  id=\"div-gpt-ad-63950169735036-2\" class=\"ad-wrapper leavebehind-ad\" hidden=\"\"
+  en93psp=\"\">\n  </div>\n\n\n</div></div>\n          </div>\n        </div>\n      </div>\n
+  \   </div>\n  </div>\n</div>\n</div></div>\n  </div>\n    <div id=\"page-wrapper\">\n
+  \           <div id=\"page-document\" role=\"document\" class=\"page\">\n  <div
+  class=\"nav-wrapper\">\n    <nav>\n      <div class=\"top-bar contain-to-grid\"
+  data-topbar=\"\">\n        <ul class=\"title-area\">\n          <li class=\"toggle-topbar
+  menu-icon\">\n            <a href=\"#\">Menu</a>\n          </li>\n        </ul>\n
+  \       \n      <section class=\"top-bar-section\">\n          <div class=\"table-queue\"
+  id=\"table-queue-fleximenu\">\n  <ul class=\"menu\">\n<li>\n<a href=\"/\">Home</a>\n</li>\n<li>\n<a
+  href=\"/news\">News</a>\n</li>\n<li class=\"dd has-dropdown not-click\">\n<a href=\"/schedule/niprfm\">Schedule</a>\n<ul
+  class=\"dropdown\"><li class=\"title back js-generated\"><h5><a href=\"javascript:void(0)\">back</a></h5></li><li><a
+  class=\"parent-link js-generated\" href=\"/schedule/niprfm\">Schedule</a></li>\n<li
+  class=\"left\">\n<a href=\"/schedule/niprfm\">89.1 WBOI Schedule</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"/schedule/niprfm2\">Classical 94.1 Schedule</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"/programs\">Programs A-Z</a>\n</li>\n</ul>\n</li>\n<li
+  class=\"dd has-dropdown not-click\">\n<a href=\"/about-us\">About</a>\n<ul class=\"dropdown\"><li
+  class=\"title back js-generated\"><h5><a href=\"javascript:void(0)\">back</a></h5></li><li><a
+  class=\"parent-link js-generated\" href=\"/about-us\">About</a></li>\n<li class=\"left\">\n<a
+  href=\"/contact-us\">Contact Us</a>\n</li>\n<li class=\"left\">\n<a href=\"/staff\">Staff</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"/people/capacity/hosts\">Hosts</a>\n</li>\n<li class=\"left\">\n<a
+  href=\"/career-opportunities\">Career Opportunities</a>\n</li>\n<li class=\"left\">\n<a
+  href=\"/list-npr-stations\">List of NPR Stations</a>\n</li>\n<li class=\"left\">\n<a
+  href=\"https://www.soundfuture.net/\" target=\"_blank\">Building a Sound Future
+  Campaign</a>\n</li>\n<li class=\"left\">\n<a href=\"/reports\">Reports</a>\n</li>\n</ul>\n</li>\n<li
+  class=\"dd has-dropdown not-click\">\n<a href=\"https://4agc.com/commerce_pages/76e911f8-f8d0-464e-be9c-d8da27c2c6a5\"
+  target=\"_blank\">Events</a>\n<ul class=\"dropdown\"><li class=\"title back js-generated\"><h5><a
+  href=\"javascript:void(0)\">back</a></h5></li><li><a class=\"parent-link js-generated\"
+  href=\"https://4agc.com/commerce_pages/76e911f8-f8d0-464e-be9c-d8da27c2c6a5\">Events</a></li>\n<li
+  class=\"left\">\n<a href=\"https://4agc.com/commerce_pages/76e911f8-f8d0-464e-be9c-d8da27c2c6a5\"
+  target=\"_blank\">2019 Wine Pairing Dinner - Reservations </a>\n</li>\n<li class=\"left\">\n<a
+  href=\"http://www.wboiwine.org/\" target=\"_blank\"> Wine Pairing Dinner Information</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"https://www.wboi.org/robert-siegel-comes-fort-wayne-may-28#stream/0\">NPR
+  Speaker - Robert Siegel</a>\n</li>\n<li class=\"left\">\n<a href=\"/meet-music-live-broadcast\">Meet
+  the Music LIVE</a>\n</li>\n<li class=\"left\">\n<a href=\"/issues-ales\">Issues
+  &amp; Ales</a>\n</li>\n<li class=\"left\">\n<a href=\"/891-wboi-trivia-night\">Trivia
+  Night </a>\n</li>\n<li class=\"left\">\n<a href=\"/community-calendar\">Community
+  Calendar</a>\n</li>\n<li class=\"left\">\n<a href=\"http://www.currentfortwayne.com/\"
+  target=\"_blank\">Current Fort Wayne</a>\n</li>\n<li class=\"left\">\n<a href=\"/node/100257\"
+  target=\"_blank\">WBOI Travel Club</a>\n</li>\n</ul>\n</li>\n<li class=\"dd has-dropdown
+  not-click\">\n<a href=\"/business-and-corporate-underwriters\">Underwriting</a>\n<ul
+  class=\"dropdown\"><li class=\"title back js-generated\"><h5><a href=\"javascript:void(0)\">back</a></h5></li><li><a
+  class=\"parent-link js-generated\" href=\"/business-and-corporate-underwriters\">Underwriting</a></li>\n<li
+  class=\"left\">\n<a href=\"/business-and-corporate-underwriters\">On-Air Business
+  and Corporate Support</a>\n</li>\n</ul>\n</li>\n<li class=\"dd has-dropdown not-click\">\n<a
+  href=\"/choose-single-or-monthly-gift\">Support</a>\n<ul class=\"dropdown\"><li
+  class=\"title back js-generated\"><h5><a href=\"javascript:void(0)\">back</a></h5></li><li><a
+  class=\"parent-link js-generated\" href=\"/choose-single-or-monthly-gift\">Support</a></li>\n<li
+  class=\"left\">\n<a href=\"/choose-single-or-monthly-gift\">Donate or Pledge Online</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"/891-wboi-sustaining-memberships\">Sustaining Membership</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"/giving-clubs\">Visionary Society &amp; Lifelong Learner's
+  Club</a>\n</li>\n<li class=\"left\">\n<a href=\"/nipr-membercard\">WBOI MemberCard</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"https://www.cardonationwizard.com/northeast-indiana-public-radio/info/car-donation-fort-wayne-in.html\"
+  target=\"_blank\">Vehicle Donations</a>\n</li>\n<li class=\"left\">\n<a href=\"/matching-your-gift-891-wboi-or-941-wbni\">Employer
+  Charitable Gift Matching Programs</a>\n</li>\n<li class=\"left\">\n<a href=\"/legacy\">Bequests
+  and Legacy Giving</a>\n</li>\n<li class=\"left\">\n<a href=\"/volunteer\">Volunteer</a>\n</li>\n</ul>\n</li>\n<li>\n<a
+  href=\"/search/google\">Search</a>\n</li>\n<li class=\"dd has-dropdown not-click\">\n<a
+  href=\"http://www.facebook.com/891WBOI\" target=\"_blank\">Social</a>\n<ul class=\"dropdown\"><li
+  class=\"title back js-generated\"><h5><a href=\"javascript:void(0)\">back</a></h5></li><li><a
+  class=\"parent-link js-generated\" href=\"http://www.facebook.com/891WBOI\">Social</a></li>\n<li
+  class=\"left\">\n<a href=\"http://www.facebook.com/891WBOI\" target=\"_blank\">Facebook</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"http://twitter.com/WBOI\" target=\"_blank\">Twitter</a>\n</li>\n<li
+  class=\"left\">\n<a href=\"http://www.instagram.com/89.1_wboi/\" target=\"_blank\">Instagram</a>\n</li>\n</ul>\n</li>\n</ul>\n</div>\n
+  \       </section></div>\n    </nav>\n  </div>\n\n  <div id=\"player\" class=\"player\">\n
+  \     </div>\n\n      <div class=\"highlight\">\n        <div class=\"region region-highlighted\">\n
+  \   <div id=\"block-pi-sitewide-alert-sitewide-alert\" class=\"block block-pi-sitewide-alert\">\n\n
+  \   \n  <div class=\"content\">\n    <div id=\"sitewide-alert\"><div class=\"panel
+  sitewide-alert-black\"><a href=\"https://www.wboi.org/support-public-radio-donate-now#stream/0\"
+  target=\"_blank\">Support 89.1 WBOI During The Spring Fund Drive! Click Here To
+  Donate Or Call 1-800-471-9264!</a></div></div>  </div>\n</div>\n  </div>\n    </div>\n
+  \ \n  \n  \n  \n  <div class=\"row\">\n    <div id=\"div-gpt-ad-leaderboard_1\"
+  class=\"ad ad-leaderboard\" hidden=\"\" en93psp=\"\"></div><div id=\"div-gpt-ad-tablet_1\"
+  class=\"ad ad-tablet\" hidden=\"\" en93psp=\"\"></div><main id=\"content\" role=\"main\"
+  class=\"main-content small-12 columns\">\n      <article class=\"story\">\n        <a
+  id=\"main-content\"></a>\n        \n                                    \n        \n
+  \       \n        \n        \n        \n        \n                    <div class=\"region
+  region-content\">\n    <div id=\"block-system-main\" class=\"block block-system\">\n\n
+  \   \n  <div class=\"content\">\n    <div id=\"node-99838\" class=\"node node-post
+  full row\" about=\"/post/colonial-williamsburg-serves-past-so-you-can-try-taste-history\"
+  typeof=\"sioc:Item foaf:Document\">\n  <div class=\"small-12 columns\">\n        \n
+  \   \n    <h1 itemprop=\"name\" class=\"post-title\">\n      Colonial Williamsburg
+  Serves Up The Past So You Can Try A Taste Of History    </h1>\n\n  \t\n    \n          <div
+  class=\"by-date\">\n        <span class=\"submitted\"><span property=\"dc:date dc:created\"
+  content=\"2019-02-17T07:00:00-05:00\" datatype=\"xsd:dateTime\" rel=\"sioc:has_creator\"><span
+  class=\"submitted-label\">By</span> <span class=\"name\">Tove Danovich</span></span></span>\n
+  \       <i class=\"bullet\">•</i>\n        <span class=\"pub-date\">Feb 17,  2019
+  </span>\n      </div>\n    \n    <div class=\"row\">\n      <div class=\"large-2
+  columns sharing-and-programs\">\n        \n        <div class=\"social-share clearfix\"><a
+  href=\"http://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.tinyurl.com%2Fy5hmghkx&amp;text=Colonial%20Williamsburg%20Serves%20Up%20The%20Past%20So%20You%20Can%20Try%20A%20Taste%20Of%20History\"
+  class=\"social-share-item twitter\" title=\"Tweet\" target=\"_blank\">Tweet</a><a
+  href=\"http://facebook.com/sharer.php?u=http%3A%2F%2Fwww.tinyurl.com%2Fy5hmghkx&amp;t=Colonial%20Williamsburg%20Serves%20Up%20The%20Past%20So%20You%20Can%20Try%20A%20Taste%20Of%20History\"
+  class=\"social-share-item facebook\" title=\"Share\" target=\"_blank\">Share</a><a
+  href=\"https://plus.google.com/share?url=http%3A%2F%2Fwww.tinyurl.com%2Fy5hmghkx\"
+  class=\"social-share-item googleplus\" title=\"Google+\" target=\"_blank\">Google+</a><a
+  href=\"mailto:?subject=Colonial%20Williamsburg%20Serves%20Up%20The%20Past%20So%20You%20Can%20Try%20A%20Taste%20Of%20History&amp;body=http%3A%2F%2Fwww.tinyurl.com%2Fy5hmghkx\"
+  class=\"social-share-item email\" title=\"Email\" target=\"_blank\">Email</a></div>
+  \     </div>\n\n      <div class=\"medium-10 medium-pull-1 large-8 large-pull-2
+  columns post-body-container\">\n        <div class=\"post-body\">\n          <div
+  class=\"field field-name-field-image-gallery field-type-image field-label-hidden\"><div
+  class=\"field-items\"><div class=\"field-item even\"><ul class=\"gallery no-bullet\"><li>\n
+  \ <figure>\n    <a title=\"At Colonial Williamsburg's garden and nursery, which
+  is open to guests, staff grow items that would have been found in gentry pleasure
+  gardens: herbs, flowers and seasonal greens.\" href=\"http://mediad.publicbroadcasting.net/p/shared/npr/styles/x_large/nprshared/201902/693560799.jpg\"
+  class=\"noexit lightbox\">\n      <img src=\"http://mediad.publicbroadcasting.net/p/shared/npr/styles/placed_wide/nprshared/201902/693560799.jpg\"
+  alt=\"At Colonial Williamsburg's garden and nursery, which is open to guests, staff
+  grow items that would have been found in gentry pleasure gardens: herbs, flowers
+  and seasonal greens.\">\n          </a>\n    <div class=\"image-meta\">\n  <figcaption>\n
+  \   <div class=\"caption\">At Colonial Williamsburg's garden and nursery, which
+  is open to guests, staff grow items that would have been found in gentry pleasure
+  gardens: herbs, flowers and seasonal greens.</div>\n    <div class=\"attribution\">\n
+  \ <span class=\"credit\"></span>\n    <span class=\"agency\">Colonial Williamsburg
+  Foundation</span>\n</div>\n  </figcaption>\n</div>\n  </figure>\n</li>\n</ul></div></div></div><div
+  id=\"div-gpt-ad-medium_1\" class=\"ad ad-medium\" hidden=\"\" en93psp=\"\"></div><div
+  class=\"field field-name-body field-type-text-with-summary field-label-hidden\"><div
+  class=\"field-items\"><div class=\"field-item even\" property=\"content:encoded\"><p>Just
+  a few blocks past a college bookstore, modern restaurants with beer flights and
+  big-screen TVs, and gift shops selling the same trinkets you'd find in any tourist
+  town in America, you might wander onto a cobblestone street.</p> <p>A rooster crows.
+  The smell and sound of horses drifts in the breeze. Women go about their business
+  dressed in caps and petticoats; men wear breeches, perhaps a cravat.</p> <div id=\"div-gpt-ad-medium_2\"
+  class=\"ad ad-medium\" hidden=\"\" en93psp=\"\"></div><div id=\"div-gpt-ad-medium_3\"
+  class=\"ad ad-medium\" hidden=\"\" en93psp=\"\"></div><p>Colonial Williamsburg,
+  Va., the 300-acre living-history museum, is a place where people stumble into the
+  past, whether it's talking to the bookbinder stitching pages by hand or the people
+  growing long-forgotten fruits and vegetables.</p> <p>Since restoration began in
+  1926, the dream of preserving this section of Williamsburg has come to include the
+  chance to taste history.</p> <p>There is a foodways program, through which people
+  in colonial garb cook year-round over an open fire using culinary technology only
+  available in the 18<sup>th</sup> century.</p> <p>And then there are farmers like
+  Ed Schultz, who sows fields with turnips, tobacco, corn and cotton using literal
+  horse-power; or Eve Otmar, a journeyman gardener who tends to the \"gentleman's
+  garden,\" which includes flowers in the summer and expensive glass frames that allow
+  lettuces to be grown all year.</p> <p>\"We have prickly pear in our garden,\" Otmar
+  says. \"People are horrified, surprised and stunned.\" She tells the story of how
+  a woman who had lived in Virginia for 52 years once told her she had never seen
+  a prickly pear. \"They're native here,\" Otmar says.</p> <p>While guests can often
+  buy seeds to take home or sample some of the edible produce if they're lucky, the
+  relationship between the foods of past and present get a little murkier in Colonial
+  Williamsburg's many restaurants.</p> <p>Guests might think they want a taste of
+  the past, but their thoroughly modern palates often disagree.</p> <p>\"When you
+  look at re-creating historic recipes, sometimes it doesn't taste that good,\" says
+  Travis Brust, head chef of the Colonial Williamsburg Inn. \"A lot of things seem
+  to be overcooked. It doesn't have the seasoning profile you'd expect.\" Making the
+  past come alive — foodwise — is often a matter of trial and error. A ginger cake
+  the colonial restaurants serve around the holidays took at least 10 attempts before
+  they got the sugar and spices to a level that seemed palatable.</p> <div class=\"wysiwyg-asset-image-wrapper
+  wide\"> <div class=\"wysiwyg-asset-image\">             <a href=\"http://media.npr.org/assets/img/2019/02/11/williamsburg2-b48403e44894649e13e86b7f6e18c0f0edb903c9.jpg\"><img
+  width=\"100%\" class=\"pi_assets-image\" src=\"http://media.npr.org/assets/img/2019/02/11/williamsburg2-b48403e44894649e13e86b7f6e18c0f0edb903c9.jpg\"></a>
+  <div class=\"image-meta\"> <div class=\"caption\">Cushaw squash was common in 18th-century
+  Virginia, but is  sold as an heirloom vegetable today. \"We get it all at once,\"
+  Brust says. \"We candy it, dehydrate it, turn it into ice creams, bag it into sous
+  vide bags and make raviolis out of it.\"</div> <div class=\"credit\">Colonial Williamsburg
+  Foundation</div> </div> </div> </div> <p>Brust explains that spices were expensive
+  in colonial America. \"You could have paid your rent in cardamom, and now you can
+  get a bottle for $4.\" If an 18<sup>th</sup>-century American dined out at one of
+  our restaurants, he says, \"they'd think our food was way too salty and over-seasoned
+  and had a ridiculous amount of herbs in it.\"</p> <p>The other challenge is dealing
+  with aesthetics, Brust says. Turnip stew is a tough sell as-is in the restaurant.
+  \"It's been cooked for hours and hours and it's very tender and flavorful, but all
+  the green has left — it's turned brown,\" he explains. \"When you look at re-creating
+  it, maybe you leave the greens out and do a quick sauté, then fold them in at the
+  end.\" It's what George Washington would have eaten if he had Instagram.</p> <p>Brust
+  bases his menus partly on what the Williamsburg gardens and farms will be harvesting.
+  \"They know when the radish crop is going to be done and they'll let us know the
+  different stages of carrots.\" He uses carrot tops, baby, adolescent and full-grown
+  carrots in slightly different ways.</p> <p>Schultz grows a lot of vine plants, ranging
+  from pumpkins to cushaw squash, a common variety in 18<sup>th</sup>-century Virginia
+  that's sold as an heirloom vegetable today. It isn't a seasonal kitchen item, but
+  instead comes by the wagonload. \"We get it all at once,\" Brust says. \"We candy
+  it, dehydrate it, turn it into ice creams, bag it into sous vide bags and make raviolis
+  out of it. It's almost to the point where we can't use it all because there's so
+  much of it.\"</p> <p>Some 18<sup>th</sup>-century plants have been easier to rediscover
+  than others. Schultz is still trying to find a plant known as the \"Hanover turnip,\"
+  mentioned in sales records from the store of a local merchant, John Carter, with
+  limited success. Carter's shop sold everything from swans, chickens and hedgehogs
+  to imported garden seeds and molasses.</p> <div class=\"wysiwyg-asset-image-wrapper
+  wide\"> <div class=\"wysiwyg-asset-image\">             <a href=\"http://media.npr.org/assets/img/2019/02/11/williamsburg4-675c64e119c0df7116790338261ab77c3a067de0.jpg\"><img
+  width=\"100%\" class=\"pi_assets-image\" src=\"http://media.npr.org/assets/img/2019/02/11/williamsburg4-675c64e119c0df7116790338261ab77c3a067de0.jpg\"></a>
+  <div class=\"image-meta\"> <div class=\"caption\">Despite growing in Virginia in
+  the 1700s, the Cypriot Melon didn't come back to Colonial Williamsburg until a seed
+  company traveled to Cyprus and found a fruit that matched a description from the
+  18th century.</div> <div class=\"credit\">Colonial Williamsburg Foundation</div>
+  </div> </div> </div> <p>Despite growing in Virginia in the 1700s, the Cypriot Melon
+  didn't come back to Colonial Williamsburg until a seed company traveled to Cyprus
+  and discovered an interesting-looking fruit for sale at a local food market, says
+  Otmar. \"It answered the description we had from the 18<sup>th</sup> century,\"
+  she says. The staff relies on anything from written descriptions of taste and smell
+  to old drawings and paintings to help either rediscover or recreate crops through
+  careful breeding — with less terrifying results than Jurassic Park.</p> <p>The different
+  culinary trades of Colonial Williamsburg didn't always work together as smoothly
+  as they do today, says Schultz. People are constantly asking him what he does with
+  the corn he grows. \"They want to know it's a full circle, that this really goes
+  to livestock or really goes to someone's belly.\"</p> <p>Today, the food grown on
+  the premises rarely goes to waste. When the kohlrabi (German turnip) started to
+  swell from the heavy rains Virginia experienced last summer, the culinary staff
+  had an emergency harvest of baby kohlrabi. \"We ended up confiting them, peeling,
+  slicing, and [cooking them] in a fragrant olive oil to use as a one-night special,\"
+  Brust says. \"We saved the crop.\"</p> <p><a href=\"http://www.twitter.com/tkdano\"><em>Tove
+  K. Danovich</em></a><em> is a journalist based in Portland, Ore</em>.<br></p><div
+  class=\"fullattribution\">Copyright 2019 NPR. To see more, visit https://www.npr.org.<img
+  src=\"https://www.google-analytics.com/__utm.gif?utmac=UA-5828686-4&amp;utmdt=Colonial+Williamsburg+Serves+Up+The+Past+So+You+Can+Try+A+Taste+Of+History&amp;utme=8(APIKey)9(MDA3NzMxMTkxMDEzMDkyOTU3ODRmYjc2Mg001)\"
+  hidden=\"\" style=\"display: none !important;\"></div>  </div></div></div><div class=\"social-share
+  bottom\"><a href=\"http://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.tinyurl.com%2Fy5hmghkx&amp;text=Colonial%20Williamsburg%20Serves%20Up%20The%20Past%20So%20You%20Can%20Try%20A%20Taste%20Of%20History\"
+  class=\"social-share-item twitter\" title=\"Tweet\" target=\"_blank\">Tweet</a><a
+  href=\"http://facebook.com/sharer.php?u=http%3A%2F%2Fwww.tinyurl.com%2Fy5hmghkx&amp;t=Colonial%20Williamsburg%20Serves%20Up%20The%20Past%20So%20You%20Can%20Try%20A%20Taste%20Of%20History\"
+  class=\"social-share-item facebook\" title=\"Share\" target=\"_blank\">Share</a><a
+  href=\"https://plus.google.com/share?url=http%3A%2F%2Fwww.tinyurl.com%2Fy5hmghkx\"
+  class=\"social-share-item googleplus\" title=\"Google+\" target=\"_blank\">Google+</a><a
+  href=\"mailto:?subject=Colonial%20Williamsburg%20Serves%20Up%20The%20Past%20So%20You%20Can%20Try%20A%20Taste%20Of%20History&amp;body=http%3A%2F%2Fwww.tinyurl.com%2Fy5hmghkx\"
+  class=\"social-share-item email\" title=\"Email\" target=\"_blank\">Email</a></div>
+  \       </div>\n\n        <div class=\"related\">\n                  </div>\n      </div>\n
+  \   </div>\n      </div>\n</div>\n  </div>\n</div>\n  </div>\n              </article>\n
+  \   </main>\n  </div>\n\n      <section class=\"post-content\">\n      <div>\n          <div
+  class=\"region region-post-content\">\n    <div id=\"block-pi-responsive-ads-mobile-1\"
+  class=\"block block-pi-responsive-ads\">\n\n    \n  <div id=\"div-gpt-ad-mobile_1\"
+  class=\"ad ad-mobile\" hidden=\"\" en93psp=\"\"></div><div class=\"content\">\n
+  \     </div>\n</div>\n  </div>\n      </div>\n    </section>\n  \n  <div class=\"bottom-ads\"
+  hidden=\"\" en93psp=\"\">\n    <div class=\"bottom-ads-inner\"></div>\n  </div>\n</div>\n\n<footer
+  class=\"footer\" role=\"contentinfo\">\n  <div class=\"row\">\n    <div class=\"footer-affiliate-container
+  small-centered columns\">\n                  <div class=\"region region-footer\">\n
+  \   <div id=\"block-pi-table-queue-partnerfooter\" class=\"block block-pi-table-queue\">\n\n
+  \   \n  <div class=\"content\">\n    <div class=\"table-queue\" id=\"table-queue-partnerfooter\">\n
+  \ \n<div class=\"item-list\"><ul class=\"partner-logos\"><li class=\"first\"><a
+  href=\"http://npr.org/\" target=\"_blank\"><img typeof=\"foaf:Image\" src=\"//www.wboi.org/sites/wbni/files/styles/partner_footer_logo/public/201508/npr-logo.png\"
+  alt=\"NPR\" title=\"NPR\"></a></li>\n<li><a href=\"http://www.pri.org/\" target=\"_self\"><img
+  typeof=\"foaf:Image\" src=\"//www.wboi.org/sites/wbni/files/styles/partner_footer_logo/public/201508/pri-logo.png\"
+  alt=\"Public Radio International\" title=\"Public Radio International\"></a></li>\n<li><a
+  href=\"http://www.bbc.co.uk/\" target=\"_self\"><img typeof=\"foaf:Image\" src=\"//www.wboi.org/sites/wbni/files/styles/partner_footer_logo/public/201508/bbc-logo.png\"
+  alt=\"BBC News\" title=\"BBC News\"></a></li>\n<li><a href=\"http://americanpublicmedia.publicradio.org/programs/\"
+  target=\"_self\"><img typeof=\"foaf:Image\" src=\"//www.wboi.org/sites/wbni/files/styles/partner_footer_logo/public/201508/apm-logo.png\"
+  alt=\"American Public Media\" title=\"American Public Media\"></a></li>\n<li><a
+  href=\"http://www.cpb.org/\" target=\"_self\"><img typeof=\"foaf:Image\" src=\"//www.wboi.org/sites/wbni/files/styles/partner_footer_logo/public/201508/cpb-logo.png\"
+  alt=\"Corporation for Public Broadcasting\" title=\"Corporation for Public Broadcasting\"></a></li>\n<li
+  class=\"last\"><a href=\"http://prx.org/\" target=\"_self\"><img typeof=\"foaf:Image\"
+  src=\"//www.wboi.org/sites/wbni/files/styles/partner_footer_logo/public/201508/prx-logo_0.png\"
+  alt=\"PRX\" title=\"PRX\"></a></li>\n</ul></div></div>\n  </div>\n</div>\n<div id=\"block-pi-table-queue-auxiliarylinksfooter\"
+  class=\"block block-pi-table-queue\">\n\n    \n  <div class=\"content\">\n    <div
+  class=\"table-queue\" id=\"table-queue-auxiliarylinksfooter\">\n  <div class=\"item-list\"><ul
+  class=\"auxiliary-links\"><li class=\"first\"><span>© 2019 Northeast Indiana Public
+  Radio</span></li>\n<li><a href=\"http://m.nipr.fm\" target=\"_self\">View on Mobile</a></li>\n<li><a
+  href=\"/listen-live\" target=\"_self\">Listen Online</a></li>\n<li><a href=\"/contact-us\"
+  target=\"_self\">Contact Us</a></li>\n<li><a href=\"http://wboi.org/choose-single-or-monthly-gift\"
+  target=\"_blank\">Pledge Your Support</a></li>\n<li><a href=\"/about-us\" target=\"_self\">About</a></li>\n<li><a
+  href=\"/schedule\" target=\"_self\">Schedule</a></li>\n<li><a href=\"/career-opportunities\"
+  target=\"_self\">Career Opportunities</a></li>\n<li><a href=\"/board-trustees\"
+  target=\"_self\">Board of Trustees</a></li>\n<li><a href=\"/community-advisory-board\"
+  target=\"_self\">Community Advisory Board</a></li>\n<li><a href=\"/privacy-policy\"
+  target=\"_self\">Privacy Policy</a></li>\n<li><a href=\"/eeo-report\" target=\"_self\">EEO
+  Report</a></li>\n<li><a href=\"/diversity\" target=\"_self\">Diversity Statement</a></li>\n<li><a
+  href=\"/financial-statements-and-990\" target=\"_self\">Financial Statements / 990</a></li>\n<li><a
+  href=\"http://wboi.org/node/27409\" target=\"_self\">Local Content and Community
+  Service</a></li>\n<li><a href=\"/public-media-code-integrity\" target=\"_self\">Public
+  Media Code of Integrity</a></li>\n<li><a href=\"/public-meetings\" target=\"_self\">Public
+  Meetings</a></li>\n<li><a href=\"/donor-bill-rights\" target=\"_self\">Donor Bill
+  of Rights</a></li>\n<li><a href=\"/programs/weekly-experiment\" target=\"_self\">The
+  Weekly Experiment</a></li>\n<li><a href=\"http://www.foellinger.org/\" target=\"_self\">Special
+  Thanks to Foellinger Foundation</a></li>\n<li><a href=\"https://itunes.apple.com/us/app/wboi-public-radio-app/id567303502?mt=8\"
+  target=\"_blank\">WBOI News for iPhone</a></li>\n<li><a href=\"https://play.google.com/store/apps/details?id=com.skyblue.pra.nipr\"
+  target=\"_blank\">WBOI News on Google Play</a></li>\n<li><a href=\"https://itunes.apple.com/us/app/wbni-public-radio-app/id938515589?mt=8\"
+  target=\"_blank\">Classical for iPhone</a></li>\n<li><a href=\"https://play.google.com/store/apps/details?id=com.skyblue.pra.wbni&amp;hl=sw\"
+  target=\"_blank\">Classical on Google Play</a></li>\n<li class=\"last\">Northeast
+  Indiana Public Radio | 3204 Clairmont Court, Fort Wayne, IN 46808</li>\n</ul></div></div>\n
+  \ </div>\n</div>\n  </div>\n          </div>\n  </div>\n</footer>\n      <script
+  type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\n (function ($) { $(document).foundation({
+  topbar: { custom_back_text: true, back_text: 'back', mobile_show_parent_link: true
+  } }); }(jQuery));\n//--><!]]>\n</script>\n    </div>\n  <script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"15ba4da3e8\",\"applicationID\":\"1108724\",\"transactionName\":\"NlMBMhAECEZRAU1eDg8ZIgUWDAlbHwxWUwQ+RgIBBzoQXFUV\",\"queueTime\":0,\"applicationTime\":590,\"atts\":\"GhQCRFgeG0g=\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script>\n\n</body></html>"

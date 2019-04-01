@@ -25,10 +25,22 @@ module Pismo
         @url ||= args.dig(:url)
       end
 
+      def jsonld
+        @jsonld ||= begin
+          jsonld = args.dig(:jsonld)
+          jsonld = Parsers::Jsonld.call(doc: doc) if jsonld.nil? && doc.present?
+          jsonld
+        end
+      end
+
+      def host
+        @host ||= Utils::Url.host(url)
+      end
+
       def meta
         @meta ||= begin
           meta = args.dig(:meta)
-          meta = Pismo::Parsers::Meta.call(doc: doc) if meta.blank? && doc.present?
+          meta = Parsers::Meta.call(doc: doc) if meta.blank? && doc.present?
           meta
         end
       end
@@ -63,6 +75,121 @@ module Pismo
         resp = { key => name }
         resp = nil if resp[key].nil?
         resp
+      end
+
+      def contains_text?(txt)
+        doc.xpath("//*[contains(text(), '#{txt}')]")
+      end
+
+      def any_search_location_contains_text?(text, attr = '*')
+        search_nodes = []
+        %i[class id rel href title].uniq.each do |location|
+          next if location == :href && !['a', 'link'].include?(attr)
+          resp = attr_location_contains_text?(text, attr, location)
+          resp.each { |node| search_nodes << node }
+        end
+        search_nodes.uniq
+      end
+
+      def text_search_location_contains_text?(text, attr = '*')
+        search_nodes = []
+        %i[title text alt].uniq.each do |location|
+          next if location == :href && !['a', 'link'].include?(attr)
+          resp = attr_location_contains_text?(text, attr, location)
+          resp.each { |node| search_nodes << node }
+        end
+        search_nodes.uniq
+      end
+
+      def attr_location_contains_text?(txt, attr = '*', location = :text)
+        location = location_map[location]
+        doc.xpath("//#{attr}[
+            contains(
+              translate(#{location}, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),
+              '#{txt}'
+            )
+          ]"
+        )
+      end
+
+      def location_map
+        {
+          'class' => '@class',
+          :class  => '@class',
+          'id'    => '@id',
+          :id     => '@id',
+          'rel'   => '@rel',
+          :rel    => '@rel',
+          :href   => '@href',
+          'href'  => '@href',
+          :text   => 'text()',
+          'text'  => 'text()',
+          :title  => '@title',
+          'title' => '@title',
+          :alt    => '@alt',
+          'alt'   => '@alt'
+        }
+      end
+
+      def attr_id_contains_text?(attr, txt)
+        doc.xpath("//#{attr}[
+            contains(
+              translate(@id, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),
+              '#{txt}'
+            )
+          ]"
+        )
+      end
+
+      def attr_rel_contains_text?(attr, txt)
+        doc.xpath("//#{attr}[
+            contains(
+              translate(@rel, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),
+              '#{txt}'
+            )
+          ]"
+        )
+      end
+
+      def clean_node_text(node)
+        node&.text.to_s.gsub(/\W/, ' ').squeeze(' ').strip
+      end
+
+      def find_profile_nodes_that_match_entities_in_text(node)
+        node_text = clean_node_text(node)
+        return [] if node_text.blank?
+
+        find_nodes_matching_entity_text(node_text)
+      end
+
+      def find_nodes_matching_entity_text(text)
+        nodes = []
+        entity = Dewey::Extractor.entities(text)&.first
+        if entity
+          entity.split(' ').each do |text_item|
+            contains_text?(text_item).each do |node|
+              next if invalid_candidate_profile_node?(node)
+
+              nodes << node
+            end
+          end
+          nodes = nodes.uniq
+        end
+        nodes
+      end
+
+      def invalid_candidate_profile_node?(node)
+        return true if node.name == 'script' || node.name == 'style'
+        return true if !node.name == 'a'
+
+        grandparent_node = get_grandparent_node(node)
+        return true if grandparent_node.css('a').length.zero?
+
+        false
+      end
+
+      def get_grandparent_node(node)
+        Utils::NodesToProfiles.new(doc: doc).get_grandparent_node(node)
       end
     end
   end

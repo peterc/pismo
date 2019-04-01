@@ -1,9 +1,17 @@
-
 module Pismo
+  # Stores the utilities that we need, in no particular organization
   class Utilities
     class << self
       def max(a, b)
         a >= b ? a : b
+      end
+
+      def looks_like_a_name?(term)
+        Dewey::Utils::TextUtils.looks_like_a_name?(term)
+      end
+
+      def extract_likely_name(text)
+        ConfidentialInfoRedactor::Extractor.new.extract(text)&.first
       end
 
       # Return the longest common prefix between two strings.  If max is
@@ -16,6 +24,10 @@ module Pismo
           return s1.slice(0, i) if s1[i] != s2[i]
         end
         return s1.slice(0, min)
+      end
+
+      def absolutize_url(current_url, new_url)
+        Addressable::URI.join(current_url, new_url).to_s
       end
 
       def longest_common_substring_in_array(array)
@@ -99,9 +111,6 @@ module Pismo
 
         best.strip
       end
-
     end
-
   end
-
 end

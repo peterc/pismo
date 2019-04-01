@@ -1,0 +1,782 @@
+---
+:url: https://itunes.apple.com/us/app/anova-culinary/id959638683?mt=8
+:body: "<!DOCTYPE html><html lang=\"en-us\" prefix=\"og: http://ogp.me/ns#\" xml:lang=\"en-us\"><head>\n
+  \   <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n
+  \   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n\n
+  \   \n<meta name=\"web-experience-app/config/environment\" content=\"%7B%22appVersion%22%3A1%2C%22modulePrefix%22%3A%22web-experience-app%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22/%22%2C%22locationType%22%3A%22history-hash-router-scroll%22%2C%22historySupportMiddleware%22%3Atrue%2C%22contentSecurityPolicyMeta%22%3Atrue%2C%22contentSecurityPolicy%22%3A%7B%22default-src%22%3A%5B%22%27none%27%22%5D%2C%22img-src%22%3A%5B%22%27self%27%22%2C%22http%3A//*.mzstatic.com%22%2C%22*.mzstatic.com%22%2C%22*.apple.com%22%2C%22*.googleusercontent.com%22%2C%22data%3A%22%5D%2C%22style-src%22%3A%5B%22%27self%27%22%2C%22%27unsafe-inline%27%22%2C%22*.apple.com%22%5D%2C%22font-src%22%3A%5B%22%27self%27%22%2C%22http%3A//*.apple.com%22%2C%22https%3A//*.apple.com%22%5D%2C%22media-src%22%3A%5B%22%27self%27%22%2C%22blob%3A%22%2C%22http%3A//*%22%2C%22https%3A//*%22%5D%2C%22connect-src%22%3A%5B%22%27self%27%22%2C%22*.apple.com%22%2C%22https%3A//*.mzstatic.com%22%2C%22*.mzstatic.com%22%5D%2C%22script-src%22%3A%5B%22%27self%27%22%2C%22%27unsafe-inline%27%22%2C%22%27unsafe-eval%27%22%2C%22*.apple.com%22%5D%2C%22frame-src%22%3A%5B%22%27self%27%22%2C%22*.apple.com%22%2C%22itmss%3A%22%2C%22itms-appss%3A%22%2C%22itms-bookss%3A%22%2C%22itms-itunesus%3A%22%2C%22itms-messagess%3A%22%2C%22itms-podcasts%3A%22%2C%22itms-watchs%3A%22%2C%22macappstores%3A%22%2C%22musics%3A%22%2C%22apple-musics%3A%22%5D%7D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%7D%2C%22APP%22%3A%7B%22PROGRESS_BAR_DELAY%22%3A3000%2C%22name%22%3A%22web-experience-app%22%2C%22version%22%3A%221910.7.0+04e42d33%22%7D%2C%22MEDIA_API%22%3A%7B%22teamId%22%3A%22AMPWebPlay%22%2C%22keyId%22%3A%22WebPlayKid%22%2C%22privateKeyPath%22%3A%22ssl/webplayer.p8%22%2C%22token%22%3A%22eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldlYlBsYXlLaWQifQ.eyJpc3MiOiJBTVBXZWJQbGF5IiwiaWF0IjoxNTUxNDkzOTkwLCJleHAiOjE1NjcwNDU5OTB9.py9maUmG-4xplW107bCwbo6ptYLbpX1WQhOpUyceL7Us3mzP8P3_4Db6xvYdXkDSjSk-8HrDOi5ZhmZHxoV7-A%22%7D%2C%22routerScroll%22%3A%7B%22targetElement%22%3A%22%23ember-app%22%7D%2C%22i18n%22%3A%7B%22defaultLocale%22%3A%22en-gb%22%2C%22useDevLoc%22%3Afalse%2C%22pathToLocales%22%3A%22dist/locales%22%7D%2C%22moment%22%3A%7B%22includeLocales%22%3Atrue%2C%22includeTimezone%22%3A%22subset%22%7D%2C%22browserify%22%3A%7B%22transform%22%3A%5B%5B%22babelify%22%2C%7B%22presets%22%3A%5B%22env%22%5D%2C%22global%22%3Atrue%2C%22only%22%3A%7B%7D%7D%5D%5D%7D%2C%22API%22%3A%7B%22assetHost%22%3A%22https%3A//web-experience.itunes.apple.com%22%2C%22AppHost%22%3A%22https%3A//api.apps.apple.com%22%2C%22MZStore%22%3A%22https%3A//itunes.apple.com%22%2C%22UTSHost%22%3A%22https%3A//tv.apple.com/api/uts/preview%22%2C%22PodcastHost%22%3A%22https%3A//amp-api.podcasts.apple.com%22%2C%22StorePlatform%22%3A%22https%3A//uclient-api.itunes.apple.com/WebObjects/MZStorePlatform.woa/wa%22%2C%22BookHost%22%3A%22https%3A//api.books.apple.com%22%2C%22globalElementsPath%22%3A%22/global-elements%22%2C%22videoLocalizationPath%22%3A%22/global/ac_media_player/scripts/ac_media_languages/%22%2C%22appleBooksDomain%22%3A%22book.apple.com%22%2C%22appleTvDomain%22%3A%22tv.apple.com%22%7D%2C%22fastboot%22%3A%7B%22hostWhitelist%22%3A%5B%7B%7D%5D%7D%2C%22ember-a11y-testing%22%3A%7B%22componentOptions%22%3A%7B%22turnAuditOff%22%3Atrue%2C%22axeOptions%22%3A%7B%22rules%22%3A%7B%22color-contrast%22%3A%7B%22enabled%22%3Afalse%7D%7D%7D%7D%7D%2C%22ember-short-number%22%3A%7B%22locales%22%3A%5B%22ar-sa%22%2C%22ca-es%22%2C%22cs-cz%22%2C%22da-dk%22%2C%22de-ch%22%2C%22de-de%22%2C%22el-gr%22%2C%22en-au%22%2C%22en-ca%22%2C%22en-gb%22%2C%22en-us%22%2C%22es-419%22%2C%22es-es%22%2C%22es-mx%22%2C%22es-xl%22%2C%22et-ee%22%2C%22fi-fi%22%2C%22fr-ca%22%2C%22fr-fr%22%2C%22hi-in%22%2C%22hr-hr%22%2C%22hu-hu%22%2C%22id-id%22%2C%22is-is%22%2C%22it-it%22%2C%22iw-il%22%2C%22ja-jp%22%2C%22ko-kr%22%2C%22lt-lt%22%2C%22lv-lv%22%2C%22ms-my%22%2C%22nl-nl%22%2C%22no-no%22%2C%22no-nb%22%2C%22nb-no%22%2C%22pl-pl%22%2C%22pt-br%22%2C%22pt-pt%22%2C%22ro-ro%22%2C%22ru-ru%22%2C%22sk-sk%22%2C%22sv-se%22%2C%22th-th%22%2C%22tr-tr%22%2C%22uk-ua%22%2C%22vi-vi%22%2C%22vi-vn%22%2C%22zh-cn%22%2C%22zh-hk%22%2C%22zh-tw%22%2C%22ca%22%2C%22cs%22%2C%22da%22%2C%22de%22%2C%22el%22%2C%22en%22%2C%22es%22%2C%22fi%22%2C%22fr%22%2C%22hi%22%2C%22hr%22%2C%22hu%22%2C%22id%22%2C%22is%22%2C%22it%22%2C%22ja%22%2C%22ko%22%2C%22lt%22%2C%22lv%22%2C%22ms%22%2C%22nb%22%2C%22nl%22%2C%22no%22%2C%22pl%22%2C%22pt%22%2C%22ro%22%2C%22ru%22%2C%22sk%22%2C%22sv%22%2C%22th%22%2C%22tr%22%2C%22uk%22%2C%22vi%22%2C%22zh%22%5D%7D%2C%22METRICS%22%3A%7B%22isEnabled%22%3Atrue%2C%22autoTrackingEnabled%22%3Atrue%2C%22topic%22%3A%22xp_amp_web_exp%22%2C%22appName%22%3A%22web-experience-app%22%2C%22metricsUrl%22%3A%22https%3A//xp.apple.com/report%22%2C%22compoundSeparator%22%3A%22_%22%7D%2C%22contentSecurityPolicyHeader%22%3A%22Content-Security-Policy-Report-Only%22%2C%22exportApplicationGlobal%22%3Afalse%7D\">\n<meta
+  http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; img-src 'self'
+  http://*.mzstatic.com *.mzstatic.com *.apple.com *.googleusercontent.com data:;
+  style-src 'self' 'unsafe-inline' *.apple.com; font-src 'self' http://*.apple.com
+  https://*.apple.com; media-src 'self' blob: http://* https://*; connect-src 'self'
+  *.apple.com https://*.mzstatic.com *.mzstatic.com; script-src 'self' 'unsafe-inline'
+  'unsafe-eval' *.apple.com; frame-src 'self' *.apple.com itmss: itms-appss: itms-bookss:
+  itms-itunesus: itms-messagess: itms-podcasts: itms-watchs: macappstores: musics:
+  apple-musics:; \">\n<!-- EMBER_CLI_FASTBOOT_TITLE --><link rel=\"stylesheet\" name=\"fonts\"
+  href=\"//www.apple.com/wss/fonts?families=SF+Pro,v2|SF+Pro+Icons,v1\">  \n<link
+  rel=\"stylesheet\" type=\"text/css\" href=\"https://web-experience.itunes.apple.com/global-elements/1910.1.0/en_US/ac-global-nav.8770416769877a44e0c3f4514ac670e0.css\"
+  data-global-elements-nav-styles=\"\">\n<link rel=\"stylesheet\" type=\"text/css\"
+  href=\"https://web-experience.itunes.apple.com/global-elements/1910.1.0/en_US/ac-global-footer.dba56f91fcf68922ffce3b03d3909d3b.css\"
+  data-global-elements-footer-styles=\"\">\n\n    <meta name=\"version\" content=\"1910.7.0\">\n\n
+  \   <link integrity=\"\" rel=\"stylesheet\" href=\"https://web-experience.itunes.apple.com/assets/web-experience-app-84361991ca6dafcbc940e2816f3f42fb.css\">\n\n
+  \   \n    <meta name=\"ember-cli-head-start\" content=\"\"><title>‎Anova Culinary
+  on the App&nbsp;Store</title>\n<link rel=\"canonical\" href=\"https://itunes.apple.com/us/app/anova-culinary/id959638683?mt=8\">\n
+  \ <meta name=\"description\" content=\"‎Read reviews, compare customer ratings,
+  see screenshots, and learn more about Anova Culinary. Download Anova Culinary and
+  enjoy it on your iPhone, iPad, and iPod touch.\" id=\"ember141\" class=\"ember-view\">\n
+  \ <meta name=\"keywords\" content=\"Anova Culinary, Anova Culinary, Food &amp; Drink,
+  Lifestyle, ios apps, app, appstore, app store, iphone, ipad, ipod touch, itouch,
+  itunes\" id=\"ember143\" class=\"ember-view\">\n  <meta property=\"og:title\" content=\"‎Anova
+  Culinary\" id=\"ember145\" class=\"ember-view\">\n  <meta property=\"og:description\"
+  content=\"‎Browse Recipes and Start Cooking directly from the Anova app! \n\nThe
+  Anova app is the companion app to the Anova Precision Cooker WI-FI and Bluetooth
+  models. Connect the app to your Anova Precision Cooker to start, stop, and monitor
+  your food. Receive notifications about what’s going on with your foo…\" id=\"ember147\"
+  class=\"ember-view\">\n  <meta property=\"og:site_name\" content=\"App Store\" id=\"ember149\"
+  class=\"ember-view\">\n  <meta property=\"og:url\" content=\"https://itunes.apple.com/us/app/anova-culinary/id959638683?mt=8\"
+  id=\"ember151\" class=\"ember-view\">\n  <meta property=\"og:image\" content=\"https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/81/a9/0d81a99a-a7cf-67ab-c13e-96f1ec1325a5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/1200x630wa.png\"
+  id=\"ember153\" class=\"ember-view\">\n  <meta property=\"og:image:alt\" content=\"Anova
+  Culinary on the App&nbsp;Store\" id=\"ember155\" class=\"ember-view\">\n  <meta
+  property=\"og:image:secure_url\" content=\"https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/81/a9/0d81a99a-a7cf-67ab-c13e-96f1ec1325a5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/1200x630wa.png\"
+  id=\"ember157\" class=\"ember-view\">\n  <meta property=\"og:image:type\" content=\"image/png\"
+  id=\"ember159\" class=\"ember-view\">\n  <meta property=\"og:image:width\" content=\"1200\"
+  id=\"ember161\" class=\"ember-view\">\n  <meta property=\"og:image:height\" content=\"630\"
+  id=\"ember163\" class=\"ember-view\">\n  <meta property=\"og:type\" content=\"website\"
+  id=\"ember165\" class=\"ember-view\">\n  <meta property=\"og:locale\" content=\"en_US\"
+  id=\"ember167\" class=\"ember-view\">\n  <meta property=\"fb:app_id\" content=\"116556461780510\"
+  id=\"ember169\" class=\"ember-view\">\n  <meta name=\"twitter:title\" content=\"‎Anova
+  Culinary\" id=\"ember171\" class=\"ember-view\">\n  <meta name=\"twitter:description\"
+  content=\"‎Browse Recipes and Start Cooking directly from the Anova app! \n\nThe
+  Anova app is the companion app to the Anova Precision Cooker WI-FI and Bluetooth
+  models. Connect the app to your Anova Precision Cooker to start, stop, and monitor
+  your food. Receive notifications about what’s going on with your foo…\" id=\"ember173\"
+  class=\"ember-view\">\n  <meta name=\"twitter:site\" content=\"@AppStore\" id=\"ember175\"
+  class=\"ember-view\">\n  <meta name=\"twitter:domain\" content=\"AppStore\" id=\"ember177\"
+  class=\"ember-view\">\n  <meta name=\"twitter:image\" content=\"https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/81/a9/0d81a99a-a7cf-67ab-c13e-96f1ec1325a5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/600x600wa.png\"
+  id=\"ember179\" class=\"ember-view\">\n  <meta name=\"twitter:image:alt\" content=\"Anova
+  Culinary on the App&nbsp;Store\" id=\"ember181\" class=\"ember-view\">\n  <meta
+  name=\"twitter:card\" content=\"summary_large_image\" id=\"ember183\" class=\"ember-view\">\n
+  \ <meta name=\"apple-itunes-app\" content=\"app-id=375380948, app-argument=https://itunes.apple.com/us/app/anova-culinary/id959638683?mt=8\"
+  id=\"ember185\" class=\"ember-view\">\n  <script name=\"schema:software-application\"
+  id=\"ember187\" class=\"ember-view\" type=\"application/ld+json\">{\"@context\":\"http://schema.org\",\"@type\":\"SoftwareApplication\",\"name\":\"Anova
+  Culinary\",\"description\":\"Browse Recipes and Start Cooking directly from the
+  Anova app! \\n\\nThe Anova app is the companion app to the Anova Precision Cooker
+  WI-FI and Bluetooth models. Connect the app to your Anova Precision Cooker to start,
+  stop, and monitor your food. Receive notifications about what’s going on with your
+  food, and start your cook right from your phone. With both models you can conveniently
+  browse thousands of recipes and start the Precision Cooker with a tap of a finger.
+  We are constantly pushing to improve and listen to customer feedback, so make sure
+  you keep your eye out for updates! \\n\\nDon’t have an Anova Precision Cooker? Join
+  the #anovafoodnerd family and try sous vide with the world’s best-loved precision
+  cooking device: https://anovaculinary.com/anova-precision-cooker/\\n\\nKey App Features:\\n\\n•
+  Great recipes & guides created by James Beard Award-winning chef, J. Kenji López-Alt\\n•
+  Visual Doneness photos guide you to the perfectly cooked meal\\n Receive push notifications
+  about your cook\\n• Operate Anova remotely, within range. Extended remote cooking
+  capabilities are available exclusively for the Anova Precision Cooker WI-FI. This
+  includes the ability to start, stop, change temperature, set timer, and monitor
+  your cooking status from anywhere. See below for more information on connected cooking
+  with the Anova Precision Cooker WI-FI.\\n\\nWith WI-FI, you can spend less time
+  tied to the kitchen and more time doing what you love, with the people you love.
+  When you upgrade to the Anova Precision Cooker WI-FI, you'll get even more flexibility
+  than ever, including:\\n\\n• Remote cooking. Start, stop, and monitor your Precision
+  Cooker WI-FI from anywhere, and come home to the best meal ever. Whether you're
+  heading to work, going on a run, or spending quality time with friends and family,
+  you can check in on the status of your food no matter where life takes you.\\n•
+  Push Notifications. Automatically receive notifications about how your meal is progressing.
+  Anova keeps an eye on what's cooking, so you don’t have to. \\n• Voice Integration.
+  Anova makes it effortless to start cooking, even when your hands are full, with
+  the simple command of your voice using Alexa and Google Home integrations. \\n•
+  New Features. Anova is always getting better with new ways to experience super-simple,
+  pro-level cooking. Keep up with the latest updates to the Anova Culinary App for
+  good things coming your way!\\n\\nWhat is Precision Cooking?\\n\\nOnce limited to
+  the world's best restaurants, precision cooking (commonly referred to as sous vide)
+  is now the fastest growing kitchen appliance category. The Anova Precision Cooker
+  represents the next evolution of precision cooking technology, making it easy and
+  affordable for everyone to reap the benefits of this type of cooking. Precision
+  cooking is extremely easy. It usually involves these three simple steps:\\n\\n1.
+  Attach the Anova Precision Cooker to a pot and set time and temp using the app or
+  the device interface. Using the app, simply find what you're cooking and hit \\\"start.\\\"\\n\\n2.
+  Put food in a ziplock bag and clip it to the side of the pot. The circulator moves
+  water around the pot, ensuring a consistent temperature throughout.\\n\\n3. Finish
+  with a quick sear or broil, or even throw it on the grill for a nice, crispy finish.\",\"screenshot\":[\"https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/7f/82/6d/7f826db9-3d8f-7833-4706-5634b9c8eee6/mzl.btrmrtbw.jpg/300x0w.jpg\",\"https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/61/b8/c5/61b8c517-36d5-72b0-229b-44d807bfc0b9/mzl.pxwngdfg.jpg/300x0w.jpg\",\"https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/29/5e/fd/295efdcb-9de1-836c-ed0c-be879e383c72/mzl.tcuvchdh.jpg/300x0w.jpg\",\"https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/98/a1/5d/98a15d14-b2ec-b948-1a74-d63eba52748f/mzl.udxlcfzl.jpg/300x0w.jpg\"],\"image\":\"https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/81/a9/0d81a99a-a7cf-67ab-c13e-96f1ec1325a5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/1200x630wa.png\",\"applicationCategory\":\"Food
+  & Drink\",\"datePublished\":\"2015-02-04\",\"operatingSystem\":\"Requires iOS 10.0
+  or later. Compatible with iPhone, iPad, and iPod touch.\",\"author\":{\"@type\":\"Person\",\"name\":\"Anova
+  Culinary\",\"url\":\"https://itunes.apple.com/us/developer/anova-culinary/id959638682?mt=8\"},\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":3.8,\"reviewCount\":3678},\"offers\":{\"@type\":\"Offer\",\"category\":\"free\",\"price\":0,\"priceCurrency\":\"USD\"}}\n</script>\n
+  \ <meta name=\"apple:content_id\" content=\"959638683\" id=\"ember189\" class=\"ember-view\">\n\n<meta
+  name=\"ember-cli-head-end\" content=\"\">\n</head>\n  <body class=\"has-js no-touch
+  ember-application\"><aside id=\"ac-gn-segmentbar\" class=\"ac-gn-segmentbar\" lang=\"en-US\"
+  dir=\"ltr\" data-strings=\"{ 'exit': 'Exit', 'view': '{%STOREFRONT%} Store Home',
+  'segments': { 'smb': 'Business Store Home', 'eduInd': 'Education Store Home', 'other':
+  'Store Home' } }\">\n</aside><input type=\"checkbox\" id=\"ac-gn-menustate\" class=\"ac-gn-menustate\"><nav
+  id=\"ac-globalnav\" class=\"no-js\" role=\"navigation\" aria-label=\"Global\" data-hires=\"false\"
+  data-analytics-region=\"global nav\" lang=\"en-US\" dir=\"ltr\" data-store-locale=\"us\"
+  data-store-api=\"//www.apple.com/[storefront]/shop/bag/status\" data-search-locale=\"en_US\"
+  data-search-api=\"//www.apple.com/search-services/suggestions/\">\n\t<div class=\"ac-gn-content\">\n\t\t<ul
+  class=\"ac-gn-header\">\n\t\t\t<li class=\"ac-gn-item ac-gn-menuicon\">\n\t\t\t\t<label
+  class=\"ac-gn-menuicon-label\" for=\"ac-gn-menustate\" aria-hidden=\"true\">\n\t\t\t\t\t<span
+  class=\"ac-gn-menuicon-bread ac-gn-menuicon-bread-top\">\n\t\t\t\t\t\t<span class=\"ac-gn-menuicon-bread-crust
+  ac-gn-menuicon-bread-crust-top\"></span>\n\t\t\t\t\t</span>\n\t\t\t\t\t<span class=\"ac-gn-menuicon-bread
+  ac-gn-menuicon-bread-bottom\">\n\t\t\t\t\t\t<span class=\"ac-gn-menuicon-bread-crust
+  ac-gn-menuicon-bread-crust-bottom\"></span>\n\t\t\t\t\t</span>\n\t\t\t\t</label>\n\t\t\t\t<a
+  href=\"#ac-gn-menustate\" role=\"button\" class=\"ac-gn-menuanchor ac-gn-menuanchor-open\"
+  id=\"ac-gn-menuanchor-open\">\n\t\t\t\t\t<span class=\"ac-gn-menuanchor-label\">Global
+  Nav Open Menu</span>\n\t\t\t\t</a>\n\t\t\t\t<a href=\"#\" role=\"button\" class=\"ac-gn-menuanchor
+  ac-gn-menuanchor-close\" id=\"ac-gn-menuanchor-close\">\n\t\t\t\t\t<span class=\"ac-gn-menuanchor-label\">Global
+  Nav Close Menu</span>\n\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li class=\"ac-gn-item ac-gn-apple\">\n\t\t\t\t<a
+  class=\"ac-gn-link ac-gn-link-apple\" href=\"//www.apple.com/\" data-analytics-title=\"apple
+  home\" id=\"ac-gn-firstfocus-small\">\n\t\t\t\t\t<span class=\"ac-gn-link-text\">Apple</span>\n\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li
+  class=\"ac-gn-item ac-gn-bag ac-gn-bag-small\" id=\"ac-gn-bag-small\">\n\t\t\t\t<a
+  class=\"ac-gn-link ac-gn-link-bag\" href=\"//www.apple.com/us/shop/goto/bag\" data-analytics-title=\"bag\"
+  data-analytics-click=\"bag\" aria-label=\"Shopping Bag\" data-string-badge=\"Shopping
+  Bag with Items\">\n\t\t\t\t\t<span class=\"ac-gn-link-text\">Shopping Bag</span>\n\t\t\t\t\t<span
+  class=\"ac-gn-bag-badge\"></span>\n\t\t\t\t</a>\n\t\t\t\t<span class=\"ac-gn-bagview-caret
+  ac-gn-bagview-caret-large\"></span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<div class=\"ac-gn-search-placeholder-container\"
+  role=\"search\">\n\t\t\t<div class=\"ac-gn-search ac-gn-search-small\">\n\t\t\t\t<a
+  id=\"ac-gn-link-search-small\" class=\"ac-gn-link\" href=\"//www.apple.com/us/search\"
+  data-analytics-title=\"search\" data-analytics-click=\"search\" data-analytics-intrapage-link=\"\"
+  aria-label=\"Search apple.com\">\n\t\t\t\t\t<div class=\"ac-gn-search-placeholder-bar\">\n\t\t\t\t\t\t<div
+  class=\"ac-gn-search-placeholder-input\">\n\t\t\t\t\t\t\t<div class=\"ac-gn-search-placeholder-input-text\"
+  aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<div class=\"ac-gn-link-search ac-gn-search-placeholder-input-icon\"></div>\n\t\t\t\t\t\t\t\t<span
+  class=\"ac-gn-search-placeholder\">Search apple.com</span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+  class=\"ac-gn-searchview-close ac-gn-searchview-close-small ac-gn-search-placeholder-searchview-close\">\n\t\t\t\t\t\t\t<span
+  class=\"ac-gn-searchview-close-cancel\" aria-hidden=\"true\">Cancel</span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t</div>\n\t\t<ul
+  class=\"ac-gn-list\">\n\t\t\t<li class=\"ac-gn-item ac-gn-apple\">\n\t\t\t\t<a class=\"ac-gn-link
+  ac-gn-link-apple\" href=\"//www.apple.com/\" data-analytics-title=\"apple home\"
+  id=\"ac-gn-firstfocus\">\n\t\t\t\t\t\t<span class=\"ac-gn-link-text\">Apple</span>\n\t\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li
+  class=\"ac-gn-item ac-gn-item-menu ac-gn-mac\">\n\t\t\t\t<a class=\"ac-gn-link ac-gn-link-mac\"
+  href=\"//www.apple.com/mac/\" data-analytics-title=\"mac\">\n\t\t\t\t\t\t<span class=\"ac-gn-link-text\">Mac</span>\n\t\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li
+  class=\"ac-gn-item ac-gn-item-menu ac-gn-ipad\">\n\t\t\t\t<a class=\"ac-gn-link
+  ac-gn-link-ipad\" href=\"//www.apple.com/ipad/\" data-analytics-title=\"ipad\">\n\t\t\t\t\t\t<span
+  class=\"ac-gn-link-text\">iPad</span>\n\t\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li class=\"ac-gn-item
+  ac-gn-item-menu ac-gn-iphone\">\n\t\t\t\t<a class=\"ac-gn-link ac-gn-link-iphone\"
+  href=\"//www.apple.com/iphone/\" data-analytics-title=\"iphone\">\n\t\t\t\t\t\t<span
+  class=\"ac-gn-link-text\">iPhone</span>\n\t\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li
+  class=\"ac-gn-item ac-gn-item-menu ac-gn-watch\">\n\t\t\t\t<a class=\"ac-gn-link
+  ac-gn-link-watch\" href=\"//www.apple.com/watch/\" data-analytics-title=\"watch\">\n\t\t\t\t\t\t<span
+  class=\"ac-gn-link-text\">Watch</span>\n\t\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li class=\"ac-gn-item
+  ac-gn-item-menu ac-gn-tv\">\n\t\t\t\t<a class=\"ac-gn-link ac-gn-link-tv\" href=\"//www.apple.com/tv/\"
+  data-analytics-title=\"tv\">\n\t\t\t\t\t\t<span class=\"ac-gn-link-text\">TV</span>\n\t\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li
+  class=\"ac-gn-item ac-gn-item-menu ac-gn-music\">\n\t\t\t\t<a class=\"ac-gn-link
+  ac-gn-link-music\" href=\"//www.apple.com/music/\" data-analytics-title=\"music\">\n\t\t\t\t\t\t<span
+  class=\"ac-gn-link-text\">Music</span>\n\t\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li class=\"ac-gn-item
+  ac-gn-item-menu ac-gn-support\">\n\t\t\t\t<a class=\"ac-gn-link ac-gn-link-support\"
+  href=\"https://support.apple.com\" data-analytics-title=\"support\">\n\t\t\t\t\t\t<span
+  class=\"ac-gn-link-text\">Support</span>\n\t\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li
+  class=\"ac-gn-item ac-gn-item-menu ac-gn-search\" role=\"search\">\n\t\t\t\t<a id=\"ac-gn-link-search\"
+  class=\"ac-gn-link ac-gn-link-search\" href=\"//www.apple.com/us/search\" data-analytics-title=\"search\"
+  data-analytics-click=\"search\" data-analytics-intrapage-link=\"\" aria-label=\"Search
+  apple.com\"></a>\n\t\t\t</li>\n\t\t\t<li class=\"ac-gn-item ac-gn-bag\" id=\"ac-gn-bag\">\n\t\t\t\t<a
+  class=\"ac-gn-link ac-gn-link-bag\" href=\"//www.apple.com/us/shop/goto/bag\" data-analytics-title=\"bag\"
+  data-analytics-click=\"bag\" aria-label=\"Shopping Bag\" data-string-badge=\"Shopping
+  Bag with Items\">\n\t\t\t\t\t\t<span class=\"ac-gn-link-text\">Shopping Bag</span>\n\t\t\t\t\t\t<span
+  class=\"ac-gn-bag-badge\" aria-hidden=\"true\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t<span
+  class=\"ac-gn-bagview-caret ac-gn-bagview-caret-large\"></span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<aside
+  id=\"ac-gn-searchview\" class=\"ac-gn-searchview\" role=\"search\" data-analytics-region=\"search\">\n\t\t\t<div
+  class=\"ac-gn-searchview-content\">\n\t\t\t\t<div class=\"ac-gn-searchview-bar\">\n\t\t\t\t\t<div
+  class=\"ac-gn-searchview-bar-wrapper\">\n\t\t\t\t\t\t<form id=\"ac-gn-searchform\"
+  class=\"ac-gn-searchform\" action=\"//www.apple.com/us/search\" method=\"get\">\n\t\t\t\t\t\t\t<div
+  class=\"ac-gn-searchform-wrapper\">\n\t\t\t\t\t\t\t\t<input id=\"ac-gn-searchform-input\"
+  class=\"ac-gn-searchform-input\" type=\"text\" aria-label=\"Search apple.com\" placeholder=\"Search
+  apple.com\" autocorrect=\"off\" autocapitalize=\"off\" autocomplete=\"off\" spellcheck=\"false\"
+  role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"true\" aria-owns=\"quicklinks
+  suggestions\">\n\t\t\t\t\t\t\t\t<input id=\"ac-gn-searchform-src\" type=\"hidden\"
+  name=\"src\" value=\"itunes_serp\">\n\t\t\t\t\t\t\t\t<button id=\"ac-gn-searchform-submit\"
+  class=\"ac-gn-searchform-submit\" type=\"submit\" disabled=\"\" aria-label=\"Submit
+  Search\"></button>\n\t\t\t\t\t\t\t\t<button id=\"ac-gn-searchform-reset\" class=\"ac-gn-searchform-reset\"
+  type=\"reset\" disabled=\"\" aria-label=\"Clear Search\">\n\t\t\t\t\t\t\t\t\t\t<span
+  class=\"ac-gn-searchform-reset-background\"></span>\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</form>\n\t\t\t\t\t\t<button
+  id=\"ac-gn-searchview-close-small\" class=\"ac-gn-searchview-close ac-gn-searchview-close-small\"
+  aria-label=\"Cancel Search\">\n\t\t\t\t\t\t\t\t<span class=\"ac-gn-searchview-close-cancel\"
+  aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\tCancel\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<aside
+  id=\"ac-gn-searchresults\" class=\"ac-gn-searchresults\" data-string-quicklinks=\"Quick
+  Links\" data-string-suggestions=\"Suggested Searches\" data-string-noresults=\"\"></aside>\n\t\t\t</div>\n\t\t\t<button
+  id=\"ac-gn-searchview-close\" class=\"ac-gn-searchview-close\" aria-label=\"Cancel
+  Search\">\n\t\t\t\t\t<span class=\"ac-gn-searchview-close-wrapper\">\n\t\t\t\t\t\t<span
+  class=\"ac-gn-searchview-close-left\"></span>\n\t\t\t\t\t\t<span class=\"ac-gn-searchview-close-right\"></span>\n\t\t\t\t\t</span>\n\t\t\t\t</button>\n\t\t</aside>\n\t\t<aside
+  class=\"ac-gn-bagview\" data-analytics-region=\"bag\">\n\t\t\t<div class=\"ac-gn-bagview-scrim\">\n\t\t\t\t<span
+  class=\"ac-gn-bagview-caret ac-gn-bagview-caret-small\"></span>\n\t\t\t</div>\n\t\t\t<div
+  class=\"ac-gn-bagview-content\" id=\"ac-gn-bagview-content\">\n\t\t\t</div>\n\t\t</aside>\n\t</div>\n</nav><div
+  class=\"ac-gn-blur\"></div><div id=\"ac-gn-curtain\" class=\"ac-gn-curtain\"></div><div
+  id=\"ac-gn-placeholder\" class=\"ac-nav-placeholder\"></div>\n    <div id=\"ember-app\">\n
+  \     \n    <div class=\"ember-view\" id=\"ember137\"><!---->\n\n<!---->\n\n<!---->\n\n<main
+  class=\"selfclear is-app-theme\">\n  <style id=\"ember190\" class=\"ember-view\"><!----></style>\n\n
+  \ <!---->\n\n  <div id=\"ember191\" class=\"focusing-outlet ember-view\"><div id=\"ember192\"
+  class=\"ember-view\"><div id=\"ember193\" class=\"focusing-outlet ember-view\"><div
+  id=\"ember194\" class=\"ember-view\">\n  <input id=\"localnav-menustate\" class=\"localnav-menustate\"
+  type=\"checkbox\">\n<nav id=\"localnav\" class=\"we-localnav localnav\" role=\"navigation\"
+  data-sticky=\"\">\n  <div class=\"localnav-wrapper\">\n    <div class=\"localnav-background
+  we-localnav__background\"></div>\n    <div class=\"localnav-content\">\n      <div
+  class=\"localnav-title we-localnav__title\">\n        <a><span class=\"we-localnav__title__product\"
+  data-test-we-localnav-store-title=\"\">App Store</span> <span class=\"we-localnav__title__qualifier\"
+  data-test-we-localnav-preview-title=\"\">Preview</span></a>\n      </div>\n      <div
+  class=\"localnav-menu we-localnav__menu we-localnav__menu--app\">\n        <div
+  class=\"localnav-actions we-localnav__actions\">\n            <div class=\"localnav-action
+  localnav-action-button we-localnav__action\">\n            </div>\n        </div>\n
+  \     </div>\n    </div>\n  </div>\n</nav>\n<label id=\"localnav-curtain\" for=\"localnav-menustate\"></label>\n\n\n\n<div
+  id=\"ember197\" class=\"animation-wrapper is-visible ember-view\">\n    <div id=\"ember198\"
+  class=\"ember-view\"><div class=\"l-content-width we-banner\" role=\"alert\">\n
+  \   <p class=\"we-banner__copy\">This app is only available on the App Store for
+  iOS devices.</p>\n</div>\n</div>\n\n  <div id=\"ember199\" class=\"ember-view\"><section
+  id=\"ember200\" class=\"l-content-width section section--hero product-hero ember-view\"><div
+  class=\"l-row\">\n  <div class=\"product-hero__media l-column small-5 medium-4 large-3
+  small-valign-top\">\n      <picture id=\"ember201\" class=\"we-artwork ember-view
+  product-hero__artwork we-artwork--fullwidth we-artwork--ios-app-icon\">\n        <source
+  class=\"we-artwork__source\" srcset=\"https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/81/a9/0d81a99a-a7cf-67ab-c13e-96f1ec1325a5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/230x0w.jpg
+  1x,https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/81/a9/0d81a99a-a7cf-67ab-c13e-96f1ec1325a5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/460x0w.jpg
+  2x,https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/81/a9/0d81a99a-a7cf-67ab-c13e-96f1ec1325a5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/690x0w.jpg
+  3x\" media=\"(min-width: 1069px)\">\n<!---->\n\n        <source class=\"we-artwork__source\"
+  srcset=\"https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/81/a9/0d81a99a-a7cf-67ab-c13e-96f1ec1325a5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/217x0w.jpg
+  1x,https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/81/a9/0d81a99a-a7cf-67ab-c13e-96f1ec1325a5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/434x0w.jpg
+  2x,https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/81/a9/0d81a99a-a7cf-67ab-c13e-96f1ec1325a5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/651x0w.jpg
+  3x\" media=\"(min-width: 736px)\">\n<!---->\n\n        <source class=\"we-artwork__source\"
+  srcset=\"https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/81/a9/0d81a99a-a7cf-67ab-c13e-96f1ec1325a5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/246x0w.jpg
+  1x,https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/81/a9/0d81a99a-a7cf-67ab-c13e-96f1ec1325a5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/492x0w.jpg
+  2x,https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/81/a9/0d81a99a-a7cf-67ab-c13e-96f1ec1325a5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/738x0w.jpg
+  3x\">\n        <img class=\"we-artwork__image ember201\" src=\"https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/81/a9/0d81a99a-a7cf-67ab-c13e-96f1ec1325a5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/246x0w.jpg\"
+  style=\"background-color: #ffffff;\" alt=\"\" height=\"246\" width=\"246\">\n\n
+  \ <style>\n    .ember201, #ember201::before {\n          width: 246px;\n          height:
+  246px;\n        }\n        .ember201::before {\n          padding-top: 100%;\n        }\n@media
+  (min-width: 736px) {\n          .ember201, #ember201::before {\n          width:
+  217px;\n          height: 217px;\n        }\n        .ember201::before {\n          padding-top:
+  100%;\n        }\n        }\n@media (min-width: 1069px) {\n          .ember201,
+  #ember201::before {\n          width: 230px;\n          height: 230px;\n        }\n
+  \       .ember201::before {\n          padding-top: 100%;\n        }\n        }\n
+  \ </style>\n</picture>\n  </div>\n\n  <div class=\"l-column small-7 medium-8 large-9
+  small-valign-top\">\n    <header class=\"product-header app-header product-header--padded-start\"
+  role=\"banner\">\n      <h1 class=\"product-header__title app-header__title\">\n
+  \       Anova Culinary\n          <span class=\"badge badge--product-title\">12+</span>\n
+  \     </h1>\n<!---->      <h2 class=\"product-header__identity app-header__identity\">\n
+  \       <a class=\"link\" href=\"https://itunes.apple.com/us/developer/anova-culinary/id959638682?mt=8\">Anova
+  Culinary</a>\n      </h2>\n      <ul class=\"product-header__list app-header__list\">\n
+  \         <li class=\"product-header__list__item\">\n            <ul class=\"inline-list
+  inline-list--mobile-compact\">\n              <li class=\"inline-list__item\">\n
+  \               #159 in Food &amp; Drink\n              </li>\n            </ul>\n
+  \         </li>\n          <li class=\"product-header__list__item app-header__list__item--user-rating\">\n
+  \           <ul class=\"inline-list inline-list--mobile-compact\">\n              <li
+  class=\"inline-list__item\">\n                <figure aria-label=\"3.8 out of 5\"
+  id=\"ember205\" class=\"we-star-rating ember-view\"><span class=\"we-star-rating-stars-outlines\">\n
+  \ <span class=\"we-star-rating-stars we-star-rating-stars-4\"></span>\n</span>\n
+  \ <figcaption class=\"we-rating-count star-rating__count\">3.8, 3.7K Ratings</figcaption>\n</figure>\n
+  \             </li>\n            </ul>\n          </li>\n      </ul>\n      <ul
+  class=\"product-header__list app-header__list\">\n<!---->        <li class=\"product-header__list__item\">\n
+  \         <ul class=\"inline-list inline-list--mobile-compact\">\n            <li
+  class=\"inline-list__item inline-list__item--bulleted app-header__list__item--price\">Free</li>\n<!---->
+  \         </ul>\n        </li>\n<!----><!---->      </ul>\n<!----><!---->    </header>\n
+  \ </div>\n</div>\n</section>\n<!---->\n    <section class=\"l-content-width section
+  section--bordered\">\n      <h2 class=\"section__headline\">iPhone Screenshots</h2>\n
+  \   <div id=\"ember207\" class=\"we-screenshot-viewer ember-view\"><div class=\"we-screenshot-viewer__screenshots\">\n
+  \ <ul class=\"l-row l-row--peek\">\n        <li class=\"l-column small-2 medium-3
+  large-3\">\n          <picture id=\"ember209\" class=\"we-artwork ember-view we-artwork--fullwidth
+  we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone-5-8
+  we-artwork--screenshot-orientation-portrait\">\n        <source class=\"we-artwork__source\"
+  srcset=\"https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/7f/82/6d/7f826db9-3d8f-7833-4706-5634b9c8eee6/mzl.btrmrtbw.jpg/230x0w.jpg
+  1x,https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/7f/82/6d/7f826db9-3d8f-7833-4706-5634b9c8eee6/mzl.btrmrtbw.jpg/460x0w.jpg
+  2x,https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/7f/82/6d/7f826db9-3d8f-7833-4706-5634b9c8eee6/mzl.btrmrtbw.jpg/690x0w.jpg
+  3x\" media=\"(min-width: 1069px)\">\n<!---->\n\n        <source class=\"we-artwork__source\"
+  srcset=\"https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/7f/82/6d/7f826db9-3d8f-7833-4706-5634b9c8eee6/mzl.btrmrtbw.jpg/157x0w.jpg
+  1x,https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/7f/82/6d/7f826db9-3d8f-7833-4706-5634b9c8eee6/mzl.btrmrtbw.jpg/314x0w.jpg
+  2x,https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/7f/82/6d/7f826db9-3d8f-7833-4706-5634b9c8eee6/mzl.btrmrtbw.jpg/471x0w.jpg
+  3x\" media=\"(min-width: 736px)\">\n<!---->\n\n        <source class=\"we-artwork__source\"
+  srcset=\"https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/7f/82/6d/7f826db9-3d8f-7833-4706-5634b9c8eee6/mzl.btrmrtbw.jpg/300x0w.jpg
+  1x,https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/7f/82/6d/7f826db9-3d8f-7833-4706-5634b9c8eee6/mzl.btrmrtbw.jpg/600x0w.jpg
+  2x,https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/7f/82/6d/7f826db9-3d8f-7833-4706-5634b9c8eee6/mzl.btrmrtbw.jpg/900x0w.jpg
+  3x\">\n        <img class=\"we-artwork__image ember209\" src=\"https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/7f/82/6d/7f826db9-3d8f-7833-4706-5634b9c8eee6/mzl.btrmrtbw.jpg/300x0w.jpg\"
+  style=\"background-color: #fffffb;\" alt=\"\" height=\"649\" width=\"300\">\n\n
+  \ <style>\n    .ember209, #ember209::before {\n          width: 300px;\n          height:
+  649px;\n        }\n        .ember209::before {\n          padding-top: 216.33333333333334%;\n
+  \       }\n@media (min-width: 736px) {\n          .ember209, #ember209::before {\n
+  \         width: 157px;\n          height: 339px;\n        }\n        .ember209::before
+  {\n          padding-top: 215.92356687898092%;\n        }\n        }\n@media (min-width:
+  1069px) {\n          .ember209, #ember209::before {\n          width: 230px;\n          height:
+  498px;\n        }\n        .ember209::before {\n          padding-top: 216.52173913043478%;\n
+  \       }\n        }\n  </style>\n</picture>\n        </li>\n        <li class=\"l-column
+  small-2 medium-3 large-3\">\n          <picture id=\"ember214\" class=\"we-artwork
+  ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone-5-8
+  we-artwork--screenshot-orientation-portrait\">\n        <source class=\"we-artwork__source\"
+  srcset=\"https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/61/b8/c5/61b8c517-36d5-72b0-229b-44d807bfc0b9/mzl.pxwngdfg.jpg/230x0w.jpg
+  1x,https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/61/b8/c5/61b8c517-36d5-72b0-229b-44d807bfc0b9/mzl.pxwngdfg.jpg/460x0w.jpg
+  2x,https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/61/b8/c5/61b8c517-36d5-72b0-229b-44d807bfc0b9/mzl.pxwngdfg.jpg/690x0w.jpg
+  3x\" media=\"(min-width: 1069px)\">\n<!---->\n\n        <source class=\"we-artwork__source\"
+  srcset=\"https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/61/b8/c5/61b8c517-36d5-72b0-229b-44d807bfc0b9/mzl.pxwngdfg.jpg/157x0w.jpg
+  1x,https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/61/b8/c5/61b8c517-36d5-72b0-229b-44d807bfc0b9/mzl.pxwngdfg.jpg/314x0w.jpg
+  2x,https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/61/b8/c5/61b8c517-36d5-72b0-229b-44d807bfc0b9/mzl.pxwngdfg.jpg/471x0w.jpg
+  3x\" media=\"(min-width: 736px)\">\n<!---->\n\n        <source class=\"we-artwork__source\"
+  srcset=\"https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/61/b8/c5/61b8c517-36d5-72b0-229b-44d807bfc0b9/mzl.pxwngdfg.jpg/300x0w.jpg
+  1x,https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/61/b8/c5/61b8c517-36d5-72b0-229b-44d807bfc0b9/mzl.pxwngdfg.jpg/600x0w.jpg
+  2x,https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/61/b8/c5/61b8c517-36d5-72b0-229b-44d807bfc0b9/mzl.pxwngdfg.jpg/900x0w.jpg
+  3x\">\n        <img class=\"we-artwork__image ember214\" src=\"https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/61/b8/c5/61b8c517-36d5-72b0-229b-44d807bfc0b9/mzl.pxwngdfg.jpg/300x0w.jpg\"
+  style=\"background-color: #ffffff;\" alt=\"\" height=\"649\" width=\"300\">\n\n
+  \ <style>\n    .ember214, #ember214::before {\n          width: 300px;\n          height:
+  649px;\n        }\n        .ember214::before {\n          padding-top: 216.33333333333334%;\n
+  \       }\n@media (min-width: 736px) {\n          .ember214, #ember214::before {\n
+  \         width: 157px;\n          height: 339px;\n        }\n        .ember214::before
+  {\n          padding-top: 215.92356687898092%;\n        }\n        }\n@media (min-width:
+  1069px) {\n          .ember214, #ember214::before {\n          width: 230px;\n          height:
+  498px;\n        }\n        .ember214::before {\n          padding-top: 216.52173913043478%;\n
+  \       }\n        }\n  </style>\n</picture>\n        </li>\n        <li class=\"l-column
+  small-2 medium-3 large-3\">\n          <picture id=\"ember219\" class=\"we-artwork
+  ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone-5-8
+  we-artwork--screenshot-orientation-portrait\">\n        <source class=\"we-artwork__source\"
+  srcset=\"https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/29/5e/fd/295efdcb-9de1-836c-ed0c-be879e383c72/mzl.tcuvchdh.jpg/230x0w.jpg
+  1x,https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/29/5e/fd/295efdcb-9de1-836c-ed0c-be879e383c72/mzl.tcuvchdh.jpg/460x0w.jpg
+  2x,https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/29/5e/fd/295efdcb-9de1-836c-ed0c-be879e383c72/mzl.tcuvchdh.jpg/690x0w.jpg
+  3x\" media=\"(min-width: 1069px)\">\n<!---->\n\n        <source class=\"we-artwork__source\"
+  srcset=\"https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/29/5e/fd/295efdcb-9de1-836c-ed0c-be879e383c72/mzl.tcuvchdh.jpg/157x0w.jpg
+  1x,https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/29/5e/fd/295efdcb-9de1-836c-ed0c-be879e383c72/mzl.tcuvchdh.jpg/314x0w.jpg
+  2x,https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/29/5e/fd/295efdcb-9de1-836c-ed0c-be879e383c72/mzl.tcuvchdh.jpg/471x0w.jpg
+  3x\" media=\"(min-width: 736px)\">\n<!---->\n\n        <source class=\"we-artwork__source\"
+  srcset=\"https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/29/5e/fd/295efdcb-9de1-836c-ed0c-be879e383c72/mzl.tcuvchdh.jpg/300x0w.jpg
+  1x,https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/29/5e/fd/295efdcb-9de1-836c-ed0c-be879e383c72/mzl.tcuvchdh.jpg/600x0w.jpg
+  2x,https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/29/5e/fd/295efdcb-9de1-836c-ed0c-be879e383c72/mzl.tcuvchdh.jpg/900x0w.jpg
+  3x\">\n        <img class=\"we-artwork__image ember219\" src=\"https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/29/5e/fd/295efdcb-9de1-836c-ed0c-be879e383c72/mzl.tcuvchdh.jpg/300x0w.jpg\"
+  style=\"background-color: #e9ebea;\" alt=\"\" height=\"649\" width=\"300\">\n\n
+  \ <style>\n    .ember219, #ember219::before {\n          width: 300px;\n          height:
+  649px;\n        }\n        .ember219::before {\n          padding-top: 216.33333333333334%;\n
+  \       }\n@media (min-width: 736px) {\n          .ember219, #ember219::before {\n
+  \         width: 157px;\n          height: 339px;\n        }\n        .ember219::before
+  {\n          padding-top: 215.92356687898092%;\n        }\n        }\n@media (min-width:
+  1069px) {\n          .ember219, #ember219::before {\n          width: 230px;\n          height:
+  498px;\n        }\n        .ember219::before {\n          padding-top: 216.52173913043478%;\n
+  \       }\n        }\n  </style>\n</picture>\n        </li>\n        <li class=\"l-column
+  small-2 medium-3 large-3\">\n          <picture id=\"ember224\" class=\"we-artwork
+  ember-view we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone-5-8
+  we-artwork--screenshot-orientation-portrait\">\n        <source class=\"we-artwork__source\"
+  srcset=\"https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/98/a1/5d/98a15d14-b2ec-b948-1a74-d63eba52748f/mzl.udxlcfzl.jpg/230x0w.jpg
+  1x,https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/98/a1/5d/98a15d14-b2ec-b948-1a74-d63eba52748f/mzl.udxlcfzl.jpg/460x0w.jpg
+  2x,https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/98/a1/5d/98a15d14-b2ec-b948-1a74-d63eba52748f/mzl.udxlcfzl.jpg/690x0w.jpg
+  3x\" media=\"(min-width: 1069px)\">\n<!---->\n\n        <source class=\"we-artwork__source\"
+  srcset=\"https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/98/a1/5d/98a15d14-b2ec-b948-1a74-d63eba52748f/mzl.udxlcfzl.jpg/157x0w.jpg
+  1x,https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/98/a1/5d/98a15d14-b2ec-b948-1a74-d63eba52748f/mzl.udxlcfzl.jpg/314x0w.jpg
+  2x,https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/98/a1/5d/98a15d14-b2ec-b948-1a74-d63eba52748f/mzl.udxlcfzl.jpg/471x0w.jpg
+  3x\" media=\"(min-width: 736px)\">\n<!---->\n\n        <source class=\"we-artwork__source\"
+  srcset=\"https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/98/a1/5d/98a15d14-b2ec-b948-1a74-d63eba52748f/mzl.udxlcfzl.jpg/300x0w.jpg
+  1x,https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/98/a1/5d/98a15d14-b2ec-b948-1a74-d63eba52748f/mzl.udxlcfzl.jpg/600x0w.jpg
+  2x,https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/98/a1/5d/98a15d14-b2ec-b948-1a74-d63eba52748f/mzl.udxlcfzl.jpg/900x0w.jpg
+  3x\">\n        <img class=\"we-artwork__image ember224\" src=\"https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/98/a1/5d/98a15d14-b2ec-b948-1a74-d63eba52748f/mzl.udxlcfzl.jpg/300x0w.jpg\"
+  style=\"background-color: #fffffd;\" alt=\"\" height=\"649\" width=\"300\">\n\n
+  \ <style>\n    .ember224, #ember224::before {\n          width: 300px;\n          height:
+  649px;\n        }\n        .ember224::before {\n          padding-top: 216.33333333333334%;\n
+  \       }\n@media (min-width: 736px) {\n          .ember224, #ember224::before {\n
+  \         width: 157px;\n          height: 339px;\n        }\n        .ember224::before
+  {\n          padding-top: 215.92356687898092%;\n        }\n        }\n@media (min-width:
+  1069px) {\n          .ember224, #ember224::before {\n          width: 230px;\n          height:
+  498px;\n        }\n        .ember224::before {\n          padding-top: 216.52173913043478%;\n
+  \       }\n        }\n  </style>\n</picture>\n        </li>\n  </ul>\n<!----></div>\n</div>\n
+  \ </section>\n\n\n  <section class=\"l-content-width section section--bordered\">\n
+  \   <div class=\"section__description\">\n      <h2 class=\"section__headline visuallyhidden\">Description</h2>\n
+  \     <div class=\"l-row\">\n        <div id=\"ember228\" class=\"we-truncate we-truncate--multi-line
+  we-truncate--interactive ember-view l-column small-12 medium-9 large-8\">    \n\n
+  \     <div data-clamp=\"\" id=\"ember230\" class=\"we-clamp ember-view\">    <p
+  dir=\"ltr\">Browse Recipes and Start Cooking directly from the Anova app! </p>\n
+  \   <br>\n    <p dir=\"ltr\">The Anova app is the companion app to the Anova Precision
+  Cooker WI-FI and Bluetooth models. Connect the app to your Anova Precision Cooker
+  to start, stop, and monitor your food. Receive notifications about what’s going
+  on with your food, and start your cook right from your phone. With both models you
+  can conveniently browse thousands of recipes and start the Precision Cooker with
+  a tap of a finger. We are constantly pushing to improve and listen to customer feedback,
+  so make sure you keep your eye out for updates! </p>\n    <br>\n    <p dir=\"ltr\">Don’t
+  have an Anova Precision Cooker? Join the #anovafoodnerd family and try sous vide
+  with the world’s best-loved precision cooking device: https://anovaculinary.com/anova-precision-cooker/</p>\n
+  \   <br>\n    <p dir=\"ltr\">Key App Features:</p>\n    <br>\n    <p dir=\"ltr\">•
+  Great recipes &amp; guides created by James Beard Award-winning chef, J. Kenji López-Alt</p>\n
+  \   <p dir=\"ltr\">• Visual Doneness photos guide you to the perfectly cooked meal</p>\n
+  \   <p dir=\"ltr\"> Receive push notifications about your cook</p>\n    <p dir=\"ltr\">•
+  Operate Anova remotely, within range. Extended remote cooking capabilities are available
+  exclusively for the Anova Precision Cooker WI-FI. This includes the ability to start,
+  stop, change temperature, set timer, and monitor your cooking status from anywhere.
+  See below for more information on connected cooking with the Anova Precision Cooker
+  WI-FI.</p>\n    <br>\n    <p dir=\"ltr\">With WI-FI, you can spend less time tied
+  to the kitchen and more time doing what you love, with the people you love. When
+  you upgrade to the Anova Precision Cooker WI-FI, you'll get even more flexibility
+  than ever, including:</p>\n    <br>\n    <p dir=\"ltr\">• Remote cooking. Start,
+  stop, and monitor your Precision Cooker WI-FI from anywhere, and come home to the
+  best meal ever. Whether you're heading to work, going on a run, or spending quality
+  time with friends and family, you can check in on the status of your food no matter
+  where life takes you.</p>\n    <p dir=\"ltr\">• Push Notifications. Automatically
+  receive notifications about how your meal is progressing. Anova keeps an eye on
+  what's cooking, so you don’t have to. </p>\n    <p dir=\"ltr\">• Voice Integration.
+  Anova makes it effortless to start cooking, even when your hands are full, with
+  the simple command of your voice using Alexa and Google Home integrations. </p>\n
+  \   <p dir=\"ltr\">• New Features. Anova is always getting better with new ways
+  to experience super-simple, pro-level cooking. Keep up with the latest updates to
+  the Anova Culinary App for good things coming your way!</p>\n    <br>\n    <p dir=\"ltr\">What
+  is Precision Cooking?</p>\n    <br>\n    <p dir=\"ltr\">Once limited to the world's
+  best restaurants, precision cooking (commonly referred to as sous vide) is now the
+  fastest growing kitchen appliance category. The Anova Precision Cooker represents
+  the next evolution of precision cooking technology, making it easy and affordable
+  for everyone to reap the benefits of this type of cooking. Precision cooking is
+  extremely easy. It usually involves these three simple steps:</p>\n    <br>\n    <p
+  dir=\"ltr\">1. Attach the Anova Precision Cooker to a pot and set time and temp
+  using the app or the device interface. Using the app, simply find what you're cooking
+  and hit \"start.\"</p>\n    <br>\n    <p dir=\"ltr\">2. Put food in a ziplock bag
+  and clip it to the side of the pot. The circulator moves water around the pot, ensuring
+  a consistent temperature throughout.</p>\n    <br>\n    <p dir=\"ltr\">3. Finish
+  with a quick sear or broil, or even throw it on the grill for a nice, crispy finish.</p>\n\n</div>\n\n
+  \ \n\n\n<!----></div>\n      </div>\n    </div>\n  </section>\n\n  <section class=\"l-content-width
+  section section--bordered whats-new\">\n    <div class=\"section__nav section__nav--small\">\n
+  \     <h2 class=\"whats-new__headline\">What’s New</h2>\n        <div id=\"ember261\"
+  class=\"ember-view version-history\">  <button class=\"we-modal__show link\" id=\"modal-trigger-ember261\"
+  data-ember-action=\"\" data-ember-action-262=\"262\">Version History</button>\n\n<!----></div>\n
+  \   </div>\n    <div class=\"l-row whats-new__content\">\n        <div class=\"l-column
+  small-12 medium-3 large-4 small-valign-top whats-new__latest\">\n          <div
+  class=\"l-row\">\n            <time data-test-we-datetime=\"\" datetime=\"Feb 28,
+  2019\" aria-label=\"February 28, 2019\" class=\"\">Feb 28, 2019</time>\n            <p
+  class=\"l-column small-6 medium-12 whats-new__latest__version\">Version 2.9.9</p>\n
+  \         </div>\n        </div>\n      <div class=\"l-column small-12 medium-9
+  large-8 small-valign-top\">\n        <div id=\"ember263\" class=\"we-truncate we-truncate--multi-line
+  we-truncate--interactive ember-view\">    \n\n      <div data-clamp=\"\" id=\"ember265\"
+  class=\"we-clamp ember-view\">    <p dir=\"ltr\">Anova Culinary iOS App v 2.9.9
+  – Release Notes</p>\n    <br>\n    <p dir=\"ltr\">- Fixed a crash affecting some
+  users</p>\n\n</div>\n\n  \n\n\n<!----></div>\n      </div>\n    </div>\n  </section>\n\n
+  \   <section class=\"l-content-width section section--bordered\">\n      <div class=\"section__nav\">\n
+  \       <h2 class=\"section__headline\">Ratings and Reviews</h2>\n      </div>\n
+  \       <div id=\"ember270\" class=\"we-customer-ratings lockup ember-view\"><div
+  class=\"l-row\">\n  <div class=\"we-customer-ratings__stats l-column small-4 medium-6
+  large-4\">\n    <div class=\"we-customer-ratings__averages\"><span class=\"we-customer-ratings__averages__display\">3.8</span>
+  out of 5</div>\n      <div class=\"we-customer-ratings__count small-hide medium-show\">3.7K
+  Ratings</div>\n  </div>\n  <div class=\" l-column small-8 medium-6 large-4\">\n
+  \   <figure class=\"we-star-bar-graph\">\n        <div class=\"we-star-bar-graph__row\">\n
+  \         <span class=\"we-star-bar-graph__stars we-star-bar-graph__stars--5\"></span>\n
+  \         <div class=\"we-star-bar-graph__bar\">\n            <div class=\"we-star-bar-graph__bar__foreground-bar\"
+  style=\"width: 49%;\"></div>\n          </div>\n        </div>\n        <div class=\"we-star-bar-graph__row\">\n
+  \         <span class=\"we-star-bar-graph__stars we-star-bar-graph__stars--4\"></span>\n
+  \         <div class=\"we-star-bar-graph__bar\">\n            <div class=\"we-star-bar-graph__bar__foreground-bar\"
+  style=\"width: 20%;\"></div>\n          </div>\n        </div>\n        <div class=\"we-star-bar-graph__row\">\n
+  \         <span class=\"we-star-bar-graph__stars we-star-bar-graph__stars--3\"></span>\n
+  \         <div class=\"we-star-bar-graph__bar\">\n            <div class=\"we-star-bar-graph__bar__foreground-bar\"
+  style=\"width: 7%;\"></div>\n          </div>\n        </div>\n        <div class=\"we-star-bar-graph__row\">\n
+  \         <span class=\"we-star-bar-graph__stars we-star-bar-graph__stars--2\"></span>\n
+  \         <div class=\"we-star-bar-graph__bar\">\n            <div class=\"we-star-bar-graph__bar__foreground-bar\"
+  style=\"width: 8%;\"></div>\n          </div>\n        </div>\n        <div class=\"we-star-bar-graph__row\">\n
+  \         <span class=\"we-star-bar-graph__stars \"></span>\n          <div class=\"we-star-bar-graph__bar\">\n
+  \           <div class=\"we-star-bar-graph__bar__foreground-bar\" style=\"width:
+  16%;\"></div>\n          </div>\n        </div>\n    </figure>\n      <h5 class=\"we-customer-ratings__count
+  medium-hide\">3.7K Ratings</h5>\n  </div>\n</div>\n</div>\n      <div class=\"l-row
+  l-row--peek\">\n              \n              <div id=\"ember278\" class=\"ember-view
+  small-valign-top l-column--equal-height l-column small-4 medium-6 large-4\"><div
+  id=\"ember279\" class=\"ember-view\"><!---->\n<!----></div>\n\n\n                <div
+  id=\"ember280\" class=\"we-customer-review lockup ember-view\"><figure aria-label=\"4
+  out of 5\" id=\"ember281\" class=\"we-star-rating ember-view we-customer-review__rating
+  we-star-rating--large\"><span class=\"we-star-rating-stars-outlines\">\n  <span
+  class=\"we-star-rating-stars we-star-rating-stars-4\"></span>\n</span>\n<!----></figure>\n\n<div
+  class=\"we-customer-review__header we-customer-review__header--user\">\n  <span
+  dir=\"ltr\" id=\"ember282\" class=\"we-truncate we-truncate--single-line ember-view
+  we-customer-review__user\">  1YzYnGy\n</span>\n\n  <span class=\"we-customer-review__separator\">,
+  </span>\n\n  <time data-test-customer-review-date=\"\" datetime=\"11/07/2018\" aria-label=\"November
+  7, 2018\" class=\"we-customer-review__date\">11/07/2018</time>\n</div>\n\n<h3 dir=\"ltr\"
+  id=\"ember283\" class=\"we-truncate we-truncate--single-line ember-view we-customer-review__title\">
+  \ Keeping it simple.\n</h3>\n\n  <div id=\"ember284\" class=\"we-truncate we-truncate--multi-line
+  we-truncate--interactive ember-view we-customer-review__body\">    \n\n      <div
+  data-clamp=\"\" id=\"ember286\" class=\"we-clamp ember-view\">    <p dir=\"ltr\">I’ve
+  been using Anova since Christmas, 2016. Setting up the app on my iPhone 6 went smoothly
+  with no issues. Upgraded to iPhone X for Christmas, 2017, and the transition was
+  seamless. Maintaining connectivity is an issue, but this is mainly caused by moving
+  the phone around from room to room. A WiFi booster would probably fix this issue.
+  Lack of convenience does nothing to diminish the fantastic results of this nearly-no-brains-required
+  food preparation.</p>\n    <p dir=\"ltr\">A professional chef told me never to fret
+  over setting/changing temperature to match the type of meat: set the temp to 130*F
+  for everything – steak, chicken, rack of lamb, corned beef round, stew meat, pork
+  chops, pork loin – all will cook to a perfect degree of tender juiciness. I adjust
+  time according to the thickness of the cut. A frozen NY steak, chicken breast, or
+  lamb rack takes 2 hours; remove from package, then wipe with olive oil, season or
+  re-season, and grill or sauté over med-high to high heat for 1-2 minutes per side
+  to brown. Perfect every time. A 3.5 lb pork  loin or beef roast takes 4 hours. A
+  real plus is that it’s hard to over-cook anything, even if you let it sit in the
+  bath for an extra hour or two!</p>\n\n</div>\n\n  \n\n\n<!----></div>\n<!----></div>\n
+  \             \n</div>\n          \n    \n              <div id=\"ember291\" class=\"ember-view
+  small-valign-top l-column--equal-height l-column small-4 medium-6 large-4\"><div
+  id=\"ember292\" class=\"ember-view\"><!---->\n<!----></div>\n\n\n                <div
+  id=\"ember293\" class=\"we-customer-review lockup ember-view\"><figure aria-label=\"1
+  out of 5\" id=\"ember294\" class=\"we-star-rating ember-view we-customer-review__rating
+  we-star-rating--large\"><span class=\"we-star-rating-stars-outlines\">\n  <span
+  class=\"we-star-rating-stars we-star-rating-stars-1\"></span>\n</span>\n<!----></figure>\n\n<div
+  class=\"we-customer-review__header we-customer-review__header--user\">\n  <span
+  dir=\"ltr\" id=\"ember295\" class=\"we-truncate we-truncate--single-line ember-view
+  we-customer-review__user\">  Ratcliff851\n</span>\n\n  <span class=\"we-customer-review__separator\">,
+  </span>\n\n  <time data-test-customer-review-date=\"\" datetime=\"07/28/2018\" aria-label=\"July
+  28, 2018\" class=\"we-customer-review__date\">07/28/2018</time>\n</div>\n\n<h3 dir=\"ltr\"
+  id=\"ember296\" class=\"we-truncate we-truncate--single-line ember-view we-customer-review__title\">
+  \ App needs work\n</h3>\n\n  <div id=\"ember297\" class=\"we-truncate we-truncate--multi-line
+  we-truncate--interactive ember-view we-customer-review__body\">    \n\n      <div
+  data-clamp=\"\" id=\"ember299\" class=\"we-clamp ember-view\">    <p dir=\"ltr\">The
+  hardware is great. I can’t begin to describe what a game changer sous vide cooking
+  is. If I had it to do over though, I’d buy a base model with no connectivity because
+  the app is a joke. First, the WiFi settings are ridiculous. After trying to connect
+  unsuccessfully many times, I went to the web. I found out that neither your WiFi
+  network name nor your password can be over 15 characters long. Their solution, I
+  kid you not, is to change your network name and password to be shorter (less secure)
+  than it is now. Also, there are many times where the app continues to tell me I
+  need to get within range of the cooker so it can connect. It’ll stick like this
+  with the app 3 inched away from the cooker. Better to just use the manual controls.
+  Beyond that, I don’t understand how hackish their developers must be to not be able
+  to get a simple timer right. It seemed to work on my first two cooks. After that,
+  the timer now starts during the warm up phase. So you end up having to manually
+  time everything anyway. And you have to listen for the cooker to hit the right temperature.
+  The convenience of “set it and forget it” is totally missed with the poor app functionality.</p>\n\n</div>\n\n
+  \ \n\n\n<!----></div>\n<!----></div>\n              \n</div>\n          \n\n      </div>\n
+  \       <div class=\"l-row l-row--margin-top medium-hide\">\n              \n<!---->
+  \         \n    \n<!---->          \n    \n<!---->          \n    \n<!---->          \n
+  \   \n<!---->          \n\n        </div>\n    </section>\n\n<!---->\n<!---->\n<section
+  class=\"l-content-width section section--bordered\">\n  <div class=\"l-row\">\n
+  \   <div class=\"l-column small-12\">\n      <h2 class=\"section__headline\">Information</h2>\n
+  \     <dl class=\"information-list information-list--app medium-columns\">\n        <div
+  class=\"information-list__item l-row\">\n          <dt class=\"information-list__item__term
+  medium-valign-top l-column medium-3 large-2\">Seller</dt>\n          <dd class=\"information-list__item__definition
+  l-column medium-9 large-6\">\n            Anova Culinary LLC\n          </dd>\n
+  \       </div>\n        <div class=\"information-list__item l-row\">\n          <dt
+  class=\"information-list__item__term medium-valign-top l-column medium-3 large-2\">Size</dt>\n
+  \         <dd class=\"information-list__item__definition l-column medium-9 large-6\"
+  aria-label=\"112.9 megabytes\">112.9 MB</dd>\n        </div>\n          <div class=\"information-list__item
+  l-row\">\n            <dt class=\"information-list__item__term medium-valign-top
+  l-column medium-3 large-2\">Category</dt>\n            <dd class=\"information-list__item__definition
+  l-column medium-9 large-6\">\n                <a href=\"https://itunes.apple.com/us/genre/id6023\"
+  class=\"link\">Food &amp; Drink</a>\n            </dd>\n          </div>\n        <div
+  class=\"information-list__item l-row\">\n          <dt class=\"information-list__item__term
+  medium-valign-top l-column medium-3 large-2\">Compatibility</dt>\n          <dd
+  id=\"ember306\" class=\"we-truncate we-truncate--multi-line we-truncate--interactive
+  ember-view information-list__item__definition l-column medium-9 large-6\">    \n\n
+  \     <div data-clamp=\"\" id=\"ember308\" class=\"we-clamp ember-view\">    <p
+  dir=\"ltr\">Requires iOS 10.0 or later. Compatible with iPhone, iPad, and iPod touch.</p>\n\n</div>\n\n
+  \ \n\n\n<!----></dd>\n        </div>\n<!---->        <div class=\"information-list__item
+  l-row\">\n          <dt class=\"information-list__item__term medium-valign-top l-column
+  medium-3 large-2\">Languages</dt>\n          <dd id=\"ember311\" class=\"information-list__item__definition
+  l-column medium-9 large-6 we-truncate we-truncate--multi-line we-truncate--interactive
+  ember-view\">    \n\n      <div data-clamp=\"\" id=\"ember313\" class=\"we-clamp
+  ember-view\">    <p dir=\"ltr\">English</p>\n\n</div>\n\n  \n\n\n<!----></dd>\n
+  \       </div>\n        <div class=\"information-list__item l-row\">\n          <dt
+  class=\"information-list__item__term medium-valign-top l-column medium-3 large-2\">Age
+  Rating</dt>\n          <dd class=\"information-list__item__definition l-column medium-9
+  large-6\">Rated 12+ for the following:</dd>\n        </div>\n            <div class=\"information-list__item
+  l-row\">\n              <dt class=\"information-list__item__term medium-valign-top
+  l-column medium-3 large-2\" aria-hidden=\"true\"></dt>\n              <dd class=\"information-list__item__definition
+  l-column medium-9 large-6\">Infrequent/Mild Alcohol, Tobacco, or Drug Use or References</dd>\n
+  \           </div>\n<!---->        <div class=\"information-list__item l-row\">\n
+  \         <dt class=\"information-list__item__term medium-valign-top l-column medium-3
+  large-2\">Copyright</dt>\n          <dd class=\"information-list__item__definition
+  l-column medium-9 large-6\">© 2019 Anova Applied Electronics, Inc.</dd>\n        </div>\n
+  \       <div class=\"information-list__item l-row\">\n          <dt class=\"information-list__item__term
+  medium-valign-top l-column medium-3 large-2\">Price</dt>\n          <dd class=\"information-list__item__definition
+  l-column medium-9 large-6\">Free</dd>\n        </div>\n<!---->\n      </dl>\n    </div>\n
+  \   <div class=\"l-column small-hide medium-show medium-9 medium-offset-3 large-10
+  large-offset-2\">\n      <ul class=\"inline-list inline-list--app-extensions\">\n
+  \         <li class=\"inline-list__item inline-list__item--margin-inline-end-large\">\n
+  \           <a class=\"link icon icon-after icon-external\" href=\"http://anovaculinary.com/\">Developer
+  Website</a>\n          </li>\n          <li class=\"inline-list__item inline-list__item--margin-inline-end-large\">\n
+  \           <a class=\"link icon icon-after icon-external\" href=\"http://support.anovaculinary.com\">App
+  Support</a>\n          </li>\n<!---->          <li class=\"inline-list__item inline-list__item--margin-inline-end-large\">\n
+  \           <a class=\"link icon icon-after icon-external\" href=\"https://anovaculinary.com/privacy/\">Privacy
+  Policy</a>\n          </li>\n      </ul>\n    </div>\n  </div>\n</section>\n\n<section
+  class=\"section section--link-list l-content-width medium-hide\">\n  <ul class=\"link-list
+  link-list--a\">\n      <li class=\"link-list__item link-list__item--a\">\n        <a
+  class=\"link icon icon-after icon-external\" href=\"http://anovaculinary.com/\">Developer
+  Website</a>\n      </li>\n      <li class=\"link-list__item link-list__item--a\">\n
+  \       <a class=\"link icon icon-after icon-external\" href=\"http://support.anovaculinary.com\">App
+  Support</a>\n      </li>\n<!---->      <li class=\"link-list__item link-list__item--a\">\n
+  \       <a class=\"link icon icon-after icon-external\" href=\"https://anovaculinary.com/privacy/\">Privacy
+  Policy</a>\n      </li>\n  </ul>\n</section>\n\n  <section class=\"l-content-width
+  section section--bordered\">\n    <div class=\"section__nav\">\n      <h2 class=\"section__headline\">Supports</h2>\n
+  \   </div>\n    <ul class=\"supports-list l-row\">\n        <li class=\"supports-list__item
+  l-column l-column--grid small-12 medium-6 large-4\">\n          <img src=\"https://web-experience.itunes.apple.com/assets/images/supports/supports-FamilySharing@2x-f58f31bc78fe9fe7be3565abccbecb34.png\"
+  class=\"supports-list__item__artwork\" alt=\"\">\n          <div class=\"supports-list__item__copy\">\n
+  \           <h3 dir=\"ltr\" id=\"ember317\" class=\"we-truncate we-truncate--single-line
+  ember-view supports-list__item__copy__heading\">  Family Sharing\n</h3>\n            <h4
+  id=\"ember318\" class=\"we-truncate we-truncate--multi-line we-truncate--interactive
+  ember-view supports-list__item__copy__description\">    \n\n      <div data-clamp=\"\"
+  id=\"ember320\" class=\"we-clamp ember-view\">    <p dir=\"ltr\">With Family Sharing
+  set up, up to six family members can use this app.</p>\n\n</div>\n\n  \n\n\n<!----></h4>\n
+  \         </div>\n        </li>\n    </ul>\n  </section>\n\n<!---->\n    <section
+  class=\"l-content-width section section--bordered\">\n      <div class=\"section__nav\">\n
+  \       <h2 class=\"section__headline\">\n          You May Also Like\n        </h2>\n
+  \       <a data-metrics-click=\"{&quot;actionType&quot;:&quot;navigate&quot;,&quot;targetType&quot;:&quot;button&quot;,&quot;targetId&quot;:&quot;SeeAllCustomersAlsoBoughtApps&quot;}\"
+  rel=\"nofollow\" data-we-link-to-exclude=\"\" href=\"/us/app/anova-culinary/id959638683?mt=8#see-all/customers-also-bought-apps\"
+  id=\"ember323\" class=\"link section__nav__see-all-link ember-view\">See All</a>\n
+  \     </div>\n\n      <div class=\"l-row l-row--peek\">\n            \n    \n          <a
+  href=\"https://itunes.apple.com/us/app/panna-video-recipes-classes/id567332338?mt=8\"
+  data-test-we-lockup-kind=\"iosSoftware\" id=\"ember327\" class=\"we-lockup targeted-link
+  l-column small-2 medium-3 large-2 ember-view\">    <picture dir=\"ltr\" id=\"ember328\"
+  class=\"we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon
+  we-artwork ember-view\">\n<!---->\n        <source class=\"we-artwork__source we-artwork__source--lazyload\"
+  srcset=\"https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/146x0w.jpg
+  1x,https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/292x0w.jpg
+  2x,https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/438x0w.jpg
+  3x\" data-srcset=\"https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/146x0w.jpg
+  1x,https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/292x0w.jpg
+  2x,https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/438x0w.jpg
+  3x\" media=\"(min-width: 1069px)\">\n<!---->\n\n<!---->\n        <source class=\"we-artwork__source
+  we-artwork__source--lazyload\" srcset=\"https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/157x0w.jpg
+  1x,https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/314x0w.jpg
+  2x,https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/471x0w.jpg
+  3x\" data-srcset=\"https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/157x0w.jpg
+  1x,https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/314x0w.jpg
+  2x,https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/471x0w.jpg
+  3x\" media=\"(min-width: 736px)\">\n<!---->\n\n<!---->\n        <source class=\"we-artwork__source
+  we-artwork__source--lazyload\" srcset=\"https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/320x0w.jpg
+  1x,https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/640x0w.jpg
+  2x,https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/960x0w.jpg
+  3x\" data-srcset=\"https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/320x0w.jpg
+  1x,https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/640x0w.jpg
+  2x,https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/960x0w.jpg
+  3x\">\n        <img class=\"we-artwork__image we-artwork__image--lazyload ember328\"
+  src=\"https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/320x0w.jpg\"
+  data-src=\"https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c9/b0/2c/c9b02cde-2690-f925-d08f-83c5082f7c4d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/320x0w.jpg\"
+  style=\"background-color: #bc380c;\" alt=\"\" height=\"320\" width=\"320\">\n\n
+  \ <style>\n    .ember328, #ember328::before {\n          width: 320px;\n          height:
+  320px;\n        }\n        .ember328::before {\n          padding-top: 100%;\n        }\n@media
+  (min-width: 736px) {\n          .ember328, #ember328::before {\n          width:
+  157px;\n          height: 157px;\n        }\n        .ember328::before {\n          padding-top:
+  100%;\n        }\n        }\n@media (min-width: 1069px) {\n          .ember328,
+  #ember328::before {\n          width: 146px;\n          height: 146px;\n        }\n
+  \       .ember328::before {\n          padding-top: 100%;\n        }\n        }\n
+  \ </style>\n</picture>\n\n<!---->\n<div class=\"we-lockup__copy\">\n    <div class=\"we-lockup__title
+  \" aria-label=\"Panna: Video Recipes &amp; Classes\">\n        <div dir=\"ltr\"
+  id=\"ember332\" class=\"we-truncate we-truncate--single-line ember-view targeted-link__target\">
+  \ Panna: Video Recipes &amp; Classes\n</div>\n    </div>\n\n      <div dir=\"ltr\"
+  id=\"ember333\" class=\"we-truncate we-truncate--single-line ember-view we-lockup__subtitle
+  targeted-link__target\">  Food &amp; Drink\n</div>\n<!----></div>\n</a>\n        \n\n
+  \   \n    \n          <a href=\"https://itunes.apple.com/us/app/joule-sous-vide-by-chefsteps/id970115018?mt=8\"
+  data-test-we-lockup-kind=\"iosSoftware\" id=\"ember335\" class=\"we-lockup targeted-link
+  l-column small-2 medium-3 large-2 ember-view\">    <picture dir=\"ltr\" id=\"ember336\"
+  class=\"we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon
+  we-artwork ember-view\">\n<!---->\n        <source class=\"we-artwork__source we-artwork__source--lazyload\"
+  srcset=\"https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/146x0w.jpg
+  1x,https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/292x0w.jpg
+  2x,https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/438x0w.jpg
+  3x\" data-srcset=\"https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/146x0w.jpg
+  1x,https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/292x0w.jpg
+  2x,https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/438x0w.jpg
+  3x\" media=\"(min-width: 1069px)\">\n<!---->\n\n<!---->\n        <source class=\"we-artwork__source
+  we-artwork__source--lazyload\" srcset=\"https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/157x0w.jpg
+  1x,https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/314x0w.jpg
+  2x,https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/471x0w.jpg
+  3x\" data-srcset=\"https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/157x0w.jpg
+  1x,https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/314x0w.jpg
+  2x,https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/471x0w.jpg
+  3x\" media=\"(min-width: 736px)\">\n<!---->\n\n<!---->\n        <source class=\"we-artwork__source
+  we-artwork__source--lazyload\" srcset=\"https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/320x0w.jpg
+  1x,https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/640x0w.jpg
+  2x,https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/960x0w.jpg
+  3x\" data-srcset=\"https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/320x0w.jpg
+  1x,https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/640x0w.jpg
+  2x,https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/960x0w.jpg
+  3x\">\n        <img class=\"we-artwork__image we-artwork__image--lazyload ember336\"
+  src=\"https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/320x0w.jpg\"
+  data-src=\"https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/04/4d/fe/044dfed0-bf77-2cc1-7b30-9bf9499aff3d/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/320x0w.jpg\"
+  style=\"background-color: #ff664d;\" alt=\"\" height=\"320\" width=\"320\">\n\n
+  \ <style>\n    .ember336, #ember336::before {\n          width: 320px;\n          height:
+  320px;\n        }\n        .ember336::before {\n          padding-top: 100%;\n        }\n@media
+  (min-width: 736px) {\n          .ember336, #ember336::before {\n          width:
+  157px;\n          height: 157px;\n        }\n        .ember336::before {\n          padding-top:
+  100%;\n        }\n        }\n@media (min-width: 1069px) {\n          .ember336,
+  #ember336::before {\n          width: 146px;\n          height: 146px;\n        }\n
+  \       .ember336::before {\n          padding-top: 100%;\n        }\n        }\n
+  \ </style>\n</picture>\n\n<!---->\n<div class=\"we-lockup__copy\">\n    <div class=\"we-lockup__title
+  \" aria-label=\"Joule: Sous Vide by ChefSteps\">\n        <div dir=\"ltr\" id=\"ember340\"
+  class=\"we-truncate we-truncate--single-line ember-view targeted-link__target\">
+  \ Joule: Sous Vide by ChefSteps\n</div>\n    </div>\n\n      <div dir=\"ltr\" id=\"ember341\"
+  class=\"we-truncate we-truncate--single-line ember-view we-lockup__subtitle targeted-link__target\">
+  \ Food &amp; Drink\n</div>\n<!----></div>\n</a>\n        \n\n    \n    \n          <a
+  href=\"https://itunes.apple.com/us/app/nyt-cooking/id911422904?mt=8\" data-test-we-lockup-kind=\"iosSoftware\"
+  id=\"ember343\" class=\"we-lockup targeted-link l-column small-2 medium-3 large-2
+  ember-view\">    <picture dir=\"ltr\" id=\"ember344\" class=\"we-lockup__artwork
+  we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view\">\n<!---->\n
+  \       <source class=\"we-artwork__source we-artwork__source--lazyload\" srcset=\"https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/146x0w.jpg
+  1x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/292x0w.jpg
+  2x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/438x0w.jpg
+  3x\" data-srcset=\"https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/146x0w.jpg
+  1x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/292x0w.jpg
+  2x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/438x0w.jpg
+  3x\" media=\"(min-width: 1069px)\">\n<!---->\n\n<!---->\n        <source class=\"we-artwork__source
+  we-artwork__source--lazyload\" srcset=\"https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/157x0w.jpg
+  1x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/314x0w.jpg
+  2x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/471x0w.jpg
+  3x\" data-srcset=\"https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/157x0w.jpg
+  1x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/314x0w.jpg
+  2x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/471x0w.jpg
+  3x\" media=\"(min-width: 736px)\">\n<!---->\n\n<!---->\n        <source class=\"we-artwork__source
+  we-artwork__source--lazyload\" srcset=\"https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/320x0w.jpg
+  1x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/640x0w.jpg
+  2x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/960x0w.jpg
+  3x\" data-srcset=\"https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/320x0w.jpg
+  1x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/640x0w.jpg
+  2x,https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/960x0w.jpg
+  3x\">\n        <img class=\"we-artwork__image we-artwork__image--lazyload ember344\"
+  src=\"https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/320x0w.jpg\"
+  data-src=\"https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/2b/98/25/2b982522-131e-d73e-c10c-66f82e0902d6/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/320x0w.jpg\"
+  style=\"background-color: #b5230f;\" alt=\"\" height=\"320\" width=\"320\">\n\n
+  \ <style>\n    .ember344, #ember344::before {\n          width: 320px;\n          height:
+  320px;\n        }\n        .ember344::before {\n          padding-top: 100%;\n        }\n@media
+  (min-width: 736px) {\n          .ember344, #ember344::before {\n          width:
+  157px;\n          height: 157px;\n        }\n        .ember344::before {\n          padding-top:
+  100%;\n        }\n        }\n@media (min-width: 1069px) {\n          .ember344,
+  #ember344::before {\n          width: 146px;\n          height: 146px;\n        }\n
+  \       .ember344::before {\n          padding-top: 100%;\n        }\n        }\n
+  \ </style>\n</picture>\n\n<!---->\n<div class=\"we-lockup__copy\">\n    <div class=\"we-lockup__title
+  \" aria-label=\"NYT Cooking\">\n        <div dir=\"ltr\" id=\"ember348\" class=\"we-truncate
+  we-truncate--single-line ember-view targeted-link__target\">  NYT Cooking\n</div>\n
+  \   </div>\n\n      <div dir=\"ltr\" id=\"ember349\" class=\"we-truncate we-truncate--single-line
+  ember-view we-lockup__subtitle targeted-link__target\">  Food &amp; Drink\n</div>\n<!----></div>\n</a>\n
+  \       \n\n    \n    \n          <a href=\"https://itunes.apple.com/us/app/weber-igrill/id400796680?mt=8\"
+  data-test-we-lockup-kind=\"iosSoftware\" id=\"ember351\" class=\"we-lockup targeted-link
+  l-column small-2 medium-3 large-2 ember-view\">    <picture dir=\"ltr\" id=\"ember352\"
+  class=\"we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon
+  we-artwork ember-view\">\n<!---->\n        <source class=\"we-artwork__source we-artwork__source--lazyload\"
+  srcset=\"https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/146x0w.jpg
+  1x,https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/292x0w.jpg
+  2x,https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/438x0w.jpg
+  3x\" data-srcset=\"https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/146x0w.jpg
+  1x,https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/292x0w.jpg
+  2x,https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/438x0w.jpg
+  3x\" media=\"(min-width: 1069px)\">\n<!---->\n\n<!---->\n        <source class=\"we-artwork__source
+  we-artwork__source--lazyload\" srcset=\"https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/157x0w.jpg
+  1x,https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/314x0w.jpg
+  2x,https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/471x0w.jpg
+  3x\" data-srcset=\"https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/157x0w.jpg
+  1x,https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/314x0w.jpg
+  2x,https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/471x0w.jpg
+  3x\" media=\"(min-width: 736px)\">\n<!---->\n\n<!---->\n        <source class=\"we-artwork__source
+  we-artwork__source--lazyload\" srcset=\"https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/320x0w.jpg
+  1x,https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/640x0w.jpg
+  2x,https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/960x0w.jpg
+  3x\" data-srcset=\"https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/320x0w.jpg
+  1x,https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/640x0w.jpg
+  2x,https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/960x0w.jpg
+  3x\">\n        <img class=\"we-artwork__image we-artwork__image--lazyload ember352\"
+  src=\"https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/320x0w.jpg\"
+  data-src=\"https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/fe/7f/de/fe7fde4d-9ff1-e0d5-f0b7-4d92dc3763dc/AppIcon-prod-1x_U007emarketing-85-220-0-8.png/320x0w.jpg\"
+  style=\"background-color: #191919;\" alt=\"\" height=\"320\" width=\"320\">\n\n
+  \ <style>\n    .ember352, #ember352::before {\n          width: 320px;\n          height:
+  320px;\n        }\n        .ember352::before {\n          padding-top: 100%;\n        }\n@media
+  (min-width: 736px) {\n          .ember352, #ember352::before {\n          width:
+  157px;\n          height: 157px;\n        }\n        .ember352::before {\n          padding-top:
+  100%;\n        }\n        }\n@media (min-width: 1069px) {\n          .ember352,
+  #ember352::before {\n          width: 146px;\n          height: 146px;\n        }\n
+  \       .ember352::before {\n          padding-top: 100%;\n        }\n        }\n
+  \ </style>\n</picture>\n\n<!---->\n<div class=\"we-lockup__copy\">\n    <div class=\"we-lockup__title
+  \" aria-label=\"Weber® iGrill®\">\n        <div dir=\"ltr\" id=\"ember356\" class=\"we-truncate
+  we-truncate--single-line ember-view targeted-link__target\">  Weber® iGrill®\n</div>\n
+  \   </div>\n\n      <div dir=\"ltr\" id=\"ember357\" class=\"we-truncate we-truncate--single-line
+  ember-view we-lockup__subtitle targeted-link__target\">  Food &amp; Drink\n</div>\n<!----></div>\n</a>\n
+  \       \n\n\n\n      </div>\n    </section>\n</div>\n\n\n<!----></div>\n</div></div></div></div>\n\n
+  \ <!---->\n\n  <!---->\n\n  <!---->\n\n</main>\n</div></div>\n    <div id=\"modal-container\"></div>\n
+  \   <script src=\"https://web-experience.itunes.apple.com/assets/vendor-40611e8a41e95b26a14efd7ad96e10ce.js\"></script><div
+  id=\"ac-gn-viewport-emitter\"> </div>\n    <script src=\"https://web-experience.itunes.apple.com/assets/web-experience-app-0ec8aff927f0bb5b597576cda68e3edf.js\"></script>\n
+  \   <script src=\"https://js-cdn.music.apple.com/-amp/v1/musickit.js\"></script>\n\n
+  \   <div id=\"ember-basic-dropdown-wormhole\"></div>\n  \n\n<footer id=\"ac-globalfooter\"
+  class=\"no-js\" role=\"contentinfo\" lang=\"en-US\" dir=\"ltr\"><div class=\"ac-gf-content\"><section
+  class=\"ac-gf-footer\">\n\t<div class=\"ac-gf-footer-shop\" x-ms-format-detection=\"none\">\n\t\tMore
+  ways to shop: Visit an <a href=\"//www.apple.com/retail/\">Apple Store</a>, <span
+  class=\"nowrap\">call 1-800-MY-APPLE, or <a href=\"https://locate.apple.com/\">find
+  a reseller</a></span>.\n\t</div>\n\t<div class=\"ac-gf-footer-locale\">\n\t\t<a
+  class=\"ac-gf-footer-locale-link\" href=\"//www.apple.com/choose-country-region/\"
+  title=\"Choose your country or region\" aria-label=\"Choose your country or region\"><span
+  class=\"ac-gf-footer-locale-flag\" data-hires=\"false\"></span>Choose your country
+  or region</a>\n\t</div>\n\t<div class=\"ac-gf-footer-legal\">\n\t\t<div class=\"ac-gf-footer-legal-copyright\">Copyright
+  © 2019 Apple Inc. All rights reserved.</div>\n\t\t<div class=\"ac-gf-footer-legal-links\">\n\t\t\t<a
+  class=\"ac-gf-footer-legal-link\" href=\"//www.apple.com/privacy/privacy-policy/\">Privacy
+  Policy</a>\n\t\t\t<a class=\"ac-gf-footer-legal-link\" href=\"//www.apple.com/legal/internet-services/terms/site.html\">Terms
+  of Use</a>\n\t\t\t<a class=\"ac-gf-footer-legal-link\" href=\"//www.apple.com/us/shop/goto/help/sales_refunds\">Sales
+  and Refunds</a>\n\t\t\t<a class=\"ac-gf-footer-legal-link\" href=\"//www.apple.com/legal/\">Legal</a>\n\t\t\t<a
+  class=\"ac-gf-footer-legal-link\" href=\"//www.apple.com/sitemap/\">Site Map</a>\n\t\t</div>\n\t</div>\n</section>\n</div></footer><script
+  type=\"text/javascript\" src=\"https://web-experience.itunes.apple.com/global-elements/1910.1.0/en_US/ac-global-nav.c7103d404f0e331bb4a21cc5c10991c5.js\"
+  data-global-elements-nav-script=\"\" async=\"\"></script><script type=\"text/javascript\"
+  src=\"https://web-experience.itunes.apple.com/global-elements/1910.1.0/en_US/ac-global-footer.d87aa5188a9a04c462d9d7452edb1b20.js\"
+  data-global-elements-footer-script=\"\" async=\"\"></script></body></html>"

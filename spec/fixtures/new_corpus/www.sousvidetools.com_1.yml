@@ -1,0 +1,941 @@
+---
+:url: https://www.sousvidetools.com/shop-home
+:body: "<!DOCTYPE html><html lang=\"en\" id=\"top\" class=\"js no-touch localstorage\"
+  style=\"\"><!--<![endif]--><head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;
+  charset=utf-8\"><script async=\"\" src=\"//cdn.decibelinsight.net/i/21802/di.js\"></script><script
+  type=\"text/javascript\" async=\"\" src=\"https://www.googlecommerce.com/trustedstores/api/js\"></script><script
+  src=\"//bat.bing.com/bat.js\" async=\"\"></script><script async=\"\" src=\"//www.google-analytics.com/analytics.js\"></script><script
+  async=\"\" src=\"//connect.facebook.net/en_US/fbevents.js\"></script><script type=\"text/javascript\">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function
+  r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return
+  r(o||n)},o,o.exports)}return n[t].exports}if(\"function\"==typeof __nr_require)return
+  __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function
+  r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void
+  0:this}}var i=e(\"handle\"),a=e(3),u=e(4),f=e(\"ee\").get(\"tracer\"),c=e(\"loader\"),s=NREUM;\"undefined\"==typeof
+  window.newrelic&&(newrelic=s);var p=[\"setPageViewName\",\"setCustomAttribute\",\"setErrorHandler\",\"finished\",\"addToTrace\",\"inlineHit\",\"addRelease\"],d=\"api-\",l=d+\"ixn-\";a(p,function(e,n){s[n]=o(d+n,!0,\"api\")}),s.addPageAction=o(d+\"addPageAction\",!0),s.setCurrentRouteName=o(d+\"routeName\",!0),n.exports=newrelic,s.interaction=function(){return(new
+  r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o=\"function\"==typeof
+  n;return i(l+\"tracer\",[c.now(),e,t],r),function(){if(f.emit((o?\"\":\"no-\")+\"fn-start\",[c.now(),r,o],t),o)try{return
+  n.apply(this,arguments)}catch(e){throw f.emit(\"fn-err\",[arguments,this,e],t),e}finally{f.emit(\"fn-end\",[c.now()],t)}}}};a(\"actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get\".split(\",\"),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){\"string\"==typeof
+  e&&(e=new Error(e)),i(\"err\",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function
+  r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split(\".\"),r=n.split(\".\"),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var
+  o=null,i=null,a=/Version\\/(\\S+)\\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf(\"Chrome\")===-1&&u.indexOf(\"Chromium\")===-1&&(o=\"Safari\",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function
+  r(e,n){var t=[],r=\"\",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return
+  t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function
+  r(e,n,t){n||(n=0),\"undefined\"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return
+  i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:\"undefined\"!=typeof window.performance&&window.performance.timing&&\"undefined\"!=typeof
+  window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function
+  o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var
+  a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function
+  l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function
+  v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||\"feature\",y[t]=n,n
+  in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return
+  b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var
+  u=\"nr@context\",f=e(\"gos\"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function
+  r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return
+  Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return
+  e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function
+  r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e(\"ee\").get(\"handle\");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function
+  r(e){var n=typeof e;return!e||\"object\"!==n&&\"function\"!==n?-1:e===window?0:a(e,i,function(){return
+  o++})}var o=1,i=\"nr@id\",a=e(\"gos\");n.exports=r},{}],loader:[function(e,n,t){function
+  r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName(\"script\")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return
+  s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f(\"mark\",[\"onload\",a()+x.offset],null,\"api\");var
+  t=l.createElement(\"script\");t.src=\"https://\"+e.agent,n.parentNode.insertBefore(t,n)}}function
+  o(){\"complete\"===l.readyState&&i()}function i(){f(\"mark\",[\"domContent\",a()+x.offset],null,\"api\")}function
+  a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new
+  Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e(\"handle\"),c=e(3),s=e(\"ee\"),p=e(2),d=window,l=d.document,m=\"addEventListener\",v=\"attachEvent\",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var
+  h=\"\"+location,y={beacon:\"bam.nr-data.net\",errorBeacon:\"bam.nr-data.net\",agent:\"js-agent.newrelic.com/nr-1118.min.js\"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m](\"DOMContentLoaded\",i,!1),d[m](\"load\",r,!1)):(l[v](\"onreadystatechange\",o),d[v](\"onload\",r)),f(\"mark\",[\"firstbyte\",u],null,\"api\");var
+  E=0,O=e(5)},{}]},{},[\"loader\"]);</script>\n<title>Sous Vide Equipment For The
+  Home Cook | Buy Online  | sousvidetools.com  | sousvidetools.com</title>\n<meta
+  name=\"description\" content=\"Cook tender, flavour packed food consistently at
+  home with our range of affordable Sous Vide equipment. Visit us now for a simple
+  way to cook like an expert!\">\n<meta name=\"keywords\" content=\"Sous Vide for
+  Home, home sous vide equipment, cooking sous vide at home, sousvide supreme, polyscience,
+  sousvide supreme demi, sousvide supreme svs-10ls, food vacuum sealer,\">\n<meta
+  name=\"robots\" content=\"INDEX,FOLLOW\">\n\n<script type=\"application/ld+json\">\n{\n
+  \ \"@context\": \"http://schema.org\",\n  \"@type\": \"Organization\",\n  \"address\":
+  {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Lancaster, England\",\n
+  \   \"postalCode\": \"LA2 9JX\",\n    \"streetAddress\": \"Central Barn, Claughton
+  Business Park, Hornby Road, Claughton\"\n  },\n  \"email\": \"enquiries@sousvidetools.com\",\n
+  \ \"name\": \"Sous Vide Tools\",\n  \"telephone\":\"0800 678 5001\",\n  \"legalName\":\"Gastronomy
+  Plus Ltd\",\n  \"logo\":\"https://www.sousvidetools.com/skin/frontend/_newsous/default/images/logo.jpg\",\n
+  \ \"vatID\":\"116 6238 25\",\n  \"url\":\"https://www.sousvidetools.com\"\n}\n</script>\n\n<!--
+  HREFLANG META -->\n\n\n<!-- META -->\n\n<link rel=\"alternate\" href=\"https://www.sousvidetools.de/shop-home\"
+  hreflang=\"de-de\">\n<link rel=\"alternate\" href=\"https://www.sousvide.ie/shop-home\"
+  hreflang=\"en-ie\">\n<link rel=\"alternate\" href=\"https://us.sousvidetools.com/shop-home\"
+  hreflang=\"en-us\">\n\n<!-- STARTHeadContainer -->\n\n<link rel=\"icon\" href=\"https://www.sousvidetools.com/media/favicon/default/favicon.ico\"
+  type=\"image/x-icon\">\n<link rel=\"shortcut icon\" href=\"https://www.sousvidetools.com/media/favicon/default/favicon.ico\"
+  type=\"image/x-icon\">\n<!--[if lt IE 7]>\n<script type=\"text/javascript\">\n//<![CDATA[\n
+  \   var BLANK_URL = 'https://www.sousvidetools.com/js/blank.html';\n    var BLANK_IMG
+  = 'https://www.sousvidetools.com/js/spacer.gif';\n//]]>\n</script>\n<![endif]-->\n<link
+  rel=\"stylesheet\" type=\"text/css\" href=\"https://www.sousvidetools.com/media/css_secure/782c27ebd151f0bc4fddbd0de86ac473.css\"
+  media=\"all\">\n<script type=\"text/javascript\" src=\"https://www.sousvidetools.com/media/js/44ed7e4b019ad6f833c51b575162b9cb.js\"></script>\n<link
+  rel=\"stylesheet\" href=\"//fonts.googleapis.com/css?family=Oswald:400,700,300\">\n<link
+  rel=\"stylesheet\" href=\"//fonts.googleapis.com/css?family=Lato:300,400,700\">\n<link
+  href=\"https://www.sousvidetools.com/rss/catalog/new/store_id/1/\" title=\"New Products\"
+  rel=\"alternate\" type=\"application/rss+xml\">\n<link href=\"https://www.sousvidetools.com/rss/catalog/special/store_id/1/cid/0/\"
+  title=\"Special Products\" rel=\"alternate\" type=\"application/rss+xml\">\n<link
+  href=\"https://www.sousvidetools.com/rss/catalog/salesrule/store_id/1/cid/0/\" title=\"Vouchers/Discounts\"
+  rel=\"alternate\" type=\"application/rss+xml\">\n<link href=\"https://www.sousvidetools.com/blog/rss/index/store_id/1/\"
+  title=\"Blog\" rel=\"alternate\" type=\"application/rss+xml\">\n<link rel=\"canonical\"
+  href=\"https://www.sousvidetools.com/shop-home\">\n<!--[if  (lte IE 8) & (!IEMobile)]>\n<link
+  rel=\"stylesheet\" type=\"text/css\" href=\"https://www.sousvidetools.com/media/css_secure/8ee21c7434aec46e9c5604438d5d7be8.css\"
+  media=\"all\" />\n<![endif]-->\n<!--[if (gte IE 9) | (IEMobile)]><!-->\n<link rel=\"stylesheet\"
+  type=\"text/css\" href=\"https://www.sousvidetools.com/media/css_secure/38ddb7fed7a0340045a3d458814c4200.css\"
+  media=\"all\">\n<!--<![endif]-->\n<!--[if IE 7]>\n<link rel=\"stylesheet\" type=\"text/css\"
+  href=\"https://www.sousvidetools.com/media/css_secure/89657a53d86cc31dce6f7a5e0e79b677.css\"
+  media=\"all\" />\n<![endif]-->\n\n<script type=\"text/javascript\">\n//<![CDATA[\nMage.Cookies.path
+  \    = '/';\nMage.Cookies.domain   = '.sousvidetools.com';\n//]]>\n</script>\n<meta
+  name=\"viewport\" content=\"initial-scale=1.0, width=device-width\">\n\n<script
+  type=\"text/javascript\">\n//<![CDATA[\noptionalZipCountries = [\"BH\",\"DK\",\"FR\",\"DE\",\"GI\",\"GG\",\"HK\",\"HU\",\"IE\",\"IM\",\"IT\",\"JE\",\"NL\",\"NO\",\"PT\",\"RO\",\"RU\",\"ES\",\"SE\",\"CH\",\"GB\"];\n//]]>\n</script>\n<!--
+  Facebook Ads Extension for Magento -->\n<!-- Facebook Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;\nn.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,\ndocument,'script','//connect.facebook.net/en_US/fbevents.js');\nfbq('init',
+  '1820457888266528', {}, {agent: 'exmagento-1.9.0.1-2.1.20' });\nfbq('track', 'PageView',
+  {\n  source: 'magento',\n  version: \"1.9.0.1\",\n  pluginVersion: \"2.1.20\"\n});\n</script>\n<noscript><img
+  height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=1820457888266528&ev=PageView&noscript=1&cd[source]=magento&cd[version]=1.9.0.1&cd[pluginVersion]=2.1.20&a=exmagento-1.9.0.1-2.1.20\"\n/></noscript>\n<!--
+  End Facebook Pixel Code -->\n        <!-- Google Analytics -->\n    <script>\n        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+  \           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+  \           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+  \       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n
+  \       ga('create', 'UA-23710605-1','auto');\n        \n                        ga('send',
+  'pageview', '/shop-home');\n        \n    </script>\n        <!-- End Google Analytics
+  -->\n<script type=\"text/javascript\">//<![CDATA[\n        var Translator = new
+  Translate({\"Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.\":\"Please
+  enter a valid phone number. For example 01234 567890,  (123) 456-7890 or 123-456-7890.\",\"Please
+  enter a valid email address. For example johndoe@domain.com.\":\"Please enter a
+  valid email address. For example johndoe@example.com.\",\"Please enter a valid zip
+  code. For example 90602 or 90602-1234.\":\"Please enter a valid postcode or zip.
+  For example AB1 1AB, 90602 or 90602-1234.\",\"Please enter a valid zip code.\":\"Please
+  enter a valid postcode or zip.\",\"Please enter a valid $ amount. For example $100.00.\":\"Please
+  enter a valid \\u00a3 amount. For example \\u00a3100.00.\",\"Please select State\\/Province.\":\"Please
+  select County\\/State.\"});\n        //]]></script><meta name=\"msvalidate.01\"
+  content=\"23839F7AD3B2348306CEC5BFEC82411E\">\n<script>(function(w,d,t,r,u){var
+  f,n,i;w[u]=w[u]||[],f=function(){var o={ti:\"5117498\"};o.q=w[u],w[u]=new UET(o),w[u].push(\"pageLoad\")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var
+  s=this.readyState;s&&s!==\"loaded\"&&s!==\"complete\"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,\"script\",\"//bat.bing.com/bat.js\",\"uetq\");</script><noscript><img
+  src=\"//bat.bing.com/action/0?ti=5117498&Ver=2\" height=\"0\" width=\"0\" style=\"display:none;
+  visibility: hidden;\" /></noscript>\n<meta name=\"ahrefs-site-verification\" content=\"ecf867dc24ee2bafc5dbb8b29d31d8cd2778ffdb5b725825f46c483346db462b\">\n\n<!--
+  Hotjar Tracking Code for sousvidetools.com -->\n<script>\n    (function(h,o,t,j,a,r){\n
+  \       h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\n        h._hjSettings={hjid:1096853,hjsv:6};\n
+  \       a=o.getElementsByTagName('head')[0];\n        r=o.createElement('script');r.async=1;\n
+  \       r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\n        a.appendChild(r);\n
+  \   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\n</script><script
+  async=\"\" src=\"https://static.hotjar.com/c/hotjar-1096853.js?sv=6\"></script>\n<!--
+  ENDHeadContainer -->\n\n<!-- BEGIN: Google Certified Shops -->\n<script type=\"text/javascript\">\n
+  var gts = gts || [];\n\n  gts.push([\"id\", \"542954\"]);\n  gts.push([\"badge_position\",
+  \"BOTTOM_RIGHT\"]);\n  gts.push([\"locale\", \"en_GB\"]);\n  gts.push([\"google_base_offer_id\",
+  \"100121194\"]);\n  gts.push([\"google_base_subaccount_id\", \"8816492\"]);\n  gts.push([\"google_base_country\",
+  \"GB\"]);\n  gts.push([\"google_base_language\", \"en\"]);\n\n  (function() {\n
+  \   var gts = document.createElement(\"script\");\n    gts.type = \"text/javascript\";\n
+  \   gts.async = true;\n    gts.src = \"https://www.googlecommerce.com/trustedstores/api/js\";\n
+  \   var s = document.getElementsByTagName(\"script\")[0];\n    s.parentNode.insertBefore(gts,
+  s);\n  })();\n</script>\n<!-- END: Google Certified Shops -->\n\n<!-- Decibel Insight
+  - www.sousvidetools.com -->\n<script type=\"text/javascript\">\n// <![CDATA[\n                (function(d,e,c,i,b,el,it)
+  {\n                                d._da_=d._da_||[];_da_.oldErr=d.onerror;_da_.err=[];\n
+  \                               d.onerror=function(){_da_.err.push(arguments);_da_.oldErr&&_da_.oldErr.apply(d,Array.prototype.slice.call(arguments));};\n
+  \                               d.DecibelInsight=b;d[b]=d[b]||function(){(d[b].q=d[b].q||[]).push(arguments);};\n
+  \                               el=e.createElement(c),it=e.getElementsByTagName(c)[0];el.async=1;el.src=i;it.parentNode.insertBefore(el,it);\n
+  \               })(window,document,'script','//cdn.decibelinsight.net/i/21802/di.js','decibelInsight');\n//
+  ]]>\n</script>\n\n<style type=\"text/css\">.fancybox-margin{margin-right:0px;}</style></head>\n<body
+  class=\" catalog-category-view categorypath-shop-home category-shop-home\" style=\"\">\n<div
+  class=\"wrapper\">\n        <noscript>\n        <div class=\"global-site-notice
+  noscript\">\n            <div class=\"notice-inner\">\n                <p>\n                    <strong>JavaScript
+  seems to be disabled in your browser.</strong><br />\n                    You must
+  have JavaScript enabled in your browser to utilize the functionality of this website.
+  \               </p>\n            </div>\n        </div>\n    </noscript>\n    \n
+  \   <div class=\"page\">\n        \n<div class=\"header-language-background\">\n
+  \   <div class=\"header-language-container\">\n\n        <div class=\"topmenu\">\n
+  \           <ul>\n                <li><a href=\"https://www.sousvidetools.com/delivery\">WE
+  SHIP GLOBALLY</a></li>\n                <li><a href=\"mailto:enquiries@sousvidetools.com\">EMAIL
+  US</a></li>\n            </ul>\n        </div>\n\n        <div class=\"currency-switcher\">\n
+  \   <label for=\"select-currency\">Your Currency:</label>\n    <select id=\"select-currency\"
+  name=\"currency\" title=\"Your Currency\" onchange=\"setLocation(this.value)\">\n
+  \               <option value=\"https://www.sousvidetools.com/directory/currency/switch/currency/GBP/uenc/aHR0cHM6Ly93d3cuc291c3ZpZGV0b29scy5jb20vc2hvcC1ob21l/\"
+  selected=\"selected\">\n            GBP - £        </option>\n            <option
+  value=\"https://www.sousvidetools.com/directory/currency/switch/currency/EUR/uenc/aHR0cHM6Ly93d3cuc291c3ZpZGV0b29scy5jb20vc2hvcC1ob21l/\">\n
+  \           EUR - €        </option>\n        </select>\n</div>\n\n        <!--
+  BEGIN website switcher -->\n        <div class=\"webswitch\">\n            <ul>\n
+  \               <li><a alt=\"UK Website\" href=\"https://www.sousvidetools.com/\"><img
+  alt=\"GB\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/flags/gb.png\"><span>UK</span></a></li>\n
+  \               <li><a alt=\"IRELAND Website\" href=\"https://www.sousvide.ie/\"><img
+  alt=\"GB\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/flags/ie.png\"><span>IRELAND</span></a></li>\n
+  \               <li><a alt=\"GERMANY Website\" href=\"https://www.sousvidetools.de/\"><img
+  alt=\"GB\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/flags/german.png\"><span>GERMANY</span></a></li>\n
+  \               <li><a alt=\"USA Website\" href=\"https://us.sousvidetools.com/\"><img
+  alt=\"GB\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/flags/us.png\"><span>USA</span></a></li>\n
+  \           </ul> \n        </div> \n        <!-- END website switcher -->\n\n        <div
+  class=\"tel\">\n            <i class=\"fa fa-phone\"></i> <a href=\"tel:01524770060\">01524
+  770060</a>\n        </div>\n\n        <div class=\"notice\"><a href=\"https://www.sousvidetools.com/training-and-support/\">Book
+  A Sous Vide Training Day!</a>\n        </div>\n\n    </div>\n</div>\n<div class=\"headwrap\">\n<header
+  id=\"header\" class=\"page-header\">\n    <div class=\"page-header-container\">\n\n
+  \       <div id=\"header-search-top\" class=\"search-top\">\n            <form id=\"search_mini_form\"
+  action=\"https://www.sousvidetools.com/catalogsearch/result/\" method=\"get\" class=\"searchautocomplete
+  UI-SEARCHAUTOCOMPLETE\" data-tip=\"Search entire shop here...\" data-url=\"//www.sousvidetools.com/searchautocomplete/ajax/get/\"
+  data-minchars=\"3\" data-delay=\"100\">\n\n    <div class=\"form-search\">\n        <label
+  for=\"search\">Search:</label>\n\n        \n        <input id=\"search\" type=\"text\"
+  autocomplete=\"off\" name=\"q\" value=\"\" class=\"input-text UI-SEARCH UI-NAV-INPUT\"
+  maxlength=\"128\">\n\n        <button type=\"submit\" title=\"Search\" class=\"button
+  search-button\"><span><span class=\"icon fa fa-search fa-2x\"></span></span></button>\n\n
+  \       <div class=\"searchautocomplete-loader UI-LOADER\">\n            <div id=\"g01\"></div>\n
+  \           <div id=\"g02\"></div>\n            <div id=\"g03\"></div>\n            <div
+  id=\"g04\"></div>\n            <div id=\"g05\"></div>\n            <div id=\"g06\"></div>\n
+  \           <div id=\"g07\"></div>\n            <div id=\"g08\"></div>\n        </div>\n
+  \       \n        <div style=\"display:none\" id=\"search_autocomplete\" class=\"UI-PLACEHOLDER
+  search-autocomplete searchautocomplete-placeholder\"></div>\n    </div>\n</form>\n
+  \       </div>\n\n        <a class=\"logo\" href=\"https://www.sousvidetools.com/\">\n
+  \           <img src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/logo.jpg\"
+  alt=\"Sous Vide Tools\" class=\"large\">\n            <img src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/logo.gif\"
+  alt=\"Sous Vide Tools\" class=\"small\">\n        </a>\n\n        <div class=\"gold\">\n
+  \           <a onclick=\"popWin('https://www.feefo.com/reviews/sousvidetoolscom/?logon=www.sousvidetools.com',
+  'Feefo reviews', 'width=1000, height=600, toolbar=no, location=no, scrollbars=1');
+  return false;\" href=\"https://www.sousvidetools.com/feefo/popup/index/logon/www.sousvidetools.com/mode/both/order/asc/since/all/?\"
+  target=\"_blank\">\n                <img alt=\"feefo fold trusted\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/gold_white.png\">\n
+  \           </a>\n        </div>\n\n        <div class=\"skip-links\">\n            <a
+  href=\"#header-nav\" class=\"skip-link skip-nav\">\n                <span class=\"icon
+  fa fa-bars fa-2x\"></span>\n                <span class=\"label\">Menu</span>\n
+  \           </a>\n\n            <a href=\"#header-search\" class=\"skip-link skip-search\">\n
+  \               <span class=\"icon fa fa-search fa-2x\"></span>\n                <span
+  class=\"label\">Search</span>\n            </a>\n\n            <a href=\"#header-account\"
+  class=\"skip-link skip-account\">\n                <span class=\"icon fa fa-user
+  fa-2x\"></span>\n                <span class=\"label\">Account</span>\n            </a>\n\n
+  \           <!-- Cart -->\n\n            <div class=\"header-minicart\">\n                <div
+  class=\"aw-top-cart-updater\">\n\n<a href=\"#header-cart\" class=\"skip-link skip-cart
+  \ no-count\">\n    <span class=\"icon fa fa-shopping-cart fa-2x\"></span>\n    <span
+  class=\"label\">Basket</span>\n    <span class=\"count\">0</span>\n    <!--<span
+  class=\"total\"><span class=\"price\">£0.00</span></span>-->\n</a>\n\n<div id=\"header-cart\"
+  class=\"block block-cart skip-content\">\n    \n<div id=\"minicart-error-message\"
+  class=\"minicart-message\"></div>\n<div id=\"minicart-success-message\" class=\"minicart-message\"></div>\n\n<div
+  class=\"minicart-wrapper\">\n\n    <p class=\"block-subtitle\">\n        Recently
+  added item(s)        <a class=\"close skip-link-close\" href=\"#\" title=\"Close\">×</a>\n
+  \   </p>\n\n                    <p class=\"empty\">You have no items in your shopping
+  basket.</p>\n\n    </div>\n</div>\n</div>            </div>\n\n        </div>\n\n
+  \       <!-- Search -->\n\n        <div id=\"header-search\" class=\"search1 skip-content\">\n
+  \           <form id=\"search_mini_form\" action=\"https://www.sousvidetools.com/catalogsearch/result/\"
+  method=\"get\" class=\"searchautocomplete UI-SEARCHAUTOCOMPLETE\" data-tip=\"Search
+  entire shop here...\" data-url=\"//www.sousvidetools.com/searchautocomplete/ajax/get/\"
+  data-minchars=\"3\" data-delay=\"100\">\n\n    <div class=\"form-search\">\n        <label
+  for=\"search\">Search:</label>\n\n        \n        <input id=\"search\" type=\"text\"
+  autocomplete=\"off\" name=\"q\" value=\"\" class=\"input-text UI-SEARCH UI-NAV-INPUT\"
+  maxlength=\"128\">\n\n        <button type=\"submit\" title=\"Search\" class=\"button
+  search-button\"><span><span class=\"icon fa fa-search fa-2x\"></span></span></button>\n\n
+  \       <div class=\"searchautocomplete-loader UI-LOADER\">\n            <div id=\"g01\"></div>\n
+  \           <div id=\"g02\"></div>\n            <div id=\"g03\"></div>\n            <div
+  id=\"g04\"></div>\n            <div id=\"g05\"></div>\n            <div id=\"g06\"></div>\n
+  \           <div id=\"g07\"></div>\n            <div id=\"g08\"></div>\n        </div>\n
+  \       \n        <div style=\"display:none\" id=\"search_autocomplete\" class=\"UI-PLACEHOLDER
+  search-autocomplete searchautocomplete-placeholder\"></div>\n    </div>\n</form>\n
+  \       </div>\n\n        <!-- Account -->\n\n        <div id=\"header-account\"
+  class=\"skip-content\">\n            <div class=\"links\">\n        <ul>\n                                    <li
+  class=\"first\"><a href=\"https://www.sousvidetools.com/customer/account/\" title=\"My
+  Account\">My Account</a></li>\n                                                <li><a
+  href=\"https://www.sousvidetools.com/wishlist/\" title=\"My Wishlist\">My Wishlist</a></li>\n
+  \                                               <li><a href=\"https://www.sousvidetools.com/checkout/cart/\"
+  title=\"My Basket\" class=\"top-link-cart\">My Basket</a></li>\n                                                <li><a
+  href=\"https://www.sousvidetools.com/onestepcheckout/\" title=\"Checkout\" class=\"top-link-onestepcheckout\">Checkout</a></li>\n
+  \                                               <li><a href=\"https://www.sousvidetools.com/customer/account/create/\"
+  title=\"Register\">Register</a></li>\n                                                <li><a
+  href=\"https://www.sousvidetools.com/toolshed/\" title=\"Resource Center\" class=\"top-link-blog\">Resource
+  Centre</a></li>\n                                                <li class=\" last\"><a
+  href=\"https://www.sousvidetools.com/customer/account/login/\" title=\"Log In\">Log
+  In</a></li>\n                        </ul>\n</div>\n        </div>\n\n        <!--
+  Navigation -->\n\n        <div id=\"header-nav\" class=\"skip-content\">\n            \n
+  \   <nav id=\"nav\">\n        <ol class=\"nav-primary\">\n            <li class=\"level0
+  nav-1 parent first fullwidthnav\"><a class=\"level0 has-children\" href=\"https://www.sousvidetools.com/shop-home\"><span>Home
+  Sous Vide Shop</span></a>\n            \t<ul class=\"level0\" style=\"max-width:
+  7090px;\">\n\t\t            <!--<li class=\"level1\">\n                        <div
+  class=\"navimage\">\n                            <a href=\"black-friday-cyber-weekend-super-deals/black-friday-cyber-weekend-super-deals-black-friday-home-foodie\">\n
+  \                               <img alt=\"Christmas Home Sale\" src=\"\"/>\n                            </a>\n
+  \                       </div>\n                        <span><a class=\"level1\"
+  href=\"christmas-sale/christmas-home-foodie\">Winter Home Foodie</a></span>\n                    </li>\t\t
+  \   \n\t\t            <li class=\"level1\">\n                        <div class=\"navimage\">\n
+  \                           <a href=\"black-friday-cyber-weekend-super-deals/black-friday-cyber-weekend-super-deals-black-friday-home-foodie/\">\n
+  \                               <img alt=\"ex-display\" src=\"\"/>\n                            </a>\n
+  \                       </div>\n                        <span><a class=\"level1\"
+  href=\"black-friday-cyber-weekend-super-deals/black-friday-cyber-weekend-super-deals-black-friday-home-foodie/\">Black
+  Friday Home Foodie</a></span>\n                    </li>-->\n\t\t    \n                    <li
+  class=\"level1\">\n                        <div class=\"navimage\">\n                            <a
+  href=\"https://www.sousvidetools.com/home-foodie-ex-display-shop\">\n                                <img
+  alt=\"ex-display\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/exdisplay3.png\">\n
+  \                           </a>\n                        </div>\n                        <span><a
+  class=\"level1\" href=\"https://www.sousvidetools.com/home-foodie-ex-display-shop\">Outlet
+  Store</a></span>\n                    </li> \n\t\t  \n            \t\t<li class=\"level1\">\n
+  \           \t\t\t<div class=\"navimage\">\n\t            \t\t\t<a href=\"https://www.sousvidetools.com/sous-vide/home\">\n\t\t\t\t\t\t\t\t\t<img
+  alt=\"Home Sous Vide Machines\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/category/home_sous_v1_small.png\">\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\n
+  \           \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/sous-vide/home\">Home
+  Sous Vide Machines</a></span>\n            \t\t</li>\n                        \n
+  \           \t\t<li class=\"level1\">\n            \t\t\t<div class=\"navimage\">\n\t
+  \           \t\t\t<a href=\"https://www.sousvidetools.com/sous-vide-containers\">\n\t\t\t\t\t\t\t\t\t<img
+  alt=\"Sous Vide Containers\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/home/sous_con.png\">\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\n
+  \           \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/sous-vide-containers\">Sous
+  Vide Containers</a></span>\n            \t\t</li>\n\n            \t\t<li class=\"level1\">\n
+  \           \t\t\t<div class=\"navimage\">\n\t            \t\t\t<a href=\"https://www.sousvidetools.com/vacuum-packing-machines/home-external-vacuum-sealers\"><img
+  alt=\"Home Vacuum Sealers\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/home/home_seal.png\"></a>\n\t\t\t\t\t\t</div>\n
+  \           \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/vacuum-packing-machines/home-external-vacuum-sealers\">Home
+  Vacuum Sealers</a></span>\n            \t\t</li>\n\n            \t\t<li class=\"level1\">\n
+  \           \t\t\t<div class=\"navimage\">\n\t            \t\t\t<a href=\"https://www.sousvidetools.com/vacuum-packing-machines/home-chamber-vacuum-sealers\"><img
+  alt=\"Home Chamber Vacuum Pack Machines\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/home_cham1.png\"></a>\n\t\t\t\t\t\t</div>\n
+  \           \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/vacuum-packing-machines/home-chamber-vacuum-sealers\">Home
+  Chamber Vacuum Pack Machines</a></span>\n            \t\t</li>\n\n                    <li
+  class=\"level1\">\n                          <div class=\"navimage\">\n                                <a
+  href=\"https://www.sousvidetools.com/zipper-vacuum-seal-bags\"><img width=\"132\"
+  height=\"143\" alt=\"Zipper Vacuum Seal Bags\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/zip-small.png\"></a>\n
+  \                         </div>\n                          <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/zipper-vacuum-seal-bags\">Zipper Vacuum Seal
+  Bags</a></span>\n                    </li>\n\n            \t\t<li class=\"level1\">\n
+  \           \t\t\t<div class=\"navimage\">\n\t            \t\t\t<a href=\"https://www.sousvidetools.com/vacuum-sealer-bags/embossed-vacuum-sealer-bags\"><img
+  alt=\"Embossed Vacuum Sealer Bags\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/vacuum-roll.png\"></a>\n\t\t\t\t\t\t</div>\n
+  \           \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/vacuum-sealer-bags/embossed-vacuum-sealer-bags\">Embossed
+  Vacuum Sealer Bags</a></span>\n            \t\t</li>\n\n            \t\t<li class=\"level1\">\n
+  \           \t\t\t<div class=\"navimage\">\n\t            \t\t\t<a href=\"https://www.sousvidetools.com/vacuum-sealer-bags/chamber-vacuum-sealer-bags\"><img
+  alt=\"Boilable Vacuum Pouches\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/home_chamber_bags.png\"></a>\n\t\t\t\t\t\t</div>\n
+  \           \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/vacuum-sealer-bags/chamber-vacuum-sealer-bags\">Boilable
+  Vacuum Pouches</a></span>\n            \t\t</li>\n\n            \t\t<li class=\"level1\">\n
+  \           \t\t\t<div class=\"navimage\">\n\t            \t\t\t<a href=\"https://www.sousvidetools.com/vacuum-sealer-bags/sousvide-supreme\"><img
+  alt=\"SousVide Supreme Vacuum Sealer Bags\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/home/sous_supreme.png\"></a>\n\t\t\t\t\t\t</div>\n
+  \           \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/vacuum-sealer-bags/sousvide-supreme\">SousVide
+  Supreme Vacuum Sealer Bags</a></span>\n            \t\t</li>\n\n            \t\t<!--<li
+  class=\"level1\">\n            \t\t\t<div class=\"navimage\">\n\t            \t\t\t<a
+  href=\"vacuum-sealer-bags/polysciencebags\"><img alt=\"Polyscience Vacuum Sealer
+  Bags\" src=\"\"/></a>\n\t\t\t\t\t\t</div>\n            \t\t\t<span><a class=\"level1\"
+  href=\"vacuum-sealer-bags/polysciencebags\">Polyscience® Vacuum Sealer Bags</a></span>\n
+  \           \t\t</li>-->\n\n                        <li class=\"level1\">\n                              <div
+  class=\"navimage\">\n                                    <a href=\"https://www.sousvidetools.com/thermometers\"><img
+  alt=\"Thermometers\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/home_therm.png\"></a>\n
+  \                                   </div>\n                              <span><a
+  class=\"level1\" href=\"https://www.sousvidetools.com/thermometers\">Thermometers</a></span>\n
+  \                       </li>\n\n            \t\t<li class=\"level1\">\n            \t\t\t<div
+  class=\"navimage\">\n\t            \t\t\t<a href=\"https://www.sousvidetools.com/cook-books\"><img
+  alt=\"Sous Vide Books\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/home_cook.png\"></a>\n\t\t\t\t\t\t</div>\n
+  \           \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/cook-books\">Sous
+  Vide Books</a></span>\n            \t\t</li>\n\n                        <li class=\"level1\">\n
+  \                             <div class=\"navimage\">\n                                    <a
+  href=\"https://www.sousvidetools.com/sous-vide-training-and-support&#10;                                                \"><img
+  alt=\"Sous Vide Training\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/home_train.png\"></a>\n
+  \                                   </div>\n                              <span><a
+  class=\"level1\" href=\"https://www.sousvidetools.com/sous-vide-training-and-support\">Sous
+  Vide Training</a></span>\n                        </li>\n\n                \t\t<li
+  class=\"level1\">\n                \t\t\t<div class=\"navimage\">\n    \t            \t\t\t<a
+  href=\"https://www.sousvidetools.com/sousvidetools-com-giftcard&#10;    &#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;\"><img
+  alt=\"Gift Vouchers\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/home_vouch.png\"></a>\n
+  \   \t\t\t\t\t\t</div>\n                \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/sousvidetools-com-giftcard\">Gift
+  Vouchers</a></span>\n                \t\t</li>\n\n                        <li class=\"level1\">\n
+  \                          <div class=\"navimage\">\n                                <a
+  href=\"https://www.sousvidetools.com/ceramic-bbq-s\"><img alt=\"Charcoal Cooking\"
+  src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/modern/cats/nav/char.png\"></a>\n
+  \                          </div>\n                           <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/ceramic-bbq-s\">BBQ's</a></span>\n                        </li>\n\n
+  \                       <li class=\"level1\">\n                           <div class=\"navimage\">\n
+  \                               <a href=\"https://www.sousvidetools.com/smoke-guns\"><img
+  alt=\"Smoking Guns\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/modern/cats/nav/gun.png\"></a>\n
+  \                          </div>\n                           <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/smoke-guns\">Smoking Guns</a></span>\n                        </li>\n\n
+  \                       <!--<li class=\"level1\">\n                           <div
+  class=\"navimage\">\n                                <a href=\"blenders\"><img alt=\"Blenders\"
+  src=\"\"/></a>\n                           </div>\n                           <span><a
+  class=\"level1\" href=\"blenders\">Blenders</a></span>\n                        </li>-->\n\n
+  \                       <li class=\"level1\">\n                           <div class=\"navimage\">\n
+  \                               <a href=\"https://www.sousvidetools.com/food-dehydrators\"><img
+  alt=\"Food Dehydrators\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/modern/cats/nav/home_hyd.png\"></a>\n
+  \                          </div>\n                           <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/food-dehydrators\">Food Dehydrators</a></span>\n
+  \                       </li>\n\n                        <!-- <li class=\"level1\">\n
+  \                             <div class=\"navimage\">\n                                    <a
+  href=\"modernist-cooking-concepts\n                                                \"><img
+  alt=\"Modernist Cooking Concepts\" src=\"\"/></a>\n                                    </div>\n
+  \                             <span><a class=\"level1\" href=\"modernist-cooking-concepts\">Modernist
+  Cooking Equipment</a></span>\n                        </li> -->\n\n                        <li
+  class=\"level1\">\n                              <div class=\"navimage\">\n                                    <a
+  href=\"https://www.sousvidetools.com/cream-whippers&#10;                                                \"><img
+  alt=\"Cream Whippers\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/whip.png\"></a>\n
+  \                                   </div>\n                              <span><a
+  class=\"level1\" href=\"https://www.sousvidetools.com/cream-whippers\">Cream Whippers</a></span>\n
+  \                       </li>\n\n                        <li class=\"level1\">\n
+  \                             <div class=\"navimage\">\n                                    <a
+  href=\"https://www.sousvidetools.com/japanese-bbq-s&#10;                                                \"><img
+  alt=\"Japanese BBQ’s\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/jap.png\"></a>\n
+  \                                   </div>\n                              <span><a
+  class=\"level1\" href=\"https://www.sousvidetools.com/japanese-bbq-s\">Japanese
+  BBQ’s</a></span>\n                        </li>\n\n                        <li class=\"level1\">\n
+  \                             <div class=\"navimage\">\n                                    <a
+  href=\"https://www.sousvidetools.com/spherificator\"><img alt=\"Spherificator\"
+  src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/sphere.png\"></a>\n
+  \                                   </div>\n                              <span><a
+  class=\"level1\" href=\"https://www.sousvidetools.com/spherificator\">Spherificator</a></span>\n
+  \                       </li>\n\n            \t\t<li class=\"level1 topbrand\">\t\n
+  \           \t\t\t<div class=\"brandnav soushome\">\n\t\t\t\t\t\t\t<span class=\"navtitle\">Shop
+  by Brand</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=\"branded\">\n\t\t\t\t\t\t\t\t<a
+  href=\"https://www.sousvidetools.com/sousvidesupremeequip\"><img width=\"133\" height=\"50\"
+  alt=\"Sousvide Supreme\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/brand_supreme.png\"></a>\n\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t<div
+  class=\"branded\">\n\t\t\t\t\t\t\t\t<a href=\"https://www.sousvidetools.com/anova\"><img
+  width=\"157\" height=\"50\" alt=\"Anova\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/anova_jan.png\"></a>\n\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t<div
+  class=\"branded\">\n\t\t\t\t\t\t\t\t<a href=\"https://www.sousvidetools.com/sousvidetools-com-home\"><img
+  width=\"135\" height=\"49\" alt=\"Sousvide Tools\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/pro_tools.png\"></a>\n\t\t\t\t\t\t\t</div>\n\n
+  \                           <!--<div class=\"branded\">\n                                    <a
+  href=\"polyscienceequip\"><img width=\"168\" height=\"51\" alt=\"Polyscience\" src=\"\"/></a>\n
+  \                           </div>-->\n\n                            <div class=\"branded\">\n
+  \                                   <a href=\"https://www.sousvidetools.com/sage-by-heston\"><img
+  width=\"164\" height=\"41\" alt=\"Sage\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/sage.png\"></a>\n
+  \                           </div>\n\n                            <div class=\"branded\">\n
+  \                                   <a href=\"https://www.sousvidetools.com/food-dehydrators\"><img
+  width=\"131\" height=\"40\" alt=\"Excalibur Food Dehydrators\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/excal_1.png\"></a>\n
+  \                           </div>\n\n\t\t\t\t\t\t</div><!-- brand nav end -->\n\t\t\t\t\t</li>\t\t\n
+  \           \t</ul>\n            </li>\n            <li class=\"level0 nav-1 parent
+  fullwidthnav\"><a class=\"level0 has-children\" href=\"https://www.sousvidetools.com/shop-professional\"><span>\nProfessional
+  Sous Vide Shop</span></a>\n            \t<ul class=\"level0\" style=\"max-width:
+  8837.5px;\">\n\t\t\t            <!--<li class=\"level1\">\n                            <div
+  class=\"navimage\">\n                                <a href=\"black-friday-cyber-weekend-super-deals/black-friday-professional-shop\">\n
+  \                                   <img alt=\"Christmas Professional Sale\" src=\"\"/>\n
+  \                               </a>\n                            </div>\n                            <span><a
+  class=\"level1\" href=\"christmas-sale/christmas-professional-shop\">Winter Professional
+  Shop</a></span>\n                        </li>\t          \n\t\t\t            <li
+  class=\"level1\">\n                            <div class=\"navimage\">\n                                <a
+  href=\"black-friday-cyber-weekend-super-deals/black-friday-professional-shop/\">\n
+  \                                   <img alt=\"ex-display\" src=\"\"/>\n                                </a>\n
+  \                           </div>\n                            <span><a class=\"level1\"
+  href=\"black-friday-cyber-weekend-super-deals/black-friday-professional-shop/\">Black
+  Friday Professional Shop</a></span>\n                        </li>-->\n                        \n
+  \                       <li class=\"level1\">\n                              <div
+  class=\"navimage\">\n                                    <a href=\"https://www.sousvidetools.com/professional-chef-ex-display-shop\"><img
+  alt=\"ex-display\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/exdisplay.png\"></a>\n
+  \                             </div>\n                              <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/professional-chef-ex-display-shop\">Outlet
+  Store</a></span>\n                        </li> \n                       \n                        <li
+  class=\"level1\">\n                              <div class=\"navimage\">\n                                    <a
+  href=\"https://www.sousvidetools.com/sous-vide-sets\"><img alt=\"Sous Vide Packages\"
+  src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/pro/pro_sets.png\"></a>\n
+  \                             </div>\n                              <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/sous-vide-sets\">Sous Vide Packages</a></span>\n
+  \                       </li>\n\n            \t\t<li class=\"level1\">\n            \t\t\t<div
+  class=\"navimage\">\n\t            \t\t\t<a href=\"https://www.sousvidetools.com/sous-vide/professional/sous-vide-water-baths\"><img
+  alt=\"Sous Vide Water Baths\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/pro_bath1.png\"></a>\n
+  \           \t\t\t</div>\n            \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/sous-vide/professional/sous-vide-water-baths\">Sous
+  Vide Water Baths</a></span>\n            \t\t</li>\n\n            \t\t<li class=\"level1\">\n
+  \           \t\t\t<div class=\"navimage\">\n\t            \t\t\t<a href=\"https://www.sousvidetools.com/sous-vide/professional/sous-vide-thermal-circulators\"><img
+  alt=\"Sous Vide Thermal Circulators\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/pro_therm1.png\"></a>\n
+  \           \t\t\t</div>\n            \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/sous-vide/professional/sous-vide-thermal-circulators\">Sous
+  Vide Thermal Circulators</a></span>\n            \t\t</li>\n\n            \t\t<li
+  class=\"level1\">\n            \t\t\t<div class=\"navimage\">\n\t            \t\t\t<a
+  href=\"https://www.sousvidetools.com/sous-vide-containers\"><img alt=\"Sous Vide
+  Containers\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/pro/pro_cont.png\"></a>\n
+  \           \t\t\t</div>\n            \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/sous-vide-containers\">Containers
+  for Circulators</a></span>\n            \t\t</li>\n\n            \t\t<li class=\"level1\">\n
+  \           \t\t\t<div class=\"navimage\">\n\t            \t\t\t<a href=\"https://www.sousvidetools.com/vacuum-packing-machines/vacuum-packing-machines\"><img
+  alt=\"Vacuum Sealers\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/pro/pro_vac_1.png\"></a>\n
+  \           \t\t\t</div>\n            \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/vacuum-packing-machines/vacuum-packing-machines\">Vacuum
+  Packing Machines</a></span>\n            \t\t</li>\n\n                    <li class=\"level1\">\n
+  \                         <div class=\"navimage\">\n                                <a
+  href=\"https://www.sousvidetools.com/zipper-vacuum-seal-bags\"><img width=\"132\"
+  height=\"143\" alt=\"Zipper Vacuum Seal Bags\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/zip-small.png\"></a>\n
+  \                         </div>\n                          <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/zipper-vacuum-seal-bags\">Zipper Vacuum Seal
+  Bags</a></span>\n                    </li>\n                        \n            \t\t<li
+  class=\"level1\">\n            \t\t\t<div class=\"navimage\">\n\t            \t\t\t<a
+  href=\"https://www.sousvidetools.com/vacuum-sealer-bags/embossed-vacuum-sealer-bags\"><img
+  alt=\"Embossed Vacuum Sealer Bags\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/vacuum-roll.png\"></a>\n
+  \           \t\t\t</div>\n            \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/vacuum-sealer-bags/embossed-vacuum-sealer-bags\">Embossed
+  Vacuum Sealer Bags</a></span>\n            \t\t</li>\n\n            \t\t<li class=\"level1\">\n
+  \           \t\t\t<div class=\"navimage\">\n\t            \t\t\t<a href=\"https://www.sousvidetools.com/vacuum-sealer-bags/chamber-vacuum-sealer-bags\"><img
+  alt=\"Boilable Vacuum Pouches\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/pro_cham_bag.png\"></a>\n
+  \           \t\t\t</div>\n            \t\t\t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/vacuum-sealer-bags/chamber-vacuum-sealer-bags\">Boilable
+  Vacuum Pouches</a></span>\n            \t\t</li>\n\n                        <li
+  class=\"level1\">\n                              <div class=\"navimage\">\n                                    <a
+  href=\"https://www.sousvidetools.com/thermometers\"><img alt=\"Thermometers\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/pro_therm.png\"></a>\n
+  \                             </div>\n                              <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/thermometers\">Thermometers</a></span>\n                        </li>\n\n
+  \                       <li class=\"level1\">\n                              <div
+  class=\"navimage\">\n                                    <a href=\"https://www.sousvidetools.com/cook-books\"><img
+  alt=\"Sous Vide Books\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/pro_cook.png\"></a>\n
+  \                             </div>\n                              <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/cook-books\">Recipe Books</a></span>\n                        </li>\n\n
+  \                       <li class=\"level1\">\n                              <div
+  class=\"navimage\">\n                                    <a href=\"https://www.sousvidetools.com/sous-vide-training-and-support\"><img
+  alt=\"Sous Vide Training\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/pro_train.png\"></a>\n
+  \                             </div>\n                              <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/sous-vide-training-and-support\">Sous Vide
+  Training</a></span>\n                        </li>\n\n                        <li
+  class=\"level1\">\n                              <div class=\"navimage\">\n                                    <a
+  href=\"https://www.sousvidetools.com/servicing\"><img alt=\"Service Work\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/pro_serv.png\"></a>\n
+  \                             </div>\n                              <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/servicing\">Service Work</a></span>\n                        </li>
+  \n\n                        <!--<li class=\"level1\">\n                              <div
+  class=\"navimage\">\n                                    <a href=\"holding-ovens\"><img
+  alt=\"Holding Oven\" src=\"\"/></a>\n                              </div>\n                              <span><a
+  class=\"level1\" href=\"holding-ovens\">Holding Ovens </a></span>\n                        </li>-->\n\n
+  \                       <li class=\"level1\">\n                              <div
+  class=\"navimage\">\n                                    <a href=\"https://www.sousvidetools.com/spare-parts\"><img
+  alt=\"Spare Parts\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/pro_parts.png\"></a>\n
+  \                             </div>\n                              <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/spare-parts\">Spares &amp; Accessories</a></span>\n
+  \                       </li>\n\n                        <li class=\"level1\">\n
+  \                          <div class=\"navimage\">\n                                <a
+  href=\"https://www.sousvidetools.com/ceramic-bbq-s\"><img alt=\"Charcoal Cooking\"
+  src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/modern/cats/nav/char.png\"></a>\n
+  \                          </div>\n                           <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/ceramic-bbq-s\">BBQ's</a></span>\n                        </li>\n\n
+  \                       <li class=\"level1\">\n                           <div class=\"navimage\">\n
+  \                               <a href=\"https://www.sousvidetools.com/smoke-guns\"><img
+  alt=\"Smoking Guns\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/modern/cats/nav/gun.png\"></a>\n
+  \                          </div>\n                           <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/smoke-guns\">Smoking Guns</a></span>\n                        </li>\n\n
+  \                       <!--<li class=\"level1\">\n                           <div
+  class=\"navimage\">\n                                <a href=\"blenders\"><img alt=\"Blenders\"
+  src=\"\"/></a>\n                           </div>\n                           <span><a
+  class=\"level1\" href=\"blenders\">Blenders</a></span>\n                        </li>-->\n\n
+  \                       <li class=\"level1\">\n                           <div class=\"navimage\">\n
+  \                               <a href=\"https://www.sousvidetools.com/food-dehydrators\"><img
+  alt=\"Food Dehydrators\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/modern/cats/nav/pro_hyd.png\"></a>\n
+  \                          </div>\n                           <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/food-dehydrators\">Food Dehydrators</a></span>\n
+  \                       </li>\n\n                        <li class=\"level1\">\n
+  \                          <div class=\"navimage\">\n                                <a
+  href=\"https://www.sousvidetools.com/pressure-cookers\"><img alt=\"Pressure Cookers\"
+  src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/modern/cats/nav/pres.png\"></a>\n
+  \                          </div>\n                           <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/pressure-cookers\">Pressure Cookers</a></span>\n
+  \                       </li>\n\n                        <li class=\"level1\">\n
+  \                          <div class=\"navimage\">\n                                <a
+  href=\"https://www.sousvidetools.com/commercial-induction-hobs\"><img alt=\"The
+  Control Freak\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/modern/cats/nav/control.png\"></a>\n
+  \                          </div>\n                           <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/commercial-induction-hobs\">Induction Cookers</a></span>\n
+  \                       </li>\n\n                        <!-- <li class=\"level1\">\n
+  \                          <div class=\"navimage\">\n                                <a
+  href=\"rowzer-frozen-food-processor\"><img alt=\"Taurus Rowzer\" src=\"\"/></a>\n
+  \                          </div>\n                           <span><a class=\"level1\"
+  href=\"rowzer-frozen-food-processor\">Taurus Rowzer</a></span>\n                        </li>
+  -->\n\n                        <li class=\"level1\">\n                           <div
+  class=\"navimage\">\n                                <a href=\"https://www.sousvidetools.com/anti-griddles\"><img
+  alt=\"Anti-Griddles\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/modern/cats/nav/griddle.png\"></a>\n
+  \                          </div>\n                           <span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/anti-griddles\">Anti-Griddles</a></span>\n
+  \                       </li>\n\n                        <!-- <li class=\"level1\">\n
+  \                          <div class=\"navimage\">\n                                <a
+  href=\"gastrovac\"><img alt=\"Gastrovac\" src=\"\"/></a>\n                           </div>\n
+  \                          <span><a class=\"level1\" href=\"gastrovac\">Gastrovac</a></span>\n
+  \                       </li> -->\n\n                        <!-- <li class=\"level1\">\n
+  \                             <div class=\"navimage\">\n                                    <a
+  href=\"modernist-cooking-concepts\n                                                \"><img
+  alt=\"Modernist Cooking Concepts\" src=\"\"/></a>\n                                    </div>\n
+  \                             <span><a class=\"level1\" href=\"modernist-cooking-concepts\">Modernist
+  Cooking Equipment</a></span>\n                        </li> -->\n\n                        <li
+  class=\"level1\">\n                              <div class=\"navimage\">\n                                    <a
+  href=\"https://www.sousvidetools.com/cream-whippers&#10;                                                \"><img
+  alt=\"Cream Whippers\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/whip.png\"></a>\n
+  \                                   </div>\n                              <span><a
+  class=\"level1\" href=\"https://www.sousvidetools.com/cream-whippers\">Cream Whippers</a></span>\n
+  \                       </li>\n\n                        <li class=\"level1\">\n
+  \                             <div class=\"navimage\">\n                                    <a
+  href=\"https://www.sousvidetools.com/japanese-bbq-s&#10;                                                \"><img
+  alt=\"Japanese BBQ’s\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/jap.png\"></a>\n
+  \                                   </div>\n                              <span><a
+  class=\"level1\" href=\"https://www.sousvidetools.com/japanese-bbq-s\">Japanese
+  BBQ’s</a></span>\n                        </li>\n\n                        <li class=\"level1\">\n
+  \                             <div class=\"navimage\">\n                                    <a
+  href=\"https://www.sousvidetools.com/blast-chillers&#10;                                                \"><img
+  alt=\"Blast Chillers\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/blast.png\"></a>\n
+  \                                   </div>\n                              <span><a
+  class=\"level1\" href=\"https://www.sousvidetools.com/blast-chillers\">Blast Chillers</a></span>\n
+  \                       </li>\n\n                        <li class=\"level1\">\n
+  \                             <div class=\"navimage\">\n                                    <a
+  href=\"https://www.sousvidetools.com/spherificator\"><img alt=\"Spherificator\"
+  src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/sphere.png\"></a>\n
+  \                                   </div>\n                              <span><a
+  class=\"level1\" href=\"https://www.sousvidetools.com/spherificator\">Spherificator</a></span>\n
+  \                       </li>\n\n            \t\t<li class=\"level1 topbrand\">\n
+  \           \t\t<div class=\"brandnav souspro\">\n\t\t\t\t\t        \t<span class=\"navtitle\">Shop
+  by Brand</span>\n\t\t\t\t\t\t\t\t<div class=\"branded\">\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.sousvidetools.com/polyscienceequip\"><img
+  width=\"159\" height=\"50\" alt=\"Polyscience\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/pro_poly.png\"></a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div
+  class=\"branded\">\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.sousvidetools.com/sousvidetools\"><img
+  width=\"135\" height=\"49\" alt=\"Sousvide Tools\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/pro_tools.png\"></a>\n\t\t\t\t\t\t\t\t</div>\n
+  \                               <div class=\"branded\">\n                                    <a
+  href=\"https://www.sousvidetools.com/food-dehydrators\"><img width=\"131\" height=\"40\"
+  alt=\"Excalibur Food Dehydrators\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/excal_1.png\"></a>\n
+  \                               </div>\n                                <div class=\"branded\">\n
+  \                                   <a href=\"https://www.sousvidetools.com/pressure-cookers\"><img
+  width=\"120\" height=\"40\" alt=\"Artame Pressure Cookers\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/artame_1.png\"></a>\n
+  \                               </div>\n                                <div class=\"branded\">\n
+  \                                   <a href=\"https://www.sousvidetools.com/sage-commercial\"><img
+  width=\"187\" height=\"40\" alt=\"sage Commercial\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/topnav/sage_com_1.png\"></a>\n
+  \                               </div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</li>\t\t\n
+  \           \t</ul>\n            </li>\n\n            <li class=\"brandednav level0
+  nav-1 parent\"><a class=\"level0 has-children\" href=\"#\"><span>Shop by Brand</span></a>\n\t\t\t
+  \t<ul class=\"level0\">\n\t\t\t        <li class=\"level1\">\n\t\t\t        \t<span><a
+  class=\"level1\" href=\"https://www.sousvidetools.com/pressure-cookers\">Artame</a></span>\n\t\t\t
+  \       </li>\n\t\t\t        <li class=\"level1\">\n\t\t\t        \t<span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/food-dehydrators\">Excalibur</a></span>\n\t\t\t
+  \       </li>\n\t\t\t        <li class=\"level1\">\n\t\t\t        \t<span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/polyscienceequip\">PolyScience®</a></span>\n\t\t\t
+  \       </li>\n\t\t\t        <li class=\"level1\">\n\t\t\t        \t<span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/sousvidesupremeequip\">Sousvide Supreme™</a></span>\n\t\t\t
+  \       </li>\n\t\t\t        <li class=\"level1\">\n\t\t\t        \t<span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/anova\">Anova®</a></span>\n\t\t\t        </li>\n\t\t\t
+  \       <li class=\"level1\">\n\t\t\t        \t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/sousvidetools\">Sousvidetools.com</a></span>\n\t\t\t
+  \       </li>\n\t\t\t        <!--<li class=\"level1\">\n                          <span><a
+  class=\"level1\" href=\"https://www.sousvidetools.com/vitamix\">Vitamix®</a></span>\n
+  \                     </li>-->\n                      <li class=\"level1\">\n                          <span><a
+  class=\"level1\" href=\"https://www.sousvidetools.com/sage-by-heston\">Sage by Heston®</a></span>\n
+  \                     </li>\n                      <li class=\"level1\">\n                          <span><a
+  class=\"level1\" href=\"https://www.sousvidetools.com/sage-commercial\">Sage Commercial</a></span>\n
+  \                     </li>\n\t\t\t    </ul>\t\t\t\n\t\t    </li>\n\n            <li
+  class=\"level0\"><a class=\"level0\" href=\"https://www.sousvidetools.com/toolshed/\"><span>Resource
+  Centre</span></a></li>\n\n            <li class=\"level0 nav-1 parent thinnav\"><a
+  class=\"level0 has-children\" href=\"https://www.sousvidetools.com/training-and-support\"><span>Training
+  &amp; Support</span></a>\n    \t\t \t<ul class=\"level0\">\n    \t\t        <li
+  class=\"level1\">\n    \t\t        \t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/training-and-support\"><span>About
+  Sous Vide Training</span></a></span>\n    \t\t        </li>\n    \t\t        <li
+  class=\"level1\">\n    \t\t        \t<span><a class=\"level1\" href=\"https://www.sousvidetools.com/sous-vide-training-and-support\"><span>Book
+  Sous Vide Classes</span></a></span>\n    \t\t        </li>\n                    <li
+  class=\"level1\">\n                        <span><a class=\"level1\" href=\"https://www.sousvidetools.com/sous-vide-consultancy\"><span>Sous
+  Vide Tools Consultancy and Support</span></a></span>\n                    </li>\n
+  \   \t\t        <li class=\"level1\">\n    \t\t        \t<span><a class=\"level1\"
+  href=\"https://www.sousvidetools.com/classes\"><span>Book Other Classes &amp; Events</span></a></span>\n
+  \   \t\t        </li>\n    \t\t        \n    \t\t    </ul>\n    \t\t</li>\n\n            <li
+  class=\"level0\"><a class=\"level0\" href=\"https://www.sousvidetools.com/toolshed/category/recipes\"><span>Recipes</span></a></li>\n\n\t\t\t<li
+  class=\"level0 nav-1 parent thinnav\"><a class=\"level0 has-children\" href=\"https://www.sousvidetools.com/contacts\"><span>Contact</span></a>\n
+  \                 <ul class=\"level0\">\n                    <li class=\"level1\">\n
+  \                       <span><a class=\"level1\" href=\"https://www.sousvidetools.com/about-us\"><span>About
+  Us</span></a></span>\n                    </li>\n                    <li class=\"level1\">\n
+  \                       <span><a class=\"level1\" href=\"https://www.sousvidetools.com/meet-the-team/\"><span>Meet
+  the Team</span></a></span>\n                    </li>\n                    <li class=\"level1\">\n
+  \                       <span><a class=\"level1\" href=\"https://www.sousvidetools.com/w2/\"><span>Toolshed@W2
+  London</span></a></span>\n                    </li>\n                    <li class=\"level1\">\n
+  \                       <span><a class=\"level1\" href=\"https://www.sousvidetools.com/contacts/\"><span>Contact
+  Us</span></a></span>\n                    </li>\n                </ul>\n            </li>\n
+  \       </ol>\n\n        <ol class=\"nav-primary\">\n                    </ol>\n
+  \   </nav>\n\n \n\n        </div>\n\n    </div>\n</header>\n\n<script>\n    // find
+  each .fullwidthnav ul\n    $j(\".fullwidthnav\").each(function(){\n\n        var
+  totalWidth = 0;\n        var i = 0;\n        var j = 0;\n        // find all li's
+  below that and add each width to totalwidth\n        $j(this).children('ul').each(function()
+  {\n\n            i++;\n            //console.log(i);\n\n            $j(this).children('li').each(function()
+  {\n                totalWidth += $j(this).outerWidth() + 10;\n                //alert(totalWidth);\n
+  \               j++;\n                //console.log(i);\n            });\n            //alert(totalWidth);\n
+  \       });\n\n\n        // divide by 2\n        //alert(totalWidth);\n        totalWidth
+  = totalWidth / 2;\n        //alert(totalWidth);\n        \n        // set .fullwidthnav
+  ul's max-width to total width\n        $j(this).children('ul').css({\"maxWidth\":
+  totalWidth + 100});\n\n    });\n</script>\n\n<div class=\"sub-nav\">\n    <div class=\"sub-nav-in\">\n
+  \       <div class=\"sub-nav-block pirGlobal\">\n            <a href=\"https://www.sousvidetools.com/delivery/\"
+  class=\"pirFull\"></a>\n            <div class=\"sub-nav-block-in\">\n                <i
+  class=\"fa fa-globe\"></i>\n                <div class=\"sub-nav-text\">\n                    <h5>Worldwide
+  Shipping</h5>\n                    <h6>Let us come to you</h6>\n                </div>\n
+  \           </div>\n        </div>\n        <div class=\"sub-nav-block pirFeefo\">\n
+  \           <a onclick=\"popWin('https://www.feefo.com/reviews/sousvidetoolscom/?logon=www.sousvidetools.com',
+  'Feefo reviews', 'width=1000, height=600, toolbar=no, location=no, scrollbars=1');
+  return false;\" href=\"https://www.sousvidetools.com/feefo/popup/index/logon/www.sousvidetools.com/mode/both/order/asc/since/all/?\"
+  target=\"_blank\" class=\"pirFull\"></a>\n            <div class=\"sub-nav-block-in\">\n
+  \               <i class=\"fa fa-star\"></i>\n                <div class=\"sub-nav-text\">\n
+  \                   <h5>5 Star Feefo Rated</h5>\n                    <h6>Gold Trusted
+  Service</h6>\n                </div>\n            </div>\n        </div>\n        <div
+  class=\"sub-nav-block pirDel\">\n            <a href=\"https://www.sousvidetools.com/delivery/\"
+  class=\"pirFull\"></a>\n            <div class=\"sub-nav-block-in\">\n                <i
+  class=\"fa fa-truck\"></i>\n                <div class=\"sub-nav-text\">\n                    <h5>Free
+  Next Day Delivery</h5>\n                    <h6>On orders over £75, before 3pm</h6>\n
+  \               </div>  \n            </div>\n        </div>\n        <div class=\"sub-nav-block
+  pirSupreme\">\n            <a href=\"https://www.sousvidetools.com/sous-vide-training-and-support/\"
+  class=\"pirFull\"></a>\n            <div class=\"sub-nav-block-in\">\n                <i
+  class=\"fa fa-hand-o-right\"></i>\n                <div class=\"sub-nav-text\">\n
+  \                   <h5>Sous Vide Training</h5>\n                    <h6>Learn from
+  our chefs</h6>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n</div>\n\n
+  \       <div class=\"breadcrumbs\">\n    <ul>\n                    <li class=\"home\">\n
+  \                           <a href=\"https://www.sousvidetools.com/\" title=\"Go
+  to Home Page\">Home</a>\n                                        <span>/ </span>\n
+  \                       </li>\n                    <li class=\"category126\">\n
+  \                           <strong>Sous Vide Equipment for Home Cooking</strong>\n
+  \                                   </li>\n            </ul>\n</div>\n        <div
+  class=\"main-container col1-layout\">\n            <div class=\"main\">\n                \n
+  \               <div class=\"col-main\">\n                                        <script
+  type=\"text/javascript\">\n//<![CDATA[\n    var AWACP_CONFIG = {\n        mageVersion:
+  '1.9.0.1',\n        useProgress : 1,\n        addProductConfirmationEnabled : 1,\n
+  \       removeProductConfirmationEnabled : 1,\n        dialogsVAlign: 'center',\n
+  \       cartAnimation: 'opacity',\n        addProductCounterBeginFrom : 0,\n        removeProductCounterBeginFrom
+  : 0,\n\n                \n        hasFileOption : false    };\n\n    Event.observe(document,
+  'dom:loaded', function(){\n        AW_AjaxCartPro.init(AWACP_CONFIG);\n    });\n\n//]]>\n</script>\n<div
+  class=\"page-title category-title\">\n        <h1>Sous Vide Equipment for Home Cooking</h1>\n</div>\n\n\n\n
+  \   <div class=\"category-description std\">\n        <p>It’s a common misconception
+  that the sous vide technique is something which can only be used in a professional
+  kitchen but this couldn’t be further from the truth. Perhaps you’ve seen the technique
+  being used on the likes of Masterchef or Great British Menu and fancy trying it
+  out in your own kitchen at home? </p>\n\n<p>Sous vide, which involves food being
+  <a href=\"https://www.sousvidetools.com/vacuum-sealer-bags\">vacuum sealed in pouches</a>
+  and heated at a controlled temperature over a period of time, is a technique which
+  delivers consistently great results and a whole host of <a href=\"https://www.sousvidetools.com/toolshed/health-benefits-of-sous-vide/\">other
+  benefits</a>, and is far simpler to use in your home kitchen than you may think.
+  It’s the perfect way to cook meat, fish, poultry, vegetables and fruit and the pouches
+  contain the natural juices, moisture and flavours to keep food tender without overcooking.
+  </p>\n\n<p>In the home kitchen, we love sous vide as a way to not only cook up some
+  delicious dishes but also for <a href=\"https://www.sousvidetools.com/toolshed/sous-vide-batch-cooking-the-ultimate-guide/\">batch
+  cooking</a>; something which we’ve seen become increasingly popular in recent years.</p>\n\n<p>Our
+  range of equipment for home cooking includes a collection of sous vide <a href=\"https://www.sousvidetools.com/sous-vide/home\">devices</a>,
+  <a href=\"https://www.sousvidetools.com/vacuum-packing-machines/vacuum-sealers\">vacuum
+  sealers</a>, <a href=\"https://www.sousvidetools.com/vacuum-sealer-bags\">vacuum
+  bags</a>, <a href=\"https://www.sousvidetools.com/thermometers\">thermometers</a>,
+  <a href=\"https://www.sousvidetools.com/cook-books\">recipe books</a> and more,
+  both from a range of manufacturers such as <a href=\"https://www.sousvidetools.com/polyscienceequip\">PolyScience®</a>
+  and <a href=\"https://www.sousvidetools.com/sousvidesupremeequip\">SousVide Supreme™</a>
+  as well as our own products. We recommend that you also take the time to check out
+  our <a href=\"https://www.sousvidetools.com/training-and-support\">training courses</a>
+  which we offer in Lancaster and London.</p>\n    </div>\n    \n    <div class=\"lay\">\n<div
+  class=\"box\">\n<div class=\"boximg\"><a href=\"https://www.sousvidetools.com/home-foodie-ex-display-shop\"><img
+  src=\"https://www.sousvidetools.com/media/wysiwyg/modern/home/exdisplay_home.png\"
+  alt=\"\"></a></div>\n<div class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/home-foodie-ex-display-shop\"
+  target=\"_self\">Outlet Store</a></h3>\n<p>We have some incredible Ex-display Sous
+  Vide and Vacuum Packing Equipment for Sale. All products come with a full manufacturers’
+  warranty. (<a href=\"https://www.sousvidetools.com/home-foodie-ex-display-shop\"
+  target=\"_self\">+more</a>).</p>\n</div>\n<button class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/home-foodie-ex-display-shop')\"><span>View
+  the Range</span></button></div>\n<div class=\"box\">\n<div class=\"boximg\"><a href=\"https://www.sousvidetools.com/sous-vide/home\"><img
+  src=\"https://www.sousvidetools.com/media/wysiwyg/category/home_sous_v1_big.png\"
+  alt=\"\"></a></div>\n<div class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/sous-vide/home\"
+  target=\"_self\">Home Sous Vide Machines</a></h3>\n<p>The sous vide technique has
+  been the secret of great chefs worldwide for decades. The Sous Vide Supreme is an
+  amazing new all-in-one sous vide water oven designed to bring the sous vide culinary
+  technique into home kitchens and restaurants at an affordable price. (<a href=\"https://www.sousvidetools.com/sous-vide/home\"
+  target=\"_self\">+more</a>).</p>\n</div>\n<button class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/sous-vide/home')\"><span>View
+  the Range</span></button></div>\n<div class=\"box\">\n<div class=\"boximg\"><a href=\"https://www.sousvidetools.com/sous-vide-containers\"><img
+  src=\"https://www.sousvidetools.com/media/wysiwyg/modern/home/contain.png\" alt=\"\"></a></div>\n<div
+  class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/sous-vide-containers\"
+  target=\"_self\">Sous Vide Containers</a></h3>\n<p>The Perfect Partner for your
+  Thermal Circulator (<a href=\"https://www.sousvidetools.com/sous-vide-containers\"
+  target=\"_self\">+more</a>).</p>\n</div>\n<button class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/sous-vide-containers')\"><span>View
+  the Range</span></button></div>\n<div class=\"box last\">\n<div class=\"boximg\"><a
+  href=\"https://www.sousvidetools.com/vacuum-packing-machines/home-vacuum-packers\"><img
+  src=\"https://www.sousvidetools.com/media/wysiwyg/cats/home_cham.png\" alt=\"\"></a></div>\n<div
+  class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/vacuum-packing-machines/home-vacuum-packers\"
+  target=\"_self\">Home Chamber Vacuum Pack Machine</a></h3>\n<p>Our range of external
+  suction and chamber vacuum sealers from SousVide Supreme™, PolyScience® and Vac-Star®
+  are specially designed as an affordable, convenient, and efficient way to package
+  foods. (<a href=\"https://www.sousvidetools.com/vacuum-packing-machines/home-vacuum-packers\"
+  target=\"_self\">+more</a>).</p>\n</div>\n<button class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/vacuum-packing-machines/home-vacuum-packers')\"><span>View
+  the Range</span></button></div>\n</div>\n<div class=\"lay\">\n<div class=\"box\">\n<div
+  class=\"boximg\"><a href=\"https://www.sousvidetools.com/vacuum-packing-machines/home-external-vacuum-sealers\"><img
+  src=\"https://www.sousvidetools.com/media/wysiwyg/modern/home/home_seal.png\" alt=\"\"></a></div>\n<div
+  class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/vacuum-packing-machines/home-external-vacuum-sealers\"
+  target=\"_self\">Home Vacuum Sealers</a></h3>\n<p>Our range of chamber vacuum sealers
+  for the home chef from VACMASTER® and PolyScience®. (<a href=\"https://www.sousvidetools.com/vacuum-packing-machines/home-external-vacuum-sealers\"
+  target=\"_self\">+more</a>).</p>\n</div>\n<button class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/vacuum-packing-machines/home-external-vacuum-sealers')\"><span>View
+  the Range</span></button></div>\n<div class=\"box\">\n<div class=\"boximg\"><a href=\"https://www.sousvidetools.com/vacuum-sealer-bags/embossed-vacuum-sealer-bags\"><img
+  src=\"https://www.sousvidetools.com/media/wysiwyg/cats/sous_emb.png\" alt=\"\"></a></div>\n<div
+  class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/vacuum-sealer-bags/embossed-vacuum-sealer-bags\"
+  target=\"_self\">Embossed Vacuum Sealer Bags</a></h3>\n<p>Our embossed vacuum sealer
+  bags and rolls are designed to work with all brands of domestic/external suction
+  vacuum sealers. They are heat resistant pouches which can be used for Sous Vide
+  cooking up to 110°C. (<a href=\"https://www.sousvidetools.com/vacuum-sealer-bags/embossed-vacuum-sealer-bags\"
+  target=\"_self\">+more</a>).</p>\n</div>\n<button class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/vacuum-sealer-bags/embossed-vacuum-sealer-bags')\"><span>View
+  the Range</span></button></div>\n<div class=\"box\">\n<div class=\"boximg\"><a href=\"https://www.sousvidetools.com/vacuum-sealer-bags/zipper-vacuum-seal-bags\"><img
+  src=\"https://www.sousvidetools.com/media/wysiwyg/cats/zip.png\" alt=\"\"></a></div>\n<div
+  class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/vacuum-sealer-bags/zipper-vacuum-seal-bags\"
+  target=\"_self\">Zipper Vacuum Seal Bags</a></h3>\n<p>The pouches are high quality,
+  and their strength means that in addition to sous vide cooking, they can also be
+  steam cooked, microwaved or boiled in a pan. (<a href=\"https://www.sousvidetools.com/vacuum-sealer-bags/zipper-vacuum-seal-bags\"
+  target=\"_self\">+more</a>).</p>\n</div>\n<button class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/vacuum-sealer-bags/zipper-vacuum-seal-bags')\"><span>View
+  the Range</span></button></div>\n<div class=\"box last\">\n<div class=\"boximg\"><a
+  href=\"https://www.sousvidetools.com/vacuum-sealer-bags/chamber-vacuum-sealer-bags\"><img
+  src=\"https://www.sousvidetools.com/media/wysiwyg/modern/home/chamber.jpg\" alt=\"\"></a></div>\n<div
+  class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/vacuum-sealer-bags/chamber-vacuum-sealer-bags\"
+  target=\"_self\">Boilable Vacuum Pouchers</a></h3>\n<p>Our Boilable 80mu vacuum
+  pouches are manufactured for use with Commercial Chamber Vacuum Packing Machines.
+  They are ideal to be used with all makes of chamber vacuum packing machines.(<a
+  href=\"https://www.sousvidetools.com/vacuum-sealer-bags/chamber-vacuum-sealer-bags\"
+  target=\"_self\">+more</a>).</p>\n</div>\n<button class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/vacuum-sealer-bags/chamber-vacuum-sealer-bags')\"><span>View
+  the Range</span></button></div>\n</div>\n<div class=\"lay\">\n<div class=\"box\">\n<div
+  class=\"boximg\"><a href=\"https://www.sousvidetools.com/vacuum-sealer-bags/sousvide-supreme\"><img
+  src=\"https://www.sousvidetools.com/media/wysiwyg/modern/home/sous_supreme.png\"
+  alt=\"\"></a></div>\n<div class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/vacuum-sealer-bags/sousvide-supreme\"
+  target=\"_self\">SousVide Supreme Vacuum Sealer Bags</a></h3>\n<p>The SousVide Supreme™
+  vacuum sealable food-safe bags are specially designed to withstand the temperatures
+  involved with sous vide cooking, but can also be used for storing any kind of food
+  or dry goods. (<a href=\"https://www.sousvidetools.com/vacuum-sealer-bags/sousvide-supreme\"
+  target=\"_self\">+more</a>).</p>\n</div>\n<button class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/vacuum-sealer-bags/sousvide-supreme')\"><span>View
+  the Range</span></button></div>\n<div class=\"box\">\n<div class=\"boximg\"><a href=\"https://www.sousvidetools.com/thermometers\"><img
+  src=\"https://www.sousvidetools.com/media/wysiwyg/modern/home/thermometer.jpg\"
+  alt=\"\"></a></div>\n<div class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/thermometers\"
+  target=\"_self\">Thermometers</a></h3>\n<p>When cooking sous vide at home or in
+  the professional kitchen you want to ensure that the food you are serving is at
+  the precise temperature. This is where our sous vide thermometers come in. (<a href=\"https://www.sousvidetools.com/thermometers\"
+  target=\"_self\">+more</a>).</p>\n</div>\n<button class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/thermometers')\"><span>View
+  the Range</span></button></div>\n<div class=\"box\">\n<div class=\"boximg\"><a href=\"https://www.sousvidetools.com/modernist-cooking-concepts\"><img
+  src=\"https://www.sousvidetools.com/media/wysiwyg/modern/home/modern.png\" alt=\"\"></a></div>\n<div
+  class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/modernist-cooking-concepts\"
+  target=\"_self\">Modernist Cooking Equipment</a></h3>\n<p>This range of products
+  has come from our vast work with Chef Mark Birchall and Food Scientist Dr. Chet
+  Sharma of Moor Hall, Aughton near Ormskirk. In this range we have brought science
+  and technology together to enable new culinary inventions.. (<a href=\"https://www.sousvidetools.com/modernist-cooking-concepts\"
+  target=\"_self\">+more</a>).</p>\n</div>\n<button class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/modernist-cooking-concepts')\"><span>View
+  the Range</span></button></div>\n<div class=\"box last\">\n<div class=\"boximg\"><a
+  href=\"https://www.sousvidetools.com/cook-books\"><img src=\"https://www.sousvidetools.com/media/wysiwyg/modern/home/sousvidebook.jpg\"
+  alt=\"\"></a></div>\n<div class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/cook-books\"
+  target=\"_self\">Recipe Books</a></h3>\n<p>The definitive compilation of Sous Vide
+  Recipe Books. Recipes can be as exciting, complicated or simple as you want them
+  to be. They can involve a small amount of ingredients or many. Whatever your cooking
+  style happens to be, be inspired to investigate greater meals with our comprehensive
+  range...(<a href=\"https://www.sousvidetools.com/cook-books\" target=\"_self\">+more</a>).</p>\n</div>\n<button
+  class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/cook-books')\"><span>View
+  the Range</span></button></div>\n</div>\n<div class=\"lay\">\n<div class=\"box\">\n<div
+  class=\"boximg\"><a href=\"https://www.sousvidetools.com/bbq-s\"><img src=\"https://www.sousvidetools.com/media/wysiwyg/cats/pir_bbq.png\"
+  alt=\"\"></a></div>\n<div class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/bbq-s\"
+  target=\"_self\">BBQ's</a></h3>\n<p>One of the drawbacks of sous vide cooking is
+  that you never achieve that brown crust full of delicious flavour that traditional
+  roasting or grilling achieves. These brown bits of goodness occur because of the
+  maillard reaction and can only develop at extremely high heats not used in sous
+  vide cooking. (<a href=\"https://www.sousvidetools.com/bbq-s\" target=\"_self\">+more</a>).</p>\n</div>\n<button
+  class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/bbq-s')\"><span>View
+  the Range</span></button></div>\n<div class=\"box\">\n<div class=\"boximg\"><a href=\"https://www.sousvidetools.com/smoke-guns\"><img
+  src=\"https://www.sousvidetools.com/media/wysiwyg/cats/smoking.png\" alt=\"\"></a></div>\n<div
+  class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/smoke-guns\" target=\"_self\">Smoke
+  Gun and Wood Chips</a></h3>\n<p>The Smoking Gun™ by PolyScience® is the quickest
+  and most convenient way to apply cool natural smoke to food. The ability to expose
+  food to smoke without heat opens new ways to create exciting flavours and unexpected
+  combinations. (<a href=\"https://www.sousvidetools.com/smoke-guns\" target=\"_self\">+more</a>).</p>\n</div>\n<button
+  class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/smoke-guns')\"><span>View
+  the Range</span></button></div>\n<div class=\"box\">\n<div class=\"boximg\"><a href=\"https://www.sousvidetools.com/food-dehydrators\"><img
+  src=\"https://www.sousvidetools.com/media/wysiwyg/cats/home_dehyd.png\" alt=\"\"></a></div>\n<div
+  class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/food-dehydrators\"
+  target=\"_self\">Food Dehydrators</a></h3>\n<p>A dehydrator is a tool that uses
+  low temperatures and a fan to dry food. It essentially removes the water from food,
+  resulting in a crunchier and crispier version of the food than what went in. The
+  major benefit is that it keeps the enzymes of your raw food intact. (<a href=\"https://www.sousvidetools.com/food-dehydrators\"
+  target=\"_self\">+more</a>).</p>\n</div>\n<button class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/food-dehydrators')\"><span>View
+  the Range</span></button></div>\n<div class=\"box last\">\n<div class=\"boximg\"><a
+  href=\"https://www.sousvidetools.com/training-and-support\"><img src=\"https://www.sousvidetools.com/media/wysiwyg/modern/home/train.png\"
+  alt=\"\"></a></div>\n<div class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/training-and-support\"
+  target=\"_self\">Sous Vide Training</a></h3>\n<p>The use of sous vide or water bath
+  cooking is rapidly growing amongst Michelin star chefs, but there is a scarce supply
+  of information available on this technique for aspiring chefs or foodies; let alone
+  training. (<a href=\"https://www.sousvidetools.com/training-and-support\" target=\"_self\">+more</a>).</p>\n</div>\n<button
+  class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/training-and-support')\"><span>View
+  the Range</span></button></div>\n</div>\n<div class=\"lay\">\n<div class=\"box\">\n<div
+  class=\"boximg\"><a href=\"https://www.sousvidetools.com/sousvidetools-com-giftcard\"><img
+  src=\"https://www.sousvidetools.com/media/wysiwyg/modern/home/giftvouchers.jpg\"
+  alt=\"\"></a></div>\n<div class=\"boxcont\">\n<h3><a href=\"https://www.sousvidetools.com/sousvidetools-com-giftcard\"
+  target=\"_self\">Gift Vouchers</a></h3>\n<p>If you don't know what to buy for a
+  friend or relation, why not give them a SousVideTools.com gift voucher...it will
+  be welcome whatever the occasion. You can purchase a minimum of £10.00 up to £3000.00
+  and they never expire. (<a href=\"https://www.sousvidetools.com/sousvidetools-com-giftcard\"
+  target=\"_self\">+more</a>).</p>\n</div>\n<button class=\"form-button\" onclick=\"setLocation('https://www.sousvidetools.com/sousvidetools-com-giftcard)\"><span>View
+  the Range</span></button></div>\n</div>\n\n<script>\n$j(document).ready(function()
+  {\n    $j('.buyguide').parent().addClass('guidewrap');\n});  \n</script>\n                </div>\n
+  \           </div>\n        </div>\n                <div class=\"fullfoot\">\n\t<div
+  class=\"footer-container\">\n\t\t<div class=\"footer\">\n\t\t    <div class=\"footblock
+  sousvid\">\n\t\t\t\t<h4><a href=\"https://www.sousvidetools.com/\">Sous vide</a></h4>\n\t\t\t\t<ul>\n\t\t\t\t\t<li><a
+  href=\"https://www.sousvidetools.com/shop-home\">For The Home</a></li>\n\t\t\t\t\t<li><a
+  href=\"https://www.sousvidetools.com/shop-professional\">For The Professional</a></li>\n\t\t\t\t\t<li><a
+  href=\"https://www.sousvidetools.com/toolshed/category/recipes\">Sous Vide Recipes</a></li>\n\t\t\t\t\t<li><a
+  href=\"https://www.sousvidetools.com/sousvidetools-guide-to\">How To Guide</a></li>\n\t\t\t\t</ul>\n\t\t\t\t<h4>User
+  Access</h4>\n\t\t\t\t<div class=\"links\">\n        <ul>\n                                    <li
+  class=\"first\"><a href=\"https://www.sousvidetools.com/customer/account/\" title=\"My
+  Account\">My Account</a></li>\n                                                <li><a
+  href=\"https://www.sousvidetools.com/wishlist/\" title=\"My Wishlist\">My Wishlist</a></li>\n
+  \                                               <li><a href=\"https://www.sousvidetools.com/checkout/cart/\"
+  title=\"My Basket\" class=\"top-link-cart\">My Basket</a></li>\n                                                <li><a
+  href=\"https://www.sousvidetools.com/onestepcheckout/\" title=\"Checkout\" class=\"top-link-onestepcheckout\">Checkout</a></li>\n
+  \                                               <li><a href=\"https://www.sousvidetools.com/customer/account/create/\"
+  title=\"Register\">Register</a></li>\n                                                <li><a
+  href=\"https://www.sousvidetools.com/toolshed/\" title=\"Resource Center\" class=\"top-link-blog\">Resource
+  Centre</a></li>\n                                                <li class=\" last\"><a
+  href=\"https://www.sousvidetools.com/customer/account/login/\" title=\"Log In\">Log
+  In</a></li>\n                        </ul>\n</div>\n \n\t\t\t</div>\n\n\t\t\t<div
+  class=\"footblock best\">\n\t\t\t\t<h4>Best Sellers</h4>\n\t\t\t\t<ul>\n<li><a title=\"Sous
+  Vide Supreme\" href=\"https://www.sousvidetools.com/sousvidesupremeequip\" target=\"_self\">Sous
+  Vide Supreme</a></li>\n<li><a title=\"PolyScience® Smoke gun\" href=\"https://www.sousvidetools.com/smoke-guns\"
+  target=\"_self\">PolyScience® Smoke Gun</a></li>\n<li><a title=\"Food Dehydrators\"
+  href=\"https://www.sousvidetools.com/food-dehydrators\" target=\"_self\">Food Dehydrators</a></li>\n<li><a
+  title=\"Vacuum Pouches &amp; Sealer Bags\" href=\"https://www.sousvidetools.com/vacuum-sealer-bags\"
+  target=\"_self\">Vacuum Pouches &amp; Sealer Bags</a></li>\n<li><a title=\"Vacuum
+  Packer Machines\" href=\"https://www.sousvidetools.com/vacuum-packing-machines\"
+  target=\"_self\">Vacuum Food Sealer &amp; Packing Machines</a></li>\n</ul>\t\t\t\t\n\t\t\t\t<h4>Information</h4>\n\t\t\t\t<ul>\n<li><a
+  href=\"https://www.sousvidetools.com/about-us\" target=\"_self\">About Us</a></li>\n<li><a
+  href=\"https://www.sousvidetools.com/customer-service\">Customer Service</a></li>\n<li><a
+  href=\"https://www.sousvidetools.com/delivery\" target=\"_self\">Delivery</a></li>\n<li><a
+  href=\"https://www.sousvidetools.com/recruitment\">Join our team</a></li>\n<li class=\"last
+  privacy\"><a href=\"https://www.sousvidetools.com/privacy-policy-cookie-restriction-mode\">Privacy
+  Policy</a></li>\n</ul>\t\t\t\t\t\t\t    <div class=\"links\">\n        <ul>\n                                    <li
+  class=\"first\"><a href=\"https://www.sousvidetools.com/catalog/seo_sitemap/category/\"
+  title=\"Site Map\">Site Map</a></li>\n                                                <li><a
+  href=\"https://www.sousvidetools.com/catalogsearch/term/popular/\" title=\"Search
+  Terms\">Search Terms</a></li>\n                                                <li
+  class=\" last\"><a href=\"https://www.sousvidetools.com/catalogsearch/advanced/\"
+  title=\"Advanced Search\">Advanced Search</a></li>\n                        </ul>\n</div>\n\n\t\t\t</div>\n\n\t\t\t<div
+  class=\"footblock follow\">\n\t\t\t\t<h4>Follow us:</h4>\n\t\t\t\t<ul class=\"links
+  social\">\n\t\t\t\t\t<li><a class=\"face\" target=\"_blank\" href=\"https://www.facebook.com/pages/sousvidetoolscom/209952095719519\">Join
+  us on Facebook</a></li>\n\t\t\t\t\t<li><a class=\"twit\" target=\"_blank\" href=\"https://twitter.com/sousvidetools\">Follow
+  us on Twitter</a></li>\n\t\t\t\t\t<li><a class=\"rss\" target=\"_blank\" href=\"https://www.sousvidetools.com/toolshed/category/blog/feed\">Subscribe
+  to our Blog</a></li>\n\t\t\t\t</ul>\n\t\t\t\t<p> \n    </p><div class=\"flint_logo_home\">\n
+  \       <a onclick=\"popWin('http://www.feefo.com/reviews/sousvidetoolscom/?logon=www.sousvidetools.com',
+  'Feefo reviews', 'width=1000, height=600, toolbar=no, location=no, scrollbars=1');
+  return false;\" href=\"https://www.sousvidetools.com/feefo/popup/index/logon/www.sousvidetools.com/mode/both/order/asc/since/all/?\"
+  target=\"_blank\">\n            <img src=\"https://www.feefo.com/feefo/feefologo.jsp?logon=www.sousvidetools.com&amp;template=service-stars-grey-175x44_en.png\">\n
+  \       </a>\n    </div>\n    <p></p>\t\t\t\t<div class=\"gold1\" style=\"clear:both;\">\n\t\t
+  \       \t<a onclick=\"popWin('https://www.feefo.com/reviews/sousvidetoolscom/?logon=www.sousvidetools.com',
+  'Feefo reviews', 'width=1000, height=600, toolbar=no, location=no, scrollbars=1');
+  return false;\" href=\"https://www.sousvidetools.com/feefo/popup/index/logon/www.sousvidetools.com/mode/both/order/asc/since/all/?\"
+  target=\"_blank\">\n\t\t        \t\t<img alt=\"feefo fold trusted\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/feefo_2019.png\">\n\t\t
+  \       \t</a>\n\t\t        </div>\n\t\t\t</div>\n\n\t\t\t<div class=\"footblock
+  newsy last\">\n\t\t\t\t<div class=\"newsletter\">\n\t\t\t\t\t<div class=\"block
+  block-subscribe\">\n\n    <h4>Sign up to our Newsletter</h4>\n    <form action=\"https://www.sousvidetools.com/newsletter/subscriber/new/\"
+  method=\"post\" id=\"newsletter-validate-detail\">\n        <div class=\"block-content\">\n
+  \           <div class=\"form-subscribe-header\">\n                <label for=\"newsletter\">Sign
+  Up for Our Newsletter:</label>\n            </div>\n            <div class=\"input-box\">\n
+  \              <input type=\"email\" autocapitalize=\"off\" autocorrect=\"off\"
+  spellcheck=\"false\" name=\"email\" id=\"newsletter\" title=\"Sign up for our newsletter\"
+  class=\"input-text required-entry validate-email\">\n            </div>\n            <div
+  class=\"actions\">\n                <button type=\"submit\" title=\"Subscribe\"
+  class=\"button\"><span><span>Subscribe</span></span></button>\n            </div>\n
+  \       </div>\n    </form>\n    <script type=\"text/javascript\">\n    //<![CDATA[\n
+  \       var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');\n
+  \   //]]>\n    </script>\n    <p>Be the first to know our new products, special
+  offers, news and events.</p>\n</div>\n\t\t\t\t\t<h4>Card Payments</h4>\n\t\t\t\t\t<img
+  width=\"250\" height=\"120\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/creditcards.png\"
+  alt=\"Accepted Payment Methods\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"global\"
+  style=\"margin:10px 0px;\">\n\t\t\t\t\t<a target=\"_blank\" href=\"https://profile.globalsign.com/SiteSeal/siteSeal/profile/profile.do?p1=4b829b80&amp;p2=e58072c5a5505dcb5ebdb99dc62c929f7fd63cceb8c53084fc000a8b00e5e0d8dd76d18524f2228de69c2b86e1141cd339babc99c739d09d64cd&amp;p3=839953200d7f52bb27e04135775cc1cec6123794\"><img
+  width=\"90\" height=\"35\" src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/images/globalsign.png\"
+  alt=\"GlobalSign\"></a>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"legality\">\n\t\t\t\t<div
+  class=\"footer_left\">\n\t\t\t\t\t<div>©2019 sousvidetools.com | <a target=\"_blank\"
+  rel=\"nofollow\" href=\"http://www.piranha-solutions.com/\">Website by Piranha Solutions</a>
+  | Gastronomy Plus Ltd | Company No. 07031979 | VAT No. GB 116 6238 25</div>\n\t\t\t\t</div>\t\t\n\t\t\t</div>\n\t
+  \       \t        <!--<address class=\"copyright\"></address>-->\n\t    </div>\n\t</div>\n</div>\n\n\n<!--
+  US Popup -->\n\n<script src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/js/js.cookie.js\"></script>\n<script>\n$j(document).ready(function()
+  {\n\n\tvar cookie = Cookies.get('stay');\n\n\tif (cookie != \"set\") {\n\n\t\tsetTimeout(\n\t\t
+  \ function() \n\t\t  {\n\t\t  \n\t\t\t    $j.getJSON(\"https://freegeoip.net/json/\",
+  function (data) {\n\t\t\t\t    var country = data.country_name;\n\t\t\t\t    var
+  ip = data.ip;\n\t\t\t\t    console.log(ip);\n\t\t\t\t    console.log(country);\n\t\t\t\t
+  \   console.log(cookie);\n\t\t\t\t    // if country equals \"United States\" then
+  show popup to give option of redirect to us site\n\t\t\t\t    if (country == \"United
+  States\") {\n\t\t\t\t    \t//alert(country);\n\t\t\t\t    \t$j(\".popwrap\").fadeIn(\"slow\");\n\t\t\t\t
+  \   }\n\t\t\t\n\t\t\t\t});\n\n\t\t\t\t$j(\".close\").click(function(event) {\n\t\t\t\t
+  \   \t$j(\".popwrap\").fadeOut(\"slow\");\n\t\t\t\t    \tevent.preventDefault();\n\t\t\t\t
+  \   \tCookies.set('stay', 'set', { expires: 7 });\n\t\t\t\t});\n\n\t\t}, 1500);\n\n\t}\n
+  \n});\t\n</script>\n\n\n<div class=\"popfullwrap\">\n\t<div class=\"popwrap\">\n\t\t<div
+  class=\"popover\"></div>\n\n\t\t<div class=\"poper\">\n\t\t\t<a class=\"cltbutton
+  close\" alt=\"close\" href=\"#\">X</a>\n\t\t\t<div class=\"popinner\">\n\t\t\t\t<h2>Looks
+  like you’re in the U.S?</h2>\n\t\t\t\t<p>Visit your localized US site and shop in
+  USD!</p>\n\t\t\t\t<p><a class=\"uslink\" rel=\"nofollow\" hreflang=\"en-us\" alt=\"Redirect
+  to US site\" href=\"https://us.sousvidetools.com/catalogsearch/result/index/\">GO
+  TO US SITE <i class=\"fa fa-arrow-right\" aria-hidden=\"true\"></i></a></p>\n\t\t\t\t<p
+  class=\"popsmall\"><a class=\"close\" alt=\"close\" href=\"#\">Continue to sousvidetools.com
+  <i class=\"fa fa-arrow-right\" aria-hidden=\"true\"></i></a></p>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n\n<style>\n\n\t.popwrap
+  {z-index:50;display:none;position:absolute;top:0px;width:100%;height: 100%;}\n\t.popover
+  {position:absolute;width:100%;height:100%;background:#000;opacity: 0.8;}\n\t.poper
+  {\n\t\tbackground:#fff;border:1px solid #e5e5e5;\n\t\tposition: relative;\n\t\ttop:
+  50%;\n\t\tleft: 50%;\n\t\ttransform: translate(-50%, -50%);\n\t\twidth:100%;\n\t\tmax-width:320px;\n\t}\n\t.popinner
+  {position:relative;padding:15px;}\n\t.popinner h2 {color:#EE4035;}\n\t.cltbutton
+  {z-index: 50;position:absolute;right:0px;top:0px;padding:3px;background:#333;color:#fff;}\n\t.cltbutton:hover
+  {text-decoration: none;}\n\t.popsmall {font-size:11px;font-style: italic;}\n\t.uslink
+  {text-transform:uppercase;font-size:18px;padding:8px;display:block;margin:8px 0px;background:#004C66;color:#fff;}\n\t.uslink:hover
+  {text-decoration: none;color:#fff;opacity: 0.9;}\n\n\t.blog .popfullwrap {display:none
+  !important;}\n\n</style>\n\n<!-- End US Popup -->                \n\n<div id=\"acp-overlay\"
+  class=\"ajaxcartpro-box-hide\"></div><div id=\"ajaxcartpro-progress\" class=\"ajaxcartpro-box-hide\">\n
+  \           <img src=\"https://www.sousvidetools.com/skin/frontend/sousvide_v5/default/ajaxcartpro/images/al.gif\"
+  alt=\"\">\n        <p>Please wait...</p>\n</div>\n<div id=\"ajaxcartpro-add-confirm\"
+  class=\"ajaxcartpro-box-hide\">\n\t<span>✔ Product added to your basket</span>\n\n
+  \   <p>What would you like to do now?</p>\n    <div class=\"ajcart\">\n    \n<a
+  class=\"conti aw-acp-continue conbut focus\">Continue shopping</a>\n<br>\n<a href=\"https://www.sousvidetools.com/checkout/cart/\"
+  class=\"basbut form-button\">View Basket</a>\n<a href=\"https://www.sousvidetools.com/onestepcheckout/\"
+  class=\"chebut form-button\">Checkout</a>\n                </div>\n<div id=\"ajaxcartpro-remove-confirm\"
+  class=\"ajaxcartpro-box-hide\">\n    \n<a class=\"conti aw-acp-continue conbut focus\">Continue
+  shopping</a>\n<br>\n<a href=\"https://www.sousvidetools.com/checkout/cart/\" class=\"basbut
+  form-button\">View Basket</a>\n<a href=\"https://www.sousvidetools.com/onestepcheckout/\"
+  class=\"chebut form-button\">Checkout</a>\n                </div>\n<div id=\"acp-configurable-block\"></div>
+  <script>\n  fbq('track', 'ViewCategory', {\n    source: 'magento',\n    version:
+  \"1.9.0.1\",\n    pluginVersion: \"2.1.20\"\n   , content_category: \"Sous Vide
+  Equipment for Home Cooking\"\n    });\n </script>\n\n<script type=\"text/javascript\">\n/*
+  <![CDATA[ */\nvar google_tag_params = {\n\tecomm_pagetype: \"category\",\n\tecomm_category:
+  \"Sous Vide Equipment for Home Cooking\"\n};\nvar google_conversion_id = 1017811176;\nvar
+  google_custom_params = google_tag_params;\nvar google_remarketing_only = true;\n/*
+  ]]> */\n</script>\n<script type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\n</script>\n<noscript>\n<div
+  style=\"display:inline;\">\n<img height=\"1\" width=\"1\" style=\"border-style:none;\"
+  alt=\"\" src=\"//googleads.g.doubleclick.net/pagead/viewthroughconversion/1017811176/?value=0&amp;guid=ON&amp;script=0&amp;data=ecomm_pagetype%3Dcategory%3Becomm_category%3DSous+Vide+Equipment+for+Home+Cooking\"/>\n</div>\n</noscript>
+  \   </div>\n</div>\n\n<script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"4497193e96\",\"applicationID\":\"151053116\",\"transactionName\":\"M1EBZBdSCEcEUkNRWQobIlMRWglaSlJWTFcIWwQfBlISUQJeRUEZEl0GRw==\",\"queueTime\":0,\"applicationTime\":131,\"atts\":\"HxYCEl9IG0k=\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script>\n\n\n</div></body></html>"

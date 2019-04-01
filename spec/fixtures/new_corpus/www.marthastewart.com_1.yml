@@ -1,0 +1,882 @@
+---
+:url: https://www.marthastewart.com/1500950/how-sous-vide-without-fancy-machine
+:body: "<!DOCTYPE html><html class=\"new wf-loading js js flexbox canvas canvastext
+  webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history
+  draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius
+  boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections
+  csstransforms csstransforms3d csstransitions fontface generatedcontent video audio
+  localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths
+  wf-actadisplay-i3-loading wf-actadisplay-i5-loading wf-actadisplay-n3-loading wf-actadisplay-n5-loading
+  wf-dincondensedweb-n4-loading wf-freightsanspro-n5-loading wf-freightsanspro-n7-loading\"
+  lang=\"en\" xmlns:fb=\"http://ogp.me/ns/fb#\" dir=\"ltr\"><!--<![endif]--><head>\n
+  \   <script src=\"https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.-MMu-2qpHGU.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=wQ/rs=AGLTcCNSjN7dw0eNDjgYhqJQsZ4rqaBh2w/cb=gapi.loaded_0\"
+  async=\"\"></script><script src=\"https://connect.facebook.net/en_US/all.js?hash=fa38613ce47d3c5b52d3d33453ec3684&amp;ua=modern_es6\"
+  async=\"\" crossorigin=\"anonymous\"></script><script src=\"https://karma.mdpcdn.com/service/js-min/karma.footer.js\"></script><script
+  async=\"\" src=\"//tracking.skyword.com/tracker.js?contentId=281474979458874\"></script><script
+  async=\"\" src=\"//apis.google.com/js/plusone.js\" gapi_processed=\"true\"></script><script
+  id=\"twitter-wjs\" src=\"https://platform.twitter.com/widgets.js\"></script><script
+  id=\"facebook-jssdk\" src=\"//connect.facebook.net/en_US/all.js#xfbml=1&amp;status=0&amp;appId=393254810836193\"></script><script
+  async=\"\" src=\"//www.googletagmanager.com/gtm.js?id=GTM-9NDX2\"></script><script
+  type=\"text/javascript\" async=\"\" src=\"https://cdn.krxd.net/controltag?confid=Jev6eSh4\"></script><script
+  src=\"//typekit.marthastewart.com/xvs1ueu.js\" async=\"\"></script><script>\n      window.mdp
+  = window.mdp || {};\n      window.mdp.gdpr = window.mdp.gdpr || {};\n      window.mdp.gdpr.siteLogoHtml
+  = '<img src=\"https://images.meredith.com/common/logos/meredith_logo.svg\" />';\n
+  \   </script>\n    <script src=\"https://geoscripts.meredith.services/public/javascripts/mdp.javascript.gdpr.min.1.0.0.js\"></script>\n
+  \   <script>\n    (function () {\n      function getCookie(name) {\n        var
+  dc = document.cookie;\n        var prefix = name + \"=\";\n        var begin = dc.indexOf(\";
+  \" + prefix);\n        if (begin === -1) {\n          begin = dc.indexOf(prefix);\n
+  \         if (begin !== 0) return null;\n        }\n        else {\n          begin
+  += 2;\n          var end = document.cookie.indexOf(\";\", begin);\n          if
+  (end === -1) {\n            end = dc.length;\n          }\n        }\n        return
+  decodeURI(dc.substring(begin + prefix.length, end));\n      } \n      window.mdp
+  = window.mdp || {};\n      window.mdp.gdpr = window.mdp.gdpr || {};\n      var uid
+  = getCookie('euConsentId') || getCookie('globalTI_SID') || '';\n      var dsarFormLink
+  = 'https://app-de.onetrust.com/app/#/webform/0c410d51-8e85-4308-9bb9-37c24a461ccb?uid='
+  + uid;\n      window.mdp.gdpr.dsarFormLink = dsarFormLink;\n    })();\n    </script>\n
+  \   <script type=\"text/javascript\" src=\"/sites/all/modules/custom/mslo_datalayer/js/mslo_datalayer-header-scripts.js\"></script>\n
+  \   <meta name=\"HandheldFriendly\" content=\"True\">\n    <meta name=\"MobileOptimized\"
+  content=\"320\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0,
+  maximum-scale=1.0, user-scalable=0\">\n    <meta http-equiv=\"cleartype\" content=\"on\">\n
+  \   <link rel=\"apple-touch-icon\" href=\"https://www.marthastewart.com/sites/all/themes/emma/img/touch-icon.png\">\n
+  \   <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"https://www.marthastewart.com/sites/all/themes/emma/img/touch-icon-76.png\">\n
+  \   <link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"https://www.marthastewart.com/sites/all/themes/emma/img/touch-icon-120.png\">\n
+  \   <link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"https://www.marthastewart.com/sites/all/themes/emma/img/touch-icon-152.png\">\n
+  \   <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"https://www.marthastewart.com/sites/all/themes/emma/img/touch-icon-180.png\">\n
+  \         <meta http-equiv=\"x-dns-prefetch-control\" content=\"on\">\n<link rel=\"dns-prefetch\"
+  href=\"https://fonts.marthastewart.com\">\n<link rel=\"dns-prefetch\" href=\"https://karma.mdpcdn.com\">\n<link
+  rel=\"dns-prefetch\" href=\"https://ajax.googleapis.com\">\n<link rel=\"dns-prefetch\"
+  href=\"https://fonts.googleapis.com\">\n<link rel=\"dns-prefetch\" href=\"https://cdn.krxd.net\">\n<link
+  rel=\"dns-prefetch\" href=\"https://typekit.marthastewart.com\">\n<link rel=\"dns-prefetch\"
+  href=\"https://www.googletagmanager.com\">\n<link rel=\"dns-prefetch\" href=\"https://www.googletagservices.com\">\n
+  \       <!--[if IE]><![endif]-->\n<meta http-equiv=\"Content-Type\" content=\"text/html;
+  charset=utf-8\"><script type=\"text/javascript\">(window.NREUM||(NREUM={})).loader_config={xpid:\"VQUGVFNXGwUCV1haAwQ=\"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function
+  r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return
+  r(o||n)},o,o.exports)}return n[e].exports}if(\"function\"==typeof __nr_require)return
+  __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function
+  r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t(\"ee\"),a=t(16),s={};try{o=localStorage.getItem(\"__nr_flags\").split(\",\"),console&&\"function\"==typeof
+  console.log&&(s.console=!0,o.indexOf(\"dev\")!==-1&&(s.dev=!0),o.indexOf(\"nr_dev\")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on(\"internal-error\",function(t){r(t.stack)}),s.dev&&i.on(\"fn-err\",function(t,n,e){r(e.stack)}),s.dev&&(r(\"NR
+  AGENT IN DEVELOPMENT MODE\"),r(\"flags: \"+a(s,function(t,n){return t}).join(\",
+  \")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i(\"ierr\",[f,c.now(),!0])}catch(d){}}return\"function\"==typeof
+  u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||\"Uncaught
+  error with no additional information\",this.sourceURL=n,this.line=e}function o(t,n){var
+  e=n?null:c.now();i(\"err\",[t,e])}var i=t(\"handle\"),a=t(17),s=t(\"ee\"),c=t(\"loader\"),f=t(\"gos\"),u=window.onerror,d=!1,l=\"nr@seenError\",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw
+  new Error}catch(h){\"stack\"in h&&(t(8),t(7),\"addEventListener\"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on(\"fn-start\",function(t,n,e){d&&(p+=1)}),s.on(\"fn-err\",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on(\"fn-end\",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on(\"internal-error\",function(t){i(\"ierr\",[t,c.now(),!0])})},{}],3:[function(t,n,e){t(\"loader\").features.ins=!0},{}],4:[function(t,n,e){function
+  r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var
+  o=t(\"ee\"),i=t(\"handle\"),a=t(8),s=t(7),c=\"learResourceTimings\",f=\"addEventListener\",u=\"resourcetimingbufferfull\",d=\"bstResource\",l=\"resource\",p=\"-start\",h=\"-end\",m=\"fn\"+p,v=\"fn\"+h,w=\"bstTimer\",y=\"pushState\",g=t(\"loader\");g.features.stn=!0,t(6);var
+  b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var
+  e=t[0];e instanceof b&&i(\"bst\",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),\"requestAnimationFrame\"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i(\"bstHist\",[location.pathname+location.hash,this.startPath,this.time])}),f
+  in window.performance&&(window.performance[\"c\"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance[\"c\"+c]()},!1):window.performance[f](\"webkit\"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance[\"webkitC\"+c]()},!1)),document[f](\"scroll\",r,{passive:!0}),document[f](\"keypress\",r,!1),document[f](\"click\",r,!1)}},{}],5:[function(t,n,e){function
+  r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function
+  o(t){s.inPlace(t,[u,d],\"-\",i)}function i(t,n){return t[1]}var a=t(\"ee\").get(\"events\"),s=t(19)(a,!0),c=t(\"gos\"),f=XMLHttpRequest,u=\"addEventListener\",d=\"removeEventListener\";n.exports=a,\"getPrototypeOf\"in
+  Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+\"-start\",function(t,n){var
+  e=t[1],r=c(e,\"nr@wrapped\",function(){function t(){if(\"function\"==typeof e.handleEvent)return
+  e.handleEvent.apply(e,arguments)}var n={object:t,\"function\":e}[typeof e];return
+  n?s(n,\"fn-\",null,n.name||\"anonymous\"):e});this.wrapped=t[1]=r}),a.on(d+\"-start\",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var
+  r=t(\"ee\").get(\"history\"),o=t(19)(r);n.exports=r,o.inPlace(window.history,[\"pushState\",\"replaceState\"],\"-\")},{}],7:[function(t,n,e){var
+  r=t(\"ee\").get(\"raf\"),o=t(19)(r),i=\"equestAnimationFrame\";n.exports=r,o.inPlace(window,[\"r\"+i,\"mozR\"+i,\"webkitR\"+i,\"msR\"+i],\"raf-\"),r.on(\"raf-start\",function(t){t[0]=o(t[0],\"fn-\")})},{}],8:[function(t,n,e){function
+  r(t,n,e){t[0]=a(t[0],\"fn-\",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],\"fn-\",this,e)}var
+  i=t(\"ee\").get(\"timer\"),a=t(19)(i),s=\"setTimeout\",c=\"setInterval\",f=\"clearTimeout\",u=\"-start\",d=\"-\";n.exports=i,a.inPlace(window,[s,\"setImmediate\"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,\"clearImmediate\"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function
+  r(t,n){d.inPlace(n,[\"onreadystatechange\"],\"fn-\",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit(\"xhr-resolved\",[],t)),d.inPlace(t,y,\"fn-\",s)}function
+  i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function
+  s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t(\"ee\"),u=f.get(\"xhr\"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w=\"readystatechange\",y=[\"onload\",\"onerror\",\"onabort\",\"onloadstart\",\"onloadend\",\"onprogress\",\"ontimeout\"],g=[];n.exports=u;var
+  b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit(\"new-xhr\",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit(\"internal-error\",[e])}catch(r){}}return
+  n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,[\"open\",\"send\"],\"-xhr-\",s),u.on(\"send-xhr-start\",function(t,n){r(t,n),i(n)}),u.on(\"open-xhr-start\",r),h){var
+  x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else
+  f.on(\"fn-end\",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function
+  r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var
+  i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader(\"X-NewRelic-App-Data\");c&&(n.cat=c.split(\",
+  \").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit(\"xhr-done\",[t],t),s(\"xhr\",[n,e,this.startTime])}}}function
+  o(t,n){var e=t.responseType;if(\"json\"===e&&null!==n)return n;var r=\"arraybuffer\"===e||\"blob\"===e||\"json\"===e?t.response:t.responseText;return
+  h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+\":\"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var
+  a=t(\"loader\");if(a.xhrWrappable){var s=t(\"handle\"),c=t(11),f=t(\"ee\"),u=[\"load\",\"error\",\"abort\",\"timeout\"],d=u.length,l=t(\"id\"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on(\"new-xhr\",function(t){var
+  n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener(\"progress\",function(t){n.lastSize=t.loaded},!1)}),f.on(\"open-xhr-start\",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on(\"open-xhr-end\",function(t,n){\"loader_config\"in
+  NREUM&&\"xpid\"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader(\"X-NewRelic-ID\",NREUM.loader_config.xpid)}),f.on(\"send-xhr-start\",function(t,n){var
+  e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{\"abort\"===t.type&&(o.params.aborted=!0),(\"load\"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||\"function\"!=typeof
+  n.onload))&&o.end(n)}catch(e){try{f.emit(\"internal-error\",[e])}catch(r){}}};for(var
+  s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on(\"xhr-cb-time\",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&\"function\"==typeof
+  e.onload||this.end(e)}),f.on(\"xhr-load-added\",function(t,n){var e=\"\"+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on(\"xhr-load-removed\",function(t,n){var
+  e=\"\"+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on(\"addEventListener-end\",function(t,n){n
+  instanceof m&&\"load\"===t[0]&&f.emit(\"xhr-load-added\",[t[1],t[2]],n)}),f.on(\"removeEventListener-end\",function(t,n){n
+  instanceof m&&\"load\"===t[0]&&f.emit(\"xhr-load-removed\",[t[1],t[2]],n)}),f.on(\"fn-start\",function(t,n,e){n
+  instanceof m&&(\"onload\"===e&&(this.onload=!0),(\"load\"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on(\"fn-end\",function(t,n){this.xhrCbStart&&f.emit(\"xhr-cb-time\",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var
+  n=document.createElement(\"a\"),e=window.location,r={};n.href=t,r.port=n.port;var
+  o=n.href.split(\"://\");!r.port&&o[1]&&(r.port=o[1].split(\"/\")[0].split(\"@\").pop().split(\":\")[1]),r.port&&\"0\"!==r.port||(r.port=\"https\"===o[0]?\"443\":\"80\"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],\"/\"!==r.pathname.charAt(0)&&(r.pathname=\"/\"+r.pathname);var
+  i=!n.protocol||\":\"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return
+  r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function
+  o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void
+  0:this}}var i=t(\"handle\"),a=t(16),s=t(17),c=t(\"ee\").get(\"tracer\"),f=t(\"loader\"),u=NREUM;\"undefined\"==typeof
+  window.newrelic&&(newrelic=u);var d=[\"setPageViewName\",\"setCustomAttribute\",\"setErrorHandler\",\"finished\",\"addToTrace\",\"inlineHit\",\"addRelease\"],l=\"api-\",p=l+\"ixn-\";a(d,function(t,n){u[n]=o(l+n,!0,\"api\")}),u.addPageAction=o(l+\"addPageAction\",!0),u.setCurrentRouteName=o(l+\"routeName\",!0),n.exports=newrelic,u.interaction=function(){return(new
+  r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o=\"function\"==typeof
+  n;return i(p+\"tracer\",[f.now(),t,e],r),function(){if(c.emit((o?\"\":\"no-\")+\"fn-start\",[f.now(),r,o],e),o)try{return
+  n.apply(this,arguments)}catch(t){throw c.emit(\"fn-err\",[arguments,this,t],e),t}finally{c.emit(\"fn-end\",[f.now()],e)}}}};a(\"actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get\".split(\",\"),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){\"string\"==typeof
+  t&&(t=new Error(t)),i(\"err\",[t,f.now(),!1,n])}},{}],13:[function(t,n,e){n.exports=function(t){if(\"string\"==typeof
+  t&&t.length)return t.length;if(\"object\"==typeof t){if(\"undefined\"!=typeof ArrayBuffer&&t
+  instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if(\"undefined\"!=typeof
+  Blob&&t instanceof Blob&&t.size)return t.size;if(!(\"undefined\"!=typeof FormData&&t
+  instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var
+  r=0,o=navigator.userAgent.match(/Firefox[\\/\\s](\\d+\\.\\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function
+  r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split(\".\"),r=n.split(\".\"),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var
+  o=null,i=null,a=/Version\\/(\\S+)\\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf(\"Chrome\")===-1&&s.indexOf(\"Chromium\")===-1&&(o=\"Safari\",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function
+  r(t,n){var e=[],r=\"\",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return
+  e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function
+  r(t,n,e){n||(n=0),\"undefined\"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return
+  i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:\"undefined\"!=typeof window.performance&&window.performance.timing&&\"undefined\"!=typeof
+  window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t
+  instanceof Function&&t.apply&&!t[a])}var o=t(\"ee\"),i=t(17),a=\"nr@original\",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function
+  e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s=\"function\"==typeof
+  e?e(r,a):e||{}}catch(f){l([f,\"\",[r,a,o],s])}u(n+\"start\",[r,a,o],s);try{return
+  c=t.apply(a,r)}catch(d){throw u(n+\"err\",[r,a,d],s),d}finally{u(n+\"end\",[r,a,c],s)}}return
+  r(t)?t:(n||(n=\"\"),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o=\"\");var
+  a,s,c,f=\"-\"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function
+  u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function
+  d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return
+  t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return
+  n}function l(n){try{t.emit(\"internal-error\",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function
+  r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function
+  e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var
+  d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function
+  h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function
+  m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||\"feature\",g[e]=n,n
+  in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return
+  b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var
+  s=\"nr@context\",c=t(\"gos\"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function
+  r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return
+  Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return
+  t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function
+  r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t(\"ee\").get(\"handle\");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function
+  r(t){var n=typeof t;return!t||\"object\"!==n&&\"function\"!==n?-1:t===window?0:a(t,i,function(){return
+  o++})}var o=1,i=\"nr@id\",a=t(\"gos\");n.exports=r},{}],loader:[function(t,n,e){function
+  r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName(\"script\")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return
+  u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c(\"mark\",[\"onload\",a()+x.offset],null,\"api\");var
+  e=p.createElement(\"script\");e.src=\"https://\"+t.agent,n.parentNode.insertBefore(e,n)}}function
+  o(){\"complete\"===p.readyState&&i()}function i(){c(\"mark\",[\"domContent\",a()+x.offset],null,\"api\")}function
+  a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new
+  Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t(\"handle\"),f=t(16),u=t(\"ee\"),d=t(15),l=window,p=l.document,h=\"addEventListener\",m=\"attachEvent\",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var
+  y=\"\"+location,g={beacon:\"bam.nr-data.net\",errorBeacon:\"bam.nr-data.net\",agent:\"js-agent.newrelic.com/nr-1118.min.js\"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h](\"DOMContentLoaded\",i,!1),l[h](\"load\",r,!1)):(p[m](\"onreadystatechange\",o),l[m](\"onload\",r)),c(\"mark\",[\"firstbyte\",s],null,\"api\");var
+  E=0,O=t(18)},{}]},{},[\"loader\",2,10,4,3]);</script>\n<link rel=\"shortcut icon\"
+  href=\"https://www.marthastewart.com/sites/all/themes/emma/favicon.ico\" type=\"image/vnd.microsoft.icon\">\n<link
+  href=\"https://plus.google.com/+MarthaStewart\" rel=\"publisher\">\n<meta name=\"description\"
+  content=\"Juicy, flavor-packed, and impossibly tender, a sous vide steak is an extraordinary
+  meal that you can make in your kitchen tonight, no special equipment required. And
+  steak's just the beginning! There's no end to what you can achieve, from delicate
+  fish to snappy asparagus, when you can control how your food cooks with this simple
+  method.\">\n<link rel=\"canonical\" href=\"https://www.marthastewart.com/1500950/how-sous-vide-without-fancy-machine\">\n<meta
+  property=\"og:site_name\" content=\"Martha Stewart\">\n<meta property=\"og:type\"
+  content=\"article\">\n<meta property=\"og:url\" content=\"https://www.marthastewart.com/1500950/how-sous-vide-without-fancy-machine\">\n<meta
+  property=\"og:title\" content=\"How to Sous Vide Without the Fancy Machine\">\n<meta
+  property=\"og:description\" content=\"Juicy, flavor-packed, and impossibly tender,
+  a sous vide steak is an extraordinary meal that you can make in your kitchen tonight,
+  no special equipment required. And steak's just the beginning! There's no end to
+  what you can achieve, from delicate fish to snappy asparagus, when you can control
+  how your food cooks with this simple method.\">\n<meta property=\"og:updated_time\"
+  content=\"2018-09-20T16:50:06-04:00\">\n<meta property=\"og:image\" content=\"https://assets.marthastewart.com/styles/wmax-1500/d14/sous-vide-MS01/sous-vide-MS01.JPG?itok=yidACNx_\">\n<meta
+  name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\"
+  content=\"@MS_Living\">\n<meta name=\"twitter:site:id\" content=\"154584937\">\n<meta
+  name=\"twitter:title\" content=\"How to Sous Vide Without the Fancy Machine\">\n<meta
+  name=\"twitter:url\" content=\"https://www.marthastewart.com/1500950/how-sous-vide-without-fancy-machine\">\n<meta
+  name=\"twitter:description\" content=\"Juicy, flavor-packed, and impossibly tender,
+  a sous vide steak is an extraordinary meal that you can make in your kitchen tonight,
+  no special equipment required. And steak's just the beginning! There's no end to
+  what you can achieve, from delicate fish to snappy asparagus, when you can control
+  how your food cooks with this simple method.\">\n<meta name=\"twitter:image\" content=\"https://assets.marthastewart.com/styles/wmax-1500/d14/sous-vide-MS01/sous-vide-MS01.JPG?itok=yidACNx_\">\n<meta
+  property=\"article:published_time\" content=\"2015-11-24T14:21:57-05:00\">\n<meta
+  property=\"article:modified_time\" content=\"2018-09-20T16:50:06-04:00\">\n    <title>How
+  to Sous Vide Without the Fancy Machine | Martha Stewart</title>\n    <link type=\"text/css\"
+  rel=\"stylesheet\" href=\"https://www.marthastewart.com/sites/files/marthastewart.com/advagg_css/css__9cWqptSUNYq5YedfIwh33VxtugFVWjDdEsblT8GhLKI__quUjyhSfbEukHj8a0hYvzm9VTmPALmSZvA0xfM_Oxzo__vhROgUFYNNxdJIDEF8eYVsRBDa24-zNuTl0oFt1Yv1w.css\"
+  media=\"all\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.marthastewart.com/sites/files/marthastewart.com/advagg_css/css__iYr6XDLZ6uYGCy9atxLAn5AyOCClgDQalN8in6VZRjM__kT6rJVDeDxBQtiL8cvPqO4Mu0rbwBeD_OMddjB7_hFw__vhROgUFYNNxdJIDEF8eYVsRBDa24-zNuTl0oFt1Yv1w.css\"
+  media=\"all\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.marthastewart.com/sites/files/marthastewart.com/advagg_css/css__2C9S_20d_1xsmGKHv_i7_94JbOZmTLjFdKarvlEXm5I__4fbqENbI3sa-xPkJQ1z7kQVb7lvGCwhyHmt9uxtbtNw__vhROgUFYNNxdJIDEF8eYVsRBDa24-zNuTl0oFt1Yv1w.css\"
+  media=\"all\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.marthastewart.com/sites/files/marthastewart.com/advagg_css/css__Fi2b6RrcMKaFv3GYzZlTN9SdS3J4XY9HoNJt8n8LOVM__GVHc_kBGXpUHiFnZNM1Fj6PeA9CuwVu4kt0IA8K3gAM__vhROgUFYNNxdJIDEF8eYVsRBDa24-zNuTl0oFt1Yv1w.css\"
+  media=\"all\">\n          <script type=\"text/javascript\" class=\"typekit-script\">\n
+  \       (function(d){var config={kitId:\"xvs1ueu\",scriptTimeout:3000},h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\\bwf-loading\\b/g,\"\")+\"
+  wf-inactive\";},config.scriptTimeout),tk=d.createElement(\"script\"),f=false,s=d.getElementsByTagName(\"script\")[0],a;h.className+=\"
+  wf-loading\";tk.src='//typekit.marthastewart.com/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!=\"complete\"&&a!=\"loaded\")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)})(document);\n
+  \     </script>\n                  <script class=\"kxct\" data-id=\"Jev6eSh4\" data-version=\"async:1.7\"
+  type=\"text/javascript\" id=\"mslo-krux-js\">\n        window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+  (function(){ var k=document.createElement('script');k.type='text/javascript';k.async=true;
+  var m,src=(m=location.href.match(/\\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]);
+  k.src = /^https?:\\/\\/([^\\/]+\\.)?krxd\\.net(:\\d{1,5})?\\//i.test(src) ? src
+  : src === \"disable\" ? \"\" : (location.protocol===\"https:\"?\"https:\":\"http:\")+\"//cdn.krxd.net/controltag?confid=Jev6eSh4\";
+  var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+  })();\n      </script>\n        <script type=\"text/javascript\" src=\"//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>\n<script
+  type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nwindow.jQuery || document.write(\"<script
+  src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js'>\\x3C/script>\")\n//--><!]]>\n</script>\n<script
+  type=\"text/javascript\" src=\"https://www.marthastewart.com/sites/files/marthastewart.com/advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__JIy-3lUpq3qC8JjvfOMkqOB8loYzuE93VQgLvC7HpVM__vhROgUFYNNxdJIDEF8eYVsRBDa24-zNuTl0oFt1Yv1w.js\"></script>\n<script
+  type=\"text/javascript\" src=\"https://www.marthastewart.com/sites/files/marthastewart.com/advagg_js/js__v6Ydsa-oLVsCbWBUPEs_rmv-EgYK35mJXlwzszDg2io__NcbPgl6yce1cPkJcub1SVldKst10pVo0nN36XtkHZn8__vhROgUFYNNxdJIDEF8eYVsRBDa24-zNuTl0oFt1Yv1w.js\"></script>\n<script
+  type=\"text/javascript\" src=\"https://karma.mdpcdn.com/service/js-min/karma.header.js\"></script>\n<script
+  type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\njQuery.extend(Drupal.settings,
+  {\"basePath\":\"\\/\",\"pathPrefix\":\"\",\"ajaxPageState\":{\"theme\":\"emma\",\"theme_token\":\"2Q44jhQTzUs-lVnrEl7Dl1Gv2Nk6R-xEe2aKMf50UFM\",\"css\":{\"modules\\/system\\/system.base.css\":1,\"modules\\/system\\/system.menus.css\":1,\"modules\\/system\\/system.theme.css\":1,\"sites\\/all\\/modules\\/contrib\\/date\\/date_api\\/date.css\":1,\"sites\\/all\\/modules\\/contrib\\/date\\/date_popup\\/themes\\/datepicker.1.7.css\":1,\"modules\\/field\\/theme\\/field.css\":1,\"modules\\/node\\/node.css\":1,\"modules\\/search\\/search.css\":1,\"sites\\/all\\/modules\\/contrib\\/tabledragextra\\/tabledragextra.css\":1,\"modules\\/user\\/user.css\":1,\"sites\\/all\\/modules\\/contrib\\/views\\/css\\/views.css\":1,\"sites\\/all\\/modules\\/custom\\/pronto_msn\\/modules\\/contrib\\/entity_embed\\/css\\/entity_embed.css\":1,\"sites\\/all\\/modules\\/custom\\/mslo_themehelper\\/js\\/managed\\/bower_components\\/mdpBowerComments\\/dist\\/css-min\\/mdpComments.css\":1,\"sites\\/all\\/modules\\/contrib\\/ctools\\/css\\/ctools.css\":1,\"sites\\/all\\/themes\\/emma_base\\/css\\/boilerplate.css\":1,\"sites\\/all\\/themes\\/emma\\/css\\/emma-main.css\":1,\"sites\\/all\\/themes\\/emma_base\\/defaults.css\":1,\"sites\\/all\\/themes\\/emma_base\\/system.menus.css\":1,\"sites\\/all\\/themes\\/emma_base\\/system.theme.css\":1,\"sites\\/all\\/themes\\/emma_base\\/system.css\":1,\"sites\\/all\\/themes\\/emma_base\\/node.css\":1,\"sites\\/all\\/themes\\/emma_base\\/search.css\":1,\"sites\\/all\\/themes\\/emma_base\\/user.css\":1,\"sites\\/all\\/themes\\/emma_base\\/apachesolr_autocomplete.css\":1,\"sites\\/all\\/themes\\/emma_base\\/jquery.autocomplete.css\":1,\"sites\\/all\\/themes\\/emma_base\\/content-module.css\":1,\"sites\\/all\\/themes\\/emma_base\\/date.css\":1,\"sites\\/all\\/themes\\/emma_base\\/datepicker.1.7.css\":1,\"sites\\/all\\/themes\\/emma_base\\/jquery.timeentry.css\":1,\"sites\\/all\\/themes\\/emma_base\\/filefield.css\":1,\"sites\\/all\\/themes\\/emma_base\\/ms_editorial_ui_search_interface.css\":1,\"sites\\/all\\/themes\\/emma_base\\/fieldgroup.css\":1,\"sites\\/all\\/themes\\/emma_base\\/content_multigroup.css\":1,\"sites\\/all\\/themes\\/emma_base\\/printlinks.css\":1,\"sites\\/all\\/themes\\/emma_base\\/ctools.css\":1,\"sites\\/all\\/themes\\/emma_base\\/views.css\":1,\"sites\\/all\\/themes\\/emma_base\\/field.css\":1,\"sites\\/all\\/themes\\/emma_base\\/jquery.ui.tabs.css\":1,\"sites\\/all\\/themes\\/emma_base\\/datepicker.css\":1,\"sites\\/all\\/themes\\/emma_base\\/ui.datepicker.css\":1,\"sites\\/all\\/themes\\/emma_base\\/ui.all.css\":1,\"sites\\/all\\/themes\\/emma_base\\/hierarchial_taxonomy_autocomplete.css\":1,\"sites\\/all\\/themes\\/emma\\/css\\/emma-post.css\":1},\"js\":{\"sites\\/all\\/modules\\/custom\\/mslo_themehelper\\/js\\/modernizr-2.6.1.min.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_themehelper\\/js\\/underscore-min.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_themehelper\\/js\\/backbone-min.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_themehelper\\/js\\/handlebars.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_themehelper\\/js\\/jquery.lazyload.min.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_themehelper\\/js\\/slick.min.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_themehelper\\/js\\/jquery.ba-tinypubsub.min.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_social\\/js\\/facebook_script.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_social\\/js\\/twitter_script.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_social\\/js\\/googleplus_script.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_themehelper\\/js\\/managed\\/bower_components\\/dotdotdot\\/src\\/jquery.dotdotdot.min.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_themehelper\\/js\\/managed\\/bower_components\\/mdpBowerComments\\/dist\\/js-min\\/jquery.mdpcomments.js\":1,\"sites\\/all\\/modules\\/custom\\/skyword\\/js\\/content_tracking.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_themehelper\\/js\\/mslo_themehelper.js\":1,\"sites\\/all\\/modules\\/custom\\/ugc_frontend_authorization\\/js\\/ugc_frontend_authorization.js\":1,\"sites\\/all\\/modules\\/custom\\/ugc_frontend_authorization\\/js\\/ugc_frontend_app.js\":1,\"sites\\/all\\/modules\\/features\\/mslo_image\\/js\\/mslo_image.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_datalayer\\/js\\/mdp_gpt.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_social\\/js\\/mslo_social.js\":1,\"sites\\/all\\/modules\\/features\\/mslo_search\\/js\\/mslo_search.js\":1,\"sites\\/all\\/modules\\/features\\/mslo_post\\/js\\/mslo_post.js\":1,\"sites\\/all\\/modules\\/custom\\/mslo_social\\/js\\/mslo_comments.js\":1,\"sites\\/all\\/themes\\/emma\\/js\\/emma-scripts.js\":1,\"sites\\/all\\/themes\\/emma_base\\/js\\/emma_base-scripts.js\":1,\"\\/\\/ajax.googleapis.com\\/ajax\\/libs\\/jquery\\/1.10.2\\/jquery.min.js\":1,\"misc\\/jquery.once.js\":1,\"misc\\/drupal.js\":1,\"sites\\/all\\/modules\\/contrib\\/jquery_update\\/replace\\/ui\\/external\\/jquery.cookie.js\":1,\"https:\\/\\/karma.mdpcdn.com\\/service\\/js-min\\/karma.header.js\":1}},\"msloThemehelper\":{\"baseUrls\":{\"urlToolsMW\":\"\",\"urlBaseMS\":\"https:\\/\\/www.marthastewart.com\",\"urlBaseMW\":\"https:\\/\\/www.marthastewartweddings.com\",\"urlBaseAM\":\"https:\\/\\/www.marthastewart.com\\/americanmade\"},\"apiKeys\":{\"recaptcha\":\"6LefmPoSAAAAANPGJXh0NsO1ircT4YK2oHovtl4y\"},\"constants\":{\"maxCookieLifetime\":2147483647},\"nodeModulesPath\":\"\\/sites\\/all\\/modules\\/custom\\/mslo_themehelper\\/js\\/managed\\/node_modules\",\"comments\":{\"retrieveApi\":\"https:\\/\\/my.marthastewart.com\\/api\\/comments\",\"submitApi\":\"https:\\/\\/my.marthastewart.com\\/api\\/comments\"}},\"breakpoints\":{\"breakpointMobile\":550,\"breakpointMobile2\":645,\"breakpointAds\":645,\"breakpointTablet\":780,\"breakpointDesktop\":900,\"breakpointDesktop2\":1050,\"breakpointDesktop3\":1300},\"msCustom\":{\"marthaBlogFeedUrl\":\"https:\\/\\/www.themarthablog.com\\/feed\\/json\"},\"ugc_frontend_authorization\":{\"siteCode\":\"mslo\",\"module_path\":\"sites\\/all\\/modules\\/custom\\/ugc_frontend_authorization\",\"ugcBasePath\":\"https:\\/\\/my.marthastewart.com\",\"topLevelDomain\":\"marthastewart.com\"},\"msloSearch\":{\"originalAction\":\"search\\/results\",\"debug\":false},\"urlIsAjaxTrusted\":{\"https:\\/\\/www.marthastewart.com\\/search\\/results\":true},\"msloPost\":{\"pagerUrl\":\"\\/ajax\\/post\\/load\",\"additionalData\":{\"1500950\":{\"url\":\"https:\\/\\/www.marthastewart.com\\/1500950\\/how-sous-vide-without-fancy-machine\"}},\"msloDatalayer\":{\"1500950\":{\"platform\":\"opus\",\"nodeId\":\"1500950\",\"nodeType\":\"post\",\"nodeTitle\":\"How
+  to Sous Vide Without the Fancy Machine\",\"nodePromoTitle\":\"How to Sous Vide Without
+  the Fancy Machine\",\"nodeUuid\":\"85205a9f-ee21-4ef8-8ad3-f30db2de3126\",\"nodePubDate\":\"1448397796\",\"isFrontPage\":\"\",\"googleAdSenseClientIds\":{\"category\":\"vert-pla-meredith-shopmartha-cat\",\"product_detail\":\"vert-pla-meredith-shopmartha-pdp\",\"search\":\"vert-pla-meredith-shopmartha-srp\"},\"statusCode\":\"200\",\"environment\":\"\",\"mdpApiEnvironment\":\"prod\",\"hashIdCookieName\":\"hid\",\"mdpPageTargetingId\":\"1500950\",\"mdpPageTargetingType\":\"post\",\"contentCreationDate\":\"11\\/24\\/2015\",\"serverTime\":\"1552921844\",\"loggedIntoCMS\":\"\",\"author\":\"ChefSteps
+  Team\",\"styledImages\":{\"wmax350Sq\":\"https:\\/\\/assets.marthastewart.com\\/styles\\/img_350x350\\/d14\\/sous-vide-MS01\\/sous-vide-MS01.JPG?itok=2clKQxbz\",\"wmax200Vert\":\"https:\\/\\/assets.marthastewart.com\\/styles\\/wmax-200\\/d14\\/sous-vide-MS01\\/sous-vide-MS01.JPG?itok=EWXVt8WH\",\"wmax300Vert\":\"https:\\/\\/www.marthastewart.com\\/amazons3\\/image-derivative\\/drupal-assets-prod-ms\\/styles\\/wmax-300\\/d14\\/sous-vide-MS01\\/sous-vide-MS01.JPG?itok=VYgNbwUT\"},\"isSearchResults\":\"\",\"subCategory\":\"\",\"category\":\"Cooking
+  101\",\"channel\":\"Food\",\"genre\":\"101\",\"descriptiveTerms\":[\"Sous vide\",\"Food
+  and cooking techniques\",\"Methods, Techniques, and Activities\",\"101s\",\"Martha
+  Stewart Living franchises\",\"MSLO Franchises\",\"Franchises and Collections\",\"Martha
+  Stewart Contributor\",\"MarthaStewart.com franchises\",\"Cooking Basics\"],\"nodeHasVideo\":\"\",\"ugcCookieName\":\"ugc_user_authentication.authenticated\"}}},\"msloDatalayer\":{\"platform\":\"opus\",\"nodeId\":\"1500950\",\"nodeType\":\"post\",\"nodeTitle\":\"How
+  to Sous Vide Without the Fancy Machine\",\"nodePromoTitle\":\"How to Sous Vide Without
+  the Fancy Machine\",\"nodeUuid\":\"85205a9f-ee21-4ef8-8ad3-f30db2de3126\",\"nodePubDate\":\"1448397796\",\"isFrontPage\":\"\",\"googleAdSenseClientIds\":{\"category\":\"vert-pla-meredith-shopmartha-cat\",\"product_detail\":\"vert-pla-meredith-shopmartha-pdp\",\"search\":\"vert-pla-meredith-shopmartha-srp\"},\"statusCode\":\"200\",\"environment\":\"\",\"mdpApiEnvironment\":\"prod\",\"hashIdCookieName\":\"hid\",\"mdpPageTargetingId\":\"1500950\",\"mdpPageTargetingType\":\"post\",\"contentCreationDate\":\"11\\/24\\/2015\",\"serverTime\":\"1552921844\",\"loggedIntoCMS\":\"\",\"author\":\"ChefSteps
+  Team\",\"styledImages\":{\"wmax350Sq\":\"https:\\/\\/assets.marthastewart.com\\/styles\\/img_350x350\\/d14\\/sous-vide-MS01\\/sous-vide-MS01.JPG?itok=2clKQxbz\",\"wmax200Vert\":\"https:\\/\\/assets.marthastewart.com\\/styles\\/wmax-200\\/d14\\/sous-vide-MS01\\/sous-vide-MS01.JPG?itok=EWXVt8WH\",\"wmax300Vert\":\"https:\\/\\/www.marthastewart.com\\/amazons3\\/image-derivative\\/drupal-assets-prod-ms\\/styles\\/wmax-300\\/d14\\/sous-vide-MS01\\/sous-vide-MS01.JPG?itok=VYgNbwUT\"},\"isSearchResults\":\"\",\"subCategory\":\"\",\"category\":\"Cooking
+  101\",\"channel\":\"Food\",\"genre\":\"101\",\"descriptiveTerms\":[\"Sous vide\",\"Food
+  and cooking techniques\",\"Methods, Techniques, and Activities\",\"101s\",\"Martha
+  Stewart Living franchises\",\"MSLO Franchises\",\"Franchises and Collections\",\"Martha
+  Stewart Contributor\",\"MarthaStewart.com franchises\",\"Cooking Basics\"],\"nodeHasVideo\":\"\",\"ugcCookieName\":\"ugc_user_authentication.authenticated\",\"gtmDatalayerName\":\"dataLayer\"}});\n//--><!]]>\n</script>\n
+  \   <script type=\"text/javascript\" src=\"https://www.marthastewart.com/sites/all/modules/custom/mslo_datalayer/js/mslo_datalayer.js\"></script><style
+  type=\"text/css\">.tk-din-condensed-web{font-family:\"din-condensed-web\",sans-serif;}.tk-freight-sans-pro{font-family:\"freight-sans-pro\",sans-serif;}.tk-acta-display{font-family:\"acta-display\",sans-serif;}</style><link
+  rel=\"stylesheet\" href=\"https://fonts.marthastewart.com/k/c/xvs1ueu-l.css\" media=\"all\">\n
+  \ </head>\n\n  <body class=\"opus html not-front not-logged-in no-sidebars page-node
+  page-node- page-node-1500950 node-type-post site-nav-fullsize\" data-ng-app=\"msloApp\"
+  style=\"\">\n    <p class=\"new-this-month\">\n      <a href=\"https://www.marthastewart.com/new-this-month\">\n
+  \       New This Month      </a>\n    </p>\n    <script type=\"text/javascript\"
+  src=\"https://www.marthastewart.com/sites/all/modules/custom/mslo_datalayer/js/gtm_prepare.js\"></script>\n<script
+  type=\"text/javascript\">var dataLayer = [Drupal.mslo.gtmDatalayer];</script>\n<!--
+  Google Tag Manager -->\n<noscript><iframe src=\"//www.googletagmanager.com/ns.html?id=GTM-9NDX2\"\nheight=\"0\"
+  width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<script
+  type=\"text/javascript\" id=\"mslo-gtm-inline-js\">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew
+  Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-9NDX2');</script>\n<!--
+  End Google Tag Manager -->\n<div id=\"fb-root\" class=\" fb_reset\"><div style=\"position:
+  absolute; top: -10000px; width: 0px; height: 0px;\"><div><iframe name=\"fb_xdm_frame_https\"
+  frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\"
+  allow=\"encrypted-media\" id=\"fb_xdm_frame_https\" aria-hidden=\"true\" title=\"Facebook
+  Cross Domain Communication Frame\" tabindex=\"-1\" src=\"https://staticxx.facebook.com/connect/xd_arbiter/r/d_vbiawPdxB.js?version=44#channel=f1259bdb9e629fc&amp;origin=https%3A%2F%2Fwww.marthastewart.com\"
+  style=\"border: none;\"></iframe></div></div></div>\n    \n<div id=\"main-container\"
+  class=\"main-container\">\n      <header id=\"main-header\" class=\"main-header\"
+  role=\"banner\">\n      \n  <div id=\"js-site-nav-ad-wrap\" class=\"site-nav-ad-wrap\">\n
+  \   <div class=\"site-nav-ad-inner\">\n              \n  <div class=\"mslo-ad mslo-ad-728x66
+  is-desktop\" data-refresh-rate=\"0\">\n    <div class=\"mslo-ad-holder\">\n            \n
+  \                             <div id=\"div-gpt-leaderboard-flex-1\" data-tier=\"1\">\n
+  \                         </div>\n          </div>\n  </div>\n      \n              \n
+  \ <div class=\"mslo-ad mslo-ad-320x50 is-mobile\" data-refresh-rate=\"0\">\n    <div
+  class=\"mslo-ad-holder\">\n                              <div id=\"div-gpt-mob-adhesive-banner-fixed-1\"
+  data-tier=\"1\">\n                          </div>\n\n        <div id=\"div-kargo-adhesive-banner-fixed-1\"
+  data-tier=\"1\">\n                  </div>\n      \n                </div>\n  </div>\n
+  \         </div>\n  </div>\n\n<div class=\"site-nav has-leaderboard\" role=\"banner\">\n
+  \ <div class=\"site-nav-inner\">\n    <div class=\"site-nav-logo-wrap\">\n              <a
+  href=\"https://www.marthastewart.com/\"><div class=\"site-nav-logo link\"></div></a>\n
+  \         </div>\n    <!-- Mobile expansion button. -->\n    <div id=\"nav-mobile-button\"
+  class=\"glyph gl-menu nav-mobile-button\"></div>\n  </div>\n  <div class=\"site-nav-content\">\n
+  \   <div class=\"nav-content-inner\">\n      <div class=\"nav-list-container\">\n
+  \       <div class=\"nav-item-list clear-fix\">\n                      <ul class=\"menu\"><li
+  class=\"first expanded has-children\"><div class=\"menu-below-wrapper menu-below-depth-1\"><span
+  title=\"\">Food</span>\n<ul class=\"child-menu child-menu-1\"><li class=\"first
+  leaf\"><div class=\"menu-below-wrapper menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502258/appetizers-snacks\"
+  title=\"\">Appetizers</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502328/breakfast-recipes\"
+  title=\"\">Breakfast &amp; Brunch Recipes</a></div>\n</li>\n<li class=\"leaf\"><div
+  class=\"menu-below-wrapper menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502284/dessert-recipes\"
+  title=\"\">Dessert Recipes</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502314/dinner-recipes\"
+  title=\"\">Dinner Recipes</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502304/drink-recipes\"
+  title=\"\">Drink Recipes</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502505/lunch-recipes\"
+  title=\"\">Lunch Recipes</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1504583/salad-recipes\"
+  title=\"\">Salad Recipes</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1505182/soup-recipes\"
+  title=\"\">Soup Recipes</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1513023/vegetarian-vegan-recipes\"
+  title=\"\">Vegetarian Recipes</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1505788/recipes\" title=\"\">See
+  All Our Recipes</a></div>\n</li>\n<li class=\"last leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1509043/food-cooking\"
+  title=\"\">All Food &amp; Cooking</a></div>\n</li>\n</ul>\n</div>\n</li>\n<li class=\"expanded
+  has-children\"><div class=\"menu-below-wrapper menu-below-depth-1\"><span title=\"\">DIY</span>\n<ul
+  class=\"child-menu child-menu-1\"><li class=\"first leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/americanmade\" title=\"\">American
+  Made</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper menu-below-depth-2\"><a
+  href=\"https://www.marthastewart.com/1502456/soap-making\" title=\"\">Bath Bombs
+  &amp; Soaps</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502454/diy-home-projects\"
+  title=\"\">DIY Home Projects</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502457/kids-crafts\"
+  title=\"\">Kids' Crafts</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1504503/knitting\"
+  title=\"\">Knitting Ideas</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1504387/paper-crafts\"
+  title=\"\">Paper Crafts</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1504215/sewing\" title=\"\">Sewing
+  Ideas</a></div>\n</li>\n<li class=\"last leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502461/diy-projects-crafts\"
+  title=\"\">All DIY Projects &amp; Crafts</a></div>\n</li>\n</ul>\n</div>\n</li>\n<li
+  class=\"expanded has-children\"><div class=\"menu-below-wrapper menu-below-depth-1\"><span
+  title=\"\">Holidays</span>\n<ul class=\"child-menu child-menu-1\"><li class=\"first
+  leaf\"><div class=\"menu-below-wrapper menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502555/valentines-day\"
+  title=\"\">Valentine's Day</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502559/fathers-day\"
+  title=\"\">Father's Day</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502397/christmas\"
+  title=\"\">Christmas</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502414/easter\" title=\"\">Easter</a></div>\n</li>\n<li
+  class=\"leaf\"><div class=\"menu-below-wrapper menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502421/4th-july\"
+  title=\"\">Fourth of July</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502347/halloween\"
+  title=\"\">Halloween</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502562/mothers-day\"
+  title=\"\">Mother's Day</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502469/new-years-party-ideas\"
+  title=\"\">New Year's</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502352/thanksgiving\"
+  title=\"\">Thanksgiving</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502429/st-patricks-day\"
+  title=\"\">St. Patrick's Day</a></div>\n</li>\n<li class=\"last leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1505740/holiday-planning-and-ideas\"
+  title=\"\">All Holiday Planning &amp; Ideas</a></div>\n</li>\n</ul>\n</div>\n</li>\n<li
+  class=\"expanded has-children\"><div class=\"menu-below-wrapper menu-below-depth-1\"><span
+  title=\"\">Entertaining</span>\n<ul class=\"child-menu child-menu-1\"><li class=\"first
+  leaf\"><div class=\"menu-below-wrapper menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502480/baby-shower-ideas\"
+  title=\"\">Baby Shower Ideas</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502468/dinner-party-ideas\"
+  title=\"\">Dinner Party Ideas</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502428/party-decorations-ideas\"
+  title=\"\">Party Decorations &amp; Ideas</a></div>\n</li>\n<li class=\"leaf\"><div
+  class=\"menu-below-wrapper menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502471/party-colors-themes\"
+  title=\"\">Party Themes</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1504253/summer-entertaining\"
+  title=\"\">Summer Entertaining</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502583/table-decorations\"
+  title=\"\">Table Decorations</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502487/tea-party\"
+  title=\"\">Tea Party</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502422/picnics\" title=\"\">Picnic</a></div>\n</li>\n<li
+  class=\"last leaf\"><div class=\"menu-below-wrapper menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1505862/entertaining\"
+  title=\"\">All Entertaining &amp; Events</a></div>\n</li>\n</ul>\n</div>\n</li>\n<li
+  class=\"expanded has-children\"><div class=\"menu-below-wrapper menu-below-depth-1\"><span
+  title=\"\">Home</span>\n<ul class=\"child-menu child-menu-1\"><li class=\"first
+  leaf\"><div class=\"menu-below-wrapper menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502090/cleaning\"
+  title=\"\">Cleaning</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1504574/gardening\"
+  title=\"\">Gardening</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1505864/home-decor\"
+  title=\"\">Home Decor</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1505907/home-design\"
+  title=\"\">Home Design Ideas</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502508/outdoor-living\"
+  title=\"\">Outdoor Living</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502498/storage-organization\"
+  title=\"\">Storage &amp; Organization</a></div>\n</li>\n<li class=\"last leaf\"><div
+  class=\"menu-below-wrapper menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1509047/home-garden\"
+  title=\"\">All Home &amp; Garden</a></div>\n</li>\n</ul>\n</div>\n</li>\n<li class=\"expanded
+  has-children\"><div class=\"menu-below-wrapper menu-below-depth-1\"><span title=\"\">Life
+  &amp; Style</span>\n<ul class=\"child-menu child-menu-1\"><li class=\"first leaf\"><div
+  class=\"menu-below-wrapper menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1504587/beauty\"
+  title=\"\">Beauty</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1504586/health-and-wellness\"
+  title=\"\">Health &amp; Wellness</a></div>\n</li>\n<li class=\"leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1502504/pets\" title=\"\">Pets</a></div>\n</li>\n<li
+  class=\"last leaf\"><div class=\"menu-below-wrapper menu-below-depth-2\"><a href=\"https://www.marthastewart.com/1509765/life-style\"
+  title=\"\">All Life &amp; Style</a></div>\n</li>\n</ul>\n</div>\n</li>\n<li class=\"leaf\"><div
+  class=\"menu-below-wrapper menu-below-depth-1\"><a href=\"https://www.marthastewart.com/1144514/shop\"
+  title=\"\">Shop</a></div>\n</li>\n<li class=\"last leaf\"><div class=\"menu-below-wrapper
+  menu-below-depth-1\"><a href=\"https://www.marthastewart.com/10kbills_splash_sweeps_2018?psrc=R812YTF123410\"
+  title=\"\">Enter to Win $10,000 to Pay Off Your Bills!</a></div>\n</li>\n\n<li id=\"js-header-search\"
+  class=\"nav-search\" role=\"search\">\n      <form action=\"#\" accept-charset=\"UTF-8\"
+  method=\"get\" id=\"mslo-search-block-form--2\" class=\"mslo-search-form\">\n<div
+  class=\"container-inline form-wrapper\" id=\"edit-basic--2\"><div class=\"form-item
+  form-type-textfield form-item-keys\">\n  <input placeholder=\"Search Martha Stewart\"
+  type=\"text\" id=\"edit-keys--2\" name=\"keys\" value=\"\" size=\"20\" maxlength=\"255\"
+  class=\"form-text\">\n</div>\n<input type=\"submit\" id=\"edit-submit--2\" name=\"op\"
+  value=\"Go\" class=\"form-submit\"></div><input type=\"hidden\" name=\"form_build_id\"
+  value=\"form-o_kD0iu7qxABBW6YTSW3ndWRKhwaBya6HJ8CNTEnt64\">\n<input type=\"hidden\"
+  name=\"form_id\" value=\"mslo_search_block_form\">\n\n</form>\n    <span class=\"glyph
+  nav-search-submit-button\"></span>\n  <span class=\"glyph nav-search-exit-button\"></span>\n</li>\n</ul>
+  \                 </div>\n      </div>\n\n      <div class=\"nav-content-side\">\n
+  \       <ul class=\"nav-extra-list clear-fix\">\n          <!-- Mobile placement
+  of utility bar. -->\n                      <ul class=\"menu\"><li class=\"first
+  leaf li-first\"><a href=\"http://www.themarthablog.com\" class=\"li-link li-first-link
+  leaf-link\" top-1513-parent=\"\" data-menu-first=\"\">Martha's Blog</a></li><li
+  class=\"last leaf li-first\"><a href=\"https://www.marthastewartweddings.com/\"
+  class=\"li-link li-first-link leaf-link\" top-1514-parent=\"\" data-menu-first=\"\">Weddings</a></li></ul>
+  \         \n                      <li>\n              <a href=\"https://www.magazine.store/martha-stewart-living/?utm_source=marthastewartliving&amp;utm_medium=internal&amp;utm_campaign=i808yr1w1087&amp;internalSource=header&amp;lnkid=signup&amp;referringID=1500950&amp;referringContentType=post\"
+  target=\"_blank\">\n                Magazine              </a>\n            </li>\n
+  \                   <li class=\"header-login\">\n            <div id=\"user-profile-links\"
+  class=\"user-not-logged-in\">\n              <span class=\"glyph gl-down-arw js-glyph
+  user-more\"></span>\n              <div class=\"nav-greeting\" id=\"greeting\">\n
+  \               <div class=\"user-signin-link user-not-authenticated js-mslo-authenticate\"
+  data-user-action=\"signin\">\n                  <span class=\"header-onclick\">\n
+  \                   Sign In                  </span>\n                </div>\n                <div
+  class=\"user-signup-link user-not-authenticated js-mslo-authenticate\" data-user-action=\"signup\">\n
+  \                 <span class=\"header-onclick\">\n                    Sign Up                  </span>\n
+  \               </div>\n                <ul class=\"user-authenticated\">\n                  <li
+  class=\"user-greeting first\">\n                    <a href=\"#\" class=\"user-greeting-link\">\n
+  \                     <span class=\"greeting-hello\">\n                        <span
+  class=\"username\">\n                          <!-- Username injected by js -->\n
+  \                       </span>\n                      </span>\n                    </a>\n
+  \                   <a href=\"#\" class=\"user-hearted\">\n                      <span
+  class=\"glyph gl-heart collection-icon\"></span>\n                      <span class=\"relative\">\n
+  \                       <span class=\"heart-arrow-left-border\"></span>\n                        <span
+  class=\"heart-arrow-left\"></span>\n                        <span class=\"collection-count\">\n
+  \                         <!-- Favorite count injected by js -->\n                        </span>\n
+  \                     </span>\n                    </a>\n                  </li>\n
+  \                 <ul class=\"user-ugc-choices\">\n                    <!-- List
+  of user choices generated with js -->\n                    <li class=\"js-mslo-logout
+  user-logout last\">\n                      <a href=\"#\">\n                        Sign
+  Out                      </a>\n                    </li>\n                  </ul>\n
+  \               </ul>\n              </div>\n            </div>\n          </li>\n
+  \       </ul>\n      </div>\n    </div>\n  </div>\n</div>\n    </header>\n  \n  \n
+  \ <div id=\"main-content\" class=\"main-content\" role=\"main\">\n    <div class=\"container\">\n
+  \     <div class=\"inner\">\n        \n          <div class=\"region region-content\">\n
+  \   \n\n\n<article class=\"post-col-wrap \" data-nid=\"1500950\" data-uuid=\"85205a9f-ee21-4ef8-8ad3-f30db2de3126\">\n
+  \ <div class=\"post-top-header-wrapper\">\n    <header class=\"post-header\">\n
+  \             <time class=\"post-date\">\n          November 24, 2015        </time>\n
+  \                   <h1 class=\"post-title\">\n          How to Sous Vide Without
+  the Fancy Machine        </h1>\n      \n              <div class=\"post-dek\">\n
+  \         Juicy, flavor-packed, and impossibly tender, a sous vide steak is an extraordinary
+  meal that you can make in your kitchen tonight, no special equipment required. And
+  steak's just the beginning! There's no end to what you can achieve, from delicate
+  fish to snappy asparagus, when you can control how your food cooks with this simple
+  method.        </div>\n          </header>\n  </div>\n\n  <div class=\"post-col2\">\n
+  \   <!-- Ads -->\n          \n  <div class=\"mslo-ad mslo-ad-300x250 is-desktop
+  has-style\" data-refresh-rate=\"0\">\n    <div class=\"mslo-ad-holder\">\n            \n
+  \                             <div id=\"div-gpt-square-flex-1\" data-tier=\"1\">\n
+  \                         </div>\n          </div>\n  </div>\n      </div>\n\n\n<div
+  class=\"post-content-wrapper\">\n  <div class=\"post-left-rail-col\">\n          \n
+  \ <div class=\"karma-lazy-sponsorLogo-wrapper\">\n    <div id=\"karma-lazy-sponsorLogo\">\n
+  \         </div>\n  </div>\n    \n          <div class=\"bio-short-teaser has-image\">\n
+  \     <div class=\"bio-short-image\">\n      <a href=\"https://www.marthastewart.com/contributor/1108288/grant-crilly\">\n
+  \     <img src=\"https://www.marthastewart.com/sites/all/modules/features/mslo_image/images/lazy-default.gif\"
+  data-original=\"https://assets.marthastewart.com/styles/img_120x120/d22/chefsteps-profile-0815/chefsteps-profile-0815_sq.jpg?itok=qRb0WEkI\"
+  alt=\"\" title=\"\" class=\"\">\n    <noscript>\n      <img src=\"https://assets.marthastewart.com/styles/img_120x120/d22/chefsteps-profile-0815/chefsteps-profile-0815_sq.jpg?itok=qRb0WEkI\"
+  \ alt=\"\" title=\"\" />\n    </noscript>\n  </a>    </div>\n  \n  <div class=\"bio-short-info\">\n
+  \         <div class=\"bio-short-links\">\n        By <span><a href=\"https://www.marthastewart.com/contributor/1108288/grant-crilly\">ChefSteps
+  Team</a></span> of <a href=\"http://www.chefsteps.com\" target=\"_blank\" rel=\"nofollow\">ChefSteps</a>
+  \     </div>\n\n            </div>\n</div>\n    \n          \n  <div class=\"mslo-sticky-share-bar\">\n
+  \   <div class=\"mslo-sticky-share-bar-container\">\n      <div class=\"mslo-sticky-share-bar-inner\">\n
+  \       <ul class=\"prominent-sticky-buttons mslo-sticky-share-button\">\n                                <li
+  class=\"prominent-sticky-button mslo-sticky-share-button\">\n              \n<span
+  class=\"mslo-share-btn mslo-btn-pin\">\n  <a href=\"//pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.marthastewart.com%2F1500950%2Fhow-sous-vide-without-fancy-machine&amp;media=&amp;description=How+to+Sous+Vide+Without+the+Fancy+Machine&amp;tel=post\"
+  title=\"Pinterest Share\" data-pin-config=\"none\" data-pin-do=\"buttonBookmark\"
+  data-pin-custom=\"true\">\n          <span class=\"social-icon glyph gl-pinterest-btn\"></span>\n
+  \     <span class=\"social-icon-label\">Pinterest</span>\n      </a>\n</span>\n
+  \           </li>\n                      <li class=\"prominent-sticky-button mslo-sticky-share-button\">\n
+  \               <span class=\"mslo-share-btn mslo-btn-fb-share\">\n    <a href=\"#\"
+  onclick=\"window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.marthastewart.com/1500950/how-sous-vide-without-fancy-machine&amp;tel=post_fb-share','facebookShare','width=626,height=436');
+  return false;\" title=\"Facebook Share\">\n      <span class=\"social-icon glyph
+  gl-facebook-btn\"></span>\n      <span class=\"social-icon-label\">Facebook</span>\n
+  \   </a>\n  </span>\n            </li>\n                      <li class=\"prominent-sticky-button
+  mslo-sticky-share-button\">\n              <span class=\"mslo-share-btn mslo-btn-twitter\">\n
+  \ <a href=\"#\" onclick=\"window.open('https://twitter.com/share?text=How+to+Sous+Vide+Without+the+Fancy+Machine&amp;url=https://www.marthastewart.com/1500950/how-sous-vide-without-fancy-machine?tel=post_twitter','twitterShare','width=626,height=436');
+  return false;\" title=\"Twitter Share\">\n    <span class=\"social-icon glyph gl-twitter-btn\"></span>\n
+  \   <span class=\"social-icon-label\">Twitter</span>\n  </a>\n</span>\n            </li>\n
+  \                     <li class=\"prominent-sticky-button mslo-sticky-share-button\">\n
+  \             <span class=\"mslo-share-btn mslo-btn-email clear-fix\" title=\"Email\">\n
+  \ <div class=\"ugc-content-wrap clearfix\">\n    <a href=\"mailto:?subject=Check%20out%20this%20article%20from%20Martha%20Stewart%20Living%21&amp;body=How%20to%20Sous%20Vide%20Without%20the%20Fancy%20Machine%0Ahttps%3A%2F%2Fwww.marthastewart.com%2F1500950%2Fhow-sous-vide-without-fancy-machine%0ALove%20this%20Martha%20Stewart%20Living%20article%3F%20Post%20it%2C%20pin%20it%2C%20share%20it%21\"
+  class=\"email-frame\"><span class=\"glyph gl-mail-btn\"></span></a>\n  </div>\n</span>\n
+  \           </li>\n                      <li class=\"prominent-sticky-button mslo-sticky-share-button\">\n
+  \             <div class=\"mslo-share-btn mslo-btn-save clear-fix favorite-it js-mslo-authenticate\"
+  data-user-action=\"favorite\" data-mdp-internal-source=\"sharebar\" data-mdp-lnkid=\"addtofavorites\"
+  data-mdp-referring-id=\"1500950\" data-mdp-referring-content-type=\"post\" title=\"Add
+  To Favorites\" data-uuid=\"85205a9f-ee21-4ef8-8ad3-f30db2de3126\" data-title=\"How
+  to Sous Vide Without the Fancy Machine\" data-interaction-count=\"true\" data-image=\"https://assets.marthastewart.com/styles/img_120x120/d14/sous-vide-MS01/sous-vide-MS01.JPG?itok=zsO3Vxl0\">\n
+  \ <div class=\"ugc-content-wrap clearfix\">\n    <span class=\"login-frame fave-glyph\"></span>\n
+  \ </div>\n</div>\n            </li>\n                      <li class=\"prominent-sticky-button
+  mslo-sticky-share-button\">\n              <span class=\"mslo-share-btn mslo-btn-google-plus\">\n
+  \ <a href=\"#\" onclick=\"window.open('https://plus.google.com/share?url=https://www.marthastewart.com/1500950/how-sous-vide-without-fancy-machine&amp;tel=post_google','googleShare','width=626,height=436');
+  return false;\" title=\"Google Share\">\n    <span class=\"social-icon glyph gl-google-btn\"></span>\n
+  \   <span class=\"social-icon-label\">Google+</span>\n  </a>\n</span>\n            </li>\n
+  \                 </ul>\n\n        <div class=\"sticky-subwrapper\">\n          <span
+  class=\"sticky-expand-btn\"></span>\n          <ul class=\"mslo-sticky-share-bar-submenu\">\n
+  \                         <li class=\"mslo-sticky-share-button\">\n                \n<span
+  class=\"mslo-share-btn mslo-btn-pin\">\n  <a href=\"//pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.marthastewart.com%2F1500950%2Fhow-sous-vide-without-fancy-machine&amp;media=&amp;description=How+to+Sous+Vide+Without+the+Fancy+Machine&amp;tel=post\"
+  title=\"Pinterest Share\" data-pin-config=\"none\" data-pin-do=\"buttonBookmark\"
+  data-pin-custom=\"true\">\n          <span class=\"social-icon glyph gl-pinterest-btn\"></span>\n
+  \     <span class=\"social-icon-label\">Pinterest</span>\n      </a>\n</span>\n
+  \             </li>\n                          <li class=\"mslo-sticky-share-button\">\n
+  \                 <span class=\"mslo-share-btn mslo-btn-fb-share\">\n    <a href=\"#\"
+  onclick=\"window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.marthastewart.com/1500950/how-sous-vide-without-fancy-machine&amp;tel=post_fb-share','facebookShare','width=626,height=436');
+  return false;\" title=\"Facebook Share\">\n      <span class=\"social-icon glyph
+  gl-facebook-btn\"></span>\n      <span class=\"social-icon-label\">Facebook</span>\n
+  \   </a>\n  </span>\n              </li>\n                          <li class=\"mslo-sticky-share-button\">\n
+  \               <span class=\"mslo-share-btn mslo-btn-twitter\">\n  <a href=\"#\"
+  onclick=\"window.open('https://twitter.com/share?text=How+to+Sous+Vide+Without+the+Fancy+Machine&amp;url=https://www.marthastewart.com/1500950/how-sous-vide-without-fancy-machine?tel=post_twitter','twitterShare','width=626,height=436');
+  return false;\" title=\"Twitter Share\">\n    <span class=\"social-icon glyph gl-twitter-btn\"></span>\n
+  \   <span class=\"social-icon-label\">Twitter</span>\n  </a>\n</span>\n              </li>\n
+  \                         <li class=\"mslo-sticky-share-button\">\n                <span
+  class=\"mslo-share-btn mslo-btn-email clear-fix\" title=\"Email\">\n  <div class=\"ugc-content-wrap
+  clearfix\">\n    <a href=\"mailto:?subject=Check%20out%20this%20article%20from%20Martha%20Stewart%20Living%21&amp;body=How%20to%20Sous%20Vide%20Without%20the%20Fancy%20Machine%0Ahttps%3A%2F%2Fwww.marthastewart.com%2F1500950%2Fhow-sous-vide-without-fancy-machine%0ALove%20this%20Martha%20Stewart%20Living%20article%3F%20Post%20it%2C%20pin%20it%2C%20share%20it%21\"
+  class=\"email-frame\"><span class=\"glyph gl-mail-btn\"></span></a>\n  </div>\n</span>\n
+  \             </li>\n                          <li class=\"mslo-sticky-share-button\">\n
+  \               <div class=\"mslo-share-btn mslo-btn-save clear-fix favorite-it
+  js-mslo-authenticate\" data-user-action=\"favorite\" data-mdp-internal-source=\"sharebar\"
+  data-mdp-lnkid=\"addtofavorites\" data-mdp-referring-id=\"1500950\" data-mdp-referring-content-type=\"post\"
+  title=\"Add To Favorites\" data-uuid=\"85205a9f-ee21-4ef8-8ad3-f30db2de3126\" data-title=\"How
+  to Sous Vide Without the Fancy Machine\" data-interaction-count=\"true\" data-image=\"https://assets.marthastewart.com/styles/img_120x120/d14/sous-vide-MS01/sous-vide-MS01.JPG?itok=zsO3Vxl0\">\n
+  \ <div class=\"ugc-content-wrap clearfix\">\n    <span class=\"login-frame fave-glyph\"></span>\n
+  \ </div>\n</div>\n              </li>\n                          <li class=\"mslo-sticky-share-button\">\n
+  \               <span class=\"mslo-share-btn mslo-btn-google-plus\">\n  <a href=\"#\"
+  onclick=\"window.open('https://plus.google.com/share?url=https://www.marthastewart.com/1500950/how-sous-vide-without-fancy-machine&amp;tel=post_google','googleShare','width=626,height=436');
+  return false;\" title=\"Google Share\">\n    <span class=\"social-icon glyph gl-google-btn\"></span>\n
+  \   <span class=\"social-icon-label\">Google+</span>\n  </a>\n</span>\n              </li>\n
+  \                     </ul>\n        </div>\n      </div>\n    </div>\n  </div>\n
+  \     </div>\n\n  <div class=\"post-col1\">\n    <div class=\"post-content\">\n
+  \     <!-- Content -->\n              <div class=\"post-section post-section-0\">\n
+  \         \n                      <div class=\"text-paragraph\">\n              <p>This
+  method basically involves heating food just enough so that it reaches the exact
+  \"doneness\" you desire, with no risk of over- or under- cooking. Tools like immersion
+  circulators and Sous Vide Supreme baths do make the process faster and easier, but
+  they are not a requirement. All you need is a digital thermometer and some Ziploc
+  plastic bags, and you're good to go. Really!</p>\n\n<p>&nbsp;</p>\n\n<p>The key
+  to cooking food successfully with the stove-top method is holding the water at a
+  steady temperature long enough to cook the food. To do this, you'll need to adjust
+  the stove's burner, as well as the placement of your pot on top if it. Keep in mind
+  that you're constantly losing heat through the sides of the pot and from the evaporation
+  of water, so there's no getting around the fact that your temperature will fluctuate
+  a bit. Stick with it -- if you keep your water within a degree or two, you're doing
+  great.</p>\n\n<p>&nbsp;</p>\n\n<p>Let's start <a href=\"#\" rel=\"nofollow\" target=\"_blank\">cooking
+  sous vide</a>!</p>\n            </div>\n          \n                  </div>\n              <div
+  class=\"post-section post-section-1\">\n                      <figure class=\"post-img-wrap\">\n
+  \             \n      <img class=\"imgfull\" src=\"https://assets.marthastewart.com/styles/wmax-570/d14/sous-vide-MS03/sous-vide-MS03.JPG?itok=1ho3WfPX\"
+  width=\"570\" height=\"570\" alt=\"sous-vide-MS03.JPG (skyword:202817)\" title=\"\">
+  \ \n              \n                          </figure>\n          \n                      <div
+  class=\"text-paragraph\">\n              <h3>Step 1: Prepare a water bath.</h3>\n\n<p>Fill
+  your pot with water. Leave enough room at the top so that the water won't overflow
+  once you add food.</p>\n            </div>\n          \n                  </div>\n
+  \             <div class=\"post-section post-section-2\">\n                      <figure
+  class=\"post-img-wrap\">\n              \n      <img class=\"imgfull\" src=\"https://assets.marthastewart.com/styles/wmax-570/d14/sous-vide-MS04/sous-vide-MS04.JPG?itok=U4OiYoUq\"
+  width=\"570\" height=\"570\" alt=\"sous-vide-MS04.JPG (skyword:202819)\" title=\"\">
+  \ \n              \n                          </figure>\n          \n                      <div
+  class=\"text-paragraph\">\n              <h3>Step 2: Mount a thermometer on the
+  side of the pot (optional).</h3>\n\n<p>Use a skewer or a heavy-duty clip clamp to
+  mount the digital thermometer to the side of the pot, or you can just stick the
+  thermometer in the water now and again to check its temperature. If you really want
+  to set it and forget it, we recommend the clamp.</p>\n            </div>\n          \n
+  \                 </div>\n              <div class=\"post-section post-section-3\">\n
+  \                     <figure class=\"post-img-wrap\">\n              \n      <img
+  class=\"imgfull\" src=\"https://assets.marthastewart.com/styles/wmax-570/d14/sous-vide-MS05/sous-vide-MS05.JPG?itok=i_wa_Z2n\"
+  width=\"570\" height=\"570\" alt=\"sous-vide-MS05.JPG (skyword:202820)\" title=\"\">
+  \ \n              \n                          </figure>\n          \n                      <div
+  class=\"text-paragraph\">\n              <h3>Step 3: Heat water.</h3>\n\n<p>Turn
+  your burner to medium-low, and heat the water until it reaches the desired cooking
+  temperature. Use ChefSteps' super-simple <a href=\"https://www.chefsteps.com/activities/sous-vide-time-and-temperature-guide\"
+  target=\"_blank\">Time and Temperature Guide</a> to choose a well-tested time and
+  temperature combination that works for the food you're cooking and the doneness
+  you desire. Adjust the burner as necessary to maintain a steady cooking temp.</p>\n\n<p>&nbsp;</p>\n\n<p>A
+  word of warning: This can take a bit of time to get right. Plan accordingly. Stirring
+  the water frequently can help speed things along.</p>\n\n<h3>Step 4: Place food
+  in a Ziploc bag.</h3>\n\n<p>Place your steak or other food in a gallon freezer Ziploc
+  bag. Add some olive oil, butter, and herbs if you want.</p>\n\n<p>&nbsp;</p>\n\n<p>Place
+  the bag into the water with the top open, so that the air escapes the bag. Hang
+  the top of the bag over the edge of the pot and clip into place with a binder clip
+  or clothespin.</p>\n\n<h3>Step 5: Cook.</h3>\n\n<p>Once you put the food into the
+  pot, you'll need to bring the water back to the desired temperature. This can take
+  some time, especially if you have a lot of water or a large, cold piece of food.</p>\n\n<p>&nbsp;</p>\n\n<p>Once
+  the temperature is back up, start your timer. For a medium-rare 1-inch-thick steak,
+  cook at 136 degrees F for 1 to 3 hours. For more guidance, refer to our <a href=\"https://www.chefsteps.com/activities/sous-vide-time-and-temperature-guide\"
+  target=\"_blank\">Sous Vide Time and Temperature Guide</a>.</p>\n            </div>\n
+  \         \n                  </div>\n              <div class=\"post-section post-section-4\">\n
+  \                     <figure class=\"post-img-wrap\">\n              \n      <img
+  class=\"imgfull\" src=\"https://assets.marthastewart.com/styles/wmax-570/d14/sous-vide-MS01/sous-vide-MS01_0.JPG?itok=GCpTAtp5\"
+  width=\"570\" height=\"570\" alt=\"sous-vide-MS01.JPG (skyword:202830)\" title=\"\">
+  \ \n              \n                          </figure>\n          \n                      <div
+  class=\"text-paragraph\">\n              <h3>Step 6: Sear (optional).</h3>\n\n<p>We
+  like to sear our steaks (and chicken and pork and fish) right before serving. Heat
+  up a large pan until it's super hot, then remove the steak from the bag with tongs
+  and sear for a few seconds on each side. Add butter or aromatics to the pan and
+  baste as desired.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Note:</strong> You'll sometimes
+  see recipes that suggest searing before you cook sous vide. Both methods work great
+  and you can do either or both. When you sear before, the flavors that developed
+  during searing will cook together with the food, adding a some nice flavor to the
+  bag. Searing before also means you can get your pan dirty and then have time to
+  clean it way before dinner. Searing after (our preferred method) helps develop a
+  nice clean crust right before serving, and releases all those wonderful it's-almost-dinnertime
+  aromas as well. The bottom line is: They both work. It's really a personal preference
+  thing.</p>\n\n<h3>Step 7: Season and serve!</h3>\n\n<p>Sprinkle your food with some
+  salt and pepper, slice, and serve! If you're making steak, how 'bout serving it
+  up with some <a href=\"https://www.marthastewart.com/341854/perfect-mashed-potatoes\">buttery
+  mashed potatoes</a>? Yum, can we come over?</p>\n            </div>\n          \n
+  \                 </div>\n      \n              \n  <div class=\"karma-lazy-seriesDetails-wrapper\">\n
+  \   <div id=\"karma-lazy-seriesDetails\">\n          </div>\n  </div>\n      \n
+  \             \n  <div class=\"mslo-ad mslo-ad-300x250 is-mobile has-style\" data-refresh-rate=\"0\">\n
+  \   <div class=\"mslo-ad-holder\">\n                              <div id=\"div-gpt-mob-square-fixed-1\"
+  data-tier=\"1\">\n                          </div>\n\n        <div id=\"div-kargo-square-fixed-1\"
+  data-tier=\"1\">\n                  </div>\n      \n                </div>\n  </div>\n
+  \         </div>\n\n    <footer class=\"post-footer\">\n      <!-- Comments -->\n
+  \             <section id=\"feedback-section\" class=\"comments-section js-comment\">\n
+  \         <h4 class=\"page-section-title\">\n            Comments\n            <span
+  class=\"mslo-user-comments-count\">(4)</span>\n\n            <a href=\"https://secure.marthastewart.com/common/profile/regStep1.jsp?regSource=10017&amp;returnURL=https%3A%2F%2Fwww.marthastewart.com%2F1500950%2Fhow-sous-vide-without-fancy-machine&amp;internalSource=comment&amp;lnkid=comment&amp;referringID=1500950&amp;referringContentType=post\"
+  class=\"mslo-comment-button\" data-user-action=\"comment\">\n              Add a
+  comment            </a>\n          </h4>\n\n          \n                      \n<div
+  class=\"mslo-comments-container\" data-uuid=\"85205a9f-ee21-4ef8-8ad3-f30db2de3126\">\n
+  \ <div class=\"mslo-comments-form-container\">\n    \n    <div id=\"mslo-comments-form\"
+  class=\"mslo-comments-form\">\n      <!-- Form created by Javascript. -->\n    </div>\n
+  \ </div>\n\n  <div id=\"mslo-comment-block\" class=\"mslo-comment-block\"><ul class=\"mdpCommentsEntries
+  mdpCommentsEntriesDepth1\" data-depth=\"1\"><li class=\"mdpCommentsEntry\" id=\"mdpCommentsEntry2434566\"
+  data-depth=\"1\"><div class=\"mdpCommentsEntryAuthor\">carlayvon</div><div class=\"mdpCommentsEntryDate\">Nov
+  7, 2018</div><div class=\"mdpCommentsEntryBody\">Thanks so much for the information.\n</div><a
+  href=\"#\" class=\"mdpCommentsEntryReply\" data-comment-cid=\"2434566\">Comment</a><div
+  class=\"mdpCommentsEntryReplyForm\"></div></li><li class=\"mdpCommentsEntry\" id=\"mdpCommentsEntry2404763\"
+  data-depth=\"1\"><div class=\"mdpCommentsEntryAuthor\">lorettag11497236</div><div
+  class=\"mdpCommentsEntryDate\">Sep 18, 2018</div><div class=\"mdpCommentsEntryBody\">Hi.
+  I'm 76. When I was little my mother did this all the time. On a gas stove. Yes,
+  there were plastic bags 65-70 years ago! Worked great\n</div><a href=\"#\" class=\"mdpCommentsEntryReply\"
+  data-comment-cid=\"2404763\">Comment</a><div class=\"mdpCommentsEntryReplyForm\"></div></li><li
+  class=\"mdpCommentsShowMoreCommentsWrapper\"><a href=\"#\" class=\"mdpCommentsShowMoreComments\"
+  data-next-page-number=\"2\">View more</a></li><li class=\"mdpCommentsEntry hide\"
+  id=\"mdpCommentsEntry156596\" data-depth=\"1\"><div class=\"mdpCommentsEntryAuthor\">carolyn.bahm@gmail.com</div><div
+  class=\"mdpCommentsEntryDate\">Feb 7, 2017</div><div class=\"mdpCommentsEntryBody\">I
+  love the sous vide eggs (the egg white &amp; red pepper version) that Starbucks
+  now makes. I'd love to make at home without investing in a special sous video cooker.
+  How do I get the tiny bit of searing/browning/baking that they achieve on the tops
+  of these, using your method?</div><a href=\"#\" class=\"mdpCommentsEntryReply\"
+  data-comment-cid=\"156596\">Comment</a><div class=\"mdpCommentsEntryReplyForm\"></div><ul
+  class=\"mdpCommentsEntries mdpCommentsEntriesDepth2\" data-depth=\"2\"><li class=\"mdpCommentsEntry\"
+  id=\"mdpCommentsEntry2395290\" data-depth=\"2\"><div class=\"mdpCommentsEntryAuthor\">janetjayecroche</div><div
+  class=\"mdpCommentsEntryDate\">Aug 12, 2018</div><div class=\"mdpCommentsEntryBody\">I
+  would like to know also. I love the one with bacon.\n</div></li></ul></li></ul></div>\n</div>\n
+  \                 </section>\n      \n      <!-- Recirc -->\n              <div
+  class=\"post-recirc\">\n          <h4 class=\"post-recirc-title\">\n            Don't
+  Miss…\n          </h4>\n          <ul class=\"post-recirc-list no-indent\">\n                          <li
+  class=\"post-recirc-item\">\n                <a href=\"https://www.marthastewart.com/348505/sausage-and-sage-un-stuffing\"
+  class=\"post-recirc-link\">\n                  <div class=\"post-recirc-img\">\n
+  \                   \n      <img class=\"imgfull\" src=\"https://assets.marthastewart.com/styles/wmax-200/d20/6047_111810_stuffing/6047_111810_stuffing_hd.jpg?itok=mSzAyQFN\"
+  width=\"200\" height=\"250\" alt=\"Sausage and Sage Un-Stuffing\" title=\"Sausage
+  and Sage Un-Stuffing\">                    </div> <!-- /.post-recirc-img -->\n\n
+  \                 <div class=\"post-recirc-content\">\n                    <h3 class=\"post-recirc-item-title\"
+  style=\"overflow-wrap: break-word;\">\n                      Sausage and Sage Un-Stuffing
+  \                   </h3>\n                  </div>\n                </a>\n              </li>\n
+  \                         <li class=\"post-recirc-item\">\n                <a href=\"https://www.marthastewart.com/348632/sous-vide-lamb\"
+  class=\"post-recirc-link\">\n                  <div class=\"post-recirc-img\">\n
+  \                   \n      <img class=\"imgfull\" src=\"https://assets.marthastewart.com/styles/wmax-200/d16/6039_110310_lamb/6039_110310_lamb_hd.jpg?itok=tjeDdAvR\"
+  width=\"200\" height=\"250\" alt=\"Sous Vide Lamb\" title=\"Sous Vide Lamb\">                    </div>
+  <!-- /.post-recirc-img -->\n\n                  <div class=\"post-recirc-content\">\n
+  \                   <h3 class=\"post-recirc-item-title\" style=\"overflow-wrap:
+  break-word;\">\n                      Sous Vide Lamb                    </h3>\n
+  \                 </div>\n                </a>\n              </li>\n                          <li
+  class=\"post-recirc-item\">\n                <a href=\"https://www.marthastewart.com/1109826/cooking-sous-vide\"
+  class=\"post-recirc-link\">\n                  <div class=\"post-recirc-img\">\n
+  \                   \n      <img class=\"imgfull\" src=\"https://assets.marthastewart.com/styles/wmax-200/d30/chefsteps-sous-vide-steak-0415/chefsteps-sous-vide-steak-0415_vert.jpg?itok=PqUrm6Bu\"
+  width=\"200\" height=\"250\" alt=\"How Cooking Sous Vide Can Make Parties and Weeknights
+  Easier ... and More Delicious\" title=\"How Cooking Sous Vide Can Make Parties and
+  Weeknights Easier ... and More Delicious\">                    </div> <!-- /.post-recirc-img
+  -->\n\n                  <div class=\"post-recirc-content\">\n                    <h3
+  class=\"post-recirc-item-title\" style=\"overflow-wrap: break-word;\">\n                      How
+  Cooking Sous Vide Can Make Parties and Weeknights Easier ... and More Delicious
+  \                   </h3>\n                  </div>\n                </a>\n              </li>\n
+  \                     </ul>\n        </div>\n          </footer>\n  </div>\n</div>\n</article>\n
+  \ </div>\n      </div>\n    </div>\n  </div>\n\n      <footer id=\"main-footer\"
+  class=\"main-footer\" role=\"contentinfo\">\n      \n  <!-- Sticky social footer.
+  -->\n  <div class=\"footer-sticky-social-container\">\n    <div class=\"mslo-share-bar
+  mslo-sticky-social\">\n            \n<span class=\"mslo-share-btn mslo-btn-pin\">\n
+  \ <a href=\"//pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.marthastewart.com%2F1500950%2Fhow-sous-vide-without-fancy-machine&amp;media=&amp;description=How+to+Sous+Vide+Without+the+Fancy+Machine&amp;tel=post\"
+  title=\"Pinterest Share\" data-pin-config=\"none\" data-pin-do=\"buttonBookmark\"
+  data-pin-custom=\"true\">\n          <span class=\"social-icon glyph gl-pinterest-btn\"></span>\n
+  \     <span class=\"social-icon-label\">Pinterest</span>\n      </a>\n</span>\n
+  \           <span class=\"mslo-share-btn mslo-btn-fb-share\">\n    <a href=\"#\"
+  onclick=\"window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.marthastewart.com/1500950/how-sous-vide-without-fancy-machine&amp;tel=post_fb-share','facebookShare','width=626,height=436');
+  return false;\" title=\"Facebook Share\">\n      <span class=\"social-icon glyph
+  gl-facebook-btn\"></span>\n      <span class=\"social-icon-label\">Facebook</span>\n
+  \   </a>\n  </span>\n          \n<span class=\"mslo-share-btn mslo-btn-comment\">\n
+  \ <span>\n    <span class=\"social-icon glyph gl-comment-btn\" title=\"Add a Comment\"></span>\n
+  \   <span class=\"social-icon-label\">Comment</span>\n  </span>\n</span>\n          <span
+  class=\"mslo-share-btn mslo-btn-twitter\">\n  <a href=\"#\" onclick=\"window.open('https://twitter.com/share?text=How+to+Sous+Vide+Without+the+Fancy+Machine&amp;url=https://www.marthastewart.com/1500950/how-sous-vide-without-fancy-machine?tel=post_twitter','twitterShare','width=626,height=436');
+  return false;\" title=\"Twitter Share\">\n    <span class=\"social-icon glyph gl-twitter-btn\"></span>\n
+  \   <span class=\"social-icon-label\">Twitter</span>\n  </a>\n</span>\n          <span
+  class=\"mslo-share-btn mslo-btn-google-plus\">\n  <a href=\"#\" onclick=\"window.open('https://plus.google.com/share?url=https://www.marthastewart.com/1500950/how-sous-vide-without-fancy-machine&amp;tel=post_google','googleShare','width=626,height=436');
+  return false;\" title=\"Google Share\">\n    <span class=\"social-icon glyph gl-google-btn\"></span>\n
+  \   <span class=\"social-icon-label\">Google+</span>\n  </a>\n</span>\n          <span
+  class=\"mslo-share-btn mslo-btn-email clear-fix\" title=\"Email\">\n  <div class=\"ugc-content-wrap
+  clearfix\">\n    <a href=\"mailto:?subject=Check%20out%20this%20article%20from%20Martha%20Stewart%20Living%21&amp;body=How%20to%20Sous%20Vide%20Without%20the%20Fancy%20Machine%0Ahttps%3A%2F%2Fwww.marthastewart.com%2F1500950%2Fhow-sous-vide-without-fancy-machine%0ALove%20this%20Martha%20Stewart%20Living%20article%3F%20Post%20it%2C%20pin%20it%2C%20share%20it%21\"
+  class=\"email-frame\"><span class=\"glyph gl-mail-btn\"></span></a>\n  </div>\n</span>\n
+  \         <div class=\"mslo-share-btn mslo-btn-save clear-fix favorite-it js-mslo-authenticate\"
+  data-user-action=\"favorite\" data-mdp-internal-source=\"sharebar\" data-mdp-lnkid=\"addtofavorites\"
+  data-mdp-referring-id=\"1500950\" data-mdp-referring-content-type=\"post\" title=\"Add
+  To Favorites\" data-uuid=\"85205a9f-ee21-4ef8-8ad3-f30db2de3126\" data-title=\"How
+  to Sous Vide Without the Fancy Machine\" data-interaction-count=\"true\" data-image=\"https://assets.marthastewart.com/styles/img_120x120/d14/sous-vide-MS01/sous-vide-MS01.JPG?itok=zsO3Vxl0\">\n
+  \ <div class=\"ugc-content-wrap clearfix\">\n    <span class=\"login-frame fave-glyph\"></span>\n
+  \ </div>\n</div>\n      </div>\n  </div>\n\n<!-- MSLO section. -->\n<div class=\"container\">\n
+  \ <div class=\"container-inside\">\n    <section class=\"footer-section mag-section\">\n
+  \     <h4 class=\"footer-section-title\">Magazines &amp; More</h4>\n              <div
+  class=\"mag-section-ad\">\n                      \n  <div class=\"mslo-ad mslo-ad-300x250
+  is-desktop is-lazy not-filled\" data-refresh-rate=\"0\">\n    <div class=\"mslo-ad-holder\">\n
+  \           \n                              <div data-id=\"div-gpt-lazy-square-fixed-tier4\">\n
+  \                         </div>\n          </div>\n  </div>\n          \n                      \n
+  \ <div class=\"mslo-ad mslo-ad-300x250 is-mobile is-lazy not-filled\" data-refresh-rate=\"0\">\n
+  \   <div class=\"mslo-ad-holder\">\n                              <div data-id=\"div-gpt-lazy-mob-square-fixed-tier4\">\n
+  \                         </div>\n\n        <div id=\"div-kargo-square-fixed\" data-tier=\"4\">\n
+  \                 </div>\n      \n                </div>\n  </div>\n                  </div>\n
+  \     \n              <div class=\"promo-section-cta\">\n          <a href=\"https://www.marthastewart.com/sweepstakes/\">\n
+  \           Martha Stewart Living<sup>™</sup> Daily Giveaway          </a>\n        </div>\n
+  \         </section>\n    <section class=\"footer-section social-section\">\n      <h4
+  class=\"footer-section-title\">Connect</h4>\n      <h5 class=\"footer-section-subtitle\">Follow
+  Us</h5>\n      <div class=\"social-section-icons clear-fix\">\n        <a href=\"https://www.facebook.com/marthastewart\"
+  title=\"Facebook\" target=\"_blank\" rel=\"nofollow\"><span class=\"social-icon
+  glyph gl-facebook-btn\"></span></a>\n        <a href=\"http://twitter.com/ms_living\"
+  title=\"Twitter\" target=\"_blank\" rel=\"nofollow\"><span class=\"social-icon glyph
+  gl-twitter-btn\"></span></a>\n        <a href=\"https://www.pinterest.com/marthastewart\"
+  title=\"Pinterest\" target=\"_blank\" rel=\"nofollow\"><span class=\"social-icon
+  glyph gl-pinterest-btn\"></span></a>\n        <a href=\"https://www.instagram.com/marthastewart\"
+  title=\"Instagram\" target=\"_blank\" rel=\"nofollow\"><span class=\"social-icon
+  glyph gl-instagram-btn\"></span></a>\n        <a href=\"https://plus.google.com/104736337830250807960/?prsrc=3\"
+  title=\"Google+\" target=\"_blank\" rel=\"nofollow\"><span class=\"social-icon social-icon-last
+  glyph gl-google-btn\"></span></a>\n      </div>\n\n              <h5 class=\"footer-section-subtitle\">Subscribe
+  to Our Newsletters</h5>\n        <div class=\"footer-newsletter-wrap\">\n          <a
+  href=\"https://secure.marthastewart.com/common/profile/quicksignup.jsp?internalSource=footer&amp;lnkid=signup&amp;referringID=1500950&amp;referringContentType=post&amp;regSource=10008\"
+  class=\"footer-button newsletter-button\">Sign Up</a>        </div>\n      \n              <h5
+  class=\"footer-section-subtitle\">Give Us Your Feedback</h5>\n        <a href=\"https://www.surveymonkey.com/s/ms-custsat\"
+  class=\"footer-feedback-link\" target=\"_blank\">Customer Survey</a>          </section>\n\n
+  \   <section class=\"footer-section blog-section\">\n      <h4 class=\"footer-section-title\">Discover</h4>\n\n
+  \           <div id=\"js-martha-blog-promo\">\n        <div class=\"martha-blog-promo-section\">\n
+  \         <h5 class=\"footer-section-subtitle\">\n            The Martha Blog          </h5>\n
+  \         <a target=\"_blank\" href=\"http://www.themarthablog.com/\">\n            Martha
+  Stewart shares an up-close and personal perspective of her life          </a>\n
+  \         <div class=\"blog-section-cta\">\n                        <a target=\"_blank\"
+  href=\"http://www.themarthablog.com/\">\n              See More            </a>\n
+  \         </div>\n        </div>\n      </div>\n      \n      <h5 class=\"footer-section-subtitle\">Martha
+  On...</h5>\n      <ul class=\"footer-items-list\">\n        <li><a href=\"https://www.youtube.com/user/marthastewart\"
+  title=\"Martha On YouTube\" target=\"_blank\" rel=\"nofollow\">YouTube</a></li>\n
+  \     </ul>\n    </section>\n\n    <section class=\"footer-section more-section
+  last\">\n      <h4 class=\"footer-section-title\">Learn More</h4>\n      <h5 class=\"footer-section-subtitle\">Our
+  Sites</h5>\n      <ul class=\"footer-items-list footer-sites-list\">\n        <li><a
+  href=\"https://www.marthastewart.com/americanmade\" title=\"American Made\">American
+  Made</a></li>\n        <li><a href=\"http://www.emerils.com\" title=\"Emerils\"
+  target=\"_blank\" rel=\"nofollow\">Emerils</a></li>\n        <li><a href=\"https://www.marthastewartweddings.com\"
+  title=\"Martha Stewart Weddings\">Martha Stewart Weddings</a></li>\n        <li><a
+  href=\"http://www.amazon.com/b/ref=as_li_ss_tl?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;linkCode=ur2&amp;node=12638265011&amp;tag=martstew0d-20&amp;linkId=57V3IY4WDJT7TB7X\"
+  title=\"American Made Market\" target=\"_blank\" rel=\"nofollow\">American Made
+  Market</a></li>\n      </ul>\n\n      <h5 class=\"footer-section-subtitle\">Company
+  Info</h5>\n      <ul class=\"footer-items-list\">\n        <!--<li><a href=\"https://www.marthastewart.com/site-map\"
+  title=\"Site Map\">Site Map</a></li>-->\n        <li><a href=\"http://marthastewartmarketing.com\"
+  title=\"Advertising\" target=\"_blank\" rel=\"nofollow\">Advertising</a></li>\n
+  \       <li><a href=\"https://www.marthastewart.com/topics\" title=\"All Topics\">All
+  Topics</a></li>\n        <li><a href=\"http://marthastewartmarketing.com\" title=\"Media
+  Kit\" target=\"_blank\" rel=\"nofollow\">Media Kit</a></li>\n        <li><a href=\"https://secure.customersvc.com/wes/servlet/Show?WESPAGE=am/home.jsp&amp;MSRSMAG=LV\"
+  title=\"Subscription Help\" target=\"_blank\" rel=\"nofollow\">Subscription Help</a></li>\n
+  \       <li><a href=\"https://www.linkedin.com/company/3363478\" title=\"Careers\">Careers</a></li>\n
+  \       <li><a href=\"https://www.marthastewart.com/faq\" title=\"FAQs\">FAQs</a></li>\n
+  \       <li><a href=\"https://www.marthastewart.com/contact-us\" title=\"Contact
+  Us\">Contact Us</a></li>\n        <li><a href=\"https://www.marthastewart.com/international\"
+  title=\"International\">International</a></li>\n        <li><a href=\"http://ir.sequentialbrandsgroup.com/index.cfm\"
+  title=\"Investor Relations\" target=\"_blank\" rel=\"nofollow\">Investor Relations</a></li>\n
+  \     </ul>\n    </section>\n  </div>\n</div>\n\n<!-- Meredith section. -->\n  \n<div
+  class=\"meredith-footer\">\n  <div class=\"container-inside\">\n    <section class=\"meredith-section\">\n
+  \     <ul class=\"list-sites\">\n        <li><h4 class=\"footer-section-subtitle\">Meredith
+  Home</h4></li>\n        <li><a href=\"http://www.bhg.com\" rel=\"nofollow\" target=\"_blank\">Better
+  Homes and Gardens</a></li>\n        <li><a href=\"https://www.marthastewart.com\"
+  rel=\"nofollow\" target=\"_blank\">Martha Stewart Living</a></li>\n        <li><a
+  href=\"http://www.midwestliving.com\" rel=\"nofollow\" target=\"_blank\">Midwest
+  Living</a></li>\n        <li><a href=\"http://www.traditionalhome.com\" rel=\"nofollow\"
+  target=\"_blank\">Traditional Home</a></li>\n        <li><a href=\"http://www.allpeoplequilt.com\"
+  rel=\"nofollow\" target=\"_blank\">All People Quilt</a></li>\n        <li><a href=\"http://www.diyadvice.com\"
+  rel=\"nofollow\" target=\"_blank\">DIY Advice</a></li>\n      </ul>\n    </section>\n\n
+  \   <section class=\"meredith-section\">\n      <ul class=\"list-sites\">\n        <li><h4
+  class=\"footer-section-subtitle\">AllRecipes</h4></li>\n        <li><a href=\"http://allrecipes.com\"
+  rel=\"nofollow\" target=\"_blank\">Allrecipes.com</a></li>\n        <li><a href=\"http://www.recipe.com\"
+  rel=\"nofollow\" target=\"_blank\">Recipe.com</a></li>\n        <li><a href=\"http://www.eatingwell.com\"
+  rel=\"nofollow\" target=\"_blank\">Eating Well</a></li>\n        <li><a href=\"http://www.rachaelraymag.com\"
+  rel=\"nofollow\" target=\"_blank\">Rachael Ray Magazine</a></li>\n        <li><a
+  href=\"http://www.diabeticlivingonline.com\" rel=\"nofollow\" target=\"_blank\">Diabetic
+  Living</a></li>\n        <li><a href=\"http://www.eatthis.com\" rel=\"nofollow\"
+  target=\"_blank\">Eat This, Not That!</a></li>\n        <li><a href=\"http://www.kraftrecipes.com\"
+  rel=\"nofollow\" target=\"_blank\">Kraft Recipes</a></li>\n      </ul>\n    </section>\n\n
+  \   <section class=\"meredith-section\">\n      <ul class=\"list-sites\">\n        <li><h4
+  class=\"footer-section-subtitle\">Parents</h4></li>\n        <li><a href=\"http://www.parents.com\"
+  rel=\"nofollow\" target=\"_blank\">Parents</a></li>\n        <li><a href=\"http://www.parenting.com\"
+  rel=\"nofollow\" target=\"_blank\">Parenting</a></li>\n        <li><a href=\"http://www.familycircle.com\"
+  rel=\"nofollow\" target=\"_blank\">Family Circle</a></li>\n        <li><a href=\"http://serpadres.com\"
+  rel=\"nofollow\" target=\"_blank\">Ser Padres</a></li>\n        <li><a href=\"http://www.fitpregnancy.com\"
+  rel=\"nofollow\" target=\"_blank\">Fit Pregnancy</a></li>\n      </ul>\n    </section>\n\n
+  \   <section class=\"meredith-section\">\n      <ul class=\"list-sites\">\n        <li><h4
+  class=\"footer-section-subtitle\">Meredith Beauty</h4></li>\n        <li><a href=\"http://www.fitnessmagazine.com\"
+  rel=\"nofollow\" target=\"_blank\">Fitness Magazine</a></li>\n        <li><a href=\"http://www.shape.com\"
+  rel=\"nofollow\" target=\"_blank\">Shape</a></li>\n        <li><a href=\"https://www.marthastewartweddings.com\"
+  rel=\"nofollow\" target=\"_blank\">Martha Stewart Weddings</a></li>\n        <li><a
+  href=\"http://www.mywedding.com\" rel=\"nofollow\" target=\"_blank\">Mywedding</a></li>\n
+  \       <li><a href=\"http://www.more.com\" rel=\"nofollow\" target=\"_blank\">More</a></li>\n
+  \       <li><a href=\"http://siempremujer.com/\" rel=\"nofollow\" target=\"_blank\">Siempre
+  Mujer</a></li>\n      </ul>\n    </section>\n  </div>\n</div>\n\n<!-- Copyright
+  section. -->\n<div class=\"copyright-wrap\">\n  <div class=\"copyright-container\">\n
+  \   <section class=\"copyright-section\">\n      © Copyright 2019, Martha Stewart
+  Living Omnimedia, Inc. All rights reserved.\n    </section>\n  </div>\n</div>\n\n<!--
+  Meredith copyright. -->\n  \n<div class=\"meredith-copyright\">\n  <div class=\"meredith-copyright-inner\">\n
+  \   <div class=\"meredith-logo-wrap\">\n      <img class=\"meredith-logo\" src=\"/sites/all/themes/emma/img/meredith_womensnetwork.svg\">\n
+  \   </div>\n          <span class=\"meredith-brand-vertical\">\n        Martha Stewart
+  is part of the Meredith Home Group      </span>\n        <span class=\"copyright-info\">\n
+  \     © Copyright 2019, Meredith Corporation. All Rights Reserved\n    </span>\n
+  \   <div class=\"links-section\">\n      <ul class=\"list-sites\">\n        <li><a
+  href=\"http://www.meredith.com/legal/privacy-mso\" rel=\"nofollow\" target=\"_blank\">Privacy
+  Policy - Your California Rights</a></li>\n        <li><script>if (window.mdp.gdpr.dsarFormLink)
+  document.write('<a href=\"' + window.mdp.gdpr.dsarFormLink + '\" target=\"_blank\">EU
+  Data Subject Requests</a>');</script><a href=\"https://app-de.onetrust.com/app/#/webform/0c410d51-8e85-4308-9bb9-37c24a461ccb?uid=\"
+  target=\"_blank\">EU Data Subject Requests</a></li>\n        <li><a href=\"http://www.meredith.com/datapolicy.html\"
+  rel=\"nofollow\" target=\"_blank\">Data Policy</a></li>\n        <li><a href=\"http://www.meredith.com/legal/terms\"
+  class=\"terms-of-service-footer\">Terms of Service</a></li>\n        <li>\n          <!--
+  AdChoice logo and link populated by third party GTM script. -->\n          <a id=\"_bapw-link\"
+  href=\"#\" rel=\"nofollow\" target=\"_blank\">\n            <img id=\"_bapw-icon\">\n
+  \           <span id=\"_bapw-text\">\n              AdChoices\n            </span>\n
+  \         </a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</div>\n    </footer>\n
+  \ </div>\n\n  <script type=\"application/ld+json\">{\n    \"@context\": \"http:\\/\\/www.schema.org\",\n
+  \   \"url\": \"https:\\/\\/www.marthastewart.com\\/1500950\\/how-sous-vide-without-fancy-machine\",\n
+  \   \"description\": \"Juicy, flavor-packed, and impossibly tender, a sous vide
+  steak is an extraordinary meal that you can make in your kitchen tonight, no special
+  equipment required. And steak's just the beginning! There's no end to what you can
+  achieve, from delicate fish to snappy asparagus, when you can control how your food
+  cooks with this simple method.\",\n    \"@type\": \"Article\",\n    \"publisher\":
+  {\n        \"@type\": \"Organization\",\n        \"name\": \"Martha Stewart\",\n
+  \       \"url\": \"https:\\/\\/www.marthastewart.com\\/\",\n        \"logo\": {\n
+  \           \"@type\": \"ImageObject\",\n            \"url\": \"https:\\/\\/www.marthastewart.com\\/sites\\/all\\/themes\\/emma\\/img\\/logo.png\",\n
+  \           \"width\": 118,\n            \"height\": 60\n        }\n    },\n    \"image\":
+  {\n        \"@type\": \"ImageObject\",\n        \"url\": \"https:\\/\\/assets.marthastewart.com\\/styles\\/wmax-1500\\/d14\\/sous-vide-MS01\\/sous-vide-MS01.JPG?itok=yidACNx_\",\n
+  \       \"width\": \"1250\",\n        \"height\": \"1777\"\n    },\n    \"author\":
+  [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"ChefSteps\",\n
+  \           \"image\": \"https:\\/\\/assets.marthastewart.com\\/styles\\/img_120x120\\/d22\\/chefsteps-profile-0815\\/chefsteps-profile-0815_sq.jpg?itok=qRb0WEkI\"\n
+  \       }\n    ],\n    \"datePublished\": \"2015-11-24\",\n    \"keywords\": \"Sous
+  vide, 101s, Martha Stewart Contributor, Cooking Basics\",\n    \"headline\": \"How
+  to Sous Vide Without the Fancy Machine\",\n    \"articleBody\": \"This method basically
+  involves heating food just enough so that it reaches the exact \\\"doneness\\\"
+  you desire, with no risk of over- or under- cooking. Tools like immersion circulators
+  and Sous Vide Supreme baths do make the process faster and easier, but they are
+  not a requirement. All you need is a digital thermometer and some Ziploc plastic
+  bags, and you're good to go. Really!\\r\\n\\r\\n&nbsp;\\r\\n\\r\\nThe key to cooking
+  food successfully with the stove-top method is holding the water at a steady temperature
+  long enough to cook the food. To do this, you'll need to adjust the stove's burner,
+  as well as the placement of your pot on top if it. Keep in mind that you're constantly
+  losing heat through the sides of the pot and from the evaporation of water, so there's
+  no getting around the fact that your temperature will fluctuate a bit. Stick with
+  it -- if you keep your water within a degree or two, you're doing great.\\r\\n\\r\\n&nbsp;\\r\\n\\r\\nLet's
+  start cooking sous vide!Step 1: Prepare a water bath.\\r\\n\\r\\nFill your pot with
+  water. Leave enough room at the top so that the water won't overflow once you add
+  food.Step 2: Mount a thermometer on the side of the pot (optional).\\r\\n\\r\\nUse
+  a skewer or a heavy-duty clip clamp to mount the digital thermometer to the side
+  of the pot, or you can just stick the thermometer in the water now and again to
+  check its temperature. If you really want to set it and forget it, we recommend
+  the clamp.Step 3: Heat water.\\r\\n\\r\\nTurn your burner to medium-low, and heat
+  the water until it reaches the desired cooking temperature. Use ChefSteps' super-simple
+  Time and Temperature Guide to choose a well-tested time and temperature combination
+  that works for the food you're cooking and the doneness you desire. Adjust the burner
+  as necessary to maintain a steady cooking temp.\\r\\n\\r\\n&nbsp;\\r\\n\\r\\nA word
+  of warning: This can take a bit of time to get right. Plan accordingly. Stirring
+  the water frequently can help speed things along.\\r\\n\\r\\nStep 4: Place food
+  in a Ziploc bag.\\r\\n\\r\\nPlace your steak or other food in a gallon freezer Ziploc
+  bag. Add some olive oil, butter, and herbs if you want.\\r\\n\\r\\n&nbsp;\\r\\n\\r\\nPlace
+  the bag into the water with the top open, so that the air escapes the bag. Hang
+  the top of the bag over the edge of the pot and clip into place with a binder clip
+  or clothespin.\\r\\n\\r\\nStep 5: Cook.\\r\\n\\r\\nOnce you put the food into the
+  pot, you'll need to bring the water back to the desired temperature. This can take
+  some time, especially if you have a lot of water or a large, cold piece of food.\\r\\n\\r\\n&nbsp;\\r\\n\\r\\nOnce
+  the temperature is back up, start your timer. For a medium-rare 1-inch-thick steak,
+  cook at 136 degrees F for 1 to 3 hours. For more guidance, refer to our Sous Vide
+  Time and Temperature Guide.Step 6: Sear (optional).\\r\\n\\r\\nWe like to sear our
+  steaks (and chicken and pork and fish) right before serving. Heat up a large pan
+  until it's super hot, then remove the steak from the bag with tongs and sear for
+  a few seconds on each side. Add butter or aromatics to the pan and baste as desired.\\r\\n\\r\\n&nbsp;\\r\\n\\r\\nNote:
+  You'll sometimes see recipes that suggest searing before you cook sous vide. Both
+  methods work great and you can do either or both. When you sear before, the flavors
+  that developed during searing will cook together with the food, adding a some nice
+  flavor to the bag. Searing before also means you can get your pan dirty and then
+  have time to clean it way before dinner. Searing after (our preferred method) helps
+  develop a nice clean crust right before serving, and releases all those wonderful
+  it's-almost-dinnertime aromas as well. The bottom line is: They both work. It's
+  really a personal preference thing.\\r\\n\\r\\nStep 7: Season and serve!\\r\\n\\r\\nSprinkle
+  your food with some salt and pepper, slice, and serve! If you're making steak, how
+  'bout serving it up with some buttery mashed potatoes? Yum, can we come over?\"\n}</script>\n
+  \   <script type=\"text/javascript\" src=\"https://www.marthastewart.com/sites/files/marthastewart.com/advagg_js/js__MIORy4uA6z2yd5tcJK7QF564U_stptgTwVzFjHrkPXI__METUG5HtbZFYNhctcmCadaLrJ_r14JECS7ecqxOIBBU__vhROgUFYNNxdJIDEF8eYVsRBDa24-zNuTl0oFt1Yv1w.js\"></script>\n<script
+  type=\"text/javascript\" src=\"https://www.marthastewart.com/sites/files/marthastewart.com/advagg_js/js__zRJ4QJ2ucqZARJ-9F5mLMZcujM0LS0QIWRUXWXpzNwg__ToKdGsyzXORePzIV8yX1XeaVoHVsgFVZNScUkjjeesc__vhROgUFYNNxdJIDEF8eYVsRBDa24-zNuTl0oFt1Yv1w.js\"></script>\n<script
+  type=\"text/javascript\" src=\"https://www.marthastewart.com/sites/files/marthastewart.com/advagg_js/js__eOSw59ZtSRggLdxDxhWeMmk0CR4TFZpy0WJB8-HieSQ__DlsrWF2E_yy3-PC9ju2ofxQM5BH5Pmc33_M0m84PkmE__vhROgUFYNNxdJIDEF8eYVsRBDa24-zNuTl0oFt1Yv1w.js\"></script>\n<script
+  type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nvar msloFacebookAppId = \"393254810836193\";\n//--><!]]>\n</script>\n<script
+  type=\"text/javascript\" src=\"https://www.marthastewart.com/sites/files/marthastewart.com/advagg_js/js__PK6AaUZQ7pwCzJcpPS7mF6HFa9b9uYAZrb80GUeBp74__cgYcKwP5UmUcZKuGprTcd8cpOuiNxUEM79YivZ0EHCY__vhROgUFYNNxdJIDEF8eYVsRBDa24-zNuTl0oFt1Yv1w.js\"></script>\n<script
+  type=\"text/javascript\">\n<!--//--><![CDATA[//><!--\nvar skywordContentId = \"281474979458874\";\n//--><!]]>\n</script>\n<script
+  type=\"text/javascript\" src=\"https://www.marthastewart.com/sites/files/marthastewart.com/advagg_js/js__TgMhulY9E7dHxMMp3oMsWW8oCbKUezLYhA8QpTUuOpk__FL4ny9XE1thZCZNKCRw1zITPfTcA2gl3-gPh3J4j93U__vhROgUFYNNxdJIDEF8eYVsRBDa24-zNuTl0oFt1Yv1w.js\"></script>\n<script
+  type=\"text/javascript\" src=\"https://www.marthastewart.com/sites/files/marthastewart.com/advagg_js/js__rcsFkOab8TD8cdaXylTzt0HcnXG48N6tAZN3MkXOb9E__TtGYW7XzbSdaJmYDn7oFjF0iQbtrjlQR0MaMiMK3gLw__vhROgUFYNNxdJIDEF8eYVsRBDa24-zNuTl0oFt1Yv1w.js\"></script>\n<script
+  type=\"text/javascript\" src=\"https://www.marthastewart.com/sites/files/marthastewart.com/advagg_js/js__i2vagyf1nEGKDBOuebCk_li8czbeL83s7tdE_CJHDWg__hJSXUcVEQfwM_nS_mc96tcXH_o7nk8fMJbZ5EWS4OYI__vhROgUFYNNxdJIDEF8eYVsRBDa24-zNuTl0oFt1Yv1w.js\"></script><img
+  src=\"/kismet/spacer.png\">\n<script type=\"text/javascript\" src=\"https://www.marthastewart.com/sites/files/marthastewart.com/advagg_js/js__y9UJ6ueDyZBGUf5Pja6KYesp2CZSVJWOfwAMveOij_o__t6QZGhgHtvzZNibWdWPDf-mmzqX4uQW8gdJHiacI0Dw__vhROgUFYNNxdJIDEF8eYVsRBDa24-zNuTl0oFt1Yv1w.js\"></script>\n
+  \   <!-- OPUS.17: 0.427s -->  <script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"5c31b36624\",\"applicationID\":\"6239845\",\"transactionName\":\"YQNWYBMHWUJZBRJeXFhJdVcVD1hfFwgJU1ZpFlVTBDlBWF0R\",\"queueTime\":0,\"applicationTime\":436,\"atts\":\"TURVFlsdSkw=\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script>\n\n<iframe
+  scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=https%3A%2F%2Fwww.marthastewart.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
+  title=\"Twitter settings iframe\" style=\"display: none;\"></iframe></body></html>"
