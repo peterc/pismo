@@ -13,6 +13,7 @@ module Pismo
           ['meta[@name="author"]', lambda { |el| el.attr('content') }],     # Traditional meta tag style
           ['meta[@name="Author"]', lambda { |el| el.attr('content') }],     # CNN style
           ['meta[@name="AUTHOR"]', lambda { |el| el.attr('content') }],     # CNN style
+          ['meta[@name="pinterestapp:pinner"]', lambda { |el| el.attr('content') }],  # pinterest author
           '.byline a',                                                      # Ruby Inside style
           '.byline',
           '.node-byline',                                                   # FastCompany
@@ -34,7 +35,17 @@ module Pismo
           '.auth',
           '.author-info',
           '.Post__author',
-          ['meta[@name="byl"]', lambda { |el| el.attr('content') }],
+          ['meta[@name="byline"]',          lambda { |el| el.attr('content') }],
+          ['meta[@name="dc.creator"]',      lambda { |el| el.attr('content') }],
+          ['meta[@name="byl"]',             lambda { |el| el.attr('content') }],
+          ['meta[@rel="author"]',           lambda { |el| el.attr('content') }],
+          ['meta[@rel="byline"]',           lambda { |el| el.attr('content') }],
+          ['meta[@rel="dc.creator"]',       lambda { |el| el.attr('content') }],
+          ['meta[@rel="byl"]',              lambda { |el| el.attr('content') }],
+          ['meta[@itemprop="author"]',      lambda { |el| el.attr('content') }],
+          ['meta[@itemprop="byline"]',      lambda { |el| el.attr('content') }],
+          ['meta[@itemprop="dc.creator"]',  lambda { |el| el.attr('content') }],
+          ['meta[@itemprop="byl"]',         lambda { |el| el.attr('content') }],
           '.timestamp a',
           '.fn a',
           '.fn',
