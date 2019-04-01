@@ -43,10 +43,10 @@ module Pismo
           known:      false,
           profile:    true
         }
+        hsh = merge_jsonld_publisher_info(hsh)
         helpers.each do |helper|
           hsh = hsh.merge(helper.except(:type))
         end
-        hsh = merge_jsonld_publisher_info(hsh)
         hsh
       end
 
@@ -81,7 +81,7 @@ module Pismo
           arr << reddit_author
           arr << url_author
           arr << jsonld_author
-          arr = arr.delete_if { |profile| profile.nil? }
+          arr = arr.compact.uniq
           arr
         end
       end
