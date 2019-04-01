@@ -95,22 +95,6 @@ module Pismo
 
       def person_parser(key)
         hsh = {}
-        if json_ld[key].is_a?(String)
-          hsh[:name] = json_ld[key]
-        elsif json_ld.is_a?(Hash)
-          json_ld_key = json_ld.dig(key).present? ? json_ld.dig(key) : {}
-          json_ld_key = json_ld_key.flatten.compact.uniq.first if json_ld_key.is_a?(Array)
-          hsh[:name] = json_ld_key.dig('name')
-          unless hsh[:name].nil?
-            hsh[:from] = 'jsonld'
-            hsh[:title] = json_ld_key.dig('jobTitle')
-            %w[url email telephone gender image].each do |sub_key|
-              hsh[sub_key.to_sym] = json_ld_key.dig(sub_key)
-            end
-            hsh[:image] = json_ld_key.dig('image', 'url') if hsh[:image].is_a?(Hash)
-            hsh = hsh.delete_if { |k, v| v.nil? }
-            hsh = add_identifier(hsh)
-            hsh[:type] = 'site/author' if hsh[:type] && hsh[:type] == 'web/page'
         typed_person_object = Utils::HashSearch.deep_find(json_ld, key)
         if typed_person_object.is_a?(String)
           hsh[:name] = typed_person_object
