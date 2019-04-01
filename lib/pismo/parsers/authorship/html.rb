@@ -70,7 +70,7 @@ module Pismo
           'a[@title*="profile"]',
           'a[@title*="author"]',
           '#authorinfo',
-          '.authorinfo',
+          '.authorinfo'
         ]
 
         def call
