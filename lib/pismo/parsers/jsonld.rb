@@ -14,7 +14,6 @@ module Pismo
             author:         author,
             person:         person,
             publisher:      publisher,
-            type:           type,
             url:            url,
             headline:       headline,
             description:    description,
@@ -35,7 +34,7 @@ module Pismo
       end
 
       def json_ld_script
-        @json_ld_script_text ||= doc.xpath('//script[@type="application/ld+json"]')&.first&.text
+        @json_ld_script ||= doc.xpath('//script[@type="application/ld+json"]')&.first&.text
       end
 
       def author
@@ -51,46 +50,47 @@ module Pismo
       end
 
       def type
-        @type ||= json_ld.dig('@type')
+        @type ||= Utils::HashSearch.deep_find(json_ld, '@type')
       end
 
       def url
-        @url ||= json_ld.dig('url')
+        @url ||= Utils::HashSearch.deep_find(json_ld, 'url')
       end
 
       def headline
-        @headline ||= json_ld.dig('headline')
+        @headline ||= Utils::HashSearch.deep_find(json_ld, 'headline')
       end
 
       def description
-        @description ||= json_ld.dig('description')
+        @description ||= Utils::HashSearch.deep_find(json_ld, 'de')
       end
 
       def featured_image
         @featured_image ||= begin
-          image = json_ld.dig('image')
-          if image.is_a?(Hash)
-            image_url = image.dig('url')
-          else
-            if image.is_a?(Array)
-              image_hsh = image.uniq.first
-              image_url = image_hsh.dig('url') if image_hsh
-            end
-          end
-          image_url
+          image = Utils::HashSearch.deep_find(json_ld, 'image', 'url')
+          image = Utils::HashSearch.deep_find(json_ld, 'image') if image.blank?
+          image = image.first if image.is_a?(Array)
+          image
         end
       end
 
       def keywords
-        @keywords ||= json_ld.dig('keywords').to_s
-                             .downcase.split(',')
-                             .map do |keyword|
-          keyword.gsub(/\W+/, ' ').squeeze(' ').strip
+        @keywords ||= begin
+          keywords = Utils::HashSearch.deep_find(json_ld, 'keywords')
+
+          if keywords.is_a?(String)
+            keywords = keywords.downcase.split(',')
+                               .map do |keyword|
+              keyword.gsub(/\W+/, ' ').squeeze(' ').strip
+            end
+          end
+
+          keywords
         end
       end
 
       def published_date
-        @published_date ||= json_ld.dig('datePublished')
+        @published_date ||= Utils::HashSearch.deep_find(json_ld, 'datePublished')
       end
 
       def person_parser(key)
@@ -111,22 +111,41 @@ module Pismo
             hsh = hsh.delete_if { |k, v| v.nil? }
             hsh = add_identifier(hsh)
             hsh[:type] = 'site/author' if hsh[:type] && hsh[:type] == 'web/page'
+        typed_person_object = Utils::HashSearch.deep_find(json_ld, key)
+        if typed_person_object.is_a?(String)
+          hsh[:name] = typed_person_object
+        else
+          name = Utils::HashSearch.deep_find(typed_person_object, 'name')
+          if name
+            hsh[:name] = name
+            %w[jobTitle url email telephone gender image].each do |subkey|
+              subkey_value = Utils::HashSearch.deep_find(typed_person_object, subkey)
+              hsh[subkey.underscore.to_sym] = subkey_value if subkey_value.present?
+            end
           end
         end
+        hsh = add_identifier(hsh)
+        hsh[:type] = 'site/author' if hsh[:type] && hsh[:type] == 'web/page'
         hsh
       end
 
       def organization_parser(key)
         hsh = {}
-        hsh[:name] = json_ld.dig(key, 'name')
-        return {} if hsh[:name].nil?
-        hsh[:from] = 'jsonld'
-        hsh[:image] = json_ld.dig(key, 'logo')
-        hsh[:image] = json_ld.dig(key, 'logo', 'url') if hsh[:image].is_a?(Hash)
-        %w[url description].each do |sub_key|
-          hsh[sub_key.to_sym] = json_ld.dig(key, sub_key)
+        typed_organization_object = Utils::HashSearch.deep_find(json_ld, key)
+        if typed_organization_object.is_a?(String)
+          hsh[:name] = typed_organization_object
+        else
+          name = Utils::HashSearch.deep_find(typed_organization_object, 'name')
+          if name
+            hsh[:name] = name
+            hsh[:image] = Utils::HashSearch.deep_find(typed_organization_object, 'logo', 'url')
+            hsh[:image] = Utils::HashSearch.deep_find(typed_organization_object, 'logo') if hsh[:image].blank?
+            %w[url description].each do |subkey|
+              subkey_value = Utils::HashSearch.deep_find(typed_organization_object, subkey)
+              hsh[subkey.to_sym] = subkey_value if subkey_value
+            end
+          end
         end
-        hsh = hsh.delete_if { |k, v| v.nil? }
         hsh = add_identifier(hsh)
         hsh[:type] = 'company/profile' if hsh[:type] && hsh[:type] == 'web/page'
         hsh[:identifier] = hsh[:type]
@@ -135,8 +154,11 @@ module Pismo
 
       def add_identifier(hsh)
         return hsh unless hsh[:url]
+
         parsed = Allusion.parse(hsh[:url])
-        hsh[:type] = parsed[:identifier]
+        hsh[:type]       = parsed[:identifier]
+        hsh[:identifier] = parsed[:identifier]
+        hsh[:from]       = 'jsonld' if hsh[:type].present?
         hsh
       end
     end

@@ -38,8 +38,9 @@ require 'pismo/parsers/favicons'
 require 'pismo/parsers/keywords'
 
 require 'pismo/utils/indicators'
-require 'pismo/utils/nodes_to_profiles'
+require 'pismo/utils/hash_search'
 require 'pismo/utils/url'
+require 'pismo/utils/nodes_to_profiles'
 
 
 if RUBY_PLATFORM == "java"
