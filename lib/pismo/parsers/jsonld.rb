@@ -27,7 +27,7 @@ module Pismo
 
       def json_ld
         @json_ld ||= begin
-          json_ld = JSON.parse(json_ld_script) if json_ld_script
+          json_ld = JSON.parse(json_ld_script.gsub(/\a|\t|\n|\f|\r|\e/, " ")) if json_ld_script
           json_ld = {} if json_ld.nil?
           json_ld
         end
