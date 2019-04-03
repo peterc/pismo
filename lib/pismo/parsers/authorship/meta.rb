@@ -27,6 +27,7 @@ module Pismo
         def meta_author
           @meta_author ||= begin
             return nil unless meta.is_a?(Hash)
+
             meta_author = nil
             meta_attrs.each do |meta_attr|
               break if meta_author
@@ -61,8 +62,10 @@ module Pismo
         def profiles
           @profiles ||= begin
             return [] if nodes.length.zero?
+
             Utils::NodesToProfiles.call(matches: nodes, url: url, doc: doc).map do |profile|
               profile[:from] = :meta_html
+              profile[:name] = meta_author
               profile
             end
           end

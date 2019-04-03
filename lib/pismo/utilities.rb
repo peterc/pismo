@@ -6,6 +6,25 @@ module Pismo
         a >= b ? a : b
       end
 
+      def sentences_from_node(doc)
+        text = extract_text(doc.to_html)
+        Dewey.new(text: text).cleaned_sentences
+                             .select { |sentence| sentence.length > 30 || sentence.include?("__HEADING") }
+                             .map    { |sentence| remove_header_tag(sentence) }
+      end
+
+      def remove_header_tag(sentence)
+        sentence.gsub('__HEADER_START__', '').squeeze(' ').strip
+      end
+
+      def extract_text(doc)
+        Utils::ConvertToPlainText.plain_text(doc, tag_headings: true)
+      end
+
+      def sentences(text)
+        Dewey.new(text: text).cleaned_sentences.map { |sentence| remove_header_tag(sentence) }
+      end
+
       def looks_like_a_name?(term)
         Dewey::Utils::TextUtils.looks_like_a_name?(term)
       end

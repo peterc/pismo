@@ -37,6 +37,10 @@ module Pismo
         @host ||= Utils::Url.host(url)
       end
 
+      def social_profiles
+        @social_profiles ||= args.dig(:social_profiles)
+      end
+
       def meta
         @meta ||= begin
           meta = args.dig(:meta)
@@ -131,24 +135,29 @@ module Pismo
         }
       end
 
-      def attr_id_contains_text?(attr, txt)
-        doc.xpath("//#{attr}[
-            contains(
-              translate(@id, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),
-              '#{txt}'
-            )
-          ]"
-        )
+      def compound_search_text
+        searches = []
+        %w[@class @id @rel @href @title @alt].each do |location|
+          %w[a img].each do |tag|
+            %w[user profile member avatar creator writer byline shop owner].each do |text|
+              searches << build_xpath_search(tag, location, text)
+            end
+          end
+        end
+        searches
       end
 
-      def attr_rel_contains_text?(attr, txt)
-        doc.xpath("//#{attr}[
-            contains(
-              translate(@rel, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),
-              '#{txt}'
-            )
-          ]"
-        )
+      def get_compound_results
+        doc.xpath(compound_search_text.join(" | "))
+      end
+
+      def get_nodes_with_tag_attr_containing_text(tag_type, tag_attr, text)
+        search_phrase = build_xpath_search(tag_type, tag_attr, text)
+        doc.xpath(search_phrase)
+      end
+
+      def build_xpath_search(tag_type, tag_attr, text)
+        "//#{tag_type}[contains(translate(#{tag_attr}, \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\", \"abcdefghijklmnopqrstuvwxyz\"), \"#{text}\")]"
       end
 
       def clean_node_text(node)

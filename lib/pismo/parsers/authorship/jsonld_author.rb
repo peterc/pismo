@@ -65,7 +65,8 @@ module Pismo
           @profiles ||= begin
             return [] if nodes.length.zero?
             Utils::NodesToProfiles.call(matches: nodes, url: url, doc: doc).map do |profile|
-              profile[:from] = :meta
+              profile[:from] = :jsonld
+              profile[:name] = author_name
               profile
             end
           end

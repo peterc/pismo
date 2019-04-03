@@ -8,14 +8,18 @@ module Pismo
       end
 
       def profiles
-        @profiles ||= begin
-          profiles, helpers = extract_helper_data(author_items)
-          profiles << default_publisher_profile(helpers) if profiles.length == 0
-          profiles
+        @profiles ||= Utils::SearchForAdditionalProfiles.call(profiles: found_profiles, url: url, doc: doc, sentences: sentences, social_profiles: social_profiles)
+      end
+
+      def found_profiles
+        @found_profiles ||= begin
+          found_profiles, helpers = extract_helper_data(author_items)
+          found_profiles << default_publisher_profile(helpers) if found_profiles.length == 0
+          found_profiles
         end
       end
 
-      # when we get enough data to help, but not enough to build a profile,
+      # When we get enough data to help, but not enough to build a profile,
       # its passed as help_data type. We extract these into a separate
       # array that we pass to the default publisher profile, to add it there.
       def extract_helper_data(potential_profiles)

@@ -25,7 +25,7 @@ module Pismo
 
     # Returns the author of the page/content
     def authors
-      @authors ||= Parsers::Authors.call(doc: doc, meta: meta, url: url, jsonld: jsonld)
+      @authors ||= Parsers::Authors.call(doc: doc, meta: meta, url: url, jsonld: jsonld, sentences: all_sentences, social_profiles: social_links)
     end
 
     def author
@@ -74,7 +74,13 @@ module Pismo
     def sentences(limit = 3)
       return nil unless reader_doc && !reader_doc.sentences.empty?
 
-      reader_doc.sentences(limit).join(' ')
+      all_sentences.take(limit).join(' ')
+    end
+
+    # Returns a string containing the first [limit] sentences as determined
+    # by the Reader algorithm
+    def all_sentences
+      @all_sentences ||= Utilities.sentences_from_node(doc)
     end
 
     # Returns any images with absolute URLs in the document
@@ -95,34 +101,17 @@ module Pismo
       reader_doc && !reader_doc.videos.empty? ? reader_doc.videos(limit) : nil
     end
 
+    def links
+      @links ||= Parsers::Links.call(url: url, doc: doc)
+    end
+
+    def social_links
+      @social_links ||= links.select { |link| link[:profile] == true }
+    end
+
    # Returns the tags or categories of the page/content
     def tags
-      css_selectors = [
-                       '.watch-info-tag-list a',  # YouTube
-                       '.entry .tags a',          # Livejournal
-                       'a[rel~=tag]',             # Wordpress and many others
-                       'a.tag',                   # Tumblr
-                       '.tags a',
-                       '.labels a',
-                       '.categories a',
-                       '.topics a'
-                      ]
-
-      tags = []
-
-      # grab the first one we get results from
-      css_selectors.each do |css_selector|
-        tags += @doc.css(css_selector)
-        break if tags.any?
-      end
-
-      # convert from Nokogiri Element objects to strings
-      tags.map!(&:inner_text)
-
-      # remove "#" from hashtag-like tags
-      tags.map! { |t| t.gsub(/^#/, '') }
-
-      tags
+      @tags ||= Parsers::Tags.call(doc: doc)
     end
 
     def keyword_options
@@ -153,6 +142,10 @@ module Pismo
     # Returns body text as determined by Reader algorithm WITH basic HTML formatting intact
     def html_body
       @html_body ||= reader_doc.content.strip
+    end
+
+    def plain_text
+      @plain_text ||= Utilities.sentences_from_node(doc).join(' ')
     end
 
     def feeds
