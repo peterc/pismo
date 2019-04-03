@@ -12,7 +12,7 @@ module Pismo
 
         def sectional
           %w[body nav section article aside footer details figcaption
-             figure main mark summary header time cite blockquote]
+             figure main mark summary header time cite blockquote head]
         end
 
         def sectional_css

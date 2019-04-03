@@ -70,7 +70,10 @@ module Pismo
           'a[@title*="profile"]',
           'a[@title*="author"]',
           '#authorinfo',
-          '.authorinfo'
+          '.authorinfo',
+          'a.g-profile',
+          '.content-calendar-item-poster-linked a',
+          'a.author-url',
         ]
 
         def call
