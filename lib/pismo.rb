@@ -36,11 +36,15 @@ require 'pismo/parsers/ad_networks'
 require 'pismo/parsers/feeds'
 require 'pismo/parsers/favicons'
 require 'pismo/parsers/keywords'
+require 'pismo/parsers/links'
+require 'pismo/parsers/tags'
 
 require 'pismo/utils/indicators'
 require 'pismo/utils/hash_search'
 require 'pismo/utils/url'
 require 'pismo/utils/nodes_to_profiles'
+require 'pismo/utils/search_for_additional_profiles'
+require 'pismo/utils/convert_to_plain_text'
 
 
 if RUBY_PLATFORM == "java"

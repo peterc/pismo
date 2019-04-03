@@ -97,13 +97,16 @@ module Pismo
           from:  :html,
           line:  node.line
         }
-        hsh[:type] = 'author/profile' if hsh[:type] == 'web/page'
         hsh
       end
 
       def profile_links_from_node(node)
         links = build_parsed_links_list_from_node(node)
         links = links.select { |link| valid_profile_link?(link) }
+        links = links.map do |link|
+          link[:identifier] = 'author/profile' if link[:identifier].nil? || link[:identifier] == 'web/page'
+          link
+        end
         links
       end
 
@@ -229,7 +232,7 @@ module Pismo
         name = extract_name_from_node_image(node)            if name.blank?
         name = extract_name_from_node_using_regex_scan(node) if name.blank?
         name = extract_name_from_node_text(node)             if name.blank?
-        name = nil unless Utilities.looks_like_a_name?(name)
+        # name = nil unless Utilities.looks_like_a_name?(name)
         name
       end
 

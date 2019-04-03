@@ -9,6 +9,7 @@ module FixtureHelpers
 
     Dir[dir].entries.sort.each_with_index do |file_path, indx|
       next if file_path == '..' || file_path == '.'
+
       file = load_fixture_file(file_path)
       block.call(file_path.split("/").last, file)
     end
