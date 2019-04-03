@@ -4,7 +4,6 @@ module Pismo
       class << self
         def find_in_hash(hsh, *keys)
           keys = keys.dup
-
           next_key = keys.shift
           return [] unless hsh.key? next_key
 
@@ -14,9 +13,11 @@ module Pismo
           return find_in_hash(next_val, *keys) if next_val.is_a?(::Hash)
 
           return [] unless next_val.is_a?(Array)
-          next_val.each_with_object([]) do |v, result|
-            inner = find_in_hash(v, *keys)
-            result << inner if inner
+          if next_val.any?{|v| v.is_a?(Hash)}
+            next_val.each_with_object([]) do |v, result|
+              inner = find_in_hash(v, *keys)
+              result << inner if inner
+            end
           end
         end
 
@@ -58,10 +59,7 @@ module Pismo
         end
 
         def clean_result(result)
-          return nil              if result.nil?
-
-          result = nil            if result.is_a?(Array)  && result.length.zero?
-          result = nil            if result.is_a?(::Hash) && result.keys.length.zero?
+          return nil              if result.blank?    #[].blank? => true; {}.blank? => true; nil.blank? => true
           result = result.flatten if result.is_a?(Array)
           result = result.first   if result.is_a?(Array)  && result.length == 1
           result

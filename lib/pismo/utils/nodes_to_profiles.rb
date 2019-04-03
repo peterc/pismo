@@ -171,15 +171,20 @@ module Pismo
 
       def get_grandparent_node(node)
         grandparent_node = node
-        4.times do
-          before_node = grandparent_node
-          grandparent_node = grandparent_node.parent if node_is_not_a_sectional_type?(grandparent_node.parent) || css_include_author_indicators?(grandparent_node.parent)
-          if node_is_a_sectional_type?(grandparent_node) || css_include_sectional_indicators?(grandparent_node)
-            grandparent_node = before_node
-            break
+        begin
+          4.times do
+            before_node = grandparent_node
+            grandparent_node = grandparent_node.parent if node_is_not_a_sectional_type?(grandparent_node.parent) || css_include_author_indicators?(grandparent_node.parent)
+            if node_is_a_sectional_type?(grandparent_node) || css_include_sectional_indicators?(grandparent_node)
+              grandparent_node = before_node
+              break
+            end
+            break if break_css_attributes?(node)
+            break if before_node == grandparent_node
           end
-          break if break_css_attributes?(node)
-          break if before_node == grandparent_node
+          if grandparent_node == node   # then do it only one time
+            grandparent_node = grandparent_node.parent if node_is_not_a_sectional_type?(grandparent_node.parent) || css_include_author_indicators?(grandparent_node.parent)
+          end
         end
         grandparent_node
       end
