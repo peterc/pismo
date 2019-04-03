@@ -102,10 +102,13 @@ module Pismo
           name = Utils::HashSearch.deep_find(typed_person_object, 'name')
           if name
             hsh[:name] = name
-            %w[jobTitle url email telephone gender image].each do |subkey|
+            %w[jobTitle url email telephone gender].each do |subkey|
               subkey_value = Utils::HashSearch.deep_find(typed_person_object, subkey)
               hsh[subkey.underscore.to_sym] = subkey_value if subkey_value.present?
             end
+            image = Utils::HashSearch.deep_find(typed_person_object, 'image', 'url')
+            image = Utils::HashSearch.deep_find(typed_person_object, 'image') if image.blank?
+            hsh[:image] = image if image.present?
           end
         end
         hsh = add_identifier(hsh)

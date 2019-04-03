@@ -29,6 +29,9 @@ module Pismo
       def profiles
         @profiles ||= begin
           profiles = original_profiles.dup
+          return profiles if only_publisher_profile?(profiles)
+          return profiles if matching_name.blank?
+
           converted_selected_social_profiles.each do |profile|
             next if profile.nil?
             next if profiles_include_url?(profiles, profile[:url])
@@ -38,6 +41,11 @@ module Pismo
           end
           profiles
         end
+      end
+
+      def only_publisher_profile?(check_profiles)
+        profile_types = check_profiles.map { |profile| profile[:type] }.uniq
+        profile_types.length == 1 && profile_types.first == 'publisher/profile'
       end
 
       def profiles_include_url?(check_profiles, url)
@@ -66,14 +74,15 @@ module Pismo
 
       def converted_selected_social_profiles
         @converted_selected_social_profiles ||= begin
+          titleized_name = matching_name.titleize
           selected_social_profiles.map do |profile|
             profile[:url] = profile[:url].gsub(/\/$/, '')
             {
-              name: matching_name,
-              url: profile[:url],
-              type: profile[:identifier],
+              name:  titleized_name,
+              url:   profile[:url],
+              type:  profile[:identifier],
               image: nil,
-              from: :on_page
+              from:  :on_page
             }
           end
         end
@@ -90,6 +99,8 @@ module Pismo
       end
 
       def get_url_candidate(profile_link)
+        return nil if profile_link[:url].nil?
+
         url_candidate = profile_link[:url].gsub(/\/$/, '')
         candidate = url_candidate.split('/').last
         candidate = candidate.gsub(/^@/, '')
@@ -97,6 +108,9 @@ module Pismo
       end
 
       def select_most_common_candidate(candidates)
+        candidates = candidates.delete_if { |candidate| candidate.nil? }
+        return nil if candidates.length == 0
+
         counter = Hash.new(0).tap { |h| candidates.each { |candidate| h[candidate.downcase] += 1 } }
         counter = counter.sort_by { |k,v| - v }
         counter&.first&.first

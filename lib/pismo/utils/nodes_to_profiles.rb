@@ -259,9 +259,7 @@ module Pismo
       end
 
       def extract_name_from_node_text(node)
-        potential_names = node.text.to_s.strip.scan(Dewey::Data::Names.firstnames_regex_inside).flatten.sort_by { |name| -name.length }
-        name = potential_names&.first&.titleize
-        name
+        node.text.to_s.strip.titleize
       end
 
       def extract_name_from_node_image_alt(node)
