@@ -123,7 +123,8 @@ module Pismo
             else
               raise 'no strategy for which method to use'
             end
-            author_candidates
+            Utils::NodesToProfiles.new(matches: author_candidates, url: url, doc: doc).filtered_matches
+            #author_candidates
           end
         end
 
@@ -137,7 +138,7 @@ module Pismo
                 matches << node
               elsif extract_a_link_node.is_a?(Array)
                 if extract_a_link_node.length > 0
-                  extract_a_link_node.each { |extracted_node| matches << node }
+                  extract_a_link_node.each { |extracted_node| matches << extracted_node }
                 else
                   # extracts entities from the text of the node, and tries to
                   # find a matching link that contiains the the name of the
@@ -148,6 +149,7 @@ module Pismo
                 end
               end
             end
+            #binding.pry
             matches
           end
         end
