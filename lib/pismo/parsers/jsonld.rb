@@ -39,12 +39,12 @@ module Pismo
       def json_ld_script
         @json_ld_script ||= begin
           json_ld_script = doc.xpath('//script[@type="application/ld+json"]')&.first&.text
-          if json_ld_script.chars.length > 10
+          if json_ld_script&.chars&.length.to_i > 10
             json_ld_script = HTMLEntities.new.decode(json_ld_script)
             json_ld_script = json_ld_script.gsub(/,,/, ',').gsub(/,\s+,/, ',')
             json_ld_script = json_ld_script.gsub(/\a|\t|\n|\f|\r|\e/, " ").squeeze(' ').strip
           end
-          json_ld_script = nil if json_ld_script.length < 10
+          json_ld_script = nil if json_ld_script&.length.to_i < 10
           json_ld_script
         end
       end
