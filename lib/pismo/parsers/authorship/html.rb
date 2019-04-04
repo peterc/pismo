@@ -77,13 +77,18 @@ module Pismo
         def author_candidates
           @author_candidates ||= begin
             author_candidates = []
-            AUTHOR_MATCHES.each do |match_query|
-              nodes = doc.css(match_query)
-              if nodes.is_a?(Nokogiri::XML::Element)
-                author_candidates << nodes
-              elsif nodes.is_a?(Array) || nodes.is_a?(Nokogiri::XML::NodeSet)
-                nodes.each do |node|
-                  author_candidates << node if node.is_a?(Nokogiri::XML::Element)
+            fast_results = get_compound_results
+            if fast_results.count > 10
+              author_candidates = fast_results
+            else
+              AUTHOR_MATCHES.each do |match_query|
+                nodes = doc.css(match_query)
+                if nodes.is_a?(Nokogiri::XML::Element)
+                  author_candidates << nodes
+                elsif nodes.is_a?(Array) || nodes.is_a?(Nokogiri::XML::NodeSet)
+                  nodes.each do |node|
+                    author_candidates << node if node.is_a?(Nokogiri::XML::Element)
+                  end
                 end
               end
             end

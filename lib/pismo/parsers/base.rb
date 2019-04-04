@@ -28,6 +28,7 @@ module Pismo
       def jsonld
         @jsonld ||= begin
           jsonld = args.dig(:jsonld)
+          jsonld = args.dig(:jsonld_data) if jsonld.nil?
           jsonld = Parsers::Jsonld.call(doc: doc) if jsonld.nil? && doc.present?
           jsonld
         end
