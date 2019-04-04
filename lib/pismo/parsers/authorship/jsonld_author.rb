@@ -55,6 +55,7 @@ module Pismo
 
             nodes = []
             author_name.split(' ').each do |text_item|
+              text_item = text_item.split(/\W/, 2).first # if we have Cook's we search for Cook
               contains_text?(text_item).each do |node|
                 next if invalid_candidate_profile_node?(node)
                 nodes << node
