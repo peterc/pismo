@@ -11,6 +11,8 @@ require 'htmlentities'
 require 'allusion'
 require 'dewey'
 require 'public_suffix'
+require 'mida'
+
 $: << File.dirname(__FILE__)
 
 require 'pismo/document'

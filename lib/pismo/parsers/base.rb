@@ -156,7 +156,7 @@ module Pismo
       end
 
       def search_locations
-        %w[@class @id @rel @href @title @alt].freeze
+        %w[@class @id @rel @href @title @alt @itemprop].freeze
       end
 
       def search_tag_types
@@ -164,7 +164,7 @@ module Pismo
       end
 
       def search_identifiers
-        %w[user profile member avatar creator writer byline shop owner organizer contributor].freeze
+        %w[author user profile member avatar creator writer byline shop owner organizer contributor].freeze
       end
 
       def supplemental_matches
@@ -174,11 +174,12 @@ module Pismo
           '//*[@class="byl"]',
           '//*[@class="info"]/a[@class="name"]',
           '//*[@class="auth"]/a',
-          '//*[@class="timestamp"]/a',
-          '//*[@class="fn"]/a',
+          '//*[@class="timestamp"]',
+          '//*[@class="fn"]',
           '//*[@class="poster"]/a',
           '//*[@class="blog_meta"]/a',
           '//cite/a',
+          '//cite',
           '//span[@property="dc:created"]',
           '//*[@class="contributor_details"]/h4/a',
           '//*[@class="meta"]/a',

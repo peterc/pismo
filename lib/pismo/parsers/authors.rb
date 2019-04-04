@@ -95,6 +95,7 @@ module Pismo
           arr << reddit_author
           arr << url_author
           arr << jsonld_author
+          arr << schema_author
           arr = arr.compact.uniq
           arr
         end
@@ -130,6 +131,10 @@ module Pismo
 
       def jsonld_author
         @jsonld_author ||= Parsers::Authorship::JsonldAuthor.call(url: url, doc: doc, jsonld_data: jsonld)
+      end
+
+      def schema_author
+        @schema_author ||= Parsers::Authorship::Schema.call(url: url, doc: doc)
       end
 
       def twitter_author
