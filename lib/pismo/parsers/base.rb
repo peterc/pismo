@@ -25,6 +25,10 @@ module Pismo
         @url ||= args.dig(:url)
       end
 
+      def microdata
+        @microdata ||= args.dig(:microdata)
+      end
+
       def jsonld
         @jsonld ||= begin
           jsonld = args.dig(:jsonld)
@@ -68,6 +72,10 @@ module Pismo
 
       def sentences
         @sentences ||= args.dig(:sentences)
+      end
+
+      def entities
+        @entities ||= args.dig(:entities)
       end
 
       def call
@@ -147,25 +155,15 @@ module Pismo
         search_identifiers.each do |text|
           searches << build_xpath_search('a', '@*', text)
           searches << build_xpath_search('img', '@*', text)
-          search_tag_types.each do |tag|
-            searches << build_xpath_search(tag, '@*', text, 'a')
-          end
+          searches << build_xpath_search('*', '@*', text, 'a')
         end
         supplemental_matches.each { |search| searches << search }
         searches = searches.uniq
         searches
       end
 
-      def search_locations
-        %w[@class @id @rel @href @title @alt @itemprop].freeze
-      end
-
-      def search_tag_types
-        %w[a img].freeze
-      end
-
       def search_identifiers
-        %w[author user profile member avatar creator writer byline shop owner organizer contributor reviewer].freeze
+        %w[author user profile member avatar creator writer byline shop owner organizer contributor reviewer byline].freeze
       end
 
       def supplemental_matches
@@ -190,11 +188,6 @@ module Pismo
 
       def get_compound_results
         doc.xpath(compound_search_text.join(" | "))
-      end
-
-      def get_nodes_with_tag_attr_containing_text(tag_type, tag_attr, text)
-        search_phrase = build_xpath_search(tag_type, tag_attr, text)
-        doc.xpath(search_phrase)
       end
 
       def build_xpath_search(tag_type, tag_attr, text, descendent = nil)
@@ -228,6 +221,9 @@ module Pismo
         nodes
       end
 
+      # this is not good that we're doing this. Either teh method needs
+      # to be extracted out, or something, so we don't have to use it
+      # from inside nodest-oprofiles
       def invalid_candidate_profile_node?(node)
         return true if node.name == 'script' || node.name == 'style'
         return true if !node.name == 'a'

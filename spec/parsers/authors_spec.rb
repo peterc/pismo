@@ -6,13 +6,12 @@ RSpec.describe Pismo::Document do
       it 'author present' do
         start_time = Time.now
         puts "#{hsh[:url]}"
-        puts "FAST"
-        helper =Pismo::Document.new(hsh[:body], url: hsh[:url], use_fast: true)
-        puts "Fast Authors count: #{helper.authors.count}"
+        helper =Pismo::Document.new(hsh[:body], url: hsh[:url])
+        puts "Authors count: #{helper.authors.count}"
         fast_results = helper.authors
         puts "TOOK: #{Time.now - start_time}"
         helper.authors.each do |author|
-          joined = %i[type name url from].map do |key|
+          joined = %i[type name url image from].map do |key|
             "#{key}=#{author[key]}"
           end.join("\t")
           puts joined

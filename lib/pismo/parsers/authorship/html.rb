@@ -4,69 +4,6 @@ module Pismo
   module Parsers
     module Authorship
       class Html < Base
-        AUTHOR_MATCHES = [
-          '.post-author .fn',
-          '.wire_author',
-          '.cnnByline b',
-          '.editorlink',
-          '.authors p',
-          '.byline a',
-          '.byline',
-          '.node-byline',
-          '.post_subheader_left a',
-          '.byl',
-          '.articledata .author a',
-          '#owners a',
-          '.author a',
-          '.author',
-          'a[@rel="author"]',
-          '.creator',
-          '.writer',
-          '.profile a',
-          '.organizer',
-          ".info a[@class='name']",
-          '[@class*="organizer"]',
-          '.profile',
-          '.Profile',
-          '.profile_name a',
-          '.auth a',
-          '.auth',
-          '.author-info',
-          '.Post__author',
-          '.timestamp a',
-          '.fn a',
-          '.fn',
-          '.byline-author',
-          '.fs-author-avatar',
-          '.speakable-author',
-          '.userinfo',
-          '.byline-item',
-          '.poster a',
-          '.entry-author',
-          '.ArticleAuthor a',
-          'a[@class*="username"]',
-          '.avatar',
-          '.avatarHolder',
-          '.blog_meta a',
-          'a[@class*="username"]',
-          'cite a',
-          'cite',
-          '[@data-type="author"]',
-          'span[property*="dc:created"] .name',
-          '.contributor_details h4 a',
-          '.meta a',
-          'link[@rel*="author"]',
-          'a[@href*="author"]',
-          'p[@class*="author"]',
-          'a[@title*="profile"]',
-          'a[@title*="author"]',
-          '#authorinfo',
-          '.authorinfo',
-          'a.g-profile',
-          '.content-calendar-item-poster-linked a',
-          'a.author-url',
-        ]
-
         def call
           profiles
         rescue => e
@@ -74,58 +11,8 @@ module Pismo
           nil
         end
 
-        # def author_candidates
-        #   @author_candidates ||= begin
-        #     author_candidates = []
-        #     Pismo.tracker.time('parsers.html.author_candidates.time') do
-        #       fast_results = get_compound_results
-        #       if fast_results.count > 10
-        #         Pismo.tracker.count 'parsers.html.author_candidates.use_fast'
-        #         author_candidates = fast_results
-        #       else
-        #         Pismo.tracker.count 'parsers.html.author_candidates.use_slow'
-        #         AUTHOR_MATCHES.each do |match_query|
-        #           nodes = doc.css(match_query)
-        #           if nodes.is_a?(Nokogiri::XML::Element)
-        #             author_candidates << nodes
-        #           elsif nodes.is_a?(Array) || nodes.is_a?(Nokogiri::XML::NodeSet)
-        #             nodes.each do |node|
-        #               author_candidates << node if node.is_a?(Nokogiri::XML::Element)
-        #             end
-        #           end
-        #         end
-        #       end
-        #       if author_candidates.count < fast_results.count
-        #         author_candidates = fast_results
-        #         Pismo.tracker.count 'parsers.html.author_candidates.went_back_to_fast'
-        #       end
-        #     end
-        #     author_candidates
-        #   end
-        # end
-
         def author_candidates
-          @author_candidates ||= begin
-            author_candidates = []
-            if args[:use_fast]
-              author_candidates = get_compound_results
-            elsif args[:use_slow]
-              AUTHOR_MATCHES.each do |match_query|
-                nodes = doc.css(match_query)
-                if nodes.is_a?(Nokogiri::XML::Element)
-                  author_candidates << nodes
-                elsif nodes.is_a?(Array) || nodes.is_a?(Nokogiri::XML::NodeSet)
-                  nodes.each do |node|
-                    author_candidates << node if node.is_a?(Nokogiri::XML::Element)
-                  end
-                end
-              end
-            else
-              raise 'no strategy for which method to use'
-            end
-            Utils::NodesToProfiles.new(matches: author_candidates, url: url, doc: doc).filtered_matches
-            #author_candidates
-          end
+          @author_candidates ||= get_compound_results
         end
 
         def matches
@@ -140,9 +27,6 @@ module Pismo
                 if extract_a_link_node.length > 0
                   extract_a_link_node.each { |extracted_node| matches << extracted_node }
                 else
-                  # extracts entities from the text of the node, and tries to
-                  # find a matching link that contiains the the name of the
-                  # entity
                   find_profile_nodes_that_match_entities_in_text(node).each do |match|
                     matches << match
                   end

@@ -94,6 +94,7 @@ module Pismo
           arr << url_author
           arr << jsonld_author
           arr << schema_author
+          arr << entities_author
           arr = arr.flatten.compact.uniq
           arr
         end
@@ -132,7 +133,7 @@ module Pismo
       end
 
       def schema_author
-        @schema_author ||= Parsers::Authorship::Schema.call(url: url, doc: doc)
+        @schema_author ||= Parsers::Authorship::Schema.call(url: url, doc: doc, microdata: microdata)
       end
 
       def twitter_author
@@ -149,6 +150,10 @@ module Pismo
 
       def url_author
         @url_author ||= Parsers::Authorship::Url.call(url: url)
+      end
+
+      def entities_author
+        @entities_author ||= Parsers::Authorship::Entities.call(url: url, doc: doc, entities: entities, sentences: sentences, text: text)
       end
     end
   end

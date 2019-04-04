@@ -17,7 +17,7 @@ module Pismo
           if valid_author?
             author
           elsif profiles.length > 0
-            profiles&.first
+            profiles
           elsif author_name.present?
             { type: 'help_data', name: author_name }
           else

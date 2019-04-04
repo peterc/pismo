@@ -17,12 +17,12 @@ module Pismo
         profiles
       end
 
-      def matching_name
-        @matching_name ||= begin
+      def matching_names
+        @matching_names ||= begin
           candidate_names = original_profiles.map do |profile|
             get_url_candidate(profile)
           end
-          select_most_common_candidate(candidate_names)
+          candidate_names
         end
       end
 
@@ -30,7 +30,7 @@ module Pismo
         @profiles ||= begin
           profiles = original_profiles.dup
           return profiles if only_publisher_profile?(profiles)
-          return profiles if matching_name.blank?
+          return profiles if matching_names.blank?
 
           converted_selected_social_profiles.each do |profile|
             next if profile.nil?
@@ -74,11 +74,10 @@ module Pismo
 
       def converted_selected_social_profiles
         @converted_selected_social_profiles ||= begin
-          titleized_name = matching_name.titleize
           selected_social_profiles.map do |profile|
             profile[:url] = profile[:url].gsub(/\/$/, '')
             {
-              name:  titleized_name,
+              name:  profile[:name].titleize,
               url:   profile[:url],
               type:  profile[:identifier],
               image: nil,
@@ -90,11 +89,17 @@ module Pismo
 
       def selected_social_profiles
         @selected_social_profiles ||= begin
-          return [] if matching_name.blank?
+          return [] if matching_names.blank?
 
-          social_profiles.select do |profile|
-            profile[:url].include?(matching_name)
+          selected_social_profiles = []
+          social_profiles.each do |profile|
+            matching_names.each do |name|
+              if profile[:url].to_s.downcase.include?(name.downcase)
+                selected_social_profiles << profile.merge(name: name)
+              end
+            end
           end
+          selected_social_profiles
         end
       end
 
