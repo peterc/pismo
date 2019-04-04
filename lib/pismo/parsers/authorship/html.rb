@@ -74,13 +74,42 @@ module Pismo
           nil
         end
 
+        # def author_candidates
+        #   @author_candidates ||= begin
+        #     author_candidates = []
+        #     Pismo.tracker.time('parsers.html.author_candidates.time') do
+        #       fast_results = get_compound_results
+        #       if fast_results.count > 10
+        #         Pismo.tracker.count 'parsers.html.author_candidates.use_fast'
+        #         author_candidates = fast_results
+        #       else
+        #         Pismo.tracker.count 'parsers.html.author_candidates.use_slow'
+        #         AUTHOR_MATCHES.each do |match_query|
+        #           nodes = doc.css(match_query)
+        #           if nodes.is_a?(Nokogiri::XML::Element)
+        #             author_candidates << nodes
+        #           elsif nodes.is_a?(Array) || nodes.is_a?(Nokogiri::XML::NodeSet)
+        #             nodes.each do |node|
+        #               author_candidates << node if node.is_a?(Nokogiri::XML::Element)
+        #             end
+        #           end
+        #         end
+        #       end
+        #       if author_candidates.count < fast_results.count
+        #         author_candidates = fast_results
+        #         Pismo.tracker.count 'parsers.html.author_candidates.went_back_to_fast'
+        #       end
+        #     end
+        #     author_candidates
+        #   end
+        # end
+
         def author_candidates
           @author_candidates ||= begin
             author_candidates = []
-            fast_results = get_compound_results
-            if fast_results.count > 10
-              author_candidates = fast_results
-            else
+            if args[:use_fast]
+              author_candidates = get_compound_results
+            elsif args[:use_slow]
               AUTHOR_MATCHES.each do |match_query|
                 nodes = doc.css(match_query)
                 if nodes.is_a?(Nokogiri::XML::Element)
@@ -91,8 +120,9 @@ module Pismo
                   end
                 end
               end
+            else
+              raise 'no strategy for which method to use'
             end
-            author_candidates = fast_results if author_candidates.count < fast_results.count
             author_candidates
           end
         end
@@ -100,6 +130,7 @@ module Pismo
         def matches
           @matches ||= begin
             matches = []
+            Pismo.tracker.count "parsers.html.author_candidates_count", author_candidates.length
             author_candidates.each do |node|
               extract_a_link_node = get_a_node_profile_indicators(node)
               if extract_a_link_node.is_a?(Nokogiri::XML::Element)

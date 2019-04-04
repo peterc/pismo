@@ -25,7 +25,7 @@ module Pismo
 
     # Returns the author of the page/content
     def authors
-      @authors ||= Parsers::Authors.call(doc: doc, meta: meta, url: url, jsonld: jsonld, sentences: all_sentences, social_profiles: social_links)
+      @authors ||= Parsers::Authors.call(doc: doc, meta: meta, url: url, jsonld: jsonld, sentences: all_sentences, social_profiles: social_links, use_slow: @options[:use_slow], use_fast: @options[:use_fast])
     end
 
     def author

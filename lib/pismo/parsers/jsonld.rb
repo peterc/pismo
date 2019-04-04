@@ -27,11 +27,25 @@ module Pismo
 
       def json_ld
         @json_ld ||= begin
-          json_ld = JSON.parse(json_ld_script) if json_ld_script && json_ld_script.length > 2
+          return {} if json_ld_script.nil?
+
+          json_ld = JSON.parse(json_ld_script)
           json_ld = {} if json_ld.nil?
           json_ld
         rescue JSON::ParserError
-          Pismo.logger.warn "ERROR Parsing JSON on #{url}"
+          parsed_cleaned_json_ld
+        end
+      end
+
+      def parsed_cleaned_json_ld
+        @parsed_cleaned_json_ld ||= begin
+          return {} if cleaned_json_ld_script.nil?
+
+          parsed_cleaned_json_ld = JSON.parse(cleaned_json_ld_script)
+          parsed_cleaned_json_ld = {} if !parsed_cleaned_json_ld.is_a?(Hash)
+          parsed_cleaned_json_ld
+        rescue => e
+          Pismo.logger.warn "status=error message='error JSON parsing #{url}' url=#{url}"
           {}
         end
       end
@@ -41,11 +55,21 @@ module Pismo
           json_ld_script = doc.xpath('//script[@type="application/ld+json"]')&.first&.text
           if json_ld_script&.chars&.length.to_i > 10
             json_ld_script = HTMLEntities.new.decode(json_ld_script)
-            json_ld_script = json_ld_script.gsub(/,,/, ',').gsub(/,\s+,/, ',')
-            json_ld_script = json_ld_script.gsub(/\a|\t|\n|\f|\r|\e/, " ").squeeze(' ').strip
           end
           json_ld_script = nil if json_ld_script&.length.to_i < 10
           json_ld_script
+        end
+      end
+
+      # Handles common errors that occur in the JSONLD we find online
+      def cleaned_json_ld_script
+        @cleaned_json_ld_script ||= begin
+          return nil if json_ld_script.nil?
+
+          cleaned_json_ld_script = json_ld_script.dup
+          cleaned_json_ld_script = cleaned_json_ld_script.gsub(/,,/, ',').gsub(/,\s+,/, ',')
+          cleaned_json_ld_script = cleaned_json_ld_script.gsub(/\a|\t|\n|\f|\r|\e/, ' ').squeeze(' ').strip
+          cleaned_json_ld_script
         end
       end
 

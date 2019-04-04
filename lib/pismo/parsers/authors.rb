@@ -4,6 +4,7 @@ module Pismo
   module Parsers
     class Authors < Base
       def call
+        log_profiles(profiles)
         profiles
       end
 
@@ -11,10 +12,20 @@ module Pismo
         @profiles ||= Utils::SearchForAdditionalProfiles.call(profiles: found_profiles, url: url, doc: doc, sentences: sentences, social_profiles: social_profiles)
       end
 
+      def log_profiles(profiles)
+        profile_counts = profiles.each_with_object(Hash.new(0)) { |hsh, track| track[hsh[:type].downcase.gsub('/', '_')] += 1 }
+        profile_counts.each do |key, value|
+          Pismo.tracker.count "parsers.authors.results.#{key}", value
+        end
+      end
+
       def found_profiles
         @found_profiles ||= begin
           found_profiles, helpers = extract_helper_data(author_items)
-          found_profiles << default_publisher_profile(helpers) if found_profiles.length == 0
+          if found_profiles.length == 0
+            Pismo.tracker.count('parsers.authors.no_authors_found')
+            found_profiles << default_publisher_profile(helpers)
+          end
           found_profiles
         end
       end
@@ -75,7 +86,9 @@ module Pismo
       def author_items
         @author_items ||= begin
           arr = []
-          arr << html_author
+          Pismo.tracker.time('parsers.authors.html_processing_time') do
+            arr << html_author
+          end
           arr << meta_author
           arr << twitter_author
           arr << pinterest_author
@@ -92,7 +105,7 @@ module Pismo
       end
 
       def html_author_helper
-        @html_author_helper ||= Parsers::Authorship::Html.call(url: url, doc: doc)
+        @html_author_helper ||= Parsers::Authorship::Html.call(url: url, doc: doc, use_slow: args[:use_slow], use_fast: args[:use_fast])
       end
 
       def html_author

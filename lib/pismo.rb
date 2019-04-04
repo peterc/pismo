@@ -45,7 +45,7 @@ require 'pismo/utils/url'
 require 'pismo/utils/nodes_to_profiles'
 require 'pismo/utils/search_for_additional_profiles'
 require 'pismo/utils/convert_to_plain_text'
-
+require 'pismo/utils/log_tracker'
 
 if RUBY_PLATFORM == "java"
   class String; def stem; self; end; end
@@ -68,6 +68,30 @@ module Pismo
       @logger ||= ::Logger.new($stdout).tap do |log|
         log.progname = self.name
       end
+    end
+
+    # You san set the logger to be whatever you want, by using this
+    # method. Then, you are in control of whatever its settings are.
+    def logger=(logging_system)
+      @logger = logging_system
+    end
+
+    # The tracker lets you put StatsD-like messages into the code base
+    # If you put a statsd client here, it will respect the UI like
+    # https://www.rubydoc.info/github/github/statsd-ruby/Statsd
+    #
+    # If you do nothign, then it will simply log into in a common way
+    # to the Pismo Logger.
+    def tracker
+      @tracker ||= Pismo::Utils::LogTracker.new
+    end
+
+    # You can override the LogTracker and add StatsD. You'd do this in
+    # production. You control all the options. It requires an interface
+    # that looks like
+    # https://www.rubydoc.info/github/github/statsd-ruby/Statsd
+    def tracker=(stats_system)
+      @tracker = stats_system
     end
 
     # Dev logger lets you put in logging that won't show in production

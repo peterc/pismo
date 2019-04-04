@@ -144,14 +144,46 @@ module Pismo
 
       def compound_search_text
         searches = []
-        %w[@class @id @rel @href @title @alt].each do |location|
-          %w[a img].each do |tag|
-            %w[user profile member avatar creator writer byline shop owner].each do |text|
+        search_locations.each do |location|
+          search_tag_types.each do |tag|
+            search_identifiers.each do |text|
               searches << build_xpath_search(tag, location, text)
             end
           end
         end
+        supplemental_matches.each { |search| searches << search }
         searches
+      end
+
+      def search_locations
+        %w[@class @id @rel @href @title @alt].freeze
+      end
+
+      def search_tag_types
+        %w[a img div p span].freeze
+      end
+
+      def search_identifiers
+        %w[user profile member avatar creator writer byline shop owner organizer contributor].freeze
+      end
+
+      def supplemental_matches
+        [
+          '//*[@class="editorlink"]',
+          '//*[@class="post_subheader_left"]/a',
+          '//*[@class="byl"]',
+          '//*[@class="info"]/a[@class="name"]',
+          '//*[@class="auth"]/a',
+          '//*[@class="timestamp"]/a',
+          '//*[@class="fn"]/a',
+          '//*[@class="poster"]/a',
+          '//*[@class="blog_meta"]/a',
+          '//cite/a',
+          '//span[@property="dc:created"]',
+          '//*[@class="contributor_details"]/h4/a',
+          '//*[@class="meta"]/a',
+          '//*[@class="content-calendar-item-poster-linked"]/a'
+        ]
       end
 
       def get_compound_results

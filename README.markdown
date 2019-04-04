@@ -8,6 +8,8 @@ All tests pass on Ruby 1.9.3 and 2.0.0. Currently fails on JRuby 1.7.2 due to de
 
 ## NEWS:
 
+April 4, 2019: Welcome back from the dead. We've dramatically rewritten this from the ground up for the modern age.
+
 March 25, 2013: Version 0.8.0 is now the edge version (but not released as a gem yet). It may be incompatible with earlier releases as it has a LOT of commits and changes made by other people which have not yet been fully tested or audited. Install gem for 0.7.4 if you wish to remain on the 'stable' version for now.
 
 February 27, 2013: Version 0.7.4 has been released to ensure Ruby 2.0.0 compatibility but significant pull requests remain yet to be merged and handled.
