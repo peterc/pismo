@@ -145,12 +145,10 @@ module Pismo
       def compound_search_text
         searches = []
         search_identifiers.each do |text|
-          search_locations.each do |location|
-            search_tag_types.each do |tag|
-              searches << build_xpath_search(tag, location, text)
-            end
-            build_xpath_search('a', location, text)
-            build_xpath_search('img', "@src", text)
+          searches << build_xpath_search('a', '@*', text)
+          searches << build_xpath_search('img', '@*', text)
+          search_tag_types.each do |tag|
+            searches << build_xpath_search(tag, '@*', text, 'a')
           end
         end
         supplemental_matches.each { |search| searches << search }
@@ -163,11 +161,11 @@ module Pismo
       end
 
       def search_tag_types
-        %w[div p span].freeze
+        %w[a img].freeze
       end
 
       def search_identifiers
-        %w[author user profile member avatar creator writer byline shop owner organizer contributor].freeze
+        %w[author user profile member avatar creator writer byline shop owner organizer contributor reviewer].freeze
       end
 
       def supplemental_matches
@@ -199,8 +197,8 @@ module Pismo
         doc.xpath(search_phrase)
       end
 
-      def build_xpath_search(tag_type, tag_attr, text)
-        "//#{tag_type}[contains(translate(#{tag_attr}, \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\", \"abcdefghijklmnopqrstuvwxyz\"), \"#{text}\")]"
+      def build_xpath_search(tag_type, tag_attr, text, descendent = nil)
+        "//#{tag_type}[contains(translate(#{tag_attr}, \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\", \"abcdefghijklmnopqrstuvwxyz\"), \"#{text}\")]#{descendent.present? ?  "/#{descendent}" : ''}"
       end
 
       def clean_node_text(node)

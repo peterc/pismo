@@ -3,6 +3,7 @@ module Pismo
     module Authorship
       class Schema < Base
         def call
+          authors
         end
 
         def name
@@ -21,19 +22,54 @@ module Pismo
           %w[BlogPosting Article]
         end
 
-        def author_url
-          @author_url ||= begin
-            author_url = nil
-            root_node_types.each do |rnt|
-              author_url = Utils::HashSearch.deep_find(microdata, rnt, 'author', 'properties', 'url')
-              author_url = Utils::HashSearch.deep_find(microdata, rnt, 'author', 'url') if author_url.nil?
-              author_url = Utils::HashSearch.deep_find(microdata, rnt, 'author', 'properties', 'sameAs') if author_url.nil?
-              author_url = Utils::HashSearch.deep_find(microdata, rnt, 'author', 'sameAs')               if author_url.nil?
-              break if author_url
+        def authors
+          if microdata && name
+            author_urls.map do |author_url|
+              parsed = Allusion.parse(author_url)
+              hsh = {
+                url:   author_url,
+                name:  name,
+                image: image,
+                type:  parsed[:identifier],
+                from: :schema
+              }
+              hsh[:type] = 'site/author' if hsh[:type] == 'web/page'
+              hsh unless hsh[:type].nil?
             end
-            author_url = Utils::HashSearch.deep_find(microdata, 'Author', 'properties', 'url')    if author_url.nil?
-            author_url = Utils::HashSearch.deep_find(microdata, 'Author', 'properties', 'sameAs') if author_url.nil?
-            author_url
+          end
+        end
+
+        def author_urls
+          @author_urls ||= begin
+            author_urls = []
+            root_node_types.each do |rnt|
+              author_urls << Utils::HashSearch.deep_find(microdata, rnt, 'author', 'properties', 'url')
+              author_urls << Utils::HashSearch.deep_find(microdata, rnt, 'author', 'url')
+              author_urls << Utils::HashSearch.deep_find(microdata, rnt, 'author', 'properties', 'sameAs')
+              author_urls << Utils::HashSearch.deep_find(microdata, rnt, 'author', 'sameAs')
+            end
+            author_urls << Utils::HashSearch.deep_find(microdata, 'Author', 'properties', 'url')
+            author_urls << Utils::HashSearch.deep_find(microdata, 'Author', 'properties', 'sameAs')
+            author_urls.flatten.compact
+          end
+        end
+
+        def image
+          images&.first
+        end
+
+        def images
+          @images ||= begin
+            images = []
+            root_node_types.each do |rnt|
+              images << Utils::HashSearch.deep_find(microdata, rnt, 'author', 'properties', 'image', 'url')
+              images << Utils::HashSearch.deep_find(microdata, rnt, 'author', 'properties', 'image', 'properties', 'url')
+              images << Utils::HashSearch.deep_find(microdata, rnt, 'author', 'properties', 'image')
+            end
+            images << Utils::HashSearch.deep_find(microdata, 'Author', 'properties', 'image', 'url')
+            images << Utils::HashSearch.deep_find(microdata, 'Author', 'properties', 'image', 'properties', 'url')
+            images << Utils::HashSearch.deep_find(microdata, 'Author', 'properties', 'image')
+            images.flatten.compact.delete_if { |img| img.is_a?(Hash) || img.nil? }
           end
         end
 

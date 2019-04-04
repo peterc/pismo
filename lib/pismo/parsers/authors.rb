@@ -86,9 +86,7 @@ module Pismo
       def author_items
         @author_items ||= begin
           arr = []
-          Pismo.tracker.time('parsers.authors.html_processing_time') do
-            arr << html_author
-          end
+          arr << html_author
           arr << meta_author
           arr << twitter_author
           arr << pinterest_author
@@ -96,7 +94,7 @@ module Pismo
           arr << url_author
           arr << jsonld_author
           arr << schema_author
-          arr = arr.compact.uniq
+          arr = arr.flatten.compact.uniq
           arr
         end
       end
