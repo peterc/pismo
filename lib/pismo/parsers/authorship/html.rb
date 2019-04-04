@@ -92,6 +92,7 @@ module Pismo
                 end
               end
             end
+            author_candidates = fast_results if author_candidates.count < fast_results.count
             author_candidates
           end
         end

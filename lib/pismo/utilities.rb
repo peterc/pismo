@@ -30,7 +30,7 @@ module Pismo
       end
 
       def extract_likely_name(text)
-        ConfidentialInfoRedactor::Extractor.new.extract(text)&.first
+        ConfidentialInfoRedactor::Extractor.new.extract(text)&.join(' ')
       end
 
       # Return the longest common prefix between two strings.  If max is
