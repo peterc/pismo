@@ -144,14 +144,17 @@ module Pismo
 
       def compound_search_text
         searches = []
-        search_locations.each do |location|
-          search_tag_types.each do |tag|
-            search_identifiers.each do |text|
+        search_identifiers.each do |text|
+          search_locations.each do |location|
+            search_tag_types.each do |tag|
               searches << build_xpath_search(tag, location, text)
             end
+            build_xpath_search('a', location, text)
+            build_xpath_search('img', "@src", text)
           end
         end
         supplemental_matches.each { |search| searches << search }
+        searches = searches.uniq
         searches
       end
 
@@ -160,7 +163,7 @@ module Pismo
       end
 
       def search_tag_types
-        %w[a img div p span].freeze
+        %w[div p span].freeze
       end
 
       def search_identifiers
