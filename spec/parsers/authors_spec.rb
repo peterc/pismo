@@ -9,9 +9,9 @@ RSpec.describe Pismo::Document do
         helper =Pismo::Document.new(hsh[:body], url: hsh[:url], use_fast: true)
         puts "Fast Authors count: #{helper.authors.count}"
         helper.authors.each do |author|
-          joined = author.keys.map do |key|
+          joined = %i[type name url from].map do |key|
             "#{key}=#{author[key]}"
-          end.join (' ')
+          end.join("\t")
           puts joined
         end
         expect(helper.authors).to be_present
@@ -20,9 +20,9 @@ RSpec.describe Pismo::Document do
         puts "Slow Authors count: #{helper.authors.count}"
         expect(helper.authors).to be_present
         helper.authors.each do |author|
-          joined = author.keys.map do |key|
+          joined = %i[type name url from].map do |key|
             "#{key}=#{author[key]}"
-          end.join (' ')
+          end.join("\t")
           puts joined
         end
       end
