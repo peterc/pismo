@@ -149,7 +149,6 @@ module Pismo
                 end
               end
             end
-            #binding.pry
             matches
           end
         end
@@ -160,12 +159,8 @@ module Pismo
           else
             valid_a_nodes = []
             node.css('a').each do |link|
-              valid_a_nodes << link if any_a_node_profile_indicator?(link)
+              return node if any_a_node_profile_indicator?(link)
             end
-            if valid_a_nodes.length.zero? && node.css('a').count == 1
-              valid_a_nodes << node.css('a').first
-            end
-            return valid_a_nodes
           end
         end
 
