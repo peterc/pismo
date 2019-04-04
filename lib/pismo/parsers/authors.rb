@@ -37,15 +37,12 @@ module Pismo
 
       def default_publisher_profile(helpers = [])
         hsh = {
-          service:    'publisher/profile',
-          identifier: 'publisher/profile',
-          type:       'Company',
-          name:       name_from_host,
+          type:       'publisher/profile',
+          name:        name_from_host,
           source_url:  url,
-          username:   host,
-          id:         "publisher/profile:#{host}",
-          known:      false,
-          profile:    true
+          username:    host,
+          id:          "publisher/profile:#{host}",
+          from:        :default
         }
         hsh = merge_jsonld_publisher_info(hsh)
         helpers.each do |helper|

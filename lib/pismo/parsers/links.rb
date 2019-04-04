@@ -7,9 +7,14 @@ module Pismo
 
       def parsed_links
         @parsed_links ||= links.map do |link|
-          parsed = Allusion.parse(link[:url], link.except(:url))
-          link = link.merge(parsed)
-          link
+          begin
+            parsed = Allusion.parse(link[:url], link.except(:url))
+            link = link.merge(parsed)
+            link
+          rescue => e
+            binding.pry
+            nil
+          end
         end
       end
 

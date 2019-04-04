@@ -10,42 +10,29 @@ module Pismo
           '.cnnByline b',
           '.editorlink',
           '.authors p',
-          # ['meta[@name="author"]', lambda { |el| el.attr('content') }],     # Traditional meta tag style
-          # ['meta[@name="Author"]', lambda { |el| el.attr('content') }],     # CNN style
-          # ['meta[@name="AUTHOR"]', lambda { |el| el.attr('content') }],     # CNN style
-          # ['meta[@name="pinterestapp:pinner"]', lambda { |el| el.attr('content') }],  # pinterest author
-          '.byline a',                                                      # Ruby Inside style
+          '.byline a',
           '.byline',
-          '.node-byline',                                                   # FastCompany
-          '.post_subheader_left a',                                         # TechCrunch style
-          '.byl',                                                           # BBC News style
+          '.node-byline',
+          '.post_subheader_left a',
+          '.byl',
           '.articledata .author a',
-          '#owners a',                                                      # Google Code style
+          '#owners a',
           '.author a',
           '.author',
           'a[@rel="author"]',
           '.creator',
           '.writer',
+          '.profile a',
           '.organizer',
           ".info a[@class='name']",
           '[@class*="organizer"]',
           '.profile',
           '.Profile',
+          '.profile_name a',
           '.auth a',
           '.auth',
           '.author-info',
           '.Post__author',
-          # ['meta[@name="byline"]',          lambda { |el| el.attr('content') }],
-          # ['meta[@name="dc.creator"]',      lambda { |el| el.attr('content') }],
-          # ['meta[@name="byl"]',             lambda { |el| el.attr('content') }],
-          # ['meta[@rel="author"]',           lambda { |el| el.attr('content') }],
-          # ['meta[@rel="byline"]',           lambda { |el| el.attr('content') }],
-          # ['meta[@rel="dc.creator"]',       lambda { |el| el.attr('content') }],
-          # ['meta[@rel="byl"]',              lambda { |el| el.attr('content') }],
-          # ['meta[@itemprop="author"]',      lambda { |el| el.attr('content') }],
-          # ['meta[@itemprop="byline"]',      lambda { |el| el.attr('content') }],
-          # ['meta[@itemprop="dc.creator"]',  lambda { |el| el.attr('content') }],
-          # ['meta[@itemprop="byl"]',         lambda { |el| el.attr('content') }],
           '.timestamp a',
           '.fn a',
           '.fn',

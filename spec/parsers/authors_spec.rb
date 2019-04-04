@@ -7,9 +7,7 @@ RSpec.describe Pismo::Document do
       it 'author present' do
         puts "    #{hsh[:url]}"
         expect(helper.authors).to be_present
-        puts "    #{helper.authors.count} authors found"
-        puts "    #{helper.authors.inspect}"
-        binding.pry
+        puts "    WARN: Publisher Only - #{hsh[:url]}"  if helper.authors.length == 1 and helper.authors.first[:type] == 'publisher/profile'
       end
     end
   end

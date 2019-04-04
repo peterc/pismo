@@ -135,6 +135,12 @@ module Pismo
         }
       end
 
+      def default_search
+        doc.xpath(compound_search_text.join(' | ')).select do |node|
+          node.name == 'a' || node.css('a').length > 0
+        end
+      end
+
       def compound_search_text
         searches = []
         %w[@class @id @rel @href @title @alt].each do |location|

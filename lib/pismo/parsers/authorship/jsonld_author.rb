@@ -35,6 +35,8 @@ module Pismo
 
         def author
           @author ||= begin
+            return nil if @author_processed
+            @author_processed = true
             author = jsonld.dig(:author)
             author = author.merge(from: 'jsonld_author') if author
             author
@@ -48,6 +50,8 @@ module Pismo
         def nodes
           @nodes ||= begin
             return [] if author_name.blank?
+            return [] if @nodes_processed
+            @nodes_processed = true
 
             nodes = []
             author_name.split(' ').each do |text_item|
@@ -64,6 +68,7 @@ module Pismo
         def profiles
           @profiles ||= begin
             return [] if nodes.length.zero?
+
             Utils::NodesToProfiles.call(matches: nodes, url: url, doc: doc).map do |profile|
               profile[:from] = :jsonld
               profile[:name] = author_name
