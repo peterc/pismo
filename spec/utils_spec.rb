@@ -75,8 +75,7 @@ RSpec.describe 'Utils' do
 
       it 'works' do
         expect(Pismo::Utils::HashSearch.deep_find(hsh, 'author')).to be_truthy
-        expect(Pismo::Utils::HashSearch.deep_find(hsh, 'author', 'name')).to eq 'Elizabeth Sherman'
-        binding.pry
+        expect(Pismo::Utils::HashSearch.deep_find(hsh, 'author', 'name')).to eq 'Elisabeth Sherman'
       end
     end
   end

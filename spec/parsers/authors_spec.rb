@@ -14,7 +14,7 @@ RSpec.describe Pismo::Document do
       end
     end
 
-    context file_path do
+    xcontext file_path do
       let(:file_path) { file_path }
       let(:file_name) { file_name }
 

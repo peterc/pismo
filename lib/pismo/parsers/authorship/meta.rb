@@ -65,7 +65,7 @@ module Pismo
 
             Utils::NodesToProfiles.call(matches: nodes, url: url, doc: doc).map do |profile|
               profile[:from] = :meta_html
-              profile[:name] = meta_author
+              profile[:name] = meta_author&.titleize
               profile
             end
           end

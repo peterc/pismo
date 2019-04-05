@@ -3091,3 +3091,21 @@
   target=\"_blank\" id=\"cn-more-info\" class=\"cn-more-info cn-button wp-default
   button\">Datenschutzerklärung</a>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t</div>\n\n\n<!--\n\tgenerated
   in 0.602 seconds\n\t273888 bytes batcached for 300 seconds\n-->\n</body></html>"
+:results:
+- :name: Andreeger
+  :url: https://andreeger.com/author/andreeger
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 235
+- :name: Andreeger
+  :url: https://andreeger.com/author/andreeger
+  :type: site/author
+  :image: 
+  :from: :meta_html
+  :line: 235
+- :name: "@11CHAMPIONS"
+  :type: twitter/profile
+  :url: https://twitter.com/11CHAMPIONS
+  :image: 
+  :from: :meta_twitter
