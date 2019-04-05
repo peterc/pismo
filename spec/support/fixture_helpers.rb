@@ -4,6 +4,14 @@ module FixtureHelpers
     File.read(path)
   end
 
+  def write_updated_fixture_with_results(hsh)
+    write_fixture_file(file_path, hsh.to_yaml)
+  end
+
+  def write_fixture_file(file_path, data)
+    File.open(file_path, 'w') { |file| file.write() }
+  end
+
   def yield_files_in_fixtures_folder(path, &block)
     dir = File.expand_path(File.join(File.dirname(__FILE__), '..', 'fixtures', path))
 
@@ -11,7 +19,7 @@ module FixtureHelpers
       next if file_path == '..' || file_path == '.'
 
       file = load_fixture_file(file_path)
-      block.call(file_path.split("/").last, file)
+      block.call(file_path, file_path.split("/").last, file)
     end
   end
   alias each_fixture yield_files_in_fixtures_folder
@@ -38,6 +46,10 @@ module FixtureLoader
   def load_from_fixture_folder(relative_path)
     file = File.expand_path(File.join(File.dirname(__FILE__), '../fixtures/', relative_path))
     load_fixture_file(file)
+  end
+
+  def write_fixture_file(file_path, data)
+    File.open(file_path, 'w') { |file| file.write(data) }
   end
 end
 

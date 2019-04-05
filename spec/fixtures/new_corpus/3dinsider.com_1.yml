@@ -127,3 +127,20 @@
   var urlFields=document.querySelectorAll('.mc4wp-form input[type="url"]');if(urlFields&&urlFields.length>0){for(var j=0;j<urlFields.length;j++){addEventListener(urlFields[j],'blur',maybePrefixUrlField);}}
   var testInput=document.createElement('input');testInput.setAttribute('type','date');if(testInput.type!=='date'){var dateFields=document.querySelectorAll('.mc4wp-form input[type="date"]');for(var i=0;i<dateFields.length;i++){if(!dateFields[i].placeholder){dateFields[i].placeholder='YYYY-MM-DD';}
   if(!dateFields[i].pattern){dateFields[i].pattern='[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';}}}})();/*]]>*/</script><script type="text/javascript">var mc4wp_forms_config=[];</script> <script type="text/javascript" defer="defer" src="https://3dinsider.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js"></script> <!--[if lte IE 9]> <script type='text/javascript' defer='defer' src='https://3dinsider.com/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js'></script> <![endif]--> <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="text/javascript"></script> <div id="amzn-assoc-ad-bdb052d9-8fce-4efa-95aa-afc221067c95"></div><script async="" src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&amp;adInstanceId=bdb052d9-8fce-4efa-95aa-afc221067c95" type="text/javascript"></script> <div id="bio_ep_bg"></div></body></html>
+:results:
+- :name: Joseph Flynt
+  :url: https://twitter.com/3dprintingtip
+  :type: twitter/profile
+  :image: https://secure.gravatar.com/avatar/70b7be0f299357f57e27b055a268c818?s=100&d=retro&r=g
+  :from: :meta_html
+  :line: 46
+- :name: "@3dprintingtip"
+  :type: twitter/profile
+  :url: https://twitter.com/3dprintingtip
+  :image: 
+  :from: :meta_twitter
+- :url: https://twitter.com/3dprintingtip
+  :name: Joseph Flynt
+  :image: https://secure.gravatar.com/avatar/70b7be0f299357f57e27b055a268c818?s=100&d=retro&r=g
+  :type: twitter/profile
+  :from: :schema

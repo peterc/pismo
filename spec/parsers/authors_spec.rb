@@ -1,52 +1,49 @@
 RSpec.describe Pismo::Document do
-  each_fixture('./new_corpus/*.yml') do |file_name, data|
-    next unless file_name.include?('user-deleted.livejournal.com')
-    context file_name do
-      let(:hsh) { YAML.load(data) }
+  each_fixture('./new_corpus/*.yml') do |file_path, file_name, data|
 
-      it 'author present' do
-        start_time = Time.now
-        puts "#{hsh[:url]}"
-        helper =Pismo::Document.new(hsh[:body], url: hsh[:url])
-        puts "Authors count: #{helper.authors.count}"
-        fast_results = helper.authors
-        puts "TOOK: #{Time.now - start_time}"
-        helper.authors.each do |author|
-          joined = %i[type identifier name username url uri image from].map do |key|
-            "#{key}=#{author[key]}" if author[key].present?
-          end.join("\t")
-          puts joined
+    def write_updated_fixture_with_results(location, hsh)
+      write_fixture_file(location, hsh.to_yaml)
+    end
+
+    def print_authors(helper)
+      helper.authors.each do |author|
+        joined = %i[type identifier name username url uri image from].map do |key|
+          "#{key}=#{author[key]}" if author[key].present?
+        end.join("  ")
+        puts joined
+      end
+    end
+
+    context file_path do
+      let(:file_path) { file_path }
+      let(:file_name) { file_name }
+
+      context file_name do
+        let(:hsh) { YAML.load(data) }
+
+        it 'author present' do
+          start_time = Time.now
+          puts "#{hsh[:url]}"
+          helper = Pismo::Document.new(hsh[:body], url: hsh[:url])
+
+          expect do
+            helper.authors
+          end.to_not raise_error
+
+          Pismo.logger.warn "TOOK: #{Time.now - start_time}" if Time.now - start_time > 10.0
+
+          print_authors(helper)
+
+          # When the results are right, then we write them back to the hsh
+          # so we can check that we're still getting good results in the future
+          if hsh.key?(:results)
+            expect_to_have_at_least_one_author(helper)
+            expect_to_find_the_same_author_results(helper, hsh)
+          else
+            # hsh[:results] = helper.authors
+            # write_updated_fixture_with_results(file_path, hsh)
+          end
         end
-        expect(helper.authors).to be_present
-        # puts "SLOW"
-        # helper = Pismo::Document.new(hsh[:body], url: hsh[:url], use_slow: true)
-        # puts "Slow Authors count: #{helper.authors.count}"
-        # slow_results = helper.authors
-        # expect(helper.authors).to be_present
-        # helper.authors.each do |author|
-        #   joined = %i[type name url from].map do |key|
-        #     "#{key}=#{author[key]}"
-        #   end.join("\t")
-        #   puts joined
-        # end
-        # fast_types = fast_results.map { |author| author[:type] }
-        # slow_types = slow_results.map { |author| author[:type] }
-        # fast_types_diff = fast_types -  slow_types
-        # slow_types_diff = slow_types - fast_types
-#
-        # fast_names = fast_results.map { |author| author[:name] }
-        # slow_names = slow_results.map { |author| author[:name] }
-        # fast_names_diff = fast_names - slow_names
-        # slow_names_diff = slow_names - fast_names
-#
-        # puts "\n\nDifferences between two systems"
-        # puts "Count: fast=#{fast_results.count} slow=#{slow_results.count}"
-        # puts "Types:"
-        # puts "  in_fast_not_in_slow=#{fast_types_diff}"
-        # puts "  in_slow_not_in_fast=#{slow_types_diff}"
-        # puts "Names:"
-        # puts "  in_fast_not_in_slow=#{fast_names_diff}"
-        # puts "  in_slow_not_in_fast=#{slow_names_diff}\n\n"
       end
     end
   end
