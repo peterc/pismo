@@ -1665,3 +1665,16 @@
   \ \n\n<iframe src=\"https://c.sharethis.mgr.consensu.org/v1.0/cmp/portal.html\"
   id=\"st_gdpr_iframe\" style=\"width: 0px; height: 0px; position: absolute; left:
   -5000px;\"></iframe></body></html>"
+:results:
+- :name: Metin Ozkuzey
+  :url: https://blog.designerappliances.com/author/metin-ozkuzey
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 1475
+- :name: Metin Ozkuzey
+  :url: https://blog.designerappliances.com/author/metin-ozkuzey/
+  :image: https://blog.designerappliances.com/content/images/2018/03/metin-headshot.jpg
+  :type: site/author
+  :identifier: site/author
+  :from: jsonld_author

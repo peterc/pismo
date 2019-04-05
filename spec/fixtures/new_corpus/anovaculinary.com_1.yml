@@ -426,3 +426,25 @@
   \           height: '75%',\n            autoSize: true,\n            closeClick:
   false,\n            openEffect: 'none',\n            closeEffect: 'none',\n            autoScale:
   false\n        };\n\n        $.fancybox(this, options);\n    });\n});\n</script>\n\n\n</body></html>"
+:results:
+- :name: Emily Jeff
+  :url: https://anovaculinary.com/author/emily-and-jeff
+  :type: site/author
+  :image: https://cdn.anovaculinary.com/wp-content/uploads/2014/09/emilyfarrisjeffakinplaceholderpicture-150x150.jpg
+  :from: :html
+  :line: 282
+- :name: "@AnovaCulinary"
+  :type: twitter/profile
+  :url: https://twitter.com/AnovaCulinary
+  :image: 
+  :from: :meta_twitter
+- :name: Anova Culinary
+  :url: https://www.instagram.com/anovaculinary
+  :type: instagram/profile
+  :image: 
+  :from: :on_page
+- :name: Anova Culinary
+  :url: https://www.pinterest.com/anovaculinary
+  :type: pinterest/profile
+  :image: 
+  :from: :on_page

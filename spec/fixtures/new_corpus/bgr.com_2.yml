@@ -1092,3 +1092,26 @@
   frameborder=\"0\" allowtransparency=\"true\" src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=https%3A%2F%2Fbgr.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
   title=\"Twitter settings iframe\" style=\"display: none;\"></iframe><iframe style=\"display:
   none;\"></iframe></body></html>"
+:results:
+- :name: Maren Estrada
+  :url: https://bgr.com/author/maren-estrada
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 602
+- :name: Maren Estrada
+  :url: https://bgr.com/author/maren-estrada
+  :type: site/author
+  :image: 
+  :from: :meta_html
+  :line: 602
+- :name: "@BGR"
+  :type: twitter/profile
+  :url: https://twitter.com/BGR
+  :image: 
+  :from: :meta_twitter
+- :name: Bgr
+  :url: https://www.facebook.com/BGR
+  :type: facebook/profile
+  :image: 
+  :from: :on_page

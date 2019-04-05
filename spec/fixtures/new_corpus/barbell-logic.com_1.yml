@@ -567,3 +567,15 @@
   o=a[n];\"preload\"!==o.rel||\"style\"!==o.getAttribute(\"as\")||o.getAttribute(\"data-loadcss\")||(o.setAttribute(\"data-loadcss\",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var
   a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener(\"load\",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent(\"onload\",function(){e.poly(),t.clearInterval(a)})}\"undefined\"!=typeof
   exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}(\"undefined\"!=typeof global?global:this);</script></body></html>"
+:results:
+- :name: Reynoldsstrong
+  :url: https://barbell-logic.com/author/reynoldsstrong
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 18
+- :name: "@SSonlinecoach"
+  :type: twitter/profile
+  :url: https://twitter.com/SSonlinecoach
+  :image: 
+  :from: :meta_twitter

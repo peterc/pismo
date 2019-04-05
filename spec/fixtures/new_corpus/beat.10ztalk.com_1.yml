@@ -1582,3 +1582,15 @@
   absolute; display: none; width: 370px; z-index: 9999;\"></div><iframe scrolling=\"no\"
   frameborder=\"0\" allowtransparency=\"true\" src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=https%3A%2F%2Fbeat.10ztalk.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
   title=\"Twitter settings iframe\" style=\"display: none;\"></iframe></body></html>"
+:results:
+- :name: ''
+  :url: https://beat.10ztalk.com/author/root
+  :type: site/author
+  :image: https://secure.gravatar.com/avatar/423d1aa124354bb0a15af36997221723?s=140&d=mm&r=g
+  :from: :html
+  :line: 479
+- :name: "@lady_zunod9"
+  :type: twitter/profile
+  :url: https://twitter.com/lady_zunod9
+  :image: 
+  :from: :meta_twitter

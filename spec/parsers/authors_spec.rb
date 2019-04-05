@@ -14,7 +14,7 @@ RSpec.describe Pismo::Document do
       end
     end
 
-    xcontext file_path do
+    context file_path do
       let(:file_path) { file_path }
       let(:file_name) { file_name }
 
@@ -27,10 +27,10 @@ RSpec.describe Pismo::Document do
           helper = Pismo::Document.new(hsh[:body], url: hsh[:url])
 
           expect do
+            start_time = Time.now
             helper.authors
+            puts "    WARN: took=#{Time.now - start_time}" if Time.now - start_time > 10.00
           end.to_not raise_error
-
-          Pismo.logger.warn "TOOK: #{Time.now - start_time}" if Time.now - start_time > 10.0
 
           print_authors(helper)
 
@@ -40,8 +40,9 @@ RSpec.describe Pismo::Document do
             expect_to_have_at_least_one_author(helper)
             expect_to_find_the_same_author_results(helper, hsh)
           else
-            hsh[:results] = helper.authors
-            write_updated_fixture_with_results(file_path, hsh)
+            binding.pry
+            # hsh[:results] = helper.authors
+            # write_updated_fixture_with_results(file_path, hsh)
           end
         end
       end
