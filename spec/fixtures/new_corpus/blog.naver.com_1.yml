@@ -1972,3 +1972,10 @@
   blogId = 'suyfg0319';\n</script>\n<script type=\"text/javascript\">\nif ( typeof
   nsc == 'undefined') {\n\tnsc = \"blog.post\";\n}\n\nvar ccsrv=\"cc.naver.com\";\nvar
   nclk_evt = 3;\nnclk_do();\n\n\n</script>\n\n\n\n\n\n</body></html>"
+:results:
+- :type: publisher/profile
+  :name: Naver
+  :source_url: http://blog.naver.com/PostView.nhn?blogId=suyfg0319&logNo=221475680524
+  :username: blog.naver.com
+  :id: publisher/profile:blog.naver.com
+  :from: :default

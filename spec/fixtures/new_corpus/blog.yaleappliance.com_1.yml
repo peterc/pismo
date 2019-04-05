@@ -3338,3 +3338,33 @@
   data-app=\"cookie_consent\" style=\"display: none;\"></div><div class=\"shareaholic-canvas
   shareaholic-share-buttons-container\" data-app=\"floated_share_buttons\" style=\"display:
   none;\"></div></body></html>"
+:results:
+- :name: Steve Sheinkopf
+  :url: https://blog.yaleappliance.com/author/steve-sheinkopf
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 412
+- :name: Yale Appliance + Lighting
+  :url: https://twitter.com/YaleCEO
+  :type: twitter/profile
+  :image: https://blog.yaleappliance.com/hs-fs/hubfs/BS471611.png?width=567&name=BS471611.png
+  :from: :meta_html
+  :line: 641
+- :name: "@YaleCEO"
+  :type: twitter/profile
+  :url: https://twitter.com/YaleCEO
+  :image: 
+  :from: :meta_twitter
+- :name: Steve Sheinkopf
+  :url: https://blog.yaleappliance.com/author/steve-sheinkopf
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 412
+- :name: Steve Sheinkopf
+  :url: https://twitter.com/YaleCEO
+  :type: twitter/profile
+  :image: https://blog.yaleappliance.com/hs-fs/hubfs/BS471611.png?width=567&name=BS471611.png
+  :from: :jsonld
+  :line: 637

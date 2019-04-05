@@ -1979,3 +1979,10 @@
   blogId = 'mendj0208';\n</script>\n<script type=\"text/javascript\">\nif ( typeof
   nsc == 'undefined') {\n\tnsc = \"blog.post\";\n}\n\nvar ccsrv=\"cc.naver.com\";\nvar
   nclk_evt = 3;\nnclk_do();\n\n\n</script>\n\n\n\n\n\n</body></html>"
+:results:
+- :name: 프로필
+  :url: http://blog.naver.com/profile/intro.nhn?blogId=mendj0208
+  :type: site/author
+  :image: http://itemimgs.naver.net/personacon/33/37/1013733.gif
+  :from: :html
+  :line: 2457

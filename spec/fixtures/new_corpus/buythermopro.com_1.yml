@@ -1303,3 +1303,15 @@
   Caching 226/443 objects using disk\nPage Caching using disk: enhanced (SSL caching
   disabled) \nDatabase Caching 3/57 queries in 0.054 seconds using disk\n\nServed
   from: buythermopro.com @ 2019-03-18 08:12:40 by W3 Total Cache\n--></body></html>"
+:results:
+- :name: ThermoPro
+  :url: https://buythermopro.com/author/itronicsmod
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 675
+- :name: "@BuyThermoPro"
+  :type: twitter/profile
+  :url: https://twitter.com/BuyThermoPro
+  :image: 
+  :from: :meta_twitter

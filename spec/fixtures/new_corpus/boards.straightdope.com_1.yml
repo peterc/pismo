@@ -1741,3 +1741,10 @@
   \n\n\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js\"></script>\n\n\n\n<!--
   temp -->\n<div style=\"display:none\">\n    <!-- thread rate -->\n    \n        \n
   \   \n    <!-- / thread rate -->\n</div>\n\n\n</body></html>"
+:results:
+- :name: Kayaker's Avatar
+  :url: http://boards.straightdope.com/member.php?s=525841b273771c260ad9556b74e1b953&u=84483
+  :type: site/author
+  :image: http://boards.straightdope.com/image.php?s=525841b273771c260ad9556b74e1b953&u=84483&dateline=1533724573
+  :from: :html
+  :line: 955

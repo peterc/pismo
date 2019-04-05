@@ -1669,3 +1669,10 @@
   target=\"_new\">Tapatalk Notifier</a> for Chrome to keep notified of new Private
   Messages from this forum. <br></p></div><a classname=\"close\" href=\"#close\" innerhtml=\"Close\"></a></div></div><script
   language=\"javascript\" type=\"text/javascript\" src=\"//static.chartbeat.com/js/chartbeat.js\"></script></body></html>"
+:results:
+- :name: Smapti
+  :url: http://boards.straightdope.com/member.php?s=b58bac7a94596139f45b2017d562a997&u=20365
+  :type: site/author
+  :image: http://boards.straightdope.com/images/SultanThemeVB3R/statusicon/user_offline.gif
+  :from: :html
+  :line: 962
