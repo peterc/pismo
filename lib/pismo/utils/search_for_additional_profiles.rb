@@ -22,7 +22,7 @@ module Pismo
           candidate_names = original_profiles.map do |profile|
             get_url_candidate(profile)
           end
-          candidate_names
+          candidate_names.compact     # sometimes it return [nil]  that's why we should use 'compact'
         end
       end
 
@@ -93,9 +93,11 @@ module Pismo
 
           selected_social_profiles = []
           social_profiles.each do |profile|
-            matching_names.each do |name|
-              if profile[:url].to_s.downcase.include?(name.downcase)
-                selected_social_profiles << profile.merge(name: name)
+            if profile[:url].present?
+              matching_names.each do |name|
+                if profile[:url].to_s.downcase.include?(name.downcase)
+                  selected_social_profiles << profile.merge(name: name)
+                end
               end
             end
           end
@@ -108,7 +110,7 @@ module Pismo
 
         url_candidate = profile_link[:url].gsub(/\/$/, '')
         candidate = url_candidate.split('/').last
-        candidate = candidate.gsub(/^@/, '')
+        candidate = candidate.gsub(/^@/, '') if candidate.present?
         candidate
       end
 
