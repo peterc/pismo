@@ -78,12 +78,19 @@ module Pismo
         handle_with_parsing_strategy(node)
       end
 
+      def nodes_processed_ids
+        @nodes_processed_ids ||= []
+      end
+
       def handle_with_parsing_strategy(node)
         grandparent_node = get_grandparent_node(node)
         return nil if grandparent_node.nil?
+        return nil if nodes_processed_ids.include?(grandparent_node.pointer_id)
 
+        nodes_processed_ids << grandparent_node.pointer_id
         profile_link = profile_links_from_node(grandparent_node)&.first
-        return nil if profile_link.nil? || processed_profile_links.include?(profile_link[:url])
+        return nil if profile_link.nil?
+        return nil if processed_profile_links.include?(profile_link[:url])
 
         processed_profile_links << profile_link[:url]
         name          = get_link_node_name(node)
@@ -127,34 +134,52 @@ module Pismo
         end
       end
 
+      def link_node_pointer_ids
+        @link_node_pointer_ids ||= []
+      end
+
+      def node_processed_pointer_ids
+        @node_processed_pointer_ids ||= []
+      end
+
       def build_links_list_from_node(node)
         links = []
         links = node.css('a').map do |link_node|
-          hsh = {
-            url:  Utils::Url.absolutize(url, link_node.attr('href')),
-            rel:   link_node.attr('rel'),
-            title: link_node.attr('title'),
-            class: link_node.attr('class'),
-            id:    link_node.attr('id')
-          }
+          if link_node_pointer_ids.include?(link_node.pointer_id)
+            nil
+          else
+            link_node_pointer_ids << link_node.pointer_id
+            hsh = {
+              url:  Utils::Url.absolutize(url, link_node.attr('href')),
+              rel:   link_node.attr('rel'),
+              title: link_node.attr('title'),
+              class: link_node.attr('class'),
+              id:    link_node.attr('id'),
+              alt:   link_node.attr('alt')
+            }
+          end
         end
-        links = links.uniq { |hsh| hsh[:url] }
+        links = links.uniq.delete_if(&:nil?)
         links
       end
 
       def build_parsed_links_list_from_node(node)
+        return [] if node_processed_pointer_ids.include?(node.pointer_id)
+
+        node_processed_pointer_ids << node.pointer_id
         links = build_links_list_from_node(node)
         links = links.map do |hsh|
-          hsh.merge(Allusion.parse(hsh[:url]))
+          parsed = Allusion.parse(hsh[:url], hsh.except(:url))
+          hsh.merge(parsed)
         end
         links
       end
 
       def images_from_node(node)
         node.css('img')
-            .map { |link| link['src'] }
+            .map       { |link| link['src'] }
             .delete_if { |link| link.include?('data:image') }
-            .map { |link| Utils::Url.absolutize(url, link) }
+            .map       { |link| Utils::Url.absolutize(url, link) }
       end
 
       def matches

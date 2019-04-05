@@ -1,5 +1,6 @@
 RSpec.describe Pismo::Document do
   each_fixture('./new_corpus/*.yml') do |file_name, data|
+    next unless file_name.include?('user-deleted.livejournal.com')
     context file_name do
       let(:hsh) { YAML.load(data) }
 
