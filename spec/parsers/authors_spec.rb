@@ -11,8 +11,8 @@ RSpec.describe Pismo::Document do
         fast_results = helper.authors
         puts "TOOK: #{Time.now - start_time}"
         helper.authors.each do |author|
-          joined = %i[type name url image from].map do |key|
-            "#{key}=#{author[key]}"
+          joined = %i[type identifier name username url uri image from].map do |key|
+            "#{key}=#{author[key]}" if author[key].present?
           end.join("\t")
           puts joined
         end

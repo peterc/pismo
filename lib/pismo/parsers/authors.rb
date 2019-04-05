@@ -13,7 +13,13 @@ module Pismo
       end
 
       def log_profiles(profiles)
-        profile_counts = profiles.each_with_object(Hash.new(0)) { |hsh, track| track[hsh[:type].downcase.gsub('/', '_')] += 1 }
+        profile_counts = profiles.each_with_object(Hash.new(0)) do |hsh, track|
+          if hsh[:type].present?
+            track[hsh[:type].downcase.gsub('/', '_')] += 1
+          elsif hsh[:identifier].present?
+            track[hsh[:identifier].downcase.gsub('/', '_')] += 1
+          end
+        end
         profile_counts.each do |key, value|
           Pismo.tracker.count "parsers.authors.results.#{key}", value
         end

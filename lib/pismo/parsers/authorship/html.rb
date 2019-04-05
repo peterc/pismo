@@ -41,7 +41,6 @@ module Pismo
           if node.name == 'a'
             return node if any_a_node_profile_indicator?(node)
           else
-            valid_a_nodes = []
             node.css('a').each do |link|
               return node if any_a_node_profile_indicator?(link)
             end
