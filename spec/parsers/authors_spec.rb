@@ -23,7 +23,7 @@ RSpec.describe Pismo::Document do
 
         it 'author present' do
           start_time = Time.now
-          puts "#{hsh[:url]}"
+          puts "    #{hsh[:url]}"
           helper = Pismo::Document.new(hsh[:body], url: hsh[:url])
 
           expect do
@@ -40,8 +40,8 @@ RSpec.describe Pismo::Document do
             expect_to_have_at_least_one_author(helper)
             expect_to_find_the_same_author_results(helper, hsh)
           else
-            # hsh[:results] = helper.authors
-            # write_updated_fixture_with_results(file_path, hsh)
+            hsh[:results] = helper.authors
+            write_updated_fixture_with_results(file_path, hsh)
           end
         end
       end

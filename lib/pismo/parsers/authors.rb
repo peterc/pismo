@@ -4,14 +4,14 @@ module Pismo
   module Parsers
     class Authors < Base
       def call
-        log_profiles(profiles)
-        profiles
+        profiles # log_profiles(profiles)
       end
 
       def profiles
         @profiles ||= Utils::SearchForAdditionalProfiles.call(profiles: found_profiles, url: url, doc: doc, sentences: sentences, social_profiles: social_profiles)
       end
 
+      # Used in development. Don't enable unless you want to track in statsd
       def log_profiles(profiles)
         profile_counts = profiles.each_with_object(Hash.new(0)) do |hsh, track|
           if hsh[:type].present?
@@ -19,9 +19,6 @@ module Pismo
           elsif hsh[:identifier].present?
             track[hsh[:identifier].downcase.gsub('/', '_')] += 1
           end
-        end
-        profile_counts.each do |key, value|
-          Pismo.tracker.count "parsers.authors.results.#{key}", value
         end
       end
 

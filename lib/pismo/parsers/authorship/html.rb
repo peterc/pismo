@@ -18,7 +18,6 @@ module Pismo
         def matches
           @matches ||= begin
             matches = []
-            Pismo.tracker.count "parsers.html.author_candidates_count", author_candidates.length
             author_candidates.each do |node|
               extract_a_link_node = get_a_node_profile_indicators(node)
               if extract_a_link_node.is_a?(Nokogiri::XML::Element)
