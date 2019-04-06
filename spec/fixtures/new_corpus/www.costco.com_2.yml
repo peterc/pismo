@@ -3670,3 +3670,10 @@
   id=\"oo_tab\" class=\"oo_tab_right\" href=\"#\" data-oo-display-value=\"block\"
   style=\"display: none;\"><img src=\"//www.costco.com/wcsstore/CostcoUSBCCatalogAssetStore/styles/oo_tab_icon_retina.gif\"
   alt=\"\">Feedback<span class=\"screen_reader\"> Will open a new window</span></a></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Costco
+  :source_url: https://www.costco.com/NXR-PRO-36%22-Professional-Style-GAS-Range-in-Stainless-Steel---NXRPRO3651.product.100235026.html
+  :username: www.costco.com
+  :id: publisher/profile:www.costco.com
+  :from: :default

@@ -3081,3 +3081,16 @@
   src=\"https://www.redditmedia.com/gtm/jail?id=GTM-5XVNS82\" style=\"display: none
   !important;\" hidden=\"\"></iframe><script async=\"\" defer=\"\" src=\"https://www.redditstatic.com/desktop2x/Frontpage.2b4bd3e670757af3a8f2.js\"></script><script
   async=\"\" defer=\"\" src=\"https://www.redditstatic.com/desktop2x/Subreddit.4d2336566fdc3311b31e.js\"></script></body></html>"
+:results:
+- :name: U/Stopscopiesme
+  :url: https://www.reddit.com/user/stopscopiesme
+  :type: reddit/profile
+  :image: 
+  :from: :html
+  :line: 279
+- :name: U/316nuts
+  :url: https://www.reddit.com/user/316nuts
+  :type: reddit/profile
+  :image: 
+  :from: :reddit
+  :line: 277

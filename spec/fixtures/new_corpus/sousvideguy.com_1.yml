@@ -1313,3 +1313,10 @@
   align=\"center\"><div class=\"fc-policy\"><a href=\"https://www.verticalscope.com/site-privacy-policy/index.php?site=SousVideGuy.com\"
   target=\"_blank\">How SousVideGuy.com uses your data</a></div><div class=\"fc-buttons\"><button
   tabindex=\"0\" class=\"fc-button fc-button-back\"><p class=\"fc-button-label\">Back</p></button></div></section></div></div></body></html>"
+:results:
+- :name: Guy
+  :url: https://sousvideguy.com/author/knuckles
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 1423

@@ -880,3 +880,16 @@
   \   <!-- OPUS.17: 0.427s -->  <script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"5c31b36624\",\"applicationID\":\"6239845\",\"transactionName\":\"YQNWYBMHWUJZBRJeXFhJdVcVD1hfFwgJU1ZpFlVTBDlBWF0R\",\"queueTime\":0,\"applicationTime\":436,\"atts\":\"TURVFlsdSkw=\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script>\n\n<iframe
   scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=https%3A%2F%2Fwww.marthastewart.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
   title=\"Twitter settings iframe\" style=\"display: none;\"></iframe></body></html>"
+:results:
+- :name: ''
+  :url: https://www.marthastewart.com/contributor/1108288/grant-crilly
+  :type: site/author
+  :image: https://www.marthastewart.com/sites/all/modules/features/mslo_image/images/lazy-default.gif
+  :from: :html
+  :line: 408
+- :name: ChefSteps
+  :url: https://www.marthastewart.com/contributor/1108288/grant-crilly
+  :type: site/author
+  :image: https://www.marthastewart.com/sites/all/modules/features/mslo_image/images/lazy-default.gif
+  :from: :jsonld
+  :line: 417

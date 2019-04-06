@@ -381,3 +381,10 @@
   \   \n\n<table cellspacing=\"0\" cellpadding=\"0\" class=\"gstl_50 gssb_c\" style=\"width:
   111px; display: none; top: 727px; left: 7px; position: absolute;\"><tbody><tr><td
   class=\"gssb_f\"></td><td class=\"gssb_e\" style=\"width: 100%;\"></td></tr></tbody></table></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Housetopia
+  :source_url: http://www.housetopia.com/kitchen/top-three-kitchen-advancements-for-today-s-technicurean-home-chefs,34518
+  :username: www.housetopia.com
+  :id: publisher/profile:www.housetopia.com
+  :from: :default

@@ -1315,3 +1315,10 @@
   aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\"></div><iframe
   src=\"https://c.sharethis.mgr.consensu.org/v1.0/cmp/portal.html\" id=\"st_gdpr_iframe\"
   style=\"width: 0px; height: 0px; position: absolute; left: -5000px;\"></iframe></body></html>"
+:results:
+- :name: Rach’s Cookware & Tabletop
+  :url: https://www.rachaelray.com/shop/rachael-ray-c1410393825.html
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 663

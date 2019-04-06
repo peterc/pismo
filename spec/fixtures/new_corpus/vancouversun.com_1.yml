@@ -2270,3 +2270,10 @@
   Verdana, sans-serif; border-radius: 0px 0px 5px 5px;\"><div style=\"padding-left:
   1px;\"><a href=\"http://janrain.com/products/engage/social-login?utm_source=login.canada.com&amp;utm_medium=Partner&amp;utm_campaign=attribution\"
   target=\"_blank\">Social Login by Janrain</a></div></div></div></div></div></body></html>"
+:results:
+- :name: Aleesha Harris
+  :url: https://vancouversun.com/author/aleesha2
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 1060

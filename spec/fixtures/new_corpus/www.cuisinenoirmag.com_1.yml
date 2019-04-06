@@ -1244,3 +1244,20 @@
   value=\"mc4wp-form-1\"><div class=\"mc4wp-response\"></div></form><p class=\" last-child\"></p></div><span
   class=\"boxzilla-close-icon\">×</span></div></div><script id=\"PIN_1552922000286.f.callback[0]\"
   type=\"text/javascript\" charset=\"utf-8\" src=\"https://log.pinterest.com/?guid=5GKg_uxpnRrU&amp;tv=2019031201&amp;type=pidget&amp;sub=www&amp;button_count=1&amp;follow_count=0&amp;pin_count=0&amp;button_hover=1&amp;profile_count=0&amp;board_count=0&amp;section_count=0&amp;lang=en&amp;nvl=en-US&amp;via=https%3A%2F%2Fwww.cuisinenoirmag.com%2Fmastering-the-art-of-sous-vide-cooking-cookbook%2F&amp;callback=PIN_1552922000286.f.callback[0]\"></script></body></html>"
+:results:
+- :name: Rekaya Gibson
+  :url: https://www.cuisinenoirmag.com/author/rekayagibson
+  :type: site/author
+  :image: https://www.cuisinenoirmag.com/wp-content/uploads/2018/08/Rekaya-Gibson-Edited-e1542742003286-768x768.jpeg
+  :from: :html
+  :line: 877
+- :name: "@cuisinenoirmag"
+  :type: twitter/profile
+  :url: https://twitter.com/cuisinenoirmag
+  :image: 
+  :from: :meta_twitter
+- :name: Cuisinenoirmag
+  :url: http://pinterest.com/cuisinenoirmag
+  :type: pinterest/profile
+  :image: 
+  :from: :on_page

@@ -1296,3 +1296,10 @@
   }\n\nif(typeof window.orig_onload == \"function\") window.orig_onload();\n}\n\n//]]>\n</script>\n\n<iframe
   scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=http%3A%2F%2Fwww.city-data.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
   title=\"Twitter settings iframe\" style=\"display: none;\"></iframe></body></html>"
+:results:
+- :type: publisher/profile
+  :name: City Data
+  :source_url: http://www.city-data.com/forum/deals-coupons-free-stuff/3016480-75-free-kindle-downloads-2-13-a.html
+  :username: www.city-data.com
+  :id: publisher/profile:www.city-data.com
+  :from: :default

@@ -1722,3 +1722,15 @@
   new _WidgetInfo('HTML3', 'sidebarleft', document.getElementById('HTML3'), {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_PageListView',
   new _WidgetInfo('PageList1', 'sidebarleft', document.getElementById('PageList1'),
   {'title': 'Pages', 'links': [], 'mobile': false}, 'displayModeFull'));\n</script>\n\n</body></html>"
+:results:
+- :name: Rss Feed
+  :url: https://howtotechnews.blogspot.com/feeds/posts/default
+  :type: blogspot/post
+  :image: https://1.bp.blogspot.com/-tLOdCdFwBXw/U8iX_exEUqI/AAAAAAAALpY/7BcWFjPggaA/s1600/twitter.png
+  :from: :html
+  :line: 1020
+- :url: https://howtotechnews.blogspot.com
+  :name: howtotechnews
+  :image: 
+  :from: :url
+  :type: blogspot/post

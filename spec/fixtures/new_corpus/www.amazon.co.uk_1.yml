@@ -4041,3 +4041,10 @@
   isSpellCorrected #>\"data-type=\"<#= type #>\"data-qu-type=\"<#= qu.type #>\"data-qu-value=\"<#=
   qu.value #>\"data-crid=\"<#= completionResponseId #>\"><span class=\"s-qu-display-string\"><#=
   qu.displayString  #></span></div></script></body></html>"
+:results:
+- :name: "Shop By \n  Department"
+  :url: https://www.amazon.co.uk/gp/site-directory?ref_=nav_shopall_btn
+  :type: author/profile
+  :image: 
+  :from: :html
+  :line: 579

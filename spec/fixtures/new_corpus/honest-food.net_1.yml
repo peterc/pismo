@@ -1370,3 +1370,15 @@
   id=\"fancybox-close\"></a><div id=\"fancybox-title\"></div><a id=\"fancybox-left\"><span
   class=\"fancy-ico\" id=\"fancybox-left-ico\"></span></a><a id=\"fancybox-right\"><span
   class=\"fancy-ico\" id=\"fancybox-right-ico\"></span></a></div></div></body></html>"
+:results:
+- :name: Hank Shaw
+  :url: https://honest-food.net/author/hank
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 63
+- :name: "@Hank_Shaw"
+  :type: twitter/profile
+  :url: https://twitter.com/Hank_Shaw
+  :image: 
+  :from: :meta_twitter

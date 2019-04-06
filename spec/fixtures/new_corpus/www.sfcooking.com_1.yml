@@ -683,3 +683,19 @@
   class=\"grecaptcha-error\"></div><textarea id=\"g-recaptcha-response-100000\" name=\"g-recaptcha-response\"
   class=\"g-recaptcha-response\" style=\"width: 250px; height: 40px; border: 1px solid
   rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div></div></body></html>"
+:results:
+- :name: "@sfcooking"
+  :type: twitter/profile
+  :url: https://twitter.com/sfcooking
+  :image: 
+  :from: :meta_twitter
+- :name: Sfcooking
+  :url: https://www.instagram.com/sfcooking
+  :type: instagram/profile
+  :image: 
+  :from: :on_page
+- :name: Sfcooking
+  :url: https://www.facebook.com/SFCooking
+  :type: facebook/profile
+  :image: 
+  :from: :on_page

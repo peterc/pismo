@@ -886,3 +886,10 @@
   class=\"share-linkedin\" title=\"Share on  LinkedIn\"></a></li><li> <a target=\"_blank\"
   href=\"mailto:?subject=Sous%20vide%20with%20your%20combi%20oven%3A%20controlled%20temperature%20cooking&amp;body=Sous%20vide%20with%20your%20combi%20oven%3A%20controlled%20temperature%20cooking%0A%0ASous%20vide%20is%20a%20slow%2C%20temperature%20controlled%20cooking%20technique%20that%20preserves%20food%20original%20taste%2C%20texture%20and%20essential%20characteristics.%20The%20raw%20food%20is%20vacuum%20sealed%20in%20a%20plastic%20bag%2C%20suitable%20for%20dishes%2C%20and%20cooked%20either%20in%20boiling%20water...%0A%0AWant%20to%20read%20more%3F%20Click%20here%3A%20https%3A%2F%2Fprofessional.electrolux.com%2Fsous-vide-with-combi-oven\"
   class=\"share-email\" title=\"Share on Email\"></a></li></ul></div></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Electrolux
+  :source_url: https://professional.electrolux.com/sous-vide-with-combi-oven/
+  :username: professional.electrolux.com
+  :id: publisher/profile:professional.electrolux.com
+  :from: :default

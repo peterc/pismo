@@ -1363,3 +1363,45 @@
   class=\"searchwp-live-search-results\" id=\"searchwp_live_search_results_5c8fb6fead033\"
   role=\"listbox\" tabindex=\"0\"></div><script id=\"PIN_1552922366888.f.callback[0]\"
   type=\"text/javascript\" charset=\"utf-8\" src=\"https://log.pinterest.com/?guid=4yk6Yksw06Br&amp;tv=2019031201&amp;type=pidget&amp;sub=www&amp;button_count=2&amp;follow_count=0&amp;pin_count=0&amp;button_hover=1&amp;custom_local=1&amp;profile_count=0&amp;board_count=0&amp;section_count=0&amp;lang=en&amp;nvl=en-US&amp;via=https%3A%2F%2Fwellnessmama.com%2F156270%2Fsous-vide-without-plastic%2F&amp;callback=PIN_1552922366888.f.callback[0]\"></script></body></html>"
+:results:
+- :name: Katie
+  :url: https://wellnessmama.com
+  :type: author/profile
+  :image: 
+  :from: :html
+  :line: 883
+- :name: "@wellnessmama"
+  :type: twitter/profile
+  :url: https://twitter.com/wellnessmama
+  :image: 
+  :from: :meta_twitter
+- :name: Wellnessmama
+  :url: https://www.facebook.com/WellnessMama
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Wellnessmama
+  :url: https://plus.google.com/+Wellnessmamapage
+  :type: googleplus/profile
+  :image: 
+  :from: :on_page
+- :name: Wellnessmama
+  :url: https://instagram.com/wellnessmama
+  :type: instagram/profile
+  :image: 
+  :from: :on_page
+- :name: Wellnessmama
+  :url: https://pinterest.com/wellnessmama
+  :type: pinterest/profile
+  :image: 
+  :from: :on_page
+- :name: Wellnessmama
+  :url: https://www.youtube.com/user/katiewellnessmama
+  :type: youtube/profile
+  :image: 
+  :from: :on_page
+- :name: Wellnessmama
+  :url: https://www.amazon.com/shop/wellnessmama
+  :type: site/author
+  :image: 
+  :from: :on_page

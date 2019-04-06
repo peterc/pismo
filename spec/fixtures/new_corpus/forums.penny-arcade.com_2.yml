@@ -1626,3 +1626,16 @@
   style=\"display: none;\"></ul><iframe scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\"
   src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=https%3A%2F%2Fforums.penny-arcade.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
   title=\"Twitter settings iframe\" style=\"display: none;\"></iframe></body></html>"
+:results:
+- :name: Tynic
+  :url: https://forums.penny-arcade.com/profile/tynic
+  :type: site/author
+  :image: https://us.v-cdn.net/5018289/uploads/userpics/503/n51LK55DVVIAR.gif
+  :from: :html
+  :line: 230
+- :name: 3clipse
+  :url: https://forums.penny-arcade.com/profile/3clipse
+  :image: https://us.v-cdn.net/5018289/uploads/userpics/163/n1GF7P8HBMBZA.jpg
+  :type: site/author
+  :identifier: site/author
+  :from: jsonld_author

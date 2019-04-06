@@ -2858,3 +2858,24 @@
   hidden=\"\" style=\"position: absolute; left: -100px; top: -100px; width: 1px; height:
   1px; display: none !important;\"><canvas width=\"35\" height=\"35\" style=\"display:
   none;\"></canvas><canvas width=\"35\" height=\"35\" style=\"display: none;\"></canvas></body></html>"
+:results:
+- :name: |-
+    Sale
+                    Remodel Sale
+  :url: https://www.houzz.com/shop-houzz/kitchen-and-bath-sale
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 152
+- :name: Erin Carlyle
+  :url: https://www.houzz.com/user/erincarlyle
+  :type: site/author
+  :image: https://st.hzcdn.com/fimgs/dc41c6a40ac6933e_8272-w214-h160-b0-p0--transitional-kitchen.jpg
+  :from: :jsonld
+  :line: 1128
+- :name: Erin Carlyle
+  :url: https://www.houzz.com/user/southhillinteriors
+  :type: site/author
+  :image: https://st.hzcdn.com/fimgs/fdd111e80a73df51_9792-w402-h255-b0-p0--transitional-kitchen.jpg
+  :from: :jsonld
+  :line: 1775

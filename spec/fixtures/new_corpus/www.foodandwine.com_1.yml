@@ -1798,3 +1798,16 @@
   \       this link is to an external site that may or may not meet accessibility
   guidelines.\n      </div>\n\n\n  \n\n<script src=\"https://cdn.video.timeinc.com/jumpstart/v3/js/jumpstart.min.js\"
   async=\"\"></script></body></html>"
+:results:
+- :name: Elisabeth Sherman
+  :url: https://www.foodandwine.com/contributors/elisabeth-sherman
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 1184
+- :name: Elisabeth Sherman
+  :url: https://www.foodandwine.com/contributors/elisabeth-sherman
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 1184

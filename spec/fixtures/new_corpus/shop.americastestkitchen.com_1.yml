@@ -1873,3 +1873,10 @@
   sans-serif !important;}\n@media only screen and (max-width: 765px) {\n.searchsuite-form-search
   .reset-button, \n#search_mini_form #search_autocomplete {display:none !important;}\n.searchsuite-form-search
   #search.spinner {background-image:none !important;}\n}\n</style>\n\n\n</div></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Americastestkitchen
+  :source_url: https://shop.americastestkitchen.com/sous-vide-for-everybody.html
+  :username: shop.americastestkitchen.com
+  :id: publisher/profile:shop.americastestkitchen.com
+  :from: :default

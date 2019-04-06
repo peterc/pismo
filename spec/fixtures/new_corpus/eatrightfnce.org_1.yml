@@ -800,3 +800,10 @@
   to Top</span></a></div><iframe scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\"
   src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=https%3A%2F%2Featrightfnce.org&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
   title=\"Twitter settings iframe\" style=\"display: none;\"></iframe></body></html>"
+:results:
+- :name: Acadfnce
+  :url: https://eatrightfnce.org/author/acadfnce
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 194

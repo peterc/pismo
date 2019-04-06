@@ -7004,3 +7004,27 @@
   width=\"0\" height=\"0\" hidden=\"\" style=\"display: none !important;\"></iframe></div><script
   async=\"\" src=\"//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&amp;adInstanceId=45b86f08-d576-450f-b812-4e928421e266\"></script><script
   async=\"\" src=\"https://sdk-vmh.prod-univision.com/4.39.0/fmg-sdk.js\"></script></body></html>"
+:results:
+- :name: ''
+  :url: https://lifehacker.com
+  :type: author/profile
+  :image: https://i.kinja-img.com/gawker-media/image/upload/s--gfTTsTrO--/c_fill,f_auto,fl_progressive,g_center,h_80,q_80,w_80/u0939doeuioaqhspkjyc.png
+  :from: :html
+  :line: 116
+- :name: Claire Lower
+  :url: https://kinja.com/clairelower
+  :type: author/profile
+  :image: https://i.kinja-img.com/gawker-media/image/upload/s--ftFL3_UW--/c_fill,f_auto,fl_progressive,g_center,h_80,q_80,w_80/gmdmmk39ecsy86ky2ytx.jpg
+  :from: :meta_html
+  :line: 116
+- :name: Claire Lower
+  :url: https://kinja.com/clairelower
+  :type: author/profile
+  :image: https://i.kinja-img.com/gawker-media/image/upload/s--ftFL3_UW--/c_fill,f_auto,fl_progressive,g_center,h_80,q_80,w_80/gmdmmk39ecsy86ky2ytx.jpg
+  :from: :jsonld
+  :line: 116
+- :name: Lifehacker.Com
+  :url: mailto:claire.lower@lifehacker.com
+  :type: email/profile
+  :image: 
+  :from: :on_page

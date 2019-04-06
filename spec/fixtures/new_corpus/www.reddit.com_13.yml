@@ -1672,3 +1672,31 @@
   src=\"https://www.redditmedia.com/gtm/jail?id=GTM-5XVNS82\" style=\"display: none
   !important;\" hidden=\"\"></iframe><script async=\"\" defer=\"\" src=\"https://www.redditstatic.com/desktop2x/Legacy~Frontpage.7b2866b83928f1d4557d.js\"></script><script
   async=\"\" defer=\"\" src=\"https://www.redditstatic.com/desktop2x/Legacy~Subreddit.e610823d0e2019cbd4fe.js\"></script></body></html>"
+:results:
+- :name: Youtube
+  :url: https://instagram.com/seriouseats
+  :type: instagram/profile
+  :image: 
+  :from: :html
+  :line: 299
+- :name: U/The Dragon Unborn
+  :url: https://www.reddit.com/user/TheDragonUnborn
+  :type: reddit/profile
+  :image: 
+  :from: :reddit
+  :line: 278
+- :name: Seriouseats
+  :url: https://twitter.com/seriouseats
+  :type: twitter/profile
+  :image: 
+  :from: :on_page
+- :name: Seriouseats
+  :url: http://www.youtube.com/user/SeriousEats
+  :type: youtube/profile
+  :image: 
+  :from: :on_page
+- :name: Seriouseats
+  :url: https://www.facebook.com/seriouseats
+  :type: facebook/profile
+  :image: 
+  :from: :on_page

@@ -2196,3 +2196,10 @@
   window.__duxValidate__(i)},a.src='https://assets.bbystatic.com'+\"/lib-dux/dist/validate-\"+\"a069b97f2596d0f28de17826cac506c6\"+\".js\",document.body.appendChild(a)}else
   window.__duxValidate__(i)}()}</script>\n\t\t\t\t\t\n\n\t\t\t\t<script src=\"//img.bbystatic.com/BestBuy_US/js/tracking/brightTag-min.js\"
   async=\"\" defer=\"\"></script>\n\t\t\t\n\t\t</body></html>"
+:results:
+- :name: Camera Experience Shop More Cameras More Help More Hands On Learn More
+  :url: https://www.bestbuy.com/site/cameras-camcorders/camera-experience-shop/pcmcat329700050059.c?id=pcmcat329700050059
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 59

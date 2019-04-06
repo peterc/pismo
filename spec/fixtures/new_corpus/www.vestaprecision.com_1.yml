@@ -8,3 +8,10 @@
   id=\"content\">\n\t\t\t\n\t\t\t<h2>Could not find that page</h2>\n\n<p class=\"error\">\n\t<strong>Error:
   </strong>\n\tThe requested address <strong>'/media/is-sous-vide-worth-it-for-commercial-kitchens---vesta.html'</strong>
   was not found on this server.</p>\n\t\t</div>\n\t</div>\n\t\n\n</body></html>"
+:results:
+- :type: publisher/profile
+  :name: Vestaprecision
+  :source_url: https://www.vestaprecision.com/media/is-sous-vide-worth-it-for-commercial-kitchens---vesta.html
+  :username: www.vestaprecision.com
+  :id: publisher/profile:www.vestaprecision.com
+  :from: :default

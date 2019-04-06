@@ -804,3 +804,10 @@
   frameborder=\"0\" class=\"goog-te-menu-frame skiptranslate\" title=\"Language Translate
   Widget\" style=\"visibility: visible; box-sizing: content-box; width: 1036px; height:
   198px; display: none;\"></iframe></body></html>"
+:results:
+- :name: Customer Reviews
+  :url: http://www.shopperapproved.com/reviews/culinarydepotinc.com/
+  :type: author/profile
+  :image: https://www.shopperapproved.com/seals/11985-m.gif
+  :from: :html
+  :line: 1506

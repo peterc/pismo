@@ -1261,3 +1261,15 @@
   type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"3f29a16fc4\",\"applicationID\":\"113629569\",\"transactionName\":\"ZFVVZEFQXERZV0MMDF0fdEVARV1aF2deCwRfVRcdE2FdREw=\",\"queueTime\":0,\"applicationTime\":802,\"atts\":\"SBJCEglKTxsaVRVfGE5N\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script>\n<iframe
   scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=https%3A%2F%2Fwww.pehub.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
   title=\"Twitter settings iframe\" style=\"display: none;\"></iframe></body></html>"
+:results:
+- :name: Iris Dorbian
+  :url: https://www.pehub.com/author/idorbian
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 500
+- :name: "@peHUB"
+  :type: twitter/profile
+  :url: https://twitter.com/peHUB
+  :image: 
+  :from: :meta_twitter

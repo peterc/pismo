@@ -1899,3 +1899,16 @@
   = true;\n\n\t\ts.src = \"//nexus.ensighten.com/hearst/mag/Bootstrap.js\";\n\t\n\tif
   ( d.cookie.indexOf( \"nsghtn=dev\" ) > -1 ) {\n\t\ts.src = \"//nexus.ensighten.com/hearst/mag-dev/Bootstrap.js\";\n\t}\n\n\td.getElementsByTagName(
   \"head\" )[ 0 ].appendChild( s );\n} )( document );\n</script>\n\t\t\n\t\n\n</body></html>"
+:results:
+- :name: Youtube
+  :url: https://www.facebook.com/womenshealthmagazine
+  :type: facebook/profile
+  :image: 
+  :from: :html
+  :line: 124
+- :name: Marissa Miller
+  :url: https://www.womenshealthmag.com/author/15601/marissa-miller
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 703

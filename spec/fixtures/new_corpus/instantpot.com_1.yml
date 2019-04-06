@@ -1284,3 +1284,30 @@
   \ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n
   \ ga('create', 'UA-17578684-1', 'auto');\n  ga('send', 'pageview');\n\n</script>\n\n<div
   data-olark=\"true\" id=\"hbl-live-chat-wrapper\" title=\"Live Chat Widget\"></div></body></html>"
+:results:
+- :name: ''
+  :url: https://twitter.com/InstantPot
+  :type: twitter/profile
+  :image: 
+  :from: :html
+  :line: 621
+- :name: Instant Pot
+  :url: https://www.facebook.com/instantpot
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Instant Pot
+  :url: https://www.pinterest.com/instantpot
+  :type: pinterest/profile
+  :image: 
+  :from: :on_page
+- :name: Instant Pot
+  :url: https://www.instagram.com/instantpotofficial
+  :type: instagram/profile
+  :image: 
+  :from: :on_page
+- :name: Instant Pot
+  :url: https://www.youtube.com/user/TheInstantpot
+  :type: youtube/profile
+  :image: 
+  :from: :on_page

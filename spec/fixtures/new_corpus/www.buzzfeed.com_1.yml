@@ -4679,3 +4679,12 @@
   \ \n  \n\n  \n      <span class=\"sharing-btn__text\">Copy Link</span>\n  \n</a>\n
   \   </li>\n  \n</ul>\n        \n        <noscript>\n          <img src=\"https://pixiedust.buzzfeed.com/v1.gif?source=buzz_web&platform=bpager&type=instrumentation&target=javascript&value=disabled\"
   />\n        </noscript>\n\n        \n    \n</body></html>"
+:results:
+- :type: publisher/profile
+  :name: Francine Hendrickson
+  :source_url: https://www.buzzfeed.com/francinehendrickson/sous-vide-recipes-thatll-make-you-side-eye-the-oven
+  :username: www.buzzfeed.com
+  :id: publisher/profile:www.buzzfeed.com
+  :from: :default
+  :image: https://img.buzzfeed.com/buzzfeed-static/static/images/amp/buzzfeed-60px-high.png
+  :url: https://www.buzzfeed.com

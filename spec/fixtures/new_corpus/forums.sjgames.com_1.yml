@@ -966,3 +966,10 @@
   type=\"text/javascript\">\n<!--\n\t// Main vBulletin Javascript Initialization\n\tvBulletin_init();\n//-->\n</script>\n\n<!--
   temp -->\n<div style=\"display:none\">\n\t<!-- thread rate -->\n\t\n\t\t\n\t\n\t<!--
   / thread rate -->\n</div>\n\n\n</body></html>"
+:results:
+- :name: L.J.Steele
+  :url: http://forums.sjgames.com/member.php?s=d43ad93fbd41b14d5e532459a818138a&u=2605
+  :type: site/author
+  :image: http://forums.sjgames.com/images/statusicon/post_old.gif
+  :from: :html
+  :line: 768

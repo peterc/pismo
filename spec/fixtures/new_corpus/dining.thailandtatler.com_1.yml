@@ -2,3 +2,10 @@
 :url: http://dining.thailandtatler.com/features/fire-of-love
 :body: '<html><head></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">Connection
   lost</pre></body></html>'
+:results:
+- :type: publisher/profile
+  :name: Thailandtatler
+  :source_url: http://dining.thailandtatler.com/features/fire-of-love
+  :username: dining.thailandtatler.com
+  :id: publisher/profile:dining.thailandtatler.com
+  :from: :default

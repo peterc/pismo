@@ -1565,3 +1565,15 @@
   'sidebar-right-1', document.getElementById('HTML2'), {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_AttributionView',
   new _WidgetInfo('Attribution1', 'footer-3', document.getElementById('Attribution1'),
   {}, 'displayModeFull'));\n</script>\n\n</body></html>"
+:results:
+- :name: Holly
+  :url: https://www.blogger.com/profile/17567716007176300727
+  :type: blogger/profile
+  :image: 
+  :from: :html
+  :line: 842
+- :url: https://curtandhollysmith.blogspot.com
+  :name: curtandhollysmith
+  :image: 
+  :from: :url
+  :type: blogspot/post

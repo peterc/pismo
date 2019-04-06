@@ -2386,3 +2386,16 @@
   src=\"/_next/69164c5a-3b60-493a-bac0-51cf6c06151e/page/post/show.js\"></script><script
   async=\"\" id=\"__NEXT_PAGE__/_error\" src=\"/_next/69164c5a-3b60-493a-bac0-51cf6c06151e/page/_error.js\"></script><script
   src=\"/_next/69164c5a-3b60-493a-bac0-51cf6c06151e/main.js\" async=\"\"></script></body></html>"
+:results:
+- :name: Christine Gallary
+  :url: https://www.thekitchn.com/authors/christinegallary
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 889
+- :name: Christine Gallary
+  :url: https://www.thekitchn.com/authors/christinegallary
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 889

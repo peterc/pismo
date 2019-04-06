@@ -1247,3 +1247,15 @@
   class=\"reaction reaction_wow_icon reaction_wow\" data-reaction=\"wow\"></span></li>\n<li><span
   class=\"reaction reaction_sympathy_icon reaction_sympathy\" data-reaction=\"sympathy\"></span></li>\n</ul>\n</div>\n<script>$(function(){window.addEventListener('message',function(e){if(e.data.id!=='leadsIframe'){return;}var
   scroll_height=e.data.height;document.getElementById('leadsIframe').height=scroll_height+'px';document.getElementById('leadsIframe').scrollIntoView();},false);});</script>\n\n\n</body></html>"
+:results:
+- :name: Xchristian
+  :url: https://community.babycenter.com/profile/xchristian
+  :type: site/author
+  :image: https://community.babycenter.com/img/avatars/bc/avatar_02.png.pagespeed.ce.d0vQZYogSN.png
+  :from: :html
+  :line: 373
+- :name: xchristian
+  :url: https://community.babycenter.com/profile/xchristian
+  :type: site/author
+  :identifier: site/author
+  :from: jsonld_author

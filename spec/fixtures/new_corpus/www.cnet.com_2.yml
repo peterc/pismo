@@ -1447,3 +1447,27 @@
   src=\"https://cnet2.cbsistatic.com/fly/js/libs/require-2.1.2.js\"></script><noscript><img
   src=\"https://www.cnet.com/akam/10/pixel_4a4dfb3a?a=dD1kMTM1ZWJiZmVmMWM4MDkzNmYzZjFhZWJmY2YyNjI0YTM2ZTdkYzc2JmpzPW9mZg==\"
   style=\"visibility: hidden; position: absolute; left: -999px; top: -999px;\" /></noscript>\n</body></html>"
+:results:
+- :name: Newsletters
+  :url: https://www.cnet.com/user/join-cnet
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 515
+- :name: Molly Price
+  :url: https://www.cnet.com/profiles/mollyprice
+  :type: site/author
+  :image: 
+  :from: :meta_html
+  :line: 769
+- :name: "@mrsmollyprice"
+  :type: twitter/profile
+  :url: https://twitter.com/mrsmollyprice
+  :image: 
+  :from: :meta_twitter
+- :name: Molly Price
+  :url: https://www.cnet.com/profiles/mollyprice
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 769

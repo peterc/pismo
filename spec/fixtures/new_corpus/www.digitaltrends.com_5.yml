@@ -1803,3 +1803,37 @@
   aria-hidden=\"true\" title=\"Facebook Cross Domain Communication Frame\" tabindex=\"-1\"
   src=\"https://staticxx.facebook.com/connect/xd_arbiter/r/d_vbiawPdxB.js?version=44#channel=f37ba9c505d2678&amp;origin=https%3A%2F%2Fwww.digitaltrends.com\"
   style=\"border: none;\"></iframe></div></div></div></body></html>"
+:results:
+- :name: YouTube
+  :url: http://pinterest.com/digitaltrends/
+  :type: pinterest/profile
+  :image: 
+  :from: :html
+  :line: 556
+- :name: "@brucebrownnc"
+  :type: twitter/profile
+  :url: https://twitter.com/brucebrownnc
+  :image: 
+  :from: :meta_twitter
+- :name: Bruce Brown
+  :url: https://www.digitaltrends.com/users/bbrown
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 970
+- :name: Bruce Brown
+  :url: https://www.digitaltrends.com/users/adellinger
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 1314
+- :name: Digitaltrends
+  :url: http://www.facebook.com/DigitalTrends
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Digitaltrends
+  :url: https://instagram.com/digitaltrends
+  :type: instagram/profile
+  :image: 
+  :from: :on_page

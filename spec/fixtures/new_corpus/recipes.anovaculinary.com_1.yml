@@ -1225,3 +1225,16 @@
   \     </div>\n    </div>\n  </div>\n</footer>\n<script src=\"https://cdn.jsdelivr.net/npm/vanilla-lazyload@8.17.0/dist/lazyload.min.js\"></script>\n
   \   <script>\n        var myLazyLoad = new LazyLoad({\n            elements_selector:
   \".lazy\"\n        });\n    </script><script type=\"text/javascript\" src=\"/js/source.js\"></script>\n\n</body></html>"
+:results:
+- :name: J. Kenji Lpez-Alt San Francisco
+  :url: https://recipes.anovaculinary.com/user/j-kenji-lopez-alt
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 401
+- :name: J. Kenji López-Alt
+  :url: https://recipes.anovaculinary.com/user/j-kenji-lopez-alt
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 404

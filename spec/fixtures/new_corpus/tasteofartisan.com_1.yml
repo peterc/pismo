@@ -1263,3 +1263,26 @@
   mc4wp_forms_config = [];</script> <!--[if lte IE 9]> <script type='text/javascript'
   src='https://tasteofartisan.com/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.3.3'></script>
   <![endif]--> <script type=\"text/javascript\" defer=\"\" src=\"https://tasteofartisan.com/wp-content/cache/autoptimize/js/autoptimize_c6268bd9820917db48c053bf09372275.js\"></script></body></html>"
+:results:
+- :name: Taste Of Artisan
+  :url: https://tasteofartisan.com/author/tasteofartisan
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 273
+- :name: Taste of Artisan
+  :url: https://tasteofartisan.com/author/tasteofartisan
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 273
+- :name: Tasteofartisan
+  :url: https://www.facebook.com/tasteofartisan
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Tasteofartisan
+  :url: https://www.instagram.com/tasteofartisan
+  :type: instagram/profile
+  :image: 
+  :from: :on_page

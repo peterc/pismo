@@ -873,3 +873,15 @@
   defer=\"defer\"></script>\n<script type=\"text/javascript\">\n\t_stq = window._stq
   || [];\n\t_stq.push([ 'view', {v:'ext',j:'1:7.1.1',blog:'144425508',post:'5182',tz:'-4',srv:'thefloridatravelgirl.com'}
   ]);\n\t_stq.push([ 'clickTrackerInit', '144425508', '5182' ]);\n</script>\n\n</body></html>"
+:results:
+- :name: Amy
+  :url: http://thefloridatravelgirl.com/author/admin
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 219
+- :name: "@thefltravelgirl"
+  :type: twitter/profile
+  :url: https://twitter.com/thefltravelgirl
+  :image: 
+  :from: :meta_twitter

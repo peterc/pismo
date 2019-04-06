@@ -740,3 +740,10 @@
   \   \n  <div class=\"js-react-modal\"></div><div class=\"ReactModalPortal\"></div><div
   class=\"ReactModalPortal\"></div><div class=\"ReactModalPortal\"></div><div class=\"ReactModalPortal\"></div><script
   src=\"https://cdn.plu.mx/widget-summary.js\" async=\"\"></script></body></html>"
+:results:
+- :name: Create Account
+  :url: https://www.sciencedirect.com/user/register?targetURL=%2Fscience%2Farticle%2Fpii%2FS1878450X18301343
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 196

@@ -1504,3 +1504,10 @@
   class=\"errors errors-2\" style=\"display: none;\">\n\t\t\t\tEmail check failed,
   please try again\t\t\t</div>\n\n\t\t\t<div class=\"errors errors-3\" style=\"display:
   none;\">\n\t\t\t\tSorry, your blog cannot share posts by email.\t\t\t</div>\n\t\t</form>\n\t</div></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Foodcrumbles
+  :source_url: https://foodcrumbles.com/sous-vide-cooking-reviewing-the-anova-nano/
+  :username: foodcrumbles.com
+  :id: publisher/profile:foodcrumbles.com
+  :from: :default

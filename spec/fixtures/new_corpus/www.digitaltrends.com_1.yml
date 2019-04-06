@@ -1937,3 +1937,37 @@
   type=\"text/javascript\" src=\"https://cdn1.digitaltrends.com/wp-content/plugins/dt-affiliates/assets/scripts/js/amazon-bundle-handler.min.js?ver=1552923225\"
   defer=\"\"></script>\n<script type=\"text/javascript\" src=\"https://cdn2.digitaltrends.com/wp-includes/js/wp-embed.min.js?ver=5.0.3\"
   defer=\"\"></script>\n\t\n\n</body></html>"
+:results:
+- :name: YouTube
+  :url: http://pinterest.com/digitaltrends/
+  :type: pinterest/profile
+  :image: 
+  :from: :html
+  :line: 545
+- :name: "@Erika_Tin"
+  :type: twitter/profile
+  :url: https://twitter.com/Erika_Tin
+  :image: 
+  :from: :meta_twitter
+- :name: Erika Rawes
+  :url: https://www.digitaltrends.com/users/erikarawes
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 959
+- :name: Erika Rawes
+  :url: https://www.digitaltrends.com/users/adellinger
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 1328
+- :name: Digitaltrends
+  :url: http://www.facebook.com/DigitalTrends
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Digitaltrends
+  :url: https://instagram.com/digitaltrends
+  :type: instagram/profile
+  :image: 
+  :from: :on_page

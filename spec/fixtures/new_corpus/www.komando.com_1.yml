@@ -1124,3 +1124,25 @@
   class=\"fa fa-angle-right fa-lg\"></i></button></form></div><div class=\"newsletter-subscribe-spinner\"><img
   src=\"//static.komando.com/websites/common/v2/img/mini-spinner.gif\" alt=\"Loading\"
   title=\"Loading\"></div><div class=\"newsletter-subscribe-response\"></div></div></div></div></body></html>"
+:results:
+- :name: Shop
+  :url: https://www.amazon.com/shop/influencer-43982842
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 202
+- :name: "@kimkomando"
+  :type: twitter/profile
+  :url: https://twitter.com/kimkomando
+  :image: 
+  :from: :meta_twitter
+- :name: Kimkomando
+  :url: http://www.facebook.com/kimkomando
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Kimkomando
+  :url: http://www.pinterest.com/kimkomando
+  :type: pinterest/profile
+  :image: 
+  :from: :on_page

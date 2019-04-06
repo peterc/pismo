@@ -511,3 +511,10 @@
   class=\"shareButton\"></div></a></li><li class=\"li \"><a rel=\"nofollow\" onclick=\"window.open(&quot;http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.trendhunter.com%2Ftrends%2Fsous-vide-turkey-recipe&amp;title=Sous+Vide+Turkey+Recipes+-+Zingerman%27s+Cornman+Farms+Cooks+a+Turkey+Using+Brine+and+Sous+Vide+&quot;,&quot;_blank&quot;);\"
   href=\"javascript:void(0);\" style=\"background-color: rgb(255, 141, 19);\"><div
   class=\"shareButton\"></div></a></li></ul></div></body></html>"
+:results:
+- :name: Amy Duong
+  :url: https://www.trendhunter.com/amyduong
+  :type: author/profile
+  :image: https://cdn.trendhunterstatic.com/avatars/m/231/avatar_231698.jpeg?_t485
+  :from: :html
+  :line: 417

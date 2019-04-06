@@ -727,3 +727,10 @@
   EOF: #subfooter-inside -->\n\t\n\t</div>\n</div><!-- EOF:#subfooter -->\n  <script
   type=\"text/javascript\" src=\"https://stellaculinary.com/sites/all/modules/picture/picturefill2/picturefill.min.js?v=2.3.1\"></script>\n<script
   type=\"text/javascript\" src=\"https://stellaculinary.com/sites/all/modules/picture/picture.min.js?v=7.43\"></script>\n\n\n</body></html>"
+:results:
+- :name: Login / Register
+  :url: https://stellaculinary.com/user/login%20
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 325

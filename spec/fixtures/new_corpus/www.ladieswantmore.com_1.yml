@@ -821,3 +821,9 @@
   type=\"text/javascript\" src=\"http://www.ladieswantmore.com/wp-content/themes/sahifa/js/tie-scripts.js\"></script>\n<script
   type=\"text/javascript\" src=\"http://www.ladieswantmore.com/wp-content/themes/sahifa/js/ilightbox.packed.js\"></script>\n<script
   type=\"text/javascript\" src=\"http://www.ladieswantmore.com/wp-includes/js/wp-embed.min.js\"></script>\n\n</body></html>"
+:results:
+- :name: Administrator
+  :url: http://www.ladieswantmore.com/author/administrator/
+  :type: site/author
+  :identifier: site/author
+  :from: jsonld_author

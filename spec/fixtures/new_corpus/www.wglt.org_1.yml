@@ -647,3 +647,21 @@
   (function ($) { $(document).foundation({ topbar: { custom_back_text: true, back_text:
   'back', mobile_show_parent_link: true } }); }(jQuery));\n//--><!]]>\n</script>\n
   \   </div>\n  <script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"15ba4da3e8\",\"applicationID\":\"1108724\",\"transactionName\":\"NlMBMhAECEZRAU1eDg8ZIgUWDAlbHwxWUwQ+RgIBBzoQXFUV\",\"queueTime\":0,\"applicationTime\":660,\"atts\":\"GhQCRFgeG0g=\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script>\n\n</body></html>"
+:results:
+- :name: Fcc Public Files
+  :url: https://publicfiles.fcc.gov/fm-profile/wglt
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 870
+- :name: Tove Danovich
+  :url: http://www.twitter.com/tkdano
+  :type: twitter/profile
+  :image: http://media.npr.org/assets/img/2019/02/11/williamsburg2-b48403e44894649e13e86b7f6e18c0f0edb903c9.jpg
+  :from: :meta_html
+  :line: 815
+- :name: Wglt
+  :url: https://www.facebook.com/WGLTFM
+  :type: facebook/profile
+  :image: 
+  :from: :on_page

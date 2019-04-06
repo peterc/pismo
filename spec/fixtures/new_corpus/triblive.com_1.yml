@@ -2300,3 +2300,31 @@
   stwrapper4x\" style=\"display: none;\"><iframe allowtransparency=\"true\" id=\"stLframe\"
   class=\"stLframe\" name=\"stLframe\" frameborder=\"0\" scrolling=\"no\" src=\"https://ws.sharethis.com/secure/index.html\"></iframe></div><div
   id=\"stOverlay\" onclick=\"javascript:stWidget.closeWidget();\"></div></body></html>"
+:results:
+- :name: Shirley Mc Marlin
+  :url: https://triblive.com/author/shirley-mcmarlin
+  :type: site/author
+  :image: https://triblive.com/wp-content/uploads/2018/12/smcmarlin.jpg
+  :from: :html
+  :line: 785
+- :name: Shirley Mc Marlin
+  :url: https://triblive.com/author/shirley-mcmarlin
+  :type: site/author
+  :image: https://triblive.com/wp-content/uploads/2018/12/smcmarlin.jpg
+  :from: :meta_html
+  :line: 788
+- :name: "@triblive"
+  :type: twitter/profile
+  :url: https://twitter.com/triblive
+  :image: 
+  :from: :meta_twitter
+- :name: Triblive
+  :url: https://www.facebook.com/triblive
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Triblive
+  :url: https://instagram.com/triblive
+  :type: instagram/profile
+  :image: 
+  :from: :on_page

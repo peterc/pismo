@@ -364,3 +364,10 @@
   = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';\n\t\t\tj.async = true;\n\t\t\tj.src
   =\n\t\t\t\t'//www.googletagmanager.com/gtm.js?id=' + i + dl;\n\t\t\tf.parentNode.insertBefore(j,
   f);\n\t\t})(window, document, 'script', 'dataLayer', 'GTM-TJTGVZ');</script>\n\n\n\n\n</body></html>"
+:results:
+- :name: Modern Restaurant Management 2019 (Https://Www.Modernrestaurantmanagement.Com)
+  :url: https://www.facebook.com/Modern-Restaurant-Management-796036373852522/
+  :type: facebook/profile
+  :image: https://www.modernrestaurantmanagement.com/assets/public/img/modern_restaurant_management_logo.svg
+  :from: :meta_html
+  :line: 232

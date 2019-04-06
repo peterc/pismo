@@ -173,3 +173,10 @@
   \ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
   \ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n
   \ ga('create', 'UA-159916-3', 'auto');\n  ga('send', 'pageview');\n\n</script>\n\n\n</body></html>"
+:results:
+- :type: publisher/profile
+  :name: Foodbanter
+  :source_url: https://www.foodbanter.com/wine/446139-tn-pepiere-baudry-clerc.html
+  :username: www.foodbanter.com
+  :id: publisher/profile:www.foodbanter.com
+  :from: :default

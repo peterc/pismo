@@ -327,3 +327,20 @@
   Global Site Tag (gtag.js) - Google Analytics -->\n<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=UA-42389517-5\"></script>\n<script>\n\twindow.dataLayer
   = window.dataLayer || [];\n\tfunction gtag(){dataLayer.push(arguments);}\n\tgtag('js',
   new Date());\n\n\tgtag('config', 'UA-42389517-5');\n</script>\n\n\n</body></html>"
+:results:
+- :name: Gael Hees Mar 1, 2019
+  :url: https://lvfnb.com/authors/gael-hees-bffd4ca0d427
+  :type: site/author
+  :image: https://lvfnb.s3-us-west-2.amazonaws.com/articles/tR5woSgLWXiuHz22BKeGyNln7X47H88MrVY9Zmmh.jpeg
+  :from: :html
+  :line: 61
+- :name: "@lvfnb"
+  :type: twitter/profile
+  :url: https://twitter.com/lvfnb
+  :image: 
+  :from: :meta_twitter
+- :name: Lvfnb
+  :url: https://www.facebook.com/LVFNB
+  :type: facebook/profile
+  :image: 
+  :from: :on_page

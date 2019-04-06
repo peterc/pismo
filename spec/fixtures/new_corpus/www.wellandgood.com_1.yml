@@ -1001,3 +1001,9 @@
   type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"276478611e\",\"applicationID\":\"18889540\",\"transactionName\":\"ZwRbNURQCEFXV0VdCV5OeAJCWAlcGUdYWgFcBA==\",\"queueTime\":0,\"applicationTime\":563,\"atts\":\"S0NYQwxKG08=\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script>\n\n<div>\n
   \     <link rel=\"stylesheet\" href=\"https://www.wellandgood.com/wp-content/themes/wellgood-2016/assets/css/main.min.css?ver=4.36.0\">\n
   \   </div></body></html>"
+:results:
+- :name: "@wellandgoodnyc"
+  :type: twitter/profile
+  :url: https://twitter.com/wellandgoodnyc
+  :image: 
+  :from: :meta_twitter

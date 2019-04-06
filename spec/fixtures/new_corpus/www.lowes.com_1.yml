@@ -513,3 +513,10 @@
       </div>
 
   </body></html>
+:results:
+- :type: publisher/profile
+  :name: Lowes
+  :source_url: http://www.lowes.com/pd/BernzOmatic-TS8000-High-Intensity-Trigger-Start-Handheld-Torch-Head/50126403/reviews?sortMethod=SubmissionTime
+  :username: www.lowes.com
+  :id: publisher/profile:www.lowes.com
+  :from: :default

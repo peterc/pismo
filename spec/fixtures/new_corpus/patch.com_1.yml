@@ -1290,3 +1290,10 @@
   // Quantcast CSS -->\n\n\n\n\n<iframe name=\"__cmpLocator\" style=\"display: none;\"></iframe><iframe
   scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=https%3A%2F%2Fpatch.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
   title=\"Twitter settings iframe\" style=\"display: none;\"></iframe></body></html>"
+:results:
+- :name: ''
+  :url: https://patch.com/users/nicole-thompson-3
+  :type: site/author
+  :image: https://patch.com/img/cal/sites/default/files/styles/t600x450/public/users/23078502/20180816134746/39182335_1024133427757644_2205766925437370368_o.jpg
+  :from: :html
+  :line: 689

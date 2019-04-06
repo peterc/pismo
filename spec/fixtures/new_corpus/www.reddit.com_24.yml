@@ -1079,3 +1079,31 @@
   src=\"https://www.redditmedia.com/gtm/jail?id=GTM-5XVNS82\" style=\"display: none
   !important;\" hidden=\"\"></iframe><script async=\"\" defer=\"\" src=\"https://www.redditstatic.com/desktop2x/Frontpage.2b4bd3e670757af3a8f2.js\"></script><script
   async=\"\" defer=\"\" src=\"https://www.redditstatic.com/desktop2x/Subreddit.4d2336566fdc3311b31e.js\"></script></body></html>"
+:results:
+- :name: Youtube
+  :url: https://instagram.com/seriouseats
+  :type: instagram/profile
+  :image: 
+  :from: :html
+  :line: 300
+- :name: U/Amyin Va
+  :url: https://www.reddit.com/user/AmyinVA
+  :type: reddit/profile
+  :image: 
+  :from: :reddit
+  :line: 279
+- :name: Seriouseats
+  :url: https://twitter.com/seriouseats
+  :type: twitter/profile
+  :image: 
+  :from: :on_page
+- :name: Seriouseats
+  :url: http://www.youtube.com/user/SeriousEats
+  :type: youtube/profile
+  :image: 
+  :from: :on_page
+- :name: Seriouseats
+  :url: https://www.facebook.com/seriouseats
+  :type: facebook/profile
+  :image: 
+  :from: :on_page

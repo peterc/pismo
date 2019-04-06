@@ -1305,3 +1305,47 @@
   {\n      mashKit.ads.slot.display(\"div-gpt-ad-1454368617355-0\", \"undefined\",
   \"4585/mash.to/interstitial_1\");\n    });</script></div><script id=\"PIN_1552922127383.f.callback[0]\"
   type=\"text/javascript\" charset=\"utf-8\" src=\"https://log.pinterest.com/?guid=se_hAojaH60r&amp;tv=2019031201&amp;type=pidget&amp;sub=www&amp;button_count=0&amp;follow_count=2&amp;pin_count=0&amp;profile_count=0&amp;board_count=0&amp;section_count=0&amp;lang=en&amp;nvl=en-US&amp;via=https%3A%2F%2Fmashable.com%2F2018%2F03%2F20%2Fbest-sous-vide-machines-cooking-devices-amazon%2F&amp;callback=PIN_1552922127383.f.callback[0]\"></script></body></html>"
+:results:
+- :name: 2017252f11252f13252fbf252fleahstodart02lowrescopy7d073jpg252f90x90
+  :url: https://mashable.com/author/leah-stodart
+  :type: site/author
+  :image: https://mondrian.mashable.com/2017%252F11%252F13%252Fbf%252FLeahStodart02Lowrescopy.7d073.jpg%252F90x90.jpg?signature=BvTfgTNgERtA1qj0zPyACo2hnj8=
+  :from: :html
+  :line: 1467
+- :name: Leah Stodart
+  :url: https://mashable.com/author/leah-stodart
+  :type: site/author
+  :image: https://mondrian.mashable.com/2017%252F11%252F13%252Fbf%252FLeahStodart02Lowrescopy.7d073.jpg%252F90x90.jpg?signature=BvTfgTNgERtA1qj0zPyACo2hnj8=
+  :from: :meta_html
+  :line: 1467
+- :name: "@mashable"
+  :type: twitter/profile
+  :url: https://twitter.com/mashable
+  :image: 
+  :from: :meta_twitter
+- :name: Leah Stodart
+  :url: https://mashable.com/author/leah-stodart
+  :type: site/author
+  :image: https://mondrian.mashable.com/2017%252F11%252F13%252Fbf%252FLeahStodart02Lowrescopy.7d073.jpg%252F90x90.jpg?signature=BvTfgTNgERtA1qj0zPyACo2hnj8=
+  :from: :jsonld
+  :line: 1467
+- :name: Mashable
+  :url: https://www.facebook.com/mashable
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Mashable
+  :url: https://plus.google.com/+Mashable
+  :type: googleplus/profile
+  :image: 
+  :from: :on_page
+- :name: Mashable
+  :url: https://pinterest.com/mashable
+  :type: pinterest/profile
+  :image: 
+  :from: :on_page
+- :name: Mashable
+  :url: https://www.youtube.com/user/mashable
+  :type: youtube/profile
+  :image: 
+  :from: :on_page

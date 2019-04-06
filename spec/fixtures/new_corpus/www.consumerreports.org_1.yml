@@ -2019,3 +2019,10 @@
   crux-call-to-action hide\">\n                Oops, we messed up. Try again later\n
   \           </div>\n        </form>\n    </div>\n</div><script async=\"true\" src=\"https://graph.facebook.com/https://www.consumerreports.org/kitchen-appliances/sous-vide-tools-review-anova-joule/?callback=facebookCallbackNew\"></script><script
   async=\"true\" src=\"//api.pinterest.com/v1/urls/count.json?callback=pinterestCallbackNew&amp;url=https://www.consumerreports.org/kitchen-appliances/sous-vide-tools-review-anova-joule/\"></script></body></html>"
+:results:
+- :name: ''
+  :url: javascript:{}
+  :type: author/profile
+  :image: 
+  :from: :html
+  :line: 334

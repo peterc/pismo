@@ -2760,3 +2760,10 @@
   alt=\"\"/>\n</noscript>\n</div>\n<!--       _\n       .__(.)< (MEOW)\n        \\___)
   \  \n ~~~~~~~~~~~~~~~~~~-->\n<!-- sp:eh:FsorOvXZdM44UDDRtr30drXqICsanDOoOz49hwGAUzj7IhXughoEqev822V6Yf24zJ1eRhb00CPnQrRPOHM8bE64EYGHnpIy+aeRn+PAesZ2QJ0ZQNKfow==
   -->\n<div id=\"a-popover-root\" style=\"z-index:-1;position:absolute;\"></div></body></html>"
+:results:
+- :name: "Shop By \n  Department"
+  :url: https://www.amazon.ca/gp/site-directory?ref_=nav_shopall_btn
+  :type: author/profile
+  :image: 
+  :from: :html
+  :line: 544

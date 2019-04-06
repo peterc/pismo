@@ -1854,3 +1854,16 @@
   src=\"https://www.redditmedia.com/gtm/jail?id=GTM-5XVNS82\" style=\"display: none
   !important;\" hidden=\"\"></iframe><script async=\"\" defer=\"\" src=\"https://www.redditstatic.com/desktop2x/Frontpage.2b4bd3e670757af3a8f2.js\"></script><script
   async=\"\" defer=\"\" src=\"https://www.redditstatic.com/desktop2x/Subreddit.4d2336566fdc3311b31e.js\"></script></body></html>"
+:results:
+- :name: U/Lunatic14
+  :url: https://www.reddit.com/user/Lunatic14
+  :type: reddit/profile
+  :image: 
+  :from: :html
+  :line: 307
+- :name: U/Kanpert
+  :url: https://www.reddit.com/user/Kanpert
+  :type: reddit/profile
+  :image: 
+  :from: :reddit
+  :line: 291

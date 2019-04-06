@@ -895,3 +895,10 @@
   Serif',serif;font-weight:400;font-weight:700;letter-spacing:1px;margin-bottom:15px;padding:0;width:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media
   screen and (min-width:700px)and (max-width:899px){[data-state~=lightbox_lightboxOpen]
   .trb_em_r_t{font-size:24px}}</script>\n<script type=\"trb/css\" data-css-key=\"videoscroll\">\n</script>\n\n</body></html>"
+:results:
+- :type: publisher/profile
+  :name: Daisy Nichols
+  :source_url: https://www.sandiegouniontribune.com/sns-dailymeal-1917639-cook-cooking-steak-sous-vide-20180613-story.html
+  :username: www.sandiegouniontribune.com
+  :id: publisher/profile:www.sandiegouniontribune.com
+  :from: :default

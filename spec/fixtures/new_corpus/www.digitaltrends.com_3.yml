@@ -1757,3 +1757,31 @@
   aria-hidden=\"true\" title=\"Facebook Cross Domain Communication Frame\" tabindex=\"-1\"
   src=\"https://staticxx.facebook.com/connect/xd_arbiter/r/d_vbiawPdxB.js?version=44#channel=f22af94623491e4&amp;origin=https%3A%2F%2Fwww.digitaltrends.com\"
   style=\"border: none;\"></iframe></div></div></div></body></html>"
+:results:
+- :name: YouTube
+  :url: http://pinterest.com/digitaltrends/
+  :type: pinterest/profile
+  :image: 
+  :from: :html
+  :line: 557
+- :name: "@digitaltrends"
+  :type: twitter/profile
+  :url: https://twitter.com/digitaltrends
+  :image: 
+  :from: :meta_twitter
+- :name: AJ Dellinger
+  :url: https://www.digitaltrends.com/users/adellinger
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 971
+- :name: Digitaltrends
+  :url: http://www.facebook.com/DigitalTrends
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Digitaltrends
+  :url: https://instagram.com/digitaltrends
+  :type: instagram/profile
+  :image: 
+  :from: :on_page

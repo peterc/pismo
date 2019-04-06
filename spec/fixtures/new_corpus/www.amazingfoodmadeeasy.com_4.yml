@@ -801,3 +801,10 @@
   TO BE CALLED BEFORE JQUERY IS LOADED -- GOES WITH SECTION IN THE <HEAD> AND THIS
   SHOULD GO AFTER JQUERY IS LOADED -->\n<script>(function($,d){$.each(readyQ,function(i,f){$(f)});$.each(bindReadyQ,function(i,f){$(d).bind(\"ready\",f)})})(jQuery,document)</script>\n\n
   \   \n    \n\n\n\n</body></html>"
+:results:
+- :name: Sign Out
+  :url: https://www.amazingfoodmadeeasy.com/users/sign_out
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 840

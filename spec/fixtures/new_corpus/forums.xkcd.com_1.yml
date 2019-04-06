@@ -498,3 +498,10 @@
   src=\"./assets/javascript/core.js?assets_version=9\"></script>\n\n\n<script type=\"text/javascript\"
   src=\"./styles/prosilver/template/forum_fn.js?assets_version=8\"></script>\n\n<script
   type=\"text/javascript\" src=\"./styles/prosilver/template/ajax.js?assets_version=8\"></script>\n\n\n\n\n\n\n</body></html>"
+:results:
+- :name: SecondTalon
+  :url: http://forums.xkcd.com/memberlist.php?mode=viewprofile&u=9592&sid=c9cb12cc179ee64f6afa6f52bb674cdc
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 125

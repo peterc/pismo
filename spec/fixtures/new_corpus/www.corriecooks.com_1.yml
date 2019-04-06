@@ -1021,3 +1021,15 @@
   type='text/css' media='all' /></noscript>\n<!-- This website is like a Rocket, isn't
   it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug:
   cached@1552922163 --></body></html>"
+:results:
+- :name: Corrie Duffy
+  :url: https://www.corriecooks.com/author/corrie
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 24
+- :name: "@corriganduffy1"
+  :type: twitter/profile
+  :url: https://twitter.com/corriganduffy1
+  :image: 
+  :from: :meta_twitter

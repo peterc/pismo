@@ -98,6 +98,7 @@ module Pismo
           arr << jsonld_author
           arr << schema_author
           arr << entities_author
+          arr << url_author
           arr = arr.flatten.compact.uniq
           arr
         end

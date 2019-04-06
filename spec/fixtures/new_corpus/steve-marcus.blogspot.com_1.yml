@@ -2569,3 +2569,15 @@
   {'languageDirection': 'ltr', 'loadingMessage': 'Loading\\x26hellip;'}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_AttributionView',
   new _WidgetInfo('Attribution1', 'footer-3', document.getElementById('Attribution1'),
   {}, 'displayModeFull'));\n</script>\n\n</body></html>"
+:results:
+- :name: Steve Marcus
+  :url: https://plus.google.com/106922538261366363146
+  :type: googleplus/profile
+  :image: 
+  :from: :html
+  :line: 1550
+- :url: https://steve-marcus.blogspot.com
+  :name: steve-marcus
+  :image: 
+  :from: :url
+  :type: blogspot/post

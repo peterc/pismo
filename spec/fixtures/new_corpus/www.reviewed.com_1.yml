@@ -1006,3 +1006,21 @@
   style=\"display: none;\"></iframe><div id=\"main_ad\" style=\"height:1px; width:1px;
   overflow:auto;position: absolute;left: -999em;\" hidden=\"\" mr7v0nq=\"\"><!--AD
   UNIT 4--></div></body></html>"
+:results:
+- :name: Rachael Priore
+  :url: https://www.reviewed.com/authors/rachael-priore
+  :type: site/author
+  :image: https://reviewed-com-res.cloudinary.com/image/fetch/s--RJGQbG6X--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,h_62,q_auto,w_62/https://reviewed-production.s3.amazonaws.com/1550688925451/Rachael.jpg
+  :from: :html
+  :line: 1328
+- :name: "@fitspiredtravlr"
+  :type: twitter/profile
+  :url: https://twitter.com/fitspiredtravlr
+  :image: 
+  :from: :meta_twitter
+- :name: Rachael Priore
+  :url: https://www.reviewed.com/authors/rachael-priore
+  :type: site/author
+  :image: https://reviewed-com-res.cloudinary.com/image/fetch/s--RJGQbG6X--/b_white,c_fill,cs_srgb,f_auto,fl_strip_profile,g_center,h_62,q_auto,w_62/https://reviewed-production.s3.amazonaws.com/1550688925451/Rachael.jpg
+  :from: :jsonld
+  :line: 1334

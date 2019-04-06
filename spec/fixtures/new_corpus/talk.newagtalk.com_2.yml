@@ -148,3 +148,10 @@
   align=\"center\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td class=\"smalltext\">(<a
   href=\"/delete-cookies.asp\">Delete all cookies set by this site</a>)</td><td align=\"right\"
   class=\"smalltext\"></td></tr><tr><td colspan=\"2\" class=\"error\"></td></tr></tbody></table></body></html>"
+:results:
+- :name: OHKen
+  :url: https://talk.newagtalk.com/view-profile.asp?action=view&uid=12647
+  :type: site/author
+  :image: https://talk.newagtalk.com/images/spacer.gif
+  :from: :html
+  :line: 88

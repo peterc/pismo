@@ -2277,3 +2277,10 @@
   dmpData = param + ': ' + data[1];\n                        \t_cc13510.add('act',
   dmpData);\n\t_cc13510.bcp();\n\n                    }\n                }\n            }\n
   \        /*]]>*/</script>\n</body></html>"
+:results:
+- :name: Sign Up
+  :url: https://www.abcfoxmontana.com/users/signup/?referer_url=https%3A%2F%2Fwww.abcfoxmontana.com%2Fonline_features%2Fsenior_living%2Ftop-three-kitchen-advancements-for-today-s-technicurean-home-chefs%2Farticle_2c499882-e900-5533-a8b4-267f2b7fc8c6.html
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 376

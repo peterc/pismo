@@ -678,3 +678,10 @@
   window.onload != 'function') ?\n                loadChartbeat : function() {\n            oldonload();\n
   \           window._sf_endpt = (new Date()).getTime();\n            loadChartbeat();\n
   \       };\n    })();\n</script></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Npr
+  :source_url: https://www.npr.org/sections/thesalt/2018/05/09/608308624/the-colonel-in-the-kitchen-a-surprising-history-of-sous-vide
+  :username: www.npr.org
+  :id: publisher/profile:www.npr.org
+  :from: :default

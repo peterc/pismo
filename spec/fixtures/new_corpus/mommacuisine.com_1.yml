@@ -850,3 +850,30 @@
   570-6615\",\"fb\":\"https:\\/\\/www.facebook.com\\/mommacuisine\",\"tw\":\"https:\\/\\/twitter.com\\/mommacuisine\",\"phone_2\":\"asfawe\",\"insta\":\"http:\\/\\/instagram.com\\/mommacuisine\",\"youtube\":\"https:\\/\\/www.youtube.com\\/user\\/MommaCuisineShow\",\"pinterest\":\"https:\\/\\/www.pinterest.com\\/mommacuisine\",\"insta_id\":\"53581687\",\"gp\":\"https:\\/\\/plus.google.com\\/+MommaCuisine\\/posts\"},\"api\":[],\"session\":{\"likePopup\":null},\"resources\":[]};\n</script>\n\n<!--
   inject:vendor:js-->\n<!-- endinject-->\n<!-- inject:app:js-->\n<script src=\"/build/public-d284464919.min.js\"></script>\n<!--
   endinject-->\n\n\n\n\n\n</body></html>"
+:results:
+- :name: ''
+  :url: https://www.facebook.com/mommacuisine
+  :type: facebook/profile
+  :image: 
+  :from: :html
+  :line: 942
+- :name: Mommacuisine
+  :url: https://twitter.com/mommacuisine
+  :type: twitter/profile
+  :image: 
+  :from: :on_page
+- :name: Mommacuisine
+  :url: https://www.youtube.com/user/MommaCuisineShow
+  :type: youtube/profile
+  :image: 
+  :from: :on_page
+- :name: Mommacuisine
+  :url: https://www.pinterest.com/mommacuisine
+  :type: pinterest/profile
+  :image: 
+  :from: :on_page
+- :name: Mommacuisine
+  :url: http://instagram.com/mommacuisine
+  :type: instagram/profile
+  :image: 
+  :from: :on_page

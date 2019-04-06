@@ -553,3 +553,15 @@
   {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_AttributionView', new
   _WidgetInfo('Attribution1', 'footer-3', document.getElementById('Attribution1'),
   {}, 'displayModeFull'));\n</script>\n\n</body></html>"
+:results:
+- :name: IvanLing
+  :url: https://www.blogger.com/profile/03966854356303459441
+  :type: blogger/profile
+  :image: 
+  :from: :html
+  :line: 704
+- :url: https://vainling.blogspot.com
+  :name: vainling
+  :image: 
+  :from: :url
+  :type: blogspot/post

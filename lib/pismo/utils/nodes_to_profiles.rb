@@ -258,7 +258,7 @@ module Pismo
       end
 
       def get_link_node_name(node)
-        name = extract_name_from_node_using_entities(node)   if name.blank?
+        name = extract_name_from_node_using_entities(node)
         name = extract_name_from_node_image(node)            if name.blank?
         name = extract_name_from_node_using_regex_scan(node) if name.blank?
         name = extract_name_from_node_text(node)             if name.blank?
@@ -291,7 +291,7 @@ module Pismo
         name = nil
         if node.name == 'a' && node.css('img')&.length&.to_i > 0
           name = node&.css('img')&.first&.attr('alt')
-          name = node&.css('img')&.first&.attr('title') if name.nil?
+          name = node&.css('img')&.first&.attr('title') if name.blank?
         end
         name
       end

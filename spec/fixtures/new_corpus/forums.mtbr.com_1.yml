@@ -2722,3 +2722,10 @@
   = vbseo_jshtml[vi];\n\n//]]>\n</script>\n\n<iframe scrolling=\"no\" frameborder=\"0\"
   allowtransparency=\"true\" src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=https%3A%2F%2Fforums.mtbr.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
   title=\"Twitter settings iframe\" style=\"display: none;\"></iframe></body></html>"
+:results:
+- :name: Furball The Mystery Cat
+  :url: https://forums.mtbr.com/member.php?u=332066
+  :type: site/author
+  :image: https://forums.mtbr.com/images/statusicon/user-offline.png
+  :from: :html
+  :line: 1638

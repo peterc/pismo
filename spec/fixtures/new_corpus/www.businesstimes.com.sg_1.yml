@@ -2642,3 +2642,10 @@
   class=\"goog-te-spinner\" width=\"96px\" height=\"96px\" viewBox=\"0 0 66 66\"><circle
   class=\"goog-te-spinner-path\" fill=\"none\" stroke-width=\"6\" stroke-linecap=\"round\"
   cx=\"33\" cy=\"33\" r=\"30\"></circle></svg></div></div></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Businesstimes
+  :source_url: https://www.businesstimes.com.sg/consumer/instant-pot-maker-bought-by-pyrex%E2%80%99s-parent-as-old-kitchen-meets-new
+  :username: www.businesstimes.com.sg
+  :id: publisher/profile:www.businesstimes.com.sg
+  :from: :default

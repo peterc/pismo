@@ -1394,3 +1394,36 @@
   class=\"cart-empty\">Your cart is currently empty.</p>\n\t<p class=\"return-to-shop\">\n\t\t<a
   class=\"button wc-backward\" href=\"https://shop.ideaing.com\">\n\t\t\tReturn to
   shop\t\t</a>\n\t</p>\n    </section>\n  </aside></div></body></html>"
+:results:
+- :name: "  Shop"
+  :url: https://shop.ideaing.com
+  :type: author/profile
+  :image: 
+  :from: :html
+  :line: 69
+- :name: "@ideaing"
+  :type: twitter/profile
+  :url: https://twitter.com/ideaing
+  :image: 
+  :from: :meta_twitter
+- :name: Nicole
+  :url: https://ideaing.com/user/profile/Nicole
+  :type: site/author
+  :image: https://d234pm57oy3062.cloudfront.net/thumb-product-568d28a6701c7-no-item.jpg
+  :from: :jsonld
+  :line: 351
+- :name: Ideaing
+  :url: https://www.facebook.com/ideaingsmarterliving
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Ideaing
+  :url: https://www.pinterest.com/ideaing_com
+  :type: pinterest/profile
+  :image: 
+  :from: :on_page
+- :name: Ideaing
+  :url: https://www.instagram.com/ideaing_com
+  :type: instagram/profile
+  :image: 
+  :from: :on_page

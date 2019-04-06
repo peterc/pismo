@@ -443,3 +443,10 @@
   allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\" allow=\"encrypted-media\"
   src=\"https://www.facebook.com/connect/ping?client_id=458021237652682&amp;domain=www.mylubbocktv.com&amp;origin=1&amp;redirect_uri=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fd_vbiawPdxB.js%3Fversion%3D44%23cb%3Df274a3c840d1f9c%26domain%3Dwww.mylubbocktv.com%26origin%3Dhttp%253A%252F%252Fwww.mylubbocktv.com%252Ff1ce8bfca959b8%26relation%3Dparent&amp;response_type=token%2Csigned_request&amp;sdk=joey\"
   style=\"display: none;\"></iframe></div></div></div></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Mylubbocktv
+  :source_url: http://www.mylubbocktv.com/story/39997625/cool-cooking-and-iot-innovation-from-gourmia-gives-chefs-the-ultimate-control
+  :username: www.mylubbocktv.com
+  :id: publisher/profile:www.mylubbocktv.com
+  :from: :default

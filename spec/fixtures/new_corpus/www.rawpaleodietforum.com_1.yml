@@ -813,3 +813,10 @@
   class=\"new_win\"><span>RSS</span></a></li>\n\t\t\t<li class=\"last\"><a id=\"button_wap2\"
   href=\"https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&amp;wap2\"
   class=\"new_win\"><span>WAP2</span></a></li>\n\t\t</ul>\n\t</div></div>\n</div>\n</body></html>"
+:results:
+- :name: TylerDurden
+  :url: https://www.rawpaleodietforum.com/index.php?PHPSESSID=ru3mripab6u11vj93su1c89u12&action=profile;u=7
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 225

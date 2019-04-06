@@ -4470,3 +4470,16 @@
   src=\"https://platform.relish.com/app/?key=1b1ff5ed-1607-4e82-b84b-107751d3bd91&amp;tr=23931&amp;tp=simplyrecipes.com&amp;ti=2364%2C19590%2C1979%2C1820%2C2261%2C19833&amp;path=https%3A%2F%2Fwww.simplyrecipes.com%2Frecipes%2Fhow_to_cook_asparagus_sous_vide%2F&amp;host=www.simplyrecipes.com\"></iframe></div></div><script
   id=\"PIN_1552922567329.f.callback[0]\" type=\"text/javascript\" charset=\"utf-8\"
   src=\"https://log.pinterest.com/?guid=91WtLTsnikSi&amp;tv=2019031201&amp;type=pidget&amp;sub=www&amp;button_count=1&amp;follow_count=1&amp;pin_count=0&amp;button_hover=1&amp;profile_count=0&amp;board_count=0&amp;section_count=0&amp;lang=en&amp;nvl=en-US&amp;via=https%3A%2F%2Fwww.simplyrecipes.com%2Frecipes%2Fhow_to_cook_asparagus_sous_vide%2F&amp;callback=PIN_1552922567329.f.callback[0]\"></script></body></html>"
+:results:
+- :name: ''
+  :url: https://www.simplyrecipes.com/author/carrie-havranek
+  :type: site/author
+  :image: https://www.simplyrecipes.com/wp-content/uploads/2017/09/Carrie-Havranek-headshotSQUARE-300x300.jpg
+  :from: :html
+  :line: 1128
+- :name: Carrie Havranek
+  :url: https://www.simplyrecipes.com/author/carrie-havranek
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 1129

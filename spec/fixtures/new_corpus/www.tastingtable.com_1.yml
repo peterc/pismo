@@ -1005,3 +1005,16 @@
   your consent to all or some of the cookies, please refer to the <a href=\"https://www.tastingtable.com/privacy-policy?popup=true\"
   class=\"iubenda-cs-cookie-policy-lnk\">cookie policy</a>.<br>By closing this banner,
   clicking a link or continuing to browse otherwise, you agree to the use of cookies.</p></div></div></div></div></body></html>"
+:results:
+- :name: Rachel Cericola
+  :url: https://www.tastingtable.com/author/rachel-cericola
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 360
+- :name: Rachel Cericola
+  :url: https://www.tastingtable.com/author/rachel-cericola
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 360

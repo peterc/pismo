@@ -653,3 +653,10 @@
   style=\"float: left;\"></div><div id=\"cboxBottomRight\" style=\"float: left;\"></div></div></div><div
   style=\"position: absolute; width: 9999px; visibility: hidden; display: none; max-width:
   none;\"></div></div></body></html>"
+:results:
+- :name: Julie
+  :url: https://foreignpolicyi.org/author/julie
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 281

@@ -2463,3 +2463,21 @@
   Email\" class=\"sharing_send\">\n\t\t\t<a rel=\"nofollow\" href=\"#cancel\" class=\"sharing_cancel\"
   role=\"button\">Cancel</a>\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t</form>\n\t<a href=\"#\"
   class=\"modal-close\" title=\"Close\"><i class=\"icon-close\"></i></a></div></body></html>"
+:results:
+- :name: Cindy Adams
+  :url: https://pagesix.com/author/cindy-adams
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 847
+- :name: "@Christineburr"
+  :type: twitter/profile
+  :url: https://twitter.com/Christineburr
+  :image: 
+  :from: :meta_twitter
+- :name: Christine Burroni
+  :url: https://pagesix.com/author/christine-burroni
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 1152

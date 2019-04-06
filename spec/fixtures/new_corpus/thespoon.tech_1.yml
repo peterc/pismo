@@ -1693,3 +1693,31 @@
   scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\"
   style=\"position: absolute; visibility: hidden; display: none; width: 0px; height:
   0px; padding: 0px; border: none;\" title=\"Twitter analytics iframe\"></iframe></body></html>"
+:results:
+- :name: Michael
+  :url: https://thespoon.tech/author/thespoon
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 1115
+- :name: Michael Wolf
+  :url: https://thespoon.tech/author/thespoon
+  :type: site/author
+  :image: 
+  :from: :meta_html
+  :line: 1115
+- :name: Thespoon
+  :url: https://www.facebook.com/thespoontech
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Thespoon
+  :url: https://twitter.com/TheSpoonTech
+  :type: twitter/profile
+  :image: 
+  :from: :on_page
+- :name: Thespoon
+  :url: mailto:mike@thespoon.tech
+  :type: email/profile
+  :image: 
+  :from: :on_page

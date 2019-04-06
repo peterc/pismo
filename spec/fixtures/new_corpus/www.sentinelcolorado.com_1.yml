@@ -1343,3 +1343,19 @@
   tdcAdminIFrameUI){tdcAdminIFrameUI.getLiveIframe().contents().find('.tdw-css-writer-editor:first').val(editorValue);tdcMain.setContentModified();}\ntdLiveCssInject.less();};editor.getSession().setValue(editor_textarea.val());editor.getSession().on('change',editorChangeHandler);editor.setTheme(\"ace/theme/textmate\");editor.setShowPrintMargin(false);editor.getSession().setMode(\"ace/mode/less\");editor.setOptions({enableBasicAutocompletion:true,enableSnippets:true,enableLiveAutocompletion:false});}});</script>\n</div>\n</div>\n<footer>\n<a
   href=\"#\" class=\"tdw-save-css\">Save</a>\n<div class=\"tdw-more-info-text\">Write
   CSS OR LESS and hit save. CTRL + SPACE for auto-complete.</div>\n<div class=\"tdw-resize\"></div>\n</footer>\n</div>\n\n</body></html>"
+:results:
+- :name: "@SentinelColo"
+  :type: twitter/profile
+  :url: https://twitter.com/SentinelColo
+  :image: 
+  :from: :meta_twitter
+- :name: Sentinel Colo
+  :url: https://www.instagram.com/SentinelColorado
+  :type: instagram/profile
+  :image: 
+  :from: :on_page
+- :name: Sentinel Colo
+  :url: https://vimeo.com/sentinelcolorado
+  :type: vimeo/profile
+  :image: 
+  :from: :on_page

@@ -1018,3 +1018,15 @@
   Fat\",\"CHOLESTEROL\":\"Cholesterol\",\"SODIUM\":\"Sodium\",\"CARBOHYDRATES\":\"Carbohydrates\",\"FIBER\":\"Fiber\",\"SUGAR\":\"Sugar\",\"PROTEIN\":\"Protein\"};\n/*
   \ */</script> <script data-optimized=\"1\" type=\"text/javascript\" async=\"\" data-noptimize=\"\"
   src=\"https://www.savoringthegood.com/min/d4360.js\"></script> \n\n</body></html>"
+:results:
+- :name: Sarah
+  :url: https://www.savoringthegood.com/author/sarah
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 61
+- :name: "@SarahBMock"
+  :type: twitter/profile
+  :url: https://twitter.com/SarahBMock
+  :image: 
+  :from: :meta_twitter

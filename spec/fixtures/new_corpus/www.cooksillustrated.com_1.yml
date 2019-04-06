@@ -2302,3 +2302,10 @@
   class=\"lb-loader\"><a class=\"lb-cancel\"></a></div></div></div><div class=\"lb-dataContainer\"><div
   class=\"lb-data\"><div class=\"lb-details\"><span class=\"lb-caption\"></span><span
   class=\"lb-number\"></span></div></div></div></div><script src=\"//browser-update.org/update.show.min.js\"></script></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Cook's Illustrated
+  :source_url: https://www.cooksillustrated.com/articles/1140-science-why-sous-vide-is-perfect-for-cooking-meat
+  :username: www.cooksillustrated.com
+  :id: publisher/profile:www.cooksillustrated.com
+  :from: :default

@@ -3062,3 +3062,36 @@
   scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\"
   style=\"position: absolute; visibility: hidden; display: none; width: 0px; height:
   0px; padding: 0px; border: none;\" title=\"Twitter analytics iframe\"></iframe></body></html>"
+:results:
+- :name: Admin
+  :url: http://danielfooddiary.com/author/admin
+  :type: site/author
+  :image: http://0.gravatar.com/avatar/60bbb488d6903b6a86ebb4471f2578a4?s=90&d=identicon&r=g
+  :from: :html
+  :line: 1308
+- :name: Admin
+  :url: http://danielfooddiary.com/author/admin
+  :type: site/author
+  :image: http://0.gravatar.com/avatar/60bbb488d6903b6a86ebb4471f2578a4?s=90&d=identicon&r=g
+  :from: :meta_html
+  :line: 1308
+- :name: "@DanielFoodDiary"
+  :type: twitter/profile
+  :url: https://twitter.com/DanielFoodDiary
+  :image: 
+  :from: :meta_twitter
+- :name: Daniel Food Diary
+  :url: https://www.instagram.com/danielfooddiary
+  :type: instagram/profile
+  :image: 
+  :from: :on_page
+- :name: Daniel Food Diary
+  :url: https://www.youtube.com/user/danielfooddiary
+  :type: youtube/profile
+  :image: 
+  :from: :on_page
+- :name: Daniel Food Diary
+  :url: https://www.pinterest.com/danielfooddiary
+  :type: pinterest/profile
+  :image: 
+  :from: :on_page

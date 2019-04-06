@@ -1265,3 +1265,25 @@
   0px; padding: 0px; border: none;\" title=\"Twitter analytics iframe\"></iframe><script
   id=\"PIN_1552926568890.f.callback[0]\" type=\"text/javascript\" charset=\"utf-8\"
   src=\"https://log.pinterest.com/?guid=634_JvSL4fkY&amp;tv=2019031201&amp;type=pidget&amp;sub=www&amp;button_count=1&amp;follow_count=0&amp;pin_count=0&amp;profile_count=0&amp;board_count=0&amp;section_count=0&amp;lang=en&amp;nvl=en-US&amp;via=https%3A%2F%2Fmyvancity.ca%2F2019%2F03%2F08%2Fvancouver-foodster-presents-the-4th-annual-curry-challenge%2F&amp;callback=PIN_1552926568890.f.callback[0]\"></script></body></html>"
+:results:
+- :name: VanCity
+  :url: https://myvancity.ca/author/myvcadmin
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 998
+- :name: "@myvancity"
+  :type: twitter/profile
+  :url: https://twitter.com/myvancity
+  :image: 
+  :from: :meta_twitter
+- :name: Myvancity
+  :url: https://www.facebook.com/myvancity
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Myvancity
+  :url: https://www.instagram.com/myvancityca
+  :type: instagram/profile
+  :image: 
+  :from: :on_page

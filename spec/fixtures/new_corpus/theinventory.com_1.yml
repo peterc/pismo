@@ -7680,3 +7680,22 @@
   src=\"//deals.kinja.com/setbucket?signature=7%7C1552922400%7CL4Z7FoG0XJKoh6fzZEL0Zmoy5xwiKy63lrvcKxJi3iA%3D\"
   width=\"0\" height=\"0\" hidden=\"\" style=\"display: none !important;\"></iframe></div><script
   async=\"\" src=\"//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&amp;adInstanceId=45b86f08-d576-450f-b812-4e928421e266\"></script></body></html>"
+:results:
+- :name: ''
+  :url: https://kinja.com/shaneroberts
+  :type: author/profile
+  :image: https://i.kinja-img.com/gawker-media/image/upload/s--RGDuui-G--/c_fill,f_auto,fl_progressive,g_center,h_80,q_80,w_80/klicb9rh1nvokvgqlwoy.jpg
+  :from: :html
+  :line: 119
+- :name: Shane Roberts
+  :url: https://kinja.com/shaneroberts
+  :type: author/profile
+  :image: https://i.kinja-img.com/gawker-media/image/upload/s--RGDuui-G--/c_fill,f_auto,fl_progressive,g_center,h_80,q_80,w_80/klicb9rh1nvokvgqlwoy.jpg
+  :from: :meta_html
+  :line: 119
+- :name: Shane Roberts
+  :url: https://kinja.com/shaneroberts
+  :type: author/profile
+  :image: https://i.kinja-img.com/gawker-media/image/upload/s--RGDuui-G--/c_fill,f_auto,fl_progressive,g_center,h_80,q_80,w_80/klicb9rh1nvokvgqlwoy.jpg
+  :from: :jsonld
+  :line: 119

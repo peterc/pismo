@@ -1359,3 +1359,10 @@
   = (document.location.protocol == \"https:\" ? \"https://sb\" : \"http://b\") + \".scorecardresearch.com/beacon.js\";\n
   \   el.parentNode.insertBefore(s, el);\n  })();\n</script>\n<!-- End comScore Tag
   -->\n<script></script>\n  <!-- Page Bottom END. -->\n<script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"1501c07ce3\",\"applicationID\":\"39510762\",\"transactionName\":\"NgFSZhcFD0VZBRVeWw9LcVERDQ5YFxAIUkMSO0BTAgE=\",\"queueTime\":0,\"applicationTime\":694,\"atts\":\"GkZFEF8fHBoaB0MNTxwZ\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script>\n\n</body></html>"
+:results:
+- :name: Sansaire
+  :url: https://www.thedailymeal.com/users/sansaire
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 422

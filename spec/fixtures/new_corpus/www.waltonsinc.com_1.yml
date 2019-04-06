@@ -1615,3 +1615,10 @@
   \n</script> </div>\n</div>\n</div><div id=\"bg_fade\"></div> \n\n\n<script>\n\ttrustspot_key='74527db219b36088887a913aafcdf4f4d1bee7e814e6ed41630240f365f01efc70a045fa318a8e7eb634c689a8dbf884edd2773ee11b1273a8b4337f113aef7c';\n</script>\n<link
   rel=\"stylesheet\" type=\"text/css\" href=\"https://trustspot.io/index.php/api/pub/product_widget_css/74527db219b36088887a913aafcdf4f4d1bee7e814e6ed41630240f365f01efc70a045fa318a8e7eb634c689a8dbf884edd2773ee11b1273a8b4337f113aef7c/widget.css\"
   media=\"all\"></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Waltonsinc
+  :source_url: https://www.waltonsinc.com/equipment/sous-vide
+  :username: www.waltonsinc.com
+  :id: publisher/profile:www.waltonsinc.com
+  :from: :default

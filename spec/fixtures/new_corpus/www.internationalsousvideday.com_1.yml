@@ -1569,3 +1569,10 @@
   \ });\n\n  var jevField = $('<input type=\"hidden\" id=\"ubafs-jev\" name=\"ubafs-jev\">').val(info);\n
   \ $('form').append(jevField);\n});\n</script>\n<!-- lp:insertions end body:after
   -->\n\n\n\n\n<div class=\"backdrop__3tG5Hl\"></div></body></html>"
+:results:
+- :name: ''
+  :url: https://www.internationalsousvideday.com/clkn/https/www.youtube.com/user/cuisinesolutions/feed
+  :type: site/author
+  :image: https://d9hhrg4mnvzow.cloudfront.net/www.internationalsousvideday.com/de7f47a8-isvd-logo-white.svg
+  :from: :html
+  :line: 4152

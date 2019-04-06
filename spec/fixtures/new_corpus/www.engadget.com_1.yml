@@ -2655,3 +2655,15 @@
   class=\"autocomplete\" style=\"position: absolute; z-index: 9999; top: 1928.88px;
   left: 8px; width: 171px; display: none;\"><ul></ul></div></div><script type=\"text/x-spotim-options\">SPOTIM_OPTIONS
   = {\"prerenderDeferred\":true}</script></body></html>"
+:results:
+- :name: "@wirecutter"
+  :type: twitter/profile
+  :url: https://twitter.com/wirecutter
+  :image: 
+  :from: :meta_twitter
+- :name: Wirecutter
+  :url: https://twitter.com/wirecutter
+  :type: twitter/profile
+  :image: https://o.aolcdn.com/images/dims?thumbnail=45%2C45&quality=80&image_uri=https%3A%2F%2Fs.blogcdn.com%2Fwww.engadget.com%2Fmedia%2F2017%2F10%2Fwirecutter-800-avatar.jpg&client=amp-blogside-v2&signature=b1d9c43f578da1329b76ad8116c49cf2d72d5d69
+  :from: :jsonld
+  :line: 924

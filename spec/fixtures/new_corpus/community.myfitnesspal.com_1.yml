@@ -342,3 +342,16 @@
   s.type = 'text/javascript';\n            s.async = true; s.src = '//s3.amazonaws.com/ki.js/49906/ape.js';
   f.parentNode.insertBefore(s, f);\n          }, 1);\n        })();\n      </script>\n\n\n<div
   id=\"atwho-container\"></div></body></html>"
+:results:
+- :name: Lporter229
+  :url: https://community.myfitnesspal.com/en/profile/usercard/16580872
+  :type: site/author
+  :image: https://dakd0cjsv8wfa.cloudfront.net/images/photos/user/b4e3/5e28/ce81/f5e5/ad6b/76b8/a416/07da0118da618424e3c8625beb48671618fa.jpg
+  :from: :html
+  :line: 234
+- :name: lporter229
+  :url: https://community.myfitnesspal.com/en/profile/usercard/16580872
+  :image: https://dakd0cjsv8wfa.cloudfront.net/images/photos/user/b4e3/5e28/ce81/f5e5/ad6b/76b8/a416/07da0118da618424e3c8625beb48671618fa.jpg
+  :type: site/author
+  :identifier: site/author
+  :from: jsonld_author

@@ -1088,3 +1088,30 @@
   \     \n    }\n  });\n</script><iframe src=\"/24069297/digital_wallets/dialog\"
   scrolling=\"no\" tabindex=\"-1\" aria-hidden=\"true\" style=\"position: fixed; top:
   0px; left: 0px; z-index: 99999; height: 0px; width: 0px; border: 0px;\"></iframe></body></html>"
+:results:
+- :name: ''
+  :url: https://www.facebook.com/SousVideSupreme
+  :type: facebook/profile
+  :image: https://cdn.shopify.com/s/files/1/2406/9297/t/6/assets/fb.png?978
+  :from: :html
+  :line: 1122
+- :name: Sous Vide Supreme
+  :url: https://www.youtube.com/user/SousVideSupreme
+  :type: youtube/profile
+  :image: 
+  :from: :on_page
+- :name: Sous Vide Supreme
+  :url: https://instagram.com/SousVideSupreme
+  :type: instagram/profile
+  :image: 
+  :from: :on_page
+- :name: Sous Vide Supreme
+  :url: https://twitter.com/SousVideSupreme
+  :type: twitter/profile
+  :image: 
+  :from: :on_page
+- :name: Sous Vide Supreme
+  :url: mailto:info@sousvidesupreme.com
+  :type: email/profile
+  :image: 
+  :from: :on_page

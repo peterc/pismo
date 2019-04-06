@@ -2099,3 +2099,10 @@
   src=\"/latest/resources/react/app.full.7d7354fbc45f3e489e22.js\"></script><script
   src=\"/latest/resources/react/prebid.full.e0fcc9a36879d3476647.js\"></script><script
   type=\"application/ld+json\">{\"@context\":\"http://schema.org\",\"@type\":\"Organization\",\"name\":\"Gumtree\",\"url\":\"https://www.gumtree.com.au\",\"logo\":\"https://www.gumtree.com.au/latest/img/au/gumtree-australia-logo.png\",\"sameAs\":[\"https://www.facebook.com/GumtreeAustralia\",\"https://twitter.com/gumtreeau\",\"https://www.youtube.com/GumtreeAustralia\",\"https://www.instagram.com/gumtreeaus\"]}</script></body></html>"
+:results:
+- :name: Painter & Sign Writer
+  :url: https://www.gumtree.com.au/s-painter-sign-writer/c22354?ad=offering
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 49

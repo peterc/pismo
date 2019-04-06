@@ -227,3 +227,9 @@
   style=\"display: none;\"></iframe>\n    <script src=\"//www.craigslist.org/js/leaflet-concat.min.js?v=5ec3f46604456fbfe24ef4e789377c72\"
   type=\"text/javascript\"></script>\n\n<script src=\"//www.craigslist.org/js/postings-concat.min.js?v=502ddb362c417783ebcc785504d184a1\"
   type=\"text/javascript\"></script>\n\n\n</body></html>"
+:results:
+- :url: https://tucson.craigslist.org
+  :name: tucson
+  :image: 
+  :from: :url
+  :type: craigslist/ad

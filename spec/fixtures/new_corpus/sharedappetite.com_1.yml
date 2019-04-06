@@ -2752,3 +2752,10 @@
   data-app=\"cookie_consent\" style=\"display: none;\"></div><div class=\"shareaholic-canvas
   shareaholic-share-buttons-container\" data-app=\"floated_share_buttons\" style=\"display:
   none;\"></div></body></html>"
+:results:
+- :name: Chris Cockren
+  :url: https://sharedappetite.com/author/admin
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 287

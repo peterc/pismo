@@ -695,3 +695,25 @@
   [];\n\t(function() {\n\t\tvar mf = document.createElement(\"script\");\n\t\tmf.type
   = \"text/javascript\"; mf.async = true;\n\t\tmf.src = \"//cdn.mouseflow.com/projects/8362b696-6fd9-4f65-ae3f-ea78e35b58a9.js\";\n\t\tdocument.getElementsByTagName(\"head\")[0].appendChild(mf);\n\t})();\n}\n</script>\n\n
   \     \n    \n    \n    \n</body></html>"
+:results:
+- :name: Levi
+  :url: http://www.ok.org/author/levischapiro
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 203
+- :name: "@OKKosher"
+  :type: twitter/profile
+  :url: https://twitter.com/OKKosher
+  :image: 
+  :from: :meta_twitter
+- :name: Ok Kosher
+  :url: http://www.facebook.com/okkosher
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Ok Kosher
+  :url: https://www.instagram.com/okkosher
+  :type: instagram/profile
+  :image: 
+  :from: :on_page

@@ -3412,3 +3412,16 @@
   \                \n<span style=\"visibility: hidden; position: absolute; top: -300px;
   width: 1px; height: 1px; overflow: hidden; left: -300px;\"><span class=\"ipsLoading
   ipsLoading_noAnim\" style=\"display: block;\"></span></span></body></html>"
+:results:
+- :name: Mister Ting
+  :url: https://www.totalrl.com/forums/?app=core&module=members&controller=profile&id=45883
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 1580
+- :name: Padge
+  :url: https://www.totalrl.com/forums/?app=core&module=members&controller=profile&id=29112
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 1826

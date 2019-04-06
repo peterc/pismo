@@ -1629,3 +1629,11 @@
   \ window._taboola = window._taboola || [];\n\t\t\t  _taboola.push({flush: true});\n\t\t\t</script>\n\t\t<!--support
   for page refresh-->\n\t\t\n\n\n<div id=\"signIn\" style=\"display: none;\"></div><div
   class=\"immersive-view-modal\"></div></body></html>"
+:results:
+- :type: publisher/profile
+  :name: " C. W. Cameron"
+  :source_url: https://www.ajc.com/lifestyles/food--cooking/recipes-immersed-flavor/LWKFCLk54Q3rcOoL5tkRuK/
+  :username: www.ajc.com
+  :id: publisher/profile:www.ajc.com
+  :from: :default
+  :image: https://www.ajc.com/rw/PortalConfig/np-free/assets/ajc/images/small-logo.png

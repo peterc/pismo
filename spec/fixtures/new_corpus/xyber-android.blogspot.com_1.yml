@@ -1193,3 +1193,14 @@
   cellpadding=\"0\" class=\"gstl_50 gssb_c\" style=\"width: 111px; display: none;
   top: 682px; left: 671px; position: absolute;\"><tbody><tr><td class=\"gssb_f\"></td><td
   class=\"gssb_e\" style=\"width: 100%;\"></td></tr></tbody></table></body></html>"
+:results:
+- :url: https://xyber-android.blogspot.com
+  :name: xyber-android
+  :image: 
+  :from: :url
+  :type: blogspot/post
+- :name: Xyber Android.Blogspot.Com
+  :url: http://xyber-android.blogspot.com
+  :type: blogspot/profile
+  :image: 
+  :from: :on_page

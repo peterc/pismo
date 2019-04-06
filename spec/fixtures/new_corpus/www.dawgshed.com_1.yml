@@ -961,3 +961,10 @@
   blockLinksList\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<li><a
   href=\"find-new/posts\" rel=\"nofollow\">Recent Posts</a></li>\n\n\n<li><a href=\"reputation/\">Reputations</a></li>\n\n\t\t\t\t\t\n\t\t\t\t\t</ul>\n\t\t\t\t</div><div
   class=\"Menu JsOnly blockLinksList primaryContent\" id=\"NavigationHiddenMenu\"></div></body></html>"
+:results:
+- :name: Mr Pink
+  :url: http://www.dawgshed.com/members/mr-pink.7551
+  :type: site/author
+  :image: https://core-dawgssaloon.netdna-ssl.com/styles/dawgshed/redwhite/xenforo/avatars/avatar_l.png
+  :from: :html
+  :line: 396

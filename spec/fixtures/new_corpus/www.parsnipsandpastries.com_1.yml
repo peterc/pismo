@@ -1191,3 +1191,10 @@
   class=\"swp_count swp_hide\" style=\"transition: padding 0.1s linear 0s;\"><span
   class=\"iconFiller\"><span class=\"spaceManWilly\"><i class=\"sw swp_whatsapp_icon\"></i><span
   class=\"swp_share\">WhatsApp</span></span></span></span></a></div></div></div></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Parsnipsandpastries
+  :source_url: https://www.parsnipsandpastries.com/perfect-sous-vide-steak/
+  :username: www.parsnipsandpastries.com
+  :id: publisher/profile:www.parsnipsandpastries.com
+  :from: :default

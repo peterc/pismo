@@ -1281,3 +1281,25 @@
   stroke-linecap=\"round\" cx=\"33\" cy=\"33\" r=\"30\"></circle></svg></div></div><iframe
   src=\"//s.thebrighttag.com/tag?site=yri1Ute&amp;mode=iframe\" width=\"1\" height=\"1\"
   style=\"visibility: hidden; display: none !important;\" hidden=\"\"></iframe></body></html>"
+:results:
+- :name: Lost Your Password?
+  :url: https://www.citynomads.com/wp-login.php?action=lostpassword
+  :type: author/profile
+  :image: 
+  :from: :html
+  :line: 522
+- :name: "@grimlay"
+  :type: twitter/profile
+  :url: https://twitter.com/grimlay
+  :image: 
+  :from: :meta_twitter
+- :name: Grimlay
+  :url: https://www.citynomads.com/author/grimlay
+  :type: site/author
+  :image: 
+  :from: :on_page
+- :name: Grimlay
+  :url: http://www.instagram.com/grimlay
+  :type: instagram/profile
+  :image: 
+  :from: :on_page

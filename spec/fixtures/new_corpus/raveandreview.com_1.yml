@@ -875,3 +875,10 @@
   async=\"async\" type=\"text/javascript\" src=\"https://raveandreview.com/wp-content/plugins/akismet/_inc/form.js?ver=4.1.1\"></script>\n\n\n\n\n<!--\nPerformance
   optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/\n\n\nServed
   from: raveandreview.com @ 2019-03-18 16:05:42 by W3 Total Cache\n--></body></html>"
+:results:
+- :name: Leanne
+  :url: https://raveandreview.com/author/leanne-heilman
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 430

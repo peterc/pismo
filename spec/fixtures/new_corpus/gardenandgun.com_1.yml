@@ -762,3 +762,30 @@
   id=\"e2ma-embed\">window.e2ma=window.e2ma||{};e2ma.accountId='1354228';</script>\n<script
   src=\"//dk98ddgl0znzm.cloudfront.net/e2ma.js\" async=\"async\"></script>\n\n\n<script
   src=\"//browser-update.org/update.min.js\"></script></body></html>"
+:results:
+- :name: ''
+  :url: https://www.facebook.com/gardenandgun
+  :type: facebook/profile
+  :image: https://gardenandgun.com/wp-content/uploads/2019/01/GG0119_Cover_-270x326.jpg
+  :from: :html
+  :line: 187
+- :name: "@gardenandgun"
+  :type: twitter/profile
+  :url: https://twitter.com/gardenandgun
+  :image: 
+  :from: :meta_twitter
+- :name: Gardenandgun
+  :url: https://www.pinterest.com/gardenandgun
+  :type: pinterest/profile
+  :image: 
+  :from: :on_page
+- :name: Gardenandgun
+  :url: https://www.instagram.com/gardenandgun
+  :type: instagram/profile
+  :image: 
+  :from: :on_page
+- :name: Gardenandgun
+  :url: https://www.youtube.com/user/Gardenandgun
+  :type: youtube/profile
+  :image: 
+  :from: :on_page

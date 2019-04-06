@@ -1384,3 +1384,10 @@
   policy</a> |\n            <a href=\"http://techreport.com/subscribe.x\">Mailing
   list</a> |\n            <a href=\"http://techreport.com/switch_view.x?view=mobile&amp;redirect=https%3A%2F%2Ftechreport.com%2Fforums%2Fviewtopic.php%3Ff%3D1%26t%3D121855\">Mobile</a>\n
   \       </p>\n    </div>\n\n\n\n\n\n\n</body></html>"
+:results:
+- :name: Ned
+  :url: https://techreport.com/memberlist.php?mode=viewprofile&u=236&sid=2f7456d3ae2b67baa613ff4ca233a396
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 645

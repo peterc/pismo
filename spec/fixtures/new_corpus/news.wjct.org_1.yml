@@ -590,3 +590,16 @@
   id=\"td-container-wrapper\" class=\"td-container-wrapper td-container-wrapper--hidden\"><div
   id=\"td_container\" class=\"td_container\"><div id=\"tdplayer_ondemand\"></div></div></div><script
   id=\"idSyncScript\" type=\"text/javascript\" src=\"//playerservices.live.streamtheworld.com/api/idsync.js?station=WJCTFM\"></script></body></html>"
+:results:
+- :name: Fcc Public Inspection File
+  :url: https://stations.fcc.gov/station-profile/wjct
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 528
+- :name: Tove Danovich
+  :url: http://www.twitter.com/tkdano
+  :type: twitter/profile
+  :image: http://media.npr.org/assets/img/2019/02/11/williamsburg2-b48403e44894649e13e86b7f6e18c0f0edb903c9.jpg
+  :from: :meta_html
+  :line: 471

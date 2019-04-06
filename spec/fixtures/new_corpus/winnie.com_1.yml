@@ -472,3 +472,16 @@
   class=\"nav-backdrop\" style=\"display: none;\"></div>\n  \n  \n\n  \n\n  \n  <script
   async=\"\" defer=\"\" src=\"https://maps.googleapis.com/maps/api/js?callback=initMap&amp;libraries=places&amp;key=AIzaSyDIHJBnjEgaf8sJIoncPPpHf-CnCPXDjdU\"></script>\n
   \ \n\n\n\n</body></html>"
+:results:
+- :name: ''
+  :url: https://winnie.com/profile/f097485d-d9bd-4b60-ab94-4ca3f7b24ba1
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 478
+- :name: Winnie Promotions
+  :url: https://winnie.com/profile/f097485d-d9bd-4b60-ab94-4ca3f7b24ba1
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 459

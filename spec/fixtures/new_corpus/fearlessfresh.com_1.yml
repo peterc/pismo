@@ -591,3 +591,20 @@
   input, .clearit textarea\").cleardefault();\n\n});</script> \n<!-- This website
   is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me
   - Debug: cached@1552801340 --></body></html>"
+:results:
+- :name: Stephanie Stiavetti
+  :url: https://fearlessfresh.com/author/steph
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 8
+- :name: "@sstiavetti"
+  :type: twitter/profile
+  :url: https://twitter.com/sstiavetti
+  :image: 
+  :from: :meta_twitter
+- :name: Sstiavetti
+  :url: http://instagram.com/sstiavetti
+  :type: instagram/profile
+  :image: 
+  :from: :on_page

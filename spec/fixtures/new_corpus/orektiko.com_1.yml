@@ -2103,3 +2103,25 @@
   class=\"tdw-resize\"></div>\n\t\t\t\t</footer>\n\t\t\t</div>\n\t\t\t\n\n<iframe
   scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=https%3A%2F%2Forektiko.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
   title=\"Twitter settings iframe\" style=\"display: none;\"></iframe></body></html>"
+:results:
+- :name: Orektiko
+  :url: https://orektiko.com/author/Orektiko
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 783
+- :name: Orektiko
+  :url: https://instagram.com/orektiko
+  :type: instagram/profile
+  :image: 
+  :from: :on_page
+- :name: Orektiko
+  :url: https://www.facebook.com/orektikos
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Orektiko
+  :url: mailto:orektiko@outlook.com
+  :type: email/profile
+  :image: 
+  :from: :on_page

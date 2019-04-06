@@ -3540,3 +3540,25 @@
   data-load-on-refresh=\"enabled\" data-dev-mode=\"disabled\" data-custom-selector=\"\"
   class=\"overlay-show cp-onload cp-global-load  cp-cp_id_008bb cp-modal-global\"
   data-module-type=\"modal\"></div></body></html>"
+:results:
+- :name: 760 777 1161
+  :url: tel:760-777-1161
+  :type: phone/profile
+  :image: 
+  :from: :html
+  :line: 1960
+- :name: "@palmspringslife"
+  :type: twitter/profile
+  :url: https://twitter.com/palmspringslife
+  :image: 
+  :from: :meta_twitter
+- :name: Palmspringslife
+  :url: https://www.youtube.com/user/palmspringslifemag
+  :type: youtube/profile
+  :image: 
+  :from: :on_page
+- :name: Palmspringslife
+  :url: https://www.palmspringslife.com/shop/store
+  :type: site/author
+  :image: 
+  :from: :on_page

@@ -612,3 +612,10 @@
   </script><script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js\"></script><script
   type=\"text/javascript\" src=\"https://www.debatepolitics.com/dbtech/thanks/clientscript/jquery.qtip.min.js\"></script><script
   type=\"text/javascript\" src=\"https://www.debatepolitics.com/dbtech/thanks/clientscript/thanks.js?v=363\"></script>\n\n</body></html>"
+:results:
+- :name: Albums
+  :url: https://www.debatepolitics.com/members/albums.html?s=bd6bc9e4592fb3d59ba23d2476e094db
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 288

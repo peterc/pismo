@@ -2288,3 +2288,15 @@
   ng-class=\"{'b-msgsystem-wrapper-ontop': directive.noStickToTop }\" ng-hide=\"directive.messages.length
   === 0\" ng-style=\"directive.ngStyle\" style=\"top: 669px;\">\n    <!-- ngRepeat:
   message in directive.messages -->\n</div>\n</div></body></html>"
+:results:
+- :name: Shop
+  :url: https://www.livejournal.com/shop/
+  :type: author/profile
+  :image: 
+  :from: :html
+  :line: 439
+- :url: https://missdissent.livejournal.com
+  :name: missdissent
+  :image: 
+  :from: :url
+  :type: livejournal/post

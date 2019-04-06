@@ -2468,3 +2468,12 @@
   src=\"https://www.houzz.com/js/log?p=evtName=client_perf_time/evtRequestId=fb9c18c6-ac97-4371-8411-ba44ceebe135/evtMessage=%7B%22navigationStart%22%3A1552925686063%2C%22unloadEventStart%22%3A0%2C%22unloadEventEnd%22%3A0%2C%22redirectStart%22%3A0%2C%22redirectEnd%22%3A0%2C%22fetchStart%22%3A1552925686063%2C%22domainLookupStart%22%3A1552925686063%2C%22domainLookupEnd%22%3A1552925686063%2C%22connectStart%22%3A1552925686067%2C%22connectEnd%22%3A1552925686837%2C%22secureConnectionStart%22%3A1552925686508%2C%22requestStart%22%3A1552925686837%2C%22responseStart%22%3A1552925687817%2C%22responseEnd%22%3A1552925688130%2C%22domLoading%22%3A1552925687831%2C%22domInteractive%22%3A1552925689770%2C%22domContentLoadedEventStart%22%3A1552925689770%2C%22domContentLoadedEventEnd%22%3A1552925689798%2C%22domComplete%22%3A1552925689860%2C%22loadEventStart%22%3A1552925689860%2C%22loadEventEnd%22%3A1552925689878%2C%22env%22%3A%22c%22%2C%22cn%22%3A%22viewDiscussion%22%2C%22redirectCount%22%3A0%2C%22type%22%3A0%7D/evtLocale=en-US/evtSiteId=501/evtDM=2/evtV=1552925687_9750c3b7-6214-4e2b-b4ac-80144f9da747_6108bbbf4e75d5ca4b44b5b65c95a1a3/iid=2817083330279369/ec=1\"
   hidden=\"\" style=\"position: absolute; left: -100px; top: -100px; width: 1px; height:
   1px; display: none !important;\"></body></html>"
+:results:
+- :name: |-
+    Sale
+                    Remodel Sale
+  :url: https://www.gardenweb.com/shop-houzz/kitchen-and-bath-sale
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 82

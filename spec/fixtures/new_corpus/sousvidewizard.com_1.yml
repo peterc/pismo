@@ -1236,3 +1236,9 @@
   optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/\n\nMinified
   using memcached\nDatabase Caching using memcached (Request-wide modification query)\n\nServed
   from: sousvidewizard.com @ 2019-03-18 10:19:46 by W3 Total Cache\n--></body></html>"
+:results:
+- :name: "@SousVideWizard1"
+  :type: twitter/profile
+  :url: https://twitter.com/SousVideWizard1
+  :image: 
+  :from: :meta_twitter

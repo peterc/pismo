@@ -2427,3 +2427,31 @@
   \   linkedEntries.push(\"https://www.seriouseats.com/roundups/sous-vide-pork-recipes\");\n
   \ if(linkedEntries.length < 1) {\n    return;\n  }\n\n  var pageFS = new FiniteScroll(linkedEntries);\n\n});
   // END document.ready\n</script>\n\n\n\n\n  \n</body></html>"
+:results:
+- :name: The Serious Eats Team
+  :url: https://www.seriouseats.com/user/profile/the-serious-eats-team
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 2506
+- :name: Serious Eats
+  :url: https://twitter.com/seriouseats
+  :type: twitter/profile
+  :image: https://www.seriouseats.com/2019/03/20190307-spanish-migas-vicky-wasik-22-300x225.jpg
+  :from: :meta_html
+  :line: 1564
+- :name: Seriouseats
+  :url: https://www.facebook.com/seriouseats
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Seriouseats
+  :url: https://www.pinterest.com/seriouseats
+  :type: pinterest/profile
+  :image: 
+  :from: :on_page
+- :name: Seriouseats
+  :url: https://www.instagram.com/seriouseats
+  :type: instagram/profile
+  :image: 
+  :from: :on_page

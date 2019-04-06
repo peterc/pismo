@@ -717,3 +717,36 @@
   -->\n<!--     <div id=\"amzn-assoc-ad-66d50f39-adb1-4c1f-b7ce-e268267ca579\"></div><script
   async src=\"//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=66d50f39-adb1-4c1f-b7ce-e268267ca579\"></script>
   -->\n\n\n</body></html>"
+:results:
+- :name: YouTube
+  :url: https://www.instagram.com/gearpatrol/
+  :type: instagram/profile
+  :image: 
+  :from: :html
+  :line: 536
+- :name: "@gearpatrol"
+  :type: twitter/profile
+  :url: https://twitter.com/gearpatrol
+  :image: 
+  :from: :meta_twitter
+- :name: Will Price
+  :url: https://gearpatrol.com/author/wprice
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 631
+- :name: Gearpatrol
+  :url: https://www.facebook.com/gearpatrol
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Gearpatrol
+  :url: https://www.youtube.com/user/gearpatrol
+  :type: youtube/profile
+  :image: 
+  :from: :on_page
+- :name: Gearpatrol
+  :url: https://www.snapchat.com/add/gearpatrol
+  :type: snapchat/profile
+  :image: 
+  :from: :on_page

@@ -551,3 +551,15 @@
   new _WidgetInfo('Label1', 'sidebar', document.getElementById('Label1'), {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_BlogArchiveView',
   new _WidgetInfo('BlogArchive1', 'sidebar', document.getElementById('BlogArchive1'),
   {'languageDirection': 'ltr', 'loadingMessage': 'Loading\\x26hellip;'}, 'displayModeFull'));\n</script>\n\n</body></html>"
+:results:
+- :name: Manual
+  :url: https://readmanualpdf.blogspot.com/2019/03/siemens-kitchen-range.html
+  :type: blogspot/post
+  :image: 
+  :from: :html
+  :line: 865
+- :url: https://readmanualpdf.blogspot.com
+  :name: readmanualpdf
+  :image: 
+  :from: :url
+  :type: blogspot/post

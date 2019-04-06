@@ -2099,3 +2099,10 @@
   ]);\n\t_stq.push([ 'clickTrackerInit', '128047025', '10968' ]);\n</script>\n\n\n\n<iframe
   scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=http%3A%2F%2Fusanews.ca&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
   title=\"Twitter settings iframe\" style=\"display: none;\"></iframe></body></html>"
+:results:
+- :name: Usanews
+  :url: http://usanews.ca/author/usanews
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 430

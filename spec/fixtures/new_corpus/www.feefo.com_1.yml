@@ -3446,3 +3446,10 @@
   content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;\"><div style=\"border:
   none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width:
   200px;\"></div></div></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Feefo
+  :source_url: https://www.feefo.com/reviews/sousvidetools-com
+  :username: www.feefo.com
+  :id: publisher/profile:www.feefo.com
+  :from: :default

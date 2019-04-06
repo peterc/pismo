@@ -939,3 +939,10 @@
   style=\"display:inline;\">\n<img height=\"1\" width=\"1\" style=\"border-style:none;\"
   alt=\"\" src=\"//googleads.g.doubleclick.net/pagead/viewthroughconversion/1017811176/?value=0&amp;guid=ON&amp;script=0&amp;data=ecomm_pagetype%3Dcategory%3Becomm_category%3DSous+Vide+Equipment+for+Home+Cooking\"/>\n</div>\n</noscript>
   \   </div>\n</div>\n\n<script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"4497193e96\",\"applicationID\":\"151053116\",\"transactionName\":\"M1EBZBdSCEcEUkNRWQobIlMRWglaSlJWTFcIWwQfBlISUQJeRUEZEl0GRw==\",\"queueTime\":0,\"applicationTime\":131,\"atts\":\"HxYCEl9IG0k=\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script>\n\n\n</div></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Sousvidetools
+  :source_url: https://www.sousvidetools.com/shop-home
+  :username: www.sousvidetools.com
+  :id: publisher/profile:www.sousvidetools.com
+  :from: :default

@@ -2114,3 +2114,10 @@
   of Postmedia Inc.</div>\n\t\t<div class=\"footer_menu\">\n\t\t\t<a href=\"http://www.postmediaadvertising.com/privacy-statement\"
   target=\"_blank\">Privacy</a>\n\t\t\t<a class=\"marketfaq\" href=\"https://contests.canada.com/vancouversun/subscribe/faq/index.html\"
   target=\"_blank\">FAQ</a>\n\t\t</div>\n\t</footer>\n</section>\n</body></html>"
+:results:
+- :name: Randy
+  :url: https://vancouversun.com/author/randyshore
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 1076

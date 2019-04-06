@@ -8865,3 +8865,15 @@
   scrolling=\"no\" allow=\"encrypted-media\" id=\"fb_xdm_frame_https\" aria-hidden=\"true\"
   title=\"Facebook Cross Domain Communication Frame\" tabindex=\"-1\" src=\"https://staticxx.facebook.com/connect/xd_arbiter/r/d_vbiawPdxB.js?version=44#channel=f244c197a62029c&amp;origin=https%3A%2F%2Fwww.buzzfeed.com\"
   style=\"border: none;\"></iframe></div></div></div></body></html>"
+:results:
+- :name: Mr. Mcgoo
+  :url: https://www.amazon.com/gp/profile/amzn1.account.AGU6S6OCONU5NLXNUDLZW6MIK35Q?tag=bfsam-20&ascsubtag=5008879%2C2%2C42%2Cmobile_web%2C0%2C0
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 1774
+- :name: "@SamanthaAWieder"
+  :type: twitter/profile
+  :url: https://twitter.com/SamanthaAWieder
+  :image: 
+  :from: :meta_twitter

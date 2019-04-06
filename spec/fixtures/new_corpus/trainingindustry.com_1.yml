@@ -794,3 +794,14 @@
   2019-03-18 12:05:34 by W3 Total Cache\n--><iframe data-olark=\"true\" aria-hidden=\"true\"
   style=\"width: 0px; height: 0px; position: absolute; left: 0px; bottom: 0px; border:
   none;\"></iframe></body></html>"
+:results:
+- :name: "@TrainingIndustr"
+  :type: twitter/profile
+  :url: https://twitter.com/TrainingIndustr
+  :image: 
+  :from: :meta_twitter
+- :name: Training Industr
+  :url: https://www.facebook.com/TrainingIndustry
+  :type: facebook/profile
+  :image: 
+  :from: :on_page

@@ -573,3 +573,16 @@
   style=\"display: none;\"></ul><ul class=\"ui-autocomplete ui-front ui-menu ui-widget
   ui-widget-content ui-corner-all MenuItems MenuItems-Input\" id=\"ui-id-2\" tabindex=\"0\"
   style=\"display: none;\"></ul></body></html>"
+:results:
+- :name: Rhaiin
+  :url: https://community.myfitnesspal.com/en/profile/usercard/36327204
+  :type: site/author
+  :image: https://dakd0cjsv8wfa.cloudfront.net/images/photos/user/9f1a/417a/07e1/659e/9790/434a/cdd4/17ee839055506895962fa1c111f0bd67cdef.jpg
+  :from: :html
+  :line: 241
+- :name: Rsanfilippo3
+  :url: https://community.myfitnesspal.com/en/profile/usercard/1007583464
+  :image: https://d34yn14tavczy0.cloudfront.net/images/no_photo.png
+  :type: site/author
+  :identifier: site/author
+  :from: jsonld_author

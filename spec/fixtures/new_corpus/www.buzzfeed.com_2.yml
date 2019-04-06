@@ -4647,3 +4647,15 @@
   \ \n  \n\n  \n      <span class=\"sharing-btn__text\">Copy Link</span>\n  \n</a>\n
   \   </li>\n  \n</ul>\n        \n        <noscript>\n          <img src=\"https://pixiedust.buzzfeed.com/v1.gif?source=buzz_web&platform=bpager&type=instrumentation&target=javascript&value=disabled\"
   />\n        </noscript>\n\n        \n    \n</body></html>"
+:results:
+- :name: Amazon.Com
+  :url: https://www.amazon.com/gp/profile/amzn1.account.AGRWM25Q2HVJJZBWY6I7Q7F5C5LQ?tag=buzz0f-20&ascsubtag=4995050%2C10%2C20%2Cmobile_web%2C0%2C0
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 2169
+- :name: https://www.twitter.com/IAM486
+  :type: twitter/profile
+  :url: 'https://twitter.com/https:'
+  :image: 
+  :from: :meta_twitter

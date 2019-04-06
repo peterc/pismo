@@ -3561,3 +3561,36 @@
   [];\n    linkedEntries.push(\"https://www.seriouseats.com/recipes/2010/03/sous-vide-steaks-recipe.html\");\n
   \ if(linkedEntries.length < 1) {\n    return;\n  }\n\n  var pageFS = new FiniteScroll(linkedEntries);\n\n});
   // END document.ready\n</script>\n\n\n\n\n  \n</body></html>"
+:results:
+- :name: J. Kenji Lpez-Alt
+  :url: https://www.seriouseats.com/user/profile/kenjilopezalt
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 3303
+- :name: Serious Eats
+  :url: https://twitter.com/seriouseats
+  :type: twitter/profile
+  :image: https://www.seriouseats.com/2019/03/20190307-spanish-migas-vicky-wasik-22-300x225.jpg
+  :from: :meta_html
+  :line: 2320
+- :name: Seriouseats
+  :url: https://www.facebook.com/seriouseats
+  :type: facebook/profile
+  :image: 
+  :from: :on_page
+- :name: Seriouseats
+  :url: https://www.pinterest.com/seriouseats
+  :type: pinterest/profile
+  :image: 
+  :from: :on_page
+- :name: Seriouseats
+  :url: https://www.instagram.com/seriouseats
+  :type: instagram/profile
+  :image: 
+  :from: :on_page
+- :name: Seriouseats
+  :url: mailto:kenji@seriouseats.com
+  :type: email/profile
+  :image: 
+  :from: :on_page

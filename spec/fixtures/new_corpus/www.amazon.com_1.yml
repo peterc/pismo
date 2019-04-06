@@ -10186,3 +10186,10 @@
   qu.value #>\"data-crid=\"<#= completionResponseId #>\"><span class=\"s-qu-display-string\"><#=
   qu.displayString  #></span></div></script><div id=\"a-popover-root\" style=\"z-index:-1;position:absolute;\"></div>\n\n
   \   \n            </body></html>"
+:results:
+- :name: America
+  :url: https://www.amazon.com/Americas-Test-Kitchen/e/B004LSANTK?ref=dbs_p_pbk_r00_abau_000000
+  :type: author/profile
+  :image: https://images-na.ssl-images-amazon.com/images/G/01/digital/sitb/sticker/sitb-sticker-v3-small._CB341765094_.png
+  :from: :html
+  :line: 9183

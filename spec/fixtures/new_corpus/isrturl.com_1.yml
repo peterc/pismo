@@ -232,3 +232,10 @@
   true;\n\t\t};\n\n\t\tthis.initialise = function () {\n\t\t\tjQuery( document ).ready(
   function () {\n\t\t\t\tjQuery( document ).on( \"click\", \"a#icwpWpsfCloseButton\",
   closeBadge );\n\t\t\t} );\n\t\t};\n\n\t}();\n\n\tiCWP_WPSF_PluginBadgeClose.initialise();\n</script>\n\n</body></html>"
+:results:
+- :type: publisher/profile
+  :name: Isrturl
+  :source_url: https://isrturl.com/whats-your-cup-of-tea/
+  :username: isrturl.com
+  :id: publisher/profile:isrturl.com
+  :from: :default

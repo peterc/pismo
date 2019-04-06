@@ -1401,3 +1401,27 @@
   src=\"https://cnet2.cbsistatic.com/fly/js/libs/require-2.1.2.js\"></script><noscript><img
   src=\"https://www.cnet.com/akam/10/pixel_45afbcf0?a=dD1lMDM1ZWNkZjlhYjg2YmY4YmI0ZjI4N2I1MjM5ZjVmYWU2NGRjMDZkJmpzPW9mZg==\"
   style=\"visibility: hidden; position: absolute; left: -999px; top: -999px;\" /></noscript>\n</body></html>"
+:results:
+- :name: Newsletters
+  :url: https://www.cnet.com/user/join-cnet
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 515
+- :name: Ashlee Clark Thompson
+  :url: https://www.cnet.com/profiles/aclarkthompson
+  :type: site/author
+  :image: 
+  :from: :meta_html
+  :line: 768
+- :name: "@AshleeEats"
+  :type: twitter/profile
+  :url: https://twitter.com/AshleeEats
+  :image: 
+  :from: :meta_twitter
+- :name: Ashlee Clark Thompson
+  :url: https://www.cnet.com/profiles/aclarkthompson
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 768

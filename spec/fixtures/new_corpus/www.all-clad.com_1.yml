@@ -836,3 +836,30 @@
   \ \n\n<ul id=\"ui-id-1\" tabindex=\"0\" class=\"ui-menu ui-widget ui-widget-content
   ui-autocomplete ui-front\" style=\"display: none;\"></ul><div role=\"status\" aria-live=\"assertive\"
   aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\"></div></body></html>"
+:results:
+- :name: You Tube
+  :url: https://www.facebook.com/allclad/
+  :type: facebook/profile
+  :image: https://www.all-clad.com/_ui/desktop/common/img/img-defer-spinner.svg
+  :from: :html
+  :line: 1215
+- :name: Allclad
+  :url: https://twitter.com/allclad
+  :type: twitter/profile
+  :image: 
+  :from: :on_page
+- :name: Allclad
+  :url: https://www.pinterest.com/allclad
+  :type: pinterest/profile
+  :image: 
+  :from: :on_page
+- :name: Allclad
+  :url: https://www.youtube.com/user/AllCladOfficial
+  :type: youtube/profile
+  :image: 
+  :from: :on_page
+- :name: Allclad
+  :url: https://www.instagram.com/allclad
+  :type: instagram/profile
+  :image: 
+  :from: :on_page

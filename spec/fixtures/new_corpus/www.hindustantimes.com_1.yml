@@ -974,3 +974,15 @@
   = 'text/javascript';\n            e.async = true;\n            e.src = '//static.chartbeat.com/js/chartbeat.js';\n
   \           n.parentNode.insertBefore(e, n);\n        }\n        loadChartbeat();\n
   \    })();\n</script>\n\n\n</body></html>"
+:results:
+- :name: Vir Sanghvi
+  :url: https://www.facebook.com/htlifeandstyle/
+  :type: facebook/profile
+  :image: 
+  :from: :jsonld
+  :line: 772
+- :name: Htlifeandstyle
+  :url: https://twitter.com/htlifeandstyle
+  :type: twitter/profile
+  :image: 
+  :from: :on_page

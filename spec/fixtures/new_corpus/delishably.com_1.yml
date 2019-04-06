@@ -995,3 +995,12 @@
   19 08:19:06 -0700 -->\n<iframe id=\"CrossStorageClient-fef0e143-9502-4fce-8a91-48c7153afaf0\"
   src=\"https://equalstyle.com/login-hub/\" style=\"display: none; position: absolute;
   top: -999px; left: -999px;\"></iframe></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Katy Medium
+  :source_url: https://delishably.com/food-industry/Sous-Vide-Cooking-Basics
+  :username: delishably.com
+  :id: publisher/profile:delishably.com
+  :from: :default
+  :image: https://assets.hubstatic.com/x/delishably/delishably-logo.png
+  :url: https://delishably.com

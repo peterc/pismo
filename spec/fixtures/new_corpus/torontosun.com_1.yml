@@ -1844,3 +1844,10 @@
   of Postmedia Inc.</div>\n\t\t<div class=\"footer_menu\">\n\t\t\t<a href=\"http://www.postmediaadvertising.com/privacy-statement\"
   target=\"_blank\">Privacy</a>\n\t\t\t<a class=\"marketfaq\" href=\"http://torontosun.com/faqs\"
   target=\"_blank\">FAQ</a>\n\t\t</div>\n\t</footer>\n</section></div></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Torontosun
+  :source_url: https://torontosun.com/life/food/chef-pauls-kitchen-to-be-a-mentor/wcm/a2776411-0d7d-400a-b1d7-46398ec28edc
+  :username: torontosun.com
+  :id: publisher/profile:torontosun.com
+  :from: :default

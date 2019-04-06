@@ -753,3 +753,10 @@
   \       document.getElementById('LNavDDa' + id).innerHTML = 'More';\n\n    }\n}\n\n
   \  </script>\n \n<script src=\"https://tdzone-fandroppingsllc.netdna-ssl.com/share/scripts/MB/MB_Display_Desk_v10.js\"
   type=\"text/javascript\"></script>\n\n\n</body></html>"
+:results:
+- :name: SignIn
+  :url: http://www.tigerdroppings.com/users/login.aspx
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 85

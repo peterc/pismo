@@ -961,3 +961,10 @@
   async=\"\" custom-element=\"amp-accordion\" src=\"https://cdn.ampproject.org/v0/amp-accordion-0.1.js\"></script>\n\n\n\n\n<iframe
   scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=https%3A%2F%2Fwww.pocket-lint.com&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
   title=\"Twitter settings iframe\" style=\"display: none;\"></iframe></body></html>"
+:results:
+- :name: Carrie
+  :url: https://www.pocket-lint.com/info/authors/carrie-marshall
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 203

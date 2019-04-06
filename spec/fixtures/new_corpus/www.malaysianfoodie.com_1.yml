@@ -959,3 +959,10 @@
   a3_lazyload_extend_params = {\"edgeY\":\"0\"};\n/* ]]> */\n</script>\n<script type=\"text/javascript\"
   src=\"//www.malaysianfoodie.com/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.extend.js?ver=1.7.1\"></script>\n<script
   type=\"text/javascript\" src=\"https://www.malaysianfoodie.com/wp-includes/js/wp-embed.min.js?ver=4.7.13\"></script>\n\n</body></html>"
+:results:
+- :name: Strawberr Y Gal
+  :url: https://www.malaysianfoodie.com/author/pamela
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 399

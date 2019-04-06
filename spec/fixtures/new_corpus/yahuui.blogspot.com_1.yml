@@ -2724,3 +2724,15 @@
   {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_AttributionView', new
   _WidgetInfo('Attribution1', 'footer-3', document.getElementById('Attribution1'),
   {}, 'displayModeFull'));\n</script>\n\n</body></html>"
+:results:
+- :name: Dwi
+  :url: https://www.blogger.com/profile/13921286191477527807
+  :type: blogger/profile
+  :image: 
+  :from: :html
+  :line: 650
+- :url: https://yahuui.blogspot.com
+  :name: yahuui
+  :image: 
+  :from: :url
+  :type: blogspot/post

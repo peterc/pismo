@@ -759,3 +759,16 @@
   data-pagespeed-no-defer=\"\">pagespeed.lazyLoadImages.overrideAttributeFunctions();</script><script
   async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=UA-1113647-13\"></script>\n<script>window.dataLayer=window.dataLayer||[];function
   gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','UA-1113647-13');</script>\n\n\n</body></html>"
+:results:
+- :name: Andrew Heinzman
+  :url: https://www.reviewgeek.com/author/andrewheinzman
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 165
+- :name: Andrew Heinzman
+  :url: https://www.reviewgeek.com/author/andrewheinzman
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 165

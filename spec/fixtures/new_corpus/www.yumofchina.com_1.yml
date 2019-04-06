@@ -980,3 +980,10 @@
   type=\"text/javascript\">\n/* <![CDATA[ */\nvar tve_dash_front = {\"ajaxurl\":\"https:\\/\\/www.yumofchina.com\\/wp-admin\\/admin-ajax.php\",\"force_ajax_send\":\"\",\"is_crawler\":\"\"};\n/*
   ]]> */\n</script>\n<script type=\"text/javascript\" src=\"https://www.yumofchina.com/wp-content/plugins/thrive-visual-editor/thrive-dashboard/js/dist/frontend.min.js?ver=2.1.0\"></script>\n<script
   type=\"text/javascript\" src=\"https://www.yumofchina.com/wp-includes/js/wp-embed.min.js?ver=5.0.4\"></script>\n\n\n\n</body></html>"
+:results:
+- :name: Tiana Matson
+  :url: https://www.yumofchina.com/author/edward
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 328

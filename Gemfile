@@ -14,7 +14,7 @@ gem 'rwordnet',                   github: 'vladkostyuk/rwordnet'
 gem 'nikkou',   omalab: 'nikkou'
 
 # Other gems, they are needed
-gem 'mida',     path: '../mida'
+gem 'mida',     omalab: 'mida'         # path: '../mida'
 gem 'allusion', omalab: 'allusion'     # path: '../allusion'
 gem 'dewey',    omalab: 'dewey'        # path: '../dewey'
 

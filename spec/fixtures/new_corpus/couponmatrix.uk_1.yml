@@ -408,3 +408,16 @@
   @ 2019-03-17 09:57:28 by W3 Total Cache\n--><iframe scrolling=\"no\" frameborder=\"0\"
   allowtransparency=\"true\" src=\"https://platform.twitter.com/widgets/widget_iframe.2e9f365dae390394eb8d923cba8c5b11.html?origin=https%3A%2F%2Fcouponmatrix.uk&amp;settingsEndpoint=https%3A%2F%2Fsyndication.twitter.com%2Fsettings\"
   title=\"Twitter settings iframe\" style=\"display: none;\"></iframe></body></html>"
+:results:
+- :name: AJ Dellinger
+  :url: https://couponmatrix.uk/author/aj-dellinger
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 206
+- :name: AJ Dellinger
+  :url: https://couponmatrix.uk/author/aj-dellinger/
+  :image: https://secure.gravatar.com/avatar/b930f8b30f1d514c7fd5072eba1676e5?s=128&d=mm&r=g
+  :type: site/author
+  :identifier: site/author
+  :from: jsonld_author

@@ -977,3 +977,16 @@
   {}, 'displayModeFull'));\n</script>\n\n<div class=\"loading-spinner-large mspin-grey_54-large\"
   style=\"left: 368.5px; top: 3967px;\"><div><div></div></div></div><div class=\"dim-overlay
   hidden\" id=\"subscribe-dim-overlay\"></div></body></html>"
+:results:
+- :name: Tech Digi
+  :url: https://plus.google.com/107592782548161117661
+  :type: googleplus/profile
+  :image: 
+  :from: :html
+  :line: 2867
+- :name: tech digi
+  :url: https://plus.google.com/107592782548161117661
+  :type: googleplus/profile
+  :image: 
+  :from: :jsonld
+  :line: 2868

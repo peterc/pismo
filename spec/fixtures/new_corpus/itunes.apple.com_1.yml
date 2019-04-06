@@ -780,3 +780,10 @@
   data-global-elements-nav-script=\"\" async=\"\"></script><script type=\"text/javascript\"
   src=\"https://web-experience.itunes.apple.com/global-elements/1910.1.0/en_US/ac-global-footer.d87aa5188a9a04c462d9d7452edb1b20.js\"
   data-global-elements-footer-script=\"\" async=\"\"></script></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Anova Culinary
+  :source_url: https://itunes.apple.com/us/app/anova-culinary/id959638683?mt=8
+  :username: itunes.apple.com
+  :id: publisher/profile:itunes.apple.com
+  :from: :default

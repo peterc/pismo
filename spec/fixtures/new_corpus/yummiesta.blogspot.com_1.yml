@@ -1522,3 +1522,25 @@
   'footer-instagram', document.getElementById('HTML1'), {}, 'displayModeFull'));\n_WidgetManager._RegisterWidget('_FollowByEmailView',
   new _WidgetInfo('FollowByEmail1', 'footer-email', document.getElementById('FollowByEmail1'),
   {}, 'displayModeFull'));\n</script>\n\n</body></html>"
+:results:
+- :name: Croatia Food Photography Workshop
+  :url: https://yummiesta.blogspot.com/2019/03/seared-salmon-poke-bowl.html
+  :type: blogspot/post
+  :image: 
+  :from: :html
+  :line: 3764
+- :name: "@yummiesta"
+  :type: twitter/profile
+  :url: https://twitter.com/yummiesta
+  :image: 
+  :from: :meta_twitter
+- :url: https://yummiesta.blogspot.com
+  :name: yummiesta
+  :image: 
+  :from: :url
+  :type: blogspot/post
+- :name: Yummiesta
+  :url: https://www.facebook.com/Yummiesta
+  :type: facebook/profile
+  :image: 
+  :from: :on_page

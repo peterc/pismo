@@ -748,3 +748,21 @@
   async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=UA-1113647-13\"></script>\n<script>window.dataLayer=window.dataLayer||[];function
   gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','UA-1113647-13');</script>\n<script
   src=\"//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&amp;adInstanceId=26d15b29-c719-4695-a978-d712e16a3766\"></script>\n\n\n</body></html>"
+:results:
+- :name: Michael Crider
+  :url: https://www.reviewgeek.com/author/michaelcrider
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 165
+- :name: Michael Crider
+  :url: https://www.reviewgeek.com/author/michaelcrider
+  :type: site/author
+  :image: 
+  :from: :jsonld
+  :line: 165
+- :name: Michaelcrider
+  :url: https://twitter.com/@MichaelCrider
+  :type: twitter/profile
+  :image: 
+  :from: :on_page

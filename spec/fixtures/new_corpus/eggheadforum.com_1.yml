@@ -594,3 +594,41 @@
   <center><a href="http://eggheadforum.com/discussion/1134015/rules-disclaimer" target="_blank" rel="noopener">Click here</a> for Forum Use Guidelines.</center> <br><br><p></p><p>
 
   </p><div id="atwho-container"></div></body></html>
+:results:
+- :name: Youtube
+  :url: https://www.facebook.com/BigGreenEgg
+  :type: facebook/profile
+  :image: https://secure.gravatar.com/avatar/d5240c7d7e272ad81e953e48d796cfba/?default=https%3A%2F%2Fvanillicon.com%2Fd5240c7d7e272ad81e953e48d796cfba_200.png&rating=g&size=200
+  :from: :html
+  :line: 146
+- :name: winojeff
+  :url: https://eggheadforum.com/profile/winojeff
+  :image: https://secure.gravatar.com/avatar/d5240c7d7e272ad81e953e48d796cfba/?default=https%3A%2F%2Fvanillicon.com%2Fd5240c7d7e272ad81e953e48d796cfba_200.png&rating=g&size=200
+  :type: site/author
+  :identifier: site/author
+  :from: jsonld_author
+- :name: Big Green Egg
+  :url: https://twitter.com/biggreenegg
+  :type: twitter/profile
+  :image: 
+  :from: :on_page
+- :name: Big Green Egg
+  :url: https://www.instagram.com/biggreenegg
+  :type: instagram/profile
+  :image: 
+  :from: :on_page
+- :name: Big Green Egg
+  :url: https://www.pinterest.com/biggreenegg
+  :type: pinterest/profile
+  :image: 
+  :from: :on_page
+- :name: Big Green Egg
+  :url: https://www.youtube.com/user/BigGreenEggHQ
+  :type: youtube/profile
+  :image: 
+  :from: :on_page
+- :name: Big Green Egg
+  :url: https://vimeo.com/biggreenegghq
+  :type: vimeo/profile
+  :image: 
+  :from: :on_page

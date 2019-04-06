@@ -568,3 +568,10 @@
   id=\"oauth2relay746530097\" src=\"https://accounts.google.com/o/oauth2/postmessageRelay?parent=http%3A%2F%2Fvocal-buzz.ning.com&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.-MMu-2qpHGU.O%2Fam%3DwQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCNSjN7dw0eNDjgYhqJQsZ4rqaBh2w%2Fm%3D__features__#rpctoken=588027812&amp;forcesecure=1\"
   tabindex=\"-1\" aria-hidden=\"true\" style=\"width: 1px; height: 1px; position:
   absolute; top: -100px;\"></iframe></body></html>"
+:results:
+- :name: Page
+  :url: http://vocal-buzz.ning.com/profiles/members
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 176

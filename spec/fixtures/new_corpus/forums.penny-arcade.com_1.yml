@@ -1667,3 +1667,16 @@
   MenuItems MenuItems-Input\" id=\"ui-id-2\" tabindex=\"0\" style=\"display: none;\"></ul><ul
   class=\"ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all
   MenuItems MenuItems-Input\" id=\"ui-id-3\" tabindex=\"0\" style=\"display: none;\"></ul></body></html>"
+:results:
+- :name: Schrodinger
+  :url: https://forums.penny-arcade.com/profile/Schrodinger
+  :type: site/author
+  :image: https://us.v-cdn.net/5018289/uploads/userpics/515/nPD7C0B8SXYWK.jpeg
+  :from: :html
+  :line: 230
+- :name: Steel Angel
+  :url: https://forums.penny-arcade.com/profile/Steel%20Angel
+  :image: https://us.v-cdn.net/5018289/uploads/userpics/402/n9GLY5CFMN533.jpg
+  :type: site/author
+  :identifier: site/author
+  :from: jsonld_author

@@ -1782,3 +1782,15 @@
   frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" style=\"width:100%;\" data-dojo-attach-point=\"iframeModalContainer\"></iframe>\n
   \       </div>\n    </div>\n\n    <!-- MC MODAL OVERLAY -->\n    <div class=\"mc-modal-bg\"
   data-dojo-attach-point=\"modalOverlay\" style=\"display: none;\"></div>\n</div></body></html>"
+:results:
+- :name: ''
+  :url: https://sethlui.com/author/wani-sz
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 647
+- :name: "@waniwrites"
+  :type: twitter/profile
+  :url: https://twitter.com/waniwrites
+  :image: 
+  :from: :meta_twitter

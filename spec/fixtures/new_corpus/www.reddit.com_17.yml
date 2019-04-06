@@ -2194,3 +2194,16 @@
   src=\"https://www.redditmedia.com/gtm/jail?id=GTM-5XVNS82\" style=\"display: none
   !important;\" hidden=\"\"></iframe><script async=\"\" defer=\"\" src=\"https://www.redditstatic.com/desktop2x/Frontpage.2b4bd3e670757af3a8f2.js\"></script><script
   async=\"\" defer=\"\" src=\"https://www.redditstatic.com/desktop2x/Subreddit.4d2336566fdc3311b31e.js\"></script></body></html>"
+:results:
+- :name: U/Whatstheworlddoing
+  :url: https://www.reddit.com/user/whatstheworlddoing
+  :type: reddit/profile
+  :image: 
+  :from: :html
+  :line: 279
+- :name: U/Feline1313
+  :url: https://www.reddit.com/user/feline1313
+  :type: reddit/profile
+  :image: https://www.redditstatic.com/desktop2x/img/gold/badges/award-silver-cartoon.png
+  :from: :reddit
+  :line: 277

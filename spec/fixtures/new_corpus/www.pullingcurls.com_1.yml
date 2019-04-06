@@ -1803,3 +1803,10 @@
   href=\"http://mbsy.co/cSqQN\" onclick=\"javascript:window.open('http://mbsy.co/cSqQN');
   return false;\">Powered by ConvertKit</a>\n      </span>\n    </form>\n  </div>\n\n</div>\n\n<div
   class=\"ck_close_link\">✕</div></div><div id=\"ck_overlay\"></div></body></html>"
+:results:
+- :name: Hilary Erickson
+  :url: https://www.pullingcurls.com/author/hillyut
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 107

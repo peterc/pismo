@@ -3083,3 +3083,10 @@
   class=\"pls-vert gc-reset\"><img class=\"pls-dropBR gc-reset\" style=\"width:5px
   !important; height:5px !important; max-width: 5px !important; max-height: 5px !important;\"
   src=\"https://ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/spacer.gif\"></td></tr></tbody></table></div></body></html>"
+:results:
+- :name: Jtara
+  :url: https://forums.macrumors.com/members/jtara.295710
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 2394

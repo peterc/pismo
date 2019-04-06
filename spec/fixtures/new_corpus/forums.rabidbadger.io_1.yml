@@ -676,3 +676,10 @@
   type=\"text/javascript\" src=\"js/facebook.js?v=551\"></script>\n<script type=\"text/javascript\"
   src=\"core/packages/vbaisuite/js/relatedtopics.js?v=551\"></script>\n<script type=\"text/javascript\"
   src=\"js/privacy-consent-banner.js?v=551\"></script>\n\n</body></html>"
+:results:
+- :name: Technology Bob
+  :url: https://forums.rabidbadger.io/member/151-technology-bob
+  :type: site/author
+  :image: https://forums.rabidbadger.io/core/images/default/default_avatar_medium.png
+  :from: :html
+  :line: 1684

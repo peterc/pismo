@@ -581,3 +581,10 @@
   } }); }(jQuery));\n//--><!]]>\n</script>\n    </div><script type=\"text/javascript\"
   src=\"//sdk.listenlive.co/web/2.9/td-sdk.min.js\"></script>\n  <script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"15ba4da3e8\",\"applicationID\":\"1108724\",\"transactionName\":\"NlMBMhAECEZRAU1eDg8ZIgUWDAlbHwxWUwQ+RgIBBzoQXFUV\",\"queueTime\":0,\"applicationTime\":834,\"atts\":\"GhQCRFgeG0g=\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"\"}</script>\n\n<iframe
   style=\"display: none;\"></iframe></body></html>"
+:results:
+- :name: Tove Danovich
+  :url: http://www.twitter.com/tkdano
+  :type: twitter/profile
+  :image: http://mediad.publicbroadcasting.net/p/shared/npr/styles/placed_wide/nprshared/201902/693560799.jpg
+  :from: :meta_html
+  :line: 610

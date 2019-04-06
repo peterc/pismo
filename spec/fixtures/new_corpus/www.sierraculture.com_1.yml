@@ -292,3 +292,10 @@
   type=\"text/javascript\" src=\"http://www.sierraculture.com/wp-includes/js/wp-embed.min.js?ver=4.7.13\"></script>\n<script
   src=\"http://media.sacbee.com/static/sacconnect/sacconnect-min.js\"></script>\n\n\n</font><script
   src=\"//static.sacbeelabs.com/v1/api/js/sbjs-inline.js\" type=\"text/javascript\"></script></body></html>"
+:results:
+- :name: Jeffpelline
+  :url: http://www.sierraculture.com/author/jeffpelline
+  :type: site/author
+  :image: http://www.sierraculture.com/wp-content/uploads/2019/02/53236112_10157216579257948_8713571715310944256_n-300x205.jpg
+  :from: :html
+  :line: 230

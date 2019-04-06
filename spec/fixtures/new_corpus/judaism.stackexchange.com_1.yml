@@ -1187,3 +1187,15 @@
   = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';\n                    s.parentNode.insertBefore(sc,
   s);\n                    _comscore.push({ c1: \"2\", c2: \"17440561\" });\n            })();\n
   \           \n\n</script>\n            \n    \n    \n</body></html>"
+:results:
+- :name: ''
+  :url: https://judaism.stackexchange.com/users/login?ssrc=head&returnurl=https%3a%2f%2fjudaism.stackexchange.com%2fquestions%2f96688%2fis-sous-vide-cooking-or-roasting
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 129
+- :name: "@StackJudaism"
+  :type: twitter/profile
+  :url: https://twitter.com/StackJudaism
+  :image: 
+  :from: :meta_twitter

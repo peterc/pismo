@@ -757,3 +757,10 @@
   empty\" data-toggle=\"tooltip\" data-placement=\"top\" data-title=\"See Saved\"
   style=\"background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);\"> SHORTLIST
   <span class=\"rs-count\">0</span></a></div><div class=\"overlay\"></div>\n\n\n\n</body></html>"
+:results:
+- :name: ''
+  :url: https://www.spicenews.com.au/author/blevinson
+  :type: site/author
+  :image: 
+  :from: :html
+  :line: 471

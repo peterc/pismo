@@ -4829,3 +4829,15 @@
   class=\"bar\" style=\"width:0%\">0%</span>\n                        </span><span
   class=\"count\">0</span>\n                    </dd>\n            <span class=\"show-all-reviews\"
   data-cmsource=\"reviewsflyout\">Read all 5 reviews</span></dl></body></html>"
+:results:
+- :name: ''
+  :url: https://www.hsn.com/checkout/bag
+  :type: author/profile
+  :image: 
+  :from: :html
+  :line: 892
+- :name: Bag
+  :url: https://www.hsn.com/shop/handbags-and-wallets/fa0402
+  :type: site/author
+  :image: 
+  :from: :on_page

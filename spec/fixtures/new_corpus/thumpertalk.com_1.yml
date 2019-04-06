@@ -1705,3 +1705,16 @@
   style=\"visibility: hidden; position: absolute; top: -300px; width: 1px; height:
   1px; overflow: hidden; left: -300px;\"><span class=\"ipsLoading ipsLoading_noAnim\"
   style=\"display: block;\"></span></span></body></html>"
+:results:
+- :name: Tahoe Gator
+  :url: https://thumpertalk.com/profile/515492-tahoe-gator
+  :type: site/author
+  :image: https://usr.thumpertalk.com/uploads/monthly_2018_01/IMG_6093.thumb.JPG.cdb20bbb43927affddfe46087454b3de.JPG
+  :from: :html
+  :line: 1391
+- :name: Tahoe Gator
+  :url: https://thumpertalk.com/profile/515492-tahoe-gator/
+  :image: "//usr.thumpertalk.com/uploads/monthly_2018_01/IMG_6093.thumb.JPG.cdb20bbb43927affddfe46087454b3de.JPG"
+  :type: site/author
+  :identifier: site/author
+  :from: jsonld_author

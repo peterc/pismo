@@ -3809,3 +3809,10 @@
   In</a>\n            <a class=\"button primary signUp track-sign-up\" href=\"/forums/register.php?action_source=Sign+Up+Button\">Sign
   Up</a>\n          </div>\n        \n      </div>\n\n    </header>\n  </div>\n<div
   class=\"headerOverlay\"></div>\n\n      \n    \n      \n\n</body></html>"
+:results:
+- :type: publisher/profile
+  :name: PyreSpirit
+  :source_url: https://slickdeals.net/f/12886645-my-sous-vide-my-101-immersion-cooker-white-44-99
+  :username: slickdeals.net
+  :id: publisher/profile:slickdeals.net
+  :from: :default

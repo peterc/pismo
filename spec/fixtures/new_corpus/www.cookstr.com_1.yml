@@ -4300,3 +4300,10 @@
   ui-menu ui-widget ui-widget-content ui-corner-all\" id=\"ui-id-1\" tabindex=\"0\"
   style=\"z-index: 1; display: none;\"></ul><a href=\"#\" class=\"scrollToTop\">top</a><div
   id=\"pdfDownloadDhtmlDiv\" style=\"display: none;\"><div class=\"dhtmlLoginWrapper\"></div></div></body></html>"
+:results:
+- :type: publisher/profile
+  :name: Cookstr
+  :source_url: https://www.cookstr.com/Cooking-Tips/What-Is-Sous-Vide-Cooking
+  :username: www.cookstr.com
+  :id: publisher/profile:www.cookstr.com
+  :from: :default
