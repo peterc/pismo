@@ -38,7 +38,7 @@ module Pismo
     alias snippet lede
 
     def ad_networks
-      @ad_networks ||= Parsers::AdNetworks.call(doc: doc)
+      @ad_networks ||= Parsers::AdNetworks.call(doc: doc, links: links)
     end
 
     # Returns a string containing the first [limit] sentences as determined

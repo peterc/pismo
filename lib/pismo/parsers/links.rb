@@ -17,31 +17,51 @@ module Pismo
         end
       end
 
+      def raw_links
+        @raw_links ||= doc.xpath("//a | //script | //img | //link")
+      end
+
       def links
         @links ||= begin
-          raw_links = []
-          doc.css('a').each do |node|
-            if node[:href].present?
-              next if skip_starts_with.include?(node[:href].chars[0])
+          links = []
+          raw_links.each do |node|
+            value = get_node_link_value(node)
+            next if value.to_s.length == 0 || skip_starts_with.include?(value.chars[0])
 
-              hsh = {
-                href: node[:href],
-                url:  Utils::Url.absolutize(url, node[:href])
-              }
+            hsh = {
+              href: value,
+              url:  Utils::Url.absolutize(url, value)
+            }
 
-              link_attributes.each do |attr|
-                hsh[attr.to_sym] = node.attr(attr)
-              end
-
-              raw_links << hsh
+            link_attributes = node.attributes.slice(*link_attributes)
+            link_attributes.each do |key, attr|
+              hsh[key.to_sym] = attr.value
             end
+
+            links << hsh
           end
-          raw_links
+          links
         end
       end
 
+      def get_node_link_value(node)
+        if href_names.include?(node.name)
+          node[:href]
+        elsif src_names.include?(node.name)
+          node[:src]
+        end
+      end
+
+      def href_names
+        @href_names ||= %w[a link].freeze
+      end
+
+      def src_names
+        @src_names ||= %w[script image].freeze
+      end
+
       def link_attributes
-        %w[title rel class id alt].freeze
+        @link_attributes ||= %w[title rel class id alt].freeze
       end
 
       def skip_starts_with

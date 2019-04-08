@@ -48,7 +48,7 @@ module Pismo
       @headers ||= args.dig(:headers) || {}
     end
 
-    # Parses and absoutizes the links on the page
+    # Parses and absolutizes the links on the page
     def links
       @links ||= Parsers::Links.call(url: url, doc: doc)
     end
@@ -72,11 +72,5 @@ module Pismo
     def html
       @html ||= doc.to_html
     end
-
-    def text
-      @text ||= Utilities.sentences_from_node(doc).join(' ')
-    end
-    alias plain_text text
-    alias body text
   end
 end

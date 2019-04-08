@@ -14,8 +14,8 @@ RSpec.describe Pismo::Document do
 
         it 'author present' do
           puts "#{hsh[:url]}"
-          helper
-          binding.pry
+          helper.ad_networks
+          # binding.pry
         end
       end
     end

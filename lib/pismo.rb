@@ -10,6 +10,7 @@ require 'twitter-text'
 require 'htmlentities'
 require 'allusion'
 require 'dewey'
+require 'ad_checker'
 require 'public_suffix'
 require 'mida'
 

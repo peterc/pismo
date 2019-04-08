@@ -25,6 +25,10 @@ module Pismo
         @url ||= args.dig(:url)
       end
 
+      def links
+        @links ||= args.dig(:links)
+      end
+
       def microdata
         @microdata ||= args.dig(:microdata)
       end
