@@ -21,7 +21,7 @@ module Pismo
     end
 
     def twitter_text_helper
-      @twitter_text_helper ||= :Pismo::Parsers::TwitterText.new(text: text)
+      @twitter_text_helper ||= Parsers::TwitterText.new(text: text)
     end
   end
 end
