@@ -54,7 +54,8 @@ module Pismo
           else
             Utils::Indicators.author_links.any? do |indicator|
               Utils::Indicators.link_search_locations.any? do |location|
-                result.attr(location).to_s.include?(indicator)
+                a_array = result.attr('href').to_s.split(/\//)
+                result.attr(location).to_s.include?(indicator) && !a_array.any?{|path| Utils::Indicators.registration_locations.include?(path)}
               end
             end
           end

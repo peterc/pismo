@@ -6,6 +6,10 @@ module Pismo
           %w[href class id rel src]
         end
 
+        def registration_locations
+          %w[login logout signup sign_up sign-up signin sign_in sign-in signout sign_out sign-out]
+        end
+
         def css_search_locations
           %w[class id property]
         end
