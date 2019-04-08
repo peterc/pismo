@@ -12,7 +12,6 @@ module Pismo
             link = link.merge(parsed)
             link
           rescue => e
-            binding.pry
             nil
           end
         end

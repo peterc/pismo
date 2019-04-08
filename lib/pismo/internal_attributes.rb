@@ -5,36 +5,18 @@ module Pismo
   module InternalAttributes
     @@phrasie = Phrasie::Extractor.new
 
-    def titles
-      @titles ||= Parsers::Titles.call(doc: doc, meta: meta, url: url)
-    end
-
-    # Returns the title of the page/content
-    def title
-      @title ||= Utilities.longest_common_substring_in_array(titles) || titles.first
-    end
-
-    # Returns estimate the creation date of page.
-    # As clients of this library should be doing HTTP retrieval themselves,
-    # they can fall to the Last-Updated HTTP header if they so wish.
-    # This method is just rough and based on content-only.
-    def datetime
-      Parsers::PublishedDate.call(meta: meta, doc: doc, headers: headers)
-    end
-    alias published_at datetime
-
     # Returns the author of the page/content
     def authors
       @authors ||= Parsers::Authors.call(
-        doc: doc,
-        meta: meta,
-        url: url,
-        jsonld: jsonld,
-        sentences: all_sentences,
+        doc:             doc,
+        meta:            meta,
+        url:             url,
+        jsonld:          jsonld,
+        sentences:       all_sentences,
         social_profiles: social_links,
-        microdata: microdata,
-        entities: entities,
-        text: text
+        microdata:       microdata,
+        entities:        entities,
+        text:            text
       )
     end
 
@@ -44,14 +26,6 @@ module Pismo
       else
         authors
       end
-    end
-
-    def descriptions
-      @descriptions ||= Parsers::Descriptions.call(doc: doc)
-    end
-
-    def description
-      descriptions.first
     end
 
     def ledes
@@ -65,18 +39,6 @@ module Pismo
 
     def ad_networks
       @ad_networks ||= Parsers::AdNetworks.call(doc: doc)
-    end
-
-    def meta
-      Parsers::Meta.call(doc: doc)
-    end
-
-    def jsonld
-      @jsonld ||= Parsers::Jsonld.call(doc: doc)
-    end
-
-    def headers
-      @headers ||= args.dig(:headers) || {}
     end
 
     # Returns a string containing the first [limit] sentences as determined
@@ -111,15 +73,11 @@ module Pismo
       reader_doc && !reader_doc.videos.empty? ? reader_doc.videos(limit) : nil
     end
 
-    def links
-      @links ||= Parsers::Links.call(url: url, doc: doc)
-    end
-
     def social_links
       @social_links ||= links.select { |link| link[:profile] == true }
     end
 
-   # Returns the tags or categories of the page/content
+    # Returns the tags or categories of the page/content
     def tags
       @tags ||= Parsers::Tags.call(doc: doc)
     end
@@ -143,52 +101,10 @@ module Pismo
       @reader_doc ||= Reader::Document.create(@doc.to_s, @options)
     end
 
-    # Returns body text as determined by Reader algorithm
-    def body
-      @body ||= reader_doc.content(true).strip
+    def text
+      @text ||= Utilities.sentences_from_node(doc).join(' ')
     end
-    alias text body
-
-    # Returns body text as determined by Reader algorithm WITH basic HTML formatting intact
-    def html_body
-      @html_body ||= reader_doc.content.strip
-    end
-
-    def plain_text
-      @plain_text ||= Utilities.sentences_from_node(doc).join(' ')
-    end
-
-    def feeds
-      @feeds ||= Parsers::Feeds.call(doc: doc)
-    end
-
-    def feed
-      @feed ||= feeds.first
-    end
-
-    def favicons
-      @favicons ||= Parsers::Favicons.call(doc: doc, meta: meta)
-    end
-
-    def favicon
-      @favicon ||= favicons.first
-    end
-
-    def microdata
-      @microdata ||= begin
-        hsh = {}
-        microdata_parser.items.each do |item|
-          hsh_item = ::HashWithIndifferentAccess.new(item.to_h)
-          if hsh_item.keys.length > 1 && hsh_item.key?(:type)
-            hsh[hsh_item[:type].gsub('http://schema.org/', '')] = hsh_item[:properties]
-          end
-        end
-        hsh
-      end
-    end
-
-    def microdata_parser
-      @microdata_parser ||= Mida::Document.new(doc, url)
-    end
+    alias plain_text text
+    alias body text
   end
 end

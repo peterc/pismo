@@ -1,0 +1,134 @@
+---
+author:
+  username:
+    blacklist:
+      - search
+      - page
+topics:
+  blacklist:
+    - www
+    - www.
+    - http
+    - https
+    - "https:"
+    - com/
+    - .com/
+tags:
+  access:
+    terms:
+    - can be contacted at
+    - contact me at
+    - email the reporter
+    - message me at
+    - tweet me
+  buyer:
+    terms:
+    - best price
+    - best savings
+    - cash back
+    - cheapest
+    - closeout
+    - code with
+    - for children
+    - for couples
+    - for girls
+    - for guys
+    - for kids
+    - for men
+    - for newbies
+    - for sale
+    - for seniors
+    - for students
+    - for women
+    - free shipping
+    - good price
+    - high price
+    - high priced
+    - how do i
+    - how do you
+    - how to build
+    - how to get rid of
+    - inexpensive
+    - low cost
+    - low priced
+    - lowest price
+    - on sale
+    - sales-priced
+    - second hand
+    - coupon code
+    - for cheap
+    - in stock
+    - on sale
+    - overstock
+    - pre-owned
+    - promo code
+  comment:
+    terms:
+    - new message
+    - new thread
+    - no comments
+    - post comment
+    - post new topic
+    - to post comments
+  coupon:
+    terms:
+    - add coupons
+    - add deals
+    - submit coupons
+    - submit deals
+  guestpost:
+    terms:
+    - Submit Design News
+"Community News"
+"Submit Blog Post"
+"Suggest a Guest Post"
+"Contribute to our Site"
+"Become a Guest Writer"
+"My Guest Posts"
+"Submission Guidelines"
+"This guest post was written"
+"This guest post is from"
+"Now Accepting Guest Posts"
+"The following guest post"
+inurl:guest-post-guidelines
+inurl:guest-posts
+inurl:write-for-us
+inurlprofiles/blog/new
+"Submit a guest post" / "Submit post" / "Submit blog post"
+"Add blog post"
+"Guest Post Guidelines"
+"Want to Write for"
+"Blogs that Accept Guest Blogging"
+"Blogs Accepting Guest Posts"
+"Contribute"
+"Submit News"
+"Submit Tutorial"
+"Suggest a Post"
+"Become an Author"
+"Become a Contributor"
+"Places I Guest Posted"
+"Publish Your News"
+"Guest post by"
+"Guest Contributor"
+"This is a guest article"
+"Add Articles"
+"Add Guest Post"
+"Guest Bloggers Wanted"
+"Guest Posts Roundup"
+"Write for Us"
+"Submit Guest Post"
+"Submit a Guest Article"
+"Guest Bloggers Wanted"
+"Group Writing Project"
+"Blogs that Accept Guest Posts"
+"Blogs that Accept Guest Bloggers"
+"Become a Contributor"
+"Submit an article"
+"Suggest a guest post"
+"Send a guest post"
+"Send your post"
+"Bloggers Wanted"
+"Guest Post"
+"Guest Blogging Spot"
+"Submit a Guest Post"
+"Become a Guest Blogger"

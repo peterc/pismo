@@ -1,7 +1,10 @@
 # encoding: utf-8
+require 'pismo/page_attributes'
 require 'pismo/internal_attributes'
 require 'pismo/external_attributes'
-require 'pismo/extended_attributes'
+require 'pismo/nlp_attributes'
+require 'pismo/twitter_text_attributes'
+require 'pismo/schema_attributes'
 
 module Pismo
 
@@ -16,9 +19,12 @@ module Pismo
       :min_image_height => 100
     }
 
+    include Pismo::PageAttributes
     include Pismo::InternalAttributes
     include Pismo::ExternalAttributes
-    include Pismo::ExtendedAttributes
+    include Pismo::NlpAttributes
+    include Pismo::TwitterTextAttributes
+    include Pismo::SchemaAttributes
 
     def initialize(handle, options = {})
       @options = DEFAULT_OPTIONS.merge options

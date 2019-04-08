@@ -33,7 +33,7 @@ RSpec.describe Pismo::Document do
 
         it 'author present' do
           start_time = Time.now
-          puts "    #{hsh[:url]}"
+          # puts "    #{hsh[:url]}"
           helper = Pismo::Document.new(hsh[:body], url: hsh[:url])
 
           expect do
@@ -42,7 +42,7 @@ RSpec.describe Pismo::Document do
             puts "    WARN: took=#{Time.now - start_time}" if Time.now - start_time > 10.00
           end.to_not raise_error
 
-          print_authors(helper)
+          # print_authors(helper)
           expect_to_have_at_least_one_author(helper)
 
           # When the results are right, then we write them back to the hsh
