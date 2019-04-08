@@ -18,7 +18,7 @@ module Pismo
       end
 
       def raw_links
-        @raw_links ||= doc.xpath("//a | //script | //img | //link")
+        @raw_links ||= doc.xpath("//a | //script | //img | //link | //noscript/img")
       end
 
       def links
@@ -37,6 +37,7 @@ module Pismo
             link_attributes.each do |key, attr|
               hsh[key.to_sym] = attr.value
             end
+            hsh[:type] = node.name
 
             links << hsh
           end
@@ -57,7 +58,7 @@ module Pismo
       end
 
       def src_names
-        @src_names ||= %w[script image].freeze
+        @src_names ||= %w[script img].freeze
       end
 
       def link_attributes

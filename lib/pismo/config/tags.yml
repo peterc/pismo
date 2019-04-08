@@ -4,15 +4,8 @@ author:
     blacklist:
       - search
       - page
-topics:
-  blacklist:
-    - www
-    - www.
-    - http
-    - https
-    - "https:"
-    - com/
-    - .com/
+      - admin
+      - home
 tags:
   access:
     terms:
