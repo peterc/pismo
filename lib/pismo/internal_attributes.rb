@@ -56,20 +56,24 @@ module Pismo
                        .sort
     end
 
+    def dewey_extractor
+      @dewey_features ||= Dewey::Extractor.new(text: text)
+    end
+
     def content_language
-      @content_language ||= meta.dig('content_language')
+      @content_language ||= dewey_extractor.language_parser.dig(:code)
+    end
+
+    def sentiment
+      @sentiment ||= dewey_extractor.sentiment
     end
 
     def phrases
-      @phrases ||= Dewey::Utils::KeywordsExtractor.new(sentences: all_sentences).call
+      @phrases ||= dewey_extractor.keywords
     end
 
     def published_date
       @published_date ||= Pismo::Parsers::PublishedDate.new(meta: meta, doc: doc).call
-    end
-
-    def sentiment
-
     end
 
     # Returns a string containing the first [limit] sentences as determined
