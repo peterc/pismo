@@ -10,7 +10,7 @@ RSpec.describe Pismo::Document do
       write_fixture_file(location, hsh.to_yaml)
     end
 
-    xcontext file_path do
+    context file_path do
       let(:file_path) { file_path }
       let(:file_name) { file_name }
 

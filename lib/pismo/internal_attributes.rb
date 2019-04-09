@@ -21,18 +21,9 @@ module Pismo
     end
 
     def author
-      if authors.count > 1
-        without_publisher = authors.select{|author| author.dig(:type) != "publisher/profile"}
-        if without_publisher.count > 1
-          without_site_author = without_publisher.detect{|author| author.dig(:type) != "site/author"}
-          return without_site_author if without_site_author.present?
-          without_publisher.first
-        else
-          without_publisher.first
-        end
-      else
-        authors&.first
-      end
+      author = authors.find { |hsh| hsh[:type] == 'site/author' }
+      author = authors.first if author.nil?
+      author
     end
 
     def ledes

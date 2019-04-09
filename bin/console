@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "pismo"
+require 'pry'
+require "irb"
+
+IRB.start(__FILE__)
