@@ -21,10 +21,17 @@ module Pismo
     end
 
     def author
-      if authors.keys.count > 1
-        authods.dig(authors.keys.detect{|key| key != "publisher/profile"})
+      if authors.count > 1
+        without_publisher = authors.select{|author| author.dig(:type) != "publisher/profile"}
+        if without_publisher.count > 1
+          without_site_author = without_publisher.detect{|author| author.dig(:type) != "site/author"}
+          return without_site_author if without_site_author.present?
+          without_publisher.first
+        else
+          without_publisher.first
+        end
       else
-        authors
+        authors&.first
       end
     end
 
@@ -39,6 +46,41 @@ module Pismo
 
     def ad_networks
       @ad_networks ||= Parsers::AdNetworks.call(doc: doc, links: links)
+    end
+
+    def hosts
+      @hosts ||= links.map{|link| link.dig(:href)}
+                      .uniq
+                      .map { |link| Addressable::URI.parse(link).host }
+                      .delete_if { |h| h.nil? || skip_host_domains.include?(h) }
+                      .sort
+    end
+
+    def skip_host_domains
+      %w[ twitter.com facebook.com instagram.com www.youtube.com ]
+    end
+
+    def domains
+      @domains ||= hosts.map { |host| PublicSuffix.domain(host) }
+                       .uniq
+                       .delete_if(&:nil?)
+                       .sort
+    end
+
+    def content_language
+      @content_language ||= meta.dig('content_language')
+    end
+
+    def phrases
+      @phrases ||= Dewey::Utils::KeywordsExtractor.new(sentences: all_sentences).call
+    end
+
+    def published_date
+      @published_date ||= Pismo::Parsers::PublishedDate.new(meta: meta, doc: doc).call
+    end
+
+    def sentiment
+
     end
 
     # Returns a string containing the first [limit] sentences as determined
