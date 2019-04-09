@@ -22,7 +22,7 @@ module Pismo
         @tags ||= begin
           tags = []
           tag_selectors.each do |css_selector|
-            tags += @doc.css(css_selector)
+            tags += doc.css(css_selector)
             break if tags.any?
           end
           tags.map!(&:inner_text) # get the text of it
