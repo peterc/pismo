@@ -40,15 +40,13 @@ module Pismo
     end
 
     def hosts
-      @hosts ||= links.map{|link| link.dig(:href)}
+      @hosts ||= links.select {|link| link[:profile] == false || link[:profile].nil? }
+                      .map { |link| link.dig(:href) }
                       .uniq
                       .map { |link| Addressable::URI.parse(link).host }
-                      .delete_if { |h| h.nil? || skip_host_domains.include?(h) }
+                      .delete_if { |h| h.nil? }
+                      .uniq
                       .sort
-    end
-
-    def skip_host_domains
-      %w[ twitter.com facebook.com instagram.com www.youtube.com ]
     end
 
     def domains
