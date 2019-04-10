@@ -3,7 +3,7 @@ RSpec.describe "Fixes" do
     let(:html) { load_from_fixture_folder('./peter_thiel.html') }
     let(:url)  { 'https://www.crunchbase.com/person/peter-thiel' }
 
-    it 'works more quickly' do
+    it 'does not have tokens jammed together' do
       helper = Pismo::Document.new(url, html: html)
       helper.text
       expect(helper.text).to_not include "foundedPal"

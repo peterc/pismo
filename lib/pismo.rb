@@ -12,7 +12,6 @@ require 'dewey'
 require 'ad_checker'
 require 'public_suffix'
 require 'mida'
-binding.pry
 
 $: << File.dirname(__FILE__)
 
@@ -116,6 +115,16 @@ module Pismo
     # Sugar methods to make creating document objects nicer
     def document(handle, options = {})
       Document.new(handle, options)
+    end
+
+    def normalize_entities(text)
+      @entities ||= HTMLEntities.new
+      normalize_unicode_characters @entities.decode(text)
+    end
+
+    def normalize_unicode_characters(html)
+      Utils::NormalizeHtml::TRANSLATED_CONVERSIONS.each { |key, value| html.gsub! key, value }
+      html
     end
   end
 

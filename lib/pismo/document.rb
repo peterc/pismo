@@ -8,7 +8,6 @@ require 'pismo/twitter_text_attributes'
 require 'pismo/schema_attributes'
 
 module Pismo
-
   # Pismo::Document represents a single HTML document within Pismo
   class Document
     attr_reader :doc, :url, :args

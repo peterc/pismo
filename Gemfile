@@ -18,6 +18,6 @@ gem 'nikkou',   omalab: 'nikkou'
 gem 'ad_checker', omalab: 'ad_checker'
 gem 'allusion',   omalab: 'allusion'     # path: '../allusion'
 gem 'mida',       omalab: 'mida'         # path: '../mida'
-#gem 'dewey',      omalab: 'dewey'        # path: '../dewey'
+gem 'dewey',      omalab: 'dewey'        # path: '../dewey'
 
 gemspec
