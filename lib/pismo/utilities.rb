@@ -7,7 +7,7 @@ module Pismo
       end
 
       def sentences_from_node(doc)
-        text = extract_text(doc.to_html)
+        text = Utils::ConvertToPlainText.doc_to_plain_text(doc, tag_headings: true)
         Dewey.new(text: text).cleaned_sentences
                              .select { |sentence| sentence.length > 30 || sentence.include?("__HEADING") }
                              .map    { |sentence| remove_header_tag(sentence) }
@@ -18,7 +18,7 @@ module Pismo
       end
 
       def extract_text(doc)
-        Utils::ConvertToPlainText.plain_text(doc, tag_headings: true)
+        Utils::ConvertToPlainText.doc_to_plain_text(doc, tag_headings: true)
       end
 
       def sentences(text)

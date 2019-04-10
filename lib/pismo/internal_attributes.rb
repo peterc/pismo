@@ -72,17 +72,12 @@ module Pismo
     end
 
     # Returns any images with absolute URLs in the document
-    def images(limit = 3)
-      if @options[:image_extractor]
-        extractor = ImageExtractor.new(doc, @url, {
-          :min_width => @options[:min_image_width],
-          :min_height => @options[:min_image_height],
-          :logger => @options[:logger]
-          })
-        extractor.get_best_images limit
-      else
-        reader_doc && !reader_doc.images.empty? ? reader_doc.images(limit) : nil
-      end
+    def images
+      @images ||= Parsers::Images.call(doc: doc, url: url, meta: meta)
+    end
+
+    def image
+      @image ||= images&.first
     end
 
     def videos(limit = 1)
@@ -119,7 +114,7 @@ module Pismo
     end
 
     def text
-      @text ||= Utilities.sentences_from_node(doc).join(' ')
+      @text ||= all_sentences.join(' ')
     end
     alias plain_text text
     alias body text

@@ -12,11 +12,16 @@ class ImageExtractor
   attr_reader :doc, :top_content_candidate, :bad_image_names_regex, :image,
               :url, :options
 
-  def initialize(nokogiri_document, url, options = {})
-    @options = options
-    @doc =  Nokogiri::HTML(nokogiri_document)
-    @url = url
-    @top_content_candidate = document.reader_doc.content_at(0)
+  def initialize(args = {})
+    @args = args
+  end
+
+  def doc
+    @doc ||= args.dig(:doc)
+  end
+
+  def url
+    @url ||= args.dig(:url)
   end
 
   def bad_image_names
@@ -44,7 +49,7 @@ class ImageExtractor
   end
 
   def images
-    @images ||= []
+    @images ||= find_image_from_meta_tags
   end
 
   def bad_image_names_regex

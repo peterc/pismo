@@ -37,6 +37,7 @@ module Pismo
         html = args.dig(:html)          if html.nil?
         html = handle.read              if file_readers.any? { |kind| handle.is_a?(kind) }
         html = args.dig(:handle)        if args.dig(:handle).is_a?(String) && args.dig(:handle).include?("<body")
+        html = Utils::NormalizeHtml.new(html).call
         html
       end
     end

@@ -41,6 +41,7 @@ require 'pismo/parsers/favicons'
 require 'pismo/parsers/keywords'
 require 'pismo/parsers/links'
 require 'pismo/parsers/tags'
+require 'pismo/parsers/images'
 
 require 'pismo/utils/indicators'
 require 'pismo/utils/hash_search'
@@ -49,6 +50,7 @@ require 'pismo/utils/nodes_to_profiles'
 require 'pismo/utils/search_for_additional_profiles'
 require 'pismo/utils/convert_to_plain_text'
 require 'pismo/utils/log_tracker'
+require 'pismo/utils/normalize_html'
 
 if RUBY_PLATFORM == "java"
   class String; def stem; self; end; end
@@ -115,36 +117,6 @@ module Pismo
     def document(handle, options = {})
       Document.new(handle, options)
     end
-
-    # Load a URL, as with Pismo['http://www.rubyinside.com'], and caches the Pismo document
-    # (mostly useful for debugging use)
-    def [](url)
-      @docs ||= {}
-      @docs[url] ||= Pismo::Document.new(url)
-    end
-
-    def normalize_entities(text)
-      @entities ||= HTMLEntities.new
-      normalize_unicode_characters @entities.decode(text)
-    end
-  end
-
-  UNICODE_CONVERSIONS = {
-    "8230" => '...',
-    "8194" => ' ',
-    "8195" => ' ',
-    "8201" => ' ',
-    "8211" => '-',
-    "8216" => '\'',
-    "8217" => '\'',
-    "8220" => '"',
-    "8221" => '"'
-  }
-  TRANSLATED_CONVERSIONS = UNICODE_CONVERSIONS.map {|k, v| [k.to_i.chr("UTF-8"), v] }
-
-  def self.normalize_unicode_characters(html)
-    TRANSLATED_CONVERSIONS.each {|k,v| html.gsub! k, v }
-    html
   end
 
   class NFunctions

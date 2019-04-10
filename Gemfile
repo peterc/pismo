@@ -3,6 +3,7 @@ source "http://rubygems.org"
 git_source(:omalab) { |repo_name| "https://omadeploy:git12345@github.com/omalab/#{repo_name}" }
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
+gem 'pragmatic_tokenizer',        omalab: 'pragmatic_tokenizer'
 gem 'engtagger',                  omalab: 'engtagger'
 gem 'confidential_info_redactor', omalab: 'confidential_info_redactor'
 gem 'rwordnet',                   github: 'vladkostyuk/rwordnet'

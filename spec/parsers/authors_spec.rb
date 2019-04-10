@@ -1,5 +1,11 @@
 RSpec.describe Pismo::Document do
   each_fixture('./new_corpus/*.yml') do |file_path, file_name, data|
+    # This counts the fixtures, and only runs 1 of these tests, as a gut
+    # check. Remove to run all the author tests
+    @counter = 0 if @counter.nil?
+    @counter += 1
+    next unless @counter == 2
+
     def write_updated_fixture_with_results(location, hsh)
       write_fixture_file(location, hsh.to_yaml)
     end
@@ -24,7 +30,7 @@ RSpec.describe Pismo::Document do
       end
     end
 
-    xcontext file_path do
+    context file_path do
       let(:file_path) { file_path }
       let(:file_name) { file_name }
 
