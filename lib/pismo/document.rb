@@ -12,6 +12,8 @@ module Pismo
   class Document
     attr_reader :doc, :url, :options
 
+    class NoRetrieverCapabiility < StandardError; end
+
     ATTRIBUTE_METHODS = InternalAttributes.instance_methods + ExternalAttributes.instance_methods
     DEFAULT_OPTIONS = {
       :image_extractor  => false,
@@ -29,7 +31,8 @@ module Pismo
     def initialize(handle, options = {})
       @options = DEFAULT_OPTIONS.merge options
       url = @options.delete(:url)
-      load(handle, url)
+      url = handle if handle.is_a?(String) && handle =~ /\Ahttp/i
+      load(handle, url, options)
     end
 
     # An HTML representation of the document
@@ -37,20 +40,24 @@ module Pismo
       @doc.to_s
     end
 
+    def document
+    end
+
     def headers
       @headers ||= @options.dig(:headers) || {}
     end
 
-    def load(handle, url = nil)
-      url = handle.dig(:url) if handle.is_a?(Hash) && url.nil?
-      html = handle.dig(:html) if handle.is_a?(Hash)
-      @url = url if url
-      @url = handle if handle =~ /\Ahttp/i
+    def load(handle, url = nil, options = {})
+      url = handle.dig(:url)        if handle.is_a?(Hash)  && url.nil?
+      url = options.dig(:url)       if options.is_a?(Hash) && url.nil?
+      html = handle.dig(:html)      if handle.is_a?(Hash)
+      html = options.dig(:document) if html.nil? && options.key?(:document)
+      @url = url    if url
 
       @html = if html.present?
                 html
               elsif handle =~ /\Ahttp/i
-                open(handle) { |f| f.read }
+                raise NoRetrieverCapability, 'Pismo no longer supports retrieving documents'
               elsif handle.is_a?(StringIO) || handle.is_a?(IO) || handle.is_a?(Tempfile)
                 handle.read
               else
