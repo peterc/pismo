@@ -30,9 +30,20 @@ module Pismo
       @addresses ||= nlp_helper.addresses
     end
 
+    def content_language
+      @content_language ||= nlp_helper.language_parser.dig(:code)
+    end
+
+    def sentiment
+      @sentiment ||= nlp_helper.sentiment
+    end
+
+    def phrases
+      @phrases ||= nlp_helper.keywords
+    end
+
     def nlp_helper
       @nlp_helper ||= Dewey.new(text: text)
     end
-
   end
 end

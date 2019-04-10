@@ -3,8 +3,6 @@
 module Pismo
   # Internal attributes are different pieces of data we can extract from a document's content
   module InternalAttributes
-    @@phrasie = Phrasie::Extractor.new
-
     # Returns the author of the page/content
     def authors
       @authors ||= Parsers::Authors.call(
@@ -56,22 +54,6 @@ module Pismo
                        .sort
     end
 
-    def dewey_extractor
-      @dewey_features ||= Dewey::Extractor.new(text: text)
-    end
-
-    def content_language
-      @content_language ||= dewey_extractor.language_parser.dig(:code)
-    end
-
-    def sentiment
-      @sentiment ||= dewey_extractor.sentiment
-    end
-
-    def phrases
-      @phrases ||= dewey_extractor.keywords
-    end
-
     def published_date
       @published_date ||= Pismo::Parsers::PublishedDate.new(meta: meta, doc: doc).call
     end
@@ -80,7 +62,6 @@ module Pismo
     # by the Reader algorithm
     def sentences(limit = 3)
       return nil unless reader_doc && !reader_doc.sentences.empty?
-
       all_sentences.take(limit).join(' ')
     end
 
