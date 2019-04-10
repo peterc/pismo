@@ -8,26 +8,48 @@ require 'logger'
 # It uses the fastimage library to quickly check the dimensions of the image, and uses some simple hueristics to score images and pick the best one.
 #
 class ImageExtractor
+  attr_reader :doc, :top_content_candidate, :bad_image_names_regex, :image,
+              :url, :options
 
-  attr_reader :doc, :top_content_candidate, :bad_image_names_regex, :image, :url, :min_width, :min_height, :min_bytes, :max_bytes, :options, :logger
-
-  def initialize(document, url, options = {})
-    @logger = options[:logger]
-    @logger = Logger.new(STDERR) if @logger.nil?
-
+  def initialize(nokogiri_document, url, options = {})
     @options = options
-    bad_image_names = options[:bad_image_names] || %w"
-      .html .gif .ico button twitter.jpg facebook.jpg digg.jpg digg.png delicious.png facebook.png
-      reddit.jpg doubleclick diggthis diggThis adserver /ads/ ec.atdmt.com mediaplex.com adsatt view.atdmt"
-    @bad_image_names_regex = Regexp.new bad_image_names.map {|n| Regexp.escape(n) }.join("|")
-    @images = []
-    @doc =  Nokogiri::HTML(document.html, nil, 'utf-8')
+    @doc =  Nokogiri::HTML(nokogiri_document)
     @url = url
-    @min_width = options[:min_width] || 100
-    @min_height = options[:min_height] || 100
     @top_content_candidate = document.reader_doc.content_at(0)
-    @max_bytes = options[:max_bytes] || 15728640
-    @min_bytes = options[:min_bytes] || 5000
+  end
+
+  def bad_image_names
+    @bad_image_names ||= options[:bad_image_names] || %w[
+      .html .gif .ico button twitter.jpg facebook.jpg digg.jpg digg.png
+      delicious.png facebook.png reddit.jpg doubleclick diggthis diggThis
+      adserver /ads/ ec.atdmt.com mediaplex.com adsatt view.atdmt
+    ]
+  end
+
+  def min_width
+    @min_width ||= options[:min_width] || 100
+  end
+
+  def min_height
+    @min_height ||= options[:min_height] || 100
+  end
+
+  def max_bytes
+    @max_bytes ||= options[:max_bytes] || 15728640
+  end
+
+  def min_bytes
+    @min_bytes ||= options[:min_bytes] || 5000
+
+  end
+
+  def images
+    @images ||= []
+  end
+
+  def bad_image_names_regex
+    @bad_image_names_regex ||= Regexp.new bad_image_names
+                                     .map { |n| Regexp.escape(n) }.join("|")
   end
 
   def get_best_images(limit = 3)

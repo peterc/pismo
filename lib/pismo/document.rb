@@ -12,8 +12,6 @@ module Pismo
   class Document
     attr_reader :doc, :url, :options
 
-    class NoRetrieverCapabiility < StandardError; end
-
     ATTRIBUTE_METHODS = InternalAttributes.instance_methods + ExternalAttributes.instance_methods
     DEFAULT_OPTIONS = {
       :image_extractor  => false,
@@ -56,12 +54,8 @@ module Pismo
 
       @html = if html.present?
                 html
-              elsif handle =~ /\Ahttp/i
-                raise NoRetrieverCapability, 'Pismo no longer supports retrieving documents'
               elsif handle.is_a?(StringIO) || handle.is_a?(IO) || handle.is_a?(Tempfile)
                 handle.read
-              else
-                handle
               end
 
       @doc = Nokogiri::HTML(@html)

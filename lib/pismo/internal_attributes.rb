@@ -93,7 +93,7 @@ module Pismo
     # Returns any images with absolute URLs in the document
     def images(limit = 3)
       if @options[:image_extractor]
-        extractor = ImageExtractor.new(self, @url, {
+        extractor = ImageExtractor.new(doc, @url, {
           :min_width => @options[:min_image_width],
           :min_height => @options[:min_image_height],
           :logger => @options[:logger]
@@ -111,6 +111,7 @@ module Pismo
     def social_links
       @social_links ||= links.select { |link| link[:profile] == true }
     end
+    alias profile_links social_links
 
     # Returns the tags or categories of the page/content
     def tags
