@@ -24,7 +24,7 @@ RSpec.describe Pismo::Document do
       end
     end
 
-    context file_path do
+    xcontext file_path do
       let(:file_path) { file_path }
       let(:file_name) { file_name }
 
@@ -53,6 +53,12 @@ RSpec.describe Pismo::Document do
             # hsh[:results] = helper.authors
             # write_updated_fixture_with_results(file_path, hsh)
           # end
+
+          # Just doing a gut check here, so we don't have to duplicate
+          # the load and parse
+          expect do
+            helper.ad_networks
+          end.to_not raise_error
         end
       end
     end

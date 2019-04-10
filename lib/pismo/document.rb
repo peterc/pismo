@@ -1,4 +1,5 @@
 # encoding: utf-8
+
 require 'pismo/page_attributes'
 require 'pismo/internal_attributes'
 require 'pismo/external_attributes'
@@ -10,14 +11,9 @@ module Pismo
 
   # Pismo::Document represents a single HTML document within Pismo
   class Document
-    attr_reader :doc, :url, :options
+    attr_reader :doc, :url, :args
 
     ATTRIBUTE_METHODS = InternalAttributes.instance_methods + ExternalAttributes.instance_methods
-    DEFAULT_OPTIONS = {
-      :image_extractor  => false,
-      :min_image_width  => 100,
-      :min_image_height => 100
-    }
 
     include Pismo::PageAttributes
     include Pismo::InternalAttributes
@@ -26,43 +22,57 @@ module Pismo
     include Pismo::TwitterTextAttributes
     include Pismo::SchemaAttributes
 
-    def initialize(handle, options = {})
-      @options = DEFAULT_OPTIONS.merge options
-      url = @options.delete(:url)
-      url = handle if handle.is_a?(String) && handle =~ /\Ahttp/i
-      load(handle, url, options)
+    def initialize(handle, args = {})
+      @args = {}
+      @args = handle if handle.is_a?(Hash)
+      @args = @args.merge(args)
+      @args[:handle] = handle unless handle.is_a?(Hash)
+      true
     end
 
-    # An HTML representation of the document
     def html
-      @doc.to_s
+      @html ||= begin
+        html = args.dig(:handle, :html) if args.dig(:handle).is_a?(Hash)
+        html = args.dig(:document)      if html.nil?
+        html = args.dig(:html)          if html.nil?
+        html = handle.read              if file_readers.any? { |kind| handle.is_a?(kind) }
+        html = args.dig(:handle)        if args.dig(:handle).is_a?(String) && args.dig(:handle).include?("<body")
+        html
+      end
     end
 
-    def document
+    def handle
+      @handle ||= args.dig(:handle)
+    end
+
+    def url
+      @url ||= begin
+        url = args.dig(:url)
+        url = args.dig(:handle) if args.dig(:handle).is_a?(String) && args.dig(:handle) =~ /\Ahttp/i
+        url
+      end
+    end
+
+    def file_readers
+      [IO, Tempfile]
+    end
+
+    def doc
+      @doc ||= Nokogiri::HTML(html, nil, 'UTF-8') if html.present?
     end
 
     def headers
-      @headers ||= @options.dig(:headers) || {}
-    end
-
-    def load(handle, url = nil, options = {})
-      url = handle.dig(:url)        if handle.is_a?(Hash)  && url.nil?
-      url = options.dig(:url)       if options.is_a?(Hash) && url.nil?
-      html = handle.dig(:html)      if handle.is_a?(Hash)
-      html = options.dig(:document) if html.nil? && options.key?(:document)
-      @url = url    if url
-
-      @html = if html.present?
-                html
-              elsif handle.is_a?(StringIO) || handle.is_a?(IO) || handle.is_a?(Tempfile)
-                handle.read
-              end
-
-      @doc = Nokogiri::HTML(@html)
+      @headers ||= args.dig(:headers) || {}
     end
 
     def match(args = [], all = false)
-      @doc.match([*args], all)
+      doc.match([*args], all)
+    end
+
+    private
+
+    def handle
+      @handle ||= args.dig(:handle)
     end
   end
 end

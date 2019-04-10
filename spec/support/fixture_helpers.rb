@@ -24,6 +24,12 @@ module FixtureHelpers
   end
   alias each_fixture yield_files_in_fixtures_folder
 
+  def get_fixture(file_path)
+    full_file_path = File.expand_path(File.join(File.dirname(__FILE__), '..', 'fixtures', file_path))
+    data = load_fixture_file(full_file_path)
+    return file_path, full_file_path, data
+  end
+
   def metadata_file
     file_path = File.expand_path(File.join(File.dirname(__FILE__), '..', 'fixtures/corpus/metadata_expected.yaml'))
     data = load_fixture_file(file_path)
@@ -41,6 +47,19 @@ end
 module FixtureLoader
   def load_fixture_file(path)
     File.read(path)
+  end
+
+  def get_fixture(file_path)
+    full_file_path = File.expand_path(File.join(File.dirname(__FILE__), '..', 'fixtures', file_path))
+    data = load_fixture_file(full_file_path)
+    return file_path, full_file_path, data
+  end
+
+  def get_yaml_fixture(file_path)
+    full_file_path = File.expand_path(File.join(File.dirname(__FILE__), '..', 'fixtures', file_path))
+    data = load_fixture_file(full_file_path)
+    data = YAML.load(data)
+    return file_path, full_file_path, data
   end
 
   def load_from_fixture_folder(relative_path)

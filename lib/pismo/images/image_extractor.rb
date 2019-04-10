@@ -5,7 +5,8 @@ require 'logger'
 
 #
 # This image extractor will attempt to find the best image nearest the article.
-# It uses the fastimage library to quickly check the dimensions of the image, and uses some simple hueristics to score images and pick the best one.
+# It uses the fastimage library to quickly check the dimensions of the image,
+# and uses some simple hueristics to score images and pick the best one.
 #
 class ImageExtractor
   attr_reader :doc, :top_content_candidate, :bad_image_names_regex, :image,
@@ -40,7 +41,6 @@ class ImageExtractor
 
   def min_bytes
     @min_bytes ||= options[:min_bytes] || 5000
-
   end
 
   def images
