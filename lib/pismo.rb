@@ -5,7 +5,6 @@ require 'nokogiri'
 require 'chronic'
 require 'sanitize'
 require 'tempfile'
-require 'phrasie'
 require 'twitter-text'
 require 'htmlentities'
 require 'allusion'
@@ -13,6 +12,7 @@ require 'dewey'
 require 'ad_checker'
 require 'public_suffix'
 require 'mida'
+binding.pry
 
 $: << File.dirname(__FILE__)
 

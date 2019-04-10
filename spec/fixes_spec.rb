@@ -6,7 +6,7 @@ RSpec.describe "Fixes" do
     it 'works more quickly' do
       helper = Pismo::Document.new(url, html: html)
       helper.text
-      binding.pry
+      expect(helper.text).to_not include "foundedPal"
     end
   end
 end
